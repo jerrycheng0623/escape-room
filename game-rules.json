@@ -1,0 +1,68 @@
+{
+  "version": 4,
+  "date": "2026-11-02",
+  "view": "first-person",
+  "mobileOrientation": "landscape",
+  "artDirection": "realistic-3d",
+  "roomOrder": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "hint": {
+    "levels": [
+      "新手",
+      "標準",
+      "困難"
+    ],
+    "draftSteps": [
+      3,
+      5,
+      7
+    ],
+    "hardLimit": null,
+    "directHelp": true,
+    "directHelpRevealsAnswer": false,
+    "reReadCountsAsNewHint": false,
+    "recordHelpSeparately": true
+  },
+  "puzzles": {
+    "skippable": false,
+    "failureGameOver": false,
+    "fullSolutions": "after-ending-only",
+    "exactSolutionsStatus": "awaiting-user-puzzle-details"
+  },
+  "bonus": {
+    "optional": true,
+    "award": "crown",
+    "affectsEnding": false,
+    "hintsDisqualify": false,
+    "postgameRetry": true,
+    "preserveFirstResult": true
+  },
+  "postgame": [
+    "free-roam",
+    "chapter-replay",
+    "cinematic-gallery",
+    "bonus-retry",
+    "solutions",
+    "hint-and-help-statistics"
+  ],
+  "endingCount": 1,
+  "save": {
+    "mainLocalRun": true,
+    "safetyBackup": true,
+    "separateReplayRun": true,
+    "firstCompletionSnapshotReadOnly": true
+  },
+  "pending": [
+    "puzzle-details",
+    "document-text",
+    "characters-and-dialogue",
+    "final-voice-and-character-polish"
+  ],
+  "storySettings": "story-settings.json",
+  "timelineStatus": "作者事件與S01–S09結構已補完；正式全文與機關細則仍待使用者",
+  "websiteDevelopment": "本輪不開始網站"
+}

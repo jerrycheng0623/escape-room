@@ -1,0 +1,26 @@
+[
+  {
+    "id": "END-PLATE",
+    "prompt": "Use case: precise-object-edit. Edit supplied scene into a clean background plate, same 16:9 camera and exact architecture, chimney left, empty path center, huge hollow tree right, same moon and mist. REMOVE the single running person AND flashlight beam completely. This is FOUR DAYS AFTER a fire: all embers are cold BLACK, no orange glow, no flames, no smoke from combustion. Preserve cold blue mist and readable forest silhouettes. Keep cabin mostly ruined but preserve stone structure. No people, no writing or UI.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-355f5649-2ff2-4f1d-9c48-2de74a7f474b.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "END-ACTOR",
+    "prompt": "Use case: background-extraction. Extract ONLY the single running adult detective seen from behind in the supplied image, same long dark coat, same running pose, same proportions and rear-facing head, holding flashlight without any beam. Whole body including hands and feet, isolated centrally on genuinely transparent background. No ground, shadow plane, cabin, tree or fog. No added face, no other characters. Preserve original painted cinematic style.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-8e6f2707-05ea-463b-9f97-4f27c820ea10.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "EVIDENCE-01",
+    "prompt": "Use case: illustration-story. One 16:9 cinematic painterly semi-realistic suspense illustration, after a cabin fire, forensic still life on scorched kitchen shelf: exactly THREE identical thin-stemmed empty wine glasses with subtle dry pale residue, one small empty unbranded dark medicine bottle lying on its side beside a partly visible waste basket, inert warped plastic container fragment deep background. Cold flashlight beam, ash-grey/charcoal with faint teal, no flames, no blood or people, no readable text, no numbers, no logo or watermark. Three glasses clearly countable with safe margins.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-41f30441-8c8c-4b6f-a5b7-d18dca3b10aa.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "id": "C-05",
+    "prompt": "Use case: illustration-story. Single 16:9 cinematic semi-realistic painterly scene, close view of a cold soot-covered heavy steel barbecue grill after a cabin fire, steel grate above, detachable controller cradle visibly EMPTY at right, a separate small built-in rectangular SERVICE DISPLAY on fixed lower base facing the viewer, display blank dark blue for precise text compositing later. A short protected cable runs only into fixed base. Empty cold grill, no food or bodies. Cold flashlight, charcoal metal and ash, fine material detail, readable construction. No orange embers or flames, no characters, no words, numbers, logos or watermark.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-b828341e-5004-4d6e-b38f-8adc0fee849d.png",
+    "tool": "built-in image_gen"
+  }
+]
