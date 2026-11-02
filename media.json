@@ -1,0 +1,68 @@
+[
+  {
+    "id": "CIN-00",
+    "title": "序幕：遲到的邀請",
+    "duration": 40,
+    "video": "media/video/CIN-00.mp4",
+    "poster": "media/posters/CIN-00.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-00-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-00-en.vtt"
+    }
+  },
+  {
+    "id": "CIN-A",
+    "title": "客房：灰燼裡的謊言",
+    "duration": 40,
+    "video": "media/video/CIN-A.mp4",
+    "poster": "media/posters/CIN-A.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-A-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-A-en.vtt"
+    }
+  },
+  {
+    "id": "CIN-B",
+    "title": "暗房：不在照片裡的人",
+    "duration": 32,
+    "video": "media/video/CIN-B.mp4",
+    "poster": "media/posters/CIN-B.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-B-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-B-en.vtt"
+    }
+  },
+  {
+    "id": "CIN-C",
+    "title": "營火：善意與異常重量",
+    "duration": 45,
+    "video": "media/video/CIN-C.mp4",
+    "poster": "media/posters/CIN-C.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-C-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-C-en.vtt"
+    }
+  },
+  {
+    "id": "CIN-D",
+    "title": "診療區：另一種飢餓",
+    "duration": 63,
+    "video": "media/video/CIN-D.mp4",
+    "poster": "media/posters/CIN-D.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-D-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-D-en.vtt"
+    }
+  },
+  {
+    "id": "CIN-END",
+    "title": "終幕：深淵的凝視",
+    "duration": 42,
+    "video": "media/video/CIN-END.mp4",
+    "poster": "media/posters/CIN-END.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-END-zh-Hant.vtt",
+      "en": "media/subtitles/CIN-END-en.vtt"
+    }
+  }
+]
