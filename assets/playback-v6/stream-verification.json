@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T14:05:04.616143+08:00",
+  "date": "2026-11-03T23:48:57.930736+08:00",
   "method": "FFmpeg SHA256 of demuxed audiovisual packets with stream copy; container metadata and embedded subtitle tracks excluded",
   "segments": [
     {
@@ -20,11 +20,11 @@
     },
     {
       "id": "CIN-A",
-      "original": "assets/story-v5/video/CIN-A-story-v5.mp4",
-      "delivery": "assets/playback-v6/video/CIN-A-compatible-v7.mp4",
+      "original": "assets/story-v9/video/CIN-A-story-v9.mp4",
+      "delivery": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
       "v": {
-        "original": "d9f8e49842bfe95519f5ed0bb5a66053af54bcd601a901c96351314a4ba008b8",
-        "delivery": "d9f8e49842bfe95519f5ed0bb5a66053af54bcd601a901c96351314a4ba008b8",
+        "original": "35e5ec844435529db64bd10271bef6859b9069b0ae586d1a5a27e80324efe840",
+        "delivery": "35e5ec844435529db64bd10271bef6859b9069b0ae586d1a5a27e80324efe840",
         "identical": true
       },
       "a": {
@@ -68,11 +68,11 @@
     },
     {
       "id": "CIN-D",
-      "original": "assets/story-v5/video/CIN-D-story-v5.mp4",
-      "delivery": "assets/playback-v6/video/CIN-D-compatible-v7.mp4",
+      "original": "assets/story-v9/video/CIN-D-story-v9.mp4",
+      "delivery": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
       "v": {
-        "original": "c75339edcd98561adde23036510986cc605682a9e9bff1425e3d11881e4bac6e",
-        "delivery": "c75339edcd98561adde23036510986cc605682a9e9bff1425e3d11881e4bac6e",
+        "original": "4be6570a00a73fc02252e73e9442143714121983361caf7d221c185e4a5ef6e3",
+        "delivery": "4be6570a00a73fc02252e73e9442143714121983361caf7d221c185e4a5ef6e3",
         "identical": true
       },
       "a": {

@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-03T16:04:52.583Z",
+  "revision": 4,
+  "schema": 4,
+  "worldObjects": 86,
+  "documents": 32,
+  "checks": [
+    "canonical rules and source",
+    "four valid replay prerequisites",
+    "old solve API disabled",
+    "actual paper geometry",
+    "all object and document faces present",
+    "all active video sources/tracks present"
+  ],
+  "sources": [
+    {
+      "path": "machine.md",
+      "bytes": 47852,
+      "sha256": "a08fecaec8d84b3ae2bb416ed08ad87be5e0aaf94ed475e879150611e6ced6dd"
+    },
+    {
+      "path": "PLAN.md",
+      "bytes": 131321,
+      "sha256": "4e50fba097311ddf96d983160baa0e7ac2f9fed9c12528a80d353d35c8b185cd"
+    },
+    {
+      "path": "verify.md",
+      "bytes": 125148,
+      "sha256": "ae6fa2cb60489f1916d5833fce3493652893a605ff989b39546d4ac66bf14f47"
+    },
+    {
+      "path": "test.md",
+      "bytes": 93791,
+      "sha256": "e5451614cfbc50058a28769eabb2de5442177972a63d617bd9e557cc4a1a9bc7"
+    },
+    {
+      "path": "game-rules.json",
+      "bytes": 2768,
+      "sha256": "0aca10b979506204a202462769acdb31527051e514c0890c2149ce386c0e3937"
+    },
+    {
+      "path": "assets/story/content-v5.json",
+      "bytes": 28153,
+      "sha256": "df963ddd398193cc03fd98cad422ae429ad30b258bc2cf88086267ef31a9a499"
+    },
+    {
+      "path": "web/src/components/Game.jsx",
+      "bytes": 12620,
+      "sha256": "a24f24f9b4049cfd235211db151b08fcf4c9530e8c4f4aa1c865e6320ce51d68"
+    },
+    {
+      "path": "web/src/components/WorldObjects.jsx",
+      "bytes": 11745,
+      "sha256": "ce8fb089f6b947b9c2d0eaa9ca69c6675ce5c34675a93324135c19ee037eebab"
+    },
+    {
+      "path": "web/src/components/TouchStick.jsx",
+      "bytes": 1809,
+      "sha256": "264e3f51db2802d6d17acfda036b7630b99e724437094858de2763fce7e1f07b"
+    },
+    {
+      "path": "web/src/game/Scene.jsx",
+      "bytes": 11634,
+      "sha256": "964eb10233e7c2cd4ddca37ae14b3cd1da894b460be995531805382e078f1561"
+    },
+    {
+      "path": "web/src/game/storage.mjs",
+      "bytes": 17721,
+      "sha256": "53a4ee9beebe0fab8bfb851b5223b2af5294d74047919dd34fca89ef615b88a0"
+    },
+    {
+      "path": "web/src/game/world.mjs",
+      "bytes": 15224,
+      "sha256": "58b244591d7426fbd8010b9913ea815c3fe45b2bfbb5dc009c44eeeae12575da"
+    },
+    {
+      "path": "web/src/game/controls.mjs",
+      "bytes": 781,
+      "sha256": "525bfe10c031128176bdc8fae72780a753ac2e7ffad8624071c4e0d03981c2f7"
+    },
+    {
+      "path": "web/src/game/roomModelsV4.js",
+      "bytes": 8647,
+      "sha256": "e1a91f9395224052e2121e6fbb76765928e52ad14f5d29f076f4c352edcc563b"
+    }
+  ]
+}

@@ -109,24 +109,24 @@
       "name": "記者名片背面",
       "en": "記者名片背面",
       "room": "A",
-      "body": "林依瑤｜地方新聞採訪\n不另抄開箱號碼；收工時的樣子，我認得。",
-      "enBody": "林依瑤｜地方新聞採訪\n不另抄開箱號碼；收工時的樣子，我認得。",
-      "source": "A 書桌上的名片",
+      "body": "林依瑤｜地方新聞採訪\n保留原始引述，核對整理版本與修訂日期。",
+      "enBody": "林依瑤｜地方新聞採訪\n保留原始引述，核對整理版本與修訂日期。",
+      "source": "A床邊名片",
       "image": "A-04",
       "status": "已觀察",
-      "art": "media/mechanisms/card.svg"
+      "art": "media/world-v4/doc-card.svg"
     },
     "formula": {
       "id": "formula",
       "name": "調查箱修補收據",
       "en": "調查箱修補收據",
       "room": "A",
-      "body": "換鉸鏈，原有刮痕照留。\n收件人註：那些不是損傷，別磨掉。",
-      "enBody": "換鉸鏈，原有刮痕照留。\n收件人註：那些不是損傷，別磨掉。",
-      "source": "A 無鎖外蓋內側",
+      "body": "屋主交代擺設的那幾句不是訪談內容，整理版已刪。原稿別再丟，前次就是缺那段查不到。",
+      "enBody": "屋主交代擺設的那幾句不是訪談內容，整理版已刪。原稿別再丟，前次就是缺那段查不到。",
+      "source": "A廢紙簍校稿備忘",
       "image": "A-04",
       "status": "已觀察",
-      "art": "media/mechanisms/formula.svg"
+      "art": "media/world-v4/doc-formula.svg"
     },
     "door-sign": {
       "id": "door-sign",
@@ -146,7 +146,7 @@
       "room": "A",
       "body": "18:45紀錄\n我明明握有能讓人繼續追查五年前事件的資料，卻把線索壓了下來，把報導寫成找不到兇手的懸案。\n我太害怕失去獨家帶來的名聲。今晚他約我來，眼神好可怕。我該怎麼辦？",
       "enBody": "18:45. I had material that could have kept the investigation moving. I suppressed it and reported an unsolved mystery instead. I feared losing the attention my exclusive brought. He invited me tonight. His expression frightened me. What should I do?",
-      "source": "A密碼箱內；解鎖後可讀",
+      "source": "A衣架背板後的收納暗格",
       "image": "A-02",
       "status": "已觀察"
     },
@@ -157,7 +157,7 @@
       "room": "A",
       "body": "《深山住宅火災，疑點仍待釐清》\n山區住宅發生大火，救援受道路中斷影響。現場資料與後續救援結果仍有待核實，警方持續調查。\n撰稿：林依瑤\n【偵探註記：報導省略了她私下持有的部分資料。這不足以證明她犯下今晚的罪行。】",
       "enBody": "Mountain house fire: questions remain. A fire struck a remote house; damaged roads delayed rescue. Scene information and later rescue findings remain under review. By Lin Yiyao. Detective’s note: material she privately held was omitted. This does not prove her responsibility for tonight.",
-      "source": "A箱內筆記夾層",
+      "source": "A衣架背板暗格中的筆記夾層",
       "image": "A-02",
       "status": "已觀察"
     },
@@ -168,7 +168,7 @@
       "room": "B",
       "body": "鏡頭前：王杰倫、林依瑤、張萍、劉涵。\n鏡頭後：劉子傑。偵探尚未到場。\n劉涵佩戴開口六角墜飾，斜桿與右上缺口可辨。\n時刻另與手機工作紀錄及拍攝順序交叉核對。",
       "enBody": "In frame: Wang Jielun, Lin Yiyao, Zhang Ping, Liu Han. Behind the camera: Liu Zijie. The detective had not arrived. Liu Han wears an open hexagonal pendant with a diagonal bar and a notch. The timestamp is cross-checked with the work log.",
-      "source": "B區調查副本；校正後解鎖",
+      "source": "B原片帶驗片後，原始檔案格",
       "image": "B-04",
       "status": "已觀察"
     },
@@ -179,7 +179,7 @@
       "room": "B",
       "body": "鏡頭前：王杰倫、林依瑤、張萍。\n劉子傑掌鏡，劉涵未入鏡。\n同一木牆、電子鐘、服裝與連續拍攝紀錄支持是同晚的第二次拍攝。\n缺席本身不能證明死亡。",
       "enBody": "In frame: Wang Jielun, Lin Yiyao and Zhang Ping. Liu Zijie took the picture. Liu Han is absent. The same wall, clock, clothing and recording sequence support the order. Absence alone does not prove death.",
-      "source": "B區調查副本；校正後解鎖",
+      "source": "B原片帶驗片後，原始檔案格",
       "image": "B-02",
       "status": "已觀察"
     },
@@ -190,7 +190,7 @@
       "room": "B",
       "body": "警方取得的手機工作副本：\n18:29：劉子傑調整相機，手機留有構圖預覽與電子鐘。\n18:30：第一聲快門，劉涵仍在。\n19:14：劉涵與王杰倫先後走向儲藏室。\n19:15：短片收進突發撞擊聲，之後中斷。\n19:29：王杰倫在張萍公事包旁拿起同形小瓶。影像未拍到瓶內成分或倒入飲品。\n20:00：第二次快門，鏡頭前三人。\n20:30：三名賓客坐臥客廳，未回應掌鏡者先前留下的自動錄影。\n這是零散工作片段，不是完整犯罪錄影。",
       "enBody": "Phone work copy: 18:29 camera setup and clock. 18:30 first shutter, Liu Han present. 19:14 Liu Han and Wang approach storage. 19:15 a sudden impact, then interruption. 19:29 Wang lifts a small bottle beside Zhang’s bag; contents and use are not shown. 20:00 second shutter, three in frame. 20:30 guests are unresponsive in the living room. These are fragments, not a complete recording of the crime.",
-      "source": "警方現場匯出手機副本；照片操作使用手機保留的曝光預覽，原底片後續核對",
+      "source": "B驗片匣原始檔案格；完整工作副本於取證後收錄",
       "image": "B-01",
       "status": "已觀察"
     },
@@ -234,7 +234,7 @@
       "room": "C",
       "body": "固定底座歷史紀錄\n案發當日 19:15\n淨載重 65.0 kg\n預定食材：5 kg（清單值，非實測）\n即時讀數與歷史各自保存；底座已扣除固定平台重量。",
       "enBody": "Fixed base record: day of incident, 19:15, net load 65.0 kg. Planned food: 5 kg, a list value rather than a measurement. Historical and current readings are separate; the fixed platform was tared.",
-      "source": "C固定底座服務顯示窗",
+      "source": "C歷史事件顯示窗；不控制維修蓋",
       "image": "C-05",
       "status": "已觀察"
     },
@@ -243,21 +243,21 @@
       "name": "平衡支架維修分解圖",
       "en": "平衡支架維修分解圖",
       "room": "C",
-      "body": "承接以退出總成為準。剖面填紋處隨匣移動，底座平台不列入。\nK2 內芯、F1 襯框、G1 隨動導座皆隨匣退出；底座平台留在原位。\n支架側牌：服務側接手後才可側移；退出後止回。\n舊維修紀錄：上次只按內芯質量驗收，襯框和導座都還在，難怪指針沒回來。\n超過 70 kg 只提醒超載；可取回配重。",
-      "enBody": "承接以退出總成為準。剖面填紋處隨匣移動，底座平台不列入。\nK2 內芯、F1 襯框、G1 隨動導座皆隨匣退出；底座平台留在原位。\n支架側牌：服務側接手後才可側移；退出後止回。\n舊維修紀錄：上次只按內芯質量驗收，襯框和導座都還在，難怪指針沒回來。\n超過 70 kg 只提醒超載；可取回配重。",
-      "source": "C 文件台與支架側面",
+      "body": "人工維修升降總成等效負載70 kg，與歷史65 kg不是同一紀錄。\n兩股托同一輪，籃落兩格、框升一格；平衡時用手輪送框。\n舊鉤改清點用，負載改走柱後雙螺栓座。",
+      "enBody": "人工維修升降總成等效負載70 kg，與歷史65 kg不是同一紀錄。\n兩股托同一輪，籃落兩格、框升一格；平衡時用手輪送框。\n舊鉤改清點用，負載改走柱後雙螺栓座。",
+      "source": "C文件台與隔板後的兩份維修圖",
       "image": "C-03",
       "status": "已觀察",
-      "art": "media/mechanisms/manual.svg"
+      "art": "media/world-v4/doc-manual.svg"
     },
     "necklace": {
       "id": "necklace",
       "name": "烤架下緣的項鍊",
       "en": "The pendant beneath the grill",
       "room": "C",
-      "body": "開口六角墜飾、斜桿與右上缺口，輪廓與第一照劉涵佩戴者一致。\n鏈勾在烤架下緣遮蔽處，開啟暗格後才可伸手取到。\n這支持劉涵與烤架的關聯，不單獨證明其身分或人體曾在架上。",
-      "enBody": "The open hexagon, diagonal bar and notch match Liu Han’s pendant in the first photograph. The chain caught beneath the frame and becomes reachable when the hatch opens. It supports a connection, not a standalone identification or proof of a body on the grill.",
-      "source": "C下緣遮蔽處；開格後取到",
+      "body": "開口六角墜飾、斜桿與右上缺口，輪廓與第一照劉涵佩戴者一致。\n鏈勾在烤架下緣遮蔽處，升起檢修蓋後才可伸手取到。\n這支持劉涵與烤架的關聯，不單獨證明其身分或人體曾在架上。",
+      "enBody": "開口六角墜飾、斜桿與右上缺口，輪廓與第一照劉涵佩戴者一致。\n鏈勾在烤架下緣遮蔽處，升起檢修蓋後才可伸手取到。\n這支持劉涵與烤架的關聯，不單獨證明其身分或人體曾在架上。",
+      "source": "C檢修蓋下緣遮蔽處",
       "image": "C-04",
       "status": "已觀察"
     },
@@ -266,9 +266,9 @@
       "name": "地下室內門鑰匙",
       "en": "The basement inner-door key",
       "room": "C",
-      "body": "底座暗格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複消耗。",
-      "enBody": "A service key from the hatch, marked for the inner door leading to the basement clinic. It is not the outside exit key. Once opened, the door stays unlocked.",
-      "source": "C暗格內",
+      "body": "檢修格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複消耗。",
+      "enBody": "檢修格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複消耗。",
+      "source": "C升起檢修蓋後的格內",
       "image": "C-03",
       "status": "已觀察"
     },
@@ -277,8 +277,8 @@
       "name": "表層診療報告副本",
       "en": "表層診療報告副本",
       "room": "C",
-      "body": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
-      "enBody": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
+      "body": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，案史散頁另由醫師分類保存在資料匣。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
+      "enBody": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，案史散頁另由醫師分類保存在資料匣。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
       "source": "C警方交付的可見層副本",
       "image": "C-02",
       "status": "已觀察",
@@ -289,11 +289,12 @@
       "name": "虛構UV調查模組",
       "en": "The UV investigation module",
       "room": "D",
-      "body": "標記UV的調查燈模組。\n由現場人員交付，收納於C通D前的維修箱，與調查手電的相容介面連接。\n這是遊戲道具，不需要接觸帶電配電盤，也不把普通保險絲當作紫外線光源。",
-      "enBody": "A fictional UV investigation module supplied by scene staff and stored at the C-to-D service box. It connects to the compatible investigation lamp. This is a game prop, not an electrical modification using a fuse.",
-      "source": "C→D維修箱／D入口",
+      "body": "這是舊版機關工具，不參與v4。診療區可使用細筆、細棒或其他合尺寸工具透孔探觸機構。",
+      "enBody": "這是舊版機關工具，不參與v4。診療區可使用細筆、細棒或其他合尺寸工具透孔探觸機構。",
+      "source": "歷史工具紀錄",
       "image": "D-01",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/world-v4/doc-uv-module.svg"
     },
     "report": {
       "id": "report",
@@ -302,9 +303,10 @@
       "room": "D",
       "body": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項記錄僅供診療，不足以證明本次案件任何人的犯罪行為。\n【偵探重建：先有五年前火災與受困，才有食用遺體的往事；這次聚會的縱火，則是另一件事。】",
       "enBody": "Confidential note: Wang described being trapped for days five years ago and, in extreme hunger, possibly consuming remains of deceased relatives. Later sessions returned to distressing memories and desires. This is a clinical record, not proof of this crime. Reconstruction: the old fire and entrapment came first. The fire at this gathering is a separate event.",
-      "source": "D原件；UV揭露後",
+      "source": "D下層案史匣；透孔操作並取出後",
       "image": "D-01",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/world-v4/clinic.webp"
     },
     "recording": {
       "id": "recording",
@@ -357,10 +359,10 @@
       "status": "已觀察",
       "name": "箱側結構貼紙",
       "en": "箱側結構貼紙",
-      "body": "防塵外蓋／上鎖文書匣。\n外蓋與文書匣為兩層結構。",
-      "enBody": "防塵外蓋／上鎖文書匣。\n外蓋與文書匣為兩層結構。",
-      "art": "media/mechanisms/a-structure.svg",
-      "source": "A 調查箱側面"
+      "body": "一排六個日用掛鉤。靠窗端到靠門端方向固定；每鉤均可提、壓、拉與輕轉。第六鉤細線連至清點鈴盒。",
+      "enBody": "一排六個日用掛鉤。靠窗端到靠門端方向固定；每鉤均可提、壓、拉與輕轉。第六鉤細線連至清點鈴盒。",
+      "art": "media/world-v4/doc-a-structure.svg",
+      "source": "A入口六鉤衣架"
     },
     "b-tools": {
       "id": "b-tools",
@@ -369,10 +371,10 @@
       "status": "已觀察",
       "name": "攝影工具使用便條",
       "en": "攝影工具使用便條",
-      "body": "套片架收納套：色片拆洗後入袋；金屬架放回三角記號一側。\n工具便條：定位時我看桌上那一份，不看手裡這一份。燈座別挪，位置才會一樣。\n底片框保養貼：前把手拉不動時請先檢查底扣；勿硬扯。",
-      "enBody": "套片架收納套：色片拆洗後入袋；金屬架放回三角記號一側。\n工具便條：定位時我看桌上那一份，不看手裡這一份。燈座別挪，位置才會一樣。\n底片框保養貼：前把手拉不動時請先檢查底扣；勿硬扯。",
-      "art": "media/mechanisms/b-tools.svg",
-      "source": "B 未上鎖工具格與工作架"
+      "body": "先留構圖預覽，再拍正式照。第二次快門之間換了電池；這不是連拍。\n驗片匣使用圖：夾帶進軌、轉輸送輪、提起回捲軸。",
+      "enBody": "先留構圖預覽，再拍正式照。第二次快門之間換了電池；這不是連拍。\n驗片匣使用圖：夾帶進軌、轉輸送輪、提起回捲軸。",
+      "art": "media/world-v4/doc-b-tools.svg",
+      "source": "B設備櫃工作片段與驗片匣側面"
     },
     "b-samples": {
       "id": "b-samples",
@@ -381,10 +383,10 @@
       "status": "已觀察",
       "name": "沖印工作小樣袋",
       "en": "沖印工作小樣袋",
-      "body": "小樣只認邊碼，別照收納順序配。大圖再清楚，邊條不合也不能交件。\n兩張小樣均可取出並排查看；照片與小樣上的不對稱缺口、沖印批號，應各自吻合。\n此處為數位圖層校正的工作預覽，不代表普通彩色玻璃的物理效果。",
-      "enBody": "小樣只認邊碼，別照收納順序配。大圖再清楚，邊條不合也不能交件。\n兩張小樣均可取出並排查看；照片與小樣上的不對稱缺口、沖印批號，應各自吻合。\n此處為數位圖層校正的工作預覽，不代表普通彩色玻璃的物理效果。",
-      "art": "media/mechanisms/b-samples.svg",
-      "source": "B 另一個未上鎖工具格"
+      "body": "本次工作卷 K；27 起，換電池後跳號至31。跳號不代表另一卷。\n原邊字可正讀；翻拍袋按翻拍批號另存，不併原卷。",
+      "enBody": "本次工作卷 K；27 起，換電池後跳號至31。跳號不代表另一卷。\n原邊字可正讀；翻拍袋按翻拍批號另存，不併原卷。",
+      "art": "media/world-v4/doc-b-samples.svg",
+      "source": "B落片盤與相框背箋"
     },
     "c-parts": {
       "id": "c-parts",
@@ -393,10 +395,10 @@
       "status": "已觀察",
       "name": "K2／F1／G1 零件資料",
       "en": "K2／F1／G1 零件資料",
-      "body": "K2 內芯：50 kg，標籤位於開放工具格。\nF1 襯框：10 kg，外側銘牌可讀。\nG1 隨動導座：5 kg，分解圖填紋顯示它隨匣退出。\nK2 承重匣｜按總成驗收。\n平台為固定底座，不隨匣退出。",
-      "enBody": "K2 內芯：50 kg，標籤位於開放工具格。\nF1 襯框：10 kg，外側銘牌可讀。\nG1 隨動導座：5 kg，分解圖填紋顯示它隨匣退出。\nK2 承重匣｜按總成驗收。\n平台為固定底座，不隨匣退出。",
-      "art": "media/mechanisms/c-parts.svg",
-      "source": "C 開放工具格、匣側與分解圖"
+      "body": "吊籃額定40 kg；舊清點鉤額定20 kg。超載滑脫至近地承接座，卸重後扣回。\n繩路可退回重接，蓋到止點由機械支撐銷接手。",
+      "enBody": "吊籃額定40 kg；舊清點鉤額定20 kg。超載滑脫至近地承接座，卸重後扣回。\n繩路可退回重接，蓋到止點由機械支撐銷接手。",
+      "art": "media/world-v4/doc-c-parts.svg",
+      "source": "C吊籃額定牌與改裝紀錄"
     },
     "overlay": {
       "id": "overlay",
@@ -405,10 +407,10 @@
       "status": "已觀察",
       "name": "半透明定位附頁",
       "en": "半透明定位附頁",
-      "body": "個案 WJ-05｜裝訂面。\n紙面可透出桌紋，部分筆畫在頁邊整齊中斷。左上圓孔、右上短槽、左下缺口為三個不對稱定位點。\n來源：C 資料袋中保留的原附頁。單獨觀看無法讀出完整附記。",
-      "enBody": "個案 WJ-05｜裝訂面。\n紙面可透出桌紋，部分筆畫在頁邊整齊中斷。左上圓孔、右上短槽、左下缺口為三個不對稱定位點。\n來源：C 資料袋中保留的原附頁。單獨觀看無法讀出完整附記。",
-      "art": "media/mechanisms/overlay.svg",
-      "source": "C 表層副本的原資料袋"
+      "body": "這是舊版機關保存的附件，不是v4的必要物品。v4診療區使用六張可翻面與疊合的WJ-05透明硬質襯頁。",
+      "enBody": "這是舊版機關保存的附件，不是v4的必要物品。v4診療區使用六張可翻面與疊合的WJ-05透明硬質襯頁。",
+      "art": "media/world-v4/doc-overlay.svg",
+      "source": "歷史道具紀錄"
     },
     "d-card": {
       "id": "d-card",
@@ -417,10 +419,10 @@
       "status": "已觀察",
       "name": "公事包整理卡",
       "en": "公事包整理卡",
-      "body": "個案 WJ-05。\n拆頁後不重描；孔位沿用，附記僅留調查燈檢查層。\n資料匣側牌：依歸檔次序落扣，三步後拉柄；先前索引可由退扣柄清除。",
-      "enBody": "個案 WJ-05。\n拆頁後不重描；孔位沿用，附記僅留調查燈檢查層。\n資料匣側牌：依歸檔次序落扣，三步後拉柄；先前索引可由退扣柄清除。",
-      "art": "media/mechanisms/d-card.svg",
-      "source": "D 診療桌公事包"
+      "body": "問句留在待核實夾；記錄與使用限制，歸案史。兩類不得合抄。\n索引台側使用圖：定位紙、透孔撥片、拉匣。",
+      "enBody": "問句留在待核實夾；記錄與使用限制，歸案史。兩類不得合抄。\n索引台側使用圖：定位紙、透孔撥片、拉匣。",
+      "art": "media/world-v4/doc-d-card.svg",
+      "source": "D公事包背袋分類備忘"
     }
   },
   "decisions": {

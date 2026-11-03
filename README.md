@@ -1,27 +1,20 @@
-# 餘燼裡的第六人：網站 v8（機關v3）
+# 餘燼裡的第六人：網站v9／機關v4
 
-此分支收錄目前網站原始碼、故事文件、2D 圖片與影片、音效、3D 模型及製作紀錄。正式設計與驗收依據為 PLAN.md、verify.md、test.md。
+公開網址：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/（桌機、手機、平板共用）。原入口 https://jerrycheng0623.github.io/escape-room/ 同步新版。
 
-公開網站：https://jerrycheng0623.github.io/escape-room/
+原始碼分支Website-2；GitHub Pages產物位於gh-pages。實際發布狀態、Commit與結果以test.md第11.5節及assets/world-v4/verification為準。
 
-本次機關v3獨立入口：https://jerrycheng0623.github.io/escape-room/mechanisms-v3/（桌機與手機共用）
+四關為分散刪稿與衣架、原片帶、滑輪繩路、病歷穿孔；移除集中解題入口。86個世界物件、空白工作面、可逆陷阱、單一結局與可選Bonus。手機搖桿116/128px、獨立觸控轉向與中斷歸零。存檔schema4保留舊版備份及已完成紀錄。
 
-原始碼分支：Website-2。GitHub Pages 發布分支：gh-pages（只存正式建置產物）。原始碼更新後需重新執行測試、建置與發布，並非推送任何檔案都會自動部署。
-
-## 本機執行
-
-使用 Node.js 22.12 以上版本及 pnpm：
+使用Node.js22.12以上與pnpm，在web/執行：
 
 ```sh
-cd web
 pnpm install --frozen-lockfile
 pnpm test
 pnpm build
 pnpm dev
 ```
 
-建置會依來源素材重建 web/public/media/、media.json，再產生 web/dist/。套件、快取、系統檔與這些產生副本不納入原始碼分支；實際用於公開網站的產物另發布至 gh-pages。
+正式建置會重建web/public/media及web/dist，不將套件／快取／產生副本推入來源分支。檢查腳本見web/package.json；Playwright使用既有執行環境，輸出預設/tmp，可透過EMBERS_QA_DIR指定。
 
-網站操作與現有範圍見 web/README.md；素材與模型見 素材交付.md、3D/README.md。通關進度儲存在各瀏覽器的 localStorage，本機網址與 GitHub Pages 的存檔互不共用。
-
-現行四章已依machine.md v3替換為分層實體機關；實測結果以test.md最新紀錄為準。沒有真人配音、帳號同步或完整離線功能；實體手機的效能驗收仍待執行。歷史來源、舊版報告與本輪實測紀錄需依日期和版本區分，不能視為全部測試已通過。
+規格依PLAN.md、verify.md及machine.md v4。歷史測試與舊機關不同，不合併宣稱全部通過。尚無實體手機／首次玩家盲測／真人配音／帳號同步／離線支援。進度只儲存於各網址同來源瀏覽器localStorage；新舊同來源路徑共用進度，跨裝置不會自動同步。

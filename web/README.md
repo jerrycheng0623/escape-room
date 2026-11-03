@@ -1,4 +1,4 @@
-# 《餘燼裡的第六人》網站 v8（機關v3）
+# 《餘燼裡的第六人》網站 v9（機關v4）
 
 本機入口：http://127.0.0.1:5173/ 。已實作四章正式機關、七段故事影片、32份文書、五位新版角色、提示／求助、可選皇冠推理與通關回訪。
 
@@ -17,11 +17,11 @@ pnpm build
 
 ## 操作與資料
 
-桌機WASD／方向鍵移動、拖曳環顧、E查看；手機橫向搖桿移動、拖曳環顧。機關支援可讀面板；RGB滑桿、配重按鈕、UV掃描均有相應操作，UV另支援鍵盤。I/J證據、H指引、Esc暫停。
+桌機WASD／方向鍵移動、拖曳環顧、E查看；手機橫向搖桿移動、拖曳環顧。機關依房內物件分開觀察、拿取、翻面與操作；空白工作面可自由整理，所有操作可用鍵盤及觸控。I/J背包、H指引、Esc暫停。
 
 新手／標準／困難為3／5／7階段資訊量，內容只指觀察地點與關聯，不列解法或下一步操作；地點回看另記，不跳機關。沒有死亡、倒數失敗與第二結局。首次通關快照保留；後續推理可補皇冠。
 
-主存檔localStorage鍵embers.investigation.v1（內容schema 3），備份加.backup。獨立重玩鍵embers.replay.v2；場景／影片預覽不改正式紀錄。刷新後按繼續可恢復pendingFilm或章節。舊schema1／2保留原始備份；舊已通關以完成來源保留，未完成機關重新開始。
+主存檔localStorage鍵embers.investigation.v1（內容schema 4），備份加.backup。獨立重玩鍵embers.replay.v4；場景／影片預覽不改正式紀錄。刷新後按繼續可恢復pendingFilm或章節。舊schema1／2／3保留原始備份；舊已通關以完成來源保留，未完成機關重新開始。
 
 故事：assets/story/content-v5.json；純判定：src/game/engine.mjs；存檔：storage.mjs；場景：Scene.jsx；主機關：Puzzles.jsx；提示與證物：Game.jsx；電影：Cinematic.jsx。3D已重製封閉房間、實體道具及膠囊碰撞／遮擋，目前各區由導航轉換，不代表整棟寫實精修與無縫走廊已完成。無真人配音、帳號同步或完整離線。GitHub Pages 發布設定與網址見根目錄 README.md。
 

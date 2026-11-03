@@ -15,6 +15,8 @@ export const SPACE={
  C:{bounds:[-6,6,12,22],floor:.45,height:3.35,spawn:[1.5,15.2],door:[-4.8,21.98],obstacles:[
   {id:'grill',box:[-1.64,1.05,12.65,13.72],top:1.63},
   {id:'records',box:[.6,2.6,13.8,14.6],top:1.27},
+  {id:'world-basket',box:[-1.08,-.52,15.46,15.94],top:1.52},
+  {id:'world-hatch',box:[-1.07,-.33,13.67,14.13],top:2.12},
   {id:'weight-rack',box:[2.7,4.1,12.6,14.35],top:1.45},
   {id:'storage-shelf',box:[-5.65,-4.7,13.2,17],top:2.5},
   {id:'storage-divider',box:[-2.8,-2.58,12.18,15.1],top:3.8},

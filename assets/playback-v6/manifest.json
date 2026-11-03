@@ -1,8 +1,8 @@
 {
-  "version": 7,
+  "version": 9,
   "date": "2026-11-03T11:51:22.615281+08:00",
-  "purpose": "Playback revision 7; retain original audiovisual streams and low bandwidth, external VTT captions, WebM fallback. Previous Baseline versions are retained as immutable URLs for old cached clients, not active manifest sources.",
-  "mp4": "Original H.264 High / yuv420p and AAC-LC streams copied unchanged; remove embedded subtitle tracks and faststart remux. Verified original decoding in WebKit.",
+  "purpose": "v9 replaces A old code-box shot and D UV shot; rest of each film and original sound retained. All released URLs kept immutable.",
+  "mp4": "H.264 High/yuv420p and AAC-LC, faststart, no embedded subtitle track",
   "webm": "VP9 / Opus stereo",
   "segments": [
     {
@@ -30,24 +30,25 @@
     {
       "id": "CIN-A",
       "durationMs": 45000,
-      "original": "assets/story-v5/video/CIN-A-story-v5.mp4",
-      "originalSha256": "375de6745f6ae6df3eab228752dc501835903a032b05aa0e1ef50cdd219828d7",
+      "original": "assets/story-v9/video/CIN-A-story-v9.mp4",
+      "originalSha256": "63b862c525d73696410ae62594b135839c5900e099fcfa276e5485c0e7420644",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-A-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 1895781,
-          "sha256": "d9f75c49f9ee79e53301c68a813784a3671e45f7b62b459e683d90d13863942a",
+          "bytes": 1951007,
+          "sha256": "63b862c525d73696410ae62594b135839c5900e099fcfa276e5485c0e7420644",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-A-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-A-fallback-v9.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 3007842,
-          "sha256": "547eb30d762c75e2c01de98145395cf7de9bdffae7588230bebb4a2d3dba2276",
+          "bytes": 2834293,
+          "sha256": "2ac003483272120b6ca0f34092da28b9fde836715b459b125015da09ed6230a6",
           "decode": "passed"
         }
-      ]
+      ],
+      "priorOriginal": "assets/story-v5/video/CIN-A-story-v5.mp4"
     },
     {
       "id": "CIN-B",
@@ -96,24 +97,25 @@
     {
       "id": "CIN-D",
       "durationMs": 96000,
-      "original": "assets/story-v5/video/CIN-D-story-v5.mp4",
-      "originalSha256": "c22d2d6f358d6e6c6957e525db586989dff198e3fc76f0942cb71e691853ef81",
+      "original": "assets/story-v9/video/CIN-D-story-v9.mp4",
+      "originalSha256": "02632cb37df2c7712c70f1fe34ca89748fa71fbf8fb7de1ed10be7c1ee220118",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-D-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 4026463,
-          "sha256": "3226f38aef11627c57cf8f3c4da64bab0d09d486608a8a99588339d223b60ce0",
+          "bytes": 4021743,
+          "sha256": "02632cb37df2c7712c70f1fe34ca89748fa71fbf8fb7de1ed10be7c1ee220118",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-D-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-D-fallback-v9.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 5465988,
-          "sha256": "18d20d8079cfc77388830d65b9b1d47f0d78deb24d9a8cfaf277387b52376a50",
+          "bytes": 4914435,
+          "sha256": "1cc1db30adc7fdbb71e575aefd3cbce281edd501696289daffb1c68d0b3de327",
           "decode": "passed"
         }
-      ]
+      ],
+      "priorOriginal": "assets/story-v5/video/CIN-D-story-v5.mp4"
     },
     {
       "id": "CIN-END",

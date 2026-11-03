@@ -123,8 +123,8 @@
     "shots": [
       {
         "image": "A-01",
-        "zh": "灰綠外套與金屬箱留下了記者的痕跡。那封信，是她恐懼的來源。",
-        "en": "The coat and metal box marked the reporter’s belongings. The letter explained her fear.",
+        "zh": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+        "en": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
         "document": "threat",
         "person": null,
         "text": "妳當年明明握有能繼續追查的資料，卻為了懸案熱度\n，把真相壓了下來。\n來參加這次聚會。否則，我會把妳隱匿線索的事公諸\n於世。\n王杰倫",
@@ -133,9 +133,9 @@
         "seconds": 9
       },
       {
-        "image": "A-04",
-        "zh": "箱緣刻痕在收合時連成數字。鎖舌釋放後，文書匣才真正打開。",
-        "en": "The separated marks join as the lid closes. Releasing the latch lets the document tray slide out.",
+        "image": "A-02",
+        "zh": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+        "en": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
         "document": null,
         "person": null,
         "text": "",
@@ -341,9 +341,9 @@
     "titleEn": "Clinic · Another hunger",
     "shots": [
       {
-        "image": "D-01",
-        "zh": "虛構UV調查模組，讓張萍原件中被遮住的附記顯現。",
-        "en": "The UV investigation module revealed the concealed note on Zhang Ping’s original.",
+        "image": "D-01-v9",
+        "zh": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+        "en": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
         "document": "report",
         "person": null,
         "text": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已\n死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項\n記錄僅供診療，不足以證明本次案件任何人的犯罪行\n為。\n【偵探重建：先有五年前火災與受困，才有食用遺體\n的往事；這次聚會的縱火，則是另一件事。】",

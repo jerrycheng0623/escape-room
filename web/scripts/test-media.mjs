@@ -25,7 +25,7 @@ async function run(device,format){
  const action=async locator=>device==='mobile'?locator.tap():locator.click();
  try{
   await p.goto(url);await action(p.getByRole('button',{name:'調查檔案',exact:true}));
-  for(let i=0;i<7;i++){
+  const indices=process.env.EMBERS_MEDIA_FILMS?process.env.EMBERS_MEDIA_FILMS.split(',').map(Number):[0,1,2,3,4,5,6];for(const i of indices){
    const previous=await p.evaluate(()=>window.__FILM_QA__.length);
    await action(p.locator('.film-tile').nth(i));await action(p.getByRole('button',{name:'開啟素材預覽',exact:true}));
    await p.waitForFunction(()=>{const v=document.querySelector('video');return v&&v.readyState>=2},{},{timeout:45000});
@@ -38,7 +38,7 @@ async function run(device,format){
    row.films.push(film);if(!film.pass)throw Error('Full playback did not meet criteria: '+film.src);
    await fs.writeFile(join(out,id+'.json'),JSON.stringify(row,null,2));console.log(id,i+1+'/7',film.duration+'s',film.frames+' frames','natural ended + archive passed');
   }
-  row.pass=row.films.length===7&&!row.errors.length;
+  row.pass=row.films.length===indices.length&&!row.errors.length;
  }catch(e){row.failure=e.stack;row.pass=false;row.failureMedia=await p.locator('video').evaluateAll(vs=>vs.map(v=>({src:v.currentSrc,time:v.currentTime,duration:v.duration,paused:v.paused,ended:v.ended,ready:v.readyState,network:v.networkState,error:v.error?.code,hidden:document.hidden,rate:v.playbackRate,frames:v.getVideoPlaybackQuality?.()?.totalVideoFrames||v.webkitDecodedFrameCount})));row.observedEnds=await p.evaluate(()=>window.__FILM_QA__);await p.screenshot({path:join(out,id+'-failure.png')});console.error(id,e.stack);}
  finally{await fs.writeFile(join(out,id+'.json'),JSON.stringify(row,null,2));await c.close();}
 }

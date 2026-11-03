@@ -1,91 +1,116 @@
 {
-  "version": 8,
+  "version": 9,
   "puzzles": {
     "A": {
-      "code": "120",
-      "source": "外蓋與箱身互補刻痕",
-      "release": "拉起把手",
-      "completion": "抽出文書匣",
-      "requiresLidClosed": false
+      "source": "R3逐字稿與整理稿的刪句",
+      "hook": 2,
+      "order": [
+        "lift",
+        "press",
+        "pull-panel",
+        "collect"
+      ],
+      "bellTrapHook": 6,
+      "luggage": "1830"
     },
     "B": {
-      "targets": [
-        [
-          0,
-          100,
-          100
-        ],
-        [
-          100,
-          100,
-          0
-        ]
+      "strip": [
+        "F27",
+        "F28",
+        "F31"
       ],
-      "endpoints": [
-        0,
-        100
+      "orientation": 0,
+      "completion": [
+        "feed",
+        "rewind",
+        "open-original",
+        "collect"
       ],
-      "confirmBoth": true,
-      "completion": "雙確認且底片框已開",
-      "projectionRequiredFlag": false,
-      "samples": [
-        "KF-1830-27",
-        "KF-2000-61"
-      ]
+      "wrongResultPriority": [
+        "翻拍",
+        "卷別",
+        "字向",
+        "順序"
+      ],
+      "candidateCount": 6
     },
     "C": {
       "food": 5,
       "history": 65,
-      "range": [
-        64.5,
-        65.5
+      "maintenanceEquivalentLoad": 70,
+      "route": [
+        "A0",
+        "M",
+        "F",
+        "B"
       ],
-      "stableMs": 500,
-      "alarmAbove": 70,
-      "objects": {
-        "15": 2,
+      "basketRating": 40,
+      "oldHookRating": 20,
+      "balancedLoad": 35,
+      "balancedRequiresWheel": true,
+      "autoLoadRange": [
+        35,
+        40
+      ],
+      "autoLoadLowerExclusive": true,
+      "weights": {
         "20": 2,
+        "15": 2,
         "10": 2,
         "5": 2
-      },
-      "assemblyParts": {
-        "K2": 50,
-        "F1": 10,
-        "G1": 5
-      },
-      "placementMs": 250,
-      "completion": "穩定後手動側移承重匣",
-      "autoOpen": false
+      }
     },
     "D": {
-      "grid": [
-        100,
-        60
+      "holes": {
+        "R1": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "R2": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "R3": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "Q1": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "Q2": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "Q3": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "lowerSequence": [
+        2,
+        5,
+        1
       ],
-      "radius": 0.075,
-      "regionCoverage": 0.7,
-      "regionCount": 3,
-      "maskSource": "recordLayout.mjs文字行",
-      "requires": [
-        "UV模組",
-        "C原附頁正面正向對位"
+      "upperSequence": [
+        3,
+        4,
+        6
       ],
-      "snapTolerance": 0.03,
-      "clips": [
-        "圓孔",
-        "雙短線",
-        "斜槽",
-        "方框",
-        "三角"
-      ],
-      "index": [
-        "雙短線",
-        "圓孔",
-        "斜槽"
-      ],
-      "completion": "三區辨讀且資料匣已開",
-      "reportReward": "三區完成",
-      "recordingReward": "D主關完成"
+      "reportReward": "下層案史匣取證",
+      "recordingReward": "病歷＋倒櫃出口＋前章必要證據交叉整理"
     }
   },
   "hints": {
@@ -115,10 +140,22 @@
   "failure": false,
   "bonus": "可選、可重試、皇冠不受提示影響",
   "endingCount": 1,
-  "saveSchema": 3,
+  "saveSchema": 4,
   "replaySeparate": true,
   "guidanceStyle": "觀察位置與關聯問題，不列解法、精確答案或下一步操作清單",
   "guidanceSource": "web/src/game/guidance.mjs",
-  "spaceVersion": 6,
-  "mechanicRevision": 3
+  "spaceVersion": 9,
+  "mechanicRevision": 4,
+  "mobileControls": {
+    "stickPx": {
+      "landscapePhone": 116,
+      "tablet": 128
+    },
+    "deadzone": 0.14,
+    "responseExponent": 1.35,
+    "lookSlopPx": 5,
+    "touchPitchMultiplier": 0.78,
+    "pointerOwnership": true,
+    "interruptionsReset": true
+  }
 }
