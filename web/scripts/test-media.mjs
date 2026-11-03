@@ -4,21 +4,21 @@ import {homedir,tmpdir} from 'node:os';
 import {pathToFileURL} from 'node:url';
 import fs from 'node:fs/promises';
 const runtime=process.env.PLAYWRIGHT_MODULE||join(homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
-const {chromium}=await import(pathToFileURL(runtime).href);
+const {chromium,webkit,devices}=await import(pathToFileURL(runtime).href);
 const url=process.env.EMBERS_URL||'http://127.0.0.1:5173/',out=process.env.EMBERS_QA_DIR||join(tmpdir(),'embers-media-qa');
 await fs.mkdir(out,{recursive:true});
-const browser=await chromium.launch({headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
-const report={date:new Date().toISOString(),url,browser:await browser.version(),fallback:'Browser plugin not available; native in-app browser checked separately',method:'1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles',runs:[]};
+const engine=process.env.EMBERS_BROWSER==='webkit'?'webkit':'chromium';const browser=await (engine==='webkit'?webkit:chromium).launch(engine==='webkit'?{headless:true}:{headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const report={date:new Date().toISOString(),url,browser:await browser.version(),engine,fallback:'Browser plugin not available; native in-app browser checked separately',method:'1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles',runs:[]};
 async function run(device,format){
- const id=device+'-'+format,c=await browser.newContext(device==='mobile'?{viewport:{width:844,height:390},isMobile:true,hasTouch:true,deviceScaleFactor:2}:{viewport:{width:1440,height:900}}),p=await c.newPage();
+ const id=device+'-'+format,c=await browser.newContext(device==='mobile'?{...(engine==='webkit'?devices['iPhone 13']:{}),viewport:{width:844,height:390},isMobile:true,hasTouch:true,deviceScaleFactor:2}:{viewport:{width:1440,height:900}}),p=await c.newPage();
  const row={device,format,url,films:[],errors:[],requestsFailed:[]};report.runs.push(row);p.setDefaultTimeout(20000);
  p.on('pageerror',e=>row.errors.push(e.message));p.on('requestfailed',r=>{if(!(format==='fallback'&&r.url().endsWith('.mp4')))row.requestsFailed.push({url:r.url(),error:r.failure()?.errorText})});
- if(format==='fallback')await c.route('**/*compatible-v6.mp4',r=>r.abort());
+ if(format==='fallback')await c.route('**/*compatible-v*.mp4',r=>r.abort());
  await p.addInitScript(()=>{
   window.__FILM_QA__=[];const attached=new WeakSet();
   const attach=v=>{if(attached.has(v))return;attached.add(v);let start=performance.now();let previous=-1,stalls=0,samples=[];
    const timer=setInterval(()=>{if(v.isConnected&&!v.paused&&!v.ended){if(v.currentTime===previous)stalls++;previous=v.currentTime;samples.push({time:v.currentTime,ready:v.readyState,paused:v.paused,rate:v.playbackRate})}if(!v.isConnected)clearInterval(timer)},3000);
-   v.addEventListener('ended',()=>{clearInterval(timer);const q=v.getVideoPlaybackQuality?.();window.__FILM_QA__.push({src:v.currentSrc,duration:v.duration,endedAt:v.currentTime,wallSeconds:(performance.now()-start)/1000,ended:v.ended,rate:v.playbackRate,frames:q?.totalVideoFrames,dropped:q?.droppedVideoFrames,width:v.videoWidth,height:v.videoHeight,samples,stalls})});
+   v.addEventListener('ended',()=>{clearInterval(timer);const q=v.getVideoPlaybackQuality?.();window.__FILM_QA__.push({src:v.currentSrc,duration:v.duration,endedAt:v.currentTime,wallSeconds:(performance.now()-start)/1000,ended:v.ended,rate:v.playbackRate,frames:q?.totalVideoFrames||v.webkitDecodedFrameCount,dropped:q?.droppedVideoFrames,width:v.videoWidth,height:v.videoHeight,samples,stalls})});
   };
   new MutationObserver(()=>document.querySelectorAll('video').forEach(attach)).observe(document,{childList:true,subtree:true});
  });
@@ -39,9 +39,10 @@ async function run(device,format){
    await fs.writeFile(join(out,id+'.json'),JSON.stringify(row,null,2));console.log(id,i+1+'/7',film.duration+'s',film.frames+' frames','natural ended + archive passed');
   }
   row.pass=row.films.length===7&&!row.errors.length;
- }catch(e){row.failure=e.stack;row.pass=false;await p.screenshot({path:join(out,id+'-failure.png')});console.error(id,e.stack);}
+ }catch(e){row.failure=e.stack;row.pass=false;row.failureMedia=await p.locator('video').evaluateAll(vs=>vs.map(v=>({src:v.currentSrc,time:v.currentTime,duration:v.duration,paused:v.paused,ended:v.ended,ready:v.readyState,network:v.networkState,error:v.error?.code,hidden:document.hidden,rate:v.playbackRate,frames:v.getVideoPlaybackQuality?.()?.totalVideoFrames||v.webkitDecodedFrameCount})));row.observedEnds=await p.evaluate(()=>window.__FILM_QA__);await p.screenshot({path:join(out,id+'-failure.png')});console.error(id,e.stack);}
  finally{await fs.writeFile(join(out,id+'.json'),JSON.stringify(row,null,2));await c.close();}
 }
-try{await Promise.all(['desktop','mobile'].flatMap(d=>['primary','fallback'].map(f=>run(d,f))));}
+const matrix=(process.env.EMBERS_MEDIA_MATRIX||'desktop:primary,desktop:fallback,mobile:primary,mobile:fallback').split(',').map(x=>x.split(':'));
+try{await Promise.all(matrix.map(([device,format])=>run(device,format)));}
 finally{await fs.writeFile(join(out,'full-playback-report.json'),JSON.stringify(report,null,2));await browser.close();}
 if(report.runs.some(r=>!r.pass))process.exitCode=1;

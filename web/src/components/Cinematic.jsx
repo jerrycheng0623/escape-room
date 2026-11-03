@@ -31,7 +31,7 @@ export default function Cinematic({segment,settings,setSettings,onComplete,onBac
  useEffect(()=>{
   const el=video.current;setReady(false);setFailure(null);setSlow(false);setStatus('loading');lastProgress.current={time:0,at:performance.now()};play();
   const hidden=()=>{if(document.hidden){intent.current='pause';el.pause();setStatus('paused');}};
-  const timer=setInterval(()=>{if(document.hidden||intent.current!=='play'||el.ended)return;const point=lastProgress.current;if(Math.abs(el.currentTime-point.time)>.1){lastProgress.current={time:el.currentTime,at:performance.now()};setSlow(false);}else if(performance.now()-point.at>12000&&!el.error)setSlow(true);},1000);
+  const timer=setInterval(()=>{if(document.hidden||intent.current!=='play'||el.paused||el.ended)return;const point=lastProgress.current;if(Math.abs(el.currentTime-point.time)>.1){lastProgress.current={time:el.currentTime,at:performance.now()};setSlow(false);}else if(performance.now()-point.at>12000&&!el.error)setSlow(true);},1000);
   document.addEventListener('visibilitychange',hidden);
   return()=>{clearInterval(timer);document.removeEventListener('visibilitychange',hidden);el.pause();};
  },[url]);
@@ -39,7 +39,7 @@ export default function Cinematic({segment,settings,setSettings,onComplete,onBac
  const openTranscript=()=>{pause();setTranscript(true);};
  return <main className={`cinematic ${native?'native-controls':''}`}>
   <video key={url} ref={video} data-testid="cinematic-video" data-source-format={source.type} playsInline muted={!settings.sound} preload="auto" controls={native} poster={asset(segment.poster)} src={url}
-   onLoadedMetadata={e=>loaded(e.currentTarget)} onLoadedData={()=>{setReady(true);positionCaptions();}} onPlaying={()=>{setStatus('playing');setSlow(false);}}
+   onLoadedMetadata={e=>loaded(e.currentTarget)} onLoadedData={()=>{setReady(true);positionCaptions();}} onPlay={()=>{intent.current='play';}} onPlaying={()=>{setStatus('playing');setSlow(false);}}
    onPause={()=>{if(!video.current?.error)setStatus('paused');}} onWaiting={()=>{if(intent.current==='play')setStatus('buffering');}}
    onTimeUpdate={e=>setTime(e.currentTarget.currentTime)} onEnded={finish} onError={e=>mediaFailure(e.currentTarget)}>
    {Object.entries(segment.tracks).map(([lang,path])=><track key={lang} kind="subtitles" src={asset(path)} srcLang={lang} label={lang==='en'?'English':'繁體中文'} default={lang===settings.lang} onLoad={positionCaptions}/>)}

@@ -11,7 +11,8 @@
     "test:ui": "node scripts/test-ui.mjs",
     "test:space": "node scripts/test-space-ui.mjs",
     "test:media": "node scripts/test-media.mjs",
-    "test:media:controls": "node scripts/test-media-controls.mjs"
+    "test:media:controls": "node scripts/test-media-controls.mjs",
+    "test:media:http": "node scripts/test-media-http.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

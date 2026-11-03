@@ -10,7 +10,7 @@ export default function App(){
  const navigate=useCallback(next=>{setView(next);history.pushState({screen:next},'',`#${next}`);},[]);
  const home=()=>navigate('home'),archive=()=>navigate('archive');
  useEffect(()=>{document.documentElement.lang=settings.lang;document.documentElement.dataset.motion=settings.reducedMotion?'reduced':'full';document.documentElement.style.setProperty('--reading-size',settings.textSize+'px');try{storage.setItem(SETTINGS_KEY,JSON.stringify(settings));}catch{setSaveError(true);}},[settings]);
- useEffect(()=>{let alive=true;fetch(asset('media.json?v=playback-6'),{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>{if(alive){setMedia(d);setMediaError(false);}}).catch(()=>{if(alive)setMediaError(true);});return()=>{alive=false;};},[]);
+ useEffect(()=>{let alive=true;fetch(asset('media.json?v=playback-7'),{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>{if(alive){setMedia(d);setMediaError(false);}}).catch(()=>{if(alive)setMediaError(true);});return()=>{alive=false;};},[]);
  useEffect(()=>{const pop=e=>{const next=e.state?.screen;if(['home','setup','archive'].includes(next))setView(next);else setView('home');};window.addEventListener('popstate',pop);return()=>window.removeEventListener('popstate',pop);},[]);
  useEffect(()=>{if(!run||run===lastSaved.current)return;const result=saveRun(storage,run);lastSaved.current=run;setSaveError(!result.ok);},[run]);
  useEffect(()=>{if(playMode!=='replay'||!localRun||localRun===lastReplay.current)return;lastReplay.current=localRun;saveRun(storage,localRun,REPLAY_KEY);},[localRun,playMode]);
