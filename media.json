@@ -4,7 +4,17 @@
     "title": "序幕：遲到的邀請",
     "titleEn": "Prologue · The late invitation",
     "duration": 86.5,
-    "video": "media/video/CIN-00.mp4",
+    "video": "media/video/CIN-00-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-00-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-00-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-00.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-00-zh-Hant.vtt",
@@ -98,7 +108,17 @@
     "title": "客房：灰燼裡的謊言",
     "titleEn": "Guest room · Lies in the ashes",
     "duration": 45,
-    "video": "media/video/CIN-A.mp4",
+    "video": "media/video/CIN-A-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-A-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-A-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-A.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-A-zh-Hant.vtt",
@@ -152,7 +172,17 @@
     "title": "暗房：不在照片裡的人",
     "titleEn": "Darkroom · The missing face",
     "duration": 49.5,
-    "video": "media/video/CIN-B.mp4",
+    "video": "media/video/CIN-B-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-B-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-B-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-B.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-B-zh-Hant.vtt",
@@ -206,7 +236,17 @@
     "title": "營火：善意與異常重量",
     "titleEn": "Terrace · An unusual weight",
     "duration": 73.5,
-    "video": "media/video/CIN-C.mp4",
+    "video": "media/video/CIN-C-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-C-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-C-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-C.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-C-zh-Hant.vtt",
@@ -284,7 +324,17 @@
     "title": "診療區：另一種飢餓",
     "titleEn": "Clinic · Another hunger",
     "duration": 96,
-    "video": "media/video/CIN-D.mp4",
+    "video": "media/video/CIN-D-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-D-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-D-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-D.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-D-zh-Hant.vtt",
@@ -378,7 +428,17 @@
     "title": "終幕：深淵的凝視",
     "titleEn": "Finale · The abyss looks back",
     "duration": 72,
-    "video": "media/video/CIN-END.mp4",
+    "video": "media/video/CIN-END-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-END-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-END-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-END.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-END-zh-Hant.vtt",
@@ -456,7 +516,17 @@
     "title": "後記：留下名字的人",
     "titleEn": "Epilogue · The names that remain",
     "duration": 62,
-    "video": "media/video/CIN-EPILOGUE.mp4",
+    "video": "media/video/CIN-EPILOGUE-compatible-v6.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-EPILOGUE-compatible-v6.mp4",
+        "type": "video/mp4; codecs=\"avc1.42E01F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-EPILOGUE-compatible-v6.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
     "poster": "media/posters/CIN-EPILOGUE.webp",
     "tracks": {
       "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant.vtt",
