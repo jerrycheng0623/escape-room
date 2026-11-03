@@ -7,7 +7,7 @@
       "room": "A",
       "meshes": 50,
       "triangles": 6626,
-      "bytes": 12828772
+      "bytes": 12828776
     },
     {
       "room": "B",
@@ -18,8 +18,8 @@
     {
       "room": "C",
       "meshes": 75,
-      "triangles": 9887,
-      "bytes": 6667252
+      "triangles": 9951,
+      "bytes": 6673396
     },
     {
       "room": "D",

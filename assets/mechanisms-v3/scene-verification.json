@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-03T14:02:13.209540+08:00",
+  "date": "2026-11-03T16:32:38.488018+08:00",
   "method": "GLB header, bounds, typed accessors, finite positions, unit normals, indices and triangle area",
   "rooms": [
     {
       "room": "A",
       "path": "3D/scene/enclosed-A-v8.glb",
-      "bytes": 12828772,
+      "bytes": 12828776,
       "triangles": 6626,
-      "sha256": "f62a89956cc7b3a8cec28d5343da4f901723189513cc74e4332a202b9377e0bd",
+      "sha256": "ea73c418900c76ebaa548f142bc02111ac7f571efff712bc21ba26b4d4801d57",
       "pass": true
     },
     {
@@ -15,15 +15,15 @@
       "path": "3D/scene/enclosed-B-v8.glb",
       "bytes": 6035272,
       "triangles": 4704,
-      "sha256": "33194368b15a1026697ad0258fdd25d009a66e9466a00b9dfdc1db3e963193f3",
+      "sha256": "438df7ccfee819d453658d4de8db4710dfbe35317b64dbbd1036b4ff5529ab70",
       "pass": true
     },
     {
       "room": "C",
       "path": "3D/scene/enclosed-C-v8.glb",
-      "bytes": 6667252,
-      "triangles": 9887,
-      "sha256": "33fd4eabbc8ec4242452cf54f6d1ff2a5baf644a0d49ed67940d5f7ae423e705",
+      "bytes": 6673396,
+      "triangles": 9951,
+      "sha256": "1c7c3aa6010466724f849066ea26f26bc5eba9c390939eade3f634045aa60238",
       "pass": true
     },
     {
@@ -31,7 +31,7 @@
       "path": "3D/scene/enclosed-D-v8.glb",
       "bytes": 9294628,
       "triangles": 4398,
-      "sha256": "db010835f2a71194e2abcd264e5077eeb3d6df944c523049f86cc6d4e3c9993a",
+      "sha256": "b2b0dc5a3a9cb575999fa1f100d760a9b907428b131539ee9aab39e4d4accfc0",
       "pass": true
     }
   ]

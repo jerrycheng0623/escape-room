@@ -16,7 +16,8 @@
     "test:media:layout": "node scripts/test-media-layout.mjs",
     "test:media:story": "node scripts/test-media-story.mjs",
     "test:mobile": "node scripts/test-mobile-ui.mjs",
-    "test:mechanisms": "node scripts/test-mechanisms.mjs"
+    "test:mechanisms": "node scripts/test-mechanisms.mjs",
+    "test:release": "node scripts/test-release.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",
