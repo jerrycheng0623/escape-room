@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-03T08:21:57.569Z",
+  "revision": 3,
+  "checks": [
+    "玩法JSON與引擎一致",
+    "32份文書與實際發行素材存在",
+    "覆頁／掃描區／原文共用排版",
+    "四區重玩狀態合法與D跨章工具",
+    "A工具不洩露D反轉",
+    "B工具與案件工作紀錄分開",
+    "C維修總成與案發歷史分開",
+    "CIN-A字幕移除舊數列"
+  ],
+  "documents": [
+    {
+      "id": "invitation",
+      "art": "media/evidence/invitation.webp"
+    },
+    {
+      "id": "commission",
+      "art": "media/evidence/commission.webp"
+    },
+    {
+      "id": "police",
+      "art": "media/evidence/police.webp"
+    },
+    {
+      "id": "threat",
+      "art": "media/evidence/threat.webp"
+    },
+    {
+      "id": "card",
+      "art": "media/mechanisms/card.svg"
+    },
+    {
+      "id": "formula",
+      "art": "media/mechanisms/formula.svg"
+    },
+    {
+      "id": "door-sign",
+      "art": "media/evidence/door-sign.webp"
+    },
+    {
+      "id": "notes",
+      "art": "media/evidence/notes.webp"
+    },
+    {
+      "id": "clipping",
+      "art": "media/evidence/clipping.webp"
+    },
+    {
+      "id": "first-photo",
+      "art": "media/evidence/first-photo.webp"
+    },
+    {
+      "id": "last-photo",
+      "art": "media/evidence/last-photo.webp"
+    },
+    {
+      "id": "worklog",
+      "art": "media/evidence/worklog.webp"
+    },
+    {
+      "id": "diary",
+      "art": "media/evidence/diary.webp"
+    },
+    {
+      "id": "watch",
+      "art": "media/evidence/watch.webp"
+    },
+    {
+      "id": "blood",
+      "art": "media/evidence/blood.webp"
+    },
+    {
+      "id": "weight",
+      "art": "media/evidence/weight.webp"
+    },
+    {
+      "id": "manual",
+      "art": "media/mechanisms/manual.svg"
+    },
+    {
+      "id": "necklace",
+      "art": "media/evidence/necklace.webp"
+    },
+    {
+      "id": "key",
+      "art": "media/evidence/key.webp"
+    },
+    {
+      "id": "surface",
+      "art": "media/mechanisms/surface.svg"
+    },
+    {
+      "id": "uv-module",
+      "art": "media/evidence/uv-module.webp"
+    },
+    {
+      "id": "report",
+      "art": "media/evidence/report.webp"
+    },
+    {
+      "id": "recording",
+      "art": "media/evidence/recording.webp"
+    },
+    {
+      "id": "cabinet",
+      "art": "media/evidence/cabinet.webp"
+    },
+    {
+      "id": "exit-traces",
+      "art": "media/evidence/exit-traces.webp"
+    },
+    {
+      "id": "identity",
+      "art": "media/evidence/identity.webp"
+    },
+    {
+      "id": "a-structure",
+      "art": "media/mechanisms/a-structure.svg"
+    },
+    {
+      "id": "b-tools",
+      "art": "media/mechanisms/b-tools.svg"
+    },
+    {
+      "id": "b-samples",
+      "art": "media/mechanisms/b-samples.svg"
+    },
+    {
+      "id": "c-parts",
+      "art": "media/mechanisms/c-parts.svg"
+    },
+    {
+      "id": "overlay",
+      "art": "media/mechanisms/overlay.svg"
+    },
+    {
+      "id": "d-card",
+      "art": "media/mechanisms/d-card.svg"
+    }
+  ],
+  "sourceHashes": {
+    "machine.md": "8bb49f9e07a20f51e7d7f04056e530866dc0dd787b03931fad3104013bf23ec3",
+    "PLAN.md": "4c0f9bfcf9b6adab438ce92619932b61a7b0b3265ba695b27aaf3f8f55e0cb83",
+    "verify.md": "3268c0b3acbc531b2306b106002a3c76d4c09cdeb3329ecec7fd0aa58cd06b05",
+    "test.md": "8a204fefc744e9f3595074ac10d7c2836e7b16202a5fcc30eed6ad85d750069a",
+    "game-rules.json": "79bf4e9be2185f4294294ea053da0194e392998228abc5845cc10bd48ab7b88d",
+    "assets/story/content-v5.json": "6dc7bbadc75af8e214fff762bd3e9531fd13b7e5390ff1a60efc8b30b83c2898",
+    "web/src/components/Puzzles.jsx": "b58660cda74c5ed84efe2aac9d91b3e7261ee891f1cd9dc431de71ffee69dc2d",
+    "web/src/components/Game.jsx": "328dbc657515a0311b6b1ba543f54b61b3a7bef58d4febd29fb6f20a3c0575ca",
+    "web/src/game/engine.mjs": "c3d85a6189e74a2f985df9798dcdc8de6a3c968a3705e1e5b448c20c97fd183a",
+    "web/src/game/storage.mjs": "4572f06821469364d5137c54d6d4f89f40ec33928dfbca3c4666eb11886953c3",
+    "web/src/game/guidance.mjs": "733f89e13cce4306467460b01dc47055c0de59fc77a3e8e38bb2247de1ed2f50",
+    "web/src/game/recordLayout.mjs": "57ab1f0ba0047c1bdf3f1a0bef54eddbc78464a839d0cc9e834ff2ba85fb4c31",
+    "web/src/game/roomModels.js": "af7e4e9a12862850b2dd394eb29209846294c1527271236263aff4a3b409bec9",
+    "web/src/game/Scene.jsx": "8745b2d80661ebc472bef95ef7089b4fb5dde0ab36bb178c777e2429d97cbefd",
+    "web/src/game/space.mjs": "598ba73f7508fd341b31223982eb8df666c80f18c28cbb7f7212e00807f3ccd2"
+  },
+  "pass": true
+}

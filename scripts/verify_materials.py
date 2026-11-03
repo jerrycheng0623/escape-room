@@ -27,7 +27,7 @@ for o in objs:
  p=R/o['reference'];im=Image.open(p);im.verify();assert hashlib.sha256(p.read_bytes()).hexdigest()==o['sha256'];assert (R/o['model']).exists()
 actor=Image.open(R/'assets/art-redesign-v4/images/END-ACTOR.png');assert actor.mode=='RGBA';lo,hi=actor.getextrema()[3];assert lo==0 and hi==255
 story=j('story-settings.json');assert story['version']==5 and 'D1 03:00' in story['timeline']['detective'];assert '先火災受困' in story['twoFires']
-m=j('assets/story-v5/manifest.json');assert len(m['segments'])==7;assert sum(s['durationMs'] for s in m['segments'])==484500;assert j('game-rules.json')['version']==5
+m=j('assets/story-v5/manifest.json');assert len(m['segments'])==7;assert sum(s['durationMs'] for s in m['segments'])==484500;assert j('game-rules.json')['version']==8 and j('game-rules.json')['mechanicRevision']==3
 for seg in m['segments']:assert hashlib.sha256((R/seg['video']).read_bytes()).hexdigest()==seg['sha256']
 for model in mm['models']:assert hashlib.sha256((R/model['path']).read_bytes()).hexdigest()==model['sha256']
 report={'date':'2026-11-03','status':'通過','storySection2':'S01–S09製作者補完已同步','newObjectReferences':6,'totalObjectReferences':42,'propModelFiles':44,'uniquePropModels':42,'sceneModels':1,'activeVideoSegments':7,'videoDurationSeconds':484.5,'alphaLayer':'實際RGBA透明，0–255','models':results,'checks':['JSON可解析','42物件索引與來源圖指紋','GLB結構／三角形／法線','透明角色層','規則資料一致','當晚安全區調查與結局後數日身分時序','原PDF指紋不變'],'notTested':['電影級寫實模型','實體手機效能','真實火災力學或現實鑑識','網站與瀏覽器整合']}

@@ -1,11 +1,11 @@
-# 3D素材交付：v6封閉房間與既有道具來源
+# 3D素材交付：v8機關版封閉房間與既有道具來源
 
-> 2026-11-03｜現行網站：v6原生封閉3D場景／碰撞。四個房間GLB可獨立檢視；原42類參考、44道具GLB及舊灰盒保留來源用途。仍非掃描級寫實資產。
+> 2026-11-03｜現行網站：v8原生封閉3D場景／碰撞。四個房間GLB可獨立檢視；原42類參考、44道具GLB及舊灰盒保留來源用途。仍非掃描級寫實資產。
 
 ## 查閱入口
 
-- 現行四區：[A客房](scene/enclosed-A-v6.glb)、[B暗房](scene/enclosed-B-v6.glb)、[C營火與儲藏區](scene/enclosed-C-v6.glb)、[D診療區](scene/enclosed-D-v6.glb)
-- [v6布局與碰撞尺寸](scene/enclosed-v6-layout.json)、[模型匯出統計](scene/enclosed-v6-export.json)
+- 現行四區：[A客房](scene/enclosed-A-v8.glb)、[B暗房](scene/enclosed-B-v8.glb)、[C營火與儲藏區](scene/enclosed-C-v8.glb)、[D診療區](scene/enclosed-D-v8.glb)
+- [v8布局與碰撞尺寸](scene/enclosed-v8-layout.json)、[模型匯出統計](scene/enclosed-v8-export.json)
 - 原生模型：../web/src/game/roomModels.js；碰撞與遮擋：../web/src/game/space.mjs。GLB不包含互動、動態文字與Three.js bumpMap。
 
 下列為保留的舊資產來源：

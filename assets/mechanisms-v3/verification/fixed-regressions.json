@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03T16:15:04.740481+08:00",
+  "regressions": [
+    {
+      "issue": "Game.jsx漏匯入guidanceStage，進入3D時黑畫面",
+      "failureEvidence": {
+        "log": [],
+        "errors": [
+          "guidanceStage is not defined"
+        ]
+      },
+      "fix": "明確匯入並重跑正式桌機與手機流程",
+      "retest": [
+        "desktop-flow.json",
+        "mobile-flow.json"
+      ]
+    },
+    {
+      "issue": "投影在底框後被遮擋",
+      "fix": "固定投影面先畫框，再疊投影，四向皆同規則",
+      "evidence": "../review/B-shadow-3.png"
+    },
+    {
+      "issue": "附頁吸附距離應以頁寬計算",
+      "fix": "正規化Y距離乘頁高／寬0.65後核對，單元測試包含邊界",
+      "evidence": "storage.test.mjs"
+    }
+  ]
+}

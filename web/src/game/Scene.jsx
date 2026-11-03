@@ -1,7 +1,7 @@
 import {useEffect,useRef,useState} from 'react';
 import * as THREE from 'three';
 import {ROOMS,EVIDENCE,PUZZLE_TARGETS} from './content.js';
-import {totalWeight} from './engine.mjs';
+import {totalWeight,weightMatches} from './engine.mjs';
 import {SPACE,EYE_HEIGHT,safePosition,movePlayer,visibleTarget} from './space.mjs';
 import {makeMaterials,buildRoom} from './roomModels.js';
 
@@ -44,10 +44,12 @@ export default function Scene({room,settings,paused,input,found,onTarget,onReady
   canvas.addEventListener('pointerdown',pointerDown);canvas.addEventListener('pointermove',pointerMove);canvas.addEventListener('pointerup',pointerUp);canvas.addEventListener('pointercancel',pointerUp);canvas.addEventListener('webglcontextlost',lost);window.addEventListener('keydown',keyDown);window.addEventListener('keyup',keyUp);window.addEventListener('blur',blur);
   let last=performance.now(),sampleStart=last,frames=0,slow=0,lastTarget='',lastInspect=0,lastState=null;const forward=new THREE.Vector3();
   const syncModels=state=>{if(lastState&&lastState.puzzles===state.puzzleState&&lastState.cabinet===state.cabinetMoved&&lastState.solved===state.solvedRooms&&lastState.lang===state.settings.lang)return;lastState={puzzles:state.puzzleState,cabinet:state.cabinetMoved,solved:state.solvedRooms,lang:state.settings.lang};
-   const a=rooms.A.dynamics.lock;if(a){a.lid.rotation.x=state.solvedRooms?.includes('A')?-.95:0;a.labels.forEach((o,i)=>o.userData.setText(String(state.puzzleState?.A?.digits[i]||0)));}
+   const a=rooms.A.dynamics.lock;if(a){a.lid.rotation.x=state.puzzleState?.A?.lidClosed?0:-1.92;a.tray.position.z=state.puzzleState?.A?.innerOpened?.25:state.puzzleState?.A?.innerUnlocked?.03:0;a.latch.visible=!state.puzzleState?.A?.innerUnlocked;a.labels.forEach((o,i)=>o.userData.setText(String(state.puzzleState?.A?.digits[i]||0)));}
    for(const photo of rooms.B.dynamics.photos){const map=state.puzzleState?.B?.confirmed[photo.userData.photoIndex]?photo.userData.picture:null;if(photo.material.map!==map){photo.material.map=map;photo.material.color.set(map?'#ffffff':'#ded5bb');photo.material.needsUpdate=true;}}
-   const placed=state.puzzleState?.C?.placed||[],all=rooms.C.dynamics;for(const [i,g] of all.weights.entries()){g.position.set(...(placed.includes(g.name)?[-.72+(i%4)*.48,i<2?1.835:1.77,12.92+Math.floor(i/4)*.44]:[3.05+(i%2)*.65,i<2?1.155:1.09,12.85+Math.floor(i/2)*.4]));}
-   all.historyReadout.userData.setText(state.settings.lang==='en'?'HISTORY 65.0':'歷史 65.0');all.currentReadout.userData.setText((state.settings.lang==='en'?'NET ':'即時 ')+totalWeight(placed).toFixed(1));const unlocked=state.puzzleState?.C?.completedAtLoad===65;all.hatch.position.x=unlocked?.66:0;all.rewards.visible=unlocked;
+   const placed=state.puzzleState?.C?.placed||[],all=rooms.C.dynamics;for(const [i,g] of all.weights.entries()){g.position.set(...(placed.includes(g.name)?[.3+(i%2)*.35,1.38+(i<2?.215:i<6?.14:.151)+Math.floor(i/2)*.4,13.2]:[3.05+(i%2)*.65,i<2?1.155:1.09,12.85+Math.floor(i/2)*.4]));}
+   all.historyReadout.userData.setText(state.settings.lang==='en'?'HISTORY 65.0':'歷史 65.0');all.currentReadout.userData.setText((state.settings.lang==='en'?'PAN ':'服務 ')+totalWeight(placed).toFixed(1));const unlocked=state.puzzleState?.C?.completedAtLoad===65;all.hatch.position.x=unlocked?.66:0;all.rewards.visible=unlocked;const rig=all.rig;rig.left.position.x=unlocked?-1.25:-.58;rig.needle.rotation.z=Math.max(-.6,Math.min(.6,(totalWeight(placed)-65)/100));rig.pan.position.y=1.35+Math.max(-.1,Math.min(.1,(65-totalWeight(placed))/.65*.001));
+   const bench=rooms.B.dynamics.bench,b=state.puzzleState.B;bench.holder.visible=b.holderLocation!=='hand';bench.holder.position.set(b.holderLocation==='stand'?11.72:11.4,1.05,7.32);bench.holder.rotation.y=b.holderRotation*Math.PI/180;bench.filter.visible=!b.filtersRemoved;bench.shadow.visible=b.whiteLightOn&&b.holderLocation==='stand';bench.shadow.rotation.y=b.holderRotation*Math.PI/180;bench.whiteLight.intensity=b.whiteLightOn?1:0;bench.film.position.z=b.filmFrameOpened?7.51:b.catchReleased?7.37:7.35;bench.catchMesh.position.z=b.catchReleased?.216:.23;
+   const archive=rooms.D.dynamics.archive,d=state.puzzleState.D;archive.archiveTray.position.z=d.archiveOpened?.24:d.archiveReleased?.02:0;archive.sheet.visible=d.overlayLocation==='original';archive.sheet.rotation.y=d.overlayRotation*Math.PI/180;
    rooms.D.dynamics.cabinet.position.set(state.cabinetMoved?11.2:13,-1.88,state.cabinetMoved?14.91:16.6);
   };
   renderer.setAnimationLoop(now=>{
@@ -59,7 +61,7 @@ export default function Scene({room,settings,paused,input,found,onTarget,onReady
    if(now-lastInspect>120){lastInspect=now;const eye=camera.position.toArray();let target=null,best=Infinity;for(const [id,item] of Object.entries({...EVIDENCE,...PUZZLE_TARGETS})){if(item.room!==state.room)continue;const v=new THREE.Vector3(...item.pos).sub(camera.position),distance=v.length();if(distance>2.65||v.normalize().dot(forward)<.77||!visibleTarget(state.room,eye,item.pos,OWNERS[id],{cabinetMoved:state.cabinetMoved}))continue;const score=distance*.18+(1-v.dot(forward))*5;if(score<best){best=score;target=id;}}
     for(const marker of markers){const id=marker.userData.id;marker.visible=marker.userData.room===state.room&&!state.found.includes(id)&&visibleTarget(state.room,eye,marker.position.toArray(),OWNERS[id],{cabinetMoved:state.cabinetMoved});}
     if((target||'')!==lastTarget){lastTarget=target||'';state.onTarget(target);}
-    const diag=window.__EMBERS_DIAGNOSTICS__||{samples:[]};diag.camera={x:+p.x.toFixed(3),y:camera.position.y,z:+p.z.toFixed(3)};diag.yaw=yaw;diag.pitch=pitch;diag.collisionVersion=6;diag.room=state.room;window.__EMBERS_DIAGNOSTICS__=diag;
+    const diag=window.__EMBERS_DIAGNOSTICS__||{samples:[]};diag.camera={x:+p.x.toFixed(3),y:camera.position.y,z:+p.z.toFixed(3)};diag.yaw=yaw;diag.pitch=pitch;diag.collisionVersion=8;diag.room=state.room;window.__EMBERS_DIAGNOSTICS__=diag;
    }
    renderer.render(scene,camera);frames++;
    if(now-sampleStart>=1000){const fps=frames*1000/(now-sampleStart),diag=window.__EMBERS_DIAGNOSTICS__||{samples:[]};diag.samples.push({room:state.room,fps:+fps.toFixed(1),drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles,pixelRatio:renderer.getPixelRatio(),renderer:rendererName,software});diag.samples=diag.samples.slice(-120);window.__EMBERS_DIAGNOSTICS__=diag;state.onPosition({...diag.camera});if(fps<27)slow++;else slow=Math.max(0,slow-1);if(slow>=3&&ratio>.55){ratio=Math.max(.55,ratio-.1);renderer.setPixelRatio(ratio);renderer.shadowMap.enabled=false;slow=0;}sampleStart=now;frames=0;}

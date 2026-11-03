@@ -107,24 +107,26 @@
     "card": {
       "id": "card",
       "name": "記者名片背面",
-      "en": "The reporter’s memo",
+      "en": "記者名片背面",
       "room": "A",
-      "body": "林依瑤｜地方新聞採訪\n獨家專訪備忘：採訪日12日。\n採訪資料與調查箱一起保管。",
-      "enBody": "Lin Yiyao — Local news. Interview memo: interview day 12. Keep the records with the investigation box.",
-      "source": "A區外套口袋",
+      "body": "林依瑤｜地方新聞採訪\n不另抄開箱號碼；收工時的樣子，我認得。",
+      "enBody": "林依瑤｜地方新聞採訪\n不另抄開箱號碼；收工時的樣子，我認得。",
+      "source": "A 書桌上的名片",
       "image": "A-04",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/mechanisms/card.svg"
     },
     "formula": {
       "id": "formula",
-      "name": "調查箱算式紙片",
-      "en": "The sequence note",
+      "name": "調查箱修補收據",
+      "en": "調查箱修補收據",
       "room": "A",
-      "body": "採訪日 = a₁\n受訪者房號 = a₂\n密碼 = a₅\n當n≥3時：aₙ = 2aₙ₋₁ + aₙ₋₂\n門牌的前導零不改變數值。",
-      "enBody": "Interview day = a₁. Interviewee’s room number = a₂. Code = a₅. For n≥3: aₙ = 2aₙ₋₁ + aₙ₋₂. A leading zero does not change the number.",
-      "source": "調查箱旁紙片",
+      "body": "換鉸鏈，原有刮痕照留。\n收件人註：那些不是損傷，別磨掉。",
+      "enBody": "換鉸鏈，原有刮痕照留。\n收件人註：那些不是損傷，別磨掉。",
+      "source": "A 無鎖外蓋內側",
       "image": "A-04",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/mechanisms/formula.svg"
     },
     "door-sign": {
       "id": "door-sign",
@@ -238,14 +240,15 @@
     },
     "manual": {
       "id": "manual",
-      "name": "測重卡榫維修銘牌",
-      "en": "The load-latch service plate",
+      "name": "平衡支架維修分解圖",
+      "en": "平衡支架維修分解圖",
       "room": "C",
-      "body": "服務模式：以指定歷史校正載重重新下壓，可解除底座檢修卡榫。\n容差：±0.5 kg；穩定0.5秒後開啟。\n超過70 kg僅發出超載提醒；先取下重物再調整。\n可用重物：木樁15 kg、鐵塊20 kg、沙袋10 kg、石塊5 kg，各兩件。\n物品可隨時取回，請勿以固定烤架本體作配重。",
-      "enBody": "Service mode: reproduce the designated historical calibration load to release the inspection latch. Tolerance ±0.5 kg; hold steady for 0.5 seconds. Above 70 kg an alarm sounds; remove weight to adjust. Two each: timber 15, iron 20, sandbag 10, stone 5 kg. Items can be removed at any time.",
-      "source": "C底座可見銘牌",
+      "body": "承接以退出總成為準。剖面填紋處隨匣移動，底座平台不列入。\nK2 內芯、F1 襯框、G1 隨動導座皆隨匣退出；底座平台留在原位。\n支架側牌：服務側接手後才可側移；退出後止回。\n舊維修紀錄：上次只按內芯質量驗收，襯框和導座都還在，難怪指針沒回來。\n超過 70 kg 只提醒超載；可取回配重。",
+      "enBody": "承接以退出總成為準。剖面填紋處隨匣移動，底座平台不列入。\nK2 內芯、F1 襯框、G1 隨動導座皆隨匣退出；底座平台留在原位。\n支架側牌：服務側接手後才可側移；退出後止回。\n舊維修紀錄：上次只按內芯質量驗收，襯框和導座都還在，難怪指針沒回來。\n超過 70 kg 只提醒超載；可取回配重。",
+      "source": "C 文件台與支架側面",
       "image": "C-03",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/mechanisms/manual.svg"
     },
     "necklace": {
       "id": "necklace",
@@ -272,13 +275,14 @@
     "surface": {
       "id": "surface",
       "name": "表層診療報告副本",
-      "en": "The surface report",
+      "en": "表層診療報告副本",
       "room": "C",
-      "body": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】",
-      "enBody": "Zhang Ping — case notes, Wang Jielun. The patient shows distress around fire and gatherings, and repeatedly describes dreams of being trapped five years earlier. These are individual observations, not a verdict about violence or responsibility. Police supplied the visible-layer copy; the original below has a concealed section.",
+      "body": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
+      "enBody": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】\n資料袋：轉存，可見層副本另袋，原附頁保留。個案編號 WJ-05 見頁邊。\n袋內半透明原附頁一併保存，並非可見層副本本身。",
       "source": "C警方交付的可見層副本",
       "image": "C-02",
-      "status": "已觀察"
+      "status": "已觀察",
+      "art": "media/mechanisms/surface.svg"
     },
     "uv-module": {
       "id": "uv-module",
@@ -345,6 +349,78 @@
       "source": "通關後案件檔案",
       "image": "D-04",
       "status": "正式核對"
+    },
+    "a-structure": {
+      "id": "a-structure",
+      "room": "A",
+      "image": "A-04",
+      "status": "已觀察",
+      "name": "箱側結構貼紙",
+      "en": "箱側結構貼紙",
+      "body": "防塵外蓋／上鎖文書匣。\n外蓋與文書匣為兩層結構。",
+      "enBody": "防塵外蓋／上鎖文書匣。\n外蓋與文書匣為兩層結構。",
+      "art": "media/mechanisms/a-structure.svg",
+      "source": "A 調查箱側面"
+    },
+    "b-tools": {
+      "id": "b-tools",
+      "room": "B",
+      "image": "B-01",
+      "status": "已觀察",
+      "name": "攝影工具使用便條",
+      "en": "攝影工具使用便條",
+      "body": "套片架收納套：色片拆洗後入袋；金屬架放回三角記號一側。\n工具便條：定位時我看桌上那一份，不看手裡這一份。燈座別挪，位置才會一樣。\n底片框保養貼：前把手拉不動時請先檢查底扣；勿硬扯。",
+      "enBody": "套片架收納套：色片拆洗後入袋；金屬架放回三角記號一側。\n工具便條：定位時我看桌上那一份，不看手裡這一份。燈座別挪，位置才會一樣。\n底片框保養貼：前把手拉不動時請先檢查底扣；勿硬扯。",
+      "art": "media/mechanisms/b-tools.svg",
+      "source": "B 未上鎖工具格與工作架"
+    },
+    "b-samples": {
+      "id": "b-samples",
+      "room": "B",
+      "image": "B-01",
+      "status": "已觀察",
+      "name": "沖印工作小樣袋",
+      "en": "沖印工作小樣袋",
+      "body": "小樣只認邊碼，別照收納順序配。大圖再清楚，邊條不合也不能交件。\n兩張小樣均可取出並排查看；照片與小樣上的不對稱缺口、沖印批號，應各自吻合。\n此處為數位圖層校正的工作預覽，不代表普通彩色玻璃的物理效果。",
+      "enBody": "小樣只認邊碼，別照收納順序配。大圖再清楚，邊條不合也不能交件。\n兩張小樣均可取出並排查看；照片與小樣上的不對稱缺口、沖印批號，應各自吻合。\n此處為數位圖層校正的工作預覽，不代表普通彩色玻璃的物理效果。",
+      "art": "media/mechanisms/b-samples.svg",
+      "source": "B 另一個未上鎖工具格"
+    },
+    "c-parts": {
+      "id": "c-parts",
+      "room": "C",
+      "image": "C-03",
+      "status": "已觀察",
+      "name": "K2／F1／G1 零件資料",
+      "en": "K2／F1／G1 零件資料",
+      "body": "K2 內芯：50 kg，標籤位於開放工具格。\nF1 襯框：10 kg，外側銘牌可讀。\nG1 隨動導座：5 kg，分解圖填紋顯示它隨匣退出。\nK2 承重匣｜按總成驗收。\n平台為固定底座，不隨匣退出。",
+      "enBody": "K2 內芯：50 kg，標籤位於開放工具格。\nF1 襯框：10 kg，外側銘牌可讀。\nG1 隨動導座：5 kg，分解圖填紋顯示它隨匣退出。\nK2 承重匣｜按總成驗收。\n平台為固定底座，不隨匣退出。",
+      "art": "media/mechanisms/c-parts.svg",
+      "source": "C 開放工具格、匣側與分解圖"
+    },
+    "overlay": {
+      "id": "overlay",
+      "room": "C",
+      "image": "C-02",
+      "status": "已觀察",
+      "name": "半透明定位附頁",
+      "en": "半透明定位附頁",
+      "body": "個案 WJ-05｜裝訂面。\n紙面可透出桌紋，部分筆畫在頁邊整齊中斷。左上圓孔、右上短槽、左下缺口為三個不對稱定位點。\n來源：C 資料袋中保留的原附頁。單獨觀看無法讀出完整附記。",
+      "enBody": "個案 WJ-05｜裝訂面。\n紙面可透出桌紋，部分筆畫在頁邊整齊中斷。左上圓孔、右上短槽、左下缺口為三個不對稱定位點。\n來源：C 資料袋中保留的原附頁。單獨觀看無法讀出完整附記。",
+      "art": "media/mechanisms/overlay.svg",
+      "source": "C 表層副本的原資料袋"
+    },
+    "d-card": {
+      "id": "d-card",
+      "room": "D",
+      "image": "D-01",
+      "status": "已觀察",
+      "name": "公事包整理卡",
+      "en": "公事包整理卡",
+      "body": "個案 WJ-05。\n拆頁後不重描；孔位沿用，附記僅留調查燈檢查層。\n資料匣側牌：依歸檔次序落扣，三步後拉柄；先前索引可由退扣柄清除。",
+      "enBody": "個案 WJ-05。\n拆頁後不重描；孔位沿用，附記僅留調查燈檢查層。\n資料匣側牌：依歸檔次序落扣，三步後拉柄；先前索引可由退扣柄清除。",
+      "art": "media/mechanisms/d-card.svg",
+      "source": "D 診療桌公事包"
     }
   },
   "decisions": {

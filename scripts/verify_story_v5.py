@@ -8,4 +8,4 @@ for s in m['segments']:
  for lang,path in s['subtitleTracks'].items():assert (R/path).read_text().startswith('WEBVTT')
  report['segments'].append({'id':s['id'],'decode':'通過','doubleSubtitles':True,'durationMs':s['durationMs'],'sha256':s['sha256']})
  print(s['id'],'完整解碼通過',flush=True)
-report['totalMs']=sum(x['durationMs'] for x in m['segments']);report['documents']=26;report['characters']=5;(O/'verification/media-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+report['totalMs']=sum(x['durationMs'] for x in m['segments']);report['documents']=len(json.loads((R/'assets/story/content-v5.json').read_text())['documents']);report['characters']=5;(O/'verification/media-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

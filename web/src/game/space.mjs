@@ -13,7 +13,7 @@ export const SPACE={
   {id:'workbench',box:[10.65,13.35,6.95,7.75],top:.94},
   {id:'sink',box:[13.38,13.82,7,8.25],top:1.05}]},
  C:{bounds:[-6,6,12,22],floor:.45,height:3.35,spawn:[1.5,15.2],door:[-4.8,21.98],obstacles:[
-  {id:'grill',box:[-1.05,1.05,12.65,13.65],top:1.63},
+  {id:'grill',box:[-1.64,1.05,12.65,13.72],top:1.63},
   {id:'records',box:[.6,2.6,13.8,14.6],top:1.27},
   {id:'weight-rack',box:[2.7,4.1,12.6,14.35],top:1.45},
   {id:'storage-shelf',box:[-5.65,-4.7,13.2,17],top:2.5},

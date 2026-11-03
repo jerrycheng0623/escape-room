@@ -1,18 +1,37 @@
 {
-  "version": 5,
+  "version": 8,
   "puzzles": {
     "A": {
       "code": "120",
-      "recurrence": "a1=12,a2=5,an=2*a(n-1)+a(n-2)"
+      "source": "外蓋與箱身互補刻痕",
+      "release": "拉起把手",
+      "completion": "抽出文書匣",
+      "requiresLidClosed": false
     },
     "B": {
-      "target": [
+      "targets": [
+        [
+          0,
+          100,
+          100
+        ],
+        [
+          100,
+          100,
+          0
+        ]
+      ],
+      "endpoints": [
         0,
-        100,
         100
       ],
-      "tolerance": 0,
-      "confirmBoth": true
+      "confirmBoth": true,
+      "completion": "雙確認且底片框已開",
+      "projectionRequiredFlag": false,
+      "samples": [
+        "KF-1830-27",
+        "KF-2000-61"
+      ]
     },
     "C": {
       "food": 5,
@@ -28,12 +47,45 @@
         "20": 2,
         "10": 2,
         "5": 2
-      }
+      },
+      "assemblyParts": {
+        "K2": 50,
+        "F1": 10,
+        "G1": 5
+      },
+      "placementMs": 250,
+      "completion": "穩定後手動側移承重匣",
+      "autoOpen": false
     },
     "D": {
-      "cells": 6000,
-      "requiredGreaterThan": 4800,
-      "radius": 0.075
+      "grid": [
+        100,
+        60
+      ],
+      "radius": 0.075,
+      "regionCoverage": 0.7,
+      "regionCount": 3,
+      "maskSource": "recordLayout.mjs文字行",
+      "requires": [
+        "UV模組",
+        "C原附頁正面正向對位"
+      ],
+      "snapTolerance": 0.03,
+      "clips": [
+        "圓孔",
+        "雙短線",
+        "斜槽",
+        "方框",
+        "三角"
+      ],
+      "index": [
+        "雙短線",
+        "圓孔",
+        "斜槽"
+      ],
+      "completion": "三區辨讀且資料匣已開",
+      "reportReward": "三區完成",
+      "recordingReward": "D主關完成"
     }
   },
   "hints": {
@@ -63,9 +115,10 @@
   "failure": false,
   "bonus": "可選、可重試、皇冠不受提示影響",
   "endingCount": 1,
-  "saveSchema": 2,
+  "saveSchema": 3,
   "replaySeparate": true,
   "guidanceStyle": "觀察位置與關聯問題，不列解法、精確答案或下一步操作清單",
   "guidanceSource": "web/src/game/guidance.mjs",
-  "spaceVersion": 6
+  "spaceVersion": 6,
+  "mechanicRevision": 3
 }

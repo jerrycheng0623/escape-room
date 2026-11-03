@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-03T16:21:57.533306+08:00",
+  "unitTests": 28,
+  "formalFlows": [
+    "desktop-flow.json",
+    "mobile-flow.json"
+  ],
+  "boundaries": {
+    "chromium-boundaries.json": 31,
+    "webkit-boundaries.json": 30
+  },
+  "naturalPlayback": 28,
+  "mediaControls": 22,
+  "layouts": 14,
+  "httpFiles": 14,
+  "legacyVideoURLs": 7,
+  "subtitleTracks": 14,
+  "exportedRooms": 4,
+  "newMechanismCases": 47,
+  "notTested": [
+    "實體iPhone／iPad／Android",
+    "首次玩家盲測與各關目標遊玩時間",
+    "長時間熱降頻",
+    "所有歷史173列逐字人工驗收"
+  ],
+  "publishStatus": "等待部署後公開網址回歸"
+}
