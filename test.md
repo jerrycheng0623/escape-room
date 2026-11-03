@@ -560,7 +560,7 @@ P0：進度／證物／正式與預覽隔離、可解性、關鍵劇透、結果
 | C12 | B兩裝置同等校正結果，R/G/B目標與容差依定稿，兩照人物／時刻一致；未校正不提前顯示完整線索。 | M3-P04 M3-B01 M3-P04 M3-B04 |
 | C13 | C八個唯一重物共100 kg；不同65組合均有效，64.5／65.5邊界、70不警報／>70警報與取回皆正確；不重複計重。 | M3-P07 M3-C03 M3-C02 M3-C02 M3-C05 M3-C05 M3-X02 |
 | C14 | D對位後三文字區各70%聯集，report先收錄；歸檔索引釋放及抽匣後完成D，重載保留。 | M3-D01 M3-D02 M3-D03 M3-D04 M3-O10 M3-O11 |
-| C15 | C停錶／血跡與D倒櫃／對外出口在不同儲物空間，C鑰匙只開D內門；表層副本在C、原件／UV在D。 | M3-X04 M3-C04 FLOW-004 STORY-003 |
+| C15 | C停錶／血跡與D倒櫃／對外出口在不同儲物空間，C鑰匙只開D內門；表層副本在C、原件／UV在D。 | M3-PC-FLOW M3-C04 FLOW-004 STORY-003 |
 | C16 | 三種提示不直接給B精確通道／C目標或完整A答案；Bonus可略過／重試，結局前不能引用數日後正式姓名回報。 | HINT-002 BONUS-001 BONUS-002 BONUS-003 BONUS-007 |
 | C17 | 四區地板、四面實牆、天花板與封閉門窗完整，不透見室外、其他房間或背面；C以火後圍護封閉且不改過往劇本。 | SPACE-001 |
 | C18 | 角色以0.28m碰撞半徑移動，長按／斜移／低幀率大步長不穿牆、不穿桌床椅架櫃與隔板，舊存檔落在新家具內可安全復位。 | SPACE-002 SPACE-003 SPACE-005 |
@@ -782,11 +782,18 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 | M3-SPACE | 四區四向長按碰撞、六面檢視、安全出生點、隔板遮擋、移櫃；手機搖桿／直向暫停 | 通過；space.json。SwiftShader暖機4秒樣本各區約43–58.5 FPS；不是實體手機效能保證 |
 | M3-FILES | JSON可解析、32文書發行路徑、覆頁同正文分層、場內／案件資料分層、規則與引擎、源檔指紋、44既有道具GLB＋4新房間GLB、影片解碼與原音畫封包 | 通過；source-audit.json、scene-verification.json、material-verification.json、stream-verification.json |
 | M3-BUILD | prepare-assets與正式Vite建置；3D／遊戲／解答分包，未新增付費或後台服務 | 通過；發布檔以web/dist為來源 |
-| M3-PUBLISH | 原入口與mechanisms-v3獨立路徑發布後再驗公開檔案、流程及手機WebKit | 待部署後補結果；不得以本機測試冒充公開測試 |
+| M3-PUBLISH | 原入口與mechanisms-v3獨立路徑均已核對；最新模型發布後重跑桌機／觸控正式流程及WebKit30項機關斷點，兩引擎×雙入口四組首頁無錯誤，14份建置檔SHA一致 | 通過；public-build.json、public-entry.json、public-desktop-flow.json、public-mobile-flow.json、public-webkit-boundaries.json |
 
 修正過的失敗保留於fixed-regressions.json：①Game.jsx漏匯入guidanceStage造成3D黑畫面，補匯入後兩正式流程重測；②投影被底框遮住，調整同一投影面的合成順序並核對四向；③吸附距離改以頁寬計算。工程測試最初以過度精確名稱找不到「繼續調查＋章節」按鈕，已修正選擇器；這是測試腳本問題，與遊戲黑畫面分開。
 
 可重跑：pnpm test、pnpm build、test:ui、test:mobile、test:mechanisms（另以EMBERS_BROWSER=webkit）、test:space、test:media、test:media:controls、test:media:layout、test:media:http、test:media:story；完整指令與使用的環境變數沿用11.4節，新的證據目錄為assets/mechanisms-v3/verification。原始截圖與失敗保存在/tmp/embers-mechanisms-v3，已選圖另交付assets/mechanisms-v3/review。
+
+
+公開發布結果：原入口 https://jerrycheng0623.github.io/escape-room/ 與新入口 https://jerrycheng0623.github.io/escape-room/mechanisms-v3/ 共用桌機／手機版本及同來源存檔。實際機關／模型程式凍結Commit **ed045dddb93e930f895d2f4e4074ed8f8f72f6b0**，含版本戳的來源Commit **4bec8da54d51031115c1533a90ae165218ca6468**，Pages Commit **6ce3e081925e33c72be251a9c5bc2a0decb177e5**；GitHub Pages [workflow 41605696792](https://github.com/jerrycheng0623/escape-room/actions/runs/41605696792)確認success。後續QA文件Commit只補證據，不修改發布程式。兩入口index／JS／CSS／release.json共14檔逐位元組SHA-256相符，release.json對應上述程式來源。
+
+公開站另以WebKit手機MP4及Chromium桌機WebM，把七片各完整自然播一遍，共14次；全部ended並返回檔案，未seek／skip。最新模型修正只改3D配重外觀與支架，播放器程式、影片影像／音軌與字幕檔在這段公開驗收期間保持相同。證據public-webkit-full.json及public-chromium-full.json。正式兩裝置通關及WebKit機關斷點則在最新模型上線後另跑，與影片工程預覽分開。
+
+發布故障也保留：第一次模型補丁的Pages部署回500，重試曾排隊；後續發行含公開版本指紋的新建置已成功。第一輪公開桌機腳本讀camera過早，改為等待canvas及對應room實際ready後重測通過；首頁檢查最初漏算分行標題的空白，已修正選擇器及重測。這些測試腳本失敗不混作遊戲運行錯誤。官方狀態頁未列全站事故，未將單次500推論為GitHub全面故障。
 
 尚未驗證：實體iOS／Android、首次玩家能否獨立辨認刻痕／小樣／總成／覆頁、各關4–12分鐘等目標、趣味與驚喜、30分鐘以上熱降頻、所有歷史案例的逐字人工驗收。這些不標為通過，也不以自動通關速度代替盲測。
 

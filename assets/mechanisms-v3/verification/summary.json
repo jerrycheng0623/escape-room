@@ -23,5 +23,12 @@
     "長時間熱降頻",
     "所有歷史173列逐字人工驗收"
   ],
-  "publishStatus": "等待部署後公開網址回歸"
+  "publishStatus": "通過：最新建置與模型已發布；雙入口指紋、正式桌機／觸控流程及WebKit機關回歸通過",
+  "publicNaturalPlayback": 14,
+  "publicEntryChecks": 4,
+  "publicBuildFiles": 14,
+  "sourceCodeCommit": "ed045dddb93e930f895d2f4e4074ed8f8f72f6b0",
+  "pagesCommit": "6ce3e081925e33c72be251a9c5bc2a0decb177e5",
+  "workflow": 41605696792,
+  "publicURL": "https://jerrycheng0623.github.io/escape-room/mechanisms-v3/"
 }

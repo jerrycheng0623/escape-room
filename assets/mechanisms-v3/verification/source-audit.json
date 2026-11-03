@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T08:32:38.531Z",
+  "date": "2026-11-03T08:51:57.587Z",
   "revision": 3,
   "checks": [
     "玩法JSON與引擎一致",
@@ -143,9 +143,9 @@
   ],
   "sourceHashes": {
     "machine.md": "8bb49f9e07a20f51e7d7f04056e530866dc0dd787b03931fad3104013bf23ec3",
-    "PLAN.md": "4c0f9bfcf9b6adab438ce92619932b61a7b0b3265ba695b27aaf3f8f55e0cb83",
-    "verify.md": "3268c0b3acbc531b2306b106002a3c76d4c09cdeb3329ecec7fd0aa58cd06b05",
-    "test.md": "55d99455b11d5cf03244c3688f8d25403f6ed62c92bf9e195a2b1d7a3f363359",
+    "PLAN.md": "6c3dd89260db29b0015bc1eb726546b28c74edbef24e56411273a480339bac75",
+    "verify.md": "bf65f0719c5aab993cea4464ba9dda47ea080a4e9d59dba53b6cba9eb5833edc",
+    "test.md": "e893d9a450e280befcaddb9852f4cd0c7599899a648a258afadc1d0c6fa961cf",
     "game-rules.json": "79bf4e9be2185f4294294ea053da0194e392998228abc5845cc10bd48ab7b88d",
     "assets/story/content-v5.json": "6dc7bbadc75af8e214fff762bd3e9531fd13b7e5390ff1a60efc8b30b83c2898",
     "web/src/components/Puzzles.jsx": "b58660cda74c5ed84efe2aac9d91b3e7261ee891f1cd9dc431de71ffee69dc2d",

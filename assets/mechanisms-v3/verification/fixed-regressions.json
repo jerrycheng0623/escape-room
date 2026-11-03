@@ -24,6 +24,29 @@
       "issue": "附頁吸附距離應以頁寬計算",
       "fix": "正規化Y距離乘頁高／寬0.65後核對，單元測試包含邊界",
       "evidence": "storage.test.mjs"
+    },
+    {
+      "issue": "公開環境第一次載3D尚未ready，桌機測試就讀camera",
+      "fix": "測試diag每次等canvas、loading消失且room匹配；應用本身仍正常顯示載入",
+      "failureEvidence": "/tmp/embers-mechanisms-v3/public-desktop/playthrough-report.json",
+      "retest": "public-desktop-flow.json"
+    },
+    {
+      "issue": "不同配重高度固定分層，可能重疊或懸空",
+      "fix": "按實際物件高度累積兩列堆放，服務盤固定高度與加寬支撐，重新匯出並驗證模型",
+      "retest": [
+        "scene-verification.json",
+        "space.json"
+      ],
+      "publicStatus": "通過：6ce3e081部署後正式兩裝置流程與WebKit斷點重測"
+    },
+    {
+      "issue": "GitHub Pages建立deployment回覆500；失敗工作重試曾停在queued",
+      "failureWorkflow": 41604281308,
+      "failureLog": "pages-deploy-first-failure.log",
+      "fix": "保留失敗紀錄；加入公開版本指紋後重新發布",
+      "successfulWorkflow": 41605696792,
+      "publicBuildProof": "public-build.json"
     }
   ]
 }
