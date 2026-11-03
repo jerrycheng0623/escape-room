@@ -9,7 +9,9 @@
     "preview": "vite preview --host 127.0.0.1",
     "test": "node --test src/game/*.test.mjs",
     "test:ui": "node scripts/test-ui.mjs",
-    "test:space": "node scripts/test-space-ui.mjs"
+    "test:space": "node scripts/test-space-ui.mjs",
+    "test:media": "node scripts/test-media.mjs",
+    "test:media:controls": "node scripts/test-media-controls.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

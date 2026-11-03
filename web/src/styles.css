@@ -25,3 +25,13 @@
 @media(max-height:500px) and (orientation:landscape){
  .uv-stage{width:min(100%,calc((100dvh - 180px)*1.53846154));min-height:0;max-height:none;aspect-ratio:1000/650;margin-inline:auto}
 }
+.cinema-top .native-toggle{white-space:nowrap;font-size:12px}.cinema-top>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.cinema-buffer{position:absolute;left:50%;top:75px;transform:translateX(-50%);display:flex;align-items:center;gap:15px;padding:10px 16px;max-width:90%;background:#15120ee8;color:#e5dac1;font-size:13px;z-index:3}.cinema-recovery{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;max-width:640px}.cinema-recovery .secondary{display:inline-flex;align-items:center;justify-content:center;padding:12px;text-decoration:none}.cinema-error{overflow:auto}.cinema-error .cinema-recovery .primary{min-width:110px}.cinematic.native-controls .cinema-controls{bottom:62px;background:#100e0ce8}.cinematic.native-controls video{padding-bottom:0}.cinema-error .quiet{font-size:12px}@media(max-width:700px){.cinema-recovery{gap:8px}.cinema-recovery>*{font-size:13px;min-height:42px}.cinema-buffer{top:60px;font-size:12px}.cinema-top .native-toggle{font-size:11px}}
+/* Progress remains available on phones; compact controls use a separate seek row. */
+.cinematic .cinema-controls .time-track{display:block;min-width:36px}
+@media(max-width:700px){
+ .cinematic .cinema-controls{display:grid;grid-template-columns:34px minmax(48px,1fr) minmax(68px,90px) 34px minmax(70px,1fr);gap:8px;padding:10px max(16px,env(safe-area-inset-right)) max(10px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+ .cinematic .cinema-controls .time-track{grid-row:1;grid-column:1/-1;width:100%;height:26px;margin:0;min-width:0}
+ .cinematic .cinema-controls>.icon-btn,.cinematic .cinema-controls>.text-btn,.cinematic .cinema-controls>.cinema-caption{grid-row:2;min-width:0}
+ .cinematic .cinema-controls>.text-btn{font-size:12px;white-space:nowrap;padding-inline:2px}
+ .cinematic .cinema-controls>.icon-btn{width:34px;height:34px}.cinematic .cinema-controls>span,.cinematic .cinema-volume{display:none}
+}
