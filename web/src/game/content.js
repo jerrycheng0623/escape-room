@@ -13,7 +13,7 @@ export const GROUPS={};
 export const EVIDENCE={};
 export const PUZZLE_TARGETS={};
 export const WEIGHTS=[['timber',15,'木樁','Timber'],['iron',20,'鐵塊','Iron'],['sand',10,'沙袋','Sandbag'],['stone',5,'石塊','Stone']].flatMap(([type,kg,name,en])=>[0,1].map(n=>({id:`${type}-${n}`,type,kg,name:`${name}${n+1}`,en:`${en} ${n+1}`})));
-export const REQUIRED={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace','diary','watch','surface'],D:['report','recording','cabinet','exit-traces']};
+export {REQUIRED} from './storage.mjs';
 export const REWARDS={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace'],D:['report','recording']};
 export {HINTS,HINT_MAPPING,HELP,guidanceFor,guidanceStage} from './guidance.mjs';
 export const BONUS=[

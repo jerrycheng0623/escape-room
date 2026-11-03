@@ -19,7 +19,8 @@
     "test:mechanisms": "node scripts/test-v4-boundaries.mjs",
     "test:release": "node scripts/test-release.mjs",
     "test:touch": "node scripts/test-touch-controls.mjs",
-    "test:keyboard": "node scripts/test-keyboard-audio.mjs"
+    "test:keyboard": "node scripts/test-keyboard-audio.mjs",
+    "test:post": "node scripts/test-postgame.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

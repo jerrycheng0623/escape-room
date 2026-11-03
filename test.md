@@ -739,8 +739,9 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 
 | 案例 | 執行／預期 | 本輪判定 |
 | --- | --- | --- |
+| POST-REPLAY | 實際網站建立D重玩須含weight；皇冠補得、影像回看與回訪不覆寫首次結果 | 回歸中，見postgame.json |
 | KEY-AUDIO | 方向鍵環顧、E調查、Tab／Enter拿取；工作片段真實播放／暫停、全文字幕及離開停音 | 通過；兩引擎各5項方向鍵／E／Tab／Enter及MP3實際播放檢查 |
-| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 通過；43項，含256配重子集／63頁面子集／三頁混組幾何 |
+| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 通過；47項，含256配重子集／63頁面子集／三頁混組幾何 |
 | M4-DESKTOP | 首頁新遊戲→實際WASD探索→四關→Q假終點→真案史→出口重建→結局後記 | 通過；desktop-flow.json，從新遊戲實際WASD與逐物件操作 |
 | M4-MOBILE | 同網址，實際CDP觸控移動與環顧、逐物件取證、四關及結局 | 通過；mobile-flow.json，真CDP觸控，沒有注入通關或位置 |
 | M4-WEBKIT | 觸控按鈕、錯路與半完成重載工程fixture；非實體iOS | 通過；webkit-boundaries.json，四區錯路與重載fixture |

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T16:22:36.751Z",
+  "date": "2026-11-03T16:37:46.613Z",
   "revision": 4,
   "schema": 4,
   "worldObjects": 86,
@@ -20,18 +20,18 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 131505,
-      "sha256": "32cdf1fa5f05698ba342e87a11b1a54c1bd5485cc39d3983ffa3eb7c34f3137e"
+      "bytes": 131636,
+      "sha256": "ad048589cfb8f0f1be4c1deffdb5e731dc9ed6490a8f3fd0dd956c44603ac5c0"
     },
     {
       "path": "verify.md",
-      "bytes": 125332,
-      "sha256": "013bcc98049a883622e82e067faa34496b782defe6a69dcb1c7f07b0cd40fce0"
+      "bytes": 125463,
+      "sha256": "e34980819afbb4b8a374a44512c5403062dcd0d4d234ef82d70d627954ae960f"
     },
     {
       "path": "test.md",
-      "bytes": 94782,
-      "sha256": "3255ecc9bb2a2de2c475fc273fec3714ee083bb2dc786b6a04896a93ab8e00f7"
+      "bytes": 94929,
+      "sha256": "f093727650c7581954ab519c07a55960f73a9ffc87102c18f51b18a0a9550b9d"
     },
     {
       "path": "game-rules.json",
@@ -65,8 +65,8 @@
     },
     {
       "path": "web/src/game/storage.mjs",
-      "bytes": 17721,
-      "sha256": "53a4ee9beebe0fab8bfb851b5223b2af5294d74047919dd34fca89ef615b88a0"
+      "bytes": 17833,
+      "sha256": "7c5b0e63115b321980e01d538e883f8c211aa1ef62fc402edf16371b1b1f4edc"
     },
     {
       "path": "web/src/game/world.mjs",

@@ -5,7 +5,7 @@ import {GUIDANCE_STAGES} from './guidance.mjs';
 export const RUN_KEY='embers.investigation.v1',BACKUP_KEY=RUN_KEY+'.backup',SETTINGS_KEY='embers.settings.v1',REPLAY_KEY='embers.replay.v4';
 export const DEFAULT_SETTINGS={lang:'zh-Hant',device:'desktop',hint:'novice',sound:false,volume:.35,quality:'medium',brightness:1.15,reducedMotion:false,subtitles:true,subtitleLanguage:'auto',textSize:18,sensitivity:1,explorationAssist:false};
 const IDS=new Set('invitation commission police threat card formula door-sign notes clipping first-photo last-photo worklog diary watch blood weight manual necklace key surface uv-module report recording cabinet exit-traces identity overlay b-tools a-receipt a-structure b-samples c-parts d-card'.split(' '));
-export const REQUIRED={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace','diary','watch','surface'],D:['report','recording','cabinet','exit-traces']};
+export const REQUIRED={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace','diary','watch','surface','weight'],D:['report','recording','cabinet','exit-traces']};
 const REWARDS={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace'],D:['report']};
 const uniq=x=>Array.isArray(x)&&new Set(x).size===x.length;
 const nonnegative=x=>Number.isInteger(x)&&x>=0;
@@ -40,7 +40,7 @@ export const basketLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.cont
 export const panLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.container==='pan'&&WORLD[id].kg).reduce((n,[id])=>n+WORLD[id].kg,0);
 export const routeWorks=p=>p.route.join(',')==='A0,M,F,B';
 function settle(run){const p=run.puzzles;for(const room of ROOM_ORDER){if(run.solved.includes(room)||run.solved.length!==ROOM_ORDER.indexOf(room))continue;const yes=room==='A'?p.A.panel:room==='B'?p.B.originalOpened:room==='C'?p.C.hatchRaised:p.D.lowerOpened;if(yes&&REWARDS[room].every(id=>run.evidence.includes(id)))run={...run,solved:[...run.solved,room]};}if(run.evidence.includes('report')&&run.cabinetMoved&&['notes','clipping','first-photo','last-photo','worklog','weight','diary','watch','necklace','surface'].every(id=>run.evidence.includes(id)))run=addEvidence(run,'recording');return run;}
-export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase!=='explore'||!item||item.room!==run.room&&run.objects[id]?.container==='world'||run.legacyCompleted.includes(run.room))return run;let n=structuredClone(run),o=n.objects[id],p=n.puzzles[item.room];o.discovered=true;const held=n.held,hand=held?WORLD[held]:null;
+export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase!=='explore'||!item||item.room!==run.room&&run.objects[id]?.container==='world'||run.legacyCompleted.includes(run.room)&&!['observe','collect','take','hold','return','work','flip','rotate','move','annotate'].includes(verb))return run;let n=structuredClone(run),o=n.objects[id],p=n.puzzles[item.room];o.discovered=true;const held=n.held,hand=held?WORLD[held]:null;
  if(o.container==='strip'&&n.puzzles.B.transported&&['take','return','flip','rotate','connect'].includes(verb))return run;
  if(verb==='annotate'&&typeof value==='string')n.annotations[n.room]=value.slice(0,6000);
  if(verb==='observe')return n;
