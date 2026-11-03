@@ -1,14 +1,14 @@
 {
-  "appVersion": "0.8.0",
-  "mechanicRevision": 3,
-  "saveSchema": 3,
-  "sourceCodeCommit": "ed045dddb93e930f895d2f4e4074ed8f8f72f6b0",
-  "createdAt": "2026-11-03T08:45:41.505178+00:00",
+  "appVersion": "0.9.0",
+  "mechanicRevision": 4,
+  "saveSchema": 4,
+  "sourceCodeCommit": "cc8f478e44671262a062e47197458de3b23de206",
+  "createdAt": "2026-11-03T16:07:24.802945+00:00",
   "assets": {
-    "index-CNnZDp4x.css": "886026fea221656b05eeb09dd527593d8f783535d98392e870d98a35cc05e4e8",
-    "Game-B9_A4G4F.js": "596f9a0372e53d0ca23c99da94286d8ea4adc8b8483130275f55c17cf18b97e3",
-    "Scene-BwB8algE.js": "84fdd5b792123b7e58ded23be06bf51c31f0ee60d4cf938980833276084759a1",
-    "solutions-CC0X9cqs.js": "3a2ca0abc52ec86bb752f4c26c026e4ff2e2fc9fb65d18f29f87c6ca318cb0fb",
-    "index-B_m8VDMv.js": "3cc26583904d9806b67d9fca5750d23cd1772fe1b41f0139239169f2356c3aa8"
+    "Game-CZud6q-f.js": "38138ee12e7a267e1becf1c27d7c6113f9b8e32d0ca82f61c7381271d57dda89",
+    "Scene-BBi8OaDf.js": "49f687ceb4b9046c29573edcde191573370bfca57ad8144da867db6d53fbb07f",
+    "index-BYDNlXKL.css": "5515c3cabf06da5a345f3d49c601b3274badbfe5e1dfa6a820f14a9a5152e58e",
+    "index-EgoodT27.js": "5c3b8805d56fb9f07ce8688a13246413930e706892bf786cd0b5af80601a3b19",
+    "solutions-B3KG_DyU.js": "aafcafade170244c32d0e94ca5af241f26d8192659e747e633e838a5c85641f2"
   }
 }

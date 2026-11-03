@@ -1,0 +1,14 @@
+{
+  "appVersion": "0.9.0",
+  "mechanicRevision": 4,
+  "saveSchema": 4,
+  "sourceCodeCommit": "cc8f478e44671262a062e47197458de3b23de206",
+  "createdAt": "2026-11-03T16:07:24.802945+00:00",
+  "assets": {
+    "Game-CZud6q-f.js": "38138ee12e7a267e1becf1c27d7c6113f9b8e32d0ca82f61c7381271d57dda89",
+    "Scene-BBi8OaDf.js": "49f687ceb4b9046c29573edcde191573370bfca57ad8144da867db6d53fbb07f",
+    "index-BYDNlXKL.css": "5515c3cabf06da5a345f3d49c601b3274badbfe5e1dfa6a820f14a9a5152e58e",
+    "index-EgoodT27.js": "5c3b8805d56fb9f07ce8688a13246413930e706892bf786cd0b5af80601a3b19",
+    "solutions-B3KG_DyU.js": "aafcafade170244c32d0e94ca5af241f26d8192659e747e633e838a5c85641f2"
+  }
+}

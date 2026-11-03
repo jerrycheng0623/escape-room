@@ -17,8 +17,8 @@
     ],
     "poster": "media/posters/CIN-00.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-00-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-00-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
@@ -108,36 +108,36 @@
     "title": "客房：灰燼裡的謊言",
     "titleEn": "Guest room · Lies in the ashes",
     "duration": 45,
-    "video": "media/video/CIN-A-compatible-v7.mp4",
+    "video": "media/video/CIN-A-compatible-v9.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-A-compatible-v7.mp4",
+        "src": "media/video/CIN-A-compatible-v9.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-A-compatible-v7.webm",
+        "src": "media/video/CIN-A-fallback-v9.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
     "poster": "media/posters/CIN-A.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-A-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-A-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
         "start": 0,
         "end": 9,
-        "zh": "灰綠外套與金屬箱留下了記者的痕跡。那封信，是她恐懼的來源。",
-        "en": "The coat and metal box marked the reporter’s belongings. The letter explained her fear.",
+        "zh": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+        "en": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
         "text": "妳當年明明握有能繼續追查的資料，卻為了懸案熱度\n，把真相壓了下來。\n來參加這次聚會。否則，我會把妳隱匿線索的事公諸\n於世。\n王杰倫",
         "document": "threat"
       },
       {
         "start": 9,
         "end": 18,
-        "zh": "箱緣刻痕在收合時連成數字。鎖舌釋放後，文書匣才真正打開。",
-        "en": "The separated marks join as the lid closes. Releasing the latch lets the document tray slide out.",
+        "zh": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+        "en": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
         "text": "",
         "document": null
       },
@@ -185,8 +185,8 @@
     ],
     "poster": "media/posters/CIN-B.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-B-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-B-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
@@ -249,8 +249,8 @@
     ],
     "poster": "media/posters/CIN-C.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-C-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-C-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
@@ -324,28 +324,28 @@
     "title": "診療區：另一種飢餓",
     "titleEn": "Clinic · Another hunger",
     "duration": 96,
-    "video": "media/video/CIN-D-compatible-v7.mp4",
+    "video": "media/video/CIN-D-compatible-v9.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-D-compatible-v7.mp4",
+        "src": "media/video/CIN-D-compatible-v9.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-D-compatible-v7.webm",
+        "src": "media/video/CIN-D-fallback-v9.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-D.webp",
+    "poster": "media/posters/CIN-D-v9.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-D-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-D-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
         "start": 0,
         "end": 12,
-        "zh": "虛構UV調查模組，讓張萍原件中被遮住的附記顯現。",
-        "en": "The UV investigation module revealed the concealed note on Zhang Ping’s original.",
+        "zh": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+        "en": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
         "text": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已\n死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項\n記錄僅供診療，不足以證明本次案件任何人的犯罪行\n為。\n【偵探重建：先有五年前火災與受困，才有食用遺體\n的往事；這次聚會的縱火，則是另一件事。】",
         "document": "report"
       },
@@ -441,8 +441,8 @@
     ],
     "poster": "media/posters/CIN-END.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-END-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-END-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
@@ -529,8 +529,8 @@
     ],
     "poster": "media/posters/CIN-EPILOGUE.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-mechanisms-v3.vtt",
-      "en": "media/subtitles/CIN-EPILOGUE-en-mechanisms-v3.vtt"
+      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-mechanisms-v4.vtt",
+      "en": "media/subtitles/CIN-EPILOGUE-en-mechanisms-v4.vtt"
     },
     "transcript": [
       {
