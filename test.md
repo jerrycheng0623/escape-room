@@ -3,7 +3,7 @@
 > 檔名：`test.md`｜版本：v2.2｜更新時間：2026-11-03 CST（Asia/Taipei）  
 > 規格基準：[verify.md v2.1](./verify.md)；最新影片修正與同址測試見第11.4節；第11.1–11.3節為先前v6快照，原173案例仍作完整驗收計畫。
 > 性質：可執行的測試規格＋本輪實測紀錄。案例寫好不等於通過；預覽可通不等於正式通關。  
-> 最新授權：使用者已交付新版美術，並要求補文書、整合2D／3D與網站、刪除已有新對照的舊媒體。本輪按此授權實作與測試；先前媒體凍結僅屬歷史輪次。新版原畫、角色參考與原始腳本保留。
+> 最新授權：修正使用者回報的iPhone／iPad Safari影片播放問題；手機與電腦共用原公開URL，加入可重跑測試、實際結果、歷史失敗與真機限制。相容影片衍生檔與播放器修正依此授權製作。
 
 ## 01｜用途、權威與本輪邊界
 
@@ -697,16 +697,16 @@ P0：進度／證物／正式與預覽隔離、可解性、關鍵劇透、結果
 - 使用者回報：顯示無法播放影片。尚未取得使用者裝置、瀏覽器版本與原始MediaError碼，不能指定其唯一根因。
 - 原v5 MP4公開來源回應200，Range請求回應206，Content-Type為video/mp4；原序幕為H.264 High／yuv420p／AAC-LC，並含mov_text軌。實際內建瀏覽器當次預覽序幕可到readyState 4、時間5.5秒且有畫面；這不能推翻使用者在其他裝置或輪次遇到的錯誤。
 - 已確認實作缺口：只有單一影片格式；播放拒絕未區分自動播放政策與媒體解碼；沒有長時間緩衝提示；影片錯誤遮罩覆蓋底部控制列，原文字雖說可略過，對應按鈕卻在遮罩後。
-- 修正：新增H.264 Constrained Baseline 3.1／AAC-LC立體聲／faststart MP4，另備VP9／Opus WebM；不攜帶內嵌mov_text，仍使用外部繁中／英文VTT。影片內容、時序、原始v5影片與原畫保留；這是相容性衍生交付，不新增劇情。
-- 媒體索引提供兩個來源，瀏覽器先選支援格式，來源失敗時切換備援；快取索引以playback-6版本及no-cache重新核對。自動播放被拒絕顯示明確手動播放入口；靜音與playsInline在初次渲染即設定。
+- 修正：最終revision 7保留原始H.264 High／AAC-LC影音串流，不重編碼影音，移除內嵌字幕並faststart封裝，另備VP9／Opus WebM；不攜帶內嵌mov_text，仍使用外部繁中／英文VTT。影片內容、時序、原始v5影片與原畫保留；這是相容性衍生交付，不新增劇情。
+- 媒體索引提供兩個來源，瀏覽器先選支援格式，來源失敗時切換備援；快取索引以playback-7版本及no-cache重新核對。自動播放被拒絕顯示明確手動播放入口；靜音與playsInline在初次渲染即設定。
 - 新播放器提供實際MediaError碼、重試、全文、直接在瀏覽器開啟來源與可點擊的略過按鈕；等待12秒無進展提供重新載入，不擅自通關或跳過機關。可切換原生控制。暫停後拖曳進度、全文關閉或字幕切換不應自行恢復播放。
 - 網站仍維持單一結局、主機關不得略過、首次紀錄保護及手機橫向探索；播放器錯誤恢復不得改寫謎題狀態。
 
 #### 11.4.2 環境、資料與重跑方式
 
-單代理；原始碼儲存庫jerrycheng0623/escape-room，分支Website-2；發行前基準Commit為133f06d1f85ed6ecf8a52eca1a7ba47fc049d2b0。這份本機目錄仍非Git checkout，不能把遠端Commit冒充本機工作狀態。新播放器來源雜湊、實際發布Commit與最終執行結果於驗收後記錄。
+單代理；原始碼儲存庫jerrycheng0623/escape-room，分支Website-2；發行前基準Commit為133f06d1f85ed6ecf8a52eca1a7ba47fc049d2b0。這份本機目錄仍非Git checkout，不能把遠端Commit冒充本機工作狀態。最終播放器來源Commit：3a04f1f8e9ccc9315d6257152236f6c162d4e87e；Pages Commit：c9b06ebe38f3558b3268cae9a18ead32a51c7173。最終文件補記Commit會晚於這兩者；播放器／影片內容以這組凍結版本為準。
 
-環境：macOS arm64、Node 24.22.1、Playwright／Chromium 151.0.7922.34；沒有Browser plugin，依前端測試技能使用既有Playwright。桌機1440×900；手機844×390、667×375、390×844，isMobile＋hasTouch；觸控以tap或實際CDP touch事件，存檔使用隔離profile。內建瀏覽器另以實際畫面檢查。手機模擬不等於實體iPhone／Android、Safari或電池效能驗收。
+環境：macOS arm64、Node 24.22.1、Playwright／Chromium 151.0.7922.34；沒有Browser plugin，依前端測試技能使用Playwright。另安裝官方Playwright WebKit 26.5（build 2336）測試Safari引擎；使用者補充實際出問題環境為iPhone／iPad Safari，裝置型號與Safari版本尚未取得。WebKit不是使用者的實體Safari。桌機1440×900；手機844×390、667×375、390×844，isMobile＋hasTouch，WebKit手機另使用iPhone 13裝置描述；觸控以tap或實際CDP touch事件，存檔使用隔離profile。內建瀏覽器另以實際畫面檢查。手機模擬與WebKit引擎不等於實體iPhone／iPad／Android、正式Safari版本或電池效能驗收。
 
 ```sh
 cd web
@@ -717,24 +717,62 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ EMBERS_QA_DIR=/tmp/embe
 EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ EMBERS_QA_DIR=/tmp/embers-media-controls pnpm test:media:controls
 ```
 
-`test:media`四個隔離profile各自從第0秒，以1倍速度完整播放七部影片並等待自然ended與畫面返回；不修改currentTime、playbackRate、時鐘或注入ended／通關旗標。每部記錄實際currentSrc、秒數、影格數、卡住樣本、自然ended與回檔案結果。備援組故意中斷MP4請求，不能把預期的requestfailed算成一般零故障播放。`test:media:controls`另測控制與故障，拖曳／略過只屬操作案例，不列為完整播放。
+最終公開長測採四個隔離profile：Chromium桌機MP4、Chromium手機WebM、WebKit手機MP4、WebKit桌機WebM。兩引擎的桌機／手機控制與格式切換另各自測試。`test:media`每個profile各自從第0秒，以1倍速度完整播放七部影片並等待自然ended與畫面返回；不修改currentTime、playbackRate、時鐘或注入ended／通關旗標。每部記錄實際currentSrc、秒數、影格數、卡住樣本、自然ended與回檔案結果。備援組故意中斷MP4請求，不能把預期的requestfailed算成一般零故障播放。`test:mobile`使用持久化的test-mobile-ui.mjs與mobile-test-tools.mjs跑純觸控正式流程；原桌機test:ui維持鍵盤／滑鼠操作。`test:media:controls`另測控制與故障，拖曳／略過只屬操作案例，不列為完整播放。
+
+
+補充可重跑命令（同一公開URL）：
+
+```sh
+EMBERS_MEDIA_MATRIX=desktop:primary,mobile:fallback EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media
+EMBERS_BROWSER=webkit EMBERS_MEDIA_MATRIX=mobile:primary,desktop:fallback EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media
+EMBERS_BROWSER=webkit EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:controls
+EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
+```
+
+歷史失敗與調整（不刪除失敗證據）：
+
+1. 初版Baseline相容檔使兩格式合計約99MiB，增加流量；初版四路公開長測在CIN-C逾時。當時同時下載WebKit及整批影片校驗，存在頻寬競爭。不能斷言這就是使用者Safari的唯一根因。單片CIN-C重測自然播完、無MediaError；完整原始資料保留。
+2. WebKit測試確認原始H.264 High可起播，最終改成直接保留原始影音串流的revision 7；兩格式合計約43.34MiB。舊Baseline版不作現行交付，保留為歷史來源；原始v5與已發布的versioned URL都保留完整位元組，避免Safari Range快取拼接不同檔案。
+3. 桌機正式UI回歸曾在D區仍顯示「正在準備」時逾時；手機回歸也曾在相機診斷尚未就緒時讀取camera失敗。測試原用固定1.5秒等待；已讓兩份測試共同核對canvas、loading消失、相機資料及room一致，再進行操作。未取消碰撞、強制點擊或改變機關規則。
+4. WebKit原生控制的空白鍵行為與Chromium不同，不把測試工具的鍵盤假設視為影片解碼失敗；WebKit核對原生controls可用，播放／暫停以網站控制實際驗證。實體Safari的系統原生控制操作仍待真機。
+5. 新增14檔完整SHA-256／MIME／206 Range校驗、7個舊影片URL與14份VTT檢查。舊快取URL曾在中間發布缺失，最終已保留原始及各已發行版本；最終公開結果須以本節表格與對應報告判定。
 
 #### 11.4.3 專項案例與結果
 
 | ID | 前置／操作 | 驗收條件 | 結果 |
 | --- | --- | --- | --- |
-| VID-FULL-PC-MP4 | 同一URL桌機；依序播放七幕；不拖曳不略過 | 七部1倍自然播完、解碼影格大於0、回檔案；無應用錯誤 | 執行中，未宣稱通過 |
-| VID-FULL-MOBILE-MP4 | 同一URL觸控；依序播放七幕 | 同上，inline播放，觸控入口可用 | 執行中，未宣稱通過 |
-| VID-FULL-PC-WEBM | 桌機故意中斷MP4 | 自動用WebM，七部完整自然播完 | 執行中，未宣稱通過 |
-| VID-FULL-MOBILE-WEBM | 手機故意中斷MP4 | 自動用WebM，七部完整自然播完 | 執行中，未宣稱通過 |
-| VID-CTRL-PC / MOBILE | 暫停、暫停中拖曳、雙語／關字幕、靜音、原生控制、全文後繼續 | 真實影片狀態與介面一致；不自行重啟已暫停影片 | 執行中 |
-| VID-POLICY-PC / MOBILE | 工程模擬NotAllowedError；再按播放 | 先顯示點擊播放，不誤報檔案壞掉；手動後開始 | 執行中 |
-| VID-FALLBACK-PC / MOBILE | 中斷MP4請求 | currentSrc為WebM且時間實際增加 | 執行中 |
-| VID-RETRY-PC / MOBILE | 兩來源失敗→讀全文→恢復網路→重試 | 可操作錯誤面板；恢復播放；正式phase仍為intro | 執行中 |
-| VID-ERROR-SKIP-PC / MOBILE | 兩來源失敗→遮罩內略過動畫 | 可離開影片並進入A；不解開A機關 | 執行中 |
-| VID-SLOW-MOBILE | 工程延遲影片回應超過12秒→恢復回應 | 出現載入較久及重載入口；恢復後可播，不自行跳故事 | 執行中 |
-| VID-STORY-FLOW | 桌機及手機正式UI操作至結局／後記 | 解鎖順序、播放器替換、影片略過與完成均維持冪等 | 待新播放器回歸 |
+| VID-FULL-PC-MP4 | 同一URL Chromium桌機；依序播放七幕；不拖曳不略過 | 七部1倍自然播完、解碼影格大於0、回檔案；無應用錯誤 | 通過：Chromium，7／7完整自然播放；1倍、從0秒、無略過；已回檔案 |
+| VID-FULL-MOBILE-MP4 | 同一URL WebKit iPhone描述＋觸控；依序播放七幕 | 同上，inline播放，觸控入口可用 | 通過：WebKit，7／7完整自然播放；1倍、從0秒、無略過；已回檔案 |
+| VID-FULL-PC-WEBM | WebKit桌機故意中斷MP4 | 自動用WebM，七部完整自然播完 | 通過：WebKit，7／7完整自然播放；1倍、從0秒、無略過；已回檔案 |
+| VID-FULL-MOBILE-WEBM | Chromium手機故意中斷MP4 | 自動用WebM，七部完整自然播完 | 通過：Chromium，7／7完整自然播放；1倍、從0秒、無略過；已回檔案 |
+| VID-CTRL-PC / MOBILE（兩引擎） | 暫停、暫停中拖曳、雙語／關字幕、靜音、原生控制、全文後繼續 | 真實影片狀態與介面一致；不自行重啟已暫停影片 | 通過：兩引擎×桌機／觸控，共4組 |
+| VID-POLICY-PC / MOBILE（兩引擎） | 工程模擬NotAllowedError；再按播放 | 先顯示點擊播放，不誤報檔案壞掉；手動後開始 | 通過：兩引擎×桌機／觸控，共4組 |
+| VID-FALLBACK-PC / MOBILE（兩引擎） | 中斷MP4請求 | currentSrc為WebM且時間實際增加 | 通過：兩引擎×桌機／觸控，共4組 |
+| VID-RETRY-PC / MOBILE（兩引擎） | 兩來源失敗→讀全文→恢復網路→重試 | 可操作錯誤面板；恢復播放；正式phase仍為intro | 通過：兩引擎×桌機／觸控，共4組 |
+| VID-ERROR-SKIP-PC / MOBILE（兩引擎） | 兩來源失敗→遮罩內略過動畫 | 可離開影片並進入A；不解開A機關 | 通過：兩引擎×桌機／觸控，共4組 |
+| VID-SLOW-MOBILE（兩引擎） | 工程延遲影片回應超過12秒→恢復回應 | 出現載入較久及重載入口；恢復後可播，不自行跳故事 | 通過：兩引擎手機，共2組；本表控制／恢復合計22組 |
+| VID-STORY-FLOW | 桌機及手機正式UI操作至結局／後記 | 解鎖順序、播放器替換、影片略過與完成均維持冪等 | 通過：公開版桌機與純觸控各一條正式通關；含手機A／UV途中刷新及C超載復原 |
+| VID-HTTP | 14檔整檔SHA／MIME／Range；7舊URL；14VTT | 與交付manifest完全一致，舊URL不404 | 通過：14／14整檔SHA與MIME／206、7／7舊URL、14／14 VTT |
+| VID-LAYOUT | 兩引擎各375×667、390×844、667×375、800×360、844×390、768×1024、1024×768 | 影片可見；可見控制中心可命中、無裁切與水平溢出，進度列保留 | 通過：14組，含iPhone／iPad尺寸模擬 |
+| VID-NATURAL-STORY | 從正式UI通關快照建立獨立結局fixture，兩段1倍自然播完 | END自然接EPILOGUE，再寫入完成及姓名；不可提前發身分通知 | 通過：WebKit iPhone描述及Chromium桌機各一條；兩片均1倍自然完成，工程fixture獨立列計 |
 | VID-PHYSICAL | 真實iOS Safari／Android Chrome | 依實際裝置核對播放／音效／旋轉／恢復 | 未測試；不可由UA或觸控模擬代替 |
+
+最終結果彙整（同一公開URL、凍結播放器3a04f1f8／Pages c9b06ebe）：
+
+- 28／28次完整自然播放通過：每引擎14次、每profile七片，均1倍、0秒起、不拖曳／略過，解碼影格大於0且返回檔案。這是28次播放，不是28個不同影片。
+- 22／22組控制與故障恢復、14／14組手機／平板尺寸與引擎版面檢查通過；控制列中心點可命中、進度列可見，沒有水平溢出。
+- 14／14影片整檔SHA-256與MIME／206 Range、7／7原始舊URL、14／14 VTT通過。14個來源為七片×兩格式，不是14幕劇情。
+- 桌機鍵盤／滑鼠與Chromium純觸控各一條新遊戲正式通關通過；WebKit與Chromium另各一條工程結局fixture自然END→EPILOGUE→completed通過。不可把兩條fixture當成親解全通關。
+- pnpm test 21／21、正式pnpm build通過。正常路徑沒有pageerror；軟體繪圖警告與故意斷網requestfailed不假裝是一般網路零錯誤。
+- iPhone／iPad Safari**實體裝置**仍未測試；WebKit與iPhone裝置描述是引擎／尺寸模擬。尚未取得使用者實際Safari版本、硬體或原始錯誤碼，因此不能宣稱已證明其唯一根因，或保證所有iOS版本皆通過。iOS實際喇叭音量、低耗電模式、系統背景／鎖屏恢復、原生全螢幕與長時效能仍需真機。
+
+可核對證據（已納入原始碼分支）：assets/playback-v6/verification/chromium-full.json、webkit-full.json、chromium-controls.json、webkit-controls.json、layout.json、http.json、desktop-game-flow.json、mobile-game-flow.json、natural-ending.json、environment.json。每筆保留實際URL、日期、引擎、裝置／格式、操作與成功條件；全片報告另含時長、影格與3秒取樣。截圖／歷史失敗證據另保存在外部QA資料夾，沒有複製使用者真實存檔。
+
+新增重跑入口：pnpm test:media:layout；pnpm test:mobile；pnpm test:media:story（須以EMBERS_COMPLETED_FIXTURE指向test:ui產生的completed.json）。影片純串流核對可執行scripts/verify_playback_streams.py並指定FFMPEG。
+
+影片與音軌無重編碼另由FFmpeg分離後做SHA-256串流比對，七部影像與音軌都與原始v5完全一致，見assets/playback-v6/stream-verification.json。
+
+參考規則：[WebKit影片政策](https://webkit.org/blog/6784/new-video-policies-for-ios/)、[MDN自動播放與拒絕處理](https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Autoplay)、[Playwright WebKit測試範圍](https://playwright.dev/docs/browsers#webkit)。這些是相容性依據，不是使用者裝置上唯一根因的證明。
 
 尚未完成的項目保留原狀，不以建置成功、影片200、起播0.25秒、完整FFmpeg解碼或預期結果代替瀏覽器自然播放到結束。
 

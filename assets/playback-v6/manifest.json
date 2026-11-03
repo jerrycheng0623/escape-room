@@ -1,7 +1,7 @@
 {
   "version": 7,
   "date": "2026-11-03T11:51:22.615281+08:00",
-  "purpose": "Playback revision 7; retain original audiovisual streams and low bandwidth, external VTT captions, WebM fallback. Previous Baseline experiments remain historical source files only.",
+  "purpose": "Playback revision 7; retain original audiovisual streams and low bandwidth, external VTT captions, WebM fallback. Previous Baseline versions are retained as immutable URLs for old cached clients, not active manifest sources.",
   "mp4": "Original H.264 High / yuv420p and AAC-LC streams copied unchanged; remove embedded subtitle tracks and faststart remux. Verified original decoding in WebKit.",
   "webm": "VP9 / Opus stereo",
   "segments": [

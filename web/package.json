@@ -12,7 +12,10 @@
     "test:space": "node scripts/test-space-ui.mjs",
     "test:media": "node scripts/test-media.mjs",
     "test:media:controls": "node scripts/test-media-controls.mjs",
-    "test:media:http": "node scripts/test-media-http.mjs"
+    "test:media:http": "node scripts/test-media-http.mjs",
+    "test:media:layout": "node scripts/test-media-layout.mjs",
+    "test:media:story": "node scripts/test-media-story.mjs",
+    "test:mobile": "node scripts/test-mobile-ui.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",
