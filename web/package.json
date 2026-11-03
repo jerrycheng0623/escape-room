@@ -18,7 +18,8 @@
     "test:mobile": "EMBERS_DEVICE=mobile node scripts/test-v4.mjs",
     "test:mechanisms": "node scripts/test-v4-boundaries.mjs",
     "test:release": "node scripts/test-release.mjs",
-    "test:touch": "node scripts/test-touch-controls.mjs"
+    "test:touch": "node scripts/test-touch-controls.mjs",
+    "test:keyboard": "node scripts/test-keyboard-audio.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

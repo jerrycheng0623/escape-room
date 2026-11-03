@@ -18,7 +18,7 @@ export default function Scene({room,settings,paused,input,objects,onTarget,onRea
   const gl=renderer.getContext(),extension=gl.getExtension('WEBGL_debug_renderer_info'),rendererName=extension?gl.getParameter(extension.UNMASKED_RENDERER_WEBGL):'',software=/swiftshader|llvmpipe|software/i.test(rendererName);
   let ratio=Math.min(devicePixelRatio||1,software?.65:settings.quality==='high'?1.6:settings.quality==='low'?.85:1.2);
   renderer.setPixelRatio(ratio);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.setClearColor('#100f0c');renderer.shadowMap.enabled=!software&&settings.quality!=='low';renderer.shadowMap.type=THREE.PCFSoftShadowMap;
-  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('aria-label','密閉3D調查空間；WASD移動，拖曳環顧，E查看實物');host.append(canvas);
+  const canvas=renderer.domElement;canvas.tabIndex=0;canvas.setAttribute('aria-label','密閉3D調查空間；WASD移動，方向鍵或拖曳環顧，E查看實物');host.append(canvas);
   const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(62,1,.045,35);camera.rotation.order='YXZ';let yaw=0,pitch=0;
   scene.add(new THREE.HemisphereLight('#e5d5b9','#40382b',.85));scene.add(new THREE.AmbientLight('#c9b999',.25));
   const lamp=new THREE.PointLight('#ffd39b',32,16,1.55);lamp.castShadow=renderer.shadowMap.enabled;lamp.shadow.mapSize.set(1024,1024);lamp.shadow.bias=-.001;lamp.shadow.normalBias=.035;scene.add(lamp);
@@ -46,7 +46,8 @@ export default function Scene({room,settings,paused,input,objects,onTarget,onRea
   renderer.setAnimationLoop(now=>{
    const state=latest.current,dt=Math.min((now-last)/1000,.06);last=now;if(!alive||!ready)return;
    syncModels(state);if(state.paused||document.hidden){blur();frames=0;sampleStart=now;return;}
-   const ix=(keys.has('KeyD')||keys.has('ArrowRight')?1:0)-(keys.has('KeyA')||keys.has('ArrowLeft')?1:0)+(input.current?.x||0),iz=(keys.has('KeyW')||keys.has('ArrowUp')?1:0)-(keys.has('KeyS')||keys.has('ArrowDown')?1:0)-(input.current?.y||0),norm=Math.max(1,Math.hypot(ix,iz));
+   yaw+=((keys.has('ArrowLeft')?1:0)-(keys.has('ArrowRight')?1:0))*dt*1.1*state.settings.sensitivity;pitch=THREE.MathUtils.clamp(pitch+((keys.has('ArrowUp')?1:0)-(keys.has('ArrowDown')?1:0))*dt*.85*state.settings.sensitivity,-1.15,1.15);
+   const ix=(keys.has('KeyD')?1:0)-(keys.has('KeyA')?1:0)+(input.current?.x||0),iz=(keys.has('KeyW')?1:0)-(keys.has('KeyS')?1:0)-(input.current?.y||0),norm=Math.max(1,Math.hypot(ix,iz));
    const p=movePlayer(state.room,{x:camera.position.x,z:camera.position.z},(Math.cos(yaw)*ix-Math.sin(yaw)*iz)/norm*dt*1.85,(-Math.sin(yaw)*ix-Math.cos(yaw)*iz)/norm*dt*1.85,{cabinetMoved:state.cabinetMoved});
    camera.position.set(p.x,SPACE[state.room].floor+EYE_HEIGHT,p.z);camera.rotation.set(pitch,yaw,0);camera.getWorldDirection(forward);flashlight.position.copy(camera.position);flashlight.target.position.copy(camera.position).addScaledVector(forward,4);renderer.toneMappingExposure=state.settings.brightness;
    if(now-lastInspect>120){lastInspect=now;const eye=camera.position.toArray();let target=null,best=Infinity;for(const [id,item] of Object.entries(WORLD)){if(item.room!==state.room||state.objects[id].container!=='world'||item.behind&&!state.objects[item.behind].opened)continue;const pos=rooms[state.room].objects[id].position.toArray(),v=new THREE.Vector3(...pos).sub(camera.position),distance=v.length();if(distance>2.65||v.normalize().dot(forward)<.96||!visibleTarget(state.room,eye,pos,item.owner||SPACE[state.room].obstacles.find(o=>item.pos[0]>=o.box[0]-.1&&item.pos[0]<=o.box[1]+.1&&item.pos[2]>=o.box[2]-.1&&item.pos[2]<=o.box[3]+.1)?.id,{cabinetMoved:state.cabinetMoved}))continue;const score=distance*.001+(1-v.dot(forward))*100;if(score<best){best=score;target=id;}}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T16:04:52.583Z",
+  "date": "2026-11-03T16:22:36.751Z",
   "revision": 4,
   "schema": 4,
   "worldObjects": 86,
@@ -20,23 +20,23 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 131321,
-      "sha256": "4e50fba097311ddf96d983160baa0e7ac2f9fed9c12528a80d353d35c8b185cd"
+      "bytes": 131505,
+      "sha256": "32cdf1fa5f05698ba342e87a11b1a54c1bd5485cc39d3983ffa3eb7c34f3137e"
     },
     {
       "path": "verify.md",
-      "bytes": 125148,
-      "sha256": "ae6fa2cb60489f1916d5833fce3493652893a605ff989b39546d4ac66bf14f47"
+      "bytes": 125332,
+      "sha256": "013bcc98049a883622e82e067faa34496b782defe6a69dcb1c7f07b0cd40fce0"
     },
     {
       "path": "test.md",
-      "bytes": 93791,
-      "sha256": "e5451614cfbc50058a28769eabb2de5442177972a63d617bd9e557cc4a1a9bc7"
+      "bytes": 94782,
+      "sha256": "3255ecc9bb2a2de2c475fc273fec3714ee083bb2dc786b6a04896a93ab8e00f7"
     },
     {
       "path": "game-rules.json",
-      "bytes": 2768,
-      "sha256": "0aca10b979506204a202462769acdb31527051e514c0890c2149ce386c0e3937"
+      "bytes": 2943,
+      "sha256": "c93db0c0e6712a4aaec116fc25338a547879ba21757a3f3f8386beee333d206a"
     },
     {
       "path": "assets/story/content-v5.json",
@@ -45,13 +45,13 @@
     },
     {
       "path": "web/src/components/Game.jsx",
-      "bytes": 12620,
-      "sha256": "a24f24f9b4049cfd235211db151b08fcf4c9530e8c4f4aa1c865e6320ce51d68"
+      "bytes": 12652,
+      "sha256": "6dae25c3f7136d76a22bcf4febf56e20ebc8ec23ef7e59829c1b0be8cc3bba78"
     },
     {
       "path": "web/src/components/WorldObjects.jsx",
-      "bytes": 11745,
-      "sha256": "ce8fb089f6b947b9c2d0eaa9ca69c6675ce5c34675a93324135c19ee037eebab"
+      "bytes": 13069,
+      "sha256": "b2a13206517da332765f47866172591c93069a35adcbc5401898be1313ddf1c9"
     },
     {
       "path": "web/src/components/TouchStick.jsx",
@@ -60,8 +60,8 @@
     },
     {
       "path": "web/src/game/Scene.jsx",
-      "bytes": 11634,
-      "sha256": "964eb10233e7c2cd4ddca37ae14b3cd1da894b460be995531805382e078f1561"
+      "bytes": 11793,
+      "sha256": "bb0999310990af395f87fbb85a31e9cc5ae4a75f958dbc576d7a2b76a7eb1da6"
     },
     {
       "path": "web/src/game/storage.mjs",

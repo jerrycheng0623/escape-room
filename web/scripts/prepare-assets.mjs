@@ -34,3 +34,5 @@ await Promise.all((await readdir(resolve(root,'assets/world-v4'))).filter(n=>n.e
 await Promise.all((await readdir(resolve(root,'assets/world-v4/previews'))).filter(n=>n.endsWith('.webp')).map(n=>copy('assets/world-v4/previews/'+n,'media/world-v4/'+n)));
 
 const {WORLD}=await import('../src/game/world.mjs');await writeFile(resolve(root,'3D/scene/enclosed-v9-layout.json'),JSON.stringify({version:9,mechanicRevision:4,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,rooms:SPACE,objects:WORLD,modelSource:'web/src/game/roomModelsV4.js'},null,2)+'\n');
+
+await copy('assets/world-v4/audio/work-fragment.mp3','media/world-v4/work-fragment.mp3');

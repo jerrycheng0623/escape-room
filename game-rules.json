@@ -157,5 +157,12 @@
     "touchPitchMultiplier": 0.78,
     "pointerOwnership": true,
     "interruptionsReset": true
+  },
+  "desktopControls": {
+    "move": "WASD",
+    "look": "滑鼠拖曳或方向鍵",
+    "examine": "E",
+    "close": "Esc",
+    "modal": "Tab／Shift+Tab、Enter／Space"
   }
 }

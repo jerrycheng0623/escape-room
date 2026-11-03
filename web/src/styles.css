@@ -42,3 +42,5 @@
 @media(max-height:430px) and (orientation:landscape){.touch-mode .touch-stick{width:116px;height:116px;min-width:116px}.touch-mode .touch-stick>span{width:46px;height:46px}.touch-mode .game-header h1{font-size:21px}.touch-mode .game-header .chapter-info p{font-size:11px;max-width:44vw}.touch-mode .hud-actions{gap:4px}.touch-mode .chapter-nav{top:98px}.touch-mode .chapter-nav>span{display:none}.touch-mode .interact-prompt{bottom:26%;font-size:14px}.touch-mode .touch-look{bottom:58px;font-size:10px}.touch-mode .evidence-count{font-size:11px}.touch-mode .chapter-next{font-size:12px}.free-work{height:260px}}
 @media(max-width:720px){.object-actions{gap:8px}.object-actions button{flex:1 1 125px}.work-item{width:34%}.touch-mode .chapter-info{max-width:48vw}.touch-mode .hud-button span{font-size:9px}.touch-mode .hud-button{padding:4px}}
 .object-art.flipped{transform:scaleX(-1)}.object-neighbours{display:flex;flex-wrap:wrap;gap:12px;border-top:1px solid #8a765044;padding-top:12px}.object-neighbours button{min-height:44px}
+
+.work-audio audio{display:block;width:100%;min-height:48px;margin:12px 0}

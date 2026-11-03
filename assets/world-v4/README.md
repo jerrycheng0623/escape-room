@@ -15,3 +15,5 @@
 原生Three.js模型由roomModelsV4.js建立，另匯出3D/scene/enclosed-*-v9.glb供檢視；網頁實際使用原生幾何與動態物件狀態，不宣稱以GLB提供互動邏輯。網站圖面原解析度可放大，GLB為縮減貼圖的檢視交付。
 
 verification只存本輪實際紀錄；原始截圖與完整本機輸出位於/tmp/embers-v4。實體手機、第一次玩家盲測與長時間熱降頻未驗證。
+
+B設備櫃另提供audio/work-fragment.mp3，使用macOS Eddy（中文台灣）合成試錄，與work-fragment.txt字幕完全相同，經230–3300Hz濾波。不是正式角色演員配音；只有工作流程關係，沒有直接報正確片夾ID。播放依聲音／音量設定，離開近景或切背景停止。

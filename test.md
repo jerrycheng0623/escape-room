@@ -1,6 +1,6 @@
 # 《餘燼裡的第六人》完整測試計畫、案例與執行紀錄
 
-> 檔名：`test.md`｜版本：v2.4｜更新時間：2026-11-03 CST（Asia/Taipei）  
+> 檔名：`test.md`｜版本：v2.4｜更新時間：2026-11-04 CST（Asia/Taipei）  
 > 規格基準：[verify.md v2.4](./verify.md)；最新機關v4測試見第11.5節；第11.4節為影片v7回歸，第11.1–11.3節為歷史v6快照。前版173案例的機關部分由本版新案例取代，不能合併宣稱全部通過。
 > 性質：可執行的測試規格＋本輪實測紀錄。案例寫好不等於通過；預覽可通不等於正式通關。  
 > 最新授權：依最新machine.md接入所有四關機關，重跑測試、建置與GitHub公開發布；不啟用子代理。手機與桌機使用同一網址。原影片相容修正保留。
@@ -735,22 +735,23 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 
 本輪程式：網站0.9.0／mechanicRevision4／schema4。來源machine.md為v4完整重做，不再以舊版47個M3案例宣稱新關已通過。日期、瀏覽器、網址、具體操作、判定與證據詳assets/world-v4/verification。測試工具為Playwright（Browser plugin not available）；沒有使用子代理。
 
-本節結果待本輪全部執行後填入，尚未列入的實體裝置與盲測不得標為通過。歷史v3紀錄已存archive/2026-11-03-machine-v3-before-full-redesign/tests/test-execution-v3.md；第11.4節僅保留Safari影片問題查證脈絡。
+本機與引擎回歸結果如下；公開站發布後的獨立結果另補本節。實體裝置與盲測不得標為通過。歷史v3紀錄已存archive/2026-11-03-machine-v3-before-full-redesign/tests/test-execution-v3.md；第11.4節僅保留Safari影片問題查證脈絡。
 
 | 案例 | 執行／預期 | 本輪判定 |
 | --- | --- | --- |
-| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 執行中 |
-| M4-DESKTOP | 首頁新遊戲→實際WASD探索→四關→Q假終點→真案史→出口重建→結局後記 | 執行中 |
-| M4-MOBILE | 同網址，實際CDP觸控移動與環顧、逐物件取證、四關及結局 | 執行中 |
-| M4-WEBKIT | 觸控按鈕、錯路與半完成重載工程fixture；非實體iOS | 執行中 |
-| TOUCH-01 | 四種橫向尺寸，搖桿116/128、控制點≥44且無遮擋 | 執行中 |
-| TOUCH-02 | 多指所有權、旁邊連點、取消、失焦、選單、橫直向、放手無漂移 | 執行中 |
-| SPACE-09 | 四區六面、碰撞、遮擋、安全出生點與模型檢查 | 執行中 |
-| MEDIA-09 | 七片自然1x、MP4/WebM、兩引擎與雙版面；錯誤／重試／字幕／控制台 | 執行中 |
-| FILE-09 | 三MD與rules/source對照、86實物、JSON/SVG/GLB/影片／音軌指紋 | 執行中 |
+| KEY-AUDIO | 方向鍵環顧、E調查、Tab／Enter拿取；工作片段真實播放／暫停、全文字幕及離開停音 | 通過；兩引擎各5項方向鍵／E／Tab／Enter及MP3實際播放檢查 |
+| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 通過；43項，含256配重子集／63頁面子集／三頁混組幾何 |
+| M4-DESKTOP | 首頁新遊戲→實際WASD探索→四關→Q假終點→真案史→出口重建→結局後記 | 通過；desktop-flow.json，從新遊戲實際WASD與逐物件操作 |
+| M4-MOBILE | 同網址，實際CDP觸控移動與環顧、逐物件取證、四關及結局 | 通過；mobile-flow.json，真CDP觸控，沒有注入通關或位置 |
+| M4-WEBKIT | 觸控按鈕、錯路與半完成重載工程fixture；非實體iOS | 通過；webkit-boundaries.json，四區錯路與重載fixture |
+| TOUCH-01 | 四種橫向尺寸，搖桿116/128、控制點≥44且無遮擋 | 通過；兩引擎四尺寸，實體手機另列未測 |
+| TOUCH-02 | 多指所有權、旁邊連點、取消、失焦、選單、橫直向、放手無漂移 | 通過；真雙指22項控制檢查；WebKit12項分開記錄 |
+| SPACE-09 | 四區六面、碰撞、遮擋、安全出生點與模型檢查 | 通過；space.json及scene-verification.json；不推論實體手機FPS |
+| MEDIA-09 | 七片自然1x、MP4/WebM、兩引擎與雙版面；錯誤／重試／字幕／控制台 | 通過；目前有效56組自然播放覆蓋，A/D另重跑16次；22控制與14版面案例、HTTP／Range／VTT |
+| FILE-09 | 三MD與rules/source對照、86實物、JSON/SVG/GLB/影片／音軌指紋 | 通過；source-audit、素材／GLB／雙格式解碼與原音軌封包核對 |
 | PUBLIC-09 | Website-2來源、gh-pages產物、新舊網址入口與發布指紋／公開流程 | 執行中 |
 
-首次玩家的趣味／難度／誤導公平、實體iPhone/iPad/Android與長時間熱降頻仍未測。新版文書與孔路為原型實作，不能用自動化通關時間當真人難度或效能結論。
+首次玩家的趣味／難度／誤導公平、實體iPhone/iPad/Android與長時間熱降頻仍未測。現行新機關正式介面及文書以繁體中文驗收，完整英文化尚未驗收；只用鍵盤走完全部四關尚無完整盲測紀錄，方向鍵與近景基礎操作已實測。新版文書與孔路為原型實作，不能用自動化通關時間當真人難度或效能結論。
 
 ## 12｜執行、問題與回歸模板
 
