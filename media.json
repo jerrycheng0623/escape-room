@@ -17,8 +17,8 @@
     ],
     "poster": "media/posters/CIN-00.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-00-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-00-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-00-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -121,8 +121,8 @@
     ],
     "poster": "media/posters/CIN-A.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-A-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-A-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-A-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -136,8 +136,8 @@
       {
         "start": 9,
         "end": 18,
-        "zh": "採訪日、房號與遞迴算式，打開了她刻意保留的資料。",
-        "en": "The interview day, room number and recurrence opened the records she had kept.",
+        "zh": "箱緣刻痕在收合時連成數字。鎖舌釋放後，文書匣才真正打開。",
+        "en": "The separated marks join as the lid closes. Releasing the latch lets the document tray slide out.",
         "text": "",
         "document": null
       },
@@ -185,8 +185,8 @@
     ],
     "poster": "media/posters/CIN-B.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-B-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-B-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-B-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -249,8 +249,8 @@
     ],
     "poster": "media/posters/CIN-C.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-C-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-C-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-C-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -337,8 +337,8 @@
     ],
     "poster": "media/posters/CIN-D.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-D-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-D-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-D-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -441,8 +441,8 @@
     ],
     "poster": "media/posters/CIN-END.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-END-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-END-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-END-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
@@ -529,8 +529,8 @@
     ],
     "poster": "media/posters/CIN-EPILOGUE.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant.vtt",
-      "en": "media/subtitles/CIN-EPILOGUE-en.vtt"
+      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-mechanisms-v3.vtt",
+      "en": "media/subtitles/CIN-EPILOGUE-en-mechanisms-v3.vtt"
     },
     "transcript": [
       {
