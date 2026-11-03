@@ -1,0 +1,10 @@
+{
+  "id": "D-06",
+  "prompt": "Use case: precise-object-edit. EDIT this exact scene. REMOVE the entire reporter woman on the left, including all head/hair/face/torso/legs/shoes/arms/hands/flashlight/notebook. Fill her entire area with empty underground maintenance alcove floor, exposed shelf, pipes and wall, preserving same perspective. Keep fallen heavy cabinet on right, the support braces and low metal support SLIDING SLED, doorframe and metal door behind it, all other objects and all camera composition unchanged. This is the EMPTY after-fire scene, no living humans, no person, no face, no silhouette anywhere. Light from off-camera flashlight. Maintain thin graphite contour, matte olive-brown gouache, aged paper and original cinematic landscape framing. No text or UI.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-b44ea20e-6788-4ce3-a18a-84bd49f16374.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-06.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

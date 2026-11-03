@@ -1,22 +1,25 @@
-# 餘燼裡的第六人：網站與製作素材
+# 餘燼裡的第六人：網站 v6
 
-此分支收錄網站原始碼、目前版本的圖片、影片、音效、3D 模型及製作紀錄。
+此分支收錄目前網站原始碼、故事文件、2D 圖片與影片、音效、3D 模型及製作紀錄。正式設計與驗收依據為 PLAN.md、verify.md、test.md。
 
-## 執行網站
+公開網站：https://jerrycheng0623.github.io/escape-room/
 
-使用 Node.js 22.12 以上版本及 pnpm，在 `web` 資料夾執行：
+原始碼分支：Website-2。GitHub Pages 發布分支：gh-pages（只存正式建置產物）。原始碼更新後需重新執行測試、建置與發布，並非推送任何檔案都會自動部署。
+
+## 本機執行
+
+使用 Node.js 22.12 以上版本及 pnpm：
 
 ```sh
+cd web
 pnpm install --frozen-lockfile
+pnpm test
+pnpm build
 pnpm dev
 ```
 
-正式建置：`pnpm build`。建置前會由 `web/scripts/prepare-assets.mjs` 從來源素材建立 `web/public/media/` 和 `media.json`，因此不重複提交這些產生檔。
+建置會依來源素材重建 web/public/media/、media.json，再產生 web/dist/。套件、快取、系統檔與這些產生副本不納入原始碼分支；實際用於公開網站的產物另發布至 gh-pages。
 
-## 本次上傳整理
+網站操作與現有範圍見 web/README.md；素材與模型見 素材交付.md、3D/README.md。通關進度儲存在各瀏覽器的 localStorage，本機網址與 GitHub Pages 的存檔互不共用。
 
-- 排除使用者指定的五份原始 PDF／Markdown 文件、`archive/` 備份、套件、快取、建置產物，以及已由較高版本取代的同名素材與舊預覽影片。
-- 二進位內容完全相同的素材只儲存一份；其他仍有用途的路徑使用相對符號連結，保留程式與素材索引的路徑。Git 簽出時須保留符號連結；macOS／Linux 預設支援。
-- `upload-manifest.json` 記錄保留檔案的 SHA-256、重複素材對照及排除原因，供核對。
-- 製作紀錄中的歷史來源路徑、舊版計數與過往驗證結果保持原貌，可能指向本次排除的原始文件或舊素材；它們不代表本次重新驗證的網站狀態。
-- 此為既有網站與素材的上傳快照；角色、對白及機關細節等完成程度以專案現有文件為準。
+現行四章機關可完整通關；PLAN.md 的進階機關提案尚未替換現行玩法。沒有真人配音、帳號同步或完整離線功能；實體手機的效能驗收仍待執行。歷史來源、舊版報告與本輪實測紀錄需依日期和版本區分，不能視為全部測試已通過。

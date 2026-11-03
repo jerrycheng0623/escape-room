@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-03",
+  "version": 5,
+  "segments": [
+    {
+      "id": "CIN-00",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 86500,
+      "sha256": "73658fe5f23ebe6333ad6b7deef7b313d407bbe8a8004702c598249575a4dc20"
+    },
+    {
+      "id": "CIN-A",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 45000,
+      "sha256": "375de6745f6ae6df3eab228752dc501835903a032b05aa0e1ef50cdd219828d7"
+    },
+    {
+      "id": "CIN-B",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 49500,
+      "sha256": "4e3e4d73e858b4599670a1d3177998cfd5be44241054eac23008d38cbcf8ad16"
+    },
+    {
+      "id": "CIN-C",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 73500,
+      "sha256": "359c18e56bd6c42f96b6a21ca34532ea023f1250a5026c1fc50d186c171d991d"
+    },
+    {
+      "id": "CIN-D",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 96000,
+      "sha256": "c22d2d6f358d6e6c6957e525db586989dff198e3fc76f0942cb71e691853ef81"
+    },
+    {
+      "id": "CIN-END",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 72000,
+      "sha256": "32603f734462b93457dc2637739de551b461f72e41b293c6f6877eb7c0faf843"
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "decode": "通過",
+      "doubleSubtitles": true,
+      "durationMs": 62000,
+      "sha256": "6139bb347e9621156e1f57d90574c6997b09c2649048ded4c5d1217a53371517"
+    }
+  ],
+  "notVerified": [
+    "真人配音",
+    "實體手機",
+    "Safari／Firefox",
+    "長時間熱降頻"
+  ],
+  "totalMs": 484500,
+  "documents": 26,
+  "characters": 5
+}

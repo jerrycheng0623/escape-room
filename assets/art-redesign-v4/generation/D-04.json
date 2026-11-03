@@ -1,0 +1,10 @@
+{
+  "id": "D-04",
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove the woman completely including head, body, hands/arms. Replace the left side with empty room shadow, empty chair and wood wall. Preserve the clipboard with FOUR adult-form outline diagrams, blank header, dark phone and cabin map. No names or portraits in document. No living people or figures besides the four simplified outlines on paper. Landscape16:9. No new text, UI, logos, gore or weapons.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-11ab4f7f-f147-437b-b653-2a37d32b2f08.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-04.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

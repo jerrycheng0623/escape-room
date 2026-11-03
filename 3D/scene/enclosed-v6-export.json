@@ -1,0 +1,37 @@
+{
+  "version": 6,
+  "date": "2026-11-03",
+  "source": "web/src/game/roomModels.js",
+  "rooms": [
+    {
+      "room": "A",
+      "meshes": 42,
+      "triangles": 6304,
+      "bytes": 9181324
+    },
+    {
+      "room": "B",
+      "meshes": 16,
+      "triangles": 3934,
+      "bytes": 5875188
+    },
+    {
+      "room": "C",
+      "meshes": 69,
+      "triangles": 9733,
+      "bytes": 8153596
+    },
+    {
+      "room": "D",
+      "meshes": 26,
+      "triangles": 4252,
+      "bytes": 7654756
+    }
+  ],
+  "limits": [
+    "GLB為幾何與材質檢視用",
+    "網站互動／碰撞／文字更新仍由程式提供",
+    "GLTF標準不匯出Three.js的bumpMap"
+  ],
+  "website": "http://127.0.0.1:5173/"
+}

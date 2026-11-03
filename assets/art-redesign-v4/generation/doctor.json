@@ -1,0 +1,9 @@
+{
+  "id": "doctor",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-5f8eae36-66ec-4689-bbf7-f9ce2392d310.png",
+  "prompt": "Use case: identity-preserve. Asset type: clean production character portrait for psychological mystery game. Recreate the attached illustrated portrait with the exact same character identity, hairstyle, clothes, pose, object held, worn paper border, muted olive-grey background, precise fine graphite contours, matte flat gouache shadows and aged paper grain. Preserve the symbolic irregular charcoal-black scorched band across BOTH eyes; no visible eyeballs, no real wounds, no gore. Remove ALL screenshot UI, the blue pixel creature in the top-left, the bottom-right canvas button, black screen borders and any other interface overlay. Complete the unobstructed illustration beneath. Portrait 2:3 composition, no text, no labels, no logos, no watermark. This character is Zhang Ping, adult female psychologist, short side-parted black hair, brown cardigan over cream black-trimmed shirt, small rectangular pendant, holding a phone. Do not change the adult woman's face or costume.",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/doctor-reference.png"
+  ]
+}

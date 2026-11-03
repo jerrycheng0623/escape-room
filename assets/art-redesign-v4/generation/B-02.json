@@ -1,0 +1,10 @@
+{
+  "id": "B-02",
+  "prompt": "Use case: precise-object-edit. Make the SECOND group photograph by editing this exact FIRST photograph. Keep identical camera viewpoint, same cabin background, same paper border and SAME POSITIONS of the FIRST THREE adults (ochre-shirt man on far left Wang Jielun, bob-haired glasses/flowerclip reporter Lin Yiyao next, short-haired brown-cardigan psychologist Zhang Ping next). Preserve their exact faces and burnt charcoal bands over both eyes, clothing, hands, props and poses. Remove ONLY the FOURTH adult on FAR RIGHT (the long-haired masked Liu Han), including that adult's entire body, hair, mask, hands, notebook and hexagonal necklace. Naturally fill that person's empty area with the SAME background forest and terrace railing, do NOT move or enlarge remaining three or fill empty space with another person. Change the upper-right clock digits from18:30 to exactly '20:00'. Lighting has subtly cooled from dusk to early night, but retain same composition and identifiable background. EXACTLY THREE adults, no additional people or silhouettes, photographer behind camera and not visible. Do not leave floating notebook/necklace or hands in removed area. Keep clean legible20:00 digits, fine graphite and flat matte gouache aged-paper style. No captions or extra text.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-e4983246-63f9-47b3-a339-964c252b1802.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/B-04.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

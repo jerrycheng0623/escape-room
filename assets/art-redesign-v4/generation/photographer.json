@@ -1,0 +1,10 @@
+{
+  "id": "photographer",
+  "prompt": "Use case: identity-preserve. Recreate this exact adult male photographer portrait in the same fine graphite line / matte hand-painted aged-paper illustration. Preserve exact medium-long wavy black hair, thin rectangular glasses, moustache and goatee, narrow face, white collared shirt and charcoal jacket, camera neck strap and hands holding the old black film camera. Preserve irregular scorched charcoal band covering both eyes, no exposed eyes or injuries. Complete a clean 2:3 full portrait, with worn cream paper border and muted olive background. Remove screenshot play button, bottom screen strip, canvas button and all other UI, watermarks or text. Do not invent a new character.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-e4b652a6-8336-4588-962f-76609b685d17.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/photographer-reference.png"
+  ],
+  "outputDirectory": "portraits"
+}

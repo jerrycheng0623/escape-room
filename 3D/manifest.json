@@ -4,7 +4,7 @@
   "referenceCount": 42,
   "referencePngCountIncludingOldVersions": 44,
   "modelFileCount": 44,
-  "scope": "42類參考＋42類程序化道具初模／櫃體兩態；場景灰盒另列，尚非最終寫實資產",
+  "scope": "原42類參考與44道具初模保留來源；現行網站使用v6原生封閉房間／碰撞，另有4間GLB檢視輸出，不把舊場景灰盒當現行網站",
   "objects": [
     {
       "id": "P001",
@@ -1351,5 +1351,14 @@
   "uniqueModelPropCount": 42,
   "sceneModelFileCount": 1,
   "modelManifest": "3D/model-manifest.json",
-  "scene": "3D/scene/scene-layout.json"
+  "scene": "3D/scene/scene-layout.json",
+  "activeSceneVersion": 6,
+  "activeSceneManifest": "assets/scene-v6/manifest.json",
+  "activeSceneFiles": [
+    "3D/scene/enclosed-A-v6.glb",
+    "3D/scene/enclosed-B-v6.glb",
+    "3D/scene/enclosed-C-v6.glb",
+    "3D/scene/enclosed-D-v6.glb"
+  ],
+  "activeSceneUpdatedAt": "2026-11-03"
 }

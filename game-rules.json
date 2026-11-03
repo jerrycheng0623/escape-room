@@ -1,68 +1,71 @@
 {
-  "version": 4,
-  "date": "2026-11-02",
-  "view": "first-person",
-  "mobileOrientation": "landscape",
-  "artDirection": "realistic-3d",
-  "roomOrder": [
-    "A",
-    "B",
-    "C",
-    "D"
-  ],
-  "hint": {
-    "levels": [
-      "新手",
-      "標準",
-      "困難"
+  "version": 5,
+  "puzzles": {
+    "A": {
+      "code": "120",
+      "recurrence": "a1=12,a2=5,an=2*a(n-1)+a(n-2)"
+    },
+    "B": {
+      "target": [
+        0,
+        100,
+        100
+      ],
+      "tolerance": 0,
+      "confirmBoth": true
+    },
+    "C": {
+      "food": 5,
+      "history": 65,
+      "range": [
+        64.5,
+        65.5
+      ],
+      "stableMs": 500,
+      "alarmAbove": 70,
+      "objects": {
+        "15": 2,
+        "20": 2,
+        "10": 2,
+        "5": 2
+      }
+    },
+    "D": {
+      "cells": 6000,
+      "requiredGreaterThan": 4800,
+      "radius": 0.075
+    }
+  },
+  "hints": {
+    "novice": [
+      0,
+      3,
+      6
     ],
-    "draftSteps": [
+    "standard": [
+      0,
+      2,
       3,
       5,
-      7
+      6
     ],
-    "hardLimit": null,
-    "directHelp": true,
-    "directHelpRevealsAnswer": false,
-    "reReadCountsAsNewHint": false,
-    "recordHelpSeparately": true
+    "hard": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   },
-  "puzzles": {
-    "skippable": false,
-    "failureGameOver": false,
-    "fullSolutions": "after-ending-only",
-    "exactSolutionsStatus": "awaiting-user-puzzle-details"
-  },
-  "bonus": {
-    "optional": true,
-    "award": "crown",
-    "affectsEnding": false,
-    "hintsDisqualify": false,
-    "postgameRetry": true,
-    "preserveFirstResult": true
-  },
-  "postgame": [
-    "free-roam",
-    "chapter-replay",
-    "cinematic-gallery",
-    "bonus-retry",
-    "solutions",
-    "hint-and-help-statistics"
-  ],
+  "help": "只給方向，不跳關，不給完整答案",
+  "failure": false,
+  "bonus": "可選、可重試、皇冠不受提示影響",
   "endingCount": 1,
-  "save": {
-    "mainLocalRun": true,
-    "safetyBackup": true,
-    "separateReplayRun": true,
-    "firstCompletionSnapshotReadOnly": true
-  },
-  "pending": [
-    "puzzle-details",
-    "document-text",
-    "characters-and-dialogue",
-    "final-voice-and-character-polish"
-  ],
-  "storySettings": "story-settings.json",
-  "timelineStatus": "作者事件與S01–S09結構已補完；正式全文與機關細則仍待使用者",
-  "websiteDevelopment": "本輪不開始網站"
+  "saveSchema": 2,
+  "replaySeparate": true,
+  "guidanceStyle": "觀察位置與關聯問題，不列解法、精確答案或下一步操作清單",
+  "guidanceSource": "web/src/game/guidance.mjs",
+  "spaceVersion": 6
 }

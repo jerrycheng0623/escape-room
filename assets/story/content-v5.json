@@ -1,0 +1,387 @@
+{
+  "version": 5,
+  "date": "2026-11-03",
+  "status": "依使用者授權補完文書與敘事；姓名採art-redesign-v4核定，N18已確認",
+  "characters": [
+    {
+      "id": "reporter",
+      "name": "林依瑤",
+      "en": "Lin Yiyao",
+      "role": "記者",
+      "roleEn": "Reporter",
+      "intro": "受邀採訪五週年聚會，私下委託偵探保護。",
+      "introEn": "Invited to cover the anniversary; privately hired the detective.",
+      "truth": "她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+      "truthEn": "She suppressed leads for attention. That does not establish responsibility for the new crime."
+    },
+    {
+      "id": "host",
+      "name": "王杰倫",
+      "en": "Wang Jielun",
+      "role": "聚會主辦人",
+      "roleEn": "Host",
+      "intro": "五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+      "introEn": "Survivor of the old fire; invited people connected to the past.",
+      "truth": "聚會原帶控制與報復意圖，當晚氣味觸發後攻擊劉涵，對其他人下手並縱火掩飾；經維修出口逃離。",
+      "truthEn": "A gathering intended for confrontation escalated into assault, concealment and fire. He escaped through the maintenance exit."
+    },
+    {
+      "id": "benefactor",
+      "name": "劉涵",
+      "en": "Liu Han",
+      "role": "成年恩人好友",
+      "roleEn": "Adult friend and benefactor",
+      "intro": "長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+      "introEn": "Supported Wang for years and hoped the barbecue would cheer him.",
+      "truth": "他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+      "truthEn": "Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead."
+    },
+    {
+      "id": "doctor",
+      "name": "張萍",
+      "en": "Zhang Ping",
+      "role": "心理醫生",
+      "roleEn": "Psychological clinician",
+      "intro": "受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+      "introEn": "Invited to witness a claimed recovery; carried case records.",
+      "truth": "保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+      "truthEn": "Held concealed clinical notes. A record alone establishes neither guilt nor innocence."
+    },
+    {
+      "id": "photographer",
+      "name": "劉子傑",
+      "en": "Liu Zijie",
+      "role": "攝影師",
+      "roleEn": "Photographer",
+      "intro": "受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+      "introEn": "Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+      "truth": "零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+      "truthEn": "His fragments corroborate sequence and handling of objects, not the entire crime."
+    }
+  ],
+  "documents": {
+    "invitation": {
+      "id": "invitation",
+      "name": "聚會邀請函",
+      "en": "The invitation",
+      "room": "A",
+      "body": "致老朋友們：\n五年前的大火奪走了一切，也讓我重新學習生活。這個週末，請到山中小屋，與我一起為過去畫下句點。\n傍晚六點，營火與餐點會準備妥當。\n王杰倫",
+      "enBody": "To old friends: Five years ago a fire took everything. This weekend, come to the mountain cabin and help me close that chapter. The gathering begins at 18:00. — Wang Jielun",
+      "source": "林依瑤轉交的邀請副本",
+      "image": "00-02",
+      "status": "已觀察"
+    },
+    "commission": {
+      "id": "commission",
+      "name": "委託聯絡紀錄",
+      "en": "A private commission",
+      "room": "A",
+      "body": "林依瑤：我收到了王杰倫的邀請，也收到一封威脅信。我會先赴約，你能暗中來看著我嗎？\n偵探：保持聯絡。若情況不對，先離開，不要等我。\n林依瑤：邀請函副本已附上。我不希望其他人知道這件事。\n【山路故障使行程耽擱四小時。最後聯絡未獲回覆。】",
+      "enBody": "Lin Yiyao: I received an invitation and a threat. Could you come discreetly and keep an eye on me? Detective: Stay in contact. Leave if you feel unsafe; do not wait for me. Lin: I attached the invitation. Keep this private. A breakdown delayed the journey by four hours. Her last messages went unanswered.",
+      "source": "偵探手機既存對話",
+      "image": "00-02",
+      "status": "已觀察"
+    },
+    "police": {
+      "id": "police",
+      "name": "02:30現場通報",
+      "en": "02:30 scene report",
+      "room": "A",
+      "body": "火勢已撲滅。現場清點四具成年人焦屍，身分待驗。\n主門門栓由內側扣合；起火原因仍在調查。\n03:00補註：偵探已到封鎖線外。僅准沿警員標記的安全動線調查；地下區須待現場人員確認。\n反鎖只描述主門狀態，不代表已排除其他出口。",
+      "enBody": "The fire is out. Four adult bodies have been counted; identification is pending. The main door is bolted inside; the cause remains under investigation. At 03:00 the detective arrived outside the cordon. Access is limited to cleared routes. The bolt establishes the state of one door, not every possible exit.",
+      "source": "警方現場聯絡文字",
+      "image": "00-04",
+      "status": "已觀察"
+    },
+    "threat": {
+      "id": "threat",
+      "name": "被撕碎的威脅信",
+      "en": "The torn threat",
+      "room": "A",
+      "body": "妳當年明明握有能繼續追查的資料，卻為了懸案熱度，把真相壓了下來。\n來參加這次聚會。否則，我會把妳隱匿線索的事公諸於世。\n王杰倫",
+      "enBody": "You had information that could have advanced the investigation. Instead, you suppressed it for the attention an unsolved case would bring. Come to the gathering, or I will expose what you concealed. — Wang Jielun",
+      "source": "灰綠外套口袋；信件指控不是客觀判決",
+      "image": "A-03",
+      "status": "已觀察"
+    },
+    "card": {
+      "id": "card",
+      "name": "記者名片背面",
+      "en": "The reporter’s memo",
+      "room": "A",
+      "body": "林依瑤｜地方新聞採訪\n獨家專訪備忘：採訪日12日。\n採訪資料與調查箱一起保管。",
+      "enBody": "Lin Yiyao — Local news. Interview memo: interview day 12. Keep the records with the investigation box.",
+      "source": "A區外套口袋",
+      "image": "A-04",
+      "status": "已觀察"
+    },
+    "formula": {
+      "id": "formula",
+      "name": "調查箱算式紙片",
+      "en": "The sequence note",
+      "room": "A",
+      "body": "採訪日 = a₁\n受訪者房號 = a₂\n密碼 = a₅\n當n≥3時：aₙ = 2aₙ₋₁ + aₙ₋₂\n門牌的前導零不改變數值。",
+      "enBody": "Interview day = a₁. Interviewee’s room number = a₂. Code = a₅. For n≥3: aₙ = 2aₙ₋₁ + aₙ₋₂. A leading zero does not change the number.",
+      "source": "調查箱旁紙片",
+      "image": "A-04",
+      "status": "已觀察"
+    },
+    "door-sign": {
+      "id": "door-sign",
+      "name": "客房門牌",
+      "en": "The room plate",
+      "room": "A",
+      "body": "客房 05\n門牌留在入口側，與記者採訪記錄使用同一房號。",
+      "enBody": "Guest room 05. This is the room number used in the interview notes.",
+      "source": "A區入口門框",
+      "image": "A-01",
+      "status": "已觀察"
+    },
+    "notes": {
+      "id": "notes",
+      "name": "林依瑤的隱藏筆記",
+      "en": "Lin Yiyao’s hidden notes",
+      "room": "A",
+      "body": "18:45紀錄\n我明明握有能讓人繼續追查五年前事件的資料，卻把線索壓了下來，把報導寫成找不到兇手的懸案。\n我太害怕失去獨家帶來的名聲。今晚他約我來，眼神好可怕。我該怎麼辦？",
+      "enBody": "18:45. I had material that could have kept the investigation moving. I suppressed it and reported an unsolved mystery instead. I feared losing the attention my exclusive brought. He invited me tonight. His expression frightened me. What should I do?",
+      "source": "A密碼箱內；解鎖後可讀",
+      "image": "A-02",
+      "status": "已觀察"
+    },
+    "clipping": {
+      "id": "clipping",
+      "name": "五年前新聞剪報",
+      "en": "The old clipping",
+      "room": "A",
+      "body": "《深山住宅火災，疑點仍待釐清》\n山區住宅發生大火，救援受道路中斷影響。現場資料與後續救援結果仍有待核實，警方持續調查。\n撰稿：林依瑤\n【偵探註記：報導省略了她私下持有的部分資料。這不足以證明她犯下今晚的罪行。】",
+      "enBody": "Mountain house fire: questions remain. A fire struck a remote house; damaged roads delayed rescue. Scene information and later rescue findings remain under review. By Lin Yiyao. Detective’s note: material she privately held was omitted. This does not prove her responsibility for tonight.",
+      "source": "A箱內筆記夾層",
+      "image": "A-02",
+      "status": "已觀察"
+    },
+    "first-photo": {
+      "id": "first-photo",
+      "name": "18:30第一張合照",
+      "en": "The 18:30 photograph",
+      "room": "B",
+      "body": "鏡頭前：王杰倫、林依瑤、張萍、劉涵。\n鏡頭後：劉子傑。偵探尚未到場。\n劉涵佩戴開口六角墜飾，斜桿與右上缺口可辨。\n時刻另與手機工作紀錄及拍攝順序交叉核對。",
+      "enBody": "In frame: Wang Jielun, Lin Yiyao, Zhang Ping, Liu Han. Behind the camera: Liu Zijie. The detective had not arrived. Liu Han wears an open hexagonal pendant with a diagonal bar and a notch. The timestamp is cross-checked with the work log.",
+      "source": "B區調查副本；校正後解鎖",
+      "image": "B-04",
+      "status": "已觀察"
+    },
+    "last-photo": {
+      "id": "last-photo",
+      "name": "20:00最後合照",
+      "en": "The 20:00 photograph",
+      "room": "B",
+      "body": "鏡頭前：王杰倫、林依瑤、張萍。\n劉子傑掌鏡，劉涵未入鏡。\n同一木牆、電子鐘、服裝與連續拍攝紀錄支持是同晚的第二次拍攝。\n缺席本身不能證明死亡。",
+      "enBody": "In frame: Wang Jielun, Lin Yiyao and Zhang Ping. Liu Zijie took the picture. Liu Han is absent. The same wall, clock, clothing and recording sequence support the order. Absence alone does not prove death.",
+      "source": "B區調查副本；校正後解鎖",
+      "image": "B-02",
+      "status": "已觀察"
+    },
+    "worklog": {
+      "id": "worklog",
+      "name": "攝影師工作紀錄",
+      "en": "The photographer’s work log",
+      "room": "B",
+      "body": "警方取得的手機工作副本：\n18:29：劉子傑調整相機，手機留有構圖預覽與電子鐘。\n18:30：第一聲快門，劉涵仍在。\n19:14：劉涵與王杰倫先後走向儲藏室。\n19:15：短片收進突發撞擊聲，之後中斷。\n19:29：王杰倫在張萍公事包旁拿起同形小瓶。影像未拍到瓶內成分或倒入飲品。\n20:00：第二次快門，鏡頭前三人。\n20:30：三名賓客坐臥客廳，未回應掌鏡者先前留下的自動錄影。\n這是零散工作片段，不是完整犯罪錄影。",
+      "enBody": "Phone work copy: 18:29 camera setup and clock. 18:30 first shutter, Liu Han present. 19:14 Liu Han and Wang approach storage. 19:15 a sudden impact, then interruption. 19:29 Wang lifts a small bottle beside Zhang’s bag; contents and use are not shown. 20:00 second shutter, three in frame. 20:30 guests are unresponsive in the living room. These are fragments, not a complete recording of the crime.",
+      "source": "警方現場匯出手機副本；照片操作使用手機保留的曝光預覽，原底片後續核對",
+      "image": "B-01",
+      "status": "已觀察"
+    },
+    "diary": {
+      "id": "diary",
+      "name": "劉涵的日記殘頁",
+      "en": "Liu Han’s diary",
+      "room": "C",
+      "body": "19:10紀錄\n今晚準備了5公斤肉品，希望杰倫能開心。\n他看著營火一直發抖，眼神直勾勾的，口水流個不停。\n我不該讓他想起那場火。我待會拉他去儲藏室，好好向他道歉。",
+      "enBody": "19:10. I prepared five kilograms of food, hoping to cheer Jielun up. He keeps trembling at the fire, staring, saliva at his mouth. I should not have reminded him of that night. I will take him to storage and apologize.",
+      "source": "C烤架旁殘頁",
+      "image": "C-02",
+      "status": "已觀察"
+    },
+    "watch": {
+      "id": "watch",
+      "name": "19:15破裂手錶",
+      "en": "The stopped watch",
+      "room": "C",
+      "body": "男用運動手錶，指針停在19:15。\n與儲藏室撞擊痕跡、血痕及工作片段交叉，支持該時段發生衝突。\n手錶讀數不是死亡時間鑑定，不能單靠它確定主人或死因。",
+      "enBody": "The watch reads 19:15. Together with impact traces, blood traces and recording fragments it supports an incident around that time. A stopped reading is not a death certificate or a standalone identification.",
+      "source": "C相連儲藏室地面",
+      "image": "WATCH",
+      "status": "已觀察"
+    },
+    "blood": {
+      "id": "blood",
+      "name": "儲藏室擦拭痕跡",
+      "en": "Traces in the storage room",
+      "room": "C",
+      "body": "地面有粗糙擦拭過的暗色血痕，旁邊是破錶與撞擊痕。\n警方已標記取樣，當晚結果未出。\n先記錄位置與相對關係，不以肉眼判定血液屬於誰。",
+      "enBody": "Roughly wiped dark blood traces lie beside the broken watch and impact marks. Samples are marked; results are not yet available. Record position and relationships without identifying the blood by sight.",
+      "source": "C儲藏室；警方原位紀錄",
+      "image": "C-02",
+      "status": "已觀察"
+    },
+    "weight": {
+      "id": "weight",
+      "name": "烤架歷史紀錄",
+      "en": "The grill’s historical record",
+      "room": "C",
+      "body": "固定底座歷史紀錄\n案發當日 19:15\n淨載重 65.0 kg\n預定食材：5 kg（清單值，非實測）\n即時讀數與歷史各自保存；底座已扣除固定平台重量。",
+      "enBody": "Fixed base record: day of incident, 19:15, net load 65.0 kg. Planned food: 5 kg, a list value rather than a measurement. Historical and current readings are separate; the fixed platform was tared.",
+      "source": "C固定底座服務顯示窗",
+      "image": "C-05",
+      "status": "已觀察"
+    },
+    "manual": {
+      "id": "manual",
+      "name": "測重卡榫維修銘牌",
+      "en": "The load-latch service plate",
+      "room": "C",
+      "body": "服務模式：以指定歷史校正載重重新下壓，可解除底座檢修卡榫。\n容差：±0.5 kg；穩定0.5秒後開啟。\n超過70 kg僅發出超載提醒；先取下重物再調整。\n可用重物：木樁15 kg、鐵塊20 kg、沙袋10 kg、石塊5 kg，各兩件。\n物品可隨時取回，請勿以固定烤架本體作配重。",
+      "enBody": "Service mode: reproduce the designated historical calibration load to release the inspection latch. Tolerance ±0.5 kg; hold steady for 0.5 seconds. Above 70 kg an alarm sounds; remove weight to adjust. Two each: timber 15, iron 20, sandbag 10, stone 5 kg. Items can be removed at any time.",
+      "source": "C底座可見銘牌",
+      "image": "C-03",
+      "status": "已觀察"
+    },
+    "necklace": {
+      "id": "necklace",
+      "name": "烤架下緣的項鍊",
+      "en": "The pendant beneath the grill",
+      "room": "C",
+      "body": "開口六角墜飾、斜桿與右上缺口，輪廓與第一照劉涵佩戴者一致。\n鏈勾在烤架下緣遮蔽處，開啟暗格後才可伸手取到。\n這支持劉涵與烤架的關聯，不單獨證明其身分或人體曾在架上。",
+      "enBody": "The open hexagon, diagonal bar and notch match Liu Han’s pendant in the first photograph. The chain caught beneath the frame and becomes reachable when the hatch opens. It supports a connection, not a standalone identification or proof of a body on the grill.",
+      "source": "C下緣遮蔽處；開格後取到",
+      "image": "C-04",
+      "status": "已觀察"
+    },
+    "key": {
+      "id": "key",
+      "name": "地下室內門鑰匙",
+      "en": "The basement inner-door key",
+      "room": "C",
+      "body": "底座暗格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複消耗。",
+      "enBody": "A service key from the hatch, marked for the inner door leading to the basement clinic. It is not the outside exit key. Once opened, the door stays unlocked.",
+      "source": "C暗格內",
+      "image": "C-03",
+      "status": "已觀察"
+    },
+    "surface": {
+      "id": "surface",
+      "name": "表層診療報告副本",
+      "en": "The surface report",
+      "room": "C",
+      "body": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包，下半部另有遮蔽。】",
+      "enBody": "Zhang Ping — case notes, Wang Jielun. The patient shows distress around fire and gatherings, and repeatedly describes dreams of being trapped five years earlier. These are individual observations, not a verdict about violence or responsibility. Police supplied the visible-layer copy; the original below has a concealed section.",
+      "source": "C警方交付的可見層副本",
+      "image": "C-02",
+      "status": "已觀察"
+    },
+    "uv-module": {
+      "id": "uv-module",
+      "name": "虛構UV調查模組",
+      "en": "The UV investigation module",
+      "room": "D",
+      "body": "標記UV的調查燈模組。\n由現場人員交付，收納於C通D前的維修箱，與調查手電的相容介面連接。\n這是遊戲道具，不需要接觸帶電配電盤，也不把普通保險絲當作紫外線光源。",
+      "enBody": "A fictional UV investigation module supplied by scene staff and stored at the C-to-D service box. It connects to the compatible investigation lamp. This is a game prop, not an electrical modification using a fuse.",
+      "source": "C→D維修箱／D入口",
+      "image": "D-01",
+      "status": "已觀察"
+    },
+    "report": {
+      "id": "report",
+      "name": "張萍的隱藏診療紀錄",
+      "en": "Zhang Ping’s concealed record",
+      "room": "D",
+      "body": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項記錄僅供診療，不足以證明本次案件任何人的犯罪行為。\n【偵探重建：先有五年前火災與受困，才有食用遺體的往事；這次聚會的縱火，則是另一件事。】",
+      "enBody": "Confidential note: Wang described being trapped for days five years ago and, in extreme hunger, possibly consuming remains of deceased relatives. Later sessions returned to distressing memories and desires. This is a clinical record, not proof of this crime. Reconstruction: the old fire and entrapment came first. The fire at this gathering is a separate event.",
+      "source": "D原件；UV揭露後",
+      "image": "D-01",
+      "status": "已觀察"
+    },
+    "recording": {
+      "id": "recording",
+      "name": "當晚案件重建",
+      "en": "Reconstructing the night",
+      "room": "D",
+      "body": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方向：劉涵可能在合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對。",
+      "enBody": "At 19:10 Liu Han intended to apologize. Around 19:15 an impact was recorded and the grill logged an abnormal load. Fragments show Wang taking a bottle; three guests later became unresponsive. Residues await testing. Photographs, diary, pendant and concealed notes support a disturbing reconstruction, while exact timing, substances and identities still require formal findings.",
+      "source": "D交叉重建；不冒充當晚鑑定",
+      "image": "D-03",
+      "status": "交叉推論"
+    },
+    "cabinet": {
+      "id": "cabinet",
+      "name": "火後倒櫃與滑座",
+      "en": "The fallen cabinet",
+      "room": "D",
+      "body": "倒櫃位於地下維修儲物凹間，與C襲擊儲藏室不同。\n警方固定櫃體並準備滑座把手，確認後才可移開。\n火中倒落位置與灰層關係，支持出口不是從頭到尾被堵住。",
+      "enBody": "The cabinet lies in the basement maintenance recess, separate from the storage room in C. Police have secured it on a slide. Its position and ash layers suggest the exit was not always blocked.",
+      "source": "D警方支援下移櫃",
+      "image": "D-06",
+      "status": "已觀察"
+    },
+    "exit-traces": {
+      "id": "exit-traces",
+      "name": "維修出口痕跡",
+      "en": "The maintenance exit",
+      "room": "D",
+      "body": "門框鏽面有新刮痕，遮蔽接縫留有油痕，外層覆著細灰。\n支持開門／維修早於覆灰與倒櫃；不能只憑痕跡認人或精確定時。\n通路連往森林。主門反鎖不代表所有出口封死，王杰倫可能已逃離。",
+      "enBody": "Scratches interrupt rust; oil survives in a sheltered joint under ash. Use preceded ash and the cabinet’s fall, but the traces do not identify a person or exact minute. The route leads to the forest. A bolted main door did not seal every exit. Wang may have escaped.",
+      "source": "D移櫃後門框",
+      "image": "D-07",
+      "status": "交叉推論"
+    },
+    "identity": {
+      "id": "identity",
+      "name": "數日後：正式身分核對",
+      "en": "Days later: identification",
+      "room": "POST",
+      "body": "案件後續通知\n經多來源資料交叉核對，四名死者為：林依瑤、劉子傑、劉涵、張萍。\n王杰倫不在四名死者之中，仍在追查。\n取樣與影像資料支持劉涵火前已受致命襲擊；三杯與空瓶有一致的鎮靜物質線索。\n本通知完成於現場調查之後，不是當晚機關一解開就即時得到的檢驗。",
+      "enBody": "Later case update: cross-checks identify Lin Yiyao, Liu Zijie, Liu Han and Zhang Ping. Wang Jielun is not among the four and remains sought. Samples and recordings support a fatal assault on Liu Han before the fire; the glasses and bottle show consistent sedating-substance traces. These later findings were not available during the night’s investigation.",
+      "source": "通關後案件檔案",
+      "image": "D-04",
+      "status": "正式核對"
+    }
+  },
+  "decisions": {
+    "oldFire": "先火災受困，後食用親屬遺體；本次聚會另為蓄意縱火",
+    "B": {
+      "range": [
+        0,
+        100
+      ],
+      "target": [
+        0,
+        100,
+        100
+      ],
+      "tolerance": 0,
+      "photosIndependent": true,
+      "desktopGlassValues": [
+        0,
+        100
+      ]
+    },
+    "C": {
+      "target": 65,
+      "tolerance": 0.5,
+      "overloadAbove": 70,
+      "stableMs": 500,
+      "countsEach": 2
+    },
+    "D": {
+      "strictlyAboveCoverage": 0.8,
+      "grid": [
+        100,
+        60
+      ],
+      "radiusNormalized": 0.075
+    },
+    "identityReport": "結局後數日",
+    "cinematicReconstruction": "D之後與終幕重建完整作者事件，不把回憶當提前取得的鑑識結果"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "D-02",
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Preserve exact TWO adults, faces, clothing, charcoal eye bands, poses and entire before-fire storage-room composition. Change ONLY the necklace on the masked long-haired adult on right to exactly match image2's titanium open hexagon with prominent diagonal metal crossbar from lower left to upper right and gap at upper right. No other changes. Landscape16:9. No new text, UI, logos, gore or weapons.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d3088d8c-d78b-4286-8a81-4bd760606004.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-02.png",
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

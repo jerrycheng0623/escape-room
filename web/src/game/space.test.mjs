@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {SPACE,walkable,movePlayer,safePosition,visibleTarget,segmentHitsBox,PLAYER_RADIUS} from './space.mjs';
+test('四區出生點及移櫃前後皆有安全站位',()=>{for(const r of Object.keys(SPACE))for(const cabinetMoved of [false,true]){const p=safePosition(r,null,{cabinetMoved});assert(walkable(r,p.x,p.z,{cabinetMoved}),r);}});
+test('大步長、斜移與連續撞牆均不穿越四面外牆',()=>{for(const r of Object.keys(SPACE)){for(let i=0;i<64;i++){const angle=i*Math.PI/32,p=movePlayer(r,safePosition(r,null),Math.cos(angle)*50,Math.sin(angle)*50);assert(walkable(r,p.x,p.z),r);const [a,b,c,d]=SPACE[r].bounds;assert(p.x>=a+PLAYER_RADIUS&&p.x<=b-PLAYER_RADIUS&&p.z>=c+PLAYER_RADIUS&&p.z<=d-PLAYER_RADIUS);}}});
+test('桌、床、椅、櫃、配重架與隔板採膠囊半徑碰撞',()=>{for(const r of Object.keys(SPACE))for(const o of SPACE[r].obstacles){const [a,b,c,d]=o.box;assert(!walkable(r,(a+b)/2,(c+d)/2),r+o.id);}});
+test('舊存檔若在新家具內或室外，回安全出生點',()=>{assert.deepEqual(safePosition('A',{x:7,z:7}),{x:8.5,z:9.6});assert.deepEqual(safePosition('D',{x:100,z:100}),{x:11.8,z:18.6});});
+test('遮擋線不穿隔板／封櫃，物件自身可調查',()=>{assert(segmentHitsBox([0,1,0],[4,1,0],[1,0,-1,2,3,1]));assert(!segmentHitsBox([0,4,0],[4,4,0],[1,0,-1,2,3,1]));assert(!visibleTarget('C',[-1,2,14],[-4,1.5,14],'storage-crate'));assert(visibleTarget('A',[8,1.65,8.3],[7,1,7],'desk'));});
+test('移櫃狀態切換會同時移動可視家具與碰撞範圍',()=>{assert(!walkable('D',13,16.6));assert(walkable('D',13,16.6,{cabinetMoved:true}));assert(!walkable('D',11.2,14.9,{cabinetMoved:true}));});

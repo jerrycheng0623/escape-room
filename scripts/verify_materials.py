@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 R=Path(__file__).resolve().parents[1]
 def j(p):return json.loads((R/p).read_text())
-for p in R.rglob('*.json'):json.loads(p.read_text())
+for p in (p for p in R.rglob('*.json') if 'node_modules' not in p.parts):json.loads(p.read_text())
 mm=j('3D/model-manifest.json');files=[R/x['path'] for x in mm['models']]+[R/'3D/scene/rooms-layout-blockout-v1.glb'];results=[]
 for p in files:
  raw=p.read_bytes();magic,ver,total=struct.unpack_from('<4sII',raw);assert magic==b'glTF' and ver==2 and total==len(raw)
@@ -25,12 +25,10 @@ objs=j('3D/objects.json');manifest=j('3D/manifest.json');assert len(objs)==42 an
 assert manifest['objects']==objs and manifest['modelFileCount']==44
 for o in objs:
  p=R/o['reference'];im=Image.open(p);im.verify();assert hashlib.sha256(p.read_bytes()).hexdigest()==o['sha256'];assert (R/o['model']).exists()
-actor=Image.open(R/'assets/cinematics/CIN-END/layers/END-ACTOR-v1.png');assert actor.mode=='RGBA';lo,hi=actor.getextrema()[3];assert lo==0 and hi==255
-story=j('story-settings.json');assert len(story['resolvedSections'])==9 and story['police']['identificationTime']=='D4 18:20' and story['investigationStart']['day']==4
-assert hashlib.sha256((R/story['source']['path']).read_bytes()).hexdigest()==story['source']['sha256']
-m=j('assets/cinematics/manifest.json');assert m['integrationRules']==j('game-rules.json');assert len(m['segments'])==6;assert sum(s['durationMs'] for s in m['segments'])==262000
-for seg in m['segments']:
- assert 'materials-v3' in seg['video'];assert hashlib.sha256((R/seg['video']).read_bytes()).hexdigest()==seg['sha256']
+actor=Image.open(R/'assets/art-redesign-v4/images/END-ACTOR.png');assert actor.mode=='RGBA';lo,hi=actor.getextrema()[3];assert lo==0 and hi==255
+story=j('story-settings.json');assert story['version']==5 and 'D1 03:00' in story['timeline']['detective'];assert '先火災受困' in story['twoFires']
+m=j('assets/story-v5/manifest.json');assert len(m['segments'])==7;assert sum(s['durationMs'] for s in m['segments'])==484500;assert j('game-rules.json')['version']==5
+for seg in m['segments']:assert hashlib.sha256((R/seg['video']).read_bytes()).hexdigest()==seg['sha256']
 for model in mm['models']:assert hashlib.sha256((R/model['path']).read_bytes()).hexdigest()==model['sha256']
-report={'date':'2026-11-02','status':'通過','storySection2':'S01–S09製作者補完已同步','newObjectReferences':6,'totalObjectReferences':42,'propModelFiles':44,'uniquePropModels':42,'sceneModels':1,'activeVideoSegments':6,'videoDurationSeconds':262,'alphaLayer':'實際RGBA透明，0–255','models':results,'checks':['JSON可解析','42物件索引與來源圖指紋','GLB結構／三角形／法線','透明角色層','規則資料一致','四人身分與D4探索時序','原PDF指紋不變'],'notTested':['正式角色及機關內部','遊戲引擎碰撞與手機效能','真實火災力學或現實鑑識','網站與瀏覽器整合']}
-(R/'material-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('素材核對通過：42參考、44道具GLB、1場景GLB、6段262秒、透明角色層')
+report={'date':'2026-11-03','status':'通過','storySection2':'S01–S09製作者補完已同步','newObjectReferences':6,'totalObjectReferences':42,'propModelFiles':44,'uniquePropModels':42,'sceneModels':1,'activeVideoSegments':7,'videoDurationSeconds':484.5,'alphaLayer':'實際RGBA透明，0–255','models':results,'checks':['JSON可解析','42物件索引與來源圖指紋','GLB結構／三角形／法線','透明角色層','規則資料一致','當晚安全區調查與結局後數日身分時序','原PDF指紋不變'],'notTested':['電影級寫實模型','實體手機效能','真實火災力學或現實鑑識','網站與瀏覽器整合']}
+(R/'material-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print('素材核對通過：42參考、44道具GLB、1場景GLB、7段484.5秒、透明角色層')

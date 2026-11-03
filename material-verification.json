@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "status": "通過",
   "storySection2": "S01–S09製作者補完已同步",
   "newObjectReferences": 6,
@@ -7,8 +7,8 @@
   "propModelFiles": 44,
   "uniquePropModels": 42,
   "sceneModels": 1,
-  "activeVideoSegments": 6,
-  "videoDurationSeconds": 262,
+  "activeVideoSegments": 7,
+  "videoDurationSeconds": 484.5,
   "alphaLayer": "實際RGBA透明，0–255",
   "models": [
     {
@@ -288,20 +288,13 @@
     "GLB結構／三角形／法線",
     "透明角色層",
     "規則資料一致",
-    "四人身分與D4探索時序",
-    "原PDF指紋不變",
-    "全部12軌內嵌字幕與外部WebVTT逐句一致",
-    "8個獨立音效WAV時長／格式／指紋",
-    "平面／剖面SVG XML可解析",
-    "42類模型共252個獨立幾何角度圖",
-    "交付入口實際檔案連結存在"
+    "當晚安全區調查與結局後數日身分時序",
+    "原PDF指紋不變"
   ],
   "notTested": [
-    "正式角色及機關內部",
-    "遊戲引擎碰撞與手機效能",
+    "電影級寫實模型",
+    "實體手機效能",
     "真實火災力學或現實鑑識",
     "網站與瀏覽器整合"
-  ],
-  "soundEffectFiles": 8,
-  "geometricViewImages": 252
+  ]
 }

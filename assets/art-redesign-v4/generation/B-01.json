@@ -1,0 +1,9 @@
+{
+  "id": "B-01",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Makeshift analog photography darkroom in the cabin after the fire. Wide interior showing red safelight as muted dark brick red, blank photographic papers clipped on a thin line, darkroom trays, ONE old black film camera with neck strap on the table. Reference photographer's exact old rectangular black film camera design, but no people or faces. All hanging prints blank, no invented silhouettes. Charred wood, smoke stains, quiet dark olive tone, hand-drawn graphite.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d97b15ff-e083-4aaf-a9e2-d409e4058972.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/photographer-reference.png"
+  ]
+}

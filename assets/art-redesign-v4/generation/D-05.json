@@ -1,0 +1,10 @@
+{
+  "id": "D-05",
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove the reporter woman completely, including head, hair, torso, arms, hands, notebook and handheld flashlight. Fill her entire left foreground area with empty underground corridor wall and dark empty floor. Preserve the rusty ajar maintenance door on right, visible ground-level forest service path beyond, wall pipe/valve, muted light. A beam of light enters from OFF-CAMERA. There must be absolutely NO human, face, silhouette or reflection in this after-fire environment. Landscape16:9. No new text, UI, logos, gore or weapons.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-23a3339c-0a58-4795-bcc5-acfa6b60292d.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-05.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}
