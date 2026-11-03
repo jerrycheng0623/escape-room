@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-04T00:58:26.316856+08:00",
+  "method": "Read-only UTF-8 / JSON / XML / raster integrity scan; dependencies and generated web copies excluded",
+  "counts": {
+    "text": 435,
+    "json": 162,
+    "svg": 134,
+    "raster": 492
+  },
+  "failures": [],
+  "pass": true
+}

@@ -739,9 +739,9 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 
 | 案例 | 執行／預期 | 本輪判定 |
 | --- | --- | --- |
-| POST-REPLAY | 實際網站建立D重玩須含weight；皇冠補得、影像回看與回訪不覆寫首次結果 | 回歸中，見postgame.json |
+| POST-REPLAY | 實際網站建立D重玩須含weight；皇冠補得、影像回看與回訪不覆寫首次結果 | 通過；本機及公開兩引擎各4項，另含D重玩完整結算 |
 | KEY-AUDIO | 方向鍵環顧、E調查、Tab／Enter拿取；工作片段真實播放／暫停、全文字幕及離開停音 | 通過；兩引擎各5項方向鍵／E／Tab／Enter及MP3實際播放檢查 |
-| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 通過；47項，含256配重子集／63頁面子集／三頁混組幾何 |
+| M4-UNIT | 狀態、全部256配重子集、紙孔交集、陷阱、舊檔與首次紀錄 | 通過；48項，含256配重子集／63頁面子集／三頁混組幾何 |
 | M4-DESKTOP | 首頁新遊戲→實際WASD探索→四關→Q假終點→真案史→出口重建→結局後記 | 通過；desktop-flow.json，從新遊戲實際WASD與逐物件操作 |
 | M4-MOBILE | 同網址，實際CDP觸控移動與環顧、逐物件取證、四關及結局 | 通過；mobile-flow.json，真CDP觸控，沒有注入通關或位置 |
 | M4-WEBKIT | 觸控按鈕、錯路與半完成重載工程fixture；非實體iOS | 通過；webkit-boundaries.json，四區錯路與重載fixture |
@@ -750,9 +750,43 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 | SPACE-09 | 四區六面、碰撞、遮擋、安全出生點與模型檢查 | 通過；space.json及scene-verification.json；不推論實體手機FPS |
 | MEDIA-09 | 七片自然1x、MP4/WebM、兩引擎與雙版面；錯誤／重試／字幕／控制台 | 通過；目前有效56組自然播放覆蓋，A/D另重跑16次；22控制與14版面案例、HTTP／Range／VTT |
 | FILE-09 | 三MD與rules/source對照、86實物、JSON/SVG/GLB/影片／音軌指紋 | 通過；source-audit、素材／GLB／雙格式解碼與原音軌封包核對 |
-| PUBLIC-09 | Website-2來源、gh-pages產物、新舊網址入口與發布指紋／公開流程 | 執行中 |
+| PUBLIC-09 | Website-2來源、gh-pages產物、新舊網址入口與發布指紋／公開流程 | 通過；16檔案核對、4首頁、公開兩裝置通關、WebKit回歸與重玩修正 |
 
 首次玩家的趣味／難度／誤導公平、實體iPhone/iPad/Android與長時間熱降頻仍未測。現行新機關正式介面及文書以繁體中文驗收，完整英文化尚未驗收；只用鍵盤走完全部四關尚無完整盲測紀錄，方向鍵與近景基礎操作已實測。新版文書與孔路為原型實作，不能用自動化通關時間當真人難度或效能結論。
+
+公開交付：桌機與手機共用 https://jerrycheng0623.github.io/escape-room/mechanisms-v4/ ，原入口同步最新版；原v3版本入口保留且index雜湊一致。程式凍結Commit **2b4fbd7ec8bdbfa101cafc35facd305ad3716a8c**；版戳來源 **a46a58391a01f0c57397cbc8fdecf0d0c499801c**；Pages **ce7c12fe1bc339abf3aa051440352cfbfd352704**；[workflow 41676399877](https://github.com/jerrycheng0623/escape-room/actions/runs/41676399877)已確認success。後續QA提交只補文件、測試與證據，不改網站程式。
+
+公開新遊戲完整桌機／觸控流程在P2（a5f70ba）完成；最後P3只修正C重量必要證據、D重玩與舊章補收依賴，另由實際網站Archive建立D重玩驗證，不以本機產生的fixture冒充網站工廠。修正前兩引擎皆重現缺weight；修正後兩引擎重玩、皇冠補得／首次快照、回訪與影像回看均通過，WebKit四區錯路／重載及D結算至Bonus也通過。證據public-postgame.json、postgame-before-fix.json、public-webkit-boundaries.json。
+
+影片自然播放在公開站由WebKit手機MP4與Chromium桌機WebM各播七片，14次皆自然ended並回檔案。P1至P3的Cinematic.jsx Git blob均為b9c1e3390cbd315901e290bb1352335b3d7c4628；主影片／VTT位元組也未改，最新HTTP／Range／SHA另核對。不要把過場工程預覽等同正式探索。
+
+流暢度量測界線：空間檢查使用桌機SwiftShader軟體繪圖、pixelRatio0.65及數個回歸瀏覽器並行；暖機短樣本A約24.8–31.5、B44–48.6、C35–41、D46–46.6 FPS。碰撞／控制功能通過，但不把這組條件標為手機效能達標，也不拿它保證實體手機60 FPS。實體裝置與長時間熱降頻仍待驗收。
+
+可重跑（Node22.12以上／pnpm，從web/執行）：
+
+```sh
+pnpm test
+pnpm build
+pnpm test:ui
+pnpm test:mobile
+pnpm test:mechanisms
+EMBERS_BROWSER=webkit pnpm test:mechanisms
+pnpm test:touch
+EMBERS_BROWSER=webkit pnpm test:touch
+pnpm test:keyboard
+pnpm test:post
+pnpm test:space
+pnpm test:media
+EMBERS_BROWSER=webkit pnpm test:media
+pnpm test:media:controls
+EMBERS_BROWSER=webkit pnpm test:media:controls
+pnpm test:media:layout
+pnpm test:media:http
+EMBERS_COMPLETED_FIXTURE=../assets/world-v4/verification/completed-public.json pnpm test:media:story
+pnpm test:release
+```
+
+EMBERS_URL可切換本機／公開新路徑，EMBERS_QA_DIR指定外部輸出。post與media:story使用明確標示的真實UI完成快照，只驗證通關後行為，不計為全新遊戲通關。原圖、正式角色、原音軌與所有已發布影片URL保留；新增藝術提示及資產來源見assets/world-v4/README.md。
 
 ## 12｜執行、問題與回歸模板
 

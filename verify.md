@@ -8,7 +8,7 @@
 > 閱讀順序：第6節為現行機關；test.md第11.5節為最新實測；第27節為故事。第23–26節的舊機關數值由machine.md v4取代，其餘相容故事保留；第16–22節為來源歷史。
 > 配套文件：`PLAN.md` 描述實作與製作計畫；兩份文件均區分已交素材與已實作網站／待精修美術。
 
-> 2026-11-04最新：machine.md v4四關已接入網站v9；發布入口（部署狀態見test.md）：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/；桌機／手機同址。實測及剩餘界線依test.md第11.5節。原來源與歷史快照不等於目前操作規則。
+> 2026-11-04最新：machine.md v4四關已接入網站v9；已發布：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/；桌機／手機同址。實測及剩餘界線依test.md第11.5節。原來源與歷史快照不等於目前操作規則。
 
 ## 01｜依據、優先順序與閱讀方式
 

@@ -6,7 +6,7 @@
 > 對應規格：`verify.md` v2.4；檔名採使用者要求的 `PLAN.md`。
 > 交付版本：故事v5／七影片（A、D鏡頭v9）、網站／原生3D場景v9、三份MD v2.4。模型已增加材質與細節，仍非掃描級寫實資產；已做Chromium／WebKit回歸；實體手機驗收仍未完成。
 
-> 2026-11-04最新：machine.md v4四關已接入網站v9；發布入口（部署狀態見test.md）：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/；桌機／手機同址。實測及剩餘界線依test.md第11.5節。原來源與歷史快照不等於目前操作規則。
+> 2026-11-04最新：machine.md v4四關已接入網站v9；已發布：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/；桌機／手機同址。實測及剩餘界線依test.md第11.5節。原來源與歷史快照不等於目前操作規則。
 
 ## 01｜製作任務與文件權責
 

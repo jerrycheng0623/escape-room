@@ -34,6 +34,18 @@
       "issue": "WebKit測試先對仍disabled的繼續鍵focus；進入近景後原生Tab偏好會略過按鈕",
       "fix": "測試等媒體索引完成及按鈕enabled；Modal明確聚焦首控制並循環Tab／Shift+Tab，兩引擎鍵盤／錄音各5項通過",
       "evidence": "keyboard-audio.json"
+    },
+    {
+      "issue": "公開P2實際建立的D獨立重玩缺前章weight，無法完成recording與CIN-D",
+      "before": "postgame-before-fix.json（Chromium與WebKit皆重現）",
+      "fix": "單一REQUIRED來源包含C重量證據，D重玩自動補前章；舊完成房仍可補收現場記錄，不偽造新機關完成",
+      "retest": "postgame.json、replay-boundaries.json及新增三項單元回歸"
+    },
+    {
+      "issue": "通關影片回看測試用正式流程的略過動畫名稱，預覽實際按鈕為結束預覽",
+      "type": "test-selector",
+      "fix": "依真實預覽控制名稱驗證，不改應用影片完成邏輯",
+      "retest": "public-postgame.json"
     }
   ]
 }

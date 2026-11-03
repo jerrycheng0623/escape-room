@@ -1,3 +1,7 @@
+# v5原始母版與目前播放的界線
+
+目前播放器依assets/playback-v6/manifest.json version9：A/D使用story-v9替換片，其他五片保留v7相容交付；storyboard與字幕已同步機關v4。以下原母版交付脈絡保留，完整現況見專案根目錄素材交付.md及test.md第11.5節。
+
 # 正式敘事與網站素材 v5
 
 2026-11-03；七段484.5秒、雙字幕軌、26文書、五人肖像。來源原畫在../art-redesign-v4/，共用故事在../story/content-v5.json。

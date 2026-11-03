@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-04T00:52:16.289050+08:00",
+  "appVersion": "0.9.0",
+  "mechanicRevision": 4,
+  "saveSchema": 4,
+  "sourceCodeCommit": "2b4fbd7ec8bdbfa101cafc35facd305ad3716a8c",
+  "metadataCommit": "a46a58391a01f0c57397cbc8fdecf0d0c499801c",
+  "pagesCommit": "ce7c12fe1bc339abf3aa051440352cfbfd352704",
+  "workflow": 41676399877,
+  "workflowConclusion": "success",
+  "publicURL": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/",
+  "rootURL": "https://jerrycheng0623.github.io/escape-room/",
+  "unitTests": 48,
+  "publicEntryChecks": 4,
+  "publicBuildChecks": 16,
+  "worldObjects": 86,
+  "documents": 32,
+  "activeNaturalPlaybackCoverage": 56,
+  "additionalUpdatedFilmRuns": 16,
+  "publicNaturalPlayback": 14,
+  "mediaControlsLocal": 22,
+  "mediaLayoutsLocal": 14,
+  "publicTouchChecks": 22,
+  "keyboardAudioPublic": 10,
+  "postgamePublic": 8,
+  "browsers": [
+    "Chromium151.0.7922.34",
+    "WebKit26.5"
+  ],
+  "environment": "macOS26.6/25G72; Node24.22.1; Playwright; Browser plugin not available",
+  "scope": "Full new-game desktop/CDP-touch flows run on public P2(a5f70ba); final P3 adds only required-weight/replay/legacy-record recovery and is verified by real site-created replay in both engines, four WebKit boundary fixtures and byte hashes. Never counted engineering fixtures as new-game playthroughs.",
+  "playerProof": {
+    "file": "web/src/components/Cinematic.jsx",
+    "gitBlobAtFirstAndFinal": "b9c1e3390cbd315901e290bb1352335b3d7c4628",
+    "note": "P1/P2/P3 retain identical player source and active video/VTT bytes; final HTTP hashes rechecked"
+  },
+  "notTested": [
+    "physical iPhone/iPad/Android",
+    "first-time player blind puzzle play",
+    "phone thermal/performance soak",
+    "complete English localization",
+    "whole game with keyboard only as a first-time player"
+  ]
+}

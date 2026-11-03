@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03T16:37:46.613Z",
+  "date": "2026-11-03T16:58:59.198Z",
   "revision": 4,
   "schema": 4,
   "worldObjects": 86,
@@ -20,18 +20,18 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 131636,
-      "sha256": "ad048589cfb8f0f1be4c1deffdb5e731dc9ed6490a8f3fd0dd956c44603ac5c0"
+      "bytes": 131605,
+      "sha256": "be4e9e3b1d6260a5999a3671d0d005891bb27309aa0bfe108b11c424cc50669c"
     },
     {
       "path": "verify.md",
-      "bytes": 125463,
-      "sha256": "e34980819afbb4b8a374a44512c5403062dcd0d4d234ef82d70d627954ae960f"
+      "bytes": 125432,
+      "sha256": "3789d02539a2319594d2bf691c76ecc8acd756b09973e220ad0c0bab5f7eb7e9"
     },
     {
       "path": "test.md",
-      "bytes": 94929,
-      "sha256": "f093727650c7581954ab519c07a55960f73a9ffc87102c18f51b18a0a9550b9d"
+      "bytes": 97687,
+      "sha256": "b73babca9c7ec8e4f6b3ab3b5daa7b71c9165748f760e31846d57fb072bfb4c9"
     },
     {
       "path": "game-rules.json",

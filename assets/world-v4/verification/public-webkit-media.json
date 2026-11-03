@@ -1,0 +1,1104 @@
+{
+  "date": "2026-11-03T16:18:19.658Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/",
+  "browser": "26.5",
+  "engine": "webkit",
+  "fallback": "Browser plugin not available; native in-app browser checked separately",
+  "method": "1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles",
+  "runs": [
+    {
+      "device": "mobile",
+      "format": "primary",
+      "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/",
+      "films": [
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-00-compatible-v7.mp4",
+          "duration": 86.47532879818594,
+          "endedAt": 86.47532879818594,
+          "wallSeconds": 87.944,
+          "ended": true,
+          "rate": 1,
+          "frames": 1904,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 1.5425605423660067,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 4.544411958696395,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 7.545820459031404,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 10.546562000042535,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 13.548627999982964,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 16.550054875701615,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 19.550667917313042,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 22.5547864586266,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 25.558988458341588,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 28.563653167345908,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 31.5673205416594,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 34.570727917294505,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 37.575054625360295,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 40.5786615420027,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 43.58390687566571,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 46.5865636673524,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 49.59149433334491,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 52.59628420831572,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 55.60044658335743,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 58.60267316666744,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 61.6071114170075,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 64.61073479168707,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 67.61600987500033,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 70.61849866668206,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 73.62313458399916,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 76.62700562504301,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 79.63070583400486,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 82.63536933365079,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 85.63909358396131,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-A-compatible-v9.mp4",
+          "duration": 45.084,
+          "endedAt": 45.084,
+          "wallSeconds": 45.929,
+          "ended": true,
+          "rate": 1,
+          "frames": 1082,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.160926500029478,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.161386500361499,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.163348041647732,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.163857124639552,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.165903124997858,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.1674849163081,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.16951920798661,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.17362837498941,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.177394791695285,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.18149425035643,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.18522520803134,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.18942220835598,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.193980833333,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.19921062533705,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.20225629196312,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-B-compatible-v7.mp4",
+          "duration": 49.5,
+          "endedAt": 49.5,
+          "wallSeconds": 50.543,
+          "ended": true,
+          "rate": 1,
+          "frames": 1162,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 1.961403833339166,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 4.962635250352998,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 7.964686083015288,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 10.965449124692812,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 13.966734500326947,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 16.96875033365659,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 19.969138458003517,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 22.974015917007712,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 25.97840037496974,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 28.982035791313766,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 31.985594832979096,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 34.990310833670534,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 37.994425791329775,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 40.99863383367927,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.00085199967379,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.00494324998947,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-C-compatible-v7.mp4",
+          "duration": 73.5,
+          "endedAt": 73.5,
+          "wallSeconds": 74.749,
+          "ended": true,
+          "rate": 1,
+          "frames": 1737,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 1.7553657916711345,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 4.756953541300885,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 7.757288875018176,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 10.757773582695364,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 13.758422124658257,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 16.75921470828969,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 19.763084541374813,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 22.766705790956227,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 25.77144854168354,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 28.77430304166186,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 31.77962754132351,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 34.78344404137136,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 37.786249708348954,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 40.79035416668689,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 43.79450041665341,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 46.800046540969106,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 49.80216479165511,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 52.80641424964863,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 55.81105216662118,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 58.81524816664224,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 61.81936212471687,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 64.82244095799216,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 67.82734358270031,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 70.83181783298889,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-D-compatible-v9.mp4",
+          "duration": 96,
+          "endedAt": 96,
+          "wallSeconds": 97.078,
+          "ended": true,
+          "rate": 1,
+          "frames": 2304,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 1.925897291668661,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 4.926016916316341,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 7.926139791694596,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 10.926347499365955,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 13.926810124648991,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 16.927662832986393,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 19.930164666692054,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 22.93435029101656,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 25.938469124345673,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 28.940969499992836,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 31.945327790993232,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 34.95008912429556,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 37.95489979166664,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 40.957150583344806,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 43.96175333334693,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 46.96674308270035,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 49.97009041632861,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 52.97330179171646,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 55.97746733265405,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 58.98165183298448,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 61.985094625015755,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 64.98990279164212,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 67.99300145797453,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 70.99722091605449,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.00113362466831,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.00496862466026,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.00914379101536,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.01305541633235,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 86.01720870766538,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 89.02139420801495,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 92.02519933335607,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 95.02897549932084,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-END-compatible-v7.mp4",
+          "duration": 72,
+          "endedAt": 72,
+          "wallSeconds": 72.885,
+          "ended": true,
+          "rate": 1,
+          "frames": 1728,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.116728374346389,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.116746332674022,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.116772374328374,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.117285541361936,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.117990957974303,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.11810020835757,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.120714582666327,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.125423583350152,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.12905516666214,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.132375499642063,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.137239582713796,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.14146937499645,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.14558662501748,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.14955874998584,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.152211791694974,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.158024207644054,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.160523957652714,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.164230374613965,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.16859358265613,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.173732874326696,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.17709045835212,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.18164116600133,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.18494379166053,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.18867970797395,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-EPILOGUE-compatible-v7.mp4",
+          "duration": 61.97532879818594,
+          "endedAt": 61.97532879818594,
+          "wallSeconds": 62.658,
+          "ended": true,
+          "rate": 1,
+          "frames": 1268,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.3214512083003336,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.321919583280083,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.322966542343025,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.323742000682408,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.323831834033099,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.324162625695696,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.325792458646376,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.32846041662072,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.333379958992044,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.336957542373927,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.34188179163114,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.3444678749533,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.35011062500531,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.35276170835726,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.35695020868219,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.361103250341756,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.36526837529557,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.36861887530415,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.373502750647326,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.37764250000107,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        }
+      ],
+      "errors": [],
+      "requestsFailed": [
+        {
+          "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media/video/CIN-00-compatible-v7.mp4",
+          "error": "cancelled"
+        }
+      ],
+      "pass": true
+    }
+  ]
+}
