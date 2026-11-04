@@ -787,6 +787,9 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 | UI13-GUIDE | 全新啟程經7頁→故事；重看→存檔不變；取消覆寫；降低動態與直橫向 | 兩引擎各1440×900／844×390／390×844共6組通過。`guide-modes.json` |
 | UI13-LUGGAGE | 正式行李鎖在兩引擎桌機／手機逐字、刪改、部分碼重載、數字輪、錯碼、正碼拉門 | 4組通過，Q新增後仍能輸入與開啟支線，不當成主機關通關。`luggage-input.json` |
 | UI13-FULL | 無注入解答，從新遊戲經指南、實際走路／觸控操作A/B/C/D到單一結局；影片明確略過 | Chromium桌機與真實CDP手機觸控各一條通關通過，errors空；不是盲玩及實體手機。`flow-desktop.json`、`flow-mobile.json` |
+| UI13-MEDIA | 經更新後的指南進入序幕，播放／暫停、跳轉、字幕、全文、原生控制、自動播放阻擋、格式備援、錯誤重試／略過、緩衝 | 兩引擎桌機／手機共22情境通過；不是本輪全部影片自然播完。`media-controls-chromium.json`、`media-controls-webkit.json` |
+| UI13-IAB | Codex應用程式瀏覽器的新指南分頁，以原生AX點按及逐鍵輸入，未進入正式存檔 | 實際1234→刪改1239→檢查→拉把手通過，Q切換指南示範通過。不是把Playwright fill當原生鍵入。`in-app-browser-input.json` |
+| UI13-PUBLIC | 公開根目錄及mechanisms-v4同版、兩引擎前導與鍵入、真正原生Q切換 | 16檔案指紋一致、719個媒體與v3檔案SHA不變，指南6組、鍵入4組、原生探索5項通過。`public-fingerprint.json`、`public-guide-modes.json`、`public-q-guide-input.json`、`public-native-q.json` |
 | UI13-LOGIC | 現行邏輯測試與正式建置 | 54／54通過，Vite建置成功；未宣稱本文件全部歷史案例已重跑。`unit-test.txt` |
 
 證據目錄：`assets/interface-v13/verification/`。指南密碼可獨立重設，不影響正式謎底、存檔、影片或素材；操作規則同步到 PLAN.md、verify.md、操作指南與探索模式規格.md、game-rules.json及README。實體iPhone／iPad Safari與實體輸入法仍未實測。公開來源、部署與回歸結果依本目錄發佈紀錄核對。
