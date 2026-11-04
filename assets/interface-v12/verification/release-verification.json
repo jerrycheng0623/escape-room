@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04T22:11:59.467533+08:00",
+  "version": {
+    "app": "0.11.0",
+    "interface": 12,
+    "mechanics": 4,
+    "schema": 4,
+    "films": 10
+  },
+  "sourceCodeCommit": "06971b6fa8053192233729eff1192cfcaec8370e",
+  "sourceMetadataCommit": "26cc003747dad391ac01a8d57fff9ccf287067ba",
+  "pagesCommit": "1e4de565a557c78f3e304b0f31a68e1c30808a5c",
+  "workflowId": 41843541493,
+  "workflowConclusion": "success",
+  "publicUrl": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/?v=guide-12",
+  "unitTests": {
+    "pass": 54,
+    "fail": 0
+  },
+  "localBuild": "success",
+  "publicChecks": [
+    "16個index／release／media索引與5個bundle指紋一致",
+    "719個既有媒體與舊v3檔案未變",
+    "兩引擎桌機／手機6組指南通過",
+    "首頁與版本頁4組入口通過",
+    "可見Chromium真實鎖定、每次越過視窗的位移、Esc、E、左鍵4項通過",
+    "公開版本頁桌機與公開根目錄手機皆完整實際操作A/B/C/D通關"
+  ],
+  "notTested": [
+    "實體iPhone／iPad Safari",
+    "所有影片本輪自然播完",
+    "多小時遊玩與實機效能門檻"
+  ],
+  "qaFollowup": "最終補交僅包含測試證據、測試程式與說明規則；未修改已部署的程式bundle或素材",
+  "pass": true
+}

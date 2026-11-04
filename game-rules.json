@@ -160,9 +160,20 @@
   },
   "desktopControls": {
     "move": "WASD",
-    "look": "滑鼠拖曳或方向鍵",
-    "examine": "E",
-    "close": "Esc",
-    "modal": "Tab／Shift+Tab、Enter／Space"
+    "look": "明確選擇原生游標鎖定後滑鼠環顧；或明確選擇方向鍵探索。未鎖定游標不轉鏡頭",
+    "examine": "準星對準後E或左鍵查看",
+    "close": "Esc釋放並暫停；操作頁關閉後回待探索，不自動鎖定",
+    "modal": "場景輸入停止；Tab／Shift+Tab、Enter／Space及可見按鈕",
+    "start": "繼續探索 · 滑鼠環顧／使用方向鍵探索",
+    "fullscreen": "獨立選項；支援時啟用，失敗顯示繁中說明"
+  },
+  "operationGuide": {
+    "beforeNewGame": true,
+    "homeAndPauseReview": true,
+    "pages": 7,
+    "demoChangesGameState": false,
+    "demoLockAcceptsAnyFourDigits": true,
+    "requiresOverwriteConfirmation": true,
+    "specification": "操作指南與探索模式規格.md"
   }
 }

@@ -790,10 +790,13 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 | UI12-TOUCH | 四尺寸觸控目標、兩指、相鄰誤觸、取消、失焦、轉直橫向 | Chromium22項通過；WebKit12項模擬亦通過，`touch-webkit.json`。這是工程觸控，不是實體iPhone／iPad。`touch-chromium.json` |
 | UI12-BOUNDARY | 四區錯誤／退件／復位／部分重載／獎勵領取，C維修輪與D出口銜接 | Chromium四區通過，WebKit四區亦通過，`boundaries-webkit.json`。`boundaries-chromium.json` |
 | UI12-POST | 工程通關存檔→完整解答、Bonus重挑、影片重看、自由回訪、獨立重玩 | 兩引擎通過，首次紀錄不改寫，D重玩先備證據完整。`postgame.json` |
+| UI12-MEDIA | 經新指南後進影片，暫停、跳轉、字幕、全文、原生控制、自動播放被擋、格式備援、錯誤重試／略過、緩衝 | Chromium／WebKit桌機與手機各11情境，共22情境通過；未把故障注入當真實網路錯誤。`media-controls-chromium.json`、`media-controls-webkit.json` |
+| UI12-SPACE | 四區方向鍵環顧、四面牆持續走動碰撞、天花板地板截圖；手機搖桿與轉向 | 四區及手機通過，errors空，未穿出合法行走區。`enclosure-mobile-report.json`；工程軟體繪圖樣本不當實機效能達標證據 |
+| UI12-PUBLIC | 公開首頁／mechanisms-v4同版本；兩引擎指南、原生探索、公開手機與桌機通關 | 已部署v12；16檔案逐位元核對通過，719個媒體與v3檔案SHA保持相同。公開首頁4組及指南6組通過，真實原生探索4項通過；公開手機與桌機均已完整實際操作通關，errors為空；見`public-flow-mobile.json`／`public-flow-desktop.json`。`public-fingerprint.json` |
 | UI12-LOGIC | 現行全部邏輯單測與正式建置 | 54／54通過；Vite正式建置成功。`unit-test.txt`。未將本文件173個歷史規劃案例全數標成通過 |
 | UI12-VISUAL | 桌機與手機指南可讀、暗背景不遮字、無橫向溢出、降低動態、無框架錯誤 | 6組通過；已修正首次截圖發現的背景遮字，重測及截圖通過。`chromium-1440-lock-guide.png`、`chromium-844-lock-guide.png` |
 
-證據目錄：`assets/interface-v12/verification/`。執行者：Codex（單代理）。原生鎖定測試曾因等到DOM鎖定卻尚未等到React／繪圖狀態而讀到idle，已改為同時等待原生鎖定與狀態更新再驗證；未改寫瀏覽器API。影片、字幕、角色及證物圖片未修改；自然播放全片、原生Safari／實體手機、多小時遊玩與效能門檻未在本輪全部重測。公開部署、檔案雜湊及公開站回歸見本目錄的發佈紀錄，不能只以HTTP200宣稱成功。
+證據目錄：`assets/interface-v12/verification/`。執行者：Codex（單代理）。原生鎖定測試曾因等到DOM鎖定卻尚未等到React／繪圖狀態而讀到idle，已改為同時等待原生鎖定與狀態更新再驗證；未改寫瀏覽器API。影片、字幕、角色及證物圖片未修改；自然播放全片、原生Safari／實體手機、多小時遊玩與效能門檻未在本輪全部重測。公開程式來源06971b6fa8053192233729eff1192cfcaec8370e，標記Commit 26cc003747dad391ac01a8d57fff9ccf287067ba，Pages 1e4de565a557c78f3e304b0f31a68e1c30808a5c，GitHub Pages工作41843541493已完成且success。公開部署、檔案雜湊及公開站回歸見本目錄的發佈紀錄，不能只以HTTP200宣稱成功。
 
 以下保留v11歷史回歸：
 
