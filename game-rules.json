@@ -162,10 +162,11 @@
     "move": "WASD",
     "look": "明確選擇原生游標鎖定後滑鼠環顧；或明確選擇方向鍵探索。未鎖定游標不轉鏡頭",
     "examine": "準星對準後E或左鍵查看",
-    "close": "Esc釋放並暫停；操作頁關閉後回待探索，不自動鎖定",
+    "close": "Esc釋放並暫停；操作頁關閉後回游標模式，按Q或按鈕回探索，不自動鎖定",
     "modal": "場景輸入停止；Tab／Shift+Tab、Enter／Space及可見按鈕",
     "start": "繼續探索 · 滑鼠環顧／使用方向鍵探索",
-    "fullscreen": "獨立選項；支援時啟用，失敗顯示繁中說明"
+    "fullscreen": "獨立選項；支援時啟用，失敗顯示繁中說明",
+    "toggle": "Q切換游標與上次選擇的探索方式；操作頁、打字／組字及系統組合鍵不觸發，長按不重複"
   },
   "operationGuide": {
     "beforeNewGame": true,
@@ -174,6 +175,9 @@
     "demoChangesGameState": false,
     "demoLockAcceptsAnyFourDigits": true,
     "requiresOverwriteConfirmation": true,
-    "specification": "操作指南與探索模式規格.md"
+    "specification": "操作指南與探索模式規格.md",
+    "fullwidthDigits": true,
+    "compositionAware": true,
+    "digitWheelsMinPx": 44
   }
 }

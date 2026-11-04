@@ -771,6 +771,28 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 
 新增命令：根目錄python3 scripts/verify_cinematic_alignment.py；web/執行pnpm test:captions。Browser plugin not available，因此使用既有Playwright；Chromium桌機1440×900、WebKit手機844×390，兩格式隔離profile。macOS26.6；引擎精確版本在browser-alignment.json。實體iPhone／iPad Safari仍未驗證，不以WebKit模擬替代真機。
 
+### 操作介面v13：Q切換與示範密碼（2026-11-04現行回歸）
+
+基準：Website-2 `1947b41a695fc026fcbabe2bcb9075bcabfa8b2b`、Pages `1e4de565a557c78f3e304b0f31a68e1c30808a5c`。網站0.12.0、介面13、機關4、schema4、影片10。單代理Codex，macOS26.6，Chromium151.0.7922.34／WebKit26.5；Browser plugin not available，使用既有Playwright。本輪針對使用者回報的示範鍵入與Q切換，優先重新驗證啟程及教學。
+
+| 案例ID | 前置／操作／預期 | 本輪實際結果及證據 |
+| --- | --- | --- |
+| UI13-REPRO | v12指南機關頁；點按聚焦，逐字半形1234，再清除並insertText全形１２３４ | 兩引擎桌機／手機均重現：半形1234正常，全形輸入變空字串。未因此推定已完全重現使用者所有裝置的成因；完整修正新增組字保護與替代數字輪。`input-baseline.json` |
+| UI13-TYPE | 點按聚焦；逐字5739、刪尾、修正中間、貼全形及混合字串 | 4組通過，保留焦點，全形轉半形、限制4碼，未滿4碼不可檢查。不是只用fill一次輸入完整字串。`q-guide-input.json` |
+| UI13-IME | compositionstart→輸入暫態全形→compositionend | 4組工程組字事件測試通過；組字中不刪除，完成後正規化。這是注入組字生命週期，不冒稱實體中文鍵盤實測。`q-guide-input.json` |
+| UI13-WHEEL | 四組＋／−、0／9循環、清空、檢查後改碼、拉把手 | 4組通過，每個數字輪按鈕≥44px，改碼撤銷舊解鎖，任意正確格式4碼可完成示範，不寫正式進度。`q-guide-input.json` |
+| UI13-Q-DEMO | 指南視角頁實際按Q、長按重複、替代按鈕 | 4組通過，僅切換示範動畫，沒有原生鎖定。`q-guide-input.json` |
+| UI13-Q-NATIVE | 可見Chromium、A近行李櫃工程存檔；按Q取得原生Pointer Lock→連續移動至超出視窗座標→Q回游標→Q回視角 | 取得真正原生鎖定，逐次位移均改變yaw；Q釋放時不開暫停選單，游標模式鏡頭固定，再按Q恢復；Esc另行暫停、E／左鍵開頁亦通過。`native-q.json` |
+| UI13-Q-GUARD | 方向鍵探索→Q→游標→Q→方向鍵；長按Q；筆記輸入qQ；操作頁中按Q | 兩引擎桌機通過；保留已選方式、重複keydown不重複切換，輸入及操作頁不要求鎖定。手機筆記及對話框指南鍵入亦通過。`q-guide-input.json` |
+| UI13-GUIDE | 全新啟程經7頁→故事；重看→存檔不變；取消覆寫；降低動態與直橫向 | 兩引擎各1440×900／844×390／390×844共6組通過。`guide-modes.json` |
+| UI13-LUGGAGE | 正式行李鎖在兩引擎桌機／手機逐字、刪改、部分碼重載、數字輪、錯碼、正碼拉門 | 4組通過，Q新增後仍能輸入與開啟支線，不當成主機關通關。`luggage-input.json` |
+| UI13-FULL | 無注入解答，從新遊戲經指南、實際走路／觸控操作A/B/C/D到單一結局；影片明確略過 | Chromium桌機與真實CDP手機觸控各一條通關通過，errors空；不是盲玩及實體手機。`flow-desktop.json`、`flow-mobile.json` |
+| UI13-LOGIC | 現行邏輯測試與正式建置 | 54／54通過，Vite建置成功；未宣稱本文件全部歷史案例已重跑。`unit-test.txt` |
+
+證據目錄：`assets/interface-v13/verification/`。指南密碼可獨立重設，不影響正式謎底、存檔、影片或素材；操作規則同步到 PLAN.md、verify.md、操作指南與探索模式規格.md、game-rules.json及README。實體iPhone／iPad Safari與實體輸入法仍未實測。公開來源、部署與回歸結果依本目錄發佈紀錄核對。
+
+以下保留v12歷史結果：
+
 ### 操作介面v12：入場指南與探索／操作分離（2026-11-04現行回歸）
 
 基準：`jerrycheng0623/escape-room`，Website-2 `40b1483637c7d75861ec473a47fe7112bbff3885`；Pages `0195fc70a3cdad0270f0b8149e2584795c69292e`。本輪單代理，macOS26.6；Chromium151.0.7922.34／WebKit26.5。Browser plugin not available，使用既有Playwright，無新增套件。規格：`操作指南與探索模式規格.md`。以下結果來自本輪實際執行；歷史v11的懸停環顧由v12取代。

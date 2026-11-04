@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "version": "interface12",
+  "method": "Real click/tap focus, pressSequentially ASCII, Backspace and keyboard.insertText fullwidth; Browser plugin not available. Local v12 build before edits.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "ascii": "1234",
+      "fullwidth": "",
+      "focused": true,
+      "reproducedFullwidthRejection": true
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "ascii": "1234",
+      "fullwidth": "",
+      "focused": true,
+      "reproducedFullwidthRejection": true
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "ascii": "1234",
+      "fullwidth": "",
+      "focused": true,
+      "reproducedFullwidthRejection": true
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "ascii": "1234",
+      "fullwidth": "",
+      "focused": true,
+      "reproducedFullwidthRejection": true
+    }
+  ],
+  "scopeLimit": "ASCII typing did work in these engineering browsers; other causes of the user report not proven."
+}

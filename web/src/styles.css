@@ -67,3 +67,4 @@
 @media(prefers-reduced-motion:reduce){.game-guide *{animation:none!important;transition:none!important}}
 html[data-motion="reduced"] .game-guide *,html[data-reduced-motion="true"] .game-guide *,[data-motion="reduced"] .game-guide *{animation:none!important;transition:none!important}
 .game-guide.screen-background:before{opacity:.12}.game-guide>.guide-top,.game-guide>.guide-layout{position:relative;z-index:1}
+.guide-code-wheels{display:flex;justify-content:center;gap:8px}.guide-code-wheels>div{display:flex;flex-direction:column;align-items:center;gap:5px}.guide-code-wheels button{min-width:44px;min-height:44px;border:1px solid #85704b;color:#e5d1a6;background:#342b1e;font-size:18px}.guide-code-wheels output{font:22px Georgia;color:#e6d2ab}.guide-demo input{cursor:text;user-select:text;touch-action:manipulation}.guide-demo-mechanism input:focus{outline:2px solid #c5a56c;outline-offset:3px}.exploration-gate kbd{color:#e6c68a;border:1px solid #91784e;padding:1px 6px}
