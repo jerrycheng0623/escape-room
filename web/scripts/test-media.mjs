@@ -9,7 +9,7 @@ const {chromium,webkit,devices}=await import(pathToFileURL(runtime).href);
 const url=process.env.EMBERS_URL||'http://127.0.0.1:5173/',out=process.env.EMBERS_QA_DIR||join(tmpdir(),'embers-media-qa');
 await fs.mkdir(out,{recursive:true});
 const engine=process.env.EMBERS_BROWSER==='webkit'?'webkit':'chromium';const browser=await (engine==='webkit'?webkit:chromium).launch(engine==='webkit'?{headless:true}:{headless:true,args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']});
-const report={date:new Date().toISOString(),url,browser:await browser.version(),engine,fallback:'Browser plugin not available; native in-app browser checked separately',method:'1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles',runs:[]};
+const report={date:new Date().toISOString(),url,browser:await browser.version(),engine,fallback:'Browser plugin not available; Playwright natural playback; native browser coverage, if any, is recorded separately',method:'1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles',runs:[]};
 async function run(device,format){
  const id=device+'-'+format,c=await browser.newContext(device==='mobile'?{...(engine==='webkit'?devices['iPhone 13']:{}),viewport:{width:844,height:390},isMobile:true,hasTouch:true,deviceScaleFactor:2}:{viewport:{width:1440,height:900}}),p=await c.newPage();
  const row={device,format,url,films:[],errors:[],requestsFailed:[]};report.runs.push(row);p.setDefaultTimeout(20000);

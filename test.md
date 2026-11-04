@@ -1028,3 +1028,9 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 效能只記錄量測：在多個自動化瀏覽器同時運行的 SwiftShader 軟體繪圖環境，場景量測約 18.8–33.6 FPS、55–80 draw calls，像素比 0.55–0.65；不宣稱達到實體手機 30／60 FPS。硬體 GPU、實體 iPhone／iPad Safari、手機多指實機、首次玩家盲測及完整英文在本輪仍未驗收。原始 PNG 留在測試目錄；交付截圖使用品質 90 的 WebP 檢視副本，原尺寸不變；原始 PNG 保留並記錄 SHA256，不宣稱壓縮後逐像素相同，對照見 verification/screenshots.json。
 
 正式碰撞最終修正：C 區新增四根承重支架的獨立碰撞、擴展吊籃承接座與檢修蓋邊框的精確範圍；幾何外觀與謎底不變。另增直行撞定輪立柱的回歸案例（55 項邏輯測試），重跑 86 物品支撐／可達站位與實際三角面可見性，全部通過。最終碰撞版桌機與手機各一條完整四關新遊戲通關、C 區與四關重載亦通過。最終四關新遊戲重測以 verification/flow-desktop-final、flow-mobile-final 為準；之前各項不受此碰撞差異影響的介面、影片及存檔測試保留原始建置快照。
+
+公開站實測（2026-11-05）：根入口與 final/ 的四個桌機／手機入口案例均通過，三個操作組態共 12 房間載入及正式章節鎖定通過，公開七頁指南 6 組、Q 與輸入示範 4 組通過。手機真 CDP 觸控已在 final/ 從新遊戲走完四關、單一結局與後記，最終沒有頁面或資源錯誤，見 verification/public-flow-mobile-final/flow.json。
+
+公開檔案共 1,434 個路徑核對完成：程式、索引、字幕及新四方向圖逐檔 SHA256；其他媒體核對 HTTP／大小，再以 Git blob 核對完整部署清單。兩個入口的七片 MP4／WebM 共 28 次 Range／MIME 檢查通過。首次大量併發核對有兩筆暫時性 503，首次公開手機流程亦曾記錄一筆 503，因此當次未判通過；降低併發並重測後，檔案與手機通關均通過，原失敗保留。
+
+公開站的原生滑鼠鎖定重測為「受阻」，不可寫成通過：Chromium 回報 WrongDocumentError；診斷顯示畫布仍連接於目前文件，DOM 焦點與使用者啟用均為真，授予站點鎖定權限仍未改善。原生 UI 工具隨後明確回報 Mac 已鎖定且無法自動解鎖。Chromium macOS 的原始碼 [CanBePointerLocked](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/content/browser/renderer_host/render_widget_host_view_mac.mm) 要求原生視窗為 key window；因此推定本次受阻與原生視窗狀態相關，仍須使用者手動解鎖後重跑確認，不能據此斷言產品已修復或公開原生模式已驗收。較早本機真正原生鎖定的五項通過仍保留；目前公開的 Q／輸入隔離、方向鍵備援、觸控及機關案例不受此項阻擋。工具與瀏覽器初次失敗見 verification/initial-failures；最終狀態見 verification/release-verification.json。

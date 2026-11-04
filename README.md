@@ -1,5 +1,7 @@
 # 餘燼裡的第六人：正式版 v14
 
+> 公開驗收狀態：Pages 已部署，兩入口共 1,434 檔案路徑、28 組影片 Range／MIME、公開手機完整通關及 12 個房間操作組態已通過；公開站原生滑鼠鎖定重測因 Mac 鎖定而受阻，待手動解鎖補驗。不可把這項受阻或尚未測試的實體 iPhone／iPad 當成全部驗收通過。詳細證據見 assets/final-v14/verification/release-verification.json。
+
 單人第一人稱密室逃脫：四個封閉 3D 場景、分散式機關、七段 2D 故事影片、單一結局與可選皇冠推理。繁體中文為主要交付語言。
 
 公開網址：[正式版／桌機、手機與平板共用](https://jerrycheng0623.github.io/escape-room/final/)。原入口 https://jerrycheng0623.github.io/escape-room/ 同步此版；mechanisms-v3／mechanisms-v4 路徑保留歷史版本。

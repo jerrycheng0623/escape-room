@@ -3,7 +3,7 @@
   "url": "http://127.0.0.1:5173/",
   "browser": "151.0.7922.34",
   "engine": "chromium",
-  "fallback": "Browser plugin not available; native in-app browser checked separately",
+  "fallback": "Browser plugin unavailable; measured natural playback uses Playwright. Current in-app native browser was not verified because the Mac is locked.",
   "method": "1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles",
   "runs": [
     {
@@ -1089,5 +1089,6 @@
       "requestsFailed": [],
       "pass": true
     }
-  ]
+  ],
+  "metadataCorrection": "Corrected inherited native-IAB-checked template label; measured frames/times/playback/assertions unchanged; original runner output retained in /tmp/embers-final/validated."
 }
