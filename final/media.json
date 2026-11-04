@@ -1,0 +1,586 @@
+[
+  {
+    "id": "CIN-00",
+    "title": "序幕：遲到的邀請",
+    "titleEn": "Prologue · The late invitation",
+    "duration": 86.5,
+    "video": "media/video/CIN-00-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-00-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-00-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-00-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-00-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 9,
+        "zh": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+        "en": "A breakdown delayed me by four hours. I reached the cabin at three in the morning.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 9,
+        "end": 19.5,
+        "zh": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+        "en": "The reporter Lin Yiyao had hired me. The invitation frightened her.",
+        "text": "林依瑤：我收到了王杰倫的邀請，也收到一封威脅信\n。我會先赴約，你能暗中來看著我嗎？\n偵探：保持聯絡。若情況不對，先離開，不要等我。\n林依瑤：邀請函副本已附上。我不希望其他人知道這\n件事。\n【山路故障使行程耽擱四小時。最後聯絡未獲回覆。\n】",
+        "document": "commission"
+      },
+      {
+        "start": 19.5,
+        "end": 28.5,
+        "zh": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+        "en": "The invitation was signed by Wang Jielun, survivor of another fire five years ago.",
+        "text": "致老朋友們：\n五年前的大火奪走了一切，也讓我重新學習生活。這\n個週末，請到山中小屋，與我一起為過去畫下句點。\n傍晚六點，營火與餐點會準備妥當。\n王杰倫",
+        "document": "invitation"
+      },
+      {
+        "start": 28.5,
+        "end": 36.5,
+        "zh": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+        "en": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 36.5,
+        "end": 44.5,
+        "zh": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+        "en": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 44.5,
+        "end": 52.5,
+        "zh": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+        "en": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 52.5,
+        "end": 60.5,
+        "zh": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+        "en": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 60.5,
+        "end": 68.5,
+        "zh": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+        "en": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 68.5,
+        "end": 77.5,
+        "zh": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+        "en": "Four adult bodies, identification pending. The cause remained under investigation.",
+        "text": "火勢已撲滅。現場清點四具成年人焦屍，身分待驗。\n主門門栓由內側扣合；起火原因仍在調查。\n03:00補註：偵探已到封鎖線外。僅准沿警員標記的\n安全動線調查；地下區須待現場人員確認。\n反鎖只描述主門狀態，不代表已排除其他出口。",
+        "document": "police"
+      },
+      {
+        "start": 77.5,
+        "end": 86.5,
+        "zh": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+        "en": "I waited outside the cordon, then entered only the cleared investigation route.",
+        "text": "",
+        "document": null
+      }
+    ]
+  },
+  {
+    "id": "CIN-A",
+    "title": "客房：灰燼裡的謊言",
+    "titleEn": "Guest room · Lies in the ashes",
+    "duration": 45,
+    "video": "media/video/CIN-A-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-A-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-A-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-A-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-A-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 9,
+        "zh": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+        "en": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
+        "text": "妳當年明明握有能繼續追查的資料，卻為了懸案熱度\n，把真相壓了下來。\n來參加這次聚會。否則，我會把妳隱匿線索的事公諸\n於世。\n王杰倫",
+        "document": "threat"
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "zh": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+        "en": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "zh": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+        "en": "She had suppressed leads to preserve the attention of an unsolved case.",
+        "text": "18:45紀錄\n我明明握有能讓人繼續追查五年前事件的資料，卻把\n線索壓了下來，把報導寫成找不到兇手的懸案。\n我太害怕失去獨家帶來的名聲。今晚他約我來，眼神\n好可怕。我該怎麼辦？",
+        "document": "notes"
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "zh": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+        "en": "The clipping and private notes differed. Her secret did not prove responsibility for tonight.",
+        "text": "《深山住宅火災，疑點仍待釐清》\n山區住宅發生大火，救援受道路中斷影響。現場資料\n與後續救援結果仍有待核實，警方持續調查。\n撰稿：林依瑤\n【偵探註記：報導省略了她私下持有的部分資料。這\n不足以證明她犯下今晚的罪行。】",
+        "document": "clipping"
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "zh": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+        "en": "Three glasses and a bottle held residues. I could record them, not identify them by sight.",
+        "text": "",
+        "document": null
+      }
+    ]
+  },
+  {
+    "id": "CIN-B",
+    "title": "暗房：不在照片裡的人",
+    "titleEn": "Darkroom · The missing face",
+    "duration": 49.5,
+    "video": "media/video/CIN-B-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-B-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-B-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-B-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-B-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 9,
+        "zh": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+        "en": "The phone retained previews and work fragments. Police supplied a copy exported that night.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "zh": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+        "en": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived.",
+        "text": "鏡頭前：王杰倫、林依瑤、張萍、劉涵。\n鏡頭後：劉子傑。偵探尚未到場。\n劉涵佩戴開口六角墜飾，斜桿與右上缺口可辨。\n時刻另與手機工作紀錄及拍攝順序交叉核對。",
+        "document": "first-photo"
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "zh": "二十點，鏡頭前只剩三人。劉涵消失了。",
+        "en": "At 20:00 only three remained in frame. Liu Han was absent.",
+        "text": "鏡頭前：王杰倫、林依瑤、張萍。\n劉子傑掌鏡，劉涵未入鏡。\n同一木牆、電子鐘、服裝與連續拍攝紀錄支持是同晚\n的第二次拍攝。\n缺席本身不能證明死亡。",
+        "document": "last-photo"
+      },
+      {
+        "start": 27,
+        "end": 40.5,
+        "zh": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+        "en": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+        "text": "警方取得的手機工作副本：\n18:29：劉子傑調整相機，手機留有構圖預覽與電子\n鐘。\n18:30：第一聲快門，劉涵仍在。\n19:14：劉涵與王杰倫先後走向儲藏室。\n19:15：短片收進突發撞擊聲，之後中斷。\n19:29：王杰倫在張萍公事包旁拿起同形小瓶。影像\n未拍到瓶內成分或倒入飲品。\n20:00：第二次快門，鏡頭前三人。",
+        "document": "worklog"
+      },
+      {
+        "start": 40.5,
+        "end": 49.5,
+        "zh": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+        "en": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+        "text": "20:30：三名賓客坐臥客廳，未回應掌鏡者先前留下\n的自動錄影。\n這是零散工作片段，不是完整犯罪錄影。",
+        "document": "worklog"
+      }
+    ]
+  },
+  {
+    "id": "CIN-C",
+    "title": "營火：善意與異常重量",
+    "titleEn": "Terrace · An unusual weight",
+    "duration": 73.5,
+    "video": "media/video/CIN-C-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-C-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-C-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-C-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-C-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 9,
+        "zh": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+        "en": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "zh": "十九點十分，他還在為自己的好意道歉。",
+        "en": "At 19:10 he was still apologizing for a well-meant gesture.",
+        "text": "19:10紀錄\n今晚準備了5公斤肉品，希望杰倫能開心。\n他看著營火一直發抖，眼神直勾勾的，口水流個不停\n。\n我不該讓他想起那場火。我待會拉他去儲藏室，好好\n向他道歉。",
+        "document": "diary"
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "zh": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+        "en": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces.",
+        "text": "男用運動手錶，指針停在19:15。\n與儲藏室撞擊痕跡、血痕及工作片段交叉，支持該時\n段發生衝突。\n手錶讀數不是死亡時間鑑定，不能單靠它確定主人或\n死因。",
+        "document": "watch"
+      },
+      {
+        "start": 27,
+        "end": 37.5,
+        "zh": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+        "en": "The visible report made me read the trembling as fear of fire. It was only a hypothesis.",
+        "text": "張萍｜個案記錄 王杰倫\n患者對火光與聚會場合呈現強烈不安。近期反覆描述\n五年前受困的夢境。\n此為個案觀察，不等同暴力風險判決，亦不能用診斷\n決定當晚犯罪責任。\n【警方提供可見層副本；原件位於地下診療區公事包\n，下半部另有遮蔽。】",
+        "document": "surface"
+      },
+      {
+        "start": 37.5,
+        "end": 46.5,
+        "zh": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+        "en": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate.",
+        "text": "固定底座歷史紀錄\n案發當日 19:15\n淨載重 65.0 kg\n預定食材：5 kg（清單值，非實測）\n即時讀數與歷史各自保存；底座已扣除固定平台重量\n。",
+        "document": "weight"
+      },
+      {
+        "start": 46.5,
+        "end": 55.5,
+        "zh": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+        "en": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+        "text": "檢修格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複\n消耗。",
+        "document": "key"
+      },
+      {
+        "start": 55.5,
+        "end": 64.5,
+        "zh": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+        "en": "The pendant, reachable only after opening the hatch, matched the first photograph.",
+        "text": "開口六角墜飾、斜桿與右上缺口，輪廓與第一照劉涵\n佩戴者一致。\n鏈勾在烤架下緣遮蔽處，開啟暗格後才可伸手取到。\n這支持劉涵與烤架的關聯，不單獨證明其身分或人體\n曾在架上。",
+        "document": "necklace"
+      },
+      {
+        "start": 64.5,
+        "end": 73.5,
+        "zh": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+        "en": "The diary, watch, load and pendant converged. The reason remained below.",
+        "text": "",
+        "document": null
+      }
+    ]
+  },
+  {
+    "id": "CIN-D",
+    "title": "診療區：另一種飢餓",
+    "titleEn": "Clinic · Another hunger",
+    "duration": 96,
+    "video": "media/video/CIN-D-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-D-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-D-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-D-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-D-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 12,
+        "zh": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+        "en": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
+        "text": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已\n死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項\n記錄僅供診療，不足以證明本次案件任何人的犯罪行\n為。\n【偵探重建：先有五年前火災與受困，才有食用遺體\n的往事；這次聚會的縱火，則是另一件事。】",
+        "document": "report"
+      },
+      {
+        "start": 12,
+        "end": 21,
+        "zh": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+        "en": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "zh": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+        "en": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "zh": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+        "en": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 39,
+        "end": 48,
+        "zh": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+        "en": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "zh": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+        "en": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 57,
+        "end": 69,
+        "zh": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+        "en": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
+        "text": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏\n室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活\n動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方\n向：劉涵可能在最後最後合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對\n。",
+        "document": "recording"
+      },
+      {
+        "start": 69,
+        "end": 78,
+        "zh": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+        "en": "The cabinet fell in the fire. With police assistance it was moved, exposing the route.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 78,
+        "end": 87,
+        "zh": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+        "en": "The frame had been used before ash settled. Traces established order, not a unique person.",
+        "text": "門框鏽面有新刮痕，遮蔽接縫留有油痕，外層覆著細\n灰。\n支持開門／維修早於覆灰與倒櫃；不能只憑痕跡認人\n或精確定時。\n通路連往森林。主門反鎖不代表所有出口封死，王杰\n倫可能已逃離。",
+        "document": "exit-traces"
+      },
+      {
+        "start": 87,
+        "end": 96,
+        "zh": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+        "en": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped.",
+        "text": "",
+        "document": null
+      }
+    ]
+  },
+  {
+    "id": "CIN-END",
+    "title": "終幕：深淵的凝視",
+    "titleEn": "Finale · The abyss looks back",
+    "duration": 72,
+    "video": "media/video/CIN-END-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-END-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-END-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-END-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-END-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 9,
+        "zh": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+        "en": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 9,
+        "end": 18,
+        "zh": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+        "en": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 18,
+        "end": 27,
+        "zh": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+        "en": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 27,
+        "end": 36,
+        "zh": "我朝森林出口奔去。身後的視角，卻留在原地。",
+        "en": "I ran toward the forest exit. The viewpoint behind me remained still.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 36,
+        "end": 45,
+        "zh": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+        "en": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 45,
+        "end": 54,
+        "zh": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+        "en": "[Swallowing] The controller’s current reading reset. History remained in the fixed base.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 54,
+        "end": 63,
+        "zh": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+        "en": "Cold light revealed the familiar face. Wang Jielun was alive.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 63,
+        "end": 72,
+        "zh": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+        "en": "Truth can be darker than the ruins. The monster had vanished into the forest.",
+        "text": "",
+        "document": null
+      }
+    ]
+  },
+  {
+    "id": "CIN-EPILOGUE",
+    "title": "後記：留下名字的人",
+    "titleEn": "Epilogue · The names that remain",
+    "duration": 62,
+    "video": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
+    "sources": [
+      {
+        "src": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
+        "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
+      },
+      {
+        "src": "media/video/CIN-EPILOGUE-compatible-v10.webm",
+        "type": "video/webm; codecs=\"vp9, opus\""
+      }
+    ],
+    "poster": "media/posters/CIN-EPILOGUE-v10.webp",
+    "tracks": {
+      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-EPILOGUE-en-aligned-v10.vtt"
+    },
+    "transcript": [
+      {
+        "start": 0,
+        "end": 12,
+        "zh": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+        "en": "Days later formal identification was completed. The four bodies finally had names.",
+        "text": "案件後續通知\n經多來源資料交叉核對，四名死者為：林依瑤、劉子\n傑、劉涵、張萍。\n王杰倫不在四名死者之中，仍在追查。\n取樣與影像資料支持劉涵火前已受致命襲擊；三杯與\n空瓶有一致的鎮靜物質線索。\n本通知完成於現場調查之後，不是當晚機關一解開就\n即時得到的檢驗。",
+        "document": "identity"
+      },
+      {
+        "start": 12,
+        "end": 22,
+        "zh": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+        "en": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 22,
+        "end": 32,
+        "zh": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+        "en": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 32,
+        "end": 42,
+        "zh": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+        "en": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 42,
+        "end": 52,
+        "zh": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+        "en": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime.",
+        "text": "",
+        "document": null
+      },
+      {
+        "start": 52,
+        "end": 62,
+        "zh": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+        "en": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning.",
+        "text": "",
+        "document": null
+      }
+    ]
+  }
+]

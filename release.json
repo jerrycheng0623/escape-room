@@ -1,18 +1,21 @@
 {
-  "appVersion": "0.12.0",
+  "appVersion": "1.0.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": "40e226c07101a2ccc771f822a0e99ada0871a9b6",
-  "createdAt": "2026-11-04T22:33:13.116071+08:00",
-  "assets": {
-    "Game-Cd-1dyP0.js": "4deb13e5c40016747528f01af29a51bf32040702c823c073bc15de72341851ae",
-    "Scene-DevDOFjJ.js": "c7186073ef78d38ad5e804f8d9ce16a8ec4fbf1c099648a1c8b0ff6e205f9519",
-    "index-BDb3Ytwm.js": "97f4bc2c8611f7cb8da5431f071632e784a2a9d19315fe418fa0b1e77b9b80a3",
-    "index-DLRX85XH.css": "9656836c02c7cbb63a2f15091c090f274c46b91a73efd59e961e1295da6cef09",
-    "solutions-DJnfxefq.js": "01593f2f0fd677fb20287eb40e2a121bc40328424454fd6aeef9cc605218085a"
-  },
+  "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14",
+  "sourceBaselineCommit": "f644249bee4bcb573118630e5c01864c0fb32d7d",
+  "createdAt": "2026-11-05T01:04:45.539593+08:00",
   "cinematicVersion": 10,
-  "cinematicTimeline": "assets/story-v10/timeline.json",
-  "interfaceVersion": 13,
-  "sourceBaselineCommit": "1947b41a695fc026fcbabe2bcb9075bcabfa8b2b"
+  "interfaceVersion": 14,
+  "modelVersion": 14,
+  "formalRelease": true,
+  "previewMode": false,
+  "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
+  "assets": {
+    "Game-DbxbfcQP.js": "f9b3edff74ad17c8c7f2a5b1eb73e50baab3c8e7f0d8e994e13c8c65793fc924",
+    "Scene-CQu58ndj.js": "4e695bedf3931ced3b006d363d0434dcb5102e0a7358c1b1d69b893210bf9bb1",
+    "index-cIYJdtBs.js": "1fd3329714a5f6c10b0c2717b7ed52097725ec5fde1b12a6100201bf0a729658",
+    "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
+    "solutions-rrCnOSoR.js": "97391d82793b71d2c141b2a69d6747050d8e51b6a9b6724dac8fbf895458e6d0"
+  }
 }
