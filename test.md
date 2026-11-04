@@ -771,6 +771,27 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 
 新增命令：根目錄python3 scripts/verify_cinematic_alignment.py；web/執行pnpm test:captions。Browser plugin not available，因此使用既有Playwright；Chromium桌機1440×900、WebKit手機844×390，兩格式隔離profile。macOS26.6；引擎精確版本在browser-alignment.json。實體iPhone／iPad Safari仍未驗證，不以WebKit模擬替代真機。
 
+2026-11-04操作介面v11（網站0.10.0）回歸：基準Website-2 b2cc21f95a17c05e909baceb17d8fafbb064bbaa／Pages 1d41f6994370c48234555a6a738f85202ee4156a。單代理，macOS26.6，Chromium151.0.7922.34／WebKit26.5，Browser plugin not available，使用既有Playwright。新功能依使用者授權實作；BSC已由使用者確認是Esc。角色原畫、故事影片／字幕與四關解法不改。
+
+| 案例 | 真實操作及預期 | 本輪結果 |
+| --- | --- | --- |
+| UI11-UNIT | 收集紀錄不洩露未取得資料、放回後仍可讀、舊工作面相容、分區筆記、密碼部分輸入存檔 | 54項單元測試通過，含既有四關與碰撞測試 |
+| UI11-NOTEBOOK | 兩引擎×1440×900、667×375、844×390、1024×768；A/B分類、C/D空頁、原畫及全文、縮放、筆記重載、橫直向 | 8組通過；Chromium手機採真CDP滑動，WebKit採觸控按鈕；notebook-controls.json |
+| UI11-LOOK-SCREEN | 無按鍵滑鼠移動、Esc暫停、原生全螢幕進退、無API時繁中回復 | 兩引擎桌機滑鼠環顧／Esc通過；可用引擎全螢幕進退通過，WebKit手機API未提供，正確顯示繁中替代說明。原生游標鎖定在此次工程瀏覽器未取得，不宣稱實機鎖定已驗收 |
+| UI11-LUGGAGE | 逐字輸入／逐次刪除、部分碼重載、錯碼保持鎖定、四輪＋／−與正碼開鎖 | Chromium與WebKit桌機／手機4組通過；luggage-chromium.json、luggage-webkit.json |
+| UI11-FULL-FLOW | 從新遊戲實際走動、取證、操作A/B/C/D含錯路、Bonus可選與單結局 | 桌機WASD／滑鼠與真CDP手機各一條通過；影片明確略過，不冒充自然播放；desktop-flow.json、mobile-flow.json |
+| UI11-BOUNDARY | WebKit四關半完成重載、退件、C35kg手輪、D取證／出口依賴 | 四區通過；webkit-boundaries.json |
+| UI11-TOUCH | 四尺寸搖桿、同時移動環顧、取消、鄰近連點、選單、放手不漂移 | Chromium22項、WebKit12項通過；不代表實體手機FPS |
+| UI11-PUBLIC | 新建置與公開版本指紋、整理頁／密碼鎖線上回歸 | 待部署後驗證 |
+
+原問題：密碼鎖每次變更僅接受剛好四位，因此一般刪除、清空、逐字輸入被退回；修正為0–4位有效暫態，開鎖仍僅接受1830且須拉門。先前僅fill完整碼的測試無法抓到此問題。WebKit點入欄位不保證如Chromium全選，測試改為核對每次Backspace確實縮短內容，而非錯誤要求一次全清。
+
+整理頁新增objects[id].collected可選布林欄位，舊schema4仍合法；新拿取後放回仍有閱讀副本，實物沒有複製。舊存檔在更新前已放回且從未記錄拿取歷史者，無法可靠判斷曾拿過，需重新拿取。僅觀察不算收集，寫筆記不會偷偷標記物品已發現。分類與每區筆記不影響當前章節或機關。舊工作面與既有annotations原值保留。
+
+本輪工具修正：筆記重載測試最初每次頁面載入都重種fixture，已改為只種一次；先前用床內位置作行李箱工程起點被碰撞系統移回出生點，改用合法近櫃位置，不繞過碰撞；WebKit的固定iPhone screen與旋轉viewport組合留下舊layout尺寸，改用相同手機viewport／isMobile／hasTouch上下文測試。KHR_parallel_shader_compile不支援警告保留在報告，Three.js會使用同步編譯，並不當成新的頁面執行錯誤。最初兩次pnpm在根目錄找不到package.json，後續統一pnpm --dir web。以上工程問題不算遊戲通關。
+
+新增重跑：web/ pnpm test:notebook、pnpm test:luggage；既有pnpm test:ui、test:mobile與WebKit test:mechanisms已實跑。測試證據於assets/interface-v11/verification，原始截圖在/tmp/embers-notebook-v11-final及/tmp/embers-v11-*。未提供真機Safari／Android、長時間熱降頻或新手盲測結果。
+
 首次玩家的趣味／難度／誤導公平、實體iPhone/iPad/Android與長時間熱降頻仍未測。現行新機關正式介面及文書以繁體中文驗收，完整英文化尚未驗收；只用鍵盤走完全部四關尚無完整盲測紀錄，方向鍵與近景基礎操作已實測。新版文書與孔路為原型實作，不能用自動化通關時間當真人難度或效能結論。
 
 公開交付：桌機與手機共用 https://jerrycheng0623.github.io/escape-room/mechanisms-v4/ ，原入口同步最新版；原v3版本入口保留且index雜湊一致。程式凍結Commit **2b4fbd7ec8bdbfa101cafc35facd305ad3716a8c**；版戳來源 **a46a58391a01f0c57397cbc8fdecf0d0c499801c**；Pages **ce7c12fe1bc339abf3aa051440352cfbfd352704**；[workflow 41676399877](https://github.com/jerrycheng0623/escape-room/actions/runs/41676399877)已確認success。後續QA提交只補文件、測試與證據，不改網站程式。

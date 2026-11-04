@@ -15,10 +15,10 @@ export function validRun(x){
  if(x.position&&(!Number.isFinite(x.position.x)||!Number.isFinite(x.position.z)))return false;
  if(Object.values(x.hints).some(v=>!uniq(v)||v.some(n=>!Number.isInteger(n)||n<0||n>9999))||Object.entries(x.hintStages).some(([k,v])=>!GUIDANCE_STAGES.includes(k.slice(2))||!uniq(v)||v.some(n=>!Number.isInteger(n)||n<0||n>6)))return false;
  if(!x.annotations||ROOM_ORDER.some(r=>typeof x.annotations[r]!=='string'||x.annotations[r].length>6000))return false;
- if(!x.objects||OBJECT_IDS.some(id=>{const o=x.objects[id];return !o||typeof o.discovered!=='boolean'||typeof o.opened!=='boolean'||typeof o.flipped!=='boolean'||!['world','inventory','work','basket','pan','strip','board'].includes(o.container)||![0,90,180,270].includes(o.rotation)||!Number.isFinite(o.x)||!Number.isFinite(o.y)||o.x<0||o.x>1||o.y<0||o.y>1||o.container!=='world'&&!WORLD[id].portable;}))return false;
+ if(!x.objects||OBJECT_IDS.some(id=>{const o=x.objects[id];return !o||typeof o.discovered!=='boolean'||o.collected!==undefined&&typeof o.collected!=='boolean'||typeof o.opened!=='boolean'||typeof o.flipped!=='boolean'||!['world','inventory','work','basket','pan','strip','board'].includes(o.container)||![0,90,180,270].includes(o.rotation)||!Number.isFinite(o.x)||!Number.isFinite(o.y)||o.x<0||o.x>1||o.y<0||o.y>1||o.container!=='world'&&!WORLD[id].portable;}))return false;
  if(x.held!==null&&(!WORLD[x.held]||x.objects[x.held]?.container!=='inventory'))return false;
  const p=x.puzzles;if(!p||!p.A||!p.B||!p.C||!p.D)return false;
- if(!Array.isArray(p.A.hooks)||p.A.hooks.length!==6||p.A.hooks.some(v=>!['rest','lift','pull','turn'].includes(v))||!/^\d{4}$/.test(p.A.digits)||['guard','latch','panel','luggage'].some(k=>typeof p.A[k]!=='boolean')||p.A.panel&&!p.A.latch)return false;
+ if(!Array.isArray(p.A.hooks)||p.A.hooks.length!==6||p.A.hooks.some(v=>!['rest','lift','pull','turn'].includes(v))||!/^\d{0,4}$/.test(p.A.digits)||['guard','latch','panel','luggage'].some(k=>typeof p.A[k]!=='boolean')||p.A.panel&&!p.A.latch)return false;
  if(!uniq(p.B.strip)||p.B.strip.some(id=>WORLD[id]?.kind!=='film'||x.objects[id].container!=='strip')||['transported','returnOpen','originalReleased','originalOpened','tested'].some(k=>typeof p.B[k]!=='boolean')||p.B.originalOpened&&!p.B.originalReleased)return false;
  if(!Array.isArray(p.C.route)||p.C.route.length>10||p.C.route.some(v=>!['A0','M','F','B','OLD','RING'].includes(v))||['slipped','released','liftCommitted','hatchRaised','handwheel'].some(k=>typeof p.C[k]!=='boolean')||p.C.hatchRaised&&!p.C.liftCommitted)return false;
  if(!uniq(p.D.pages)||p.D.pages.some(id=>!WORLD[id]?.page||x.objects[id].container!=='board')||!Array.isArray(p.D.sequence)||p.D.sequence.length>12||p.D.sequence.some(n=>!Number.isInteger(n)||n<1||n>6)||['upperReleased','upperOpened','lowerReleased','lowerOpened'].some(k=>typeof p.D[k]!=='boolean')||p.D.lowerOpened&&!p.D.lowerReleased||p.D.upperOpened&&!p.D.upperReleased)return false;
@@ -40,11 +40,11 @@ export const basketLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.cont
 export const panLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.container==='pan'&&WORLD[id].kg).reduce((n,[id])=>n+WORLD[id].kg,0);
 export const routeWorks=p=>p.route.join(',')==='A0,M,F,B';
 function settle(run){const p=run.puzzles;for(const room of ROOM_ORDER){if(run.solved.includes(room)||run.solved.length!==ROOM_ORDER.indexOf(room))continue;const yes=room==='A'?p.A.panel:room==='B'?p.B.originalOpened:room==='C'?p.C.hatchRaised:p.D.lowerOpened;if(yes&&REWARDS[room].every(id=>run.evidence.includes(id)))run={...run,solved:[...run.solved,room]};}if(run.evidence.includes('report')&&run.cabinetMoved&&['notes','clipping','first-photo','last-photo','worklog','weight','diary','watch','necklace','surface'].every(id=>run.evidence.includes(id)))run=addEvidence(run,'recording');return run;}
-export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase!=='explore'||!item||item.room!==run.room&&run.objects[id]?.container==='world'||run.legacyCompleted.includes(run.room)&&!['observe','collect','take','hold','return','work','flip','rotate','move','annotate'].includes(verb))return run;let n=structuredClone(run),o=n.objects[id],p=n.puzzles[item.room];o.discovered=true;const held=n.held,hand=held?WORLD[held]:null;
+export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase!=='explore'||!item||item.room!==run.room&&run.objects[id]?.container==='world'||run.legacyCompleted.includes(run.room)&&!['observe','collect','take','hold','return','work','flip','rotate','move','annotate'].includes(verb))return run;let n=structuredClone(run),o=n.objects[id],p=n.puzzles[item.room];if(verb!=='annotate')o.discovered=true;const held=n.held,hand=held?WORLD[held]:null;
  if(o.container==='strip'&&n.puzzles.B.transported&&['take','return','flip','rotate','connect'].includes(verb))return run;
- if(verb==='annotate'&&typeof value==='string')n.annotations[n.room]=value.slice(0,6000);
+ if(verb==='annotate'){if(typeof value==='string')n.annotations[n.room]=value.slice(0,6000);else if(value&&ROOM_ORDER.includes(value.room)&&typeof value.text==='string')n.annotations[value.room]=value.text.slice(0,6000);}
  if(verb==='observe')return n;
- if(verb==='take'&&item.portable&&(!item.behind||n.objects[item.behind].opened)){if(o.container==='strip'&&n.puzzles.B.transported)return run;n.puzzles.B.strip=n.puzzles.B.strip.filter(v=>v!==id);n.puzzles.D.pages=n.puzzles.D.pages.filter(v=>v!==id);o.container='inventory';n.held=id;}
+ if(verb==='take'&&item.portable&&(!item.behind||n.objects[item.behind].opened)){if(o.container==='strip'&&n.puzzles.B.transported)return run;n.puzzles.B.strip=n.puzzles.B.strip.filter(v=>v!==id);n.puzzles.D.pages=n.puzzles.D.pages.filter(v=>v!==id);o.container='inventory';o.collected=true;n.held=id;}
  if(verb==='hold'&&o.container==='inventory')n.held=id;
  if(verb==='return'&&item.portable){if(o.container==='strip'&&n.puzzles.B.transported)return run;o.container='world';n.puzzles.B.strip=n.puzzles.B.strip.filter(v=>v!==id);n.puzzles.D.pages=n.puzzles.D.pages.filter(v=>v!==id);if(n.held===id)n.held=null;}
  if(verb==='work'&&item.portable&&o.container==='inventory'){o.container='work';n.held=null;}
@@ -59,7 +59,7 @@ export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase
  if(item.kind==='bell'&&verb==='press'&&p.hooks[5]==='rest')p.guard=false;
  if(item.kind==='panel'&&verb==='pull'&&p.latch){p.panel=true;o.opened=true;}
  if(item.kind==='panel'&&verb==='collect'&&p.panel){n=addEvidence(addEvidence(n,'notes'),'clipping');}
- if(item.kind==='luggage'){if(verb==='digits'&&/^\d{4}$/.test(value))p.digits=value;if(verb==='pull'&&p.digits==='1830')p.luggage=true;}
+ if(item.kind==='luggage'){if(verb==='digits'&&typeof value==='string'&&/^\d{0,4}$/.test(value))p.digits=value;if(verb==='pull'&&p.digits==='1830')p.luggage=true;}
  if(item.kind==='box'&&verb==='move')o.opened=!o.opened;
  if(item.kind==='film'&&verb==='connect'&&o.container==='inventory'&&!p.transported){o.container='strip';p.strip.push(id);if(n.held===id)n.held=null;}
  if(item.kind==='reader'){

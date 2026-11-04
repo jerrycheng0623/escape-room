@@ -18,3 +18,5 @@ pnpm dev
 正式建置會重建web/public/media及web/dist，不將套件／快取／產生副本推入來源分支。檢查腳本見web/package.json；Playwright使用既有執行環境，輸出預設/tmp，可透過EMBERS_QA_DIR指定。
 
 規格依PLAN.md、verify.md及machine.md v4。歷史測試與舊機關不同，不合併宣稱全部通過。尚無實體手機／首次玩家盲測／真人配音／帳號同步／離線支援。進度只儲存於各網址同來源瀏覽器localStorage；新舊同來源路徑共用進度，跨裝置不會自動同步。
+
+網站0.10.0：證物整理頁按A/B/C/D分類，自動收納已收集資料，左右翻頁、放大與分區筆記。桌機移動滑鼠即可環顧；支援時可點場景鎖定游標，Esc暫停。全螢幕依瀏覽器API可用性顯示結果。行李鎖支援逐字／刪改／部分碼保存及觸控數字輪。test:notebook、test:luggage提供操作回歸；影片仍為v10且未修改。

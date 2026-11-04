@@ -1,6 +1,6 @@
 {
   "name": "embers-sixth-person",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -21,7 +21,9 @@
     "test:touch": "node scripts/test-touch-controls.mjs",
     "test:keyboard": "node scripts/test-keyboard-audio.mjs",
     "test:post": "node scripts/test-postgame.mjs",
-    "test:captions": "node scripts/test-caption-alignment.mjs"
+    "test:captions": "node scripts/test-caption-alignment.mjs",
+    "test:notebook": "node scripts/test-notebook-controls.mjs",
+    "test:luggage": "node scripts/test-luggage-input.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

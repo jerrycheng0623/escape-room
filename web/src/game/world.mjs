@@ -75,7 +75,7 @@ D('d-clock','停走的座鐘','small','整理盤',[12,-.8,18.8],'發條已鬆。
 D('d-towel','折起的布','small','椅墊下',[11.3,-1.5,18],'摺痕中夾著灰塵，與椅墊一樣被煙燻黃。');
 D('d-label','檔案櫃標籤','paper','公事包',[8.1,-.6,15.8],'案史、待核實、覆核。分類名稱並不代表每張紙上的句子都已被證明。');
 export const OBJECT_IDS=Object.keys(WORLD);
-export function freshObjects(){return Object.fromEntries(OBJECT_IDS.map(id=>[id,{discovered:false,container:'world',rotation:0,flipped:false,x:.5,y:.5,opened:false}]));}
+export function freshObjects(){return Object.fromEntries(OBJECT_IDS.map(id=>[id,{discovered:false,collected:false,container:'world',rotation:0,flipped:false,x:.5,y:.5,opened:false}]));}
 export const roomObjects=room=>Object.values(WORLD).filter(o=>o.room===room);
 export function commonHoles(ids,objects={}){if(!ids.length)return [];const sets=ids.map(id=>{const page=PAGES[WORLD[id]?.page],o=objects[id]||{rotation:0,flipped:false};if(!page)return [];return page.holes.map(n=>{let [x,y]=HOLE_POINTS[n];x-=230;y-=145;if(o.flipped)x=-x;const a=o.rotation*Math.PI/180,nx=x*Math.cos(a)-y*Math.sin(a)+230,ny=x*Math.sin(a)+y*Math.cos(a)+145;return Object.keys(HOLE_POINTS).map(Number).find(k=>Math.hypot(HOLE_POINTS[k][0]-nx,HOLE_POINTS[k][1]-ny)<1);}).filter(Boolean);});return [1,2,3,4,5,6].filter(n=>sets.every(h=>h.includes(n)));}
 export const HOLE_POINTS={1:[100,80],2:[230,80],3:[360,80],4:[100,210],5:[230,210],6:[360,210]};

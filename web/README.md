@@ -17,7 +17,7 @@ pnpm build
 
 ## 操作與資料
 
-桌機WASD移動、方向鍵／拖曳環顧、E查看；手機橫向搖桿移動、拖曳環顧。機關依房內物件分開觀察、拿取、翻面與操作；空白工作面可自由整理，所有操作可用鍵盤及觸控。I/J背包、H指引、Esc暫停。
+桌機WASD移動、移動滑鼠／方向鍵環顧（Esc暫停）、E查看；手機橫向搖桿移動、拖曳環顧。機關依房內物件分開觀察、拿取、翻面與操作；空白工作面可自由整理，所有操作可用鍵盤及觸控。I/J背包、H指引、Esc暫停。
 
 新手／標準／困難為3／5／7階段資訊量，內容只指觀察地點與關聯，不列解法或下一步操作；地點回看另記，不跳機關。沒有死亡、倒數失敗與第二結局。首次通關快照保留；後續推理可補皇冠。
 
@@ -32,3 +32,5 @@ pnpm build
 本輪3D來源：src/game/roomModels.js；碰撞與視線：space.mjs；指引：guidance.mjs。材質與生成紀錄：assets/scene-v6/。四個可獨立檢視GLB：3D/scene/enclosed-{A,B,C,D}-v6.glb。GLB不含互動、動態文字與Three.js bumpMap；網站以原生場景為準。
 
 回歸：pnpm test（最新數量見test.md）；pnpm test:ui（真實操作的正式通關）；pnpm test:space（工程fixture逐區碰撞／六面檢視／手機模擬，不能算親解通關）。Playwright用既有執行環境，可用PLAYWRIGHT_MODULE指定。所有測試用獨立profile，EMBERS_QA_DIR指定外部證據資料夾。
+
+網站0.10.0：證物整理頁按A/B/C/D分類，自動收納已收集資料，左右翻頁、放大與分區筆記。桌機移動滑鼠即可環顧；支援時可點場景鎖定游標，Esc暫停。全螢幕依瀏覽器API可用性顯示結果。行李鎖支援逐字／刪改／部分碼保存及觸控數字輪。test:notebook、test:luggage提供操作回歸；影片仍為v10且未修改。
