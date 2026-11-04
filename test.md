@@ -1,7 +1,12 @@
 # 《餘燼裡的第六人》完整測試計畫、案例與執行紀錄
 
-> 檔名：`test.md`｜版本：v2.4｜更新時間：2026-11-04 CST（Asia/Taipei）  
-> 規格基準：[verify.md v2.4](./verify.md)；最新機關v4測試見第11.5節；第11.4節為影片v7回歸，第11.1–11.3節為歷史v6快照。前版173案例的機關部分由本版新案例取代，不能合併宣稱全部通過。
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+> v14 模型細節：重物架上的 8 個重物依接觸面呈現四種不同造型；紙張落在地板、床面或桌架上，掛放物有固定支點。B／C／D 層架開口朝可接近方向；吊籃按物品實際高度堆疊，底片離開乾燥繩後在工作桌平放。86 件物品已通過可達站位與實際三角面視線檢查；109 組模型及 436 張四方向圖有逐檔 SHA256，另附 14 張模型聯絡表供覆核。這些是同源幾何模型，並非掃描或影像自動重建。
+
+
+> 檔名：`test.md`｜版本：v2.5｜更新時間：2026-11-05 CST（Asia/Taipei）  
+> 規格基準：[verify.md v2.5](./verify.md)；最新機關v4測試見第11.5節；第11.4節為影片v7回歸，第11.1–11.3節為歷史v6快照。前版173案例的機關部分由本版新案例取代，不能合併宣稱全部通過。
 > 性質：可執行的測試規格＋本輪實測紀錄。案例寫好不等於通過；預覽可通不等於正式通關。  
 > 最新授權：依最新machine.md接入所有四關機關，重跑測試、建置與GitHub公開發布；不啟用子代理。手機與桌機使用同一網址。原影片相容修正保留。
 
@@ -296,10 +301,10 @@ P0：進度／證物／正式與預覽隔離、可解性、關鍵劇透、結果
 
 | 案例ID | 優先級／名稱 | 操作步驟 | 預期結果 | 本輪狀態／原因 |
 | --- | --- | --- | --- | --- |
-| PREV-001 | P0 未完成機關預覽入口 | ①查看機關②點略過未完成機關、預覽後續 | 有明確預覽標示，不假裝機關已解；正式版通關仍需解題 | 未測試 |
+| FORMAL-001 | P0 移除製作預覽 | 新遊戲→暫停→調查檔案 | 不顯示跳關入口；後段章節／影片保持鎖定 | 本輪結果見 v14 證據 |
 | PREV-002 | P0 循序預覽 | ①A後動畫②前往B③依序至C/D／終幕 | 順序正確，D後接獨立終幕；不因預覽發正式獎勵 | 未測試（新版已交付，按本列完整條件驗收） |
 | PREV-003 | P0 主檔隔離 | ①預覽收證物／用提示／換房②回首頁③繼續 | 正式主檔／備份／有效時間／求助／皇冠均未被預覽覆寫 | 未測試 |
-| PREV-004 | P1 任意場景預覽 | ①檔案館選B/C/D②切空間③返回 | 只改預覽會話，不能從網址把預覽旗標寫進正式存檔 | 未測試 |
+| FORMAL-004 | P1 章節解鎖 | 未完成 A 時查看章節 B/C/D | 不可點選；通關後才可任意回訪／獨立重玩 | 本輪結果見 v14 證據 |
 | PREV-005 | P1 預覽返回與重載 | ①預覽影片按返回②重載③繼續正式調查 | 返回合法預覽區或選單；正式進度完整，無空白畫面 | 未測試（新版已交付，按本列完整條件驗收） |
 | PREV-006 | P1 劇透告知 | ①從檔案館首次開後段場景／影片②取消再確認 | 先說含劇透與不計進度；取消不偷偷載入後段正文 | 未測試 |
 
@@ -593,7 +598,7 @@ P0：進度／證物／正式與預覽隔離、可解性、關鍵劇透、結果
 | --- | --- | --- |
 | 正式最短通關 | 主選單→裝置／提示→序幕→A→CIN-A→B→CIN-B→C→CIN-C→D／必要出口調查→CIN-D→略過Bonus→終幕→通關檔案 | 四題親解；過場與發獎各一次；數日後姓名不作當晚前置 |
 | 正式Bonus | 同上→五題推理→皇冠→同一終幕 | 錯答可重試；有求助仍能得皇冠 |
-| 製作預覽 | 正式A查看機關→略過未完成、預覽後續→B/C/D／對應影片→終幕預覽→檔案 | 正式存檔／備份／統計不變；預覽不解鎖答案 |
+| 正式版防跳關 | 正式 A 暫停及檔案館 | 無製作預覽；未開放區域與影片均不可提前進入 |
 | 通關後 | 繼續→檔案館→自由回訪／獨立章節重玩／Bonus重做／動畫回看／完整解答 | 首次快照不覆寫；不重領獎勵 |
 | 故障恢復 | 每題輸入中、成功提交前後、道具領取前後、動畫載入／結束、開門前後 | 在每插點關頁／斷網／儲存失敗，恢復後仍可解且只發一次 |
 
@@ -988,3 +993,38 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 | `web/src/game/storage.mjs` | `3f09484a0bcea2ff66f3ea9804fd3a9a7aeaa76a4bc9a6c2bc92179f33070e23` |
 | `story-settings.json` | `636a46702fefc5e3405abb64291fa5c8492a609b1849f445179b9e7cfd3aefe4` |
 | `game-rules.json` | `1fdf57529ea18e322aa8279881a08ceda83bd1a53bfc97b83add6e5c8add2c82` |
+
+
+### 正式版 v14：模型、操作與正式流程（2026-11-05）
+
+本輪執行者為 Codex，未使用子代理。最終本機判定以 verification/regression-summary.json 為準；regression.json 保留首次執行的失敗紀錄。網站 1.0.0／模型與介面 v14／機關 v4／存檔 schema4／影片 v10；來源分支 Websit-final。當前原始碼與公開產物的 Commit、檔案 SHA256 以 release-verification.json、公開 release.json 及 upload-manifest.json 為準。瀏覽器外掛未提供，使用 Playwright；Chromium 151.0.7922.34、WebKit 26.5，macOS 26.6、Node 24.22.1。所有模擬、工程 fixture 與實際新遊戲流程分開記錄。
+
+| 案例 | 方法與預期 | 本輪結果與證據 |
+|---|---|---|
+| F14-LOGIC | 存檔／單一位置、四機關、256 重量子集、孔洞／線序、提示、首次結果 | 55 項通過；verification/unit.log |
+| F14-PROP | 86 物品接觸面、碰撞可達性；再對實際模型三角面找可見站位，不豁免家具遮擋 | 86／86 通過；3D/final-v14/visibility.json、verification/layout.json |
+| F14-MODEL | 每個模型 GLB 標頭、有限座標、單位法線、索引、非退化面；四方向圖非空及 SHA256 | 109 組／436 圖通過；3D/final-v14/verification.json、manifest.json；14 張聯絡表已檢視 |
+| F14-FLOW | 桌機實際 WASD／手機 CDP 觸控從新遊戲依序解 A/B/C/D、取得獎勵及結局；僅明確略過影片 | 桌機、手機各一條通過，未注入通關；verification/flow-desktop-final/flow.json、flow-mobile-final/flow.json |
+| F14-PLAYER | 三個引擎／操作組態逐區載入；無中央探索框、無預覽跳關入口、未開章節與影片不能點選 | 12 個房間組態通過；verification/player/player.json |
+| F14-WALL | 四區四向持續撞牆、天花／地板與回存；手機移動、指引、直向暫停 | 通過；verification/space/enclosure-mobile-report.json；截圖為保留原尺寸的 WebP 檢視副本 |
+| F14-GUIDE | 新遊戲七頁教學、紙張／鎖／工具練習、減少動態、指南不改正式存檔 | 兩引擎 6 組通過；verification/guide-final/guide-modes.json |
+| F14-Q | Q 與文字／組字／系統組合鍵隔離、示範密碼逐字刪改及全形；原生游標鎖定、視窗外連續轉向、Esc | Q／輸入 4 組、真正原生鎖定 5 項通過；verification/q-final、native |
+| F14-LOCK | 行李櫃部分輸入、刪改、錯碼／缺碼、數字輪、正確碼＋拉門、重載 | 兩引擎桌機／手機 4 組通過；verification/luggage/luggage-input.json |
+| F14-NOTE | A/B/C/D 分類、左右翻頁、放大、筆記與鍵盤切頁隔離、收集及放回不複製物件 | 8 組通過；verification/notebook/notebook-controls.json |
+| F14-TOUCH | 多指持有權、同時移動／轉向、取消、失焦、開介面、轉直向、鄰近誤觸、鬆手無位移 | Chromium 真 CDP 22 項；WebKit 點按／PointerEvent 12 項通過；verification/touch、touch-webkit |
+| F14-RELOAD | A 陷阱、B 退片、C 平衡與手輪、D 部分線序／下匣／出口，逐次重載保存狀態 | Chromium CDP 與 WebKit 各四區通過；verification/boundaries-cdp、boundaries-webkit |
+| F14-KEY | 真正方向鍵、E、Tab、Enter 拿物與工作 MP3 播放／暫停，關閉停止 | 兩引擎通過；verification/keyboard/keyboard-audio.json |
+| F14-POST | 通關解答、補皇冠、首次結果唯讀、身分通知、動畫回看、回訪與獨立 D 重玩 | 兩引擎通過；verification/postgame/postgame.json |
+| F14-VIDEO | 暫停、拖曳、字幕中英／關閉、靜音、原生控制、全文、禁止自動播放、格式備援、錯誤恢復及略過 | 兩引擎共 22 情境通過；verification/controls-chromium、controls-webkit-final |
+| F14-CAPTION | 7 影片／52 幕，中英文字幕按時間軸逐幕核對；MP4／WebM、桌機 Chromium／手機 WebKit | 4 組各 104 項，共 416 項通過；verification/captions/browser-alignment.json；編碼影片逐影格核對見 assets/story-v10/alignment-verification.json |
+| F14-LAYOUT | 影片 7 種螢幕尺寸、控制可點且無橫向溢出 | 兩引擎共 14 組通過；verification/media-layout/media-layout-report.json |
+| F14-ENDING | 以真通關存檔建立結尾 fixture，兩段 1×自然結束，身分通知不可提前交付 | 兩引擎通過；verification/media-story/media-story-report.json；不是另一條新遊戲通關 |
+| F14-NATURAL | 七段影片由 0 播到 ended、1×、不拖曳、不注入 ended，回到已通關檔案館 | 兩引擎各 7／7 通過，共 14 次完整自然播放；verification/natural-chromium-final、natural-webkit-final |
+| F14-PUBLIC | 根網址與 final/ 的同版檔案、所有發布路徑、影片 Range／MIME、實際公開站回歸及 Git 檔案比對 | 以 public-files.json、public-entry、public-flow-* 及 release-verification.json 的實際結果為準 |
+| F14-DOC | 34 份 Markdown 分為現行維護或歷史來源，逐檔 SHA256；目前文件不得有失效本機檔案連結 | 通過；assets/final-v14/markdown-registry.json，重跑 scripts/check_final_documents.py |
+
+失敗修正保留在 verification/initial-failures。觸控舊案例讀到四捨五入前後的診斷座標，差異不足 1 mm：統一診斷精度後，以同一鬆手／中斷案例重跑通過。鍵盤舊案例仍站在紙張移動前的位置，已改成由實際 WORLD 位置建立可達站位。字幕／自然播放舊測試原用未通關預覽與舊標題：改用有效且來自實際遊玩的通關 fixture，確認完整影片及返回正式通關檔案館。D 重載案例的舊單次滑鼠指向失敗，改用真 CDP 觸控／WebKit 校正指向，兩者都實際操作四關後通過；沒有改謎底或直接呼叫解鎖。
+
+效能只記錄量測：在多個自動化瀏覽器同時運行的 SwiftShader 軟體繪圖環境，場景量測約 18.8–33.6 FPS、55–80 draw calls，像素比 0.55–0.65；不宣稱達到實體手機 30／60 FPS。硬體 GPU、實體 iPhone／iPad Safari、手機多指實機、首次玩家盲測及完整英文在本輪仍未驗收。原始 PNG 留在測試目錄；交付截圖使用品質 90 的 WebP 檢視副本，原尺寸不變；原始 PNG 保留並記錄 SHA256，不宣稱壓縮後逐像素相同，對照見 verification/screenshots.json。
+
+正式碰撞最終修正：C 區新增四根承重支架的獨立碰撞、擴展吊籃承接座與檢修蓋邊框的精確範圍；幾何外觀與謎底不變。另增直行撞定輪立柱的回歸案例（55 項邏輯測試），重跑 86 物品支撐／可達站位與實際三角面可見性，全部通過。最終碰撞版桌機與手機各一條完整四關新遊戲通關、C 區與四關重載亦通過。最終四關新遊戲重測以 verification/flow-desktop-final、flow-mobile-final 為準；之前各項不受此碰撞差異影響的介面、影片及存檔測試保留原始建置快照。

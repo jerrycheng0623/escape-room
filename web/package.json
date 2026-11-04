@@ -1,6 +1,6 @@
 {
   "name": "embers-sixth-person",
-  "version": "0.12.0",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -26,7 +26,8 @@
     "test:q-input": "node scripts/test-q-guide-input.mjs",
     "test:native": "node scripts/test-native-exploration.mjs",
     "test:guide": "node scripts/test-guide-modes.mjs",
-    "test:luggage": "node scripts/test-luggage-input.mjs"
+    "test:luggage": "node scripts/test-luggage-input.mjs",
+    "test:layout": "node scripts/test-final-layout.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

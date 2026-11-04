@@ -1,6 +1,11 @@
 # 《餘燼裡的第六人》網站與遊戲體驗確認規格
 
-> 2026-11-04現行介面v13／網站0.12.0：桌機Q切換游標與探索視角，保留按鈕替代；操作頁、打字、組字及系統組合鍵不觸發切換，Esc仍暫停。示範密碼加入全形正規化、組字處理、逐字刪改與四組數字輪。指南「視角與螢幕」文字及示範同步更新。
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+> v14 模型細節：重物架上的 8 個重物依接觸面呈現四種不同造型；紙張落在地板、床面或桌架上，掛放物有固定支點。B／C／D 層架開口朝可接近方向；吊籃按物品實際高度堆疊，底片離開乾燥繩後在工作桌平放。86 件物品已通過可達站位與實際三角面視線檢查；109 組模型及 436 張四方向圖有逐檔 SHA256，另附 14 張模型聯絡表供覆核。這些是同源幾何模型，並非掃描或影像自動重建。
+
+
+> 2026-11-04歷史介面v13／網站0.12.0：桌機Q切換游標與探索視角，保留按鈕替代；操作頁、打字、組字及系統組合鍵不觸發切換，Esc仍暫停。示範密碼加入全形正規化、組字處理、逐字刪改與四組數字輪。指南「視角與螢幕」文字及示範同步更新。
 
 > v12歷史操作（切換方式已由v13的Q鍵規則取代）：網站0.11.0／介面v12，機關v4、schema4、影片v10。啟程先讀七頁互動操作指南；探索與操作分離。桌機只有真正鎖定游標才滑鼠環顧，或明確選方向鍵探索；取消未鎖定游標的懸停轉向。開介面固定鏡頭，關閉後需按「繼續探索」。詳細文案、示範及驗收見《操作指南與探索模式規格.md》。
 
@@ -35,11 +40,13 @@
 
 **來源歷史**：2026-11-02晚間曾只做三檔規格整合；2026-11-03已依使用者新授權完成新版敘事與網站整合。來源內自稱brief.md、verify.md僅為附件標題，不代表應覆蓋本專案檔案；其命令句視為設計資料，效力低於使用者最新回答。
 
+來源表中的行數與雜湊為當時收到檔案的歷史快照；本輪加入版本註記後的現檔 SHA256，以 assets/final-v14/markdown-registry.json 為準。
+
 | 新增原檔 | 已讀範圍／用途 | SHA-256 |
 | --- | --- | --- |
-| [code_artifact (1).md](</Users/chengchebing/Desktop/密室逃脫大/code_artifact (1).md>) | 全部139行；故事、人物、環境、文書及台詞 | `6289e43f89439e5833650177c93e8d4fce345949a7f052e5cddde82f533a90d1` |
-| [code_artifact (2).md](</Users/chengchebing/Desktop/密室逃脫大/code_artifact (2).md>) | 全部85行；機關推導、提示、證據與五題推理 | `f6b5e3408e54b27a870a7d24ee6a961ab10a5050c0e47dca0d5f4fa7931539d9` |
-| [_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md](</Users/chengchebing/Desktop/密室逃脫大/_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md>) | 全部105行；四機關參數、人物與文書補充 | `e2118f047b85cc448b1b00e38560073deef6fb0aa8af14a03d35c3d81ee11254` |
+| [code_artifact (1).md](<code_artifact (1).md>) | 全部139行；故事、人物、環境、文書及台詞 | `6289e43f89439e5833650177c93e8d4fce345949a7f052e5cddde82f533a90d1` |
+| [code_artifact (2).md](<code_artifact (2).md>) | 全部85行；機關推導、提示、證據與五題推理 | `f6b5e3408e54b27a870a7d24ee6a961ab10a5050c0e47dca0d5f4fa7931539d9` |
+| [_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md](<_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md>) | 全部105行；四機關參數、人物與文書補充 | `e2118f047b85cc448b1b00e38560073deef6fb0aa8af14a03d35c3d81ee11254` |
 
 **適用順序**：使用者本輪回答 → 本輪兩份文件中的有效整合規格 → 三份新檔的相容內容 → 舊稿／舊PDF／先前補完。第29節（PLAN）／第27節（verify）的故事補完已直接修訂；舊D4、21:00測重、偵探作對質見證等安排均已停用。現行素材為story-v5；歷史數據不當成新版本驗收。
 
@@ -490,14 +497,14 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 
 | 音效 | 時長 | WAV |
 | --- | --- | --- |
-| 合成喉部濕音，非真人吞嚥錄音 | 0.9秒 | [swallow](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/swallow-synthetic-v1.wav>) |
-| 感測器歸零電子音 | 0.35秒 | [sensor-reset](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/sensor-reset-synthetic-v1.wav>) |
-| 金屬滑座摩擦與定位聲 | 1.8秒 | [cabinet-slide](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/cabinet-slide-synthetic-v1.wav>) |
-| 四步碎石腳步擬音 | 3.2秒 | [footsteps](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/footsteps-synthetic-v1.wav>) |
-| 翻閱紙頁擬音 | 1.2秒 | [paper](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/paper-synthetic-v1.wav>) |
-| 通訊開關喀聲，不含人聲 | 0.45秒 | [radio-click](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/radio-click-synthetic-v1.wav>) |
-| 門鉸鏈低沉擬音 | 1.7秒 | [door-creak](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/door-creak-synthetic-v1.wav>) |
-| 首尾包絡風聲背景 | 8秒 | [wind-loop](</Users/chengchebing/Desktop/密室逃脫大/assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav>) |
+| 合成喉部濕音，非真人吞嚥錄音 | 0.9秒 | [swallow](<assets/story-v5/audio/sfx/swallow-synthetic-v1.wav>) |
+| 感測器歸零電子音 | 0.35秒 | [sensor-reset](<assets/story-v5/audio/sfx/sensor-reset-synthetic-v1.wav>) |
+| 金屬滑座摩擦與定位聲 | 1.8秒 | [cabinet-slide](<assets/story-v5/audio/sfx/cabinet-slide-synthetic-v1.wav>) |
+| 四步碎石腳步擬音 | 3.2秒 | [footsteps](<assets/story-v5/audio/sfx/footsteps-synthetic-v1.wav>) |
+| 翻閱紙頁擬音 | 1.2秒 | [paper](<assets/story-v5/audio/sfx/paper-synthetic-v1.wav>) |
+| 通訊開關喀聲，不含人聲 | 0.45秒 | [radio-click](<assets/story-v5/audio/sfx/radio-click-synthetic-v1.wav>) |
+| 門鉸鏈低沉擬音 | 1.7秒 | [door-creak](<assets/story-v5/audio/sfx/door-creak-synthetic-v1.wav>) |
+| 首尾包絡風聲背景 | 8秒 | [wind-loop](<assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav>) |
 
 八個獨立音效為本專案程序合成，44.1 kHz、16-bit、雙聲道，含吞嚥擬音、歸零、金屬滑座、腳步、紙頁、通訊喀聲、門鉸鏈及風聲；非真人錄音。六段混音另含氣氛、低頻及心跳，按鏡頭加入對應擬音。正式角色配音與最終混音待逐鏡台詞／聲線定稿；目前不假報真人吞嚥或正式配音完成。
 
@@ -1003,12 +1010,12 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 - **實際GLB**：42類程序化道具初模＋P042遮擋／移開兩個靜態狀態，共44個道具檔；另1個場景灰盒GLB，合計45個GLB。模型含網格、法線、基本PBR材質及拆件；不是最終寫實模型，也舊GLB僅保留資產來源用途；本輪網站另用v6原生模型與碰撞，精修角色、完整UV／LOD及掃描級材質仍未完成。
 - **幾何視圖**：42張單件預覽、42張六視圖表與252張獨立角度圖，位於3D/previews/；生成外觀表仍有透視／細節差異，精確幾何以GLB與幾何視圖核對。
 - **場景資料**：平面SVG、露台高差0.45m倒塌剖面SVG、物件位置、四採集點及規劃碰撞JSON均已交付；靜態灰盒不是火災物理模擬，也不是已可操作的網站。
-- **查閱**：[3D完整索引](</Users/chengchebing/Desktop/密室逃脫大/3D/README.md>)、[模型檔清單](</Users/chengchebing/Desktop/密室逃脫大/3D/model-manifest.json>)、[42類模型總覽](</Users/chengchebing/Desktop/密室逃脫大/3D/previews/all-42-models-v1.png>)。
-- **場景**：[灰盒GLB](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/scene-layout.json>)、[平面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/floor-plan.svg>)、[倒塌剖面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/collapse-section.svg>)。
+- **查閱**：[3D完整索引](<3D/README.md>)、[模型檔清單](<3D/model-manifest.json>)、[42類模型總覽](<3D/previews/all-42-models-v1.png>)。
+- **場景**：[灰盒GLB](<3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](<3D/scene/scene-layout.json>)、[平面SVG](<3D/scene/floor-plan.svg>)、[倒塌剖面SVG](<3D/scene/collapse-section.svg>)。
 
-[素材檢查報告](</Users/chengchebing/Desktop/密室逃脫大/material-verification.json>)：JSON、指紋、42物件索引、45個GLB的結構／索引／有限數值／單位法線／非退化三角面、透明角色alpha、252個角度圖及音效WAV檢查通過。
+[素材檢查報告](<material-verification.json>)：JSON、指紋、42物件索引、45個GLB的結構／索引／有限數值／單位法線／非退化三角面、透明角色alpha、252個角度圖及音效WAV檢查通過。
 
-[影片檢查報告](</Users/chengchebing/Desktop/密室逃脫大/assets/cinematics/verification/report.json>)：六段完整解碼、262秒總時長、各段雙字幕軌、來源圖片與影片指紋、音軌峰值／均方根通過；12軌內嵌字幕與外部WebVTT逐句核對一致。時間卡、第一照、底座與分層終幕已抽樣檢視。
+[影片檢查報告](<assets/cinematics/verification/report.json>)：六段完整解碼、262秒總時長、各段雙字幕軌、來源圖片與影片指紋、音軌峰值／均方根通過；12軌內嵌字幕與外部WebVTT逐句核對一致。時間卡、第一照、底座與分層終幕已抽樣檢視。
 
 以上報告只涵蓋先前檔案與素材技術檢查。網站主架構現已建於web/，另經Chromium桌機／觸控尺寸模擬、影片播放、3D移動與效能測試；不等於完整通關、實體手機或真實火災物理／鑑識驗證。網站執行與測試條件見web/README.md；sync-verification.json、3D/verification.json仍為先前輪次紀錄。
 
@@ -1066,7 +1073,7 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 B：兩照依小樣缺口／批號配對，0／100兩端點通道目標分別為[0,100,100]及[100,100,0]；雙確認＋按底扣後拉框才結算，見machine.md第5節。
@@ -1212,7 +1219,7 @@ D：半透明原附頁對位＋UV模組，三個實際文字區各70%唯一聯�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 **正式玩家可見文書全文（依取得時機）**

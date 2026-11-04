@@ -5,3 +5,10 @@ test('桌、床、椅、櫃、配重架與隔板採膠囊半徑碰撞',()=>{for(
 test('舊存檔若在新家具內或室外，回安全出生點',()=>{assert.deepEqual(safePosition('A',{x:7,z:7}),{x:8.5,z:9.6});assert.deepEqual(safePosition('D',{x:100,z:100}),{x:11.8,z:18.6});});
 test('遮擋線不穿隔板／封櫃，物件自身可調查',()=>{assert(segmentHitsBox([0,1,0],[4,1,0],[1,0,-1,2,3,1]));assert(!segmentHitsBox([0,4,0],[4,4,0],[1,0,-1,2,3,1]));assert(!visibleTarget('C',[-1,2,14],[-4,1.5,14],'storage-crate'));assert(visibleTarget('A',[8,1.65,8.3],[7,1,7],'desk'));});
 test('移櫃狀態切換會同時移動可視家具與碰撞範圍',()=>{assert(!walkable('D',13,16.6));assert(walkable('D',13,16.6,{cabinetMoved:true}));assert(!walkable('D',11.2,14.9,{cabinetMoved:true}));});
+
+test('C 承重細柱擋住直行，不等到穿柱後才被烤架擋住',()=>{
+ const next=movePlayer('C',{x:.3,z:15.2},0,-2);
+ assert(next.z>=14.34-1e-6,'定輪立柱前保留玩家半徑');
+ assert(next.z<15.1,'仍可向前接近立柱');
+ assert(walkable('C',next.x,next.z));
+});

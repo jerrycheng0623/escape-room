@@ -1,6 +1,9 @@
 # 待完成項目與目前交付
 
-網站v9／機關v4；實測以test.md第11.5節為準。新四關與85物件依machine.md完整替換；手機控制、存檔schema4與同址發布同步。不是仍待使用者提供四關規格。
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+
+網站正式版v14／機關v4；實測以test.md及assets/final-v14/verification為準。新四關與86物件依machine.md完整替換；手機控制、存檔schema4與同址發布同步。不是仍待使用者提供四關規格。
 
 | 尚待完成／確認 | 目前界線 |
 | --- | --- |
@@ -13,4 +16,4 @@
 | 純鍵盤整輪與可用性盲測 | 已有方向鍵／E／Tab／Enter／錄音基礎回歸；未把四關首次真人測試標為完成 |
 | 帳號／同步／離線 | 目前進度只存在同瀏覽器localStorage，沒有新增後台服務 |
 
-公開網站使用GitHub Pages；Website-2保留原始碼，gh-pages保留建置產物。桌機與手機共用同一個網址；新版獨立路徑見README.md及test.md。
+公開網站使用GitHub Pages；Websit-final保留正式版原始碼；Website-2保留上一版來源，gh-pages保留建置產物。桌機與手機共用同一個網址；新版獨立路徑見README.md及test.md。

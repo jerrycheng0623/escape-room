@@ -1,5 +1,8 @@
 # 機關v4素材與實測
 
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+
 本資料夾收錄86個物件的確定性SVG、更新文書、三張新版插畫及測試證據。`world.mjs`是物件位置與圖面文字來源，`build_world_v4.py`重建物件圖面；精確文字、孔位與圖路以SVG／DOM呈現。
 
 三張插畫使用內建imagegen產生，保留原始PNG並提供WebP：

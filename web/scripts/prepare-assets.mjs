@@ -9,7 +9,6 @@ async function copy(src,dst){const to=resolve(pub,dst);await mkdir(dirname(to),{
 await rm(resolve(pub,'media'),{recursive:true,force:true});
 await Promise.all(['burned-plaster','scorched-wood'].map(id=>copy(`assets/scene-v6/textures/${id}.png`,`media/scene-v6/${id}.png`)));
 const {SPACE,PLAYER_RADIUS,EYE_HEIGHT,WALL_TRIM_CLEARANCE}=await import('../src/game/space.mjs');
-await writeFile(resolve(root,'3D/scene/enclosed-v8-layout.json'),JSON.stringify({version:8,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,wallTrimClearance:WALL_TRIM_CLEARANCE,rooms:SPACE,modelSource:'web/src/game/roomModels.js'},null,2)+'\n');
 await Promise.all([copy(manifest.menu,'media/menu.webp'),copy('assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav','media/wind.wav')]);
 const media=[];
 for(const seg of manifest.segments){
@@ -38,6 +37,9 @@ await Promise.all((await readdir(resolve(root,'assets/world-v4'))).filter(n=>n.e
 
 await Promise.all((await readdir(resolve(root,'assets/world-v4/previews'))).filter(n=>n.endsWith('.webp')).map(n=>copy('assets/world-v4/previews/'+n,'media/world-v4/'+n)));
 
-const {WORLD}=await import('../src/game/world.mjs');await writeFile(resolve(root,'3D/scene/enclosed-v9-layout.json'),JSON.stringify({version:9,mechanicRevision:4,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,rooms:SPACE,objects:WORLD,modelSource:'web/src/game/roomModelsV4.js'},null,2)+'\n');
+const {WORLD}=await import('../src/game/world.mjs');await writeFile(resolve(root,'3D/final-v14/layout.json'),JSON.stringify({version:14,mechanicRevision:4,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,rooms:SPACE,objects:WORLD,modelSource:'web/src/game/roomModelsV4.js'},null,2)+'\n');
 
 await copy('assets/world-v4/audio/work-fragment.mp3','media/world-v4/work-fragment.mp3');
+
+const finalRoot=resolve(root,'3D/final-v14');
+for(const item of await readdir(finalRoot,{withFileTypes:true})){if(!item.isDirectory()||item.name==='references')continue;for(const name of await readdir(resolve(finalRoot,item.name))){if(name.endsWith('.webp'))await copy(`3D/final-v14/${item.name}/${name}`,`media/final-v14/${item.name}/${name}`);}}

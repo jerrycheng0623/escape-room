@@ -68,3 +68,8 @@
 html[data-motion="reduced"] .game-guide *,html[data-reduced-motion="true"] .game-guide *,[data-motion="reduced"] .game-guide *{animation:none!important;transition:none!important}
 .game-guide.screen-background:before{opacity:.12}.game-guide>.guide-top,.game-guide>.guide-layout{position:relative;z-index:1}
 .guide-code-wheels{display:flex;justify-content:center;gap:8px}.guide-code-wheels>div{display:flex;flex-direction:column;align-items:center;gap:5px}.guide-code-wheels button{min-width:44px;min-height:44px;border:1px solid #85704b;color:#e5d1a6;background:#342b1e;font-size:18px}.guide-code-wheels output{font:22px Georgia;color:#e6d2ab}.guide-demo input{cursor:text;user-select:text;touch-action:manipulation}.guide-demo-mechanism input:focus{outline:2px solid #c5a56c;outline-offset:3px}.exploration-gate kbd{color:#e6c68a;border:1px solid #91784e;padding:1px 6px}
+
+/* Formal release: Q cursor mode never covers the room. */
+.exploration-shortcuts{position:absolute;left:24px;bottom:67px;display:flex;gap:12px;z-index:12;pointer-events:none}.exploration-shortcuts button{pointer-events:auto;font-size:12px;background:rgba(12,12,10,.72);padding:6px 10px;border:1px solid #5a5141}.film-tile:disabled img{filter:brightness(.15)}.film-tile:disabled{cursor:not-allowed}
+
+.prop-directions{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.prop-directions button[aria-pressed=true]{color:#ead9b1;border-bottom:1px solid #c3a46a}.prop-turnaround{min-width:0}.prop-turnaround img{object-fit:contain;width:100%;max-height:340px}

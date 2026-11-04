@@ -11,12 +11,17 @@ export const SPACE={
   {id:'dresser',box:[3.3,4.2,5.8,6.75],top:1.35}]},
  B:{bounds:[10,14,6.5,9.5],floor:0,height:2.8,spawn:[11,8.9],door:[13.25,9.48],obstacles:[
   {id:'workbench',box:[10.65,13.35,6.95,7.75],top:.94},
+  {id:'west-shelf',box:[10.12,10.55,7.9,8.95],top:1.7},
   {id:'sink',box:[13.38,13.82,7,8.25],top:1.05}]},
  C:{bounds:[-6,6,12,22],floor:.45,height:3.35,spawn:[1.5,15.2],door:[-4.8,21.98],obstacles:[
   {id:'grill',box:[-1.64,1.05,12.65,13.72],top:1.63},
   {id:'records',box:[.6,2.6,13.8,14.6],top:1.27},
-  {id:'world-basket',box:[-1.08,-.52,15.46,15.94],top:1.52},
-  {id:'world-hatch',box:[-1.07,-.33,13.67,14.13],top:2.12},
+  {id:'world-basket',box:[-1.11,-.49,15.44,15.96],top:1.52},
+  {id:'world-hatch',box:[-1.13,-.315,13.67,14.13],top:2.12},
+  {id:'mount-a0',box:[-1.45,-1.35,13.94,14.06],top:2.85,collisionOnly:true},
+  {id:'mount-f',box:[.25,.35,13.94,14.06],top:2.95,collisionOnly:true},
+  {id:'mount-old',box:[-2.35,-2.25,15.54,15.66],top:2.25,collisionOnly:true},
+  {id:'mount-ring',box:[-4.65,-4.55,16.64,16.76],top:2.35,collisionOnly:true},
   {id:'weight-rack',box:[2.7,4.1,12.6,14.35],top:1.45},
   {id:'storage-shelf',box:[-5.65,-4.7,13.2,17],top:2.5},
   {id:'storage-divider',box:[-2.8,-2.58,12.18,15.1],top:3.8},
@@ -26,6 +31,7 @@ export const SPACE={
   {id:'medical',box:[9.12,10.88,15.5,16.5],top:-1.45},
   {id:'module',box:[12.3,12.9,18.1,18.65],top:-1.56},
   {id:'cabinet',box:[12.1,13.9,16.04,17.16],top:-1.35},
+  {id:'briefcase-stand',box:[8.23,8.9,14.55,15.2],top:-1.85},
   {id:'files',box:[7.28,8.15,14.5,17.15],top:-.15},
   {id:'recess-side',box:[14.18,14.38,14.2,17.4],top:.4}]}
 };

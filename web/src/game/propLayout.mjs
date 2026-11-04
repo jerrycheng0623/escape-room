@@ -1,0 +1,21 @@
+// Actual contact surfaces; centre heights are derived from model bounds, never guessed.
+export const PLACEMENTS={
+ 'a-fragment0':[4.95,1.12,8.4,'bed'],'a-fragment1':[4.65,0,6.1,'floor'],'a-fragment2':[8.25,0,7.15,'floor'],
+ 'a-r3':[6.5,.87,7.25,'desk'],'a-r2':[7.03,.87,7.15,'desk'],'a-memo':[8.6,0,7.5,'floor'],'a-letter':[4.95,1.12,9.2,'bed'],'a-card':[4.55,1.12,9.45,'bed'],'a-invite':[7.5,.87,7.2,'desk'],
+ 'a-luggage':[3.77,1.35,6.3,'dresser'],'a-stay':[4.6,0,6.5,'floor'],'a-cup':[3.8,1.35,6.65,'dresser'],'a-stapler':[7.6,.87,6.85,'desk'],'a-pen':[6.35,.87,6.9,'desk'],'a-mirror':[4.45,0,6.8,'floor'],'a-bookmark':[7.1,0,5.83,'floor'],
+ 'b-f27':[10.33,1.12,8.2,'west-shelf'],'b-f28':[11.1,0,8.12,'floor'],'b-f31':[12.85,1.65,6.8,'drying-line'],'b-o12':[10.9,.94,7.15,'workbench'],'b-p28':[12.55,.94,7.6,'workbench'],'b-t00':[13.6,1.05,7.8,'sink'],
+ 'b-audio':[10.33,1.12,8.63,'west-shelf'],'b-edge':[11.7,0,8,'floor'],'b-back':[12.2,.94,7.02,'workbench'],'b-reader':[11.7,.94,7.3,'workbench'],'b-shutter':[13.6,1.05,7.3,'sink'],'b-sleeve':[10.33,.55,8.5,'west-shelf'],'b-battery':[12.8,.94,7.3,'workbench'],'b-timer':[13.6,1.05,8.1,'sink'],'b-brush':[12.7,.94,7.02,'workbench'],'b-glove':[11.3,0,8.4,'floor'],
+ 'c-rope':[-5.1,1.68,15.65,'storage-shelf'],'c-box':[-5.1,1.68,15.2,'storage-shelf'],'c-upper':[1.2,1.27,14.22,'records'],'c-lower':[-3.3,.45,15.6,'floor'],'c-old':[-5.1,1.68,16.3,'storage-shelf'],'c-mod':[-3.3,.45,15.95,'floor'],
+ 'c-pan':[.45,1.63,13.35,'grill'],'c-history':[-.5,1.63,13.22,'grill'],'c-diary':[2.1,1.27,14.1,'records'],'c-watch':[-3.8,1.35,14.02,'storage-crate'],'c-blood':[-3.5,.45,14.6,'floor'],'c-surface':[1.85,1.27,14.42,'records'],
+ 'd-R1':[8.7,-2.4,16.7,'floor'],'d-R2':[10.8,-2.4,17.4,'floor'],'d-R3':[8.55,-1.85,14.72,'briefcase-stand'],'d-Q1':[9.75,-1.45,16.32,'medical'],'d-Q2':[8.5,-2.4,15.6,'floor'],'d-Q3':[12.55,-1.56,18.53,'module'],
+ 'd-class':[8.55,-1.85,15.08,'briefcase-stand'],'d-board':[10.3,-1.45,16.25,'medical'],'d-pen':[10.65,-1.45,15.8,'medical'],'d-rod':[12.6,-1.56,18.4,'module'],'d-drawers':[9.55,-1.45,15.85,'medical'],'d-folder':[7.7,-1.1,16.4,'files'],'d-cup':[12.4,-1.56,18.25,'module'],'d-clock':[12.7,-1.56,18.23,'module'],'d-towel':[11.3,-2.4,18,'floor'],'d-label':[8.5,-2.4,16.2,'floor']
+};
+export function propSize(w){
+ const id=w.id;if(id==='b-f31')return [.3,.21,.014];
+ if(id==='c-watch')return [.17,.045,.25];if(id==='c-diary')return [.24,.055,.3];if(id==='c-blood')return [.38,.003,.24];
+ if(w.kind==='weight')return w.kg===15?[.25,.19,.3]:w.kg===20?[.25,.28,.24]:w.kg===10?[.26,.29,.28]:[.25,.18,.27];
+ if(['paper','film','record'].includes(w.kind))return id==='c-history'?[.3,.31,.18]:w.kind==='film'?[.3,.014,.21]:[.29,.014,.23];
+ if(id.includes('cup'))return [.12,.14,.12];if(id.includes('clock')||id.includes('timer'))return [.16,.2,.1];if(id==='a-coat')return [.45,.85,.13];if(id==='a-scarf')return [.17,.65,.08];if(id==='b-battery')return [.095,.035,.065];if(id==='a-stapler')return [.06,.06,.19];if(id==='a-mirror')return [.15,.025,.2];if(id==='b-glove')return [.17,.027,.2];if(id==='d-folder'||id==='b-sleeve')return [.23,.025,.29];if(id==='d-towel')return [.25,.045,.2];
+ return ({tool:[.22,.025,.025],rope:[.3,.065,.3],box:[.36,.31,.4],basket:[.55,.55,.45],luggage:[.53,.36,.35],reader:[.55,.3,.38],drawers:[.55,.3,.38],bell:[.19,.2,.12],audio:[.23,.15,.13],shutter:[.14,.1,.14],board:[.58,.035,.4],pan:[.6,.035,.45],hatch:[.7,.12,.45],hook:[.12,.25,.13],panel:[2.45,.46,.035],anchor:[.26,.26,.13],cabinet:[1.8,1.04,1.12]})[w.kind]||[.19,.07,.2];
+}
+export function applyPlacements(world){for(const w of Object.values(world)){w.size=propSize(w);let p=PLACEMENTS[w.id];if(w.kind==='weight'){const n=['timber','iron','sand','stone'].indexOf(w.id.split('-')[0]);p=[3.05+Number(w.id.at(-1))*.65,1.45,12.86+n*.4,'weight-rack'];}if(p){w.pos=[p[0],p[1]+w.size[1]/2,p[2]];w.support={id:p[3],y:p[1]};if(p[3]!=='floor')w.owner=p[3];}else w.support={id:'fixed-mount',y:w.pos[1]-w.size[1]/2};if(w.id==='a-coat'||w.id==='a-scarf'){w.pos[2]=5.83;w.support.id='coat-hook';}if(w.id==='c-basket'){w.pos[1]=.45+w.size[1]/2+.55;w.support={id:'basket-stop',y:1};}if(w.id==='d-cabinet'){w.pos=[13,-1.88,16.6];w.owner='cabinet';w.support={id:'floor',y:-2.4};}}}

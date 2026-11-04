@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04T16:24:09.880Z",
+  "url": "http://127.0.0.1:5173/",
+  "method": "Engineering room fixtures; true keyboard events for look/E/Tab/Enter, real audio play/pause. Not first-time blind play.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "checks": [
+        "A arrow look changes yaw and stops on release"
+      ],
+      "errors": [],
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ null\n- 'a-fragment2'\n\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-keyboard-audio.mjs:5:9",
+      "body": "焦黑的客房：不透明封閉房間與實體道具\nA / 01\n焦黑的客房\n\n◇ 釐清記者留下的疑點\n\n背包\n證據\n指引\n暫停\n⛶\n全螢幕\n區域\nA · 焦黑的客房\nB · 臨時暗房\nC · 營火與儲藏室\nD · 地下診療區\n已開區域可回訪\n\nW\nA\nS\nD\n移動・方向鍵環顧・Q 切換游標／視角・E 調查・Esc 暫停\n\n證物整理頁"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "checks": [
+        "A arrow look changes yaw and stops on release"
+      ],
+      "errors": [],
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n+ actual - expected\n\n+ null\n- 'a-fragment2'\n\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-keyboard-audio.mjs:5:9",
+      "body": "焦黑的客房：不透明封閉房間與實體道具\nA / 01\n焦黑的客房\n\n◇ 釐清記者留下的疑點\n\n背包\n證據\n指引\n暫停\n⛶\n全螢幕\n區域\n已開區域可回訪\n\nW\nA\nS\nD\n移動・方向鍵環顧・Q 切換游標／視角・E 調查・Esc 暫停\n\n證物整理頁"
+    }
+  ]
+}

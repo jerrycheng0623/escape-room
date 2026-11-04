@@ -1,0 +1,662 @@
+{
+  "version": 14,
+  "date": "2026-11-05T00:31:01.492653+08:00",
+  "models": [
+    {
+      "id": "a-fragment0",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-fragment1",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-fragment2",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-r3",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-r2",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-memo",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-letter",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-card",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-invite",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-luggage",
+      "triangles": 2788,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-stay",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-scarf",
+      "triangles": 408,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-coat",
+      "triangles": 3044,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-cup",
+      "triangles": 576,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-stapler",
+      "triangles": 680,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-pen",
+      "triangles": 104,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-mirror",
+      "triangles": 312,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-bell",
+      "triangles": 760,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-panel",
+      "triangles": 1772,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-bookmark",
+      "triangles": 300,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook0",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook1",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook2",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook3",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook4",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "a-hook5",
+      "triangles": 396,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-A-desk",
+      "triangles": 84,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-A-bed",
+      "triangles": 84,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-A-chair",
+      "triangles": 72,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-A-dresser",
+      "triangles": 84,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "room-A",
+      "triangles": 13944,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-f27",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-f28",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-f31",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-o12",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-p28",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-t00",
+      "triangles": 206,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-audio",
+      "triangles": 1096,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-edge",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-back",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-shutter",
+      "triangles": 764,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-sleeve",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-battery",
+      "triangles": 332,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-timer",
+      "triangles": 1284,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-glove",
+      "triangles": 1800,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-B-workbench",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-B-sink",
+      "triangles": 108,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-rope",
+      "triangles": 384,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-box",
+      "triangles": 96,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-upper",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-lower",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-old",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-mod",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-basket",
+      "triangles": 1260,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-a0",
+      "triangles": 460,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-m",
+      "triangles": 588,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-f",
+      "triangles": 588,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-oldhook",
+      "triangles": 460,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-ring",
+      "triangles": 460,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-pan",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-history",
+      "triangles": 326,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-hatch",
+      "triangles": 384,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "timber-0",
+      "triangles": 2384,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "timber-1",
+      "triangles": 2384,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "iron-0",
+      "triangles": 1292,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "iron-1",
+      "triangles": 1292,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "sand-0",
+      "triangles": 4228,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "sand-1",
+      "triangles": 4228,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "stone-0",
+      "triangles": 80,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "stone-1",
+      "triangles": 80,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-diary",
+      "triangles": 62,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-watch",
+      "triangles": 420,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-blood",
+      "triangles": 344,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-surface",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-grill",
+      "triangles": 312,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-records",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-weight-rack",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-storage-divider",
+      "triangles": 12,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-storage-return",
+      "triangles": 12,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-storage-crate",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-R1",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-R2",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-R3",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-Q1",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-Q2",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-Q3",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-class",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-board",
+      "triangles": 2244,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-pen",
+      "triangles": 104,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-cabinet",
+      "triangles": 972,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-folder",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-cup",
+      "triangles": 576,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-clock",
+      "triangles": 1284,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-towel",
+      "triangles": 408,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-label",
+      "triangles": 14,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-D-medical",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-D-module",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-D-briefcase-stand",
+      "triangles": 60,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-D-recess-side",
+      "triangles": 12,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-brush",
+      "triangles": 640,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-rod",
+      "triangles": 80,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "b-reader",
+      "triangles": 972,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "d-drawers",
+      "triangles": 732,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-B-west-shelf",
+      "triangles": 72,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "room-B",
+      "triangles": 8836,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-C-storage-shelf",
+      "triangles": 72,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "room-C",
+      "triangles": 22986,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "fixture-D-files",
+      "triangles": 72,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "room-D",
+      "triangles": 7184,
+      "views": 4,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "method": "GLB header, finite positions, unit normals, valid indices, nonzero triangle area; four 480px nonempty images; SHA256 of every file"
+}

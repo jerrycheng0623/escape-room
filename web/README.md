@@ -1,5 +1,8 @@
 # 《餘燼裡的第六人》網站 v9（機關v4）
 
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+
 本機入口：http://127.0.0.1:5173/ 。已實作四章正式機關、七段故事影片、32份文書、五位新版角色、提示／求助、可選皇冠推理與通關回訪。
 
 ## 啟動與建置
@@ -21,7 +24,7 @@ pnpm build
 
 新手／標準／困難為3／5／7階段資訊量，內容只指觀察地點與關聯，不列解法或下一步操作；地點回看另記，不跳機關。沒有死亡、倒數失敗與第二結局。首次通關快照保留；後續推理可補皇冠。
 
-主存檔localStorage鍵embers.investigation.v1（內容schema 4），備份加.backup。獨立重玩鍵embers.replay.v4；場景／影片預覽不改正式紀錄。刷新後按繼續可恢復pendingFilm或章節。舊schema1／2／3保留原始備份；舊已通關以完成來源保留，未完成機關重新開始。
+主存檔localStorage鍵embers.investigation.v1（內容schema 4），備份加.backup。獨立重玩鍵embers.replay.v4；通關後回訪／影片回看不改首次紀錄。刷新後按繼續可恢復pendingFilm或章節。舊schema1／2／3保留原始備份；舊已通關以完成來源保留，未完成機關重新開始。
 
 故事：assets/story/content-v5.json；純判定：src/game/engine.mjs；存檔：storage.mjs；場景：Scene.jsx；主機關：Puzzles.jsx；提示與證物：Game.jsx；電影：Cinematic.jsx。3D已重製封閉房間、實體道具及膠囊碰撞／遮擋，目前各區由導航轉換，不代表整棟寫實精修與無縫走廊已完成。無真人配音、帳號同步或完整離線。GitHub Pages 發布設定與網址見根目錄 README.md。
 

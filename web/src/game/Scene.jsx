@@ -54,7 +54,7 @@ export default function Scene({room,settings,paused,input,objects,onTarget,onRea
   const syncModels=state=>{for(const data of Object.values(rooms))data.sync(state);};
   renderer.setAnimationLoop(now=>{
    const state=latest.current,dt=Math.min((now-last)/1000,.06);last=now;if(!alive||!ready)return;
-   syncModels(state);const snapshot=window.__EMBERS_DIAGNOSTICS__||{samples:[]};Object.assign(snapshot,{camera:{x:camera.position.x,y:camera.position.y,z:camera.position.z},yaw,pitch,room:state.room,controlMode:state.controlMode});window.__EMBERS_DIAGNOSTICS__=snapshot;if(state.paused||document.hidden){blur();frames=0;sampleStart=now;return;}
+   syncModels(state);const snapshot=window.__EMBERS_DIAGNOSTICS__||{samples:[]};Object.assign(snapshot,{camera:{x:+camera.position.x.toFixed(3),y:+camera.position.y.toFixed(3),z:+camera.position.z.toFixed(3)},yaw,pitch,room:state.room,controlMode:state.controlMode});window.__EMBERS_DIAGNOSTICS__=snapshot;if(state.paused||document.hidden){blur();frames=0;sampleStart=now;return;}
    yaw+=((keys.has('ArrowLeft')?1:0)-(keys.has('ArrowRight')?1:0))*dt*1.1*state.settings.sensitivity;pitch=THREE.MathUtils.clamp(pitch+((keys.has('ArrowUp')?1:0)-(keys.has('ArrowDown')?1:0))*dt*.85*state.settings.sensitivity,-1.15,1.15);
    const ix=(keys.has('KeyD')?1:0)-(keys.has('KeyA')?1:0)+(input.current?.x||0),iz=(keys.has('KeyW')?1:0)-(keys.has('KeyS')?1:0)-(input.current?.y||0),norm=Math.max(1,Math.hypot(ix,iz));
    const p=movePlayer(state.room,{x:camera.position.x,z:camera.position.z},(Math.cos(yaw)*ix-Math.sin(yaw)*iz)/norm*dt*1.85,(-Math.sin(yaw)*ix-Math.cos(yaw)*iz)/norm*dt*1.85,{cabinetMoved:state.cabinetMoved});
