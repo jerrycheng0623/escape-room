@@ -2,7 +2,7 @@
   "appVersion": "0.11.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": null,
+  "sourceCodeCommit": "06971b6fa8053192233729eff1192cfcaec8370e",
   "createdAt": "2026-11-04T21:57:43.212436+08:00",
   "assets": {
     "Game-BWO553Ku.js": "b92769ea37d142a29cfc38148c1de1640d02b153043d6e31a1abadefbb74cd5a",
