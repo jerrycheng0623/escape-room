@@ -2,7 +2,7 @@
   "appVersion": "0.10.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": null,
+  "sourceCodeCommit": "b313287c6ed4dc780bdac516356ac64762b6afcc",
   "createdAt": "2026-11-04T20:49:50.266993+08:00",
   "assets": {
     "Scene-TSNsHivj.js": "3a64fc8e2ec2d84748f0e9d73a1f1a7e31d369f960586497c7de799edb9d5030",
