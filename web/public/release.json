@@ -2,7 +2,7 @@
   "appVersion": "0.12.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": null,
+  "sourceCodeCommit": "40e226c07101a2ccc771f822a0e99ada0871a9b6",
   "createdAt": "2026-11-04T22:33:13.116071+08:00",
   "assets": {
     "Game-Cd-1dyP0.js": "4deb13e5c40016747528f01af29a51bf32040702c823c073bc15de72341851ae",
