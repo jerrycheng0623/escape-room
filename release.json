@@ -10,5 +10,7 @@
     "index-35rjCCuQ.css": "cba6103fa22f96a2d72d355763d638f05c859b88a77195a4cbe0be6b6d20b1b6",
     "index-BE6fDRd1.js": "454b0429d883e54aa330a41bb420b345ce17abb62d132961d1e979a4b64d3a77",
     "solutions-Db6pVpEQ.js": "5c066ce4c53a91542e78cea684d90ae796711b81749daa0d5ad10ecce9d7bb44"
-  }
+  },
+  "cinematicVersion": 10,
+  "cinematicTimeline": "assets/story-v10/timeline.json"
 }

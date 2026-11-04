@@ -4,21 +4,21 @@
     "title": "序幕：遲到的邀請",
     "titleEn": "Prologue · The late invitation",
     "duration": 86.5,
-    "video": "media/video/CIN-00-compatible-v7.mp4",
+    "video": "media/video/CIN-00-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-00-compatible-v7.mp4",
+        "src": "media/video/CIN-00-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-00-compatible-v7.webm",
+        "src": "media/video/CIN-00-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-00.webp",
+    "poster": "media/posters/CIN-00-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-00-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-00-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-00-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -108,21 +108,21 @@
     "title": "客房：灰燼裡的謊言",
     "titleEn": "Guest room · Lies in the ashes",
     "duration": 45,
-    "video": "media/video/CIN-A-compatible-v9.mp4",
+    "video": "media/video/CIN-A-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-A-compatible-v9.mp4",
+        "src": "media/video/CIN-A-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-A-fallback-v9.webm",
+        "src": "media/video/CIN-A-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-A.webp",
+    "poster": "media/posters/CIN-A-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-A-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-A-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-A-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -172,21 +172,21 @@
     "title": "暗房：不在照片裡的人",
     "titleEn": "Darkroom · The missing face",
     "duration": 49.5,
-    "video": "media/video/CIN-B-compatible-v7.mp4",
+    "video": "media/video/CIN-B-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-B-compatible-v7.mp4",
+        "src": "media/video/CIN-B-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-B-compatible-v7.webm",
+        "src": "media/video/CIN-B-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-B.webp",
+    "poster": "media/posters/CIN-B-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-B-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-B-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-B-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -236,21 +236,21 @@
     "title": "營火：善意與異常重量",
     "titleEn": "Terrace · An unusual weight",
     "duration": 73.5,
-    "video": "media/video/CIN-C-compatible-v7.mp4",
+    "video": "media/video/CIN-C-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-C-compatible-v7.mp4",
+        "src": "media/video/CIN-C-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-C-compatible-v7.webm",
+        "src": "media/video/CIN-C-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-C.webp",
+    "poster": "media/posters/CIN-C-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-C-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-C-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-C-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -296,10 +296,10 @@
       {
         "start": 46.5,
         "end": 55.5,
-        "zh": "重新配重，解除檢修卡榫。我取出了通往地下室內門的鑰匙。",
-        "en": "Reproducing the load released the service latch and revealed the inner-door key.",
-        "text": "",
-        "document": null
+        "zh": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+        "en": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+        "text": "檢修格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複\n消耗。",
+        "document": "key"
       },
       {
         "start": 55.5,
@@ -324,21 +324,21 @@
     "title": "診療區：另一種飢餓",
     "titleEn": "Clinic · Another hunger",
     "duration": 96,
-    "video": "media/video/CIN-D-compatible-v9.mp4",
+    "video": "media/video/CIN-D-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-D-compatible-v9.mp4",
+        "src": "media/video/CIN-D-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-D-fallback-v9.webm",
+        "src": "media/video/CIN-D-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-D-v9.webp",
+    "poster": "media/posters/CIN-D-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-D-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-D-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-D-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -394,7 +394,7 @@
         "end": 69,
         "zh": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
         "en": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
-        "text": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏\n室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活\n動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方\n向：劉涵可能在合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對\n。",
+        "text": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏\n室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活\n動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方\n向：劉涵可能在最後最後合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對\n。",
         "document": "recording"
       },
       {
@@ -428,21 +428,21 @@
     "title": "終幕：深淵的凝視",
     "titleEn": "Finale · The abyss looks back",
     "duration": 72,
-    "video": "media/video/CIN-END-compatible-v7.mp4",
+    "video": "media/video/CIN-END-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-END-compatible-v7.mp4",
+        "src": "media/video/CIN-END-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-END-compatible-v7.webm",
+        "src": "media/video/CIN-END-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-END.webp",
+    "poster": "media/posters/CIN-END-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-END-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-END-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-END-en-aligned-v10.vtt"
     },
     "transcript": [
       {
@@ -516,21 +516,21 @@
     "title": "後記：留下名字的人",
     "titleEn": "Epilogue · The names that remain",
     "duration": 62,
-    "video": "media/video/CIN-EPILOGUE-compatible-v7.mp4",
+    "video": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-EPILOGUE-compatible-v7.mp4",
+        "src": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-EPILOGUE-compatible-v7.webm",
+        "src": "media/video/CIN-EPILOGUE-compatible-v10.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
-    "poster": "media/posters/CIN-EPILOGUE.webp",
+    "poster": "media/posters/CIN-EPILOGUE-v10.webp",
     "tracks": {
-      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-mechanisms-v4.vtt",
-      "en": "media/subtitles/CIN-EPILOGUE-en-mechanisms-v4.vtt"
+      "zh-Hant": "media/subtitles/CIN-EPILOGUE-zh-Hant-aligned-v10.vtt",
+      "en": "media/subtitles/CIN-EPILOGUE-en-aligned-v10.vtt"
     },
     "transcript": [
       {
