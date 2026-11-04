@@ -782,7 +782,9 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 | UI11-FULL-FLOW | 從新遊戲實際走動、取證、操作A/B/C/D含錯路、Bonus可選與單結局 | 桌機WASD／滑鼠與真CDP手機各一條通過；影片明確略過，不冒充自然播放；desktop-flow.json、mobile-flow.json |
 | UI11-BOUNDARY | WebKit四關半完成重載、退件、C35kg手輪、D取證／出口依賴 | 四區通過；webkit-boundaries.json |
 | UI11-TOUCH | 四尺寸搖桿、同時移動環顧、取消、鄰近連點、選單、放手不漂移 | Chromium22項、WebKit12項通過；不代表實體手機FPS |
-| UI11-PUBLIC | 新建置與公開版本指紋、整理頁／密碼鎖線上回歸 | 待部署後驗證 |
+| UI11-PUBLIC | 新建置與公開版本指紋、整理頁／密碼鎖線上回歸 | 通過：公開整理頁8組、行李鎖4組、WebKit四關重載／退件／取證回歸，以及root與v4共16檔案指紋；public-*.json |
+
+介面程式來源：b313287c6ed4dc780bdac516356ac64762b6afcc；版戳提交：f723b32661ff73fabe600f7c8a58bd06b923517b；Pages：0195fc70a3cdad0270f0b8149e2584795c69292e。[公開workflow41833132403](https://github.com/jerrycheng0623/escape-room/actions/runs/41833132403)已確認success，公開操作回歸通過。
 
 原問題：密碼鎖每次變更僅接受剛好四位，因此一般刪除、清空、逐字輸入被退回；修正為0–4位有效暫態，開鎖仍僅接受1830且須拉門。先前僅fill完整碼的測試無法抓到此問題。WebKit點入欄位不保證如Chromium全選，測試改為核對每次Backspace確實縮短內容，而非錯誤要求一次全清。
 

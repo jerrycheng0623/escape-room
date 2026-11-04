@@ -1,0 +1,59 @@
+{
+  "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/",
+  "date": "2026-11-04T12:56:18.377Z",
+  "method": "Valid near-luggage engineering A fixture, actual arrow aim/E and typed keystrokes, reload and touch wheel buttons. Not first-time exploration or physical iOS keyboard.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": false,
+      "checks": [
+        "native deletion, per-character entry and partial save/reload",
+        "incomplete and wrong codes remain locked",
+        "paste-style full input and middle-digit correction",
+        "touch/mouse wheels 44px+, wrap 0→9, correct opening remains branch only"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": true,
+      "checks": [
+        "native deletion, per-character entry and partial save/reload",
+        "incomplete and wrong codes remain locked",
+        "paste-style full input and middle-digit correction",
+        "touch/mouse wheels 44px+, wrap 0→9, correct opening remains branch only"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "mobile": false,
+      "checks": [
+        "native deletion, per-character entry and partial save/reload",
+        "incomplete and wrong codes remain locked",
+        "paste-style full input and middle-digit correction",
+        "touch/mouse wheels 44px+, wrap 0→9, correct opening remains branch only"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "mobile": true,
+      "checks": [
+        "native deletion, per-character entry and partial save/reload",
+        "incomplete and wrong codes remain locked",
+        "paste-style full input and middle-digit correction",
+        "touch/mouse wheels 44px+, wrap 0→9, correct opening remains branch only"
+      ],
+      "errors": [],
+      "pass": true
+    }
+  ]
+}
