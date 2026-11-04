@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T01:13:34.405537+08:00",
+  "generatedAt": "2026-11-05T01:17:44.577613+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -7339,9 +7339,9 @@
     },
     {
       "path": "assets/final-v14/verification/local-summary.json",
-      "bytes": 5304,
-      "sha256": "7c67b67a7a552fdbc8564606c30c84c5dc637963642510060e7e766694cf94f2",
-      "gitBlobSHA": "7fcd7ebb5fde0a511f2b8b29cf0cb9aef2942424"
+      "bytes": 5408,
+      "sha256": "cb18db53bf395599dbe53fb2b145152600e979b272baada949af2480f6aea56d",
+      "gitBlobSHA": "db95062df573079acc090dfcc76a3f3f598c51c0"
     },
     {
       "path": "assets/final-v14/verification/luggage/chromium-desktop-open.webp",
@@ -11191,9 +11191,9 @@
     },
     {
       "path": "web/public/release.json",
-      "bytes": 904,
-      "sha256": "721e948a1e5c9a9962d77f14412298950f6539bee8e07d136158a6f5870aab67",
-      "gitBlobSHA": "685c7fa2c71e66b05eb253b37daa98517ff1931b"
+      "bytes": 942,
+      "sha256": "8907487b061edfea67fa5cf6be1b52a54c07e50d24a19d8c38a0e6472cba3ac2",
+      "gitBlobSHA": "1eba3abacdaf23ad51b03739978e0a5a159a906f"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -15927,9 +15927,9 @@
     },
     {
       "path": "release.json",
-      "bytes": 904,
-      "sha256": "721e948a1e5c9a9962d77f14412298950f6539bee8e07d136158a6f5870aab67",
-      "gitBlobSHA": "685c7fa2c71e66b05eb253b37daa98517ff1931b"
+      "bytes": 942,
+      "sha256": "8907487b061edfea67fa5cf6be1b52a54c07e50d24a19d8c38a0e6472cba3ac2",
+      "gitBlobSHA": "1eba3abacdaf23ad51b03739978e0a5a159a906f"
     }
   ],
   "exclusions": [

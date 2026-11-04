@@ -11,7 +11,7 @@
     "appVersion": "1.0.0",
     "mechanicRevision": 4,
     "saveSchema": 4,
-    "sourceCodeCommit": null,
+    "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14",
     "sourceBaselineCommit": "f644249bee4bcb573118630e5c01864c0fb32d7d",
     "createdAt": "2026-11-05T01:04:45.539593+08:00",
     "cinematicVersion": 10,
@@ -197,5 +197,6 @@
       "pass": true,
       "evidence": "boundaries-cdp-final/boundaries.json"
     }
-  }
+  },
+  "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14"
 }
