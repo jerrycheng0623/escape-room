@@ -1,0 +1,123 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "date": "2026-11-04T13:52:36.664Z",
+  "method": "Real browser UI. New game + isolated tutorial; valid A fixture for pause/review. Native pointer lock only claimed if actual pointerLockElement observed. WebKit mobile emulation is not physical iOS.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 1440,
+      "h": 900,
+      "mobile": false,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "idle mouse and WASD cannot move camera",
+        "native lock denied gives explicit message, no hover fallback",
+        "explicit keyboard fallback; mouse/HUD do not rotate; modal frozen; close does not auto-resume",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "nativePointerLock": false,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 844,
+      "h": 390,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 390,
+      "h": 844,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 1440,
+      "h": 900,
+      "mobile": false,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "idle mouse and WASD cannot move camera",
+        "native lock denied gives explicit message, no hover fallback",
+        "explicit keyboard fallback; mouse/HUD do not rotate; modal frozen; close does not auto-resume",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "nativePointerLock": false,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 844,
+      "h": 390,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 390,
+      "h": 844,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": true
+    }
+  ]
+}

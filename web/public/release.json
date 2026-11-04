@@ -1,18 +1,18 @@
 {
-  "appVersion": "0.10.0",
+  "appVersion": "0.11.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": "b313287c6ed4dc780bdac516356ac64762b6afcc",
-  "createdAt": "2026-11-04T20:49:50.266993+08:00",
+  "sourceCodeCommit": null,
+  "createdAt": "2026-11-04T21:57:43.212436+08:00",
   "assets": {
-    "Scene-TSNsHivj.js": "3a64fc8e2ec2d84748f0e9d73a1f1a7e31d369f960586497c7de799edb9d5030",
-    "solutions-C6hZsnF4.js": "b8b1cf3920e8b4fa8753bc15667f43732b77611534ac1f68e4b0420bc7998c8d",
-    "index-CzgrbMaa.js": "201af5da995e21f1a85794a3c6b7fc3f14fd9cf1d295a15558f5e919197f5a74",
-    "index-B3yvtPUs.css": "34d2a7a8474079257bda17a4324927831f4130ab9cdd86beb0f07acaf219b3a1",
-    "Game-BBHx1BBK.js": "0fa3683abef6f310fc6c68e9ad311f9c4fe78d7262bc7d0c1b54b68f5301f0ff"
+    "Game-BWO553Ku.js": "b92769ea37d142a29cfc38148c1de1640d02b153043d6e31a1abadefbb74cd5a",
+    "Scene-CwwaRlDX.js": "26b44a83132f07432d99cd1d1c943d526df141c80993200dbaa201f7aba5d4db",
+    "index--YFUafZc.css": "6f688c6ef1c369d46207acedfcd47dd62a1ed3523d3e88a31a10f3a822de3275",
+    "index-DXOqcQc1.js": "1cf4f04cdecacaaddf5fbaaea71b01937189e2e7b9f5cdf82add9156df393f34",
+    "solutions-C_8pRbO_.js": "c51738ffb58d233e1e1463ccfcd1b83d3350eab339afb18fb62dadbb4f96ac09"
   },
   "cinematicVersion": 10,
   "cinematicTimeline": "assets/story-v10/timeline.json",
-  "interfaceVersion": 11,
-  "sourceBaselineCommit": "b2cc21f95a17c05e909baceb17d8fafbb064bbaa"
+  "interfaceVersion": 12,
+  "sourceBaselineCommit": "40b1483637c7d75861ec473a47fe7112bbff3885"
 }

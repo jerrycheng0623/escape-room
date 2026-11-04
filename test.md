@@ -771,6 +771,32 @@ v10部署[workflow 41816620867](https://github.com/jerrycheng0623/escape-room/ac
 
 新增命令：根目錄python3 scripts/verify_cinematic_alignment.py；web/執行pnpm test:captions。Browser plugin not available，因此使用既有Playwright；Chromium桌機1440×900、WebKit手機844×390，兩格式隔離profile。macOS26.6；引擎精確版本在browser-alignment.json。實體iPhone／iPad Safari仍未驗證，不以WebKit模擬替代真機。
 
+### 操作介面v12：入場指南與探索／操作分離（2026-11-04現行回歸）
+
+基準：`jerrycheng0623/escape-room`，Website-2 `40b1483637c7d75861ec473a47fe7112bbff3885`；Pages `0195fc70a3cdad0270f0b8149e2584795c69292e`。本輪單代理，macOS26.6；Chromium151.0.7922.34／WebKit26.5。Browser plugin not available，使用既有Playwright，無新增套件。規格：`操作指南與探索模式規格.md`。以下結果來自本輪實際執行；歷史v11的懸停環顧由v12取代。
+
+| 案例ID | 前置／步驟及預期 | 實際結果與證據 |
+| --- | --- | --- |
+| UI12-ENTRY | 無存檔→設定→指南→完成→序幕；不能提前寫存檔 | 兩引擎各1440×900、844×390、390×844通過；指南7頁可切換，最後才建立intro存檔。`guide-modes.json` |
+| UI12-DEMO | 翻紙、拿起、任意4位示範碼、檢查→拉把手；工具先手持、分區收錄與示範指引 | 6組通過。未滿4碼不能檢查，未檢查不能拉；操作均不取得正式證據。`guide-modes.json` |
+| UI12-SAVE | 遊戲暫停重看指南；有存檔新開→指南→覆寫確認→取消 | 6組通過；重看及取消前後存檔字串完全相同。`guide-modes.json` |
+| UI12-IDLE | 未啟用探索時移動滑鼠／WASD；關閉介面不自動恢復 | 兩引擎桌機通過，yaw及camera不變。`guide-modes.json` |
+| UI12-FALLBACK | Headless環境拒絕鎖定→繁中說明→明確方向鍵模式；移動游標不轉向 | 兩引擎桌機通過，方向鍵可環顧；沒有恢復懸停轉向。這不是原生鎖定成功證據。`guide-modes.json` |
+| UI12-NATIVE | 有視窗Chromium、合法A區近行李鎖工程存檔；真實鎖定→相對滑鼠移動跨視窗座標→Esc；E與左鍵查看 | 真實canvas Pointer Lock取得；持續環顧、Esc釋放暫停、E／左鍵開操作頁通過。輸入及移動游標時鏡頭不變，關閉維持待探索。`native-exploration.json`，非實體Safari驗收 |
+| UI12-NOTEBOOK | 兩引擎桌機、667／844橫向手機、1024×768平板；翻頁、真實CDP滑動、放大、分區筆記重載 | 8組通過，亦確認全螢幕可用／不可用分支。`notebook-controls.json` |
+| UI12-LUGGAGE | 兩引擎桌機／手機；真實刪鍵、逐字輸入、部分碼重載、錯誤碼、數字輪、拉門 | 4組通過，不完整及錯誤碼不能開；1830且拉門才開，未算主機關完成。`luggage-input.json` |
+| UI12-KEYBOARD | A/B工程存檔，方向鍵瞄準、E、Tab／Enter，工作音訊播放與關閉 | 兩引擎通過。`keyboard-audio.json` |
+| UI12-FULL | 新遊戲經指南，實際走路與物件操作完成A/B/C/D、可選Bonus、單一結局；影片主動略過 | Chromium桌機方向鍵探索及手機真實CDP觸控各一條通關通過；未注入解題或通關狀態。`flow-desktop.json`、`flow-mobile.json` |
+| UI12-TOUCH | 四尺寸觸控目標、兩指、相鄰誤觸、取消、失焦、轉直橫向 | Chromium22項通過；WebKit12項模擬亦通過，`touch-webkit.json`。這是工程觸控，不是實體iPhone／iPad。`touch-chromium.json` |
+| UI12-BOUNDARY | 四區錯誤／退件／復位／部分重載／獎勵領取，C維修輪與D出口銜接 | Chromium四區通過，WebKit四區亦通過，`boundaries-webkit.json`。`boundaries-chromium.json` |
+| UI12-POST | 工程通關存檔→完整解答、Bonus重挑、影片重看、自由回訪、獨立重玩 | 兩引擎通過，首次紀錄不改寫，D重玩先備證據完整。`postgame.json` |
+| UI12-LOGIC | 現行全部邏輯單測與正式建置 | 54／54通過；Vite正式建置成功。`unit-test.txt`。未將本文件173個歷史規劃案例全數標成通過 |
+| UI12-VISUAL | 桌機與手機指南可讀、暗背景不遮字、無橫向溢出、降低動態、無框架錯誤 | 6組通過；已修正首次截圖發現的背景遮字，重測及截圖通過。`chromium-1440-lock-guide.png`、`chromium-844-lock-guide.png` |
+
+證據目錄：`assets/interface-v12/verification/`。執行者：Codex（單代理）。原生鎖定測試曾因等到DOM鎖定卻尚未等到React／繪圖狀態而讀到idle，已改為同時等待原生鎖定與狀態更新再驗證；未改寫瀏覽器API。影片、字幕、角色及證物圖片未修改；自然播放全片、原生Safari／實體手機、多小時遊玩與效能門檻未在本輪全部重測。公開部署、檔案雜湊及公開站回歸見本目錄的發佈紀錄，不能只以HTTP200宣稱成功。
+
+以下保留v11歷史回歸：
+
 2026-11-04操作介面v11（網站0.10.0）回歸：基準Website-2 b2cc21f95a17c05e909baceb17d8fafbb064bbaa／Pages 1d41f6994370c48234555a6a738f85202ee4156a。單代理，macOS26.6，Chromium151.0.7922.34／WebKit26.5，Browser plugin not available，使用既有Playwright。新功能依使用者授權實作；BSC已由使用者確認是Esc。角色原畫、故事影片／字幕與四關解法不改。
 
 | 案例 | 真實操作及預期 | 本輪結果 |
