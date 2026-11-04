@@ -1,165 +1,172 @@
 {
-  "version": 9,
-  "date": "2026-11-03T11:51:22.615281+08:00",
-  "purpose": "v9 replaces A old code-box shot and D UV shot; rest of each film and original sound retained. All released URLs kept immutable.",
+  "version": 10,
+  "date": "2026-11-04T18:36:49.655507+08:00",
+  "purpose": "All seven films rebuilt with exact frame counts and one shared shot/caption timeline. Full photographs remain visible. Released URLs preserved.",
   "mp4": "H.264 High/yuv420p and AAC-LC, faststart, no embedded subtitle track",
   "webm": "VP9 / Opus stereo",
   "segments": [
     {
       "id": "CIN-00",
       "durationMs": 86500,
-      "original": "assets/story-v5/video/CIN-00-story-v5.mp4",
-      "originalSha256": "73658fe5f23ebe6333ad6b7deef7b313d407bbe8a8004702c598249575a4dc20",
+      "original": "assets/story-v10/CIN-00-aligned-v10.mp4",
+      "originalSha256": "1f0d373afcac741e7ffcdd4c4892659eeaf0be0301245359113320eb1f3f3680",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-00-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-00-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 2973767,
-          "sha256": "272c2163f3467ac112b8dedf86ba682b38156dff27bc68a411c022268416e238",
+          "bytes": 2766890,
+          "sha256": "1f0d373afcac741e7ffcdd4c4892659eeaf0be0301245359113320eb1f3f3680",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-00-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-00-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 3948041,
-          "sha256": "762c7ee469ef425152ca787294eca39ff71eb4bd3ef13bd4fd9c9fc891685707",
+          "bytes": 4996597,
+          "sha256": "b500180c0edae32f4cb21f90c125f9b6c39d2f65730607d9ca28d06ed408a9e2",
           "decode": "passed"
         }
-      ]
+      ],
+      "alignmentPriorOriginal": "assets/story-v5/video/CIN-00-story-v5.mp4"
     },
     {
       "id": "CIN-A",
       "durationMs": 45000,
-      "original": "assets/story-v9/video/CIN-A-story-v9.mp4",
-      "originalSha256": "63b862c525d73696410ae62594b135839c5900e099fcfa276e5485c0e7420644",
+      "original": "assets/story-v10/CIN-A-aligned-v10.mp4",
+      "originalSha256": "9ade2f33ee10d1cc6be81899ad561b2f61d69217ee2e969f577e015d00e6d497",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
+          "path": "assets/playback-v6/video/CIN-A-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 1951007,
-          "sha256": "63b862c525d73696410ae62594b135839c5900e099fcfa276e5485c0e7420644",
+          "bytes": 1730528,
+          "sha256": "9ade2f33ee10d1cc6be81899ad561b2f61d69217ee2e969f577e015d00e6d497",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-A-fallback-v9.webm",
+          "path": "assets/playback-v6/video/CIN-A-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 2834293,
-          "sha256": "2ac003483272120b6ca0f34092da28b9fde836715b459b125015da09ed6230a6",
+          "bytes": 3434307,
+          "sha256": "e6aa4b3ce2cd24c324fb05c34f9bf2794904b18b00ad0b27119361fdf74cde79",
           "decode": "passed"
         }
       ],
-      "priorOriginal": "assets/story-v5/video/CIN-A-story-v5.mp4"
+      "priorOriginal": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "alignmentPriorOriginal": "assets/story-v9/video/CIN-A-story-v9.mp4"
     },
     {
       "id": "CIN-B",
       "durationMs": 49500,
-      "original": "assets/story-v5/video/CIN-B-story-v5.mp4",
-      "originalSha256": "4e3e4d73e858b4599670a1d3177998cfd5be44241054eac23008d38cbcf8ad16",
+      "original": "assets/story-v10/CIN-B-aligned-v10.mp4",
+      "originalSha256": "2675b7853fe7898d2da47051c1e69030bf689e56ebc050df91ac893818d37582",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-B-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-B-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 1933935,
-          "sha256": "72fafc2381d41064ac0b9ba97c569f5de92ce52b8fd29d3827e2dc4b82c36ee3",
+          "bytes": 1623473,
+          "sha256": "2675b7853fe7898d2da47051c1e69030bf689e56ebc050df91ac893818d37582",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-B-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-B-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 2590051,
-          "sha256": "5ed3cb3b319d47916dca421846fc72b7d096487248f6ffcf7896495a850d6db1",
+          "bytes": 2720912,
+          "sha256": "b03ffbb5404477456287c61c9f87956d91151fc1b7f8008374cd6619799d9594",
           "decode": "passed"
         }
-      ]
+      ],
+      "alignmentPriorOriginal": "assets/story-v5/video/CIN-B-story-v5.mp4"
     },
     {
       "id": "CIN-C",
       "durationMs": 73500,
-      "original": "assets/story-v5/video/CIN-C-story-v5.mp4",
-      "originalSha256": "359c18e56bd6c42f96b6a21ca34532ea023f1250a5026c1fc50d186c171d991d",
+      "original": "assets/story-v10/CIN-C-aligned-v10.mp4",
+      "originalSha256": "70bd6d009523e26d0f5b2b85cffeb0ca75c83dc4b130aeffc93975b4096eae64",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-C-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-C-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 2970734,
-          "sha256": "c51f4f52280bd809dfb72f66162c482dca7bf7e6ba3228f4752b761e106f8d5c",
+          "bytes": 2426382,
+          "sha256": "70bd6d009523e26d0f5b2b85cffeb0ca75c83dc4b130aeffc93975b4096eae64",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-C-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-C-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 4808873,
-          "sha256": "8530527d9c1f5ce046c9ea7593cfe89e1e2bf4ada214cd4d6c2b92dc4f8bac6a",
+          "bytes": 4481124,
+          "sha256": "8bd7bcff15d3d8d3935bed0ca8c4c6fb64c9c508e4e21e4a6ecce700c5eebf21",
           "decode": "passed"
         }
-      ]
+      ],
+      "alignmentPriorOriginal": "assets/story-v5/video/CIN-C-story-v5.mp4"
     },
     {
       "id": "CIN-D",
       "durationMs": 96000,
-      "original": "assets/story-v9/video/CIN-D-story-v9.mp4",
-      "originalSha256": "02632cb37df2c7712c70f1fe34ca89748fa71fbf8fb7de1ed10be7c1ee220118",
+      "original": "assets/story-v10/CIN-D-aligned-v10.mp4",
+      "originalSha256": "2892a6cffce59f336c3c2673f8fa40842fc7a436d8bd44c220a5e7e3313b9ab1",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
+          "path": "assets/playback-v6/video/CIN-D-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 4021743,
-          "sha256": "02632cb37df2c7712c70f1fe34ca89748fa71fbf8fb7de1ed10be7c1ee220118",
+          "bytes": 3982225,
+          "sha256": "2892a6cffce59f336c3c2673f8fa40842fc7a436d8bd44c220a5e7e3313b9ab1",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-D-fallback-v9.webm",
+          "path": "assets/playback-v6/video/CIN-D-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 4914435,
-          "sha256": "1cc1db30adc7fdbb71e575aefd3cbce281edd501696289daffb1c68d0b3de327",
+          "bytes": 7088565,
+          "sha256": "aa40e6a8f68aa6ba64110de1b65e561f3437a9497a39321926c645bac3eb2221",
           "decode": "passed"
         }
       ],
-      "priorOriginal": "assets/story-v5/video/CIN-D-story-v5.mp4"
+      "priorOriginal": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "alignmentPriorOriginal": "assets/story-v9/video/CIN-D-story-v9.mp4"
     },
     {
       "id": "CIN-END",
       "durationMs": 72000,
-      "original": "assets/story-v5/video/CIN-END-story-v5.mp4",
-      "originalSha256": "32603f734462b93457dc2637739de551b461f72e41b293c6f6877eb7c0faf843",
+      "original": "assets/story-v10/CIN-END-aligned-v10.mp4",
+      "originalSha256": "28abcd886b0f3f2b1822e2b522ae88ab08c7be03ab68d74335dbea8cb6bb6f0c",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-END-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-END-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 2924608,
-          "sha256": "0717182197c3ad7691d7fe6de3e92f5e7d85b810dc81f444dba6547612929a6b",
+          "bytes": 3196705,
+          "sha256": "28abcd886b0f3f2b1822e2b522ae88ab08c7be03ab68d74335dbea8cb6bb6f0c",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-END-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-END-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 4673160,
-          "sha256": "52f6ec14141bc8bf10ac891367e14815864d7fec4d713af1d72d131b7e5ac714",
+          "bytes": 6227255,
+          "sha256": "8100de058756a9ed0965395336dea58bdba48a1b8c5fd57ad1d6d1667ba4f260",
           "decode": "passed"
         }
-      ]
+      ],
+      "alignmentPriorOriginal": "assets/story-v5/video/CIN-END-story-v5.mp4"
     },
     {
       "id": "CIN-EPILOGUE",
       "durationMs": 62000,
-      "original": "assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4",
-      "originalSha256": "6139bb347e9621156e1f57d90574c6997b09c2649048ded4c5d1217a53371517",
+      "original": "assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4",
+      "originalSha256": "500edfcc2b18c7d0196c252afc0bd2025395ee6e7e901260f163ac1f63ddb07d",
       "sources": [
         {
-          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v7.mp4",
+          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.mp4",
           "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
-          "bytes": 1983143,
-          "sha256": "c1f9190dd429b4a13b932fe9784d01c4fc30c396d6b471cc41deac869e5e61a3",
+          "bytes": 1890275,
+          "sha256": "500edfcc2b18c7d0196c252afc0bd2025395ee6e7e901260f163ac1f63ddb07d",
           "decode": "passed"
         },
         {
-          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v7.webm",
+          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.webm",
           "type": "video/webm; codecs=\"vp9, opus\"",
-          "bytes": 2244756,
-          "sha256": "01d614d0e58d0150aae48fc2b3ac4d46a2722b0dbf8e1c1023cd11308035edf2",
+          "bytes": 3064971,
+          "sha256": "99829ae5f40d223e4d88e8356aa002f71e17a33090faf984153a1a947d02228b",
           "decode": "passed"
         }
-      ]
+      ],
+      "alignmentPriorOriginal": "assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4"
     }
   ]
 }

@@ -748,9 +748,26 @@ EMBERS_URL=https://jerrycheng0623.github.io/escape-room/ pnpm test:media:http
 | TOUCH-01 | 四種橫向尺寸，搖桿116/128、控制點≥44且無遮擋 | 通過；兩引擎四尺寸，實體手機另列未測 |
 | TOUCH-02 | 多指所有權、旁邊連點、取消、失焦、選單、橫直向、放手無漂移 | 通過；真雙指22項控制檢查；WebKit12項分開記錄 |
 | SPACE-09 | 四區六面、碰撞、遮擋、安全出生點與模型檢查 | 通過；space.json及scene-verification.json；不推論實體手機FPS |
-| MEDIA-09 | 七片自然1x、MP4/WebM、兩引擎與雙版面；錯誤／重試／字幕／控制台 | 通過；目前有效56組自然播放覆蓋，A/D另重跑16次；22控制與14版面案例、HTTP／Range／VTT |
+| MEDIA-09（v9歷史） | 七片自然1x、MP4/WebM、兩引擎與雙版面；錯誤／重試／字幕／控制台 | 通過；v9當時56組自然播放覆蓋，A/D另重跑16次；22控制與14版面案例、HTTP／Range／VTT |
 | FILE-09 | 三MD與rules/source對照、86實物、JSON/SVG/GLB/影片／音軌指紋 | 通過；source-audit、素材／GLB／雙格式解碼與原音軌封包核對 |
 | PUBLIC-09 | Website-2來源、gh-pages產物、新舊網址入口與發布指紋／公開流程 | 通過；16檔案核對、4首頁、公開兩裝置通關、WebKit回歸與重玩修正 |
+
+
+2026-11-04字幕／畫面對照修正（v10，執行者Codex單代理）：本輪基準Website-2 6bcd3ec513b70cd4f450a4f90e0ecd398fa6d4fb，本機非Git checkout。此前MEDIA-09證明播放／操作，不代表逐幕人物語意正確。使用者回報序幕人物錯位後，逐幕檢視七片52幕，並保留修正前後抽幀於/tmp/embers-subtitle-audit。舊序幕解出1904影格、後記1268影格，應有2076及1488影格；字幕與音軌仍為86.5／62秒，導致記者之後的角色卡提前。記者原PNG在IEND後含32bytes，FFmpeg png_pipe回報Invalid PNG signature；轉製僅在暫存副本去除檔尾（像素／原檔不改）、明確image2輸入，以內容雜湊命名快取，並強制每幕精確影格數。
+
+同時修正文書遮住合照人物、五年前回顧誤用當晚人物場景、65.3錯誤秤面；保留既有角色、關係、謎底、所有舊公開影片URL。現行時間表assets/story-v10/timeline.json；兩語VTT及MP4/WebM均採v10獨立檔名。抽幀逐幕核對是故事語意審查；影格指紋只證明轉製順序，不替代語意審查。
+
+| 案例 | 預期與操作 | 實測 |
+| --- | --- | --- |
+| CAP-FRAME-10 | 七片所有MP4解碼影格依序等於52幕來源渲染；每幕秒數×24、時間戳連續；WebM各幕SSIM>0.94，原AAC封包保留 | 通過：每格式11628影格、中英104則字幕；alignment-verification.json |
+| CAP-VISUAL-10 | 逐幕比對角色名／立繪／文書／事件年代／合照人數；不得用當晚劉涵代替五年前親屬 | 通過：52幕已抽幀檢視；不宣稱每一句旁白都有專屬動作動畫，推論與回顧保留敘事標示 |
+| CAP-UI-10 | Archive→七片預覽→每幕中點→繁中／英文字幕；兩引擎、桌機／手機尺寸、MP4/WebM | 通過：416次實際activeCues與語句核對；本項有拖曳，不計自然播放 |
+| CAP-NATURAL-10 | 1倍0秒開始，自然ended並返回檔案；四profile×七片 | 通過：28次七片自然播放，四profile全部自然ended回檔案；natural-chromium.json與natural-webkit.json |
+| CAP-PUBLIC-10 | 公開root及mechanisms-v4之media.json、14媒體／14VTT指紋、MIME與Range206，以及公開播放器人物對照 | 待部署後驗證 |
+
+本輪另實際重跑48項單元測試及正式建置通過；Chromium與WebKit影片控制各11項，共22項通過。測試工具曾因range的step=0.1而拒絕14.25，已改用合法0.1秒中點；SSIM統計曾被來源色彩參數變更重新初始化而重設，已固定驗證濾鏡，不把這些工具錯誤視為網站通過。首次在根目錄執行pnpm build找不到package.json，改至web/正式建置成功。
+
+新增命令：根目錄python3 scripts/verify_cinematic_alignment.py；web/執行pnpm test:captions。Browser plugin not available，因此使用既有Playwright；Chromium桌機1440×900、WebKit手機844×390，兩格式隔離profile。macOS26.6；引擎精確版本在browser-alignment.json。實體iPhone／iPad Safari仍未驗證，不以WebKit模擬替代真機。
 
 首次玩家的趣味／難度／誤導公平、實體iPhone/iPad/Android與長時間熱降頻仍未測。現行新機關正式介面及文書以繁體中文驗收，完整英文化尚未驗收；只用鍵盤走完全部四關尚無完整盲測紀錄，方向鍵與近景基礎操作已實測。新版文書與孔路為原型實作，不能用自動化通關時間當真人難度或效能結論。
 
@@ -849,7 +866,7 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 
 本輪文件檢查：唯一案例ID、映射引用存在、verify的78條實際方框條目完全覆蓋、保留原條目ID及映射，條文依v6場景與v5故事更新、所有案例都有步驟與預期、來源版本／例外／結果欄位存在；實際通過項目只在第11節實測表中，沒有將計畫列為已通過。對原有verify、PLAN、程式、設定JSON採讀前後雜湊核對，不把使用者並行替換媒體納入鎖定或回復範圍。
 
-本輪已依最新授權同步兩份主規格、test與共用資料／影片／網站；詳第11節。未commit、push、PR或部署。agent第二點分工仍排除，沒有子代理。實機及未執行案例保持未測試。
+歷史初版曾只完成本機同步；現行公開交付與影片v10測試範圍詳第11.5節。agent第二點分工仍排除，沒有子代理。實機及未執行案例保持未測試。
 
 ### 14.1 案例與本機基準
 

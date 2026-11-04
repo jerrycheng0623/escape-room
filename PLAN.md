@@ -1,10 +1,12 @@
 # 《餘燼裡的第六人》網站、3D 遊戲與 2D 影片完整製作計畫
 
+> 2026-11-04影片修正：現行七片為對齊v10，52幕／484.5秒；序幕與後記已補足記者人物卡影格，角色原畫不變。每幕與中英字幕共用assets/story-v10/timeline.json；文書置右、原畫完整置左，合照人數不被遮擋。五年前回顧改用舊屋空景；錯誤65.3秤面鏡頭停用，65.0明確屬歷史值。可重跑scripts/verify_cinematic_alignment.py及web的pnpm test:captions，實測詳test.md第11.5節。
+
 > 閱讀入口：第3／5／6節為封閉場景與碰撞規定，第7節為觀察式指引，第17.1節為machine.md v4四關正式機關；第8節影片與第29節故事維持v5有效內容。
 > 版本 v2.4｜2026-11-04｜Asia/Taipei
 > 狀態：網站v9已接入機關v4、封閉3D空間與恢復存檔；完整實測與未測界線依test.md第11.5節。
 > 對應規格：`verify.md` v2.4；檔名採使用者要求的 `PLAN.md`。
-> 交付版本：故事v5／七影片（A、D鏡頭v9）、網站／原生3D場景v9、三份MD v2.4。模型已增加材質與細節，仍非掃描級寫實資產；已做Chromium／WebKit回歸；實體手機驗收仍未完成。
+> 交付版本：故事v5／七影片字幕影像對齊v10、網站／原生3D場景v9、三份MD v2.4。模型已增加材質與細節，仍非掃描級寫實資產；已做Chromium／WebKit回歸；實體手機驗收仍未完成。
 
 > 2026-11-04最新：machine.md v4四關已接入網站v9；已發布：https://jerrycheng0623.github.io/escape-room/mechanisms-v4/；桌機／手機同址。實測及剩餘界線依test.md第11.5節。原來源與歷史快照不等於目前操作規則。
 
@@ -320,17 +322,17 @@
 
 ### 8.2 七段故事與目前交付時長
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -440,17 +442,17 @@
 
 ### 10.1 目前合成影片與聲音
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -728,17 +730,17 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 
 已實作四主機關、七段動畫、26份雙語文書、五位新版角色、提示3／5／7階段、獨立求助、可選五題Bonus與皇冠、單一結局、數日後身分回報、唯讀首次紀錄、獨立章節重玩與完成後解答。正式／預覽／回訪資料隔離，舊版A進度有遷移與備份。3D為可走動程序化比例初模，已加入新版照片與可編輯文書貼圖、八個配重狀態與移櫃狀態；不宣稱完成電影級寫實資產、全建物無縫導航或真實火災物理。
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -786,17 +788,17 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 
 已實作四主機關、七段動畫、26份雙語文書、五位新版角色、提示3／5／7階段、獨立求助、可選五題Bonus與皇冠、單一結局、數日後身分回報、唯讀首次紀錄、獨立章節重玩與完成後解答。正式／預覽／回訪資料隔離，舊版A進度有遷移與備份。3D為可走動程序化比例初模，已加入新版照片與可編輯文書貼圖、八個配重狀態與移櫃狀態；不宣稱完成電影級寫實資產、全建物無縫導航或真實火災物理。
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -1010,17 +1012,17 @@ P037–P042六類均已完成參考與程序化初模，計入42類物件；P042
 
 已實作四主機關、七段動畫、26份雙語文書、五位新版角色、提示3／5／7階段、獨立求助、可選五題Bonus與皇冠、單一結局、數日後身分回報、唯讀首次紀錄、獨立章節重玩與完成後解答。正式／預覽／回訪資料隔離，舊版A進度有遷移與備份。3D為可走動程序化比例初模，已加入新版照片與可編輯文書貼圖、八個配重狀態與移櫃狀態；不宣稱完成電影級寫實資產、全建物無縫導航或真實火災物理。
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -1039,17 +1041,17 @@ P037–P042六類均已完成參考與程序化初模，計入42類物件；P042
 
 已實作四主機關、七段動畫、26份雙語文書、五位新版角色、提示3／5／7階段、獨立求助、可選五題Bonus與皇冠、單一結局、數日後身分回報、唯讀首次紀錄、獨立章節重玩與完成後解答。正式／預覽／回訪資料隔離，舊版A進度有遷移與備份。3D為可走動程序化比例初模，已加入新版照片與可編輯文書貼圖、八個配重狀態與移櫃狀態；不宣稱完成電影級寫實資產、全建物無縫導航或真實火災物理。
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 
@@ -1336,17 +1338,17 @@ K2 內芯、F1 襯框、G1 隨動導座皆隨匣退出；底座平台留在原�
 
 ### 素材完成層級
 
-新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、雙語軟字幕及外部WebVTT。第七段是同一結局的數日後身分後記，不是第二結局。
+新版七段共484.5秒（8分04.5秒），1280×720／24 FPS、H.264＋AAC、繁中／英文外部WebVTT（交付MP4不含內嵌字幕）。第七段是同一結局的數日後身分後記，不是第二結局。
 
 | ID | 內容 | 時長 | 鏡數 | 交付 |
 | --- | --- | --- | --- | --- |
-| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v5/video/CIN-00-story-v5.mp4) |
-| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v5/video/CIN-A-story-v5.mp4) |
-| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v5/video/CIN-B-story-v5.mp4) |
-| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v5/video/CIN-C-story-v5.mp4) |
-| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v5/video/CIN-D-story-v5.mp4) |
-| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v5/video/CIN-END-story-v5.mp4) |
-| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4) |
+| CIN-00 | 序幕：遲到的邀請 | 86.5秒 | 10鏡 | [影片](assets/story-v10/CIN-00-aligned-v10.mp4) |
+| CIN-A | 客房：灰燼裡的謊言 | 45秒 | 5鏡 | [影片](assets/story-v10/CIN-A-aligned-v10.mp4) |
+| CIN-B | 暗房：不在照片裡的人 | 49.5秒 | 5鏡 | [影片](assets/story-v10/CIN-B-aligned-v10.mp4) |
+| CIN-C | 營火：善意與異常重量 | 73.5秒 | 8鏡 | [影片](assets/story-v10/CIN-C-aligned-v10.mp4) |
+| CIN-D | 診療區：另一種飢餓 | 96秒 | 10鏡 | [影片](assets/story-v10/CIN-D-aligned-v10.mp4) |
+| CIN-END | 終幕：深淵的凝視 | 72秒 | 8鏡 | [影片](assets/story-v10/CIN-END-aligned-v10.mp4) |
+| CIN-EPILOGUE | 後記：留下名字的人 | 62秒 | 6鏡 | [影片](assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4) |
 
 原畫採assets/art-redesign-v4/images與portraits；可編輯文書文字、26份中英全文與五人介紹共用assets/story/content-v5.json。逐鏡旁白、畫面文字與揭露階段見[2D敘事全文](assets/story/2D敘事與畫面文字-v5.md)。原始插畫保留，不永久燒字；影片另疊文字層。英文旁白／字幕及完整文書可閱讀；影片圖內文字保留繁中。無真人配音。新音軌依鏡頭時間重新配置紙聲、移櫃、腳步、吞嚥與歸零聲，並非循環舊混音。
 

@@ -301,12 +301,12 @@
         "seconds": 9
       },
       {
-        "image": "C-03",
-        "zh": "重新配重，解除檢修卡榫。我取出了通往地下室內門的鑰匙。",
-        "en": "Reproducing the load released the service latch and revealed the inner-door key.",
-        "document": null,
+        "image": "C-05",
+        "zh": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+        "en": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+        "document": "key",
         "person": null,
-        "text": "",
+        "text": "檢修格內的維修鑰匙。\n標記：通往地下診療區的內門。\n不是對外維修出口鑰匙。門開啟後保持解鎖，不重複\n消耗。",
         "page": 1,
         "pages": 1,
         "seconds": 9
@@ -349,7 +349,8 @@
         "text": "保密附記｜五年前事件\n王杰倫自述受困多日，在極端飢餓中，疑似食用了已\n死亡親屬的遺體。\n後續反覆提及難以面對的進食記憶與異常欲望。此項\n記錄僅供診療，不足以證明本次案件任何人的犯罪行\n為。\n【偵探重建：先有五年前火災與受困，才有食用遺體\n的往事；這次聚會的縱火，則是另一件事。】",
         "page": 1,
         "pages": 1,
-        "seconds": 12.0
+        "seconds": 12.0,
+        "sourceArt": "assets/world-v4/previews/clinic-source.png"
       },
       {
         "image": "D-02",
@@ -360,7 +361,9 @@
         "text": "",
         "page": 1,
         "pages": 1,
-        "seconds": 9
+        "seconds": 9,
+        "sourceArt": "assets/world-v4/previews/old.webp",
+        "visualContext": "五年前山屋舊片；空景，無本次聚會人物；舊事由字幕敘述，沒有以劉涵代替親屬。"
       },
       {
         "image": "C-01",
@@ -412,7 +415,7 @@
         "en": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
         "document": "recording",
         "person": null,
-        "text": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏\n室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活\n動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方\n向：劉涵可能在合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對\n。",
+        "text": "19:10，劉涵準備向王杰倫道歉。19:15附近，儲藏\n室發生撞擊，烤架留下異常載重。\n工作片段顯示王杰倫取過小瓶，其餘三人後來失去活\n動；三杯殘留仍待檢驗。\n照片、日記、項鍊與深層紀錄相互支持一個駭人的方\n向：劉涵可能在最後最後合照前遭襲，並與烤架異常有關。\n這是案件重建，精確死時、物質與身分仍須正式核對\n。",
         "page": 1,
         "pages": 1,
         "seconds": 12.0
@@ -469,7 +472,7 @@
         "seconds": 9
       },
       {
-        "image": "C-03",
+        "image": "00-04",
         "zh": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
         "en": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
         "document": null,
@@ -477,7 +480,8 @@
         "text": "",
         "page": 1,
         "pages": 1,
-        "seconds": 9
+        "seconds": 9,
+        "visualContext": "當晚火災後廢墟，配合真相重建敘述；不將歷史秤重畫面冒充縱火動作。"
       },
       {
         "image": "D-06",

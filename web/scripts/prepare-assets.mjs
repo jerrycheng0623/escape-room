@@ -15,10 +15,15 @@ const media=[];
 for(const seg of manifest.segments){
  const delivery=playback.segments.find(s=>s.id===seg.id);if(!delivery?.sources?.length)throw Error('Missing playback derivatives: '+seg.id);
  const sources=delivery.sources.map(s=>({src:'media/video/'+s.path.split('/').at(-1),type:s.type}));
- const video=sources[0].src,poster=`media/posters/${seg.id}${seg.id==='CIN-D'?'-v9':''}.webp`,tracks={};
- await Promise.all([copy(seg.video,`media/video/${seg.id}.mp4`),copy(seg.id==='CIN-D'?'assets/world-v4/previews/clinic.webp':seg.poster,poster),...delivery.sources.map((s,i)=>copy(s.path,sources[i].src)),...Object.entries(seg.subtitleTracks).map(async([lang,path])=>{tracks[lang]=`media/subtitles/${seg.id}-${lang}-mechanisms-v4.vtt`;await Promise.all([copy(path,tracks[lang]),copy(path,`media/subtitles/${seg.id}-${lang}.vtt`)]);})]);
+ const video=sources[0].src,poster=`media/posters/${seg.id}${playback.version>=10?'-v'+playback.version:seg.id==='CIN-D'?'-v9':''}.webp`,tracks={};
+ await Promise.all([copy(playback.version>=10?`assets/story-v5/video/${seg.id}-story-v5.mp4`:seg.video,`media/video/${seg.id}.mp4`),copy(playback.version>=10?seg.poster:seg.id==='CIN-D'?'assets/world-v4/previews/clinic.webp':seg.poster,poster),...delivery.sources.map((s,i)=>copy(s.path,sources[i].src)),...Object.entries(seg.subtitleTracks).map(async([lang,path])=>{tracks[lang]=`media/subtitles/${seg.id}-${lang}-${playback.version>=10?'aligned-v'+playback.version:'mechanisms-v4'}.vtt`;await Promise.all([copy(path,tracks[lang]),copy(playback.version>=10?`assets/story-v5/subtitles/${lang}/${seg.id}.vtt`:path,`media/subtitles/${seg.id}-${lang}.vtt`)]);})]);
  let at=0;const transcript=story[seg.id].shots.map(s=>{const item={start:at,end:at+s.seconds,zh:s.zh,en:s.en,text:s.text,document:s.document};at+=s.seconds;return item;});
  media.push({id:seg.id,title:seg.title,titleEn:seg.titleEn,duration:seg.durationMs/1000,video,sources,poster,tracks,transcript});
+}
+// Preserve prior released versioned caption/poster URLs when preparing the next version.
+if(playback.version>=10){
+ for(const seg of manifest.segments){for(const lang of ['zh-Hant','en'])await copy(`assets/story-v5/subtitles/${lang}/${seg.id}.vtt`,`media/subtitles/${seg.id}-${lang}-mechanisms-v4.vtt`);
+ await copy(seg.id==='CIN-D'?'assets/world-v4/previews/clinic.webp':`assets/story-v5/web/posters/${seg.id}.webp`,`media/posters/${seg.id}${seg.id==='CIN-D'?'-v9':''}.webp`);}
 }
 // Preserve immutable released URLs for Safari range caches and already open players.
 await Promise.all((await readdir(resolve(root,'assets/playback-v6/video'))).filter(name=>/\.(mp4|webm)$/.test(name)).map(name=>copy('assets/playback-v6/video/'+name,'media/video/'+name)));

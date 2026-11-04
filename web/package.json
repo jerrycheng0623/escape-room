@@ -20,7 +20,8 @@
     "test:release": "node scripts/test-release.mjs",
     "test:touch": "node scripts/test-touch-controls.mjs",
     "test:keyboard": "node scripts/test-keyboard-audio.mjs",
-    "test:post": "node scripts/test-postgame.mjs"
+    "test:post": "node scripts/test-postgame.mjs",
+    "test:captions": "node scripts/test-caption-alignment.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

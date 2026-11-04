@@ -8,11 +8,11 @@
       "title": "序幕：遲到的邀請",
       "titleEn": "Prologue · The late invitation",
       "durationMs": 86500,
-      "video": "assets/story-v5/video/CIN-00-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-00.webp",
+      "video": "assets/story-v10/CIN-00-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-00-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-00.vtt"
+        "zh-Hant": "assets/story-v10/CIN-00-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-00-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/00-01.png",
@@ -20,7 +20,7 @@
         "assets/art-redesign-v4/images/00-03.png",
         "assets/art-redesign-v4/images/00-04.png"
       ],
-      "sha256": "73658fe5f23ebe6333ad6b7deef7b313d407bbe8a8004702c598249575a4dc20",
+      "sha256": "1f0d373afcac741e7ffcdd4c4892659eeaf0be0301245359113320eb1f3f3680",
       "shots": 10,
       "audioEvents": [
         {
@@ -45,11 +45,11 @@
       "title": "客房：灰燼裡的謊言",
       "titleEn": "Guest room · Lies in the ashes",
       "durationMs": 45000,
-      "video": "assets/story-v5/video/CIN-A-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-A.webp",
+      "video": "assets/story-v10/CIN-A-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-A-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-A.vtt"
+        "zh-Hant": "assets/story-v10/CIN-A-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-A-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/A-01.png",
@@ -57,7 +57,7 @@
         "assets/art-redesign-v4/images/A-04.png",
         "assets/art-redesign-v4/images/EVIDENCE-01.png"
       ],
-      "sha256": "375de6745f6ae6df3eab228752dc501835903a032b05aa0e1ef50cdd219828d7",
+      "sha256": "9ade2f33ee10d1cc6be81899ad561b2f61d69217ee2e969f577e015d00e6d497",
       "shots": 5,
       "audioEvents": [
         {
@@ -82,11 +82,11 @@
       "title": "暗房：不在照片裡的人",
       "titleEn": "Darkroom · The missing face",
       "durationMs": 49500,
-      "video": "assets/story-v5/video/CIN-B-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-B.webp",
+      "video": "assets/story-v10/CIN-B-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-B-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-B.vtt"
+        "zh-Hant": "assets/story-v10/CIN-B-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-B-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/B-01.png",
@@ -94,7 +94,7 @@
         "assets/art-redesign-v4/images/B-03.png",
         "assets/art-redesign-v4/images/B-04.png"
       ],
-      "sha256": "4e3e4d73e858b4599670a1d3177998cfd5be44241054eac23008d38cbcf8ad16",
+      "sha256": "2675b7853fe7898d2da47051c1e69030bf689e56ebc050df91ac893818d37582",
       "shots": 5,
       "audioEvents": [
         {
@@ -124,11 +124,11 @@
       "title": "營火：善意與異常重量",
       "titleEn": "Terrace · An unusual weight",
       "durationMs": 73500,
-      "video": "assets/story-v5/video/CIN-C-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-C.webp",
+      "video": "assets/story-v10/CIN-C-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-C-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-C.vtt"
+        "zh-Hant": "assets/story-v10/CIN-C-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-C-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/C-01.png",
@@ -138,7 +138,7 @@
         "assets/art-redesign-v4/images/C-05.png",
         "assets/art-redesign-v4/images/WATCH.png"
       ],
-      "sha256": "359c18e56bd6c42f96b6a21ca34532ea023f1250a5026c1fc50d186c171d991d",
+      "sha256": "70bd6d009523e26d0f5b2b85cffeb0ca75c83dc4b130aeffc93975b4096eae64",
       "shots": 8,
       "audioEvents": [
         {
@@ -173,11 +173,11 @@
       "title": "診療區：另一種飢餓",
       "titleEn": "Clinic · Another hunger",
       "durationMs": 96000,
-      "video": "assets/story-v5/video/CIN-D-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-D.webp",
+      "video": "assets/story-v10/CIN-D-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-D-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-D.vtt"
+        "zh-Hant": "assets/story-v10/CIN-D-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-D-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/C-01.png",
@@ -191,7 +191,7 @@
         "assets/art-redesign-v4/images/D-07.png",
         "assets/art-redesign-v4/images/EVIDENCE-01.png"
       ],
-      "sha256": "c22d2d6f358d6e6c6957e525db586989dff198e3fc76f0942cb71e691853ef81",
+      "sha256": "2892a6cffce59f336c3c2673f8fa40842fc7a436d8bd44c220a5e7e3313b9ab1",
       "shots": 10,
       "audioEvents": [
         {
@@ -221,11 +221,11 @@
       "title": "終幕：深淵的凝視",
       "titleEn": "Finale · The abyss looks back",
       "durationMs": 72000,
-      "video": "assets/story-v5/video/CIN-END-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-END.webp",
+      "video": "assets/story-v10/CIN-END-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-END-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-END.vtt"
+        "zh-Hant": "assets/story-v10/CIN-END-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-END-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/C-03.png",
@@ -236,7 +236,7 @@
         "assets/art-redesign-v4/images/END-05.png",
         "assets/art-redesign-v4/images/END-PLATE.png"
       ],
-      "sha256": "32603f734462b93457dc2637739de551b461f72e41b293c6f6877eb7c0faf843",
+      "sha256": "28abcd886b0f3f2b1822e2b522ae88ab08c7be03ab68d74335dbea8cb6bb6f0c",
       "shots": 8,
       "audioEvents": [
         {
@@ -266,17 +266,17 @@
       "title": "後記：留下名字的人",
       "titleEn": "Epilogue · The names that remain",
       "durationMs": 62000,
-      "video": "assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4",
-      "poster": "assets/story-v5/web/posters/CIN-EPILOGUE.webp",
+      "video": "assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-EPILOGUE-v10.webp",
       "subtitleTracks": {
-        "zh-Hant": "assets/story-v5/subtitles/zh-Hant/CIN-EPILOGUE.vtt",
-        "en": "assets/story-v5/subtitles/en/CIN-EPILOGUE.vtt"
+        "zh-Hant": "assets/story-v10/CIN-EPILOGUE-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-EPILOGUE-en-aligned-v10.vtt"
       },
       "sourceImages": [
         "assets/art-redesign-v4/images/D-04.png",
         "assets/art-redesign-v4/images/END-PLATE.png"
       ],
-      "sha256": "6139bb347e9621156e1f57d90574c6997b09c2649048ded4c5d1217a53371517",
+      "sha256": "500edfcc2b18c7d0196c252afc0bd2025395ee6e7e901260f163ac1f63ddb07d",
       "shots": 6,
       "audioEvents": [
         {
