@@ -1,0 +1,102 @@
+{
+  "pass": true,
+  "sourceCodeCommit": "4681af3212cee2cafe80a111cb1bc6a5c0e1cbf4",
+  "files": [
+    {
+      "entry": "root",
+      "file": "index.html",
+      "mime": "text/html",
+      "sha256": "b259f00007692d4958b4db48af1c931480158c50f5d0f8bf52be9dab54432348"
+    },
+    {
+      "entry": "root",
+      "file": "media.json",
+      "mime": "application/json",
+      "sha256": "aad1432ac22af083f3b836957e5c6d890a87818e8b401f54a8d5c90131510069"
+    },
+    {
+      "entry": "root",
+      "file": "media/room-rain-thunder-v15.m4a",
+      "mime": "audio/mp4",
+      "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
+    },
+    {
+      "entry": "root",
+      "file": "assets/Game-o88LlS8U.js",
+      "mime": "application/javascript",
+      "sha256": "3c322c6e361d7a84280ca113acb36c046be8be183d1c29366ccff97df036f339"
+    },
+    {
+      "entry": "root",
+      "file": "assets/Scene-DNXVVN8i.js",
+      "mime": "application/javascript",
+      "sha256": "c305624c6dbcb3d5333d87a96edc0268636ee6cd8e1a385b8f564fa3c0791ba4"
+    },
+    {
+      "entry": "root",
+      "file": "assets/index-I2lTA7ig.js",
+      "mime": "application/javascript",
+      "sha256": "a7638bb25d1c594569291086ab1b5e74f1c0a10d42750fe95405eaf95d925d33"
+    },
+    {
+      "entry": "root",
+      "file": "assets/index-kVg-Oys7.css",
+      "mime": "text/css",
+      "sha256": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe"
+    },
+    {
+      "entry": "root",
+      "file": "assets/solutions-Do6b9eNm.js",
+      "mime": "application/javascript",
+      "sha256": "0673ae7decee4fefb3eae3419f9e2ac9acc6d05eaf00730292a18e6226255820"
+    },
+    {
+      "entry": "final/",
+      "file": "index.html",
+      "mime": "text/html",
+      "sha256": "b259f00007692d4958b4db48af1c931480158c50f5d0f8bf52be9dab54432348"
+    },
+    {
+      "entry": "final/",
+      "file": "media.json",
+      "mime": "application/json",
+      "sha256": "aad1432ac22af083f3b836957e5c6d890a87818e8b401f54a8d5c90131510069"
+    },
+    {
+      "entry": "final/",
+      "file": "media/room-rain-thunder-v15.m4a",
+      "mime": "audio/mp4",
+      "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
+    },
+    {
+      "entry": "final/",
+      "file": "assets/Game-o88LlS8U.js",
+      "mime": "application/javascript",
+      "sha256": "3c322c6e361d7a84280ca113acb36c046be8be183d1c29366ccff97df036f339"
+    },
+    {
+      "entry": "final/",
+      "file": "assets/Scene-DNXVVN8i.js",
+      "mime": "application/javascript",
+      "sha256": "c305624c6dbcb3d5333d87a96edc0268636ee6cd8e1a385b8f564fa3c0791ba4"
+    },
+    {
+      "entry": "final/",
+      "file": "assets/index-I2lTA7ig.js",
+      "mime": "application/javascript",
+      "sha256": "a7638bb25d1c594569291086ab1b5e74f1c0a10d42750fe95405eaf95d925d33"
+    },
+    {
+      "entry": "final/",
+      "file": "assets/index-kVg-Oys7.css",
+      "mime": "text/css",
+      "sha256": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe"
+    },
+    {
+      "entry": "final/",
+      "file": "assets/solutions-Do6b9eNm.js",
+      "mime": "application/javascript",
+      "sha256": "0673ae7decee4fefb3eae3419f9e2ac9acc6d05eaf00730292a18e6226255820"
+    }
+  ]
+}

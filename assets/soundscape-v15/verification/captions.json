@@ -1,0 +1,3807 @@
+{
+  "date": "2026-11-05T04:19:26.915Z",
+  "url": "http://127.0.0.1:5192/",
+  "method": "Browser plugin not available; Playwright. Completed-fixture archive seeking verifies every shot in zh-Hant and en, not a natural-playback claim. Film frame identity checked separately.",
+  "cases": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "mp4",
+      "checks": [
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A breakdown delayed me by four hours. I reached the cabin at three in the morning.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The reporter Lin Yiyao had hired me. The invitation frightened her.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "en",
+          "person": null,
+          "expected": "The invitation was signed by Wang Jielun, survivor of another fire five years ago.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": "host",
+          "expected": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": "host",
+          "expected": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "en",
+          "person": null,
+          "expected": "Four adult bodies, identification pending. The cause remained under investigation.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "en",
+          "person": null,
+          "expected": "I waited outside the cordon, then entered only the cleared investigation route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "She had suppressed leads to preserve the attention of an unsolved case.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The clipping and private notes differed. Her secret did not prove responsibility for tonight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Three glasses and a bottle held residues. I could record them, not identify them by sight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The phone retained previews and work fragments. Police supplied a copy exported that night.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "二十點，鏡頭前只剩三人。劉涵消失了。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 20:00 only three remained in frame. Liu Han was absent.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十九點十分，他還在為自己的好意道歉。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 19:10 he was still apologizing for a well-meant gesture.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The visible report made me read the trembling as fear of fire. It was only a hypothesis.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "en",
+          "person": null,
+          "expected": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "en",
+          "person": null,
+          "expected": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "en",
+          "person": null,
+          "expected": "The pendant, reachable only after opening the hatch, matched the first photograph.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "en",
+          "person": null,
+          "expected": "The diary, watch, load and pendant converged. The reason remained below.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "en",
+          "person": null,
+          "expected": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell in the fire. With police assistance it was moved, exposing the route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The frame had been used before ash settled. Traces established order, not a unique person.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我朝森林出口奔去。身後的視角，卻留在原地。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "I ran toward the forest exit. The viewpoint behind me remained still.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Swallowing] The controller’s current reading reset. History remained in the fixed base.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Cold light revealed the familiar face. Wang Jielun was alive.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Truth can be darker than the ruins. The monster had vanished into the forest.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Days later formal identification was completed. The four bodies finally had names.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "en",
+          "person": null,
+          "expected": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning.",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "webm",
+      "checks": [
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A breakdown delayed me by four hours. I reached the cabin at three in the morning.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The reporter Lin Yiyao had hired me. The invitation frightened her.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "en",
+          "person": null,
+          "expected": "The invitation was signed by Wang Jielun, survivor of another fire five years ago.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": "host",
+          "expected": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": "host",
+          "expected": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "en",
+          "person": null,
+          "expected": "Four adult bodies, identification pending. The cause remained under investigation.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "en",
+          "person": null,
+          "expected": "I waited outside the cordon, then entered only the cleared investigation route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "She had suppressed leads to preserve the attention of an unsolved case.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The clipping and private notes differed. Her secret did not prove responsibility for tonight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Three glasses and a bottle held residues. I could record them, not identify them by sight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The phone retained previews and work fragments. Police supplied a copy exported that night.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "二十點，鏡頭前只剩三人。劉涵消失了。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 20:00 only three remained in frame. Liu Han was absent.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十九點十分，他還在為自己的好意道歉。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 19:10 he was still apologizing for a well-meant gesture.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The visible report made me read the trembling as fear of fire. It was only a hypothesis.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "en",
+          "person": null,
+          "expected": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "en",
+          "person": null,
+          "expected": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "en",
+          "person": null,
+          "expected": "The pendant, reachable only after opening the hatch, matched the first photograph.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "en",
+          "person": null,
+          "expected": "The diary, watch, load and pendant converged. The reason remained below.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "en",
+          "person": null,
+          "expected": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell in the fire. With police assistance it was moved, exposing the route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The frame had been used before ash settled. Traces established order, not a unique person.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我朝森林出口奔去。身後的視角，卻留在原地。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "I ran toward the forest exit. The viewpoint behind me remained still.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Swallowing] The controller’s current reading reset. History remained in the fixed base.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Cold light revealed the familiar face. Wang Jielun was alive.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Truth can be darker than the ruins. The monster had vanished into the forest.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Days later formal identification was completed. The four bodies finally had names.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "en",
+          "person": null,
+          "expected": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning.",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "mp4",
+      "checks": [
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A breakdown delayed me by four hours. I reached the cabin at three in the morning.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The reporter Lin Yiyao had hired me. The invitation frightened her.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "en",
+          "person": null,
+          "expected": "The invitation was signed by Wang Jielun, survivor of another fire five years ago.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": "host",
+          "expected": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": "host",
+          "expected": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "en",
+          "person": null,
+          "expected": "Four adult bodies, identification pending. The cause remained under investigation.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "en",
+          "person": null,
+          "expected": "I waited outside the cordon, then entered only the cleared investigation route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "She had suppressed leads to preserve the attention of an unsolved case.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The clipping and private notes differed. Her secret did not prove responsibility for tonight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Three glasses and a bottle held residues. I could record them, not identify them by sight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The phone retained previews and work fragments. Police supplied a copy exported that night.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "二十點，鏡頭前只剩三人。劉涵消失了。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 20:00 only three remained in frame. Liu Han was absent.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十九點十分，他還在為自己的好意道歉。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 19:10 he was still apologizing for a well-meant gesture.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The visible report made me read the trembling as fear of fire. It was only a hypothesis.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "en",
+          "person": null,
+          "expected": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "en",
+          "person": null,
+          "expected": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "en",
+          "person": null,
+          "expected": "The pendant, reachable only after opening the hatch, matched the first photograph.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "en",
+          "person": null,
+          "expected": "The diary, watch, load and pendant converged. The reason remained below.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "en",
+          "person": null,
+          "expected": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell in the fire. With police assistance it was moved, exposing the route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The frame had been used before ash settled. Traces established order, not a unique person.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我朝森林出口奔去。身後的視角，卻留在原地。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "I ran toward the forest exit. The viewpoint behind me remained still.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Swallowing] The controller’s current reading reset. History remained in the fixed base.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Cold light revealed the familiar face. Wang Jielun was alive.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Truth can be darker than the ruins. The monster had vanished into the forest.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Days later formal identification was completed. The four bodies finally had names.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "en",
+          "person": null,
+          "expected": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning.",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "webm",
+      "checks": [
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A breakdown delayed me by four hours. I reached the cabin at three in the morning.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 1,
+          "time": 14.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The reporter Lin Yiyao had hired me. The invitation frightened her.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 2,
+          "time": 24,
+          "lang": "en",
+          "person": null,
+          "expected": "The invitation was signed by Wang Jielun, survivor of another fire five years ago.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 3,
+          "time": 32.5,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": "host",
+          "expected": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": "host",
+          "expected": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 5,
+          "time": 48.5,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 6,
+          "time": 56.5,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 7,
+          "time": 64.5,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 8,
+          "time": 73,
+          "lang": "en",
+          "person": null,
+          "expected": "Four adult bodies, identification pending. The cause remained under investigation.",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+          "pass": true
+        },
+        {
+          "film": "CIN-00",
+          "index": 9,
+          "time": 82,
+          "lang": "en",
+          "person": null,
+          "expected": "I waited outside the cordon, then entered only the cleared investigation route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "She had suppressed leads to preserve the attention of an unsolved case.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The clipping and private notes differed. Her secret did not prove responsibility for tonight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+          "pass": true
+        },
+        {
+          "film": "CIN-A",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Three glasses and a bottle held residues. I could record them, not identify them by sight.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The phone retained previews and work fragments. Police supplied a copy exported that night.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "二十點，鏡頭前只剩三人。劉涵消失了。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 20:00 only three remained in frame. Liu Han was absent.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 3,
+          "time": 33.8,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-B",
+          "index": 4,
+          "time": 45,
+          "lang": "en",
+          "person": null,
+          "expected": "Absence was not proof of death. I needed to compare the times, recordings and traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "十九點十分，他還在為自己的好意道歉。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "At 19:10 he was still apologizing for a well-meant gesture.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 3,
+          "time": 32.3,
+          "lang": "en",
+          "person": null,
+          "expected": "The visible report made me read the trembling as fear of fire. It was only a hypothesis.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 4,
+          "time": 42,
+          "lang": "en",
+          "person": null,
+          "expected": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 5,
+          "time": 51,
+          "lang": "en",
+          "person": null,
+          "expected": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 6,
+          "time": 60,
+          "lang": "en",
+          "person": null,
+          "expected": "The pendant, reachable only after opening the hatch, matched the first photograph.",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+          "pass": true
+        },
+        {
+          "film": "CIN-C",
+          "index": 7,
+          "time": 69,
+          "lang": "en",
+          "person": null,
+          "expected": "The diary, watch, load and pendant converged. The reason remained below.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 1,
+          "time": 16.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 2,
+          "time": 25.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 3,
+          "time": 34.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 4,
+          "time": 43.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 5,
+          "time": 52.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 6,
+          "time": 63,
+          "lang": "en",
+          "person": null,
+          "expected": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 7,
+          "time": 73.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell in the fire. With police assistance it was moved, exposing the route.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 8,
+          "time": 82.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The frame had been used before ash settled. Traces established order, not a unique person.",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+          "pass": true
+        },
+        {
+          "film": "CIN-D",
+          "index": 9,
+          "time": 91.5,
+          "lang": "en",
+          "person": null,
+          "expected": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 0,
+          "time": 4.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 1,
+          "time": 13.5,
+          "lang": "en",
+          "person": null,
+          "expected": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 2,
+          "time": 22.5,
+          "lang": "en",
+          "person": null,
+          "expected": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "我朝森林出口奔去。身後的視角，卻留在原地。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 3,
+          "time": 31.5,
+          "lang": "en",
+          "person": null,
+          "expected": "I ran toward the forest exit. The viewpoint behind me remained still.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 4,
+          "time": 40.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 5,
+          "time": 49.5,
+          "lang": "en",
+          "person": null,
+          "expected": "[Swallowing] The controller’s current reading reset. History remained in the fixed base.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 6,
+          "time": 58.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Cold light revealed the familiar face. Wang Jielun was alive.",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+          "pass": true
+        },
+        {
+          "film": "CIN-END",
+          "index": 7,
+          "time": 67.5,
+          "lang": "en",
+          "person": null,
+          "expected": "Truth can be darker than the ruins. The monster had vanished into the forest.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 0,
+          "time": 6,
+          "lang": "en",
+          "person": null,
+          "expected": "Days later formal identification was completed. The four bodies finally had names.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "zh-Hant",
+          "person": "reporter",
+          "expected": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 1,
+          "time": 17,
+          "lang": "en",
+          "person": "reporter",
+          "expected": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "zh-Hant",
+          "person": "benefactor",
+          "expected": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 2,
+          "time": 27,
+          "lang": "en",
+          "person": "benefactor",
+          "expected": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "zh-Hant",
+          "person": "doctor",
+          "expected": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 3,
+          "time": 37,
+          "lang": "en",
+          "person": "doctor",
+          "expected": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "zh-Hant",
+          "person": "photographer",
+          "expected": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 4,
+          "time": 47,
+          "lang": "en",
+          "person": "photographer",
+          "expected": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime.",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "zh-Hant",
+          "person": null,
+          "expected": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+          "pass": true
+        },
+        {
+          "film": "CIN-EPILOGUE",
+          "index": 5,
+          "time": 57,
+          "lang": "en",
+          "person": null,
+          "expected": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning.",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": true
+    }
+  ]
+}

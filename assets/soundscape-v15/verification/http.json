@@ -1,0 +1,262 @@
+{
+  "date": "2026-11-05T04:19:04.548Z",
+  "base": "http://127.0.0.1:5192/",
+  "method": "Compare the live index with prepared assets; verify complete bytes, MIME, byte-range contents, and every subtitle file.",
+  "files": [
+    {
+      "id": "CIN-00",
+      "name": "CIN-00-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 2655667,
+      "sha256": "b771d1ca1073c1a9c53ce7b2113ce410c80247d08e3da750b971c4cb4e491303",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2655667",
+      "pass": true
+    },
+    {
+      "id": "CIN-00",
+      "name": "CIN-00-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 5509721,
+      "sha256": "6a01ea8816c2a121e057bfea1d75602f08e8dbd6594f422700ba6d7bee4fd02a",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/5509721",
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "name": "CIN-A-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1662043,
+      "sha256": "a25b357e1ec8bfacbd540c24e44e203c2be78b4a5a6d3f08d5a22561626ad7b9",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1662043",
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "name": "CIN-A-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 3678521,
+      "sha256": "af1027773df56541a67d3848c11cb20cdeae7c3c89a61a4269a65ddd46bc4a99",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3678521",
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "name": "CIN-B-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1551191,
+      "sha256": "059a3b0031a234df104d08a81f0e22fe5adde6d63e46333a051e3f60a6ca3e7e",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1551191",
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "name": "CIN-B-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 2914546,
+      "sha256": "bda8bf65164e9d4088a45630ccdab4df3670df81f7fb2734ed4a849b6f98fdef",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2914546",
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "name": "CIN-C-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 2321559,
+      "sha256": "412a246546e5b8efecd25540d0ab3646258c79ccc94c427b2647396b33c4e19e",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2321559",
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "name": "CIN-C-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 4816798,
+      "sha256": "4ba4addc5b42f581c6fa06f76fb8958f4b232e2db4c71aab516f0c71448707d8",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/4816798",
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "name": "CIN-D-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 3860217,
+      "sha256": "bec2a1397edcc8914c7cf16efa3aa080b10621c47fbb58684cf12d8ed876a714",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3860217",
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "name": "CIN-D-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 7592689,
+      "sha256": "82c71f5d6548a89f3a07a3785136da8788fb21344c300aaff3be7394075eb492",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/7592689",
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "name": "CIN-END-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 3114183,
+      "sha256": "30c2cc4ee1fcbe3446f02e64c847026f57a6022fe973f08e82ba0b58851d2348",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3114183",
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "name": "CIN-END-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 6577942,
+      "sha256": "ccb21a32f84baa5f984076c898e42674f652abfce27ad91091eaff39e4aeb27e",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/6577942",
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "name": "CIN-EPILOGUE-compatible-v11.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1827556,
+      "sha256": "42a47fbc27c8a20696acdad0998c1bf94bc4aa29d68a97a40564926df8ca2a10",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1827556",
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "name": "CIN-EPILOGUE-compatible-v11.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 3340480,
+      "sha256": "b7fd30641211c04ef7818b5d55717730d77b5cdb89b0db323864cb9530572edb",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3340480",
+      "pass": true
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "CIN-00",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-00",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "lang": "zh-Hant",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "lang": "en",
+      "status": 200,
+      "exactTextMatches": true,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

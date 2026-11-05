@@ -1,10 +1,10 @@
 {
-  "appVersion": "1.0.0",
+  "appVersion": "1.0.1",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": "6a08ecaf7817b36ec7f3ebb72a4350a29d1d4042",
-  "sourceBaselineCommit": "f644249bee4bcb573118630e5c01864c0fb32d7d",
-  "createdAt": "2026-11-05T01:04:45.539593+08:00",
+  "sourceCodeCommit": "4681af3212cee2cafe80a111cb1bc6a5c0e1cbf4",
+  "sourceBaselineCommit": "d21df9bef7246d4b992450454f9abd7c62876db0",
+  "createdAt": "2026-11-05T12:19:46.533043+08:00",
   "cinematicVersion": 10,
   "interfaceVersion": 14,
   "modelVersion": 14,
@@ -12,11 +12,17 @@
   "previewMode": false,
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
   "assets": {
-    "Game-DM509lx8.js": "f589c2adc7eedc53e9b0f2ba00db293b660064b07ad70e4c5a65ac76eb4b3340",
-    "Scene-BoG6DyYU.js": "c7c0d38ad158fe3baf392377b5f1e2a1574b2991f16a815be55d2ec17cd5b29a",
-    "index-Csg-mYni.js": "03b1e5f9b1503a9fd6371ee170333b36124f9f9c6b315f62429cf4db7c4977de",
+    "Game-o88LlS8U.js": "3c322c6e361d7a84280ca113acb36c046be8be183d1c29366ccff97df036f339",
+    "Scene-DNXVVN8i.js": "c305624c6dbcb3d5333d87a96edc0268636ee6cd8e1a385b8f564fa3c0791ba4",
+    "index-I2lTA7ig.js": "a7638bb25d1c594569291086ab1b5e74f1c0a10d42750fe95405eaf95d925d33",
     "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
-    "solutions-BLWcHkn6.js": "444146dee3ea60e97b434e3b96a555617950538a8b0e371c4323ede1a66ef051"
+    "solutions-Do6b9eNm.js": "0673ae7decee4fefb3eae3419f9e2ac9acc6d05eaf00730292a18e6226255820"
   },
-  "hotfix": "basket-visibility"
+  "hotfix": "basket-visibility",
+  "soundscapeVersion": 15,
+  "cinematicAudioVersion": 11,
+  "soundscape": {
+    "manifestSHA256": "dc94b7a2c2154d7642042ddfe5cc3b8f13c639eb68bb682f10deb8484c836c6e",
+    "ambientSHA256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
+  }
 }

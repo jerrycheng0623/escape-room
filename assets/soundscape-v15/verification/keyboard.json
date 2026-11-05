@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-05T04:19:26.841Z",
+  "url": "http://127.0.0.1:5192/",
+  "method": "Engineering room fixtures; true keyboard events for look/E/Tab/Enter, real audio play/pause. Not first-time blind play.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "checks": [
+        "A arrow look changes yaw and stops on release",
+        "keyboard aims at actual object, E opens, Tab/Enter takes paper",
+        "B arrow look changes yaw and stops on release",
+        "B actual MP3 decode/play/pause with complete same-content transcript",
+        "recording unmount stops playback; no auto-progress reward"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "checks": [
+        "A arrow look changes yaw and stops on release",
+        "keyboard aims at actual object, E opens, Tab/Enter takes paper",
+        "B arrow look changes yaw and stops on release",
+        "B actual MP3 decode/play/pause with complete same-content transcript",
+        "recording unmount stops playback; no auto-progress reward"
+      ],
+      "errors": [],
+      "pass": true
+    }
+  ]
+}

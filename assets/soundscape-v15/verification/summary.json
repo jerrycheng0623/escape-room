@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-05T12:24:12.457734+08:00",
+  "appVersion": "1.0.1",
+  "sourceCodeCommit": "4681af3212cee2cafe80a111cb1bc6a5c0e1cbf4",
+  "publicURL": "https://jerrycheng0623.github.io/escape-room/final/",
+  "browserTestURL": "http://127.0.0.1:5192/",
+  "naturalPlayback": {
+    "finalVariants": 56,
+    "extraRunsOfEarlierBMix": 8,
+    "method": "Use rebalance-* for CIN-B and natural-* for the six unchanged films."
+  },
+  "checks": {
+    "units": 55,
+    "captionAssertions": 416,
+    "fullPlaythroughs": 2,
+    "weatherRoomProfiles": 12,
+    "pictureStreamsPreserved": 14
+  },
+  "initialRetryNotes": {
+    "mobile": "Automated path stopped at a C waypoint; real touch full-flow rerun.",
+    "space": "Initial C collision assertion used rounded diagnostic coordinates; rerun validates within the 1 mm rounding cell.",
+    "keyboard": "Timing-sensitive yaw assertion failed on first Chromium run; full scenario rerun.",
+    "captions": "Old harness required v10 video filename; v11 source assertion rerun with unchanged v10 caption expectations.",
+    "weather": "Initial checks used exact pause timestamp or an iPhone profile with fixed screen bounds. Repeated with millisecond tolerance and resized WebKit touch viewport."
+  },
+  "limits": [
+    "No physical iPhone, iPad or Android; tested Chromium and Playwright WebKit",
+    "Natural play from archive and new-game full flow tested separately"
+  ],
+  "public": {
+    "pagesCommit": "eafec566e96bcf70be2bbb65b6ddef319c4faf09",
+    "deployment": "https://github.com/jerrycheng0623/escape-room/actions/runs/41967391551",
+    "identity": "public-identity.json",
+    "entry": "public-entry.json",
+    "allCurrentFilmsAndSubtitles": "public-http.json",
+    "weather": "public-weather.json"
+  }
+}

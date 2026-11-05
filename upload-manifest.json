@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T11:17:51.165151+08:00",
+  "generatedAt": "2026-11-05T12:27:10.036297+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -8,8 +8,8 @@
     "final/"
   ],
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
-  "sourceFileCount": 2018,
-  "deployedFilesPerEntrance": 717,
+  "sourceFileCount": 2079,
+  "deployedFilesPerEntrance": 732,
   "source": [
     {
       "path": ".gitignore",
@@ -6151,15 +6151,15 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 134411,
-      "sha256": "7dfd6fae0e4aafdd52258da229ef0cc44ec38e279bb6f851d6cb31093a8d6c11",
-      "gitBlobSHA": "bf4f103aa6d5084a1fddef9c78ed15d56084a833"
+      "bytes": 134795,
+      "sha256": "aaf84a68b550b2a8a9c5a837446cebd70c303bf0d14dbe951fce37cae7742f82",
+      "gitBlobSHA": "e56d6af4f41932c653e118cb974d54326aea9da0"
     },
     {
       "path": "README.md",
-      "bytes": 3502,
-      "sha256": "699574912d41d2540f0ff70a84cde1a7da1fad7b0116e9f1c65a4e60bac7f364",
-      "gitBlobSHA": "3bcb0e49e0141b162a9ef03180a34d6e00bb1f32"
+      "bytes": 3843,
+      "sha256": "148ce1a34ec2eac6e8709b08384971ef57075e1168cd27f521cdd0b433839d93",
+      "gitBlobSHA": "19d4db6c71856d94d644de48dd1f9d4c27165cbf"
     },
     {
       "path": "_餘燼裡的第六人_劇情架構與機關設計指引.md",
@@ -6961,9 +6961,9 @@
     },
     {
       "path": "assets/final-v14/markdown-registry.json",
-      "bytes": 8269,
-      "sha256": "db7d99f081db631edf5fc9f5fac0e298e94ec0fd9f028cdc03b104f8132c181e",
-      "gitBlobSHA": "40f741e2136971a1e2275d3afc87e9fc928f5f86"
+      "bytes": 8481,
+      "sha256": "39406626886135cfe2dab1588f9c4e9aa02535f8e613e6583eab721b7278fe3b",
+      "gitBlobSHA": "67b320c6d4de0564a17181a0147df70ec1fa06ac"
     },
     {
       "path": "assets/final-v14/verification/acceptance/boundaries-chromium-initial.json",
@@ -9181,9 +9181,9 @@
     },
     {
       "path": "assets/playback-v6/README.md",
-      "bytes": 1534,
-      "sha256": "12c7c18473ec4cbcdf590837ba1af593e98698a27eeeaf6a63ac42c371a4ba55",
-      "gitBlobSHA": "a857f02e07599f47c79d167347000ddda1966f26"
+      "bytes": 1701,
+      "sha256": "6a2aae27653434aa917d7917a6226e23485b7bfbeaf92bc345315ac349c00f57",
+      "gitBlobSHA": "67660d0de93e90ff152999d55aee3018f350d0d5"
     },
     {
       "path": "assets/playback-v6/manifest.json",
@@ -9576,6 +9576,348 @@
       "gitBlobSHA": "94bc0c0b27577ad01a15a72c0384698ce29e1f93"
     },
     {
+      "path": "assets/soundscape-v15/README.md",
+      "bytes": 1640,
+      "sha256": "39cae6bc72b9891c4768676d33728b4b308d012f21a9671043d62298c499665a",
+      "gitBlobSHA": "c24b7d97475f86a162053888d13d1b866f2cbbd1"
+    },
+    {
+      "path": "assets/soundscape-v15/manifest.json",
+      "bytes": 6290,
+      "sha256": "dc94b7a2c2154d7642042ddfe5cc3b8f13c639eb68bb682f10deb8484c836c6e",
+      "gitBlobSHA": "df0cfb1d2fe4814bf23f47775e109026284b1c02"
+    },
+    {
+      "path": "assets/soundscape-v15/ravel-le-gibet-pdmx.mid",
+      "bytes": 9144,
+      "sha256": "697d0088f312d4ce1d6b2f75fd398d163b1efaa5f45e09c0b0882f54b3436c31",
+      "gitBlobSHA": "6b7dc04747c10d620297309006850e8e1d36fe8c"
+    },
+    {
+      "path": "assets/soundscape-v15/room-rain-thunder-v15.m4a",
+      "bytes": 587150,
+      "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7",
+      "gitBlobSHA": "3818a05afa2414c4965db4c9f5dd878a16a5a36a"
+    },
+    {
+      "path": "assets/soundscape-v15/score-provenance.json",
+      "bytes": 725,
+      "sha256": "bcf1c59ce9a6576705f1315ff40c6baf2d9dacc5d957015d17606c8aa8e14d0b",
+      "gitBlobSHA": "696da8b6ecaca080c6997eaeeb74354ebbce4b8e"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/boundaries-chromium.json",
+      "bytes": 697,
+      "sha256": "9148881746d02a57980b56acc5e6c4d0c086ea0077721b31a4df4b8c2f1b03d1",
+      "gitBlobSHA": "347caed94f979dd4f605a6e1393736c4c860c119"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/boundaries-webkit.json",
+      "bytes": 686,
+      "sha256": "82be97515e571d981e34c8b6ba6fe9df6814bc60ba1f17d9a44b4c39ee9e249d",
+      "gitBlobSHA": "fbb3319f06e2627f0a7194355a37fe65738d3904"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/captions-initial.json",
+      "bytes": 2832,
+      "sha256": "64cafd79df7e0e30d6fb66379430aafcf79877b5848a11168add69624541de30",
+      "gitBlobSHA": "31fbf3a89daf9b493dc2ce3fbaaba76ceb4e7ef6"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/captions.json",
+      "bytes": 120614,
+      "sha256": "904f4b9355add90ee44e2dc36a894c5e8faae3c1a98b87b983868bdc4022c015",
+      "gitBlobSHA": "7ee08d16f3dfa5d84b54b22344311fa179a564e6"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/controls-chromium.json",
+      "bytes": 1742,
+      "sha256": "4f5da1b20da6bb935f7ddd9f4a880e88a14e571003a5416af27f105573612a97",
+      "gitBlobSHA": "336e9c6bffba15a9f91cc6b8458d604608727e24"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/controls-webkit.json",
+      "bytes": 1731,
+      "sha256": "f997f73b3253d202fdbd1645ea148bd05fffd58e9220121c7983a5f6d54f590a",
+      "gitBlobSHA": "ed2d12c9ada6946c49a7ab7877e8a300a46e2b90"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/desktop.json",
+      "bytes": 659,
+      "sha256": "7ddadc98fdab7c2768d7bfaa3b99784dc4af41a371857e32f009b1732cb5f96c",
+      "gitBlobSHA": "32677ab93c58dd9e92002317e0ba91c724e626fe"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/guide.json",
+      "bytes": 5129,
+      "sha256": "336e6f3844f0a40b3a51692a9e92abfc807854abebe6853c65f7557d2e89a40f",
+      "gitBlobSHA": "4d6bae8667cd7128ad455ce40c2a07cc5748437e"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/http.json",
+      "bytes": 6660,
+      "sha256": "456fdac7a28b1a4afda7ee9ec8f61961305071c53720a26489605915a8ccd329",
+      "gitBlobSHA": "e600185a9c2903da334951c67095da4bb683cc0c"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/keyboard-initial.json",
+      "bytes": 1520,
+      "sha256": "fc89bb09c622cfb08736d0a94ee8fec4657aadba24215a5a29b5ae907a796654",
+      "gitBlobSHA": "364efeab0203690ee31c77ed3df268688501106b"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/keyboard.json",
+      "bytes": 1169,
+      "sha256": "0d42f361ae43c8061d7137614134f72c6697dedbdd49640e2556adb3b310082c",
+      "gitBlobSHA": "b423d74e862c9fb90052081e1de135a563d42768"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/layout.json",
+      "bytes": 14488,
+      "sha256": "baf381f466ec9b990c554ba1a760ab518ed66c3af0343b98dbfeaed770039a79",
+      "gitBlobSHA": "73dee72cdf276a9e1c0616a92519c30bebf61d96"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/luggage.json",
+      "bytes": 1986,
+      "sha256": "dd6003ee67acd6dd2d517e9b21fb0179bfc169426592774d26b1bf45724259f0",
+      "gitBlobSHA": "c217e80252ff5f50226654147eb37ab24b38fbaa"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/mobile-initial.json",
+      "bytes": 37698,
+      "sha256": "4c3b4103c461a1003874a435ee56a2e792178ae5be06a023fde1634b28838b7c",
+      "gitBlobSHA": "acce7688bc21c472fcdf602f1223089aa8616df5"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/mobile.json",
+      "bytes": 672,
+      "sha256": "5e740101d5a714b2275abf45b2ee43840a4b6da7b58b441eb63acec3fb9f6824",
+      "gitBlobSHA": "f52de21b9800dc9cfbf3f37f74e37fa9ff7c11b1"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/native.json",
+      "bytes": 1291,
+      "sha256": "8f78da8641a86e1c7e9b6e0b5d946d7a29f4ca8627612cfcd14ea5f63a3d7937",
+      "gitBlobSHA": "a35186055b9d85398b141bb10fba803d07213f35"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/natural-chromium.json",
+      "bytes": 105098,
+      "sha256": "9563a4137f773d268035d5a37bb7ce63026a187557675961fe5aeb904fc29dc3",
+      "gitBlobSHA": "b187699365ea228826dffb679d531e36f2dde68a"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/natural-webkit.json",
+      "bytes": 107773,
+      "sha256": "357d218bc8220f857a38228045bb399d5651bb723fe4eeb76b859c20f9c135a4",
+      "gitBlobSHA": "c7a6f4f174b234e57cd6a2708922a7cb4b546325"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/notebook.json",
+      "bytes": 8798,
+      "sha256": "a526990f50497da29560cb32a02dcf78e5c876d28c46d2cbee8cc1a58d39f804",
+      "gitBlobSHA": "51b1dab8ded7dd4ebcf6ede8d6f4b65e531777e6"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/player.json",
+      "bytes": 8795,
+      "sha256": "a077458ee3173cd4cf9adb0928b874ce6c50096d624917387476f4990e7e77be",
+      "gitBlobSHA": "03ed59150b6009ea5651a84d1506f1526971598a"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/postgame.json",
+      "bytes": 1055,
+      "sha256": "dd610fef2c02a0dee96c40a1656b7a4fdb6f0c180494a7cfe2802a64f7d7f551",
+      "gitBlobSHA": "266ea4cbe47600e7eae0b10347c9ed53cc12a413"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/public-entry.json",
+      "bytes": 1718,
+      "sha256": "f60bcb1847dfe64c9eda9da46ef37d4d383e1d22f5328f408f16d5c425f6f6d5",
+      "gitBlobSHA": "25893a0adfc5f73e2e282c984d4c6e83cbae6165"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/public-http.json",
+      "bytes": 6689,
+      "sha256": "a9adc8facb5198c920e6294f72eae735e2a3180e5be4245992bf40b384ed185f",
+      "gitBlobSHA": "8180ef70b78f8da74843dd8c8d057be5fe533470"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/public-identity.json",
+      "bytes": 3208,
+      "sha256": "185dc94cafb98ceca6074ae955975a46b90d31e44bee5ec3057df0ad5c2ddbf7",
+      "gitBlobSHA": "2eb892aa77d67747791fa0105ea64dc74787bd46"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/public-weather.json",
+      "bytes": 1713,
+      "sha256": "8f8184da79a669a8d768d16cd7fc5712122f882476adfb8ad263178efdb44f07",
+      "gitBlobSHA": "c33ace39a7e509877c17563b87296848011e119a"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/q.json",
+      "bytes": 3524,
+      "sha256": "28e5d1003aa6830d5eb31245c24e0be2bb40f42b19f5e08b4102dfd328ffff15",
+      "gitBlobSHA": "aed4235e68a54ce5b3434ce09280b6ddc535425c"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/rebalance-chromium.json",
+      "bytes": 12189,
+      "sha256": "575f4aa31abb842294f6399714730573ef7c32d4fd86f495c236349d62b77d84",
+      "gitBlobSHA": "83eda9f30fc205323e94cc85ddd32ec888db3a25"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/rebalance-webkit.json",
+      "bytes": 12499,
+      "sha256": "593b14a9b71f53b9705b820363c648465a21ed350051e66df52acc2aee607e31",
+      "gitBlobSHA": "557a7443933c10fd42147083888e8d286059f231"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/space-initial.json",
+      "bytes": 3555,
+      "sha256": "a4d0823ec63af0db980fde445fc7be7f04ff80e834b7ee6661587c7d42153bab",
+      "gitBlobSHA": "51abc81678198353345b993c8098e61e2814c3ee"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/space.json",
+      "bytes": 6532,
+      "sha256": "4d1f8f42121c15d02b1524fefae27690f14443939901edba782da97b89c61385",
+      "gitBlobSHA": "f392638ac0f1247a8198a44f7c663862c89f3375"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/story.json",
+      "bytes": 479,
+      "sha256": "2c7576363ee232d3c8d395803f58b5859e190ddf82fa81b22a4b509c73ecd19c",
+      "gitBlobSHA": "03a1ea82546b555da8c6ac2c85dc0a586a267328"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/summary.json",
+      "bytes": 1750,
+      "sha256": "8777e4741caa750df70044b3ffc07979e0cc7b4f39917f4c31700f69388889ad",
+      "gitBlobSHA": "ba26cbf54417b3b72b72ff78733d55be0ff46362"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/touch-chromium.json",
+      "bytes": 1455,
+      "sha256": "01a0be85c87ed233be37286f0872fb3885438996efa8a16799c7e3dd5443b199",
+      "gitBlobSHA": "2eaad7863997f1c3379784bc239f1ce383017cfe"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/touch-webkit.json",
+      "bytes": 916,
+      "sha256": "d3b16de36fd9486af1177b23383aeecc9c709a051dc1e0d41eed1d83d989990c",
+      "gitBlobSHA": "9d56d34309df83f81c29ab79fcaabfe04b975cec"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/unit.log",
+      "bytes": 4687,
+      "sha256": "7c12be6420499eefd8cc1ce131cd886370d890299707fdb90e1f888e297bcd21",
+      "gitBlobSHA": "e94a6121791ef67ff071ff70d71de3b05c3be215"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/weather-initial.json",
+      "bytes": 1599,
+      "sha256": "dfa2a3ffa1348aea5c6251518a45c8b61ad29fcc5881f04f1dfc130f7f8d643b",
+      "gitBlobSHA": "40a86e5ce03be0016e7692cb94f94eace780ab9c"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/weather.json",
+      "bytes": 1684,
+      "sha256": "1b41570a5245b59ae57611d0dafc84675d18823bd7a4c41c2847194421e01c54",
+      "gitBlobSHA": "9197815618c29d6e25bace9decd254e50c8bf890"
+    },
+    {
+      "path": "assets/soundscape-v15/verification.json",
+      "bytes": 5485,
+      "sha256": "4304d529a6166d90208ef7df586e707e3630207fc5ecaa0f7263ee4233287501",
+      "gitBlobSHA": "4cbb9186051bfc4da5956ae68013f78a8898192b"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-00-compatible-v11.mp4",
+      "bytes": 2655667,
+      "sha256": "b771d1ca1073c1a9c53ce7b2113ce410c80247d08e3da750b971c4cb4e491303",
+      "gitBlobSHA": "cc894e1a768a000381075d6da856e4226cf53326"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-00-compatible-v11.webm",
+      "bytes": 5509721,
+      "sha256": "6a01ea8816c2a121e057bfea1d75602f08e8dbd6594f422700ba6d7bee4fd02a",
+      "gitBlobSHA": "3ead9862748508f5c6467cc52debfbd8fba7acc4"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-A-compatible-v11.mp4",
+      "bytes": 1662043,
+      "sha256": "a25b357e1ec8bfacbd540c24e44e203c2be78b4a5a6d3f08d5a22561626ad7b9",
+      "gitBlobSHA": "9d989a99893b399c3372274d8dc2551e8592eae0"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-A-compatible-v11.webm",
+      "bytes": 3678521,
+      "sha256": "af1027773df56541a67d3848c11cb20cdeae7c3c89a61a4269a65ddd46bc4a99",
+      "gitBlobSHA": "d544f9b5d75aab8e8409e03e0a3c446e740df060"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-B-compatible-v11.mp4",
+      "bytes": 1551191,
+      "sha256": "059a3b0031a234df104d08a81f0e22fe5adde6d63e46333a051e3f60a6ca3e7e",
+      "gitBlobSHA": "afac597d000c95cf4f2025e0ca8d13de4b872084"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-B-compatible-v11.webm",
+      "bytes": 2914546,
+      "sha256": "bda8bf65164e9d4088a45630ccdab4df3670df81f7fb2734ed4a849b6f98fdef",
+      "gitBlobSHA": "b59f3e84350cc4df5fb23c1a46a0676e913b9df9"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-C-compatible-v11.mp4",
+      "bytes": 2321559,
+      "sha256": "412a246546e5b8efecd25540d0ab3646258c79ccc94c427b2647396b33c4e19e",
+      "gitBlobSHA": "1f71e4ca64019277395fbfde3c0b81a790fb51a0"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-C-compatible-v11.webm",
+      "bytes": 4816798,
+      "sha256": "4ba4addc5b42f581c6fa06f76fb8958f4b232e2db4c71aab516f0c71448707d8",
+      "gitBlobSHA": "ca19a27d14a8a2d6193ad5c7d5d5130c46e082f6"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-D-compatible-v11.mp4",
+      "bytes": 3860217,
+      "sha256": "bec2a1397edcc8914c7cf16efa3aa080b10621c47fbb58684cf12d8ed876a714",
+      "gitBlobSHA": "fea4ef4def573c6d0879b417c09a65e571927e20"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-D-compatible-v11.webm",
+      "bytes": 7592689,
+      "sha256": "82c71f5d6548a89f3a07a3785136da8788fb21344c300aaff3be7394075eb492",
+      "gitBlobSHA": "b2ba9f5c8692c39d8da69088c746def38f0e2ac5"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-END-compatible-v11.mp4",
+      "bytes": 3114183,
+      "sha256": "30c2cc4ee1fcbe3446f02e64c847026f57a6022fe973f08e82ba0b58851d2348",
+      "gitBlobSHA": "2bc37066b78ad2158da261e8112faf215d96a00c"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-END-compatible-v11.webm",
+      "bytes": 6577942,
+      "sha256": "ccb21a32f84baa5f984076c898e42674f652abfce27ad91091eaff39e4aeb27e",
+      "gitBlobSHA": "5f8ce8c9d8f455d478788237ff1e4735fed562ce"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-EPILOGUE-compatible-v11.mp4",
+      "bytes": 1827556,
+      "sha256": "42a47fbc27c8a20696acdad0998c1bf94bc4aa29d68a97a40564926df8ca2a10",
+      "gitBlobSHA": "16ece5bfd978a8902ac0da1079541cf3a581d5d0"
+    },
+    {
+      "path": "assets/soundscape-v15/video/CIN-EPILOGUE-compatible-v11.webm",
+      "bytes": 3340480,
+      "sha256": "b7fd30641211c04ef7818b5d55717730d77b5cdb89b0db323864cb9530572edb",
+      "gitBlobSHA": "7ba3329ca853bdf49891f0b885f85edd615b85a9"
+    },
+    {
       "path": "assets/story/2D敘事與畫面文字-v5.md",
       "bytes": 20133,
       "sha256": "2ca0410af4c2e1a0bd7e6ba4b76e885a40b59cdcce53b0ad6ab6bee8385f8a81",
@@ -9757,9 +10099,9 @@
     },
     {
       "path": "assets/story-v10/README.md",
-      "bytes": 1691,
-      "sha256": "c37027fba42f7bdc5168e2371636a23b0cfaeac26a0ca0d7fdd15ec1f775734a",
-      "gitBlobSHA": "69d49d4b207299df77072e7cf46240cd92d6222e"
+      "bytes": 1878,
+      "sha256": "32cb6ddb95a8da25d87445c957f6a489a6a633950ccd079d160e1bf0c924a1fe",
+      "gitBlobSHA": "c5d23344ad83be3841d485fcbc1303942e1533fe"
     },
     {
       "path": "assets/story-v10/alignment-verification.json",
@@ -11442,6 +11784,12 @@
       "gitBlobSHA": "0333f45606581fcafea39fc55c5b233f3ef10268"
     },
     {
+      "path": "scripts/build_soundscape_v15.py",
+      "bytes": 4998,
+      "sha256": "58b5c7529ff1b15ce68f3aa904edef985e12b8688b8dc9b983165bb32fb6dbb1",
+      "gitBlobSHA": "b750d6ed968711f79b380295ff491044b50afe2c"
+    },
+    {
       "path": "scripts/build_story_v5.py",
       "bytes": 18365,
       "sha256": "2051d8a53bc1e42bb839c71fdcad5dc2c5eed39453758ce447e9f06b1d808659",
@@ -11455,9 +11803,9 @@
     },
     {
       "path": "scripts/build_upload_manifest.py",
-      "bytes": 1813,
-      "sha256": "5d38229a0b5d647421b3154303e9500c48f2376ea07cc2f9b7d8126e83c011f4",
-      "gitBlobSHA": "462e9abf372bdba149a3d69ef11961f138512520"
+      "bytes": 1894,
+      "sha256": "e7083a19723c3852016cd30f0aaffb0e51d8f23035feefa2ae3bb73462e648e6",
+      "gitBlobSHA": "50957a4ac071e7909f9bfa142170889fedb6d89e"
     },
     {
       "path": "scripts/build_world_v4.py",
@@ -11512,6 +11860,12 @@
       "bytes": 180,
       "sha256": "2f4bc03d4434cc97d0a65cbea77217b367323149778f71e67a032899c261608a",
       "gitBlobSHA": "c3aa8fdeb36ebd6bc2d4cec13c2bd54329294149"
+    },
+    {
+      "path": "scripts/render_piano_v15.swift",
+      "bytes": 1533,
+      "sha256": "44a7a2aa7cf510c263121c49d8b9e28d4d82c1599a368b5af12b2224ecf42b6f",
+      "gitBlobSHA": "63c83be9e10857389aaaa5857c3f7957ef266715"
     },
     {
       "path": "scripts/repair_cinematic_alignment.py",
@@ -11592,6 +11946,12 @@
       "gitBlobSHA": "c4db96c0fd25fec189806b66b78253b0b7b0669c"
     },
     {
+      "path": "scripts/verify_soundscape_v15.py",
+      "bytes": 3231,
+      "sha256": "e9d1900a61bc48e5c2c07534b1ccd95ecff987269f381dbba1c37368a0490205",
+      "gitBlobSHA": "ba725ae07f1732f79d946138089048c7b741183e"
+    },
+    {
       "path": "scripts/verify_story_v5.py",
       "bytes": 1426,
       "sha256": "da2a1b7ab738c9d2bb0fe601d76a85d150dd15a15d0cc4fbf18409cb8574646e",
@@ -11617,15 +11977,15 @@
     },
     {
       "path": "test.md",
-      "bytes": 129749,
-      "sha256": "b5951575a9e1d1791fdc257706f2fdb66064aa07a382f5c0a9d2233792b1dc33",
-      "gitBlobSHA": "3ad5a2ff9816901dd02952c5838f31f0c1e99533"
+      "bytes": 132212,
+      "sha256": "5225eaadfcfa67ab31947e98d17f4a6051887840bb7eebdf2f68c1e77dfd1ad5",
+      "gitBlobSHA": "e8abf0a886c226353b5588d608e7b8084607ba6a"
     },
     {
       "path": "verify.md",
-      "bytes": 128376,
-      "sha256": "beceeef350e9f1226d22985c1a047b21f03005b1b7b96940983c5d885d1efd82",
-      "gitBlobSHA": "bc85b16ced5eed1355b355fd6149ed2800808f32"
+      "bytes": 128760,
+      "sha256": "bb53305652c1a3c67367a024022b5e90de71b445250720d7dca9b5318b2e8859",
+      "gitBlobSHA": "6d4b7ed7cfdeec8cc15133322f1f8cd19972558c"
     },
     {
       "path": "web/.gitignore",
@@ -11635,9 +11995,9 @@
     },
     {
       "path": "web/README.md",
-      "bytes": 5009,
-      "sha256": "5b759e7e7cab79bb58ee2f495fc3d20c78837f09432713fa1e9f87979348387d",
-      "gitBlobSHA": "669c4986c27de63faf890b0ce6cf8ca8e3412dd2"
+      "bytes": 5396,
+      "sha256": "a1f71a9ddbc169b9a7f808b8fce5892d2fdda3871e438372a3a91fb96a36c5c5",
+      "gitBlobSHA": "82dce319e47525dde24a7fbb4dbebc6225272b5f"
     },
     {
       "path": "web/index.html",
@@ -11647,9 +12007,9 @@
     },
     {
       "path": "web/package.json",
-      "bytes": 1764,
-      "sha256": "3a9e93a2e916acebf7a5c052c7e77d24b47e59cc5f2a6ed2b19d82a81df815c1",
-      "gitBlobSHA": "e5733f345428006bdc8abd0d3cf7532b897b65c8"
+      "bytes": 1823,
+      "sha256": "e0516b9ac3ad5b6470119322faf6373e13cbb7f5bd31b824bebe0d9c8df3b714",
+      "gitBlobSHA": "d8b9d1096700e6b5f0ce56015c6decdeac00722a"
     },
     {
       "path": "web/pnpm-lock.yaml",
@@ -11677,9 +12037,9 @@
     },
     {
       "path": "web/public/release.json",
-      "bytes": 975,
-      "sha256": "ce311740d5eafdefdeed7fb4632035958e47329a5d235279aea39d3ae4d0ab00",
-      "gitBlobSHA": "f00c07283320e199f2168b2b633d7191d9fc1e61"
+      "bytes": 1234,
+      "sha256": "be953084ad88cdd397157dd836878dd29dbe108d67d078c78c1a1dcefff1a5ee",
+      "gitBlobSHA": "1b2b0101bc9c6f5e009f92f52545398559607e2d"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -11689,15 +12049,15 @@
     },
     {
       "path": "web/scripts/prepare-assets.mjs",
-      "bytes": 5494,
-      "sha256": "7625b7a97e430845f0890a8ad1eb896b819541cfd2271e519d1cda9e1ae4e131",
-      "gitBlobSHA": "84e0901956344f580165ce15656c2653b5248932"
+      "bytes": 5677,
+      "sha256": "e1760a1df4791989abf29fe5b9f254b11a1b34b432567421c754c7c4910f261d",
+      "gitBlobSHA": "3f41528118a17bd61f363e977384ffa2d3c27022"
     },
     {
       "path": "web/scripts/test-caption-alignment.mjs",
-      "bytes": 4023,
-      "sha256": "6bccd1986f97bd76486e8e4569e1ef58afee212030792cea84a3c7c8476d526f",
-      "gitBlobSHA": "c47167dd7dcb030b565eb40487b9b9ca637dc7f5"
+      "bytes": 4075,
+      "sha256": "bf46f7e3cf0bd0205dcb42a0ca5313968deb69147d728e30eba9da3d943880f7",
+      "gitBlobSHA": "d58328002e1898a91daae0c1d62c0d679536678a"
     },
     {
       "path": "web/scripts/test-final-layout.mjs",
@@ -11808,10 +12168,16 @@
       "gitBlobSHA": "e61ec62b262d04210e7f0aa517b53765bbe07f97"
     },
     {
+      "path": "web/scripts/test-soundscape.mjs",
+      "bytes": 5016,
+      "sha256": "485e7e60a074bfd7828331b4e835008ab294c191a379bd781904ae2dadcf39a7",
+      "gitBlobSHA": "34f60ce831a56d6c1f1e72cfe4819c41099a297d"
+    },
+    {
       "path": "web/scripts/test-space-ui.mjs",
-      "bytes": 6063,
-      "sha256": "d0b236951c251c346e6db0dac9429266974b43584429483cde6d866c28d618ba",
-      "gitBlobSHA": "5c8bc93391e9f7d70fd17dc57c0c090309b3f834"
+      "bytes": 6290,
+      "sha256": "edf4d34939ebf3e4dbc202ec663bc6cf14be78a9df8b574dc2e8dbc25ed1f07e",
+      "gitBlobSHA": "e277d53406bc536256fa77b98fe3908cb5a9a700"
     },
     {
       "path": "web/scripts/test-touch-controls.mjs",
@@ -11839,9 +12205,9 @@
     },
     {
       "path": "web/src/App.jsx",
-      "bytes": 12011,
-      "sha256": "bfcf7dd7abfcdc635db363da8dcb9c1ec34e3aa424c8c6dd028f1a5033e6e2f6",
-      "gitBlobSHA": "9e49f95486e44324ee1731f1f245f41fd0456b36"
+      "bytes": 12012,
+      "sha256": "541aad685f01c0f373513a3bf0ec679af994fbe2003df631a360d9f00fda1c09",
+      "gitBlobSHA": "f0e62bc9a134287e4dfe115b3d41521d20816485"
     },
     {
       "path": "web/src/components/Archive.jsx",
@@ -11869,9 +12235,9 @@
     },
     {
       "path": "web/src/components/Game.jsx",
-      "bytes": 16597,
-      "sha256": "fe4e4e688c14f5ec96052c73a1fbe190252166cb43354bcb0ff81876af9c57c7",
-      "gitBlobSHA": "04fb7f06cf6703b5f2d6bd18d7457f820a749730"
+      "bytes": 17270,
+      "sha256": "a168a4768c05c7988cd63d7e7287e452b5ac56678892b0831834fcd5f2eaedb5",
+      "gitBlobSHA": "153b55daccbb0070c83ab1cf6b768cd7aa0a0eb4"
     },
     {
       "path": "web/src/components/GameGuide.jsx",
@@ -12103,9 +12469,9 @@
     },
     {
       "path": "操作指南與探索模式規格.md",
-      "bytes": 10892,
-      "sha256": "0ea004cc1796bf433cc9e044675acab444fd43a0df110c68a26ae3d2a6dd8160",
-      "gitBlobSHA": "ca0b7f004022999cbd66b0384962c2acb8c5b93a"
+      "bytes": 11206,
+      "sha256": "061da818fb15e716a503f5d0edfcc4764712b3f1d9412dc4ba9199b14d3afb17",
+      "gitBlobSHA": "6965dbd2b8b7b0a7c99425a078b5ede8be11e0c5"
     },
     {
       "path": "素材交付.md",
@@ -12122,22 +12488,22 @@
   ],
   "deployed": [
     {
-      "path": "assets/Game-DM509lx8.js",
-      "bytes": 35268,
-      "sha256": "f589c2adc7eedc53e9b0f2ba00db293b660064b07ad70e4c5a65ac76eb4b3340",
-      "gitBlobSHA": "df145b5303baf9793aa374b618608ae3203bce6e"
+      "path": "assets/Game-o88LlS8U.js",
+      "bytes": 35665,
+      "sha256": "3c322c6e361d7a84280ca113acb36c046be8be183d1c29366ccff97df036f339",
+      "gitBlobSHA": "56704c0cb4c2f502e810910bb35dbdd30f200ac9"
     },
     {
-      "path": "assets/Scene-BoG6DyYU.js",
+      "path": "assets/Scene-DNXVVN8i.js",
       "bytes": 556779,
-      "sha256": "c7c0d38ad158fe3baf392377b5f1e2a1574b2991f16a815be55d2ec17cd5b29a",
-      "gitBlobSHA": "ae7bdd4039108b72de080a350eefb595368243a4"
+      "sha256": "c305624c6dbcb3d5333d87a96edc0268636ee6cd8e1a385b8f564fa3c0791ba4",
+      "gitBlobSHA": "785d2a35993349112b226a559c1f24669f519d80"
     },
     {
-      "path": "assets/index-Csg-mYni.js",
-      "bytes": 354639,
-      "sha256": "03b1e5f9b1503a9fd6371ee170333b36124f9f9c6b315f62429cf4db7c4977de",
-      "gitBlobSHA": "3f39a32e44cd982e76f5c7ceb32658a7744c5e54"
+      "path": "assets/index-I2lTA7ig.js",
+      "bytes": 354640,
+      "sha256": "a7638bb25d1c594569291086ab1b5e74f1c0a10d42750fe95405eaf95d925d33",
+      "gitBlobSHA": "230d1c903e113373e854c75eb8c502d7b2161b79"
     },
     {
       "path": "assets/index-kVg-Oys7.css",
@@ -12146,10 +12512,10 @@
       "gitBlobSHA": "a95a2ee55f9e0928927875c841e1033657370931"
     },
     {
-      "path": "assets/solutions-BLWcHkn6.js",
+      "path": "assets/solutions-Do6b9eNm.js",
       "bytes": 2727,
-      "sha256": "444146dee3ea60e97b434e3b96a555617950538a8b0e371c4323ede1a66ef051",
-      "gitBlobSHA": "46e7938f121b868f63f29cd7cf97a2ab98631255"
+      "sha256": "0673ae7decee4fefb3eae3419f9e2ac9acc6d05eaf00730292a18e6226255820",
+      "gitBlobSHA": "bdad72fe790dc52280b5bc4d711514b9ad199f7c"
     },
     {
       "path": "favicon.svg",
@@ -12160,8 +12526,8 @@
     {
       "path": "index.html",
       "bytes": 597,
-      "sha256": "3daba67b8f376352ce8bbe48ecb069a6a5fd4486129c7b308e14cd6c753179ab",
-      "gitBlobSHA": "e744a88598c319430bd012d636da046e08a05847"
+      "sha256": "b259f00007692d4958b4db48af1c931480158c50f5d0f8bf52be9dab54432348",
+      "gitBlobSHA": "a09fc8b41b226cc3a1930aa2266773d055aa0c6c"
     },
     {
       "path": "media/documents/blood.svg",
@@ -15218,6 +15584,12 @@
       "gitBlobSHA": "efbafdc4047470f88e1c8c22fda69c36a82d2da3"
     },
     {
+      "path": "media/room-rain-thunder-v15.m4a",
+      "bytes": 587150,
+      "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7",
+      "gitBlobSHA": "3818a05afa2414c4965db4c9f5dd878a16a5a36a"
+    },
+    {
       "path": "media/scene-v6/burned-plaster.png",
       "bytes": 4050639,
       "sha256": "ed2f896c7ac81fa1965ead4d710c07034e1339a2293209178071aa9b86faeaf5",
@@ -15494,6 +15866,18 @@
       "gitBlobSHA": "a2dd25f4ae9918cc43fd5826ad77be3de6ea74d1"
     },
     {
+      "path": "media/video/CIN-00-compatible-v11.mp4",
+      "bytes": 2655667,
+      "sha256": "b771d1ca1073c1a9c53ce7b2113ce410c80247d08e3da750b971c4cb4e491303",
+      "gitBlobSHA": "cc894e1a768a000381075d6da856e4226cf53326"
+    },
+    {
+      "path": "media/video/CIN-00-compatible-v11.webm",
+      "bytes": 5509721,
+      "sha256": "6a01ea8816c2a121e057bfea1d75602f08e8dbd6594f422700ba6d7bee4fd02a",
+      "gitBlobSHA": "3ead9862748508f5c6467cc52debfbd8fba7acc4"
+    },
+    {
       "path": "media/video/CIN-00-compatible-v6.mp4",
       "bytes": 9851624,
       "sha256": "19cc76f99479c0f1db473034a696bf9ce1945a80ab7a5bd221e9d95c7c283ba5",
@@ -15534,6 +15918,18 @@
       "bytes": 3434307,
       "sha256": "e6aa4b3ce2cd24c324fb05c34f9bf2794904b18b00ad0b27119361fdf74cde79",
       "gitBlobSHA": "5f16dcd27f0da7c9fa48a6e12a24ad59aeae56b0"
+    },
+    {
+      "path": "media/video/CIN-A-compatible-v11.mp4",
+      "bytes": 1662043,
+      "sha256": "a25b357e1ec8bfacbd540c24e44e203c2be78b4a5a6d3f08d5a22561626ad7b9",
+      "gitBlobSHA": "9d989a99893b399c3372274d8dc2551e8592eae0"
+    },
+    {
+      "path": "media/video/CIN-A-compatible-v11.webm",
+      "bytes": 3678521,
+      "sha256": "af1027773df56541a67d3848c11cb20cdeae7c3c89a61a4269a65ddd46bc4a99",
+      "gitBlobSHA": "d544f9b5d75aab8e8409e03e0a3c446e740df060"
     },
     {
       "path": "media/video/CIN-A-compatible-v6.mp4",
@@ -15590,6 +15986,18 @@
       "gitBlobSHA": "fe1bc9592f2e856019b56facdcaab0f2ca1a62d3"
     },
     {
+      "path": "media/video/CIN-B-compatible-v11.mp4",
+      "bytes": 1551191,
+      "sha256": "059a3b0031a234df104d08a81f0e22fe5adde6d63e46333a051e3f60a6ca3e7e",
+      "gitBlobSHA": "afac597d000c95cf4f2025e0ca8d13de4b872084"
+    },
+    {
+      "path": "media/video/CIN-B-compatible-v11.webm",
+      "bytes": 2914546,
+      "sha256": "bda8bf65164e9d4088a45630ccdab4df3670df81f7fb2734ed4a849b6f98fdef",
+      "gitBlobSHA": "b59f3e84350cc4df5fb23c1a46a0676e913b9df9"
+    },
+    {
       "path": "media/video/CIN-B-compatible-v6.mp4",
       "bytes": 6532241,
       "sha256": "48ed35a2bc43d8e2f00de7be36fcc89825a0121cb93fdd7ae4aaa46c5376a89b",
@@ -15632,6 +16040,18 @@
       "gitBlobSHA": "f2c31f46facae314ca04cd5c8449cc42f7cbd236"
     },
     {
+      "path": "media/video/CIN-C-compatible-v11.mp4",
+      "bytes": 2321559,
+      "sha256": "412a246546e5b8efecd25540d0ab3646258c79ccc94c427b2647396b33c4e19e",
+      "gitBlobSHA": "1f71e4ca64019277395fbfde3c0b81a790fb51a0"
+    },
+    {
+      "path": "media/video/CIN-C-compatible-v11.webm",
+      "bytes": 4816798,
+      "sha256": "4ba4addc5b42f581c6fa06f76fb8958f4b232e2db4c71aab516f0c71448707d8",
+      "gitBlobSHA": "ca19a27d14a8a2d6193ad5c7d5d5130c46e082f6"
+    },
+    {
       "path": "media/video/CIN-C-compatible-v6.mp4",
       "bytes": 11663865,
       "sha256": "32e71b0b7a628c085f1dcc2cb0f901f55991790dc83e7223d39adbf2fe275385",
@@ -15672,6 +16092,18 @@
       "bytes": 7088565,
       "sha256": "aa40e6a8f68aa6ba64110de1b65e561f3437a9497a39321926c645bac3eb2221",
       "gitBlobSHA": "4c58113ccb797ec92202f1eae7fe078ecede56a9"
+    },
+    {
+      "path": "media/video/CIN-D-compatible-v11.mp4",
+      "bytes": 3860217,
+      "sha256": "bec2a1397edcc8914c7cf16efa3aa080b10621c47fbb58684cf12d8ed876a714",
+      "gitBlobSHA": "fea4ef4def573c6d0879b417c09a65e571927e20"
+    },
+    {
+      "path": "media/video/CIN-D-compatible-v11.webm",
+      "bytes": 7592689,
+      "sha256": "82c71f5d6548a89f3a07a3785136da8788fb21344c300aaff3be7394075eb492",
+      "gitBlobSHA": "b2ba9f5c8692c39d8da69088c746def38f0e2ac5"
     },
     {
       "path": "media/video/CIN-D-compatible-v6.mp4",
@@ -15728,6 +16160,18 @@
       "gitBlobSHA": "074b688dfa2b5510cb13ba1ee951513be3ec530e"
     },
     {
+      "path": "media/video/CIN-END-compatible-v11.mp4",
+      "bytes": 3114183,
+      "sha256": "30c2cc4ee1fcbe3446f02e64c847026f57a6022fe973f08e82ba0b58851d2348",
+      "gitBlobSHA": "2bc37066b78ad2158da261e8112faf215d96a00c"
+    },
+    {
+      "path": "media/video/CIN-END-compatible-v11.webm",
+      "bytes": 6577942,
+      "sha256": "ccb21a32f84baa5f984076c898e42674f652abfce27ad91091eaff39e4aeb27e",
+      "gitBlobSHA": "5f8ce8c9d8f455d478788237ff1e4735fed562ce"
+    },
+    {
       "path": "media/video/CIN-END-compatible-v6.mp4",
       "bytes": 12297249,
       "sha256": "7f54707d0eab9fbad41eecd18ecfce7316637d693d813642eb0e97391c6557c0",
@@ -15768,6 +16212,18 @@
       "bytes": 3064971,
       "sha256": "99829ae5f40d223e4d88e8356aa002f71e17a33090faf984153a1a947d02228b",
       "gitBlobSHA": "3302f87c09c545058e97b652a782ac20a694096d"
+    },
+    {
+      "path": "media/video/CIN-EPILOGUE-compatible-v11.mp4",
+      "bytes": 1827556,
+      "sha256": "42a47fbc27c8a20696acdad0998c1bf94bc4aa29d68a97a40564926df8ca2a10",
+      "gitBlobSHA": "16ece5bfd978a8902ac0da1079541cf3a581d5d0"
+    },
+    {
+      "path": "media/video/CIN-EPILOGUE-compatible-v11.webm",
+      "bytes": 3340480,
+      "sha256": "b7fd30641211c04ef7818b5d55717730d77b5cdb89b0db323864cb9530572edb",
+      "gitBlobSHA": "7ba3329ca853bdf49891f0b885f85edd615b85a9"
     },
     {
       "path": "media/video/CIN-EPILOGUE-compatible-v6.mp4",
@@ -16408,8 +16864,8 @@
     {
       "path": "media.json",
       "bytes": 27044,
-      "sha256": "88f8414a4e66a70cb22c895c0c795edae6ea9c829181959f0059376647ad672b",
-      "gitBlobSHA": "2777b774e0f1a158ed09f5535fb49b8c15a5615a"
+      "sha256": "aad1432ac22af083f3b836957e5c6d890a87818e8b401f54a8d5c90131510069",
+      "gitBlobSHA": "7aefa01d17d3c11f29d148b2010acb1f22c6370d"
     },
     {
       "path": "model-catalog.json",
@@ -16419,9 +16875,9 @@
     },
     {
       "path": "release.json",
-      "bytes": 975,
-      "sha256": "ce311740d5eafdefdeed7fb4632035958e47329a5d235279aea39d3ae4d0ab00",
-      "gitBlobSHA": "f00c07283320e199f2168b2b633d7191d9fc1e61"
+      "bytes": 1234,
+      "sha256": "be953084ad88cdd397157dd836878dd29dbe108d67d078c78c1a1dcefff1a5ee",
+      "gitBlobSHA": "1b2b0101bc9c6f5e009f92f52545398559607e2d"
     }
   ],
   "exclusions": [
@@ -16430,5 +16886,5 @@
     "產生的 web/public/media 與 media.json 副本",
     "作業系統檔案、快取、.git、.env 及私密設定"
   ],
-  "note": "SHA 與大小為這份快照產生時的檔案；後續驗收新增紀錄會重新產生清單。來源 Commit 與 Pages Commit 見 release-verification.json。"
+  "note": "SHA 與大小為這份快照產生時的檔案；後續驗收新增紀錄會重新產生清單。聲景 v15 的來源及 Pages Commit 見 assets/soundscape-v15/verification/summary.json；先前版本見其歷史 release-verification.json。"
 }

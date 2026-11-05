@@ -1,0 +1,44 @@
+{
+  "url": "http://127.0.0.1:5192/",
+  "date": "2026-11-05T04:17:05.480Z",
+  "method": "Tracks real HTMLMediaElements; no mock playback. Engineering room fixtures. Loop wrap checked at natural 1x from a position near the end.",
+  "rows": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "loop wraps, pause preserves position, mute/unmute, and navigation releases weather",
+        "A starts looping and menu wind is paused",
+        "B starts looping and menu wind is paused",
+        "C starts looping and menu wind is paused",
+        "D starts looping and menu wind is paused"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "loop wraps, pause preserves position, mute/unmute, and navigation releases weather, mobile Q no-op and rotation",
+        "A starts looping and menu wind is paused",
+        "B starts looping and menu wind is paused",
+        "C starts looping and menu wind is paused",
+        "D starts looping and menu wind is paused"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "browser": "26.5",
+      "checks": [],
+      "errors": [],
+      "pass": false,
+      "failure": "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('讓調查橫向展開') to be visible\u001b[22m\n\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-soundscape.mjs:48:89"
+    }
+  ]
+}
