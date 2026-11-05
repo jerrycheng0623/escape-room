@@ -1,0 +1,2467 @@
+{
+  "version": 14,
+  "mechanicRevision": 4,
+  "playerRadius": 0.28,
+  "eyeHeight": 1.65,
+  "rooms": {
+    "A": {
+      "bounds": [
+        3,
+        10,
+        5.5,
+        10.5
+      ],
+      "floor": 0,
+      "height": 3,
+      "spawn": [
+        8.5,
+        9.6
+      ],
+      "door": [
+        8.9,
+        5.52
+      ],
+      "obstacles": [
+        {
+          "id": "desk",
+          "box": [
+            6.12,
+            7.88,
+            6.5,
+            7.5
+          ],
+          "top": 0.87
+        },
+        {
+          "id": "bed",
+          "box": [
+            3.35,
+            5.35,
+            7.3,
+            10.04
+          ],
+          "top": 1.12
+        },
+        {
+          "id": "chair",
+          "box": [
+            6.35,
+            7.05,
+            7.65,
+            8.25
+          ],
+          "top": 1.12
+        },
+        {
+          "id": "dresser",
+          "box": [
+            3.3,
+            4.2,
+            5.8,
+            6.75
+          ],
+          "top": 1.35
+        }
+      ]
+    },
+    "B": {
+      "bounds": [
+        10,
+        14,
+        6.5,
+        9.5
+      ],
+      "floor": 0,
+      "height": 2.8,
+      "spawn": [
+        11,
+        8.9
+      ],
+      "door": [
+        13.25,
+        9.48
+      ],
+      "obstacles": [
+        {
+          "id": "workbench",
+          "box": [
+            10.65,
+            13.35,
+            6.95,
+            7.75
+          ],
+          "top": 0.94
+        },
+        {
+          "id": "west-shelf",
+          "box": [
+            10.12,
+            10.55,
+            7.9,
+            8.95
+          ],
+          "top": 1.7
+        },
+        {
+          "id": "sink",
+          "box": [
+            13.38,
+            13.82,
+            7,
+            8.25
+          ],
+          "top": 1.05
+        }
+      ]
+    },
+    "C": {
+      "bounds": [
+        -6,
+        6,
+        12,
+        22
+      ],
+      "floor": 0.45,
+      "height": 3.35,
+      "spawn": [
+        1.5,
+        15.2
+      ],
+      "door": [
+        -4.8,
+        21.98
+      ],
+      "obstacles": [
+        {
+          "id": "grill",
+          "box": [
+            -1.64,
+            1.05,
+            12.65,
+            13.72
+          ],
+          "top": 1.63
+        },
+        {
+          "id": "records",
+          "box": [
+            0.6,
+            2.6,
+            13.8,
+            14.6
+          ],
+          "top": 1.27
+        },
+        {
+          "id": "world-basket",
+          "box": [
+            -1.11,
+            -0.49,
+            15.44,
+            15.96
+          ],
+          "top": 1.52
+        },
+        {
+          "id": "world-hatch",
+          "box": [
+            -1.13,
+            -0.315,
+            13.67,
+            14.13
+          ],
+          "top": 2.12
+        },
+        {
+          "id": "mount-a0",
+          "box": [
+            -1.45,
+            -1.35,
+            13.94,
+            14.06
+          ],
+          "top": 2.85,
+          "collisionOnly": true
+        },
+        {
+          "id": "mount-f",
+          "box": [
+            0.25,
+            0.35,
+            13.94,
+            14.06
+          ],
+          "top": 2.95,
+          "collisionOnly": true
+        },
+        {
+          "id": "mount-old",
+          "box": [
+            -2.35,
+            -2.25,
+            15.54,
+            15.66
+          ],
+          "top": 2.25,
+          "collisionOnly": true
+        },
+        {
+          "id": "mount-ring",
+          "box": [
+            -4.65,
+            -4.55,
+            16.64,
+            16.76
+          ],
+          "top": 2.35,
+          "collisionOnly": true
+        },
+        {
+          "id": "weight-rack",
+          "box": [
+            2.7,
+            4.1,
+            12.6,
+            14.35
+          ],
+          "top": 1.45
+        },
+        {
+          "id": "storage-shelf",
+          "box": [
+            -5.65,
+            -4.7,
+            13.2,
+            17
+          ],
+          "top": 2.5
+        },
+        {
+          "id": "storage-divider",
+          "box": [
+            -2.8,
+            -2.58,
+            12.18,
+            15.1
+          ],
+          "top": 3.8
+        },
+        {
+          "id": "storage-return",
+          "box": [
+            -5.8,
+            -4.2,
+            17.45,
+            17.65
+          ],
+          "top": 3.8
+        },
+        {
+          "id": "storage-crate",
+          "box": [
+            -4.3,
+            -3.35,
+            13.25,
+            14.15
+          ],
+          "top": 1.35
+        }
+      ]
+    },
+    "D": {
+      "bounds": [
+        7,
+        15,
+        14,
+        20
+      ],
+      "floor": -2.4,
+      "height": 2.85,
+      "spawn": [
+        11.8,
+        18.6
+      ],
+      "door": [
+        8,
+        19.98
+      ],
+      "obstacles": [
+        {
+          "id": "medical",
+          "box": [
+            9.12,
+            10.88,
+            15.5,
+            16.5
+          ],
+          "top": -1.45
+        },
+        {
+          "id": "module",
+          "box": [
+            12.3,
+            12.9,
+            18.1,
+            18.65
+          ],
+          "top": -1.56
+        },
+        {
+          "id": "cabinet",
+          "box": [
+            12.1,
+            13.9,
+            16.04,
+            17.16
+          ],
+          "top": -1.35
+        },
+        {
+          "id": "briefcase-stand",
+          "box": [
+            8.23,
+            8.9,
+            14.55,
+            15.2
+          ],
+          "top": -1.85
+        },
+        {
+          "id": "files",
+          "box": [
+            7.28,
+            8.15,
+            14.5,
+            17.15
+          ],
+          "top": -0.15
+        },
+        {
+          "id": "recess-side",
+          "box": [
+            14.18,
+            14.38,
+            14.2,
+            17.4
+          ],
+          "top": 0.4
+        }
+      ]
+    }
+  },
+  "objects": {
+    "a-fragment0": {
+      "id": "a-fragment0",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "kind": "paper",
+      "zone": "床邊",
+      "pos": [
+        4.95,
+        1.127,
+        8.4
+      ],
+      "body": "R3 原始錄音逐字稿｜段落 1｜11月校訂\n林：撤稿以後，來源願意再談嗎？\n屋主：她還沒回信。門邊那排掛鉤，別找書桌。\n林：原件我另留一份，見報版本沒有交代她的說法。",
+      "portable": true,
+      "back": "同一頁邊的連續鉛筆線，R3 校訂記號仍可辨認。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "owner": "bed"
+    },
+    "a-fragment1": {
+      "id": "a-fragment1",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "kind": "paper",
+      "zone": "窗邊",
+      "pos": [
+        4.65,
+        0.007,
+        6.1
+      ],
+      "body": "R3 原始錄音逐字稿｜段落 2｜11月校訂\n林：旅館的人會搬動這些東西嗎？\n屋主：只有清點時會動。從窗邊數第二個，並不是掛最重外套那個。\n林：我會保留當日手寫修訂，整理時再核對引述。",
+      "portable": true,
+      "back": "同一頁邊的連續鉛筆線，R3 校訂記號仍可辨認。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-fragment2": {
+      "id": "a-fragment2",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "kind": "paper",
+      "zone": "廢紙簍",
+      "pos": [
+        8.25,
+        0.007,
+        7.15
+      ],
+      "body": "R3 原始錄音逐字稿｜段落 3｜11月校訂\n林：您說收納的位置以前修過？\n屋主：是，先向上提到底，再往牆裡壓，板子才會鬆。\n林：謝謝，接下來還是回到那則報導的受訪來源。",
+      "portable": true,
+      "back": "同一頁邊的連續鉛筆線，R3 校訂記號仍可辨認。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-r3": {
+      "id": "a-r3",
+      "room": "A",
+      "name": "採訪整理稿",
+      "kind": "paper",
+      "zone": "書桌",
+      "pos": [
+        6.5,
+        0.877,
+        7.25
+      ],
+      "body": "R3｜正式校樣\n段落一：林問撤稿後來源是否願意再談；屋主回答還沒回信。林將原件另留一份，見報版本未交代來源說法。\n段落二：屋主說旅館只有清點時才搬動東西。林會保留當日手寫修訂，再核對引述。\n段落三：屋主說收納位置曾修過。林致謝，話題回到那則報導的受訪來源。",
+      "portable": true,
+      "back": "R3 校樣｜修訂日 11/02。三段段落編號與原稿一致。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "owner": "desk"
+    },
+    "a-r2": {
+      "id": "a-r2",
+      "room": "A",
+      "name": "另一份整理稿",
+      "kind": "paper",
+      "zone": "書桌",
+      "pos": [
+        7.03,
+        0.877,
+        7.15
+      ],
+      "body": "R2｜採訪整理\n屋主：門邊那排掛鉤，別找書桌。\n其餘生活交代已刪，內容銜接仍待校對。",
+      "portable": true,
+      "back": "R2 作廢，以 R3 校樣為準。修訂日 11/01。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "owner": "desk"
+    },
+    "a-memo": {
+      "id": "a-memo",
+      "room": "A",
+      "name": "揉皺的校稿紙",
+      "kind": "paper",
+      "zone": "廢紙簍",
+      "pos": [
+        8.6,
+        0.007,
+        7.5
+      ],
+      "body": "校稿備忘\n屋主交代擺設的那幾句不是訪談內容，整理版已刪。原稿別再丟，前次就是缺那段查不到。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-letter": {
+      "id": "a-letter",
+      "room": "A",
+      "name": "床邊信封",
+      "kind": "paper",
+      "zone": "床邊",
+      "pos": [
+        4.95,
+        1.127,
+        9.2
+      ],
+      "body": "收件人：林依瑤。信紙被煙燻黃，封口仍留著撕裂的痕跡。",
+      "portable": true,
+      "evidence": "threat",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "owner": "bed"
+    },
+    "a-card": {
+      "id": "a-card",
+      "room": "A",
+      "name": "名片",
+      "kind": "paper",
+      "zone": "床邊",
+      "pos": [
+        4.55,
+        1.127,
+        9.45
+      ],
+      "body": "林依瑤｜新聞採訪與資料核查。背面是同一則新聞的備註編號。",
+      "portable": true,
+      "evidence": "card",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "owner": "bed"
+    },
+    "a-invite": {
+      "id": "a-invite",
+      "room": "A",
+      "name": "邀請函",
+      "kind": "paper",
+      "zone": "書桌",
+      "pos": [
+        7.5,
+        0.877,
+        7.2
+      ],
+      "body": "王杰倫的聚會邀請函。18:00，山屋。詳細內容可在證據簿重讀。",
+      "portable": true,
+      "evidence": "invitation",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "owner": "desk"
+    },
+    "a-luggage": {
+      "id": "a-luggage",
+      "room": "A",
+      "name": "行李櫃",
+      "kind": "luggage",
+      "zone": "行李櫃",
+      "pos": [
+        3.77,
+        1.53,
+        6.3
+      ],
+      "body": "舊式四輪號碼鎖。旁邊的住宿小卡有房客自己的收納記號。",
+      "portable": false,
+      "size": [
+        0.53,
+        0.36,
+        0.35
+      ],
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "owner": "dresser"
+    },
+    "a-stay": {
+      "id": "a-stay",
+      "room": "A",
+      "name": "住宿小卡",
+      "kind": "paper",
+      "zone": "行李櫃",
+      "pos": [
+        4.6,
+        0.007,
+        6.5
+      ],
+      "body": "行李櫃號碼 1830。離房前，衣物請放回櫃內。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-scarf": {
+      "id": "a-scarf",
+      "room": "A",
+      "name": "褪色圍巾",
+      "kind": "small",
+      "zone": "入口牆",
+      "pos": [
+        6.5,
+        1.5,
+        5.83
+      ],
+      "body": "邊角起毛，靠近掛鉤的一側沾有深色木屑。",
+      "portable": true,
+      "size": [
+        0.17,
+        0.65,
+        0.08
+      ],
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      }
+    },
+    "a-coat": {
+      "id": "a-coat",
+      "room": "A",
+      "name": "厚外套",
+      "kind": "small",
+      "zone": "入口牆",
+      "pos": [
+        7,
+        1.6,
+        5.83
+      ],
+      "body": "口袋是空的，衣肩壓出長期掛放的凹痕。",
+      "portable": true,
+      "size": [
+        0.45,
+        0.85,
+        0.13
+      ],
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      }
+    },
+    "a-cup": {
+      "id": "a-cup",
+      "room": "A",
+      "name": "空茶杯",
+      "kind": "small",
+      "zone": "窗邊",
+      "pos": [
+        3.8,
+        1.4200000000000002,
+        6.65
+      ],
+      "body": "杯底有一圈乾掉的茶垢，杯沿未見明顯破損。",
+      "portable": true,
+      "size": [
+        0.12,
+        0.14,
+        0.12
+      ],
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "owner": "dresser"
+    },
+    "a-stapler": {
+      "id": "a-stapler",
+      "room": "A",
+      "name": "訂書機",
+      "kind": "small",
+      "zone": "書桌",
+      "pos": [
+        7.6,
+        0.9,
+        6.85
+      ],
+      "body": "金屬底座有日常使用的磨損。可翻動、拿起或放回。",
+      "portable": true,
+      "size": [
+        0.06,
+        0.06,
+        0.19
+      ],
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "owner": "desk"
+    },
+    "a-pen": {
+      "id": "a-pen",
+      "room": "A",
+      "name": "細筆",
+      "kind": "tool",
+      "zone": "書桌",
+      "pos": [
+        6.35,
+        0.8825,
+        6.9
+      ],
+      "body": "筆尖乾涸，但筆桿完整。細端可以碰觸狹窄處。",
+      "portable": true,
+      "size": [
+        0.22,
+        0.025,
+        0.025
+      ],
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "owner": "desk"
+    },
+    "a-mirror": {
+      "id": "a-mirror",
+      "room": "A",
+      "name": "小鏡片",
+      "kind": "small",
+      "zone": "窗邊",
+      "pos": [
+        4.45,
+        0.0125,
+        6.8
+      ],
+      "body": "背面氧化，能反射一小塊窗框。",
+      "portable": true,
+      "size": [
+        0.15,
+        0.025,
+        0.2
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-bell": {
+      "id": "a-bell",
+      "room": "A",
+      "name": "鈴盒",
+      "kind": "bell",
+      "zone": "入口牆",
+      "pos": [
+        8.3,
+        1.35,
+        5.75
+      ],
+      "body": "側標：鉤歸位後推回舌片。第六鉤的細線接到鈴盒。",
+      "portable": false,
+      "size": [
+        0.19,
+        0.2,
+        0.12
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.25
+      }
+    },
+    "a-panel": {
+      "id": "a-panel",
+      "room": "A",
+      "name": "衣架背板",
+      "kind": "panel",
+      "zone": "入口牆",
+      "pos": [
+        7.1,
+        1.45,
+        5.7
+      ],
+      "body": "一整塊實木背板；牆面邊緣有細縫。靠窗端在左，靠門端在右。",
+      "portable": false,
+      "size": [
+        2.45,
+        0.46,
+        0.035
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.22
+      }
+    },
+    "a-bookmark": {
+      "id": "a-bookmark",
+      "room": "A",
+      "name": "帶孔硬紙書籤",
+      "kind": "tool",
+      "zone": "入口牆",
+      "pos": [
+        7.1,
+        0.0125,
+        5.83
+      ],
+      "body": "薄硬紙的一端較窄，可以撥動狹窄處；裝訂孔不代表只能用在單一裝置。",
+      "portable": true,
+      "behind": "a-panel",
+      "size": [
+        0.22,
+        0.025,
+        0.025
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "a-hook0": {
+      "id": "a-hook0",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        5.9,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。這一端靠窗。",
+      "portable": false,
+      "index": 0,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "a-hook1": {
+      "id": "a-hook1",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        6.28,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。邊緣留有日常衣物磨痕。",
+      "portable": false,
+      "index": 1,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "a-hook2": {
+      "id": "a-hook2",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        6.66,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。邊緣留有日常衣物磨痕。",
+      "portable": false,
+      "index": 2,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "a-hook3": {
+      "id": "a-hook3",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        7.040000000000001,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。邊緣留有日常衣物磨痕。",
+      "portable": false,
+      "index": 3,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "a-hook4": {
+      "id": "a-hook4",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        7.42,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。邊緣留有日常衣物磨痕。",
+      "portable": false,
+      "index": 4,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "a-hook5": {
+      "id": "a-hook5",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "kind": "hook",
+      "zone": "入口牆",
+      "pos": [
+        7.800000000000001,
+        1.8,
+        5.72
+      ],
+      "body": "同一排六個掛鉤。這一端靠門，磨損字樣「清點」，細線通往鈴盒。",
+      "portable": false,
+      "index": 5,
+      "size": [
+        0.12,
+        0.25,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      }
+    },
+    "b-f27": {
+      "id": "b-f27",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "背帶袋",
+      "pos": [
+        10.33,
+        1.127,
+        8.2
+      ],
+      "body": "18:29｜構圖預覽。當晚木牆，現役雙螺栓護罩。原邊字 K / 27 可正讀，兩側齒孔完整。",
+      "portable": true,
+      "code": "F27",
+      "roll": "K",
+      "time": "18:29",
+      "frame": 27,
+      "photo": "first-photo",
+      "size": [
+        0.3,
+        0.014,
+        0.21
+      ],
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "owner": "west-shelf"
+    },
+    "b-f28": {
+      "id": "b-f28",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "落片盤",
+      "pos": [
+        11.1,
+        0.007,
+        8.12
+      ],
+      "body": "18:30｜四人入鏡。王杰倫、林依瑤、劉涵、張萍；劉子傑在鏡後。原邊字 K / 28 可正讀，齒孔完整。",
+      "portable": true,
+      "code": "F28",
+      "roll": "K",
+      "time": "18:30",
+      "frame": 28,
+      "photo": "first-photo",
+      "size": [
+        0.3,
+        0.014,
+        0.21
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "b-f31": {
+      "id": "b-f31",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "乾燥繩",
+      "pos": [
+        12.85,
+        1.755,
+        6.8
+      ],
+      "body": "20:00｜三人入鏡。王杰倫、林依瑤、張萍。雙螺栓與護罩仍在；劉子傑掌鏡。原邊字 K / 31 可正讀。缺照不等於死亡。",
+      "portable": true,
+      "code": "F31",
+      "roll": "K",
+      "time": "20:00",
+      "frame": 31,
+      "photo": "last-photo",
+      "size": [
+        0.3,
+        0.21,
+        0.014
+      ],
+      "support": {
+        "id": "drying-line",
+        "y": 1.65
+      },
+      "owner": "drying-line"
+    },
+    "b-o12": {
+      "id": "b-o12",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "舊片盒",
+      "pos": [
+        10.9,
+        0.947,
+        7.15
+      ],
+      "body": "五年前｜舊山屋，單螺栓鉤、不同服裝與裝修。原邊字 J / 12。不是本次聚會同一卷。",
+      "portable": true,
+      "code": "O12",
+      "roll": "J",
+      "time": "五年前",
+      "frame": 12,
+      "photo": "first-photo",
+      "size": [
+        0.3,
+        0.014,
+        0.21
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-p28": {
+      "id": "b-p28",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "照片袋",
+      "pos": [
+        12.55,
+        0.947,
+        7.6
+      ],
+      "body": "18:30｜同一組四人畫面的翻拍製作品。字樣由右往左，沒有原始齒孔邊；翻拍批號 P / 28。",
+      "portable": true,
+      "code": "P28",
+      "roll": "P",
+      "time": "18:30",
+      "frame": 28,
+      "photo": "first-photo",
+      "size": [
+        0.3,
+        0.014,
+        0.21
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-t00": {
+      "id": "b-t00",
+      "room": "B",
+      "name": "底片夾",
+      "kind": "film",
+      "zone": "水槽",
+      "pos": [
+        13.6,
+        1.057,
+        7.8
+      ],
+      "body": "人形曝光測試板，並非出席者。背面蓋章：測試／不得歸原卷。T / 00。",
+      "portable": true,
+      "code": "T00",
+      "roll": "T",
+      "time": "測試",
+      "frame": 0,
+      "size": [
+        0.3,
+        0.014,
+        0.21
+      ],
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "owner": "sink"
+    },
+    "b-audio": {
+      "id": "b-audio",
+      "room": "B",
+      "name": "工作錄音機",
+      "kind": "audio",
+      "zone": "設備櫃",
+      "pos": [
+        10.33,
+        1.195,
+        8.63
+      ],
+      "body": "字幕／工作片段：先留構圖預覽，再拍正式照。第二次快門之間換了電池；這不是連拍。",
+      "portable": false,
+      "size": [
+        0.23,
+        0.15,
+        0.13
+      ],
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "owner": "west-shelf"
+    },
+    "b-edge": {
+      "id": "b-edge",
+      "room": "B",
+      "name": "盤邊記錄",
+      "kind": "paper",
+      "zone": "落片盤",
+      "pos": [
+        11.7,
+        0.007,
+        8
+      ],
+      "body": "本次工作卷 K；27 起，換電池後跳號至 31。跳號不代表另一卷。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "b-back": {
+      "id": "b-back",
+      "room": "B",
+      "name": "相框背箋",
+      "kind": "paper",
+      "zone": "照片袋",
+      "pos": [
+        12.2,
+        0.947,
+        7.02
+      ],
+      "body": "原邊字可正讀；翻拍袋按翻拍批號另存，不併原卷。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-reader": {
+      "id": "b-reader",
+      "room": "B",
+      "name": "驗片匣",
+      "kind": "reader",
+      "zone": "工作桌",
+      "pos": [
+        11.7,
+        1.0899999999999999,
+        7.3
+      ],
+      "body": "W-17 夾框識別驗片匣。使用圖：夾帶進軌 → 轉輸送輪 → 提起回捲軸。每個夾框都有相同的連接扣與識別邊。",
+      "portable": false,
+      "size": [
+        0.55,
+        0.3,
+        0.38
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-shutter": {
+      "id": "b-shutter",
+      "room": "B",
+      "name": "測試快門",
+      "kind": "shutter",
+      "zone": "水槽",
+      "pos": [
+        13.6,
+        1.1,
+        7.3
+      ],
+      "body": "快門鈕接到一塊曝光測試板；測試紙出口有 T 卷標記。",
+      "portable": false,
+      "size": [
+        0.14,
+        0.1,
+        0.14
+      ],
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "owner": "sink"
+    },
+    "b-sleeve": {
+      "id": "b-sleeve",
+      "room": "B",
+      "name": "空片袋",
+      "kind": "small",
+      "zone": "設備櫃",
+      "pos": [
+        10.33,
+        0.5625,
+        8.5
+      ],
+      "body": "紙袋印有防潮注意事項，外面還留著已淡去的工作編號。",
+      "portable": true,
+      "size": [
+        0.23,
+        0.025,
+        0.29
+      ],
+      "support": {
+        "id": "west-shelf",
+        "y": 0.55
+      },
+      "owner": "west-shelf"
+    },
+    "b-battery": {
+      "id": "b-battery",
+      "room": "B",
+      "name": "用過的電池",
+      "kind": "small",
+      "zone": "工作桌",
+      "pos": [
+        12.8,
+        0.9574999999999999,
+        7.3
+      ],
+      "body": "兩顆廢電池以膠帶纏住正極，回收日期尚未填。",
+      "portable": true,
+      "size": [
+        0.095,
+        0.035,
+        0.065
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-timer": {
+      "id": "b-timer",
+      "room": "B",
+      "name": "沖片計時器",
+      "kind": "small",
+      "zone": "水槽",
+      "pos": [
+        13.6,
+        1.1500000000000001,
+        8.1
+      ],
+      "body": "旋鈕停在沖洗刻度；不是拍攝時間記錄。",
+      "portable": true,
+      "size": [
+        0.16,
+        0.2,
+        0.1
+      ],
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "owner": "sink"
+    },
+    "b-brush": {
+      "id": "b-brush",
+      "room": "B",
+      "name": "除塵刷",
+      "kind": "tool",
+      "zone": "乾燥繩",
+      "pos": [
+        12.7,
+        0.9524999999999999,
+        7.02
+      ],
+      "body": "柔軟刷毛已有磨損。刷柄很細，仍完整。",
+      "portable": true,
+      "size": [
+        0.22,
+        0.025,
+        0.025
+      ],
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "owner": "workbench"
+    },
+    "b-glove": {
+      "id": "b-glove",
+      "room": "B",
+      "name": "棉手套",
+      "kind": "small",
+      "zone": "落片盤",
+      "pos": [
+        11.3,
+        0.0135,
+        8.4
+      ],
+      "body": "指尖沾有顯影液留下的淡褐色斑點。",
+      "portable": true,
+      "size": [
+        0.17,
+        0.027,
+        0.2
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0
+      }
+    },
+    "c-rope": {
+      "id": "c-rope",
+      "room": "C",
+      "name": "主繩",
+      "kind": "rope",
+      "zone": "儲藏架",
+      "pos": [
+        -5.1,
+        1.7125,
+        15.65
+      ],
+      "body": "編織繩兩端有扣件；可接回、退繩重走。",
+      "portable": true,
+      "behind": "c-box",
+      "size": [
+        0.3,
+        0.065,
+        0.3
+      ],
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "owner": "storage-shelf"
+    },
+    "c-box": {
+      "id": "c-box",
+      "room": "C",
+      "name": "空紙箱",
+      "kind": "box",
+      "zone": "儲藏架",
+      "pos": [
+        -5.1,
+        1.835,
+        15.2
+      ],
+      "body": "箱內只剩填紙；移動後可看見架後的捲繩。",
+      "portable": false,
+      "size": [
+        0.36,
+        0.31,
+        0.4
+      ],
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "owner": "storage-shelf"
+    },
+    "c-upper": {
+      "id": "c-upper",
+      "room": "C",
+      "name": "維修圖上半",
+      "kind": "paper",
+      "zone": "文件台",
+      "pos": [
+        1.2,
+        1.277,
+        14.22
+      ],
+      "body": "人工維修升降總成｜等效負載 70 kg。兩股托同一輪；籃落兩格，框升一格。平衡時用手輪送框。",
+      "portable": true,
+      "diagram": "upper",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "owner": "records"
+    },
+    "c-lower": {
+      "id": "c-lower",
+      "room": "C",
+      "name": "維修圖下半",
+      "kind": "paper",
+      "zone": "隔板後",
+      "pos": [
+        -3.3,
+        0.457,
+        15.6
+      ],
+      "body": "改裝後視向：升蓋滑輪隨蓋運動，柱後定輪只改變繩向。雙螺栓座接固定端；舊單螺栓留作清點。",
+      "portable": true,
+      "diagram": "lower",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      }
+    },
+    "c-old": {
+      "id": "c-old",
+      "room": "C",
+      "name": "舊設備圖",
+      "kind": "paper",
+      "zone": "儲藏架",
+      "pos": [
+        -5.1,
+        1.6869999999999998,
+        16.3
+      ],
+      "body": "舊單股升降結構。單股吊掛，籃與負載移動距離相同。",
+      "portable": true,
+      "back": "拆件參考，不代表現況。改裝後負載改走柱後雙螺栓座。",
+      "diagram": "old",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "owner": "storage-shelf"
+    },
+    "c-mod": {
+      "id": "c-mod",
+      "room": "C",
+      "name": "改裝紀錄",
+      "kind": "paper",
+      "zone": "隔板後",
+      "pos": [
+        -3.3,
+        0.457,
+        15.95
+      ],
+      "body": "舊鉤改清點用，額定 20 kg。負載改走柱後雙螺栓座；原單股圖留作拆件參照。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      }
+    },
+    "c-basket": {
+      "id": "c-basket",
+      "room": "C",
+      "name": "吊籃",
+      "kind": "basket",
+      "zone": "柱邊",
+      "pos": [
+        -0.8,
+        1.2750000000000001,
+        15.7
+      ],
+      "body": "額定 40 kg。帶扣下方有近地承接座；卸重後可以扣回。",
+      "portable": false,
+      "owner": "world-basket",
+      "size": [
+        0.55,
+        0.55,
+        0.45
+      ],
+      "support": {
+        "id": "basket-stop",
+        "y": 1
+      }
+    },
+    "c-a0": {
+      "id": "c-a0",
+      "room": "C",
+      "name": "雙螺栓座",
+      "kind": "anchor",
+      "zone": "柱邊",
+      "pos": [
+        -1.4,
+        2.7,
+        14.1
+      ],
+      "body": "閉合錨座，兩顆螺栓緊固。",
+      "portable": false,
+      "node": "A0",
+      "size": [
+        0.26,
+        0.26,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.5700000000000003
+      }
+    },
+    "c-m": {
+      "id": "c-m",
+      "room": "C",
+      "name": "隨蓋滑輪",
+      "kind": "anchor",
+      "zone": "檢修蓋",
+      "pos": [
+        -1.1,
+        1.1,
+        13.8
+      ],
+      "body": "輪軸固定在蓋框；沿牆留有向上的升降磨痕。",
+      "portable": false,
+      "node": "M",
+      "owner": "world-hatch",
+      "size": [
+        0.26,
+        0.26,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 0.9700000000000001
+      }
+    },
+    "c-f": {
+      "id": "c-f",
+      "room": "C",
+      "name": "柱上定輪",
+      "kind": "anchor",
+      "zone": "柱邊",
+      "pos": [
+        0.3,
+        2.8,
+        14.1
+      ],
+      "body": "護罩缺口能看見輪緣，定輪不跟著蓋板移動。",
+      "portable": false,
+      "node": "F",
+      "size": [
+        0.26,
+        0.26,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.67
+      }
+    },
+    "c-oldhook": {
+      "id": "c-oldhook",
+      "room": "C",
+      "name": "清點鉤",
+      "kind": "anchor",
+      "zone": "隔板後",
+      "pos": [
+        -2.3,
+        2.1,
+        15.7
+      ],
+      "body": "單螺栓，額定 20 kg。滑脫扣的下方是承接座。",
+      "portable": false,
+      "node": "OLD",
+      "size": [
+        0.26,
+        0.26,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.9700000000000002
+      }
+    },
+    "c-ring": {
+      "id": "c-ring",
+      "room": "C",
+      "name": "未使用環扣",
+      "kind": "anchor",
+      "zone": "儲藏架",
+      "pos": [
+        -4.6,
+        2.2,
+        16.8
+      ],
+      "body": "環扣活動，但沒有承重額定牌。",
+      "portable": false,
+      "node": "RING",
+      "size": [
+        0.26,
+        0.26,
+        0.13
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.0700000000000003
+      }
+    },
+    "c-pan": {
+      "id": "c-pan",
+      "room": "C",
+      "name": "物資盤",
+      "kind": "pan",
+      "zone": "烤架",
+      "pos": [
+        0.45,
+        1.6475,
+        13.35
+      ],
+      "body": "物資盤點用服務盤。盤底沒有繩或連桿通往檢修蓋。",
+      "portable": false,
+      "size": [
+        0.6,
+        0.035,
+        0.45
+      ],
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "owner": "grill"
+    },
+    "c-history": {
+      "id": "c-history",
+      "room": "C",
+      "name": "歷史顯示窗",
+      "kind": "record",
+      "zone": "烤架",
+      "pos": [
+        -0.5,
+        1.785,
+        13.22
+      ],
+      "body": "歷史事件｜19:15｜65 kg。物資清單食材 5 kg。這是當晚異常讀數，不是目前維修負載。",
+      "portable": false,
+      "evidence": "weight",
+      "size": [
+        0.3,
+        0.31,
+        0.18
+      ],
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "owner": "grill"
+    },
+    "c-hatch": {
+      "id": "c-hatch",
+      "room": "C",
+      "name": "檢修蓋",
+      "kind": "hatch",
+      "zone": "檢修蓋",
+      "pos": [
+        -0.7,
+        1.4,
+        13.9
+      ],
+      "body": "蓋沿有機械支撐銷；到維修止點後可自行接手。旁邊是低位固定扣與手輪。",
+      "portable": false,
+      "owner": "world-hatch",
+      "size": [
+        0.7,
+        0.12,
+        0.45
+      ],
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.3399999999999999
+      }
+    },
+    "timber-0": {
+      "id": "timber-0",
+      "room": "C",
+      "name": "木樁1",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.05,
+        1.545,
+        12.86
+      ],
+      "body": "額定標籤 15 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 15,
+      "size": [
+        0.25,
+        0.19,
+        0.3
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "timber-1": {
+      "id": "timber-1",
+      "room": "C",
+      "name": "木樁2",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.6999999999999997,
+        1.545,
+        12.86
+      ],
+      "body": "額定標籤 15 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 15,
+      "size": [
+        0.25,
+        0.19,
+        0.3
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "iron-0": {
+      "id": "iron-0",
+      "room": "C",
+      "name": "鐵塊1",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.05,
+        1.5899999999999999,
+        13.26
+      ],
+      "body": "額定標籤 20 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 20,
+      "size": [
+        0.25,
+        0.28,
+        0.24
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "iron-1": {
+      "id": "iron-1",
+      "room": "C",
+      "name": "鐵塊2",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.6999999999999997,
+        1.5899999999999999,
+        13.26
+      ],
+      "body": "額定標籤 20 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 20,
+      "size": [
+        0.25,
+        0.28,
+        0.24
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "sand-0": {
+      "id": "sand-0",
+      "room": "C",
+      "name": "沙袋1",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.05,
+        1.595,
+        13.66
+      ],
+      "body": "額定標籤 10 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 10,
+      "size": [
+        0.26,
+        0.29,
+        0.28
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "sand-1": {
+      "id": "sand-1",
+      "room": "C",
+      "name": "沙袋2",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.6999999999999997,
+        1.595,
+        13.66
+      ],
+      "body": "額定標籤 10 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 10,
+      "size": [
+        0.26,
+        0.29,
+        0.28
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "stone-0": {
+      "id": "stone-0",
+      "room": "C",
+      "name": "石塊1",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.05,
+        1.54,
+        14.059999999999999
+      ],
+      "body": "額定標籤 5 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 5,
+      "size": [
+        0.25,
+        0.18,
+        0.27
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "stone-1": {
+      "id": "stone-1",
+      "room": "C",
+      "name": "石塊2",
+      "kind": "weight",
+      "zone": "重物架",
+      "pos": [
+        3.6999999999999997,
+        1.54,
+        14.059999999999999
+      ],
+      "body": "額定標籤 5 kg。可拿起、放回或放到其他承載面。",
+      "portable": true,
+      "kg": 5,
+      "size": [
+        0.25,
+        0.18,
+        0.27
+      ],
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "owner": "weight-rack"
+    },
+    "c-diary": {
+      "id": "c-diary",
+      "room": "C",
+      "name": "營火旁的日記",
+      "kind": "paper",
+      "zone": "文件台",
+      "pos": [
+        2.1,
+        1.2975,
+        14.1
+      ],
+      "body": "案情原始證物。可觀察並獨立收錄，不因操作維修設備自動加入。",
+      "portable": true,
+      "evidence": "diary",
+      "size": [
+        0.24,
+        0.055,
+        0.3
+      ],
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "owner": "records"
+    },
+    "c-watch": {
+      "id": "c-watch",
+      "room": "C",
+      "name": "停錶",
+      "kind": "paper",
+      "zone": "儲藏室",
+      "pos": [
+        -3.8,
+        1.3725,
+        14.02
+      ],
+      "body": "案情原始證物。可觀察並獨立收錄，不因操作維修設備自動加入。",
+      "portable": true,
+      "evidence": "watch",
+      "size": [
+        0.17,
+        0.045,
+        0.25
+      ],
+      "support": {
+        "id": "storage-crate",
+        "y": 1.35
+      },
+      "owner": "storage-crate"
+    },
+    "c-blood": {
+      "id": "c-blood",
+      "room": "C",
+      "name": "地面痕跡",
+      "kind": "record",
+      "zone": "儲藏室",
+      "pos": [
+        -3.5,
+        0.4515,
+        14.6
+      ],
+      "body": "案情原始證物。可觀察並獨立收錄，不因操作維修設備自動加入。",
+      "portable": false,
+      "evidence": "blood",
+      "size": [
+        0.38,
+        0.003,
+        0.24
+      ],
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      }
+    },
+    "c-surface": {
+      "id": "c-surface",
+      "room": "C",
+      "name": "警方報告副本",
+      "kind": "paper",
+      "zone": "文件台",
+      "pos": [
+        1.85,
+        1.277,
+        14.42
+      ],
+      "body": "案情原始證物。可觀察並獨立收錄，不因操作維修設備自動加入。",
+      "portable": true,
+      "evidence": "surface",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "owner": "records"
+    },
+    "d-R1": {
+      "id": "d-R1",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "桌側",
+      "pos": [
+        8.7,
+        -2.393,
+        16.7
+      ],
+      "body": "WJ-05｜案史｜火災與受困在先；相關進食自述在受困後出現。\n王杰倫描述五年前先遭逢山屋火災，與親屬受困，後在極端情境下食用親屬遺體。此項來自訪談自述，保留其來源限制。",
+      "portable": true,
+      "page": "R1",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      }
+    },
+    "d-R2": {
+      "id": "d-R2",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "椅墊下",
+      "pos": [
+        10.8,
+        -2.393,
+        17.4
+      ],
+      "body": "WJ-05｜案史範圍｜此處只記錄五年前的經歷，不是對其他事件的鑑定。\n個案對炭火、封閉空間與進食出現反覆聯想。心理狀態及病史紀錄不能替代其他案件的物證調查。",
+      "portable": true,
+      "page": "R2",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      }
+    },
+    "d-R3": {
+      "id": "d-R3",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "公事包",
+      "pos": [
+        8.55,
+        -1.8430000000000002,
+        14.72
+      ],
+      "body": "WJ-05｜案史使用限制｜個案敘述不得直接作其他案件的責任認定。\n醫師張萍保留訪談與診療紀錄，未對未發生或未知事件下結論。起、終邊記沿同一定位角。",
+      "portable": true,
+      "page": "R3",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "owner": "briefcase-stand"
+    },
+    "d-Q1": {
+      "id": "d-Q1",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "診療桌",
+      "pos": [
+        9.75,
+        -1.443,
+        16.32
+      ],
+      "body": "WJ-05｜待核實／訪談問題\n是否先有進食行為，才故意縱火？\n此為釐清事件先後的問句，非已記錄事實。",
+      "portable": true,
+      "page": "Q1",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "owner": "medical"
+    },
+    "d-Q2": {
+      "id": "d-Q2",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "牆面",
+      "pos": [
+        8.5,
+        -2.393,
+        15.6
+      ],
+      "body": "WJ-05｜待核實／資料問題\n殘缺紀錄中的數值，是否真的是當事人的體重？\n需核對原始用途、單位與記錄時間，尚無足夠依據。",
+      "portable": true,
+      "page": "Q2",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      }
+    },
+    "d-Q3": {
+      "id": "d-Q3",
+      "room": "D",
+      "name": "診療散頁",
+      "kind": "paper",
+      "zone": "整理盤",
+      "pos": [
+        12.55,
+        -1.5530000000000002,
+        18.53
+      ],
+      "body": "WJ-05｜待核實／推論問題\n個案自述是否足以認定他做過每一件事？\n這裡保留的是追問，不是對其他案件的犯罪結論。",
+      "portable": true,
+      "page": "Q3",
+      "back": "同材質硬質透明襯片。外側是紙質文字區；內側有孔洞、印刷筆道及同一裝訂定位角。",
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "owner": "module"
+    },
+    "d-class": {
+      "id": "d-class",
+      "room": "D",
+      "name": "分類備忘",
+      "kind": "paper",
+      "zone": "公事包",
+      "pos": [
+        8.55,
+        -1.8430000000000002,
+        15.08
+      ],
+      "body": "問句留在待核實夾；記錄與使用限制，歸案史。兩類不得合抄。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "owner": "briefcase-stand"
+    },
+    "d-board": {
+      "id": "d-board",
+      "room": "D",
+      "name": "硬紙索引台",
+      "kind": "board",
+      "zone": "診療桌",
+      "pos": [
+        10.3,
+        -1.4324999999999999,
+        16.25
+      ],
+      "body": "WJ-05。台側使用圖：定位紙 → 透孔撥片 → 拉匣。兩排凹點的內部扣片被板面遮住。",
+      "portable": false,
+      "size": [
+        0.58,
+        0.035,
+        0.4
+      ],
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "owner": "medical"
+    },
+    "d-pen": {
+      "id": "d-pen",
+      "room": "D",
+      "name": "細筆",
+      "kind": "tool",
+      "zone": "診療桌",
+      "pos": [
+        10.65,
+        -1.4375,
+        15.8
+      ],
+      "body": "細端與索引台凹點尺寸相近。",
+      "portable": true,
+      "size": [
+        0.22,
+        0.025,
+        0.025
+      ],
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "owner": "medical"
+    },
+    "d-rod": {
+      "id": "d-rod",
+      "room": "D",
+      "name": "細棒",
+      "kind": "tool",
+      "zone": "維修箱",
+      "pos": [
+        12.6,
+        -1.5475,
+        18.4
+      ],
+      "body": "一支無特殊標記的細棒，可拿起、放回或伸入窄孔。",
+      "portable": true,
+      "size": [
+        0.22,
+        0.025,
+        0.025
+      ],
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "owner": "module"
+    },
+    "d-drawers": {
+      "id": "d-drawers",
+      "room": "D",
+      "name": "雙層資料匣",
+      "kind": "drawers",
+      "zone": "診療桌",
+      "pos": [
+        9.55,
+        -1.3,
+        15.85
+      ],
+      "body": "上下各有一個把手；鎖舌在匣內，前面沒有可直接選擇的符號鍵。",
+      "portable": false,
+      "size": [
+        0.55,
+        0.3,
+        0.38
+      ],
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "owner": "medical"
+    },
+    "d-cabinet": {
+      "id": "d-cabinet",
+      "room": "D",
+      "name": "倒櫃與出口",
+      "kind": "cabinet",
+      "zone": "維修凹間",
+      "pos": [
+        13,
+        -1.88,
+        16.6
+      ],
+      "body": "依警方既有支援調查。王杰倫逃離後，鐵櫃才在火災中倒塌；櫃後維修出口不等於主門。",
+      "portable": false,
+      "size": [
+        1.8,
+        1.04,
+        1.12
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "owner": "cabinet"
+    },
+    "d-folder": {
+      "id": "d-folder",
+      "room": "D",
+      "name": "空病歷夾",
+      "kind": "small",
+      "zone": "牆面",
+      "pos": [
+        7.7,
+        -1.0875000000000001,
+        16.4
+      ],
+      "body": "封面同樣印著 WJ-05，覆核日期尚未填入。",
+      "portable": true,
+      "size": [
+        0.23,
+        0.025,
+        0.29
+      ],
+      "support": {
+        "id": "files",
+        "y": -1.1
+      },
+      "owner": "files"
+    },
+    "d-cup": {
+      "id": "d-cup",
+      "room": "D",
+      "name": "玻璃量杯",
+      "kind": "small",
+      "zone": "維修箱",
+      "pos": [
+        12.4,
+        -1.49,
+        18.25
+      ],
+      "body": "杯口留有水漬，刻度是容量，不是重量。",
+      "portable": true,
+      "size": [
+        0.12,
+        0.14,
+        0.12
+      ],
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "owner": "module"
+    },
+    "d-clock": {
+      "id": "d-clock",
+      "room": "D",
+      "name": "停走的座鐘",
+      "kind": "small",
+      "zone": "整理盤",
+      "pos": [
+        12.7,
+        -1.46,
+        18.23
+      ],
+      "body": "發條已鬆。它不是警方核定的時間證物。",
+      "portable": true,
+      "size": [
+        0.16,
+        0.2,
+        0.1
+      ],
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "owner": "module"
+    },
+    "d-towel": {
+      "id": "d-towel",
+      "room": "D",
+      "name": "折起的布",
+      "kind": "small",
+      "zone": "椅墊下",
+      "pos": [
+        11.3,
+        -2.3775,
+        18
+      ],
+      "body": "摺痕中夾著灰塵，與椅墊一樣被煙燻黃。",
+      "portable": true,
+      "size": [
+        0.25,
+        0.045,
+        0.2
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      }
+    },
+    "d-label": {
+      "id": "d-label",
+      "room": "D",
+      "name": "檔案櫃標籤",
+      "kind": "paper",
+      "zone": "公事包",
+      "pos": [
+        8.5,
+        -2.393,
+        16.2
+      ],
+      "body": "案史、待核實、覆核。分類名稱並不代表每張紙上的句子都已被證明。",
+      "portable": true,
+      "size": [
+        0.29,
+        0.014,
+        0.23
+      ],
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      }
+    }
+  },
+  "modelSource": "web/src/game/roomModelsV4.js"
+}

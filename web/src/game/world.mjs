@@ -1,3 +1,4 @@
+import {applyPlacements} from './propLayout.mjs';
 // Revision 4: an object has one location. Inspection never awards an entire group.
 export const WORLD={};
 const add=(room,id,name,kind,zone,pos,body,extra={})=>WORLD[id]={id,room,name,kind,zone,pos,body,portable:['paper','film','tool','rope','weight','small'].includes(kind),...extra};
@@ -74,6 +75,7 @@ D('d-cup','玻璃量杯','small','維修箱',[12.7,-1.35,18.3],'杯口留有水�
 D('d-clock','停走的座鐘','small','整理盤',[12,-.8,18.8],'發條已鬆。它不是警方核定的時間證物。');
 D('d-towel','折起的布','small','椅墊下',[11.3,-1.5,18],'摺痕中夾著灰塵，與椅墊一樣被煙燻黃。');
 D('d-label','檔案櫃標籤','paper','公事包',[8.1,-.6,15.8],'案史、待核實、覆核。分類名稱並不代表每張紙上的句子都已被證明。');
+applyPlacements(WORLD);
 export const OBJECT_IDS=Object.keys(WORLD);
 export function freshObjects(){return Object.fromEntries(OBJECT_IDS.map(id=>[id,{discovered:false,collected:false,container:'world',rotation:0,flipped:false,x:.5,y:.5,opened:false}]));}
 export const roomObjects=room=>Object.values(WORLD).filter(o=>o.room===room);

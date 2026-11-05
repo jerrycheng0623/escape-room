@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-04T16:25:57.936Z",
+  "url": "http://127.0.0.1:5173/",
+  "method": "Browser plugin not available; Playwright. Completed-fixture archive seeking verifies every shot in zh-Hant and en, not a natural-playback claim. Film frame identity checked separately.",
+  "cases": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "mp4",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.film-tile').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"film-tile\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at action (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:12:52)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:16:41"
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "webm",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.film-tile').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"film-tile\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at action (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:12:52)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:16:41"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "mp4",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.film-tile').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"film-tile\">…</button>\u001b[22m\n\u001b[2m  - attempting tap action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying tap action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying tap action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying tap action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at action (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:12:44)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:16:41"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "webm",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('.film-tile').first()\u001b[22m\n\u001b[2m    - locator resolved to <button disabled class=\"film-tile\">…</button>\u001b[22m\n\u001b[2m  - attempting tap action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying tap action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not enabled\u001b[22m\n\u001b[2m    - retrying tap action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not enabled\u001b[22m\n\u001b[2m     - retrying tap action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at action (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:12:44)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-caption-alignment.mjs:16:41"
+    }
+  ]
+}

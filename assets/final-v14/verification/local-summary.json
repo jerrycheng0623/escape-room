@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-05T01:13:32.685811+08:00",
+  "appVersion": "1.0.0",
+  "interfaceVersion": 14,
+  "modelVersion": 14,
+  "mechanicRevision": 4,
+  "saveSchema": 4,
+  "sourceBranch": "Websit-final",
+  "sourceBaseline": "f644249bee4bcb573118630e5c01864c0fb32d7d",
+  "release": {
+    "appVersion": "1.0.0",
+    "mechanicRevision": 4,
+    "saveSchema": 4,
+    "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14",
+    "sourceBaselineCommit": "f644249bee4bcb573118630e5c01864c0fb32d7d",
+    "createdAt": "2026-11-05T01:04:45.539593+08:00",
+    "cinematicVersion": 10,
+    "interfaceVersion": 14,
+    "modelVersion": 14,
+    "formalRelease": true,
+    "previewMode": false,
+    "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
+    "assets": {
+      "Game-DbxbfcQP.js": "f9b3edff74ad17c8c7f2a5b1eb73e50baab3c8e7f0d8e994e13c8c65793fc924",
+      "Scene-CQu58ndj.js": "4e695bedf3931ced3b006d363d0434dcb5102e0a7358c1b1d69b893210bf9bb1",
+      "index-cIYJdtBs.js": "1fd3329714a5f6c10b0c2717b7ed52097725ec5fde1b12a6100201bf0a729658",
+      "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
+      "solutions-rrCnOSoR.js": "97391d82793b71d2c141b2a69d6747050d8e51b6a9b6724dac8fbf895458e6d0"
+    }
+  },
+  "suite": {
+    "date": "2026-11-05T00:52:43.711039+08:00",
+    "runs": [
+      {
+        "name": "player",
+        "script": "test-final-player.mjs",
+        "code": 0,
+        "seconds": 55.4,
+        "pass": true
+      },
+      {
+        "name": "space",
+        "script": "test-space-ui.mjs",
+        "code": 0,
+        "seconds": 165.4,
+        "pass": true
+      },
+      {
+        "name": "guide-final",
+        "script": "test-guide-modes.mjs",
+        "code": 0,
+        "seconds": 33.1,
+        "pass": true
+      },
+      {
+        "name": "q-final",
+        "script": "test-q-guide-input.mjs",
+        "code": 0,
+        "seconds": 25.8,
+        "pass": true
+      },
+      {
+        "name": "native",
+        "script": "test-native-exploration.mjs",
+        "code": 0,
+        "seconds": 16.9,
+        "pass": true
+      },
+      {
+        "name": "luggage",
+        "script": "test-luggage-input.mjs",
+        "code": 0,
+        "seconds": 72.1,
+        "pass": true
+      },
+      {
+        "name": "notebook",
+        "script": "test-notebook-controls.mjs",
+        "code": 0,
+        "seconds": 45.1,
+        "pass": true
+      },
+      {
+        "name": "touch",
+        "script": "test-touch-controls.mjs",
+        "code": 0,
+        "seconds": 16.5,
+        "pass": true
+      },
+      {
+        "name": "keyboard",
+        "script": "test-keyboard-audio.mjs",
+        "code": 0,
+        "seconds": 24.8,
+        "pass": true
+      },
+      {
+        "name": "postgame",
+        "script": "test-postgame.mjs",
+        "code": 0,
+        "seconds": 10.2,
+        "pass": true
+      },
+      {
+        "name": "controls-chromium",
+        "script": "test-media-controls.mjs",
+        "code": 0,
+        "seconds": 24.1,
+        "pass": true
+      },
+      {
+        "name": "controls-webkit-final",
+        "script": "test-media-controls.mjs",
+        "code": 0,
+        "seconds": 26.2,
+        "pass": true
+      },
+      {
+        "name": "captions",
+        "script": "test-caption-alignment.mjs",
+        "code": 0,
+        "seconds": 16.1,
+        "pass": true
+      },
+      {
+        "name": "media-layout",
+        "script": "test-media-layout.mjs",
+        "code": 0,
+        "seconds": 7.6,
+        "pass": true
+      },
+      {
+        "name": "media-story",
+        "script": "test-media-story.mjs",
+        "code": 0,
+        "seconds": 270.1,
+        "pass": true
+      },
+      {
+        "name": "boundaries-cdp",
+        "pass": true,
+        "evidence": "boundaries-cdp/boundaries.json"
+      },
+      {
+        "name": "boundaries-webkit",
+        "pass": true,
+        "evidence": "boundaries-webkit/boundaries.json"
+      },
+      {
+        "name": "touch-webkit",
+        "pass": true,
+        "evidence": "touch-webkit/touch-controls.json"
+      }
+    ],
+    "supersedes": "regression.json 中舊 D 站位／單次滑鼠指向的 boundaries 失敗；改用 CDP 真觸控／WebKit 校正指向後重跑四關，原失敗保留。",
+    "pass": true
+  },
+  "flowAndPlayback": {
+    "desktop": {
+      "pass": true,
+      "evidence": "flow-desktop/flow.json"
+    },
+    "mobile": {
+      "pass": true,
+      "evidence": "flow-mobile/flow.json"
+    },
+    "naturalDesktop": {
+      "pass": true,
+      "evidence": "natural-chromium-final/full-playback-report.json"
+    },
+    "naturalWebKit": {
+      "pass": true,
+      "evidence": "natural-webkit-final/full-playback-report.json"
+    }
+  },
+  "unitTests": 55,
+  "objects": 86,
+  "models": 109,
+  "directionImages": 436,
+  "markdownDocuments": 34,
+  "limits": [
+    "實體 iPhone／iPad 與各 GPU 機型未測試",
+    "首次玩家盲測未測試",
+    "多瀏覽器 SwiftShader 量測不作硬體效能達標聲明"
+  ],
+  "pass": true,
+  "finalCollisionChecks": {
+    "flow-desktop-final": {
+      "pass": true,
+      "evidence": "flow-desktop-final/flow.json"
+    },
+    "flow-mobile-final": {
+      "pass": true,
+      "evidence": "flow-mobile-final/flow.json"
+    },
+    "boundaries-cdp-final": {
+      "pass": true,
+      "evidence": "boundaries-cdp-final/boundaries.json"
+    }
+  },
+  "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14"
+}

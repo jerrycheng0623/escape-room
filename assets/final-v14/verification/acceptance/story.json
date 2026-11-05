@@ -1,0 +1,19 @@
+{
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "date": "2026-11-05T03:09:33.525Z",
+  "method": "Isolated engineering ending fixture derived from real completed UI run; both films at 1x with natural ended; not counted as a new-game full playthrough",
+  "cases": [
+    {
+      "engine": "webkit",
+      "errors": [],
+      "naturalEpilogue": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "errors": [],
+      "naturalEpilogue": true,
+      "pass": true
+    }
+  ]
+}

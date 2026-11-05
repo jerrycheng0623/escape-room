@@ -1,0 +1,953 @@
+{
+  "version": 14,
+  "date": "2026-11-04T17:03:04.105Z",
+  "checks": [
+    {
+      "id": "a-fragment0",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "viewpoint": [
+        7.060000000000002,
+        9.6
+      ]
+    },
+    {
+      "id": "a-fragment1",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        5.740000000000001,
+        7.6800000000000095
+      ]
+    },
+    {
+      "id": "a-fragment2",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        8.5,
+        9.000000000000004
+      ]
+    },
+    {
+      "id": "a-r3",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "viewpoint": [
+        8.5,
+        8.520000000000007
+      ]
+    },
+    {
+      "id": "a-r2",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "viewpoint": [
+        8.260000000000002,
+        9.240000000000002
+      ]
+    },
+    {
+      "id": "a-memo",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        8.5,
+        9.360000000000001
+      ]
+    },
+    {
+      "id": "a-letter",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "viewpoint": [
+        7.3000000000000025,
+        9.6
+      ]
+    },
+    {
+      "id": "a-card",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "viewpoint": [
+        6.940000000000002,
+        9.6
+      ]
+    },
+    {
+      "id": "a-invite",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "viewpoint": [
+        8.5,
+        9.360000000000001
+      ]
+    },
+    {
+      "id": "a-luggage",
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "viewpoint": [
+        5.740000000000001,
+        7.80000000000001
+      ]
+    },
+    {
+      "id": "a-stay",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        5.980000000000001,
+        7.80000000000001
+      ]
+    },
+    {
+      "id": "a-scarf",
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      },
+      "viewpoint": [
+        7.900000000000003,
+        7.92000000000001
+      ]
+    },
+    {
+      "id": "a-coat",
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      },
+      "viewpoint": [
+        8.260000000000002,
+        8.04000000000001
+      ]
+    },
+    {
+      "id": "a-cup",
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "viewpoint": [
+        5.740000000000001,
+        8.280000000000008
+      ]
+    },
+    {
+      "id": "a-stapler",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "viewpoint": [
+        8.38,
+        9.120000000000003
+      ]
+    },
+    {
+      "id": "a-pen",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "viewpoint": [
+        7.900000000000003,
+        8.760000000000005
+      ]
+    },
+    {
+      "id": "a-mirror",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        5.740000000000001,
+        7.440000000000009
+      ]
+    },
+    {
+      "id": "a-bell",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.25
+      },
+      "viewpoint": [
+        8.38,
+        8.280000000000008
+      ]
+    },
+    {
+      "id": "a-panel",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.22
+      },
+      "viewpoint": [
+        8.5,
+        7.80000000000001
+      ]
+    },
+    {
+      "id": "a-bookmark",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        8.5,
+        7.080000000000009
+      ]
+    },
+    {
+      "id": "a-hook0",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        8.260000000000002,
+        6.6000000000000085
+      ]
+    },
+    {
+      "id": "a-hook1",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        7.540000000000003,
+        7.92000000000001
+      ]
+    },
+    {
+      "id": "a-hook2",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        8.260000000000002,
+        7.6800000000000095
+      ]
+    },
+    {
+      "id": "a-hook3",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        8.5,
+        7.80000000000001
+      ]
+    },
+    {
+      "id": "a-hook4",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        8.38,
+        8.04000000000001
+      ]
+    },
+    {
+      "id": "a-hook5",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "viewpoint": [
+        8.5,
+        8.160000000000009
+      ]
+    },
+    {
+      "id": "b-f27",
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-f28",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-f31",
+      "support": {
+        "id": "drying-line",
+        "y": 1.65
+      },
+      "viewpoint": [
+        11.12,
+        8.660000000000002
+      ]
+    },
+    {
+      "id": "b-o12",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-p28",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-t00",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "viewpoint": [
+        11.479999999999997,
+        8.9
+      ]
+    },
+    {
+      "id": "b-audio",
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-edge",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-back",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-reader",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-shutter",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "viewpoint": [
+        11.719999999999995,
+        8.9
+      ]
+    },
+    {
+      "id": "b-sleeve",
+      "support": {
+        "id": "west-shelf",
+        "y": 0.55
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-battery",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "b-timer",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "viewpoint": [
+        11.239999999999998,
+        8.9
+      ]
+    },
+    {
+      "id": "b-brush",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "viewpoint": [
+        11,
+        8.780000000000001
+      ]
+    },
+    {
+      "id": "b-glove",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "viewpoint": [
+        11,
+        8.9
+      ]
+    },
+    {
+      "id": "c-rope",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "viewpoint": [
+        -2.700000000000002,
+        16.039999999999996
+      ]
+    },
+    {
+      "id": "c-box",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "viewpoint": [
+        -2.820000000000002,
+        16.039999999999996
+      ]
+    },
+    {
+      "id": "c-upper",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-lower",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "viewpoint": [
+        -1.5000000000000009,
+        15.08
+      ]
+    },
+    {
+      "id": "c-old",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "viewpoint": [
+        -2.700000000000002,
+        16.039999999999996
+      ]
+    },
+    {
+      "id": "c-mod",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "viewpoint": [
+        -1.620000000000001,
+        15.08
+      ]
+    },
+    {
+      "id": "c-basket",
+      "support": {
+        "id": "basket-stop",
+        "y": 1
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-a0",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.5700000000000003
+      },
+      "viewpoint": [
+        0.7799999999999996,
+        15.2
+      ]
+    },
+    {
+      "id": "c-m",
+      "support": {
+        "id": "fixed-mount",
+        "y": 0.9700000000000001
+      },
+      "viewpoint": [
+        0.7799999999999996,
+        15.2
+      ]
+    },
+    {
+      "id": "c-f",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.67
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-oldhook",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.9700000000000002
+      },
+      "viewpoint": [
+        0.1799999999999996,
+        15.2
+      ]
+    },
+    {
+      "id": "c-ring",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.0700000000000003
+      },
+      "viewpoint": [
+        -2.2200000000000015,
+        16.039999999999996
+      ]
+    },
+    {
+      "id": "c-pan",
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-history",
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "viewpoint": [
+        1.0199999999999996,
+        15.2
+      ]
+    },
+    {
+      "id": "c-hatch",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.3399999999999999
+      },
+      "viewpoint": [
+        1.2599999999999998,
+        15.2
+      ]
+    },
+    {
+      "id": "timber-0",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.7400000000000002,
+        14.96
+      ]
+    },
+    {
+      "id": "timber-1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        2.580000000000001,
+        15.08
+      ]
+    },
+    {
+      "id": "iron-0",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "iron-1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        2.2200000000000006,
+        15.2
+      ]
+    },
+    {
+      "id": "sand-0",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "sand-1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.7400000000000002,
+        15.2
+      ]
+    },
+    {
+      "id": "stone-0",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "stone-1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-diary",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "c-watch",
+      "support": {
+        "id": "storage-crate",
+        "y": 1.35
+      },
+      "viewpoint": [
+        -2.4600000000000017,
+        16.039999999999996
+      ]
+    },
+    {
+      "id": "c-blood",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "viewpoint": [
+        -2.1000000000000014,
+        15.919999999999995
+      ]
+    },
+    {
+      "id": "c-surface",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "viewpoint": [
+        1.5,
+        15.2
+      ]
+    },
+    {
+      "id": "d-R1",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        9.880000000000013,
+        18.24
+      ]
+    },
+    {
+      "id": "d-R2",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-R3",
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "viewpoint": [
+        9.520000000000016,
+        16.799999999999986
+      ]
+    },
+    {
+      "id": "d-Q1",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "viewpoint": [
+        11.080000000000005,
+        18.36
+      ]
+    },
+    {
+      "id": "d-Q2",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        9.400000000000016,
+        17.27999999999999
+      ]
+    },
+    {
+      "id": "d-Q3",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-class",
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "viewpoint": [
+        9.760000000000014,
+        17.03999999999999
+      ]
+    },
+    {
+      "id": "d-board",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "viewpoint": [
+        11.680000000000001,
+        18.24
+      ]
+    },
+    {
+      "id": "d-pen",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "viewpoint": [
+        11.680000000000001,
+        17.999999999999996
+      ]
+    },
+    {
+      "id": "d-rod",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-drawers",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "viewpoint": [
+        10.960000000000006,
+        17.879999999999995
+      ]
+    },
+    {
+      "id": "d-cabinet",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        11.92,
+        18.6
+      ]
+    },
+    {
+      "id": "d-folder",
+      "support": {
+        "id": "files",
+        "y": -1.1
+      },
+      "viewpoint": [
+        9.280000000000017,
+        18.36
+      ]
+    },
+    {
+      "id": "d-cup",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-clock",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-towel",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        11.8,
+        18.6
+      ]
+    },
+    {
+      "id": "d-label",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "viewpoint": [
+        9.640000000000015,
+        17.759999999999994
+      ]
+    }
+  ],
+  "failures": []
+}

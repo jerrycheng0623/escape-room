@@ -1,3 +1,5 @@
+> 版本註記（2026-11-05）：本文保留原始來源或歷史交付，不是正式版 v14 的操作規格。現況請以專案根目錄 PLAN.md、verify.md、test.md 與 3D/final-v14/manifest.json 為準；本文舊版本的預覽入口及舊模型不會重新啟用。
+
 # 新版美術來源 v4
 
 2026-11-03｜原畫images/、角色portraits/、使用者參考references/與生成紀錄generation/保留，正式影片與網站已採v5完整故事。

@@ -1,0 +1,4087 @@
+{
+  "version": 14,
+  "generatedAt": "2026-11-05T02:59:13.286Z",
+  "source": "web/src/game/roomModelsV4.js + propModelsFinal.js",
+  "directions": [
+    "front",
+    "back",
+    "left",
+    "right"
+  ],
+  "method": "遊戲實際模型、正交攝影機、俯角31度；紙張可見表面；AI圖僅作參考，不代替模型",
+  "models": [
+    {
+      "id": "a-fragment0",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "7cb2ed7965fb95a6394e0751bb5e4e6c0fe56248c800e4ab6991eeebadae65b2",
+          "bytes": 100508
+        },
+        "front.webp": {
+          "sha256": "ecd3038f198822560a8167ed25304edab4abaed91febe957f0139c359ac00ce5",
+          "bytes": 2230
+        },
+        "back.webp": {
+          "sha256": "041c00e5843a325382152d4216f67beac735c3e04734f0d00da45dddd014a748",
+          "bytes": 2130
+        },
+        "left.webp": {
+          "sha256": "e832d31c921366fb784f5a379e0c808224076fd1e5d7be64cc0ff578909d786a",
+          "bytes": 1962
+        },
+        "right.webp": {
+          "sha256": "5b2750e6ca4e60f0d14573a87eefc8ab1eca8e04b87ff0d833c3866630f1574f",
+          "bytes": 2046
+        }
+      }
+    },
+    {
+      "id": "a-fragment1",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "b669cc72b97e1ae3446ee2d7a281c9cccdaf39fd9fca41f472b416f814725b04",
+          "bytes": 100968
+        },
+        "front.webp": {
+          "sha256": "bf7daca3a6a94453358f957fb551744da537b78eb94b2c8e6c750b43fd2db049",
+          "bytes": 2336
+        },
+        "back.webp": {
+          "sha256": "096adbde3d41afb50a229b16ac26eed60304c714b021ac8a394035f12520718a",
+          "bytes": 2196
+        },
+        "left.webp": {
+          "sha256": "bc41b2c2da4209d654d97ac58e76d9a2c07c48f5f95a662b39a64e940792505e",
+          "bytes": 1990
+        },
+        "right.webp": {
+          "sha256": "d73cdc033a6cec0887227f7b9b1715b6de53ec74ba57fa63d873b4e925069bb1",
+          "bytes": 2130
+        }
+      }
+    },
+    {
+      "id": "a-fragment2",
+      "room": "A",
+      "name": "逐字稿殘頁",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "9225e7f1fd7c8806a448837b822f00525edb28651c1a9f59061ba63d5973b0f1",
+          "bytes": 100640
+        },
+        "front.webp": {
+          "sha256": "9257f647cae5f6b12b4b81439e4690f8672ac63f12280c87f4135bf2eb252e4d",
+          "bytes": 2248
+        },
+        "back.webp": {
+          "sha256": "a4490397f8f327849d2fd7ccad5a6374a4aba2e02ffb96c7fb250697c458bc83",
+          "bytes": 2158
+        },
+        "left.webp": {
+          "sha256": "df7979644ec1aba608d9220f7a4c3fd9803310d528b924a4da5238cc31a28f76",
+          "bytes": 1968
+        },
+        "right.webp": {
+          "sha256": "a9e02b87b4a3a80af88f139823ac4048eaf3eb3aaa0a5195fd290b7a1e8a2638",
+          "bytes": 2092
+        }
+      }
+    },
+    {
+      "id": "a-r3",
+      "room": "A",
+      "name": "採訪整理稿",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "5227d62b2a376f06c8756dbe5fe57181c4726b1bd8e50d6619cf62ad7927045e",
+          "bytes": 103496
+        },
+        "front.webp": {
+          "sha256": "0c016ad247dda420f29aeadb824566b8e9c74698f4e07512fb2475cf3389d1f4",
+          "bytes": 2470
+        },
+        "back.webp": {
+          "sha256": "db3549907be31aced82db06e24ebc61b561b7c39b74af9d909d7fa7c604155e5",
+          "bytes": 2360
+        },
+        "left.webp": {
+          "sha256": "591b87d7775cbe04fe96af073601e98c6b88d064cda8a31f7f509c23a6432d51",
+          "bytes": 2206
+        },
+        "right.webp": {
+          "sha256": "d3a415ee7ed12099a62b3a59496420c968f8359cf970de4b6b2fe80f849439b0",
+          "bytes": 2334
+        }
+      }
+    },
+    {
+      "id": "a-r2",
+      "room": "A",
+      "name": "另一份整理稿",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "f4d77ba6cf34c3c4865c5addc0f6e4975db1e1c8b67d6441e73aa67218ceed4e",
+          "bytes": 98412
+        },
+        "front.webp": {
+          "sha256": "2a841bc46910cf01bbaef8c76cf0c44b420b128805ab22c522a3e0adfa91fc3a",
+          "bytes": 2008
+        },
+        "back.webp": {
+          "sha256": "622f218ba47b65d2ad05b0d75687d191604367fcf490fbe9041c933c1139285c",
+          "bytes": 1918
+        },
+        "left.webp": {
+          "sha256": "d097c16f011915b89150b1c12b75943343a8f9c54de4c6812adfdb83699b8967",
+          "bytes": 1800
+        },
+        "right.webp": {
+          "sha256": "522a862511a9611fb0255629c597c779474341e46191c35ca9785616063f5f9c",
+          "bytes": 1910
+        }
+      }
+    },
+    {
+      "id": "a-memo",
+      "room": "A",
+      "name": "揉皺的校稿紙",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "0ac6d0bcdadadd6baf1a650aa298c1ec366b70fd627d3e8dd93fbe60f964f9db",
+          "bytes": 98128
+        },
+        "front.webp": {
+          "sha256": "2e49bdff4efc63ceeac0d4bd0a48a6ae941463005b3b11bcfbff13822ea60ca3",
+          "bytes": 1992
+        },
+        "back.webp": {
+          "sha256": "f35bc15ceccbe9ebf4f88efcb64da8d68565d546e00b96c10bd7a84b41b7449b",
+          "bytes": 1936
+        },
+        "left.webp": {
+          "sha256": "43ea8294b342c029d0ce5beea754452043f8dc3438a17aff4c14643e84ad8afd",
+          "bytes": 1806
+        },
+        "right.webp": {
+          "sha256": "a58f573b81ed7b87b2a3ec6d013044759b0a3e5651685f47f6e80bc6ef2afedc",
+          "bytes": 1928
+        }
+      }
+    },
+    {
+      "id": "a-letter",
+      "room": "A",
+      "name": "床邊信封",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "135319d31a34ad0bc52c0b8383203ceb1962c796f7abef81f985491ca60d7e84",
+          "bytes": 96456
+        },
+        "front.webp": {
+          "sha256": "b7dcc09368ec60394911db4f573f3c5eb010c300767c499f14ec198efebf5960",
+          "bytes": 1844
+        },
+        "back.webp": {
+          "sha256": "436f37e713f20448c64819aab377158c47e04587c4d3ce4225bd03e57a288724",
+          "bytes": 1778
+        },
+        "left.webp": {
+          "sha256": "7b53324218d09a30c89259cf1945eb434a7d94b032c4b1779c1ae72b1af6fad5",
+          "bytes": 1674
+        },
+        "right.webp": {
+          "sha256": "ebe55033358a85c4473203ceb991495e136b6410616add962bdee472ca7df574",
+          "bytes": 1808
+        }
+      }
+    },
+    {
+      "id": "a-card",
+      "room": "A",
+      "name": "名片",
+      "support": {
+        "id": "bed",
+        "y": 1.12
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "b48946811d7edc77f05fbfa23ba7cfb54097e184f8f7f4e9738443c369cfb053",
+          "bytes": 96156
+        },
+        "front.webp": {
+          "sha256": "203083f74f21ef90f0067407dc92d129d24400e6681263014d27205eb3a79b10",
+          "bytes": 1808
+        },
+        "back.webp": {
+          "sha256": "daaf25054f7a46f18783ffeb0de320c8642695dd85651d1fd859333a7ce76a19",
+          "bytes": 1752
+        },
+        "left.webp": {
+          "sha256": "fb4bd7f929a81ed1560053f51695a16169bfdf460114cd9b597c7c1cc56055c7",
+          "bytes": 1662
+        },
+        "right.webp": {
+          "sha256": "7efacc01b227943e17c35ef231f5e45a2d29682d9ee837128472a0fb7a9be3b4",
+          "bytes": 1790
+        }
+      }
+    },
+    {
+      "id": "a-invite",
+      "room": "A",
+      "name": "邀請函",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "12beb3ef6b0bbc52b703d4f8d03866b273c9941b9448d185b70369f5cb7d05ce",
+          "bytes": 96248
+        },
+        "front.webp": {
+          "sha256": "8000a445d7a7184f74d10df1567ff52ff109462c5ab4f882503a2480f66c6837",
+          "bytes": 1846
+        },
+        "back.webp": {
+          "sha256": "4ad716512de624f818fb54b9c2c88e5bdc01ae823b9568c243498682045d271d",
+          "bytes": 1764
+        },
+        "left.webp": {
+          "sha256": "1ad443afc113132f9932a6cbba6b5866456b7606ba51e84905e4bc273e2b156e",
+          "bytes": 1700
+        },
+        "right.webp": {
+          "sha256": "df4cd85fb60537dd07a5ed64951dc53ea28f06e431861c6e50e3ac5310bb0697",
+          "bytes": 1800
+        }
+      }
+    },
+    {
+      "id": "a-luggage",
+      "room": "A",
+      "name": "行李櫃",
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "size": [
+        0.5299999713897705,
+        0.36000001430511475,
+        0.3499999940395355
+      ],
+      "triangles": 2788,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "7a35de8167666aae1374cc437a30564ceb9199dbb5f09286c7456ecca6437844",
+          "bytes": 530868
+        },
+        "front.webp": {
+          "sha256": "09ec79cf317d841d2f06a0eee4917a381966dbf8ad4a7816b6711dd7a35a3352",
+          "bytes": 8886
+        },
+        "back.webp": {
+          "sha256": "02271020170514065179e17b2231fc4cc2a660836274226b6c4f64110550b1ee",
+          "bytes": 7348
+        },
+        "left.webp": {
+          "sha256": "8448aa600f77f377f2a794d8e706fb1376577027cc2314103b2fd3f5dd208754",
+          "bytes": 8666
+        },
+        "right.webp": {
+          "sha256": "32e67f6e576d84e94325125d79be38c31b4a4a54c33ab47905f2c1bbd79e0000",
+          "bytes": 9164
+        }
+      }
+    },
+    {
+      "id": "a-stay",
+      "room": "A",
+      "name": "住宿小卡",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "edf58796f01105130db247f6de03005da4603c56fbbdd01339761f2f7ab77826",
+          "bytes": 95996
+        },
+        "front.webp": {
+          "sha256": "9f08791eab3f99b829c3e923b3f2cd7c229d5ae3a2cee72562b571635237d455",
+          "bytes": 1822
+        },
+        "back.webp": {
+          "sha256": "ec34805591cd723480f93ceb0124a4084eb0f498e6454783d4f883abd2203730",
+          "bytes": 1708
+        },
+        "left.webp": {
+          "sha256": "351df5b8d046b11f43199cac474484f0b34092cd7f20f216641b6ff1e20acedf",
+          "bytes": 1646
+        },
+        "right.webp": {
+          "sha256": "76e2c45c797cff60446f51b3ef934f74249c3cbab5dc954ce5212bad3d443f8d",
+          "bytes": 1762
+        }
+      }
+    },
+    {
+      "id": "a-scarf",
+      "room": "A",
+      "name": "褪色圍巾",
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      },
+      "size": [
+        0.17000000178813934,
+        0.6499999761581421,
+        0.07999999821186066
+      ],
+      "triangles": 408,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "d62edfcb4a815077099bbe4b3a16017aab25cae3010625c042c256b3300f46d6",
+          "bytes": 42952
+        },
+        "front.webp": {
+          "sha256": "05fb7ec87acc1487da60b5a25be7b042ccaf97ff1df0cf2d4b5942b63231b47a",
+          "bytes": 2622
+        },
+        "back.webp": {
+          "sha256": "efc3930d67989f83ccadaba8332b104697c38ccda60d95a49e0f4ff2c49289f3",
+          "bytes": 2344
+        },
+        "left.webp": {
+          "sha256": "711ddf16bd8d8d4f3c2c9da4fe57e7aba98d640a4e1617e32f73c8e223a333a7",
+          "bytes": 1352
+        },
+        "right.webp": {
+          "sha256": "da8030b6e7925cec92f54ce4d220001c390e9c57c3503c8e691ecacd545b4572",
+          "bytes": 1472
+        }
+      }
+    },
+    {
+      "id": "a-coat",
+      "room": "A",
+      "name": "厚外套",
+      "support": {
+        "id": "coat-hook",
+        "y": 1.175
+      },
+      "size": [
+        0.446540892124176,
+        0.8500000238418579,
+        0.12999999523162842
+      ],
+      "triangles": 3044,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "8d2b88eb69728d9afb1f4281f6b082760bd5d5e053a0a7e25b630ffb82d35838",
+          "bytes": 403816
+        },
+        "front.webp": {
+          "sha256": "ddfe7459e5f18962805ef6b81f2de66a10faca38d565dc89d7d3cfc58512e1d0",
+          "bytes": 4740
+        },
+        "back.webp": {
+          "sha256": "6ea7ac3b19c7d043c77a6bef627395eb798dc3c5fc26989b04f4cb22f4fb1c79",
+          "bytes": 4028
+        },
+        "left.webp": {
+          "sha256": "24fe4a7baf5851e770b1b4d0637dc4fc1ec5a2e5699abe30d0f5225982e7fc69",
+          "bytes": 1824
+        },
+        "right.webp": {
+          "sha256": "33cf35887dfa84fb7705580ab42980ff4bbec9f168eb56e32f4abfeeb50ee447",
+          "bytes": 1836
+        }
+      }
+    },
+    {
+      "id": "a-cup",
+      "room": "A",
+      "name": "空茶杯",
+      "support": {
+        "id": "dresser",
+        "y": 1.35
+      },
+      "size": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.11999999731779099
+      ],
+      "triangles": 576,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "1124fad659678a1c043ae781caecfc995ccf13da1fb686ee2a8c390425e3c237",
+          "bytes": 56572
+        },
+        "front.webp": {
+          "sha256": "c6a22e8048907ca3a1be8dc67e834658106922c7064b4e5ce23f01989c38a83f",
+          "bytes": 4734
+        },
+        "back.webp": {
+          "sha256": "1287a949352bc8d3c88be91e5fd111301f6088c11a46fc03eeacda5da0405dd1",
+          "bytes": 4600
+        },
+        "left.webp": {
+          "sha256": "5c16f9fa5cd9441629ee0a8e9517f28766baa134edcc24b0b1424e7a6aa15d56",
+          "bytes": 3708
+        },
+        "right.webp": {
+          "sha256": "bf0dbbb6d082a19dd2a8daeb1e5f2233ea10c162a128e4cbb830cd1103943cf5",
+          "bytes": 4188
+        }
+      }
+    },
+    {
+      "id": "a-stapler",
+      "room": "A",
+      "name": "訂書機",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "size": [
+        0.05999999865889549,
+        0.05999999865889549,
+        0.1899999976158142
+      ],
+      "triangles": 680,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "c651d7c9ffe3042a7f28472a8e797fc81135925017ea35021c707d47eecc83f6",
+          "bytes": 323320
+        },
+        "front.webp": {
+          "sha256": "117ebad9455d1de70f0bd2c11b92bac1335fae457d1d136b4c47c2ffa70c058f",
+          "bytes": 1502
+        },
+        "back.webp": {
+          "sha256": "360d30715370bbdbca7ef0b7b2ce597edaa62ffdb4c5acae8e860f4caf3b495b",
+          "bytes": 1418
+        },
+        "left.webp": {
+          "sha256": "73e6593ce661a81953985011e3ca22554d1e428486c073c5fe1f352608cb5680",
+          "bytes": 1622
+        },
+        "right.webp": {
+          "sha256": "86088cce49ae9ba55753811259a0efdd22a2e8b3fe0ca0bc08fa7cfcfb1fc323",
+          "bytes": 1608
+        }
+      }
+    },
+    {
+      "id": "a-pen",
+      "room": "A",
+      "name": "細筆",
+      "support": {
+        "id": "desk",
+        "y": 0.87
+      },
+      "size": [
+        0.2199999988079071,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "triangles": 104,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "cc35d475220d3548233094b450e174b4b83ace20042cd9cc64d75062c38e5a17",
+          "bytes": 268088
+        },
+        "front.webp": {
+          "sha256": "8a757726817aba81b1e5ddd9409996311cc7275f131091db5c9c10288f59b378",
+          "bytes": 2184
+        },
+        "back.webp": {
+          "sha256": "8dbceafdc5c7db2cdb022360e21b81b995c18bb81742a8530879d8583134640d",
+          "bytes": 1810
+        },
+        "left.webp": {
+          "sha256": "a45be8ab78816ceae8073b1b6fb1907501f3c0fcb2f23a72bf99da1d8756adf8",
+          "bytes": 1684
+        },
+        "right.webp": {
+          "sha256": "a14198e3a632c7de2d8c1a109c4fe15b741c300a6982713dcd9748f4a152bad1",
+          "bytes": 1752
+        }
+      }
+    },
+    {
+      "id": "a-mirror",
+      "room": "A",
+      "name": "小鏡片",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.15000000596046448,
+        0.02500000037252903,
+        0.20000000298023224
+      ],
+      "triangles": 312,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "68ea2802d0ed73ee148b38b7b6fe728e9ef0356febccee428b1da560e32e0148",
+          "bytes": 32072
+        },
+        "front.webp": {
+          "sha256": "54b01367bc6389c8a591cea90c031d5129656ce078352c37220b036099b5ab96",
+          "bytes": 1434
+        },
+        "back.webp": {
+          "sha256": "158e4865807a4943dea1013e00167483989928ac2be517b29153aa9653e883ce",
+          "bytes": 1438
+        },
+        "left.webp": {
+          "sha256": "22feb1f31700c12ff555d580b33d429071a3d7bdcf329cdd1175b3ce1424653d",
+          "bytes": 1552
+        },
+        "right.webp": {
+          "sha256": "75ec1103d4bb64585ef2c810f7592a2354cffb799ef29d04077e8d432f14e393",
+          "bytes": 1494
+        }
+      }
+    },
+    {
+      "id": "a-bell",
+      "room": "A",
+      "name": "鈴盒",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.25
+      },
+      "size": [
+        0.1899999976158142,
+        0.20000000298023224,
+        0.11999999731779099
+      ],
+      "triangles": 760,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "b92e81d11cd5da057ca6e968996e906bb9384833f4b8d82b5160aed6cef69fe2",
+          "bytes": 331904
+        },
+        "front.webp": {
+          "sha256": "2e1202784e9ba2317284a57ac632339e7c771fbaba38b1ac83cc48443974a676",
+          "bytes": 3740
+        },
+        "back.webp": {
+          "sha256": "24ff84d26a7ae95bbb50f8441c708b23c19f88364a158a482ecfdddbc4807e99",
+          "bytes": 3370
+        },
+        "left.webp": {
+          "sha256": "8ccd7ab6e64e8fdd677f6dd189468f7970943e33f02670f354d6d858c4e30461",
+          "bytes": 3152
+        },
+        "right.webp": {
+          "sha256": "9c83dc679850b68ad5562e2bde68ab5caeb501e6f60c5584eee4553aad2defe4",
+          "bytes": 3470
+        }
+      }
+    },
+    {
+      "id": "a-panel",
+      "room": "A",
+      "name": "衣架背板",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.22
+      },
+      "size": [
+        2.450000047683716,
+        0.46000000834465027,
+        0.03500000014901161
+      ],
+      "triangles": 1772,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "5402530e9cc0f27bf82d00a661ac1428caeecd57517ce0e2e55f9f0e46b4ea61",
+          "bytes": 322180
+        },
+        "front.webp": {
+          "sha256": "be5ce988b41277a4df2a5984fd7bd8e460e74eae484b99f3bb661c428a35d518",
+          "bytes": 2386
+        },
+        "back.webp": {
+          "sha256": "b541b014fa66ba48393914dce9760bffcd62173fb9475534ec5975b09fb5b5a9",
+          "bytes": 1490
+        },
+        "left.webp": {
+          "sha256": "7db7bc8da49dba97df9c09707a28852b26ffc649359dbcc4afef8b0a4c777502",
+          "bytes": 1180
+        },
+        "right.webp": {
+          "sha256": "58f293a071e6170f1528e9e15aebcd92f98d7e49011a5b9e764a457c221c3c2b",
+          "bytes": 1172
+        }
+      }
+    },
+    {
+      "id": "a-bookmark",
+      "room": "A",
+      "name": "帶孔硬紙書籤",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.2199999988079071,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "triangles": 300,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "099c253401f10e354be1d94133c1c0cd45ba9854f2c50bace24edbb59412922c",
+          "bytes": 30956
+        },
+        "front.webp": {
+          "sha256": "1ebc0a4cfbaf27b0e017d86c1323d981a46d42a394d3f80f05c001bedddfa4ef",
+          "bytes": 1588
+        },
+        "back.webp": {
+          "sha256": "22c83dd0b79e6dc8211562d6cc064da31840a99f0ac5e2cfabf2ce659bf7821a",
+          "bytes": 1578
+        },
+        "left.webp": {
+          "sha256": "cbe0dfe5c82c825508d921a0454cc2ab4b8291250f8ed2ee3a4b541b0d204ca2",
+          "bytes": 1456
+        },
+        "right.webp": {
+          "sha256": "b93b537b08840abcaba36aa0c242222e4846b78e7ad0d603cfeb26e23c5492e5",
+          "bytes": 1442
+        }
+      }
+    },
+    {
+      "id": "a-hook0",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "c608c895e7d5f10fec37e7a632ba6dc4278c11e785d1dc255dd1d3afa4e54cfc",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "a-hook1",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "1fc8e51eb1d0ad6733442f15571638c507a15d974f586dc1a08785ac57a376f0",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "a-hook2",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "f7daf26c0859633599fb853b2c8bf1efc61fc19202e05ed50d8234523ab58b74",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "a-hook3",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "1ee4e7f21ef054cd9672f2e4c7f9aa63a5ff7ceae5e27e855023794fc2122150",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "a-hook4",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "bf78364649e162b2a3cbf7ad4c047d5d853e2510d00a9d07a83097637eaa78ea",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "a-hook5",
+      "room": "A",
+      "name": "衣架掛鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.675
+      },
+      "size": [
+        0.11999999731779099,
+        0.25,
+        0.12999999523162842
+      ],
+      "triangles": 396,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "e869975cc1ed489de6c7d6f0a6c6be93d5644b6ac42edf3464da65f382f410db",
+          "bytes": 190132
+        },
+        "front.webp": {
+          "sha256": "ad1395373e5f1d5a84fa34320280daec6349cbe37c6cbeb73c4cd6fb356be21d",
+          "bytes": 4146
+        },
+        "back.webp": {
+          "sha256": "dd6aefeecb40929073459875a1ee56b88f98e981b448dd2bd76ac82f60d53278",
+          "bytes": 2318
+        },
+        "left.webp": {
+          "sha256": "bc12ec3369cf8bf03419fe27e6319449dc73d4c190cdada914784cd2165efb7b",
+          "bytes": 2546
+        },
+        "right.webp": {
+          "sha256": "7e3f32e4aaf1950f78300959a1028022ca0422bd9a1844c8e14fe4b270e93f89",
+          "bytes": 3006
+        }
+      }
+    },
+    {
+      "id": "fixture-A-desk",
+      "room": "A",
+      "name": "fixture-A-desk",
+      "support": null,
+      "size": [
+        1.7599999904632568,
+        0.8699999986588955,
+        1.0349999995529648
+      ],
+      "triangles": 84,
+      "meshes": 7,
+      "files": {
+        "model.glb": {
+          "sha256": "5ee2b2c0f14355d9df07f026b5db3c245f3a53e20e7957ea9a271c8c0dcd4dfc",
+          "bytes": 163288
+        },
+        "front.webp": {
+          "sha256": "177f1b87d94218bdf480b68236ab7786d6a5ddd99dd96cb86ec985034552d070",
+          "bytes": 5214
+        },
+        "back.webp": {
+          "sha256": "1a8997b596423f35e32bdb22c886d4d9fd37c26a8bac433769fe094a84d9b448",
+          "bytes": 5114
+        },
+        "left.webp": {
+          "sha256": "3501ec4632b3c934e16464724d0341a5f82bb5ba86bc7036185476727b3a92ce",
+          "bytes": 4408
+        },
+        "right.webp": {
+          "sha256": "45800afdddae119e9a74698233b170dfc8296d6771816f8793aa6da2c133d230",
+          "bytes": 4720
+        }
+      }
+    },
+    {
+      "id": "fixture-A-bed",
+      "room": "A",
+      "name": "fixture-A-bed",
+      "support": null,
+      "size": [
+        2,
+        1.239999992698431,
+        2.740000009536743
+      ],
+      "triangles": 84,
+      "meshes": 7,
+      "files": {
+        "model.glb": {
+          "sha256": "c39d2069ae72a6f307f563a4da05211cab740fcbd4d9873f1488aa118860e2d0",
+          "bytes": 166068
+        },
+        "front.webp": {
+          "sha256": "f46d7e2b0e8f9a9a8f853bcaa92e8405d765dcbe2011dda77e36395e70f58bc2",
+          "bytes": 6624
+        },
+        "back.webp": {
+          "sha256": "b7dab9b6703aa41bbf5244eff781c33b12a338b4d1c85969a90884b9135b4719",
+          "bytes": 6170
+        },
+        "left.webp": {
+          "sha256": "baf1f394897036b047fb1ff111459369d8a335d2cb6bb431c89ddf806fcdd5b7",
+          "bytes": 3992
+        },
+        "right.webp": {
+          "sha256": "d80eedacfe5e50d52226c61ad5e4ba8be17666ce0be1218da702325ac02d92a0",
+          "bytes": 4144
+        }
+      }
+    },
+    {
+      "id": "fixture-A-chair",
+      "room": "A",
+      "name": "fixture-A-chair",
+      "support": null,
+      "size": [
+        0.699999988079071,
+        1.120000010728836,
+        0.600000023841857
+      ],
+      "triangles": 72,
+      "meshes": 6,
+      "files": {
+        "model.glb": {
+          "sha256": "0a5f88079189cbc404ca6fc17ff426ebc3aec4106de9e859d4bf6c26aa446309",
+          "bytes": 161540
+        },
+        "front.webp": {
+          "sha256": "98b55fdae701f6f651fa9aea6e67fc226d24894196cbfbc2672961933d52c1d8",
+          "bytes": 4124
+        },
+        "back.webp": {
+          "sha256": "c02f08b9f1766e97b860dcbccae915a2a07567d76b6cefd58f865ea6291caf3f",
+          "bytes": 4130
+        },
+        "left.webp": {
+          "sha256": "f77650c15efded0290fba4053b16bf1fb69c0ec148eef0252b09a4f01edf72dd",
+          "bytes": 3530
+        },
+        "right.webp": {
+          "sha256": "e67d7a5707c51e54b17876a913b86c0b549e03fa800d1caf94847e6439687487",
+          "bytes": 3894
+        }
+      }
+    },
+    {
+      "id": "fixture-A-dresser",
+      "room": "A",
+      "name": "fixture-A-dresser",
+      "support": null,
+      "size": [
+        0.8999999761581421,
+        1.3500000081956387,
+        0.9849999935925009
+      ],
+      "triangles": 84,
+      "meshes": 7,
+      "files": {
+        "model.glb": {
+          "sha256": "af18246e4db0a161cfad1c2ce67df7d037e95aec86201bf6238694eb1fe121d8",
+          "bytes": 163444
+        },
+        "front.webp": {
+          "sha256": "32d2097a4f027555ae393aa00f959026c0c9eba0e972477c82c9b97ff675bd62",
+          "bytes": 4246
+        },
+        "back.webp": {
+          "sha256": "4ea48eea941becd289c10e3b0d0d508af070ea1534d5592e36093c036237f9e9",
+          "bytes": 4166
+        },
+        "left.webp": {
+          "sha256": "dcea9a43a3693c57493c7d053adeb5342f3aa85039c6f21c48501bddf82d9a33",
+          "bytes": 4246
+        },
+        "right.webp": {
+          "sha256": "ca5b829a537d7b349bca7194c9ebf84bf832cab295cd943001990cbcd89df287",
+          "bytes": 4590
+        }
+      }
+    },
+    {
+      "id": "room-A",
+      "room": "A",
+      "name": "room-A",
+      "support": null,
+      "size": [
+        7.479999780654907,
+        3.4600000381469727,
+        5.479999542236328
+      ],
+      "triangles": 13944,
+      "meshes": 88,
+      "files": {
+        "model.glb": {
+          "sha256": "c22697adeb5e4fd1da444983b518116f3ca917df4de1dbc55073b0fb719529e2",
+          "bytes": 2787928
+        },
+        "front.webp": {
+          "sha256": "53b48ee92cf0706aaf360e27750cf644b070ac7db36db2645bd5f9ba8f8cace8",
+          "bytes": 8890
+        },
+        "back.webp": {
+          "sha256": "6537859667460d3b31842a0714fc0e9be231c304ea9f4089c773730191b98c3f",
+          "bytes": 5970
+        },
+        "left.webp": {
+          "sha256": "865ae4ddabc46651464aa46ddecc9c2605ce66c45a466215c55ec83544437bcd",
+          "bytes": 4880
+        },
+        "right.webp": {
+          "sha256": "9de535bfb7500dc33456c795f530ec07c087336546dddf34bf98af6b9f742461",
+          "bytes": 6694
+        }
+      }
+    },
+    {
+      "id": "b-f27",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "size": [
+        0.30000001192092896,
+        0.013999999966472387,
+        0.20999999344348907
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "d8353c1cca4cafed260d8432475b8ac5088828e15283d6dd7688142d35b4cf11",
+          "bytes": 139880
+        },
+        "front.webp": {
+          "sha256": "260467ff5dbfa60e8b5b0d7eb7649ab5856ad502ac85cbe1a98417646149c2b5",
+          "bytes": 6624
+        },
+        "back.webp": {
+          "sha256": "44cdd70a85d8eff1d738e865632ad5c253bb1ffdb1005f1c748d7e0c747fd5cf",
+          "bytes": 6918
+        },
+        "left.webp": {
+          "sha256": "846a3dac5913c06fcd499674c9c579edae89940f978e03a636bf999d2d9134a7",
+          "bytes": 6862
+        },
+        "right.webp": {
+          "sha256": "946949b926b083f4a2876d7701a0a0109a6b41470437c6aa3d34833949f77c04",
+          "bytes": 6872
+        }
+      }
+    },
+    {
+      "id": "b-f28",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.30000001192092896,
+        0.013999999966472387,
+        0.20999999344348907
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "ecfb00435499bb053773248b4c1d833a72d64df63b3962ab84811f3bac02ad54",
+          "bytes": 135800
+        },
+        "front.webp": {
+          "sha256": "5b8d00839f1bd65eb95cc86ae5ece6ac7532c951a478ec92fb0147cfa615713e",
+          "bytes": 6852
+        },
+        "back.webp": {
+          "sha256": "8e6b6deb3975b0b6a750f1b71509f5e2cc53457173b3b3f9469c4c5c41a89f4a",
+          "bytes": 7092
+        },
+        "left.webp": {
+          "sha256": "f8beaae1138fad7638c05536865e90febe3b87285c608f93b0faab907bc21e28",
+          "bytes": 7032
+        },
+        "right.webp": {
+          "sha256": "dcbb52cd12d41baad9c026a04200463c5bdaf0a81b4093f33774c2c2355ab647",
+          "bytes": 7136
+        }
+      }
+    },
+    {
+      "id": "b-f31",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "drying-line",
+        "y": 1.65
+      },
+      "size": [
+        0.30000001192092896,
+        0.20999999344348907,
+        0.013999999966472387
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "113e37ce3050ddac36ea9673fd486fe6c72e5660c38ad4b718ba7a5bd78949b4",
+          "bytes": 136820
+        },
+        "front.webp": {
+          "sha256": "038a0d1d12cc953b8cfb9ca8cf95ec776eb4f44e7cae89c3d47504b9f3b4e8e2",
+          "bytes": 9548
+        },
+        "back.webp": {
+          "sha256": "8d4ea0f7fec6101a679a71352272f2a98cab5219674dd8182e71234ab29b84a8",
+          "bytes": 1522
+        },
+        "left.webp": {
+          "sha256": "bed126170e114bdd5456f32e6b7479b1b38080eb03d6be94a95af38461d9665e",
+          "bytes": 1676
+        },
+        "right.webp": {
+          "sha256": "5e3aa87752b0705113614d2dbc4a5640881f54fdaebd79db0b83ddab3d756e53",
+          "bytes": 1616
+        }
+      }
+    },
+    {
+      "id": "b-o12",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.30000001192092896,
+        0.013999999966472387,
+        0.20999999344348907
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "fe4d80cf6783e0e2e380b098220af838e73c06182a543698f928e85f127c4f18",
+          "bytes": 137056
+        },
+        "front.webp": {
+          "sha256": "5b2b90b425e5798a207a9d35d2c76e34b10638a362e6b1921dd2aa4685780811",
+          "bytes": 6614
+        },
+        "back.webp": {
+          "sha256": "0e9a1a7e8ae158e830b3a95d5e7cecd758dbeffec2f8440ba4498305088bc94f",
+          "bytes": 6644
+        },
+        "left.webp": {
+          "sha256": "be95313a9473f7b1b059d1f3abb256e931f4e36a1a8898ba7fc3ec8303c8f520",
+          "bytes": 7004
+        },
+        "right.webp": {
+          "sha256": "9bfbe0ffb3048e6ea193bc9a8af759bd2c50b6922ad403e3609b1eb6594cacbe",
+          "bytes": 6790
+        }
+      }
+    },
+    {
+      "id": "b-p28",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.30000001192092896,
+        0.013999999966472387,
+        0.20999999344348907
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "79b24327e85b9b03021147e88e3eb99ea048898973936651841d9e083b3f3b0d",
+          "bytes": 134952
+        },
+        "front.webp": {
+          "sha256": "5b78551664a744e57defcb217924293cdfcdf023f824439120d0f7966be58a5a",
+          "bytes": 6098
+        },
+        "back.webp": {
+          "sha256": "d3297383fcf03cad7932ddd2d333143738b874b1a939728e9fd51ac51ffed66a",
+          "bytes": 6028
+        },
+        "left.webp": {
+          "sha256": "12a4d346b4591afdb2116fa24f2f437074e174b1d45e0308e3612e631096c0e9",
+          "bytes": 6046
+        },
+        "right.webp": {
+          "sha256": "4c2f25bda00b0fc001cc1c67c3f37a932f53284b4b1c4489608bda778760ffb5",
+          "bytes": 6298
+        }
+      }
+    },
+    {
+      "id": "b-t00",
+      "room": "B",
+      "name": "底片夾",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "size": [
+        0.30000001192092896,
+        0.013999999966472387,
+        0.20999999344348907
+      ],
+      "triangles": 206,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "495f83eb0769548d02601037bc73bd421ed652f83ce49e025a4c1d8d3b08786d",
+          "bytes": 81868
+        },
+        "front.webp": {
+          "sha256": "05c7426777d75f405d7cf81b902dc2d68b5f95450a0984c280ccfcb99f264300",
+          "bytes": 4378
+        },
+        "back.webp": {
+          "sha256": "420a9ac42815a455d03421e0cc9895a54e8bdf96827d482beb8758ac4176538a",
+          "bytes": 4522
+        },
+        "left.webp": {
+          "sha256": "310edf395c12cd5213a7b9f3da34ec47d1703cf7408b8420cc79662763e0a2e9",
+          "bytes": 4472
+        },
+        "right.webp": {
+          "sha256": "9407f8bedfbb5b3e0b7bde8a79b6078afd0239ec57cff62b0a7553b1a8fd0ef9",
+          "bytes": 4408
+        }
+      }
+    },
+    {
+      "id": "b-audio",
+      "room": "B",
+      "name": "工作錄音機",
+      "support": {
+        "id": "west-shelf",
+        "y": 1.12
+      },
+      "size": [
+        0.23000000417232513,
+        0.15000000596046448,
+        0.12999999523162842
+      ],
+      "triangles": 1096,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "b64b7c16f1e5da13fd53be38d33fb39d3cd86950888d1cbed167d3759c558f93",
+          "bytes": 365072
+        },
+        "front.webp": {
+          "sha256": "af5524590a6e59bd94e448e5b9f018fb7f7ad4ba27b0c8405c258506805ca59b",
+          "bytes": 3706
+        },
+        "back.webp": {
+          "sha256": "662bdf591d35ddb054b22a1727870016701f1191ebc044016101eb4286c368bc",
+          "bytes": 1768
+        },
+        "left.webp": {
+          "sha256": "2a70e4f0b6dcaf1f003ea588179e9d8df57e025dc97c5dc6a401dccb20cb9771",
+          "bytes": 2162
+        },
+        "right.webp": {
+          "sha256": "b470c0486b134dcc8ecd0c8fe6dd7a20065ac551d72c32c71bdb2225686e35fa",
+          "bytes": 2220
+        }
+      }
+    },
+    {
+      "id": "b-edge",
+      "room": "B",
+      "name": "盤邊記錄",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "44bb5d8f6082a58f3587de48822d86cb8e2c38fd79a607197556c16cb841d213",
+          "bytes": 96612
+        },
+        "front.webp": {
+          "sha256": "614edf4678d8babd48da40f3cc25f20c56054c14e7d480a194a3fda74eb355c1",
+          "bytes": 1876
+        },
+        "back.webp": {
+          "sha256": "8d586bb237cd69b76a73354d97845293777a39d5f01486eb6f6573f1b1d41479",
+          "bytes": 1812
+        },
+        "left.webp": {
+          "sha256": "ec13933cb078f40781cb935ca4a270c897331a6ec46951fb1f09a74d54fde275",
+          "bytes": 1690
+        },
+        "right.webp": {
+          "sha256": "e7c56bab8d846a7e887bc897458f124d6df447eb816bd9a6545fc6a2230d8183",
+          "bytes": 1824
+        }
+      }
+    },
+    {
+      "id": "b-back",
+      "room": "B",
+      "name": "相框背箋",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "dc9b0106d5b9e429d4f7ee7aa61d924bb8ac08dd689c1fc0977d66373452b9ef",
+          "bytes": 96292
+        },
+        "front.webp": {
+          "sha256": "bd4e53f852718b9b7033172d9126d11c5fd5ea18d9626db54774a268b91c9cf1",
+          "bytes": 1848
+        },
+        "back.webp": {
+          "sha256": "6314e1ba7f0fbb729ca2718301f989f6236ada6c20e4199307cd30910601c0ce",
+          "bytes": 1780
+        },
+        "left.webp": {
+          "sha256": "573af879da86c0cbc9bcf3d9ad3ce882ef382edee1e71a4ffaf01dd100f8a00b",
+          "bytes": 1674
+        },
+        "right.webp": {
+          "sha256": "5969eafced07491c0728bcecf7d00d29afd1a66653c8e58eac6d9f71e1510ab6",
+          "bytes": 1790
+        }
+      }
+    },
+    {
+      "id": "b-shutter",
+      "room": "B",
+      "name": "測試快門",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "size": [
+        0.14000000059604645,
+        0.09999999776482582,
+        0.14000000059604645
+      ],
+      "triangles": 764,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "4ac851d9354329ea5da412d3db4408b7fe06615ee77a23d5b2818b3156d53b4a",
+          "bytes": 226392
+        },
+        "front.webp": {
+          "sha256": "dbd5958ea9390109f1b7ffb7c27a306856862cc485af052f1ea24af3e08bdb4d",
+          "bytes": 3212
+        },
+        "back.webp": {
+          "sha256": "1802f6b836a8836f81f37dc2c6e0c94abcaf7d841cfc31e319e0960082095bdd",
+          "bytes": 2884
+        },
+        "left.webp": {
+          "sha256": "f9e833a94b866c9c5e218cac8142c6d9f00d32055828a0577d989823f8ad125a",
+          "bytes": 2800
+        },
+        "right.webp": {
+          "sha256": "3cd36593ab3c79ca1d1e9ce3811f4adfa0f8a6af7c7096839b0b728d20000c40",
+          "bytes": 3340
+        }
+      }
+    },
+    {
+      "id": "b-sleeve",
+      "room": "B",
+      "name": "空片袋",
+      "support": {
+        "id": "west-shelf",
+        "y": 0.55
+      },
+      "size": [
+        0.22999999672174454,
+        0.02500000037252903,
+        0.28999999165534973
+      ],
+      "triangles": 60,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "63a0f6e680b9e12cbbb5f484872421a470a00b1d3ff7b1d8e8c01dad5d822d18",
+          "bytes": 161140
+        },
+        "front.webp": {
+          "sha256": "1cb1857caf0251c30a18922c63831ef500a17885685afdda3f2d59b402518ecd",
+          "bytes": 1748
+        },
+        "back.webp": {
+          "sha256": "070f31275b960bb8f70cc270e94c20807df06f7d53bd634ab1bac7f779304a5a",
+          "bytes": 1780
+        },
+        "left.webp": {
+          "sha256": "0410ce07d0ddec9ca9f271376ec5eb8e65cca3cf7bb508c0930d862be00bff38",
+          "bytes": 1540
+        },
+        "right.webp": {
+          "sha256": "94d665fa79877e4e5ca5f205be2c6557e35c779963d94ba47b5e2a0fd7e3b8fd",
+          "bytes": 1712
+        }
+      }
+    },
+    {
+      "id": "b-battery",
+      "room": "B",
+      "name": "用過的電池",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.0949999988079071,
+        0.03500000014901161,
+        0.06499999761581421
+      ],
+      "triangles": 332,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "8378bba21d7a6508a28e62bcf8ae34ec89aabc3df991505b42a4d9002a5d75ac",
+          "bytes": 187284
+        },
+        "front.webp": {
+          "sha256": "16e05bcecec855e4804487e17ae7501212af73bff67ca571a1b581dc9be6503d",
+          "bytes": 3752
+        },
+        "back.webp": {
+          "sha256": "442cbde50149d0709070e9c984df44cc185cdbae251a596bef1b48d7398460d2",
+          "bytes": 5182
+        },
+        "left.webp": {
+          "sha256": "ec6659a2140271a4506e0d7cec2bc875168d7b8af20a20d83b7f730d35556559",
+          "bytes": 2264
+        },
+        "right.webp": {
+          "sha256": "023046848026f3897b61ed89853cd49eb2d57f62a3c66375fd1db4c59a66adff",
+          "bytes": 2220
+        }
+      }
+    },
+    {
+      "id": "b-timer",
+      "room": "B",
+      "name": "沖片計時器",
+      "support": {
+        "id": "sink",
+        "y": 1.05
+      },
+      "size": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.10000000149011612
+      ],
+      "triangles": 1284,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "356f9d9b111a67d58d7f4eea06b6adbb97e1dd4ff310ac64521420c269c5e477",
+          "bytes": 277120
+        },
+        "front.webp": {
+          "sha256": "bf93ac5893eb914f15c0da9e4bc7b95f34446005962cbbc00f0b299d19e80b6a",
+          "bytes": 4152
+        },
+        "back.webp": {
+          "sha256": "ade0d19571a4f05fff7e7580fbec5d59eff05eb225507ee932b758299af7fb5f",
+          "bytes": 1740
+        },
+        "left.webp": {
+          "sha256": "e2da60c3d0f7ab58da280d8f57b964852d137b5850598e1ce5df924e02dd2220",
+          "bytes": 2056
+        },
+        "right.webp": {
+          "sha256": "df80542c578a480c8fbade5ce0cf8e90fd0a7347a00251601feebe6cb73c844e",
+          "bytes": 2212
+        }
+      }
+    },
+    {
+      "id": "b-glove",
+      "room": "B",
+      "name": "棉手套",
+      "support": {
+        "id": "floor",
+        "y": 0
+      },
+      "size": [
+        0.16938161104917526,
+        0.027000000700354576,
+        0.20000000298023224
+      ],
+      "triangles": 1800,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "cb9950cf732418c3dbade1689b860aa3deb39ecff142ca05036025f0ccf4c2ae",
+          "bytes": 176584
+        },
+        "front.webp": {
+          "sha256": "ede08dfd74f2421e9867e1763f0c0154df95b2ce30e6e3bde467cd8dd2549ed3",
+          "bytes": 3626
+        },
+        "back.webp": {
+          "sha256": "6f897d78dbd44d0feba6dee18becd8790b0baaf81306de436d698a3310dd22bc",
+          "bytes": 3876
+        },
+        "left.webp": {
+          "sha256": "929a6415e5da2a6916bda354ea7653a1afd74ccaf8bcbfd598926f295c7a43c4",
+          "bytes": 3170
+        },
+        "right.webp": {
+          "sha256": "01d16ae212c2076342960b71595cd47cdc2a29f9d30b19334cc0c3168a1d3f8a",
+          "bytes": 3314
+        }
+      }
+    },
+    {
+      "id": "fixture-B-workbench",
+      "room": "B",
+      "name": "fixture-B-workbench",
+      "support": null,
+      "size": [
+        2.700000047683716,
+        0.9399999950826168,
+        0.800000011920929
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "a218cee4202e1d42e71f873f66550a381a0b6e6d3ee4ca3906988f5c5ddcb523",
+          "bytes": 159724
+        },
+        "front.webp": {
+          "sha256": "deca5eb06ae965af65a71dca1ef9bf7493303027a1eaaa6eca0804af6945ad39",
+          "bytes": 3046
+        },
+        "back.webp": {
+          "sha256": "850b4deed42f142d34eaa8b0490ea81b14831f6a106685aae8798666b71ebbec",
+          "bytes": 2752
+        },
+        "left.webp": {
+          "sha256": "0f1b8dc9200104c2a225ddca767bda356b0760d7eb01c1d0642d1c75bf892433",
+          "bytes": 2762
+        },
+        "right.webp": {
+          "sha256": "d03bb5be0122cae94fdcb5806214f75309630e5752ced98f3cc90bab7307c6ae",
+          "bytes": 2792
+        }
+      }
+    },
+    {
+      "id": "fixture-B-sink",
+      "room": "B",
+      "name": "fixture-B-sink",
+      "support": null,
+      "size": [
+        0.4399999976158142,
+        1.4249999932199715,
+        1.25
+      ],
+      "triangles": 108,
+      "meshes": 6,
+      "files": {
+        "model.glb": {
+          "sha256": "b77b7397da1d5ead0dc092389b5b288ec216f0b6a8057b177ea591e2c62bdca8",
+          "bytes": 119380
+        },
+        "front.webp": {
+          "sha256": "a859e9184030a6a2b95ba26d90928fb1581823913f0c67305863349eea4ec7a3",
+          "bytes": 1576
+        },
+        "back.webp": {
+          "sha256": "0f0e12e462a60567b69e39a2b1f34502460b5532c10ec4f233185817ad796d31",
+          "bytes": 1572
+        },
+        "left.webp": {
+          "sha256": "34079d3b59f933e505bc047aa40adfb492224d4332c8538fde8f6cd129d03c1a",
+          "bytes": 1658
+        },
+        "right.webp": {
+          "sha256": "5aa09153e90980d02b76116d1f1e0312cdeed47c18c3e636fc17cd541a3139f6",
+          "bytes": 1714
+        }
+      }
+    },
+    {
+      "id": "c-rope",
+      "room": "C",
+      "name": "主繩",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "size": [
+        0.30000001192092896,
+        0.06499999761581421,
+        0.30000001192092896
+      ],
+      "triangles": 384,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "c2b43ac431ab0682ff110b4e998a0032472e4c240121ec1a5357490891ef517f",
+          "bytes": 40756
+        },
+        "front.webp": {
+          "sha256": "6a60c738b4189f332b23c83b4e07576608d7aa6dfecc9cefdd372558dc3cbedb",
+          "bytes": 7354
+        },
+        "back.webp": {
+          "sha256": "a187db9e99e34376c624efe99069cbff5cbfe6271ab1e7cac973d6f0a361a10b",
+          "bytes": 7100
+        },
+        "left.webp": {
+          "sha256": "e2a59b15381b55f28e5c4db42befe055c0b2015815cf282be1867903703bec00",
+          "bytes": 7222
+        },
+        "right.webp": {
+          "sha256": "01bf9715d25e80d6918bf5aa4e8321e0b9b099f2ef6331de27339f69aa4c6b13",
+          "bytes": 7168
+        }
+      }
+    },
+    {
+      "id": "c-box",
+      "room": "C",
+      "name": "空紙箱",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "size": [
+        0.36000001430511475,
+        0.3100000023841858,
+        0.4000000059604645
+      ],
+      "triangles": 96,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "2bf7d0cb261783d3cd443db3a3514ed127b5a52c9abc2c9fd049f61f4bfe3d17",
+          "bytes": 161280
+        },
+        "front.webp": {
+          "sha256": "913341ada66f4a9b81d1de5ccd745db8e97c7d5207a6941641f3ce71a901c7d8",
+          "bytes": 7328
+        },
+        "back.webp": {
+          "sha256": "0aaafbff561a1c537ba04c64a255af203762dad56a8cd271e129a856041d331f",
+          "bytes": 5450
+        },
+        "left.webp": {
+          "sha256": "6cdc1b8982d558ebddac80410d413b24fa48376e0eaaa9966f45fb2a3c819017",
+          "bytes": 5186
+        },
+        "right.webp": {
+          "sha256": "ddf689cbfb4cbe4f1de82a5b31aab23db286451cfd5ccbb43a2cf63f183fba1e",
+          "bytes": 7860
+        }
+      }
+    },
+    {
+      "id": "c-upper",
+      "room": "C",
+      "name": "維修圖上半",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "3904f9d7eff991e1b3d8db0e10451f7021ad03bba49790535eea57130e1f3bc5",
+          "bytes": 75612
+        },
+        "front.webp": {
+          "sha256": "f700a86c62aaaadd5872bc7c8900474a72eb8621752637d19b65732fe61929d3",
+          "bytes": 2402
+        },
+        "back.webp": {
+          "sha256": "2a962d31b6fb78e6c39f2280d151ecd14e509ea4e12db3cac77ab36dc35b732a",
+          "bytes": 2316
+        },
+        "left.webp": {
+          "sha256": "56d4588250bb9062fe3497d0519a1dc5808555fc7f0d96789c156851c71e70ce",
+          "bytes": 2152
+        },
+        "right.webp": {
+          "sha256": "5f483715dade0174b69dcbebf124ce7609847f5a4d1e97515be4eb1d1ea612fa",
+          "bytes": 2268
+        }
+      }
+    },
+    {
+      "id": "c-lower",
+      "room": "C",
+      "name": "維修圖下半",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "77d1ebf5b8e820856004a0b68c227f5c12fb1879381c72d2e2573190048bb469",
+          "bytes": 76988
+        },
+        "front.webp": {
+          "sha256": "5882aefb2a0235005f0c1cb650d3737caa68752aa644c59592e24461cb806bb5",
+          "bytes": 2480
+        },
+        "back.webp": {
+          "sha256": "de401fcc02e8d43445eef82c62a36d013df6c3691923263eb87f009ac2e5f2b8",
+          "bytes": 2392
+        },
+        "left.webp": {
+          "sha256": "2562b9d3fde10d98043bf5192fe564d2375bcac672e8078e16c600aaf675d813",
+          "bytes": 2246
+        },
+        "right.webp": {
+          "sha256": "b0443cda6452c8949a937f481ba0ad74d29b27520503cfedc8825738445d3ce0",
+          "bytes": 2332
+        }
+      }
+    },
+    {
+      "id": "c-old",
+      "room": "C",
+      "name": "舊設備圖",
+      "support": {
+        "id": "storage-shelf",
+        "y": 1.68
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "5cd10dae469f97f96d4834416365bc3579f9ef639c808ccd66b9d132495d5179",
+          "bytes": 75164
+        },
+        "front.webp": {
+          "sha256": "601f514f43446ec1acefee7e3543c92452fea31ab7d19eeb895e450827232049",
+          "bytes": 2364
+        },
+        "back.webp": {
+          "sha256": "53339f02d573dc934ce156ee3c3f0989c7dec3b6c45e989c710824058f0855cc",
+          "bytes": 2178
+        },
+        "left.webp": {
+          "sha256": "d8741ed70427ba3fa88d913ef06f910127efd2e69fa972373ae5f5d1039701be",
+          "bytes": 2130
+        },
+        "right.webp": {
+          "sha256": "2b7d2ccbbccae7cc9e36b297bf1b686e8bcacf875984cef2ea40cf69fea136cc",
+          "bytes": 2156
+        }
+      }
+    },
+    {
+      "id": "c-mod",
+      "room": "C",
+      "name": "改裝紀錄",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "e4b1fd9c18c9b5b6f06bf5157d756289015813caab3f520e3e79134d8d0316ea",
+          "bytes": 97220
+        },
+        "front.webp": {
+          "sha256": "6f42e566bc2467eb3ed2a25dd35dff49d0471b1d69123e8a0f2833d6a7d15137",
+          "bytes": 1930
+        },
+        "back.webp": {
+          "sha256": "c4f55bbdead103c0d1ebdb619167013451993f5959f755057e2d260d774d72b0",
+          "bytes": 1842
+        },
+        "left.webp": {
+          "sha256": "f4f0160c98e041b8309bd7d2ffd22734a425b5f0fb1bf4a63d8b9546ce7f231d",
+          "bytes": 1738
+        },
+        "right.webp": {
+          "sha256": "a4f58ac6953e4ab25f10a7059a0cffb594673ae6584b9c3624d87b8b7cc00728",
+          "bytes": 1852
+        }
+      }
+    },
+    {
+      "id": "c-a0",
+      "room": "C",
+      "name": "雙螺栓座",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.5700000000000003
+      },
+      "size": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.13000000268220901
+      ],
+      "triangles": 460,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "787b80d972d609a1926946749edaf93f1022e25a3f0d9591f5502917a2c4769a",
+          "bytes": 153252
+        },
+        "front.webp": {
+          "sha256": "c1b4c115f576e3def86876650e68476308d57408d5d83d2870ac79deedb33d2d",
+          "bytes": 3950
+        },
+        "back.webp": {
+          "sha256": "938bfcd8be461d81eaded0ee547bcd660ca59b5d87c6c1e795eb6c7a9404f680",
+          "bytes": 1500
+        },
+        "left.webp": {
+          "sha256": "48005365913146523a00495c7b80412cb430ad1f845ba7ed1a07294e8715fb54",
+          "bytes": 3084
+        },
+        "right.webp": {
+          "sha256": "2a5747d0447971657d1d39ee1394a3dd2c8e0dab1b2a99feecb7e36ee6f7051a",
+          "bytes": 3130
+        }
+      }
+    },
+    {
+      "id": "c-m",
+      "room": "C",
+      "name": "隨蓋滑輪",
+      "support": {
+        "id": "fixed-mount",
+        "y": 0.9700000000000001
+      },
+      "size": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.12999999523162842
+      ],
+      "triangles": 588,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "7b062a4ef57c5783228f354a0805c9e5f8d1f06d928ee02b30fad2698ac1ea55",
+          "bytes": 165488
+        },
+        "front.webp": {
+          "sha256": "e92e69fb2269aeb7800aafa2fc145f029060a5df147665ea5fd9560a0347b0f5",
+          "bytes": 6224
+        },
+        "back.webp": {
+          "sha256": "af58e1e049e48dc071af571c51ba6c3ff8f62101d95a508491154f12353536b7",
+          "bytes": 3120
+        },
+        "left.webp": {
+          "sha256": "33d1bebef1a3a7ed31ef836ac4127fc7f76914c2c0cc19a1516c77f34aae58c5",
+          "bytes": 2494
+        },
+        "right.webp": {
+          "sha256": "03d77d2d6cbb69bb5d6efebb40bb27c42b8ef3e053aba259797dc6c891e69c00",
+          "bytes": 2396
+        }
+      }
+    },
+    {
+      "id": "c-f",
+      "room": "C",
+      "name": "柱上定輪",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.67
+      },
+      "size": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.12999999523162842
+      ],
+      "triangles": 588,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "5984d9840fb12752d617c36ca561275a18a09f0fef6a1ec5b66127e1472fcb7c",
+          "bytes": 165472
+        },
+        "front.webp": {
+          "sha256": "e92e69fb2269aeb7800aafa2fc145f029060a5df147665ea5fd9560a0347b0f5",
+          "bytes": 6224
+        },
+        "back.webp": {
+          "sha256": "af58e1e049e48dc071af571c51ba6c3ff8f62101d95a508491154f12353536b7",
+          "bytes": 3120
+        },
+        "left.webp": {
+          "sha256": "33d1bebef1a3a7ed31ef836ac4127fc7f76914c2c0cc19a1516c77f34aae58c5",
+          "bytes": 2494
+        },
+        "right.webp": {
+          "sha256": "03d77d2d6cbb69bb5d6efebb40bb27c42b8ef3e053aba259797dc6c891e69c00",
+          "bytes": 2396
+        }
+      }
+    },
+    {
+      "id": "c-oldhook",
+      "room": "C",
+      "name": "清點鉤",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.9700000000000002
+      },
+      "size": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.13000000268220901
+      ],
+      "triangles": 460,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "b01612b7922d6943e9b60540c318ed559cfbe562ca03412816f7855b0de2177a",
+          "bytes": 153256
+        },
+        "front.webp": {
+          "sha256": "c1b4c115f576e3def86876650e68476308d57408d5d83d2870ac79deedb33d2d",
+          "bytes": 3950
+        },
+        "back.webp": {
+          "sha256": "938bfcd8be461d81eaded0ee547bcd660ca59b5d87c6c1e795eb6c7a9404f680",
+          "bytes": 1500
+        },
+        "left.webp": {
+          "sha256": "48005365913146523a00495c7b80412cb430ad1f845ba7ed1a07294e8715fb54",
+          "bytes": 3084
+        },
+        "right.webp": {
+          "sha256": "2a5747d0447971657d1d39ee1394a3dd2c8e0dab1b2a99feecb7e36ee6f7051a",
+          "bytes": 3130
+        }
+      }
+    },
+    {
+      "id": "c-ring",
+      "room": "C",
+      "name": "未使用環扣",
+      "support": {
+        "id": "fixed-mount",
+        "y": 2.0700000000000003
+      },
+      "size": [
+        0.25999999046325684,
+        0.25999999046325684,
+        0.13000000268220901
+      ],
+      "triangles": 460,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "44cf2cda5d74dab35f6b40e91debe002c74d08ca1be11e7e86a4430c4421e400",
+          "bytes": 153256
+        },
+        "front.webp": {
+          "sha256": "c1b4c115f576e3def86876650e68476308d57408d5d83d2870ac79deedb33d2d",
+          "bytes": 3950
+        },
+        "back.webp": {
+          "sha256": "938bfcd8be461d81eaded0ee547bcd660ca59b5d87c6c1e795eb6c7a9404f680",
+          "bytes": 1500
+        },
+        "left.webp": {
+          "sha256": "48005365913146523a00495c7b80412cb430ad1f845ba7ed1a07294e8715fb54",
+          "bytes": 3084
+        },
+        "right.webp": {
+          "sha256": "2a5747d0447971657d1d39ee1394a3dd2c8e0dab1b2a99feecb7e36ee6f7051a",
+          "bytes": 3130
+        }
+      }
+    },
+    {
+      "id": "c-pan",
+      "room": "C",
+      "name": "物資盤",
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "size": [
+        0.5999999642372131,
+        0.03500000014901161,
+        0.45000001788139343
+      ],
+      "triangles": 60,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "5e9e8b582f83f880d23d93b2039f94797c24a2e6b46a4c210b703e8e6cd0fdc9",
+          "bytes": 113908
+        },
+        "front.webp": {
+          "sha256": "0f4589f74afdb4195341b5222f4cd1e35c366f1f2940ceb7163385b51b996650",
+          "bytes": 1904
+        },
+        "back.webp": {
+          "sha256": "f369fc97af7830df9be7e2bcc2434eb33e25ca1c74ea9fac5a3221bc4923643a",
+          "bytes": 2488
+        },
+        "left.webp": {
+          "sha256": "21f45c7e9b19ca5fde8f7a2f54f3c7a7b32a81a80c1b0d7e064bf79b0a1a5a3d",
+          "bytes": 2310
+        },
+        "right.webp": {
+          "sha256": "3f510619b53f1850b285d49c6a63a97ebccbd23c9576e8db5dcbe698d87e0fe7",
+          "bytes": 2038
+        }
+      }
+    },
+    {
+      "id": "c-history",
+      "room": "C",
+      "name": "歷史顯示窗",
+      "support": {
+        "id": "grill",
+        "y": 1.63
+      },
+      "size": [
+        0.30000001192092896,
+        0.3100000023841858,
+        0.17999999970197678
+      ],
+      "triangles": 326,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "b7c20a41752267d31edd3b1a90df3002b7336a4665f10403d2b3169fa8f28ef2",
+          "bytes": 384064
+        },
+        "front.webp": {
+          "sha256": "c2d9908c8fa25f0bfca93451636840df80a726132841cb39534d1a97eabc6e9e",
+          "bytes": 2720
+        },
+        "back.webp": {
+          "sha256": "804aa5c6c638710d33ec4dd9b21b77458aa967f3baaf2d1cb33d74b704660598",
+          "bytes": 2364
+        },
+        "left.webp": {
+          "sha256": "c21a6b13693dfc3b0b0d61dd10268675c603b5d7d4809a7b93ac218c61b1c396",
+          "bytes": 1822
+        },
+        "right.webp": {
+          "sha256": "55f637de4a68a082313c1893250f76927f97c730cb9817388201ad2067a17ecb",
+          "bytes": 1782
+        }
+      }
+    },
+    {
+      "id": "c-hatch",
+      "room": "C",
+      "name": "檢修蓋",
+      "support": {
+        "id": "fixed-mount",
+        "y": 1.3399999999999999
+      },
+      "size": [
+        0.699999988079071,
+        0.12000000104308128,
+        0.44999998807907104
+      ],
+      "triangles": 384,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "8fda78264c94e4520c620ddaff021e4694f47175e147ecbbbdced9eac9c2dbc5",
+          "bytes": 145952
+        },
+        "front.webp": {
+          "sha256": "01f37135590e840d8d1ba4da347aa4a2bd684b5d4de4ffdf0f3c08c0829e7a2c",
+          "bytes": 2850
+        },
+        "back.webp": {
+          "sha256": "f3099379f5e63bc74974a40ac90ec8d5d60a85c022d522d5784d7d7ce7c66f2e",
+          "bytes": 2646
+        },
+        "left.webp": {
+          "sha256": "98df301a3191cb996bc18c8adae1b9fde3e1475a8c1f2dad59f7b285635ac785",
+          "bytes": 2296
+        },
+        "right.webp": {
+          "sha256": "7ceafe2e872064f6716fdd211aba14256ce5d172bae2e2c4d02efa8fc8f52719",
+          "bytes": 2310
+        }
+      }
+    },
+    {
+      "id": "timber-0",
+      "room": "C",
+      "name": "木樁1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25,
+        0.1899999976158142,
+        0.30000001192092896
+      ],
+      "triangles": 2384,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "87edb9dafc5e0e6284be72f8916d90f16060ca3553aa3354124f52ebae9794ca",
+          "bytes": 488084
+        },
+        "front.webp": {
+          "sha256": "a8c7995700801db63ae9b67b21aee0a917761b08ab3c12822cd221d7ab3f0c79",
+          "bytes": 8892
+        },
+        "back.webp": {
+          "sha256": "576b7ee8ac5794b414407f19f6557f01cd34f77701a5f2c51d06eab8fc21b94a",
+          "bytes": 8568
+        },
+        "left.webp": {
+          "sha256": "e3648c998f8b0b7612da8f64138af3d59ca23d9b03ecf7378d1b1fc01cda7cd9",
+          "bytes": 5936
+        },
+        "right.webp": {
+          "sha256": "523416b723596a72396ce81686caa7ae9a3227cf4ec462d4a5a3068d6e4b82b7",
+          "bytes": 7642
+        }
+      }
+    },
+    {
+      "id": "timber-1",
+      "room": "C",
+      "name": "木樁2",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25,
+        0.1899999976158142,
+        0.30000001192092896
+      ],
+      "triangles": 2384,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "ef77ad1cdb58f79740b4bd2204f6ee662304158b7aa66ddaa70563194d79e103",
+          "bytes": 488084
+        },
+        "front.webp": {
+          "sha256": "a8c7995700801db63ae9b67b21aee0a917761b08ab3c12822cd221d7ab3f0c79",
+          "bytes": 8892
+        },
+        "back.webp": {
+          "sha256": "576b7ee8ac5794b414407f19f6557f01cd34f77701a5f2c51d06eab8fc21b94a",
+          "bytes": 8568
+        },
+        "left.webp": {
+          "sha256": "e3648c998f8b0b7612da8f64138af3d59ca23d9b03ecf7378d1b1fc01cda7cd9",
+          "bytes": 5936
+        },
+        "right.webp": {
+          "sha256": "523416b723596a72396ce81686caa7ae9a3227cf4ec462d4a5a3068d6e4b82b7",
+          "bytes": 7642
+        }
+      }
+    },
+    {
+      "id": "iron-0",
+      "room": "C",
+      "name": "鐵塊1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.125,
+        0.2800000011920929,
+        0.1268215924501419
+      ],
+      "triangles": 1292,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "bc047b1572ad23609731c7d85c8a5f84bc854c69877729c1bb1cd25f237b905b",
+          "bytes": 233052
+        },
+        "front.webp": {
+          "sha256": "235fab7292841ec3a120d2dc9b05150fa72f1e951ff75cf47005c6fe01d8366b",
+          "bytes": 3058
+        },
+        "back.webp": {
+          "sha256": "caddca9f13c9de6da517c0f217e7d68897de865350f4d0e18ddf705c6074dc8f",
+          "bytes": 2532
+        },
+        "left.webp": {
+          "sha256": "6ea801e91d4c3b6d3f1d9de2debb67944edb85e26cf954f916ebc677b33fa188",
+          "bytes": 2116
+        },
+        "right.webp": {
+          "sha256": "c8d05d35319a4b3f0ab5140345fb1625d7a05c90bcbd46717e6eb03127cbd840",
+          "bytes": 2352
+        }
+      }
+    },
+    {
+      "id": "iron-1",
+      "room": "C",
+      "name": "鐵塊2",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.125,
+        0.2800000011920929,
+        0.1268215924501419
+      ],
+      "triangles": 1292,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "6ad28eb73133aa10de1e880eb697933ecf0c766385d6e0f2ebddef07ec959673",
+          "bytes": 233052
+        },
+        "front.webp": {
+          "sha256": "235fab7292841ec3a120d2dc9b05150fa72f1e951ff75cf47005c6fe01d8366b",
+          "bytes": 3058
+        },
+        "back.webp": {
+          "sha256": "caddca9f13c9de6da517c0f217e7d68897de865350f4d0e18ddf705c6074dc8f",
+          "bytes": 2532
+        },
+        "left.webp": {
+          "sha256": "6ea801e91d4c3b6d3f1d9de2debb67944edb85e26cf954f916ebc677b33fa188",
+          "bytes": 2116
+        },
+        "right.webp": {
+          "sha256": "c8d05d35319a4b3f0ab5140345fb1625d7a05c90bcbd46717e6eb03127cbd840",
+          "bytes": 2352
+        }
+      }
+    },
+    {
+      "id": "sand-0",
+      "room": "C",
+      "name": "沙袋1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25999999046325684,
+        0.28999999165534973,
+        0.2800000011920929
+      ],
+      "triangles": 4228,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "47379af337076a8c9d903f362f19c303320967d50c500e019058f290e5e90466",
+          "bytes": 561336
+        },
+        "front.webp": {
+          "sha256": "34a7b3e1f2db4ed69d4d3d28a9d009ba02aa616d21dad5e4b3b1b22c6bcd9b43",
+          "bytes": 16828
+        },
+        "back.webp": {
+          "sha256": "1975b73904bf9dae703a7b1236ccae3e5ec02e10fcd192fc98f58aac65126300",
+          "bytes": 16054
+        },
+        "left.webp": {
+          "sha256": "2f4f7fffc27bea5291a1e7ad184c11fdc20e83a3f79281e3be93b9bd3fd60059",
+          "bytes": 16452
+        },
+        "right.webp": {
+          "sha256": "0bc0d1deecbde0966e816f842efe2a97f2cc178c7030615beaca408f4656a366",
+          "bytes": 17538
+        }
+      }
+    },
+    {
+      "id": "sand-1",
+      "room": "C",
+      "name": "沙袋2",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25999999046325684,
+        0.28999999165534973,
+        0.2800000011920929
+      ],
+      "triangles": 4228,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "bbcf79708300b86e097951ee883fad21386fe0c2d0a48c82d1efdb786d861525",
+          "bytes": 561336
+        },
+        "front.webp": {
+          "sha256": "34a7b3e1f2db4ed69d4d3d28a9d009ba02aa616d21dad5e4b3b1b22c6bcd9b43",
+          "bytes": 16828
+        },
+        "back.webp": {
+          "sha256": "1975b73904bf9dae703a7b1236ccae3e5ec02e10fcd192fc98f58aac65126300",
+          "bytes": 16054
+        },
+        "left.webp": {
+          "sha256": "2f4f7fffc27bea5291a1e7ad184c11fdc20e83a3f79281e3be93b9bd3fd60059",
+          "bytes": 16452
+        },
+        "right.webp": {
+          "sha256": "0bc0d1deecbde0966e816f842efe2a97f2cc178c7030615beaca408f4656a366",
+          "bytes": 17538
+        }
+      }
+    },
+    {
+      "id": "stone-0",
+      "room": "C",
+      "name": "石塊1",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25,
+        0.18000000715255737,
+        0.27000001072883606
+      ],
+      "triangles": 80,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "f5785d4e8b7603998c38548d08051bd1cb4c9cab1db3827add2d0d17b53aaa07",
+          "bytes": 115116
+        },
+        "front.webp": {
+          "sha256": "44a837fcdc07f819a84eecaa88cff8ea3d5f35ad3eb02045d8abcb7f423a3e25",
+          "bytes": 5306
+        },
+        "back.webp": {
+          "sha256": "efe0e8605fc8d5e71e3379ca9ca5a5ea444a5b2e0d69c160eb06e2f9efe0b586",
+          "bytes": 4552
+        },
+        "left.webp": {
+          "sha256": "6c2f5507a04e2f9c7ccc18fce0e30d216fcbcc9a09c39479af7e718a6e9c6cd3",
+          "bytes": 4696
+        },
+        "right.webp": {
+          "sha256": "9506db09134ecf96223521c02bd11f9922c8f5f642e6bd61b19118add2911e9c",
+          "bytes": 5080
+        }
+      }
+    },
+    {
+      "id": "stone-1",
+      "room": "C",
+      "name": "石塊2",
+      "support": {
+        "id": "weight-rack",
+        "y": 1.45
+      },
+      "size": [
+        0.25,
+        0.18000000715255737,
+        0.27000001072883606
+      ],
+      "triangles": 80,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "fc7cba87dd50506011a73fe919b85a47b78c19b613cb34726d00abf1dbb37955",
+          "bytes": 115116
+        },
+        "front.webp": {
+          "sha256": "44a837fcdc07f819a84eecaa88cff8ea3d5f35ad3eb02045d8abcb7f423a3e25",
+          "bytes": 5306
+        },
+        "back.webp": {
+          "sha256": "efe0e8605fc8d5e71e3379ca9ca5a5ea444a5b2e0d69c160eb06e2f9efe0b586",
+          "bytes": 4552
+        },
+        "left.webp": {
+          "sha256": "6c2f5507a04e2f9c7ccc18fce0e30d216fcbcc9a09c39479af7e718a6e9c6cd3",
+          "bytes": 4696
+        },
+        "right.webp": {
+          "sha256": "9506db09134ecf96223521c02bd11f9922c8f5f642e6bd61b19118add2911e9c",
+          "bytes": 5080
+        }
+      }
+    },
+    {
+      "id": "c-diary",
+      "room": "C",
+      "name": "營火旁的日記",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "size": [
+        0.23999999463558197,
+        0.054999999701976776,
+        0.30000001192092896
+      ],
+      "triangles": 62,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "43ff661cba5ea6bbc25a8d252afd505b1af73d677d882a9381fbda84926970d1",
+          "bytes": 256848
+        },
+        "front.webp": {
+          "sha256": "8a59fc1163ecf96d922a40224506187bc78f3c3dfe870ef62c06ae7996a02e16",
+          "bytes": 4788
+        },
+        "back.webp": {
+          "sha256": "738b02d1fa1d6c4b22391c54f29c27c13fc9c513d5b00fa9298124a2bb79e323",
+          "bytes": 4450
+        },
+        "left.webp": {
+          "sha256": "c1043ef0d9c766eebad42bca764ab19d8be8bdd721e2f351119071422ca79267",
+          "bytes": 4180
+        },
+        "right.webp": {
+          "sha256": "6ec44af136e6411dfa61b10bc986a25817e3ac9ed440cd7bce8223a054a5aff4",
+          "bytes": 4602
+        }
+      }
+    },
+    {
+      "id": "c-watch",
+      "room": "C",
+      "name": "停錶",
+      "support": {
+        "id": "storage-crate",
+        "y": 1.35
+      },
+      "size": [
+        0.17000000178813934,
+        0.044999999925494194,
+        0.25
+      ],
+      "triangles": 420,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "1c4bdd9b810242b8e6a7dae30cc73f6ef3e7d07b36fcaaae39755b50ceb61c15",
+          "bytes": 150200
+        },
+        "front.webp": {
+          "sha256": "d5eb1020643e42cce1777d5ce7c60664a8e207cd8d1fac52ca0b9e1227b950b3",
+          "bytes": 3744
+        },
+        "back.webp": {
+          "sha256": "b5160fe725b82bc79735e4a71686cd694094bf0394317fb5c02738c4e83c5175",
+          "bytes": 4122
+        },
+        "left.webp": {
+          "sha256": "52a2878b6d9675910acc63059598b4291830327de7d826c701efb6ccdb286623",
+          "bytes": 3932
+        },
+        "right.webp": {
+          "sha256": "b650d5dec650735fa04b7021bd0570b7259f7dad4c46c54476a6067c69ee7985",
+          "bytes": 3866
+        }
+      }
+    },
+    {
+      "id": "c-blood",
+      "room": "C",
+      "name": "地面痕跡",
+      "support": {
+        "id": "floor",
+        "y": 0.45
+      },
+      "size": [
+        0.3799999952316284,
+        0.003000000026077032,
+        0.23999999463558197
+      ],
+      "triangles": 344,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "d95a6bfc15bc8c97948742ffc52e5cee224f23a8778218ac8d6506d7a3775e34",
+          "bytes": 140256
+        },
+        "front.webp": {
+          "sha256": "64dfe23ff0662b78175f6719e16cd9ce4c9c6c86949fb27b5048e301c1e33503",
+          "bytes": 2524
+        },
+        "back.webp": {
+          "sha256": "621caab4e40750d9e1ce6fd1fa6be7bc53eb9a6802853a81891ffdab4b722477",
+          "bytes": 2488
+        },
+        "left.webp": {
+          "sha256": "4b76bb9cbe0d33f6d63f1f9dc7393f71c46f3bd26d598bc8ef22056193fc3084",
+          "bytes": 2740
+        },
+        "right.webp": {
+          "sha256": "737bfd495b004ae7388f937c241b0eb5ef9d1329804d6481dd73d9c0a3ffe6d3",
+          "bytes": 2742
+        }
+      }
+    },
+    {
+      "id": "c-surface",
+      "room": "C",
+      "name": "警方報告副本",
+      "support": {
+        "id": "records",
+        "y": 1.27
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "08522eb963e8d2f5e6259532f0340b59d4251e6113b94634e1cc6f6c33105859",
+          "bytes": 97056
+        },
+        "front.webp": {
+          "sha256": "6c2b103a0ad0c9255d4bfcc17e9dc56e7ad3bb6ca5264421cd0a972e945c4b36",
+          "bytes": 1922
+        },
+        "back.webp": {
+          "sha256": "36d8b9bd8a561a766dc6bdfc8cbe42e23fab2ff1e560f199a2000723f0eb9c0b",
+          "bytes": 1834
+        },
+        "left.webp": {
+          "sha256": "23294e7c9c93ad08f54a437d3d34d0169ea40b17df62aaefc0425e4de93ed4e2",
+          "bytes": 1728
+        },
+        "right.webp": {
+          "sha256": "b8800c0d59b02f0f0bd4215b7bf4bdb027048b6c71bbb8dd29a3d1a7a644eb31",
+          "bytes": 1826
+        }
+      }
+    },
+    {
+      "id": "fixture-C-grill",
+      "room": "C",
+      "name": "fixture-C-grill",
+      "support": null,
+      "size": [
+        2.690000057220459,
+        1.1799999852478504,
+        1.0700000524520874
+      ],
+      "triangles": 312,
+      "meshes": 26,
+      "files": {
+        "model.glb": {
+          "sha256": "0bafeab8330714886f26a502bf8dc5e8a865b2b0de907fc166de0ef7320d50a3",
+          "bytes": 303844
+        },
+        "front.webp": {
+          "sha256": "7f8a917454bb105a4b8268d3fbc6f9f8c6ae6052dac53c5cdd7dc1ca7ae0faae",
+          "bytes": 2414
+        },
+        "back.webp": {
+          "sha256": "9c07911effb8e7a489892285dcc10bff4506f46e4f8351b07e9cefa94e003ae8",
+          "bytes": 2636
+        },
+        "left.webp": {
+          "sha256": "9e1a91a5f9416aa2d108367bd120608d4f38856177559562388f2e4fd9dce5a1",
+          "bytes": 1628
+        },
+        "right.webp": {
+          "sha256": "2a846741cbf756ce3e5d7974353eb2e6656c361fbbdc424c941a56d392ccdb4a",
+          "bytes": 1674
+        }
+      }
+    },
+    {
+      "id": "fixture-C-records",
+      "room": "C",
+      "name": "fixture-C-records",
+      "support": null,
+      "size": [
+        2,
+        0.8199999926984309,
+        0.800000011920929
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "b33e1fdd5239e0daad033bf5fd4fc6e3bfe9e67cb59c90673d3e564821bda3de",
+          "bytes": 159704
+        },
+        "front.webp": {
+          "sha256": "e109eb7f380d46f3786533c36ce28cef788739eecf513c4cc298f9dc3795ad86",
+          "bytes": 3822
+        },
+        "back.webp": {
+          "sha256": "0acda099112771af6999579086087a81304f06edfa71ba96b37f7c7da2f5dff5",
+          "bytes": 3562
+        },
+        "left.webp": {
+          "sha256": "9eaa5fe44092c2b4de41d55d4995fece8e0e349b942b329e3100fd7382dcc39a",
+          "bytes": 3422
+        },
+        "right.webp": {
+          "sha256": "6d836e0634c5cd908c57a3db9979121f9086afbf829164bd40cdcfb4b101745b",
+          "bytes": 3546
+        }
+      }
+    },
+    {
+      "id": "fixture-C-weight-rack",
+      "room": "C",
+      "name": "fixture-C-weight-rack",
+      "support": null,
+      "size": [
+        1.3999999761581425,
+        0.9999999962747096,
+        1.75
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "3c6e5a7c2631e81e171cb013f271ddea48c0f63ac2e546578e58ec5af870828f",
+          "bytes": 159720
+        },
+        "front.webp": {
+          "sha256": "c1f1d3667cab8d272f8b1aa3a5be43079a082fab375d0ef976aef947caef4a46",
+          "bytes": 6082
+        },
+        "back.webp": {
+          "sha256": "16e1ff86d67a48339edc5851dfad2865387d9b3e778e589002e0bb78e40a8d53",
+          "bytes": 5542
+        },
+        "left.webp": {
+          "sha256": "1eb398dcf6bceb009b7ad4694fc45b5bd0ceabcc6262e892d07badc38b53ec4e",
+          "bytes": 5974
+        },
+        "right.webp": {
+          "sha256": "3af80f5b0ab8a1c91e3d656d9c668236113efbac20e10424e9c6d42097ff0939",
+          "bytes": 6304
+        }
+      }
+    },
+    {
+      "id": "fixture-C-storage-divider",
+      "room": "C",
+      "name": "fixture-C-storage-divider",
+      "support": null,
+      "size": [
+        0.2199999988079071,
+        3.3499999046325684,
+        2.9200000762939453
+      ],
+      "triangles": 12,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "321cfe2d10faa1e4b3d6fda8121fc29b54ede9ea2cb9b872b19681c68ec4007e",
+          "bytes": 169092
+        },
+        "front.webp": {
+          "sha256": "34df2e1848ae2ffa82c04d5be4a4d41dd12ca9317b806cdb353210bac847293f",
+          "bytes": 2402
+        },
+        "back.webp": {
+          "sha256": "1174f8c9cb813d763c9772eb2c91cd08bdbcd3c174119649316b8c49ede7d8a1",
+          "bytes": 2240
+        },
+        "left.webp": {
+          "sha256": "17e3c173662aa44f175246130f91689a6d80f25c43f5e05aa3c107f5f588f689",
+          "bytes": 10286
+        },
+        "right.webp": {
+          "sha256": "084eb17ffbfdb4cf7da0d8b6bf66d8356cb3302f504ae15bc27d52bb0b8e6be2",
+          "bytes": 15578
+        }
+      }
+    },
+    {
+      "id": "fixture-C-storage-return",
+      "room": "C",
+      "name": "fixture-C-storage-return",
+      "support": null,
+      "size": [
+        1.600000023841858,
+        3.3499999046325684,
+        0.20000000298023224
+      ],
+      "triangles": 12,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "bd714109c7aa2cb087a84a7f80ef3aa785c68fe388108e13319a519c5b28668c",
+          "bytes": 169100
+        },
+        "front.webp": {
+          "sha256": "0b3b0202455d0c347fd2036c4a8e795b0a410b690c7f6ab264bd5a93ef691835",
+          "bytes": 9340
+        },
+        "back.webp": {
+          "sha256": "3020a9051dbdd8a2bf8e76ed06fd2e494fa0d11c38856542c80fc47e7ee23d1b",
+          "bytes": 6402
+        },
+        "left.webp": {
+          "sha256": "ddd3cc07b34b5e2849851dcd83e674337d1fbe662b27c249ebe6aba2a5d6e67a",
+          "bytes": 2296
+        },
+        "right.webp": {
+          "sha256": "5c7232f112dff9e243ec44c573262b2f33fba6cf3c7fc5e3a254cff3acc6b14a",
+          "bytes": 2434
+        }
+      }
+    },
+    {
+      "id": "fixture-C-storage-crate",
+      "room": "C",
+      "name": "fixture-C-storage-crate",
+      "support": null,
+      "size": [
+        0.949999988079071,
+        0.8999999843537807,
+        0.8999999761581421
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "6675217fa97b014dffa5b93f19d642dfaeec38f29161a75006d48c37cdba7456",
+          "bytes": 159792
+        },
+        "front.webp": {
+          "sha256": "9fa185ac7edc78103f16f22eebcb8d9e15291020c197995abcf214869878cac7",
+          "bytes": 7880
+        },
+        "back.webp": {
+          "sha256": "63505db973de4892c9056be7d986a51d08ce5fd3ab69e7d989d9b9b920353f04",
+          "bytes": 6684
+        },
+        "left.webp": {
+          "sha256": "58d19b1f0869d930f72bee4c899b27dc4852d6a877ebc53ba81cfcee79b5d4c4",
+          "bytes": 6824
+        },
+        "right.webp": {
+          "sha256": "941e73dbfc9d238425e75b5a617510e4af8a78c254beea10074efc5c9bd9dcf6",
+          "bytes": 7624
+        }
+      }
+    },
+    {
+      "id": "d-R1",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "f09ce562480262bac8bf0e53dc2a3ca07f7ecb516ad3944444e209234935323a",
+          "bytes": 100776
+        },
+        "front.webp": {
+          "sha256": "e329afbc920254ef49144f9123122b833238112b9067688da205c5c8630e2e68",
+          "bytes": 2552
+        },
+        "back.webp": {
+          "sha256": "b674cfaace570112bd05d236133260b3db411d4010600968d265eb474006e223",
+          "bytes": 2474
+        },
+        "left.webp": {
+          "sha256": "586df2fff9ff8c56032141e29d85c723c519115416a3a940fe4f2bb17456ac1d",
+          "bytes": 2280
+        },
+        "right.webp": {
+          "sha256": "9cd59fdbb406f1cd51e52be9581eab369b963fe1e80483fde619c4afd533bf27",
+          "bytes": 2398
+        }
+      }
+    },
+    {
+      "id": "d-R2",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "86d4de6321f58f0a3b436e78fd591848fe4c52683279eb966d39d08f2ee4764c",
+          "bytes": 101056
+        },
+        "front.webp": {
+          "sha256": "b22199ee608985305053a6bd5bd88442617c25ecc0860a93f50cb22683093ee5",
+          "bytes": 2628
+        },
+        "back.webp": {
+          "sha256": "3a184136ad8e0b719d22d647df8a1417c1141552cc07d644d2e71ca918f02153",
+          "bytes": 2510
+        },
+        "left.webp": {
+          "sha256": "f36ca3046553d31dd343cf3cb393f0ba892ccd1c0f77736277e50d69e8b06448",
+          "bytes": 2342
+        },
+        "right.webp": {
+          "sha256": "250f6e07f54bc757420f89f1dca82ecbfe20b88f17d8bb0f2c02ea9daf3233f2",
+          "bytes": 2446
+        }
+      }
+    },
+    {
+      "id": "d-R3",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "ecf7c298342c406c98ede475ed172413b6c0a116aa714b9afd8aaa35d98efbe9",
+          "bytes": 100528
+        },
+        "front.webp": {
+          "sha256": "e37c0e8668adf6296f65f41498aa86d5472ca7685ae5b5c1a552a203afb8efdc",
+          "bytes": 2518
+        },
+        "back.webp": {
+          "sha256": "e20d40f54dc57a3024531ab46755a6e61686a1799ef8615e755001ea6524fe40",
+          "bytes": 2452
+        },
+        "left.webp": {
+          "sha256": "a638dc73acc2bc96a4cf01b0df5ee707e94e81e199bfcd3935d5ed752cb95119",
+          "bytes": 2294
+        },
+        "right.webp": {
+          "sha256": "e9513a85b9fbcf7f650690ce9257ef04ade6d41f1f4f5d5d6e94277338bd958d",
+          "bytes": 2412
+        }
+      }
+    },
+    {
+      "id": "d-Q1",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "7b76a00537e94dcc8a4007e76e6c5b0391c4f97190811f06432f54e4e96d53a0",
+          "bytes": 99600
+        },
+        "front.webp": {
+          "sha256": "14096919b7222de842c05d637865d9fd17e7713a5795cb321faa6ca37686d50a",
+          "bytes": 2510
+        },
+        "back.webp": {
+          "sha256": "1db1aec64abac0ca8220813493d5a1309408923154c11b4ce9ac1fe9fbef46ab",
+          "bytes": 2378
+        },
+        "left.webp": {
+          "sha256": "daa34eb5529361ab7edca81208c2f99f1157c8445af98bd1b743a518b8ab0a2b",
+          "bytes": 2214
+        },
+        "right.webp": {
+          "sha256": "377d540d0e5533b4fb420a72e6a093bd291c6e16511d6b9ebf60447a2c9fbc17",
+          "bytes": 2306
+        }
+      }
+    },
+    {
+      "id": "d-Q2",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "15b2f3e4b2dc737ecc32ef9021978efea9c3f9346e531f71d6ad44a2c351cc21",
+          "bytes": 99236
+        },
+        "front.webp": {
+          "sha256": "e17eaa4de0f2c26b0fd300693b2f2630e1b7c8e82b300ae981297f29c9cfb730",
+          "bytes": 2462
+        },
+        "back.webp": {
+          "sha256": "82b0cd7b9467054010ba66e54bf755cf0bdae75c4c273e42743d9e231d6c564c",
+          "bytes": 2356
+        },
+        "left.webp": {
+          "sha256": "9fa6a8babe5c47d6b81780b7269e3b0edf390964fbfb46b1ee04feda792fffb9",
+          "bytes": 2198
+        },
+        "right.webp": {
+          "sha256": "22a7c3504182314db117764365de907ae6c6c5b2b8eb7f245d132a038e829979",
+          "bytes": 2302
+        }
+      }
+    },
+    {
+      "id": "d-Q3",
+      "room": "D",
+      "name": "診療散頁",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "62650dcde0c50c06c4b67958d63cc5b7327736046325a7e980ef992036e46e50",
+          "bytes": 99420
+        },
+        "front.webp": {
+          "sha256": "2f190e74cecb276dff305fe1d9a87ae59eee7c589889277ae96bf090ec8fc12a",
+          "bytes": 2464
+        },
+        "back.webp": {
+          "sha256": "8fa588e42ea7d676e8234925b11e3adde967022213624991c924513920899c46",
+          "bytes": 2344
+        },
+        "left.webp": {
+          "sha256": "a25e78a9d97ee2c46aff8f2bf0b7fb7cf4f696e4b8295992a7985c6a2eb45908",
+          "bytes": 2210
+        },
+        "right.webp": {
+          "sha256": "1e61e1f07aeba502653c809f58096f0feaea754a9811ab8a1e3e0aa988ae8794",
+          "bytes": 2304
+        }
+      }
+    },
+    {
+      "id": "d-class",
+      "room": "D",
+      "name": "分類備忘",
+      "support": {
+        "id": "briefcase-stand",
+        "y": -1.85
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "10e309770ce4d764cf198b7d32b5e284d4b988d6678c40ce4c4568c54e715bfd",
+          "bytes": 96624
+        },
+        "front.webp": {
+          "sha256": "f0296a5c4c7ed430e1e911f61f041c50fa393fc379d117c6893a8088856ddfc7",
+          "bytes": 1858
+        },
+        "back.webp": {
+          "sha256": "a4addd69bb14729ebc12f9404cdb0073ee78b31b8226f112200ebf92c84cbf15",
+          "bytes": 1782
+        },
+        "left.webp": {
+          "sha256": "e0fa5265801a7b99b33d1b8d16dafa4ec0ca93098f35f915225d0c33ecfb022f",
+          "bytes": 1674
+        },
+        "right.webp": {
+          "sha256": "f438d8c3f30870dd585f987018ac2dec69e5babdb424aa28a042f3920ee1df33",
+          "bytes": 1794
+        }
+      }
+    },
+    {
+      "id": "d-board",
+      "room": "D",
+      "name": "硬紙索引台",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "size": [
+        0.5799999833106995,
+        0.03500000014901161,
+        0.4000000059604645
+      ],
+      "triangles": 2244,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "4914a1927ad3aa9f5fbd356a8d8c54521feebe93a65759c937bd727702c29f88",
+          "bytes": 475268
+        },
+        "front.webp": {
+          "sha256": "ff7e49e5294c8f567ee11472fbae6ebff69d0a8768927c1d05a1ee770778a8bd",
+          "bytes": 7248
+        },
+        "back.webp": {
+          "sha256": "bb9286b317d6365ff3d0c2dec7f9ce49e3f6b0e174c570d6501ca8ed854e8122",
+          "bytes": 6920
+        },
+        "left.webp": {
+          "sha256": "032a383584294390d137ac5d8c2b4aeca79c07f9e1068218fe8fd0de0fabc9a7",
+          "bytes": 6518
+        },
+        "right.webp": {
+          "sha256": "f0bf7f65ae18a6b3e51f52165743d7c2f27f42d8022d5542d00f69105865cbb0",
+          "bytes": 6460
+        }
+      }
+    },
+    {
+      "id": "d-pen",
+      "room": "D",
+      "name": "細筆",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "size": [
+        0.2199999988079071,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "triangles": 104,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "e89d703379bfc8d3e3f6f0b256429ddffbf0f0479cb3df4f48b4c6b6971e895d",
+          "bytes": 268092
+        },
+        "front.webp": {
+          "sha256": "8a757726817aba81b1e5ddd9409996311cc7275f131091db5c9c10288f59b378",
+          "bytes": 2184
+        },
+        "back.webp": {
+          "sha256": "8dbceafdc5c7db2cdb022360e21b81b995c18bb81742a8530879d8583134640d",
+          "bytes": 1810
+        },
+        "left.webp": {
+          "sha256": "a45be8ab78816ceae8073b1b6fb1907501f3c0fcb2f23a72bf99da1d8756adf8",
+          "bytes": 1684
+        },
+        "right.webp": {
+          "sha256": "a14198e3a632c7de2d8c1a109c4fe15b741c300a6982713dcd9748f4a152bad1",
+          "bytes": 1752
+        }
+      }
+    },
+    {
+      "id": "d-cabinet",
+      "room": "D",
+      "name": "倒櫃與出口",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        1.7999999523162842,
+        1.0400000214576721,
+        1.1200000047683716
+      ],
+      "triangles": 972,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "45331b8c139c2ec618604c6789e8547324715d35dabadf6eb04f9be132636308",
+          "bytes": 353132
+        },
+        "front.webp": {
+          "sha256": "afec9cf30e82cf6d1042c4c7a410992ed891fbcf5e7223d321df5a830ff22545",
+          "bytes": 2498
+        },
+        "back.webp": {
+          "sha256": "20a618fc3ebd52c473c02c5d2434ed3d4fe5b2b8865ef3b184e9d3210d8bd383",
+          "bytes": 2090
+        },
+        "left.webp": {
+          "sha256": "e555990a0542765503ebf7e95645de38b48d851f6a288e3bb79e2c05015f67e2",
+          "bytes": 2622
+        },
+        "right.webp": {
+          "sha256": "6d09c6a65fddfb2f84c2aa667e337684bd2a1649c4c200158d73ed67b3e9a3c4",
+          "bytes": 2312
+        }
+      }
+    },
+    {
+      "id": "d-folder",
+      "room": "D",
+      "name": "空病歷夾",
+      "support": {
+        "id": "files",
+        "y": -1.1
+      },
+      "size": [
+        0.22999999672174454,
+        0.02500000037252903,
+        0.28999999165534973
+      ],
+      "triangles": 60,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "bd0c31d95bb267cfa6aef53b1a22688c081db62d04c30781a403acf0b8eec776",
+          "bytes": 161136
+        },
+        "front.webp": {
+          "sha256": "1cb1857caf0251c30a18922c63831ef500a17885685afdda3f2d59b402518ecd",
+          "bytes": 1748
+        },
+        "back.webp": {
+          "sha256": "070f31275b960bb8f70cc270e94c20807df06f7d53bd634ab1bac7f779304a5a",
+          "bytes": 1780
+        },
+        "left.webp": {
+          "sha256": "0410ce07d0ddec9ca9f271376ec5eb8e65cca3cf7bb508c0930d862be00bff38",
+          "bytes": 1540
+        },
+        "right.webp": {
+          "sha256": "94d665fa79877e4e5ca5f205be2c6557e35c779963d94ba47b5e2a0fd7e3b8fd",
+          "bytes": 1712
+        }
+      }
+    },
+    {
+      "id": "d-cup",
+      "room": "D",
+      "name": "玻璃量杯",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "size": [
+        0.11999999731779099,
+        0.14000000059604645,
+        0.11999999731779099
+      ],
+      "triangles": 576,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "01097e519fbe8d0ad999fe749b47cdcdfbf49e3640e2433d9ae37afeab0d9394",
+          "bytes": 57532
+        },
+        "front.webp": {
+          "sha256": "bace7916d7df2c20052b94734996396fd012ddfcbb105b06660b323a2cfc307e",
+          "bytes": 4378
+        },
+        "back.webp": {
+          "sha256": "5e8d3b28502ebdaf9ab3b6e5182a7edad86e3bfff25b9d7809bc2a4c13816205",
+          "bytes": 4216
+        },
+        "left.webp": {
+          "sha256": "5c8cdb1301697e4a1292b2a15e5f227b27c07cc0cfdadf6498540698e7472c0f",
+          "bytes": 3344
+        },
+        "right.webp": {
+          "sha256": "4bf18ce900eac34bd0e065933034e56cc8bd2f960a2bda26fea19c408ca37e9f",
+          "bytes": 3792
+        }
+      }
+    },
+    {
+      "id": "d-clock",
+      "room": "D",
+      "name": "停走的座鐘",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "size": [
+        0.1599999964237213,
+        0.20000000298023224,
+        0.10000000149011612
+      ],
+      "triangles": 1284,
+      "meshes": 4,
+      "files": {
+        "model.glb": {
+          "sha256": "edffb5097128e8d0147f90ad040e7a10f2a59d4dcbc8876e9020c176b15fb5c4",
+          "bytes": 277124
+        },
+        "front.webp": {
+          "sha256": "bf93ac5893eb914f15c0da9e4bc7b95f34446005962cbbc00f0b299d19e80b6a",
+          "bytes": 4152
+        },
+        "back.webp": {
+          "sha256": "ade0d19571a4f05fff7e7580fbec5d59eff05eb225507ee932b758299af7fb5f",
+          "bytes": 1740
+        },
+        "left.webp": {
+          "sha256": "e2da60c3d0f7ab58da280d8f57b964852d137b5850598e1ce5df924e02dd2220",
+          "bytes": 2056
+        },
+        "right.webp": {
+          "sha256": "df80542c578a480c8fbade5ce0cf8e90fd0a7347a00251601feebe6cb73c844e",
+          "bytes": 2212
+        }
+      }
+    },
+    {
+      "id": "d-towel",
+      "room": "D",
+      "name": "折起的布",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        0.25,
+        0.04500000178813934,
+        0.19999999552965164
+      ],
+      "triangles": 408,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "d70f6a56fba7f4c697ec0074e83d4d30321d7c75d98bf6983c05edcd97312cf6",
+          "bytes": 42920
+        },
+        "front.webp": {
+          "sha256": "5a9ddf9d78891dd9cabd943a3b249aa262f1810850a8d989dcf9c28627a156c1",
+          "bytes": 5172
+        },
+        "back.webp": {
+          "sha256": "3cd1c451acb1f31b42897cf031c6e67f98c0bf2effd727e336f7dd8ede725ed5",
+          "bytes": 4680
+        },
+        "left.webp": {
+          "sha256": "bfff808be374bdd8b4de4e20bde8e51659f243d649909b85c3a9850695567f5c",
+          "bytes": 5766
+        },
+        "right.webp": {
+          "sha256": "824547edf01d1076cc6ba6f893b3226e74097f705941c35985aacfb012801e1e",
+          "bytes": 5878
+        }
+      }
+    },
+    {
+      "id": "d-label",
+      "room": "D",
+      "name": "檔案櫃標籤",
+      "support": {
+        "id": "floor",
+        "y": -2.4
+      },
+      "size": [
+        0.28999999165534973,
+        0.014000000432133675,
+        0.23000000417232513
+      ],
+      "triangles": 14,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "d0701107f1066d1f4a4396ccabb6879464558bb51c406bab0f2ac4a2586f6fb3",
+          "bytes": 97040
+        },
+        "front.webp": {
+          "sha256": "7bab7fb2beda83ba23f7d0a75c13baea9da6fb62b03a5dc5719b1ffaeef750f0",
+          "bytes": 1922
+        },
+        "back.webp": {
+          "sha256": "3b53b57c6971b13f88d7bc35b3fa2621c474e25b87d8c742748391f7798da079",
+          "bytes": 1828
+        },
+        "left.webp": {
+          "sha256": "03bfdf65a9d9c9d5a8576306157d9bd1c0fb27ae15dc9579161f92a2a00c70ee",
+          "bytes": 1734
+        },
+        "right.webp": {
+          "sha256": "999cb2a7b1a5dffc652b8e0ce349756e5c1dfbb8bfc4ffb4091b6ed2cbbf2e5b",
+          "bytes": 1858
+        }
+      }
+    },
+    {
+      "id": "fixture-D-medical",
+      "room": "D",
+      "name": "fixture-D-medical",
+      "support": null,
+      "size": [
+        1.7599999904632568,
+        0.9499999903142451,
+        1
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "74d6383c0051865d21f30e086ef4e8ad6463a16009f87b60d120dae3481e1e95",
+          "bytes": 159748
+        },
+        "front.webp": {
+          "sha256": "7ae2479ebb23363a1075a60cce769e7f0e7f8783ce40f325152696cbecbd1e2f",
+          "bytes": 5142
+        },
+        "back.webp": {
+          "sha256": "f963c96fbe560c7226a8fb43008ce0afea630ae9033b9f0564f9414a121586d1",
+          "bytes": 4770
+        },
+        "left.webp": {
+          "sha256": "c774c1ea54fbcb552fa5c6e4096f299b814963a97428392262bd1e9891ddc96b",
+          "bytes": 4208
+        },
+        "right.webp": {
+          "sha256": "9b99e4ba71c2e974647620db51bd934a8b7d7ea60a4f08e02b74fb612518e304",
+          "bytes": 4368
+        }
+      }
+    },
+    {
+      "id": "fixture-D-module",
+      "room": "D",
+      "name": "fixture-D-module",
+      "support": null,
+      "size": [
+        0.6000000238418579,
+        0.8400000129640102,
+        0.550000011920929
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "1d6cfe124ac6dd942f89c75d268329270bf104bd42f53982f2455ef1c0cdef5a",
+          "bytes": 159748
+        },
+        "front.webp": {
+          "sha256": "5d1cfa3676a49ed7512bdb892e44593bb689d1925f1b45709fb6515463594fe5",
+          "bytes": 4706
+        },
+        "back.webp": {
+          "sha256": "6447efc79a758f38dfe07096fa4c7b8c583974ebdceb11e16cac2666fbbd9b6c",
+          "bytes": 4032
+        },
+        "left.webp": {
+          "sha256": "c6cc2047f120aefd2ed8879ab90f7d757e5ddf945a8170fe0d6c55c71eb354d5",
+          "bytes": 4004
+        },
+        "right.webp": {
+          "sha256": "b865ea5f2bf918bd1fa8d0fd8f2e136db194b89419f4c5582bb62f1d920573d7",
+          "bytes": 4468
+        }
+      }
+    },
+    {
+      "id": "fixture-D-briefcase-stand",
+      "room": "D",
+      "name": "fixture-D-briefcase-stand",
+      "support": null,
+      "size": [
+        0.6700000166893005,
+        0.5500000022351741,
+        0.6499999761581421
+      ],
+      "triangles": 60,
+      "meshes": 5,
+      "files": {
+        "model.glb": {
+          "sha256": "5c901d897f1789d7ba6bb6ab21227d8772ba7d15e08ea8740762886db4b7be65",
+          "bytes": 159764
+        },
+        "front.webp": {
+          "sha256": "2e599021fac3c116ac0bf5426cec53772c8892aaea817728820a769783ed720e",
+          "bytes": 8126
+        },
+        "back.webp": {
+          "sha256": "5c8e80817254a58a331cec05e2f09e2c6aa8bc71dc621cec1f1e3046b9fbda5a",
+          "bytes": 7002
+        },
+        "left.webp": {
+          "sha256": "3dd9916937982f142208d7c67d373dd452fc5640d89a7e9645b40be4b186316f",
+          "bytes": 7046
+        },
+        "right.webp": {
+          "sha256": "4f8e66d8e94ea7d74c621779f66051d5f977a05f09b2c3407278c3743bce39b0",
+          "bytes": 8624
+        }
+      }
+    },
+    {
+      "id": "fixture-D-recess-side",
+      "room": "D",
+      "name": "fixture-D-recess-side",
+      "support": null,
+      "size": [
+        0.20000000298023224,
+        2.799999952316284,
+        3.200000047683714
+      ],
+      "triangles": 12,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "f04aa8c28dc768188a26fa2af0e485c9a0bcc8924f85ea81a3be4fc6aed8f272",
+          "bytes": 169108
+        },
+        "front.webp": {
+          "sha256": "8fed6538f0cf72726b09ddb4faec0e7a9889a0efef95920c57ff4bf0b20a2827",
+          "bytes": 2296
+        },
+        "back.webp": {
+          "sha256": "b359911d8a7554335796f1853cecbae8ca7aecc10ea91afd3118f9dfb4e751af",
+          "bytes": 2182
+        },
+        "left.webp": {
+          "sha256": "8f3aa22bd718bbff2b1064326dcb6c6d1d4bf7c40b114989a72ab97ec12b9b75",
+          "bytes": 10238
+        },
+        "right.webp": {
+          "sha256": "3cb8d85153ae7a895d909871b52d139eacc8aae526fbaddbec229b66c92e6d12",
+          "bytes": 15464
+        }
+      }
+    },
+    {
+      "id": "b-brush",
+      "room": "B",
+      "name": "除塵刷",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.2200000062584877,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "triangles": 640,
+      "meshes": 2,
+      "files": {
+        "model.glb": {
+          "sha256": "0038842ebe42b49d6bad3e5020cd2e513f5554c8ed218602ef1d5f34a1253c2b",
+          "bytes": 215968
+        },
+        "front.webp": {
+          "sha256": "86b8c0da9cd6e76f6e4fe6241b0dd08f6f8b157bd77a6b7c5b6cd00bcd26c102",
+          "bytes": 1754
+        },
+        "back.webp": {
+          "sha256": "9e3fa0852857b03127ed2304fb13224640382e4a5429584d4c54612504617731",
+          "bytes": 1458
+        },
+        "left.webp": {
+          "sha256": "72c100efe562f4f7ce2a7704c3d28ffaeefcdb35a7402e833ede85c03afc8219",
+          "bytes": 1722
+        },
+        "right.webp": {
+          "sha256": "a596c79ce1fa9c753c16fc9bb8bec314277f43d99d1fc2272a1a0494618ab073",
+          "bytes": 1604
+        }
+      }
+    },
+    {
+      "id": "d-rod",
+      "room": "D",
+      "name": "細棒",
+      "support": {
+        "id": "module",
+        "y": -1.56
+      },
+      "size": [
+        0.2199999988079071,
+        0.02500000037252903,
+        0.02500000037252903
+      ],
+      "triangles": 80,
+      "meshes": 1,
+      "files": {
+        "model.glb": {
+          "sha256": "d1984cb8551c973364abd6dc4d6b8f499414d0d16e022028f59bae79d7f574d1",
+          "bytes": 114908
+        },
+        "front.webp": {
+          "sha256": "9866eeb7f2fb1897b479474f29f3f9a35965b8ef8aa1ea182175208b0ce51837",
+          "bytes": 1392
+        },
+        "back.webp": {
+          "sha256": "356013e3484f6629bf6d7c795ad70ab5ac9de32773667030fd4a1da489c2453c",
+          "bytes": 1290
+        },
+        "left.webp": {
+          "sha256": "947e9ec6e10fba062a0e6e4cd641bda1b2f0d23d75bba216e13c112dfe40c635",
+          "bytes": 1378
+        },
+        "right.webp": {
+          "sha256": "11539230fd76f44b1990c13dbd3c904d700bfdbe51eb9422372a723b1abaa9e6",
+          "bytes": 1344
+        }
+      }
+    },
+    {
+      "id": "b-reader",
+      "room": "B",
+      "name": "驗片匣",
+      "support": {
+        "id": "workbench",
+        "y": 0.94
+      },
+      "size": [
+        0.550000011920929,
+        0.30000001192092896,
+        0.3799999952316284
+      ],
+      "triangles": 972,
+      "meshes": 9,
+      "files": {
+        "model.glb": {
+          "sha256": "608d91dd1be528aba3446fade7b61d6bc2bb6b01e04c36a177be838cdaade857",
+          "bytes": 330220
+        },
+        "front.webp": {
+          "sha256": "ffe068cd77a413e3fa59407defdb27ea8a6503e31b2115c370c3d31f96bbe08d",
+          "bytes": 4010
+        },
+        "back.webp": {
+          "sha256": "3d67a05c0b07425a7e764022a02671d864596505df4b487b93aadf92bd6a77f9",
+          "bytes": 2862
+        },
+        "left.webp": {
+          "sha256": "f70aeead16317f254b63198f8cc60afb6554d4bbd7c6f430fa518e3ba1df5f1c",
+          "bytes": 3030
+        },
+        "right.webp": {
+          "sha256": "0bf09cd587e8a3dead1a3d29daa2b4e774e7c48c7c061e11471a938b7aa1a9b3",
+          "bytes": 3734
+        }
+      }
+    },
+    {
+      "id": "d-drawers",
+      "room": "D",
+      "name": "雙層資料匣",
+      "support": {
+        "id": "medical",
+        "y": -1.45
+      },
+      "size": [
+        0.550000011920929,
+        0.30000001192092896,
+        0.3799999952316284
+      ],
+      "triangles": 732,
+      "meshes": 7,
+      "files": {
+        "model.glb": {
+          "sha256": "a767d98e5bda6898a5a1366f910f5273eefa910aaaec7b444649b5aff2b19960",
+          "bytes": 305644
+        },
+        "front.webp": {
+          "sha256": "31178873fcd61944d0f211cc0e4090127774281d0dab4085a3486d7d4180d1cd",
+          "bytes": 3868
+        },
+        "back.webp": {
+          "sha256": "0e81860964b2714bdd076f5b54b379ec1ff9b4bef9acd38642b5568964adcc41",
+          "bytes": 2402
+        },
+        "left.webp": {
+          "sha256": "5c9a84a46d05126855e6376b38fc19ef43155e7529b3c4d11a32e422a3b304e4",
+          "bytes": 2756
+        },
+        "right.webp": {
+          "sha256": "4a0bebf18e5a426f22cba035c19ceca669a8aae283189b26bc07fdaac9f7961f",
+          "bytes": 2782
+        }
+      }
+    },
+    {
+      "id": "fixture-B-west-shelf",
+      "room": "B",
+      "name": "fixture-B-west-shelf",
+      "support": null,
+      "size": [
+        0.4300000071525574,
+        1.7000000476837158,
+        1.0499999986588948
+      ],
+      "triangles": 72,
+      "meshes": 6,
+      "files": {
+        "model.glb": {
+          "sha256": "38404b65c8c3c6312ea3cfeecdf2480c7e10c0a08c8c4335e04b26857fe0ed26",
+          "bytes": 161712
+        },
+        "front.webp": {
+          "sha256": "e58f45c614ec0c2c87a63ac64d211b686fc3656b6d582d27289cf4b60b3958e7",
+          "bytes": 2364
+        },
+        "back.webp": {
+          "sha256": "84b3bbdd1e99427341f4a04e904e3799fdeca5dc67b17a7c37534d34689e91ed",
+          "bytes": 2004
+        },
+        "left.webp": {
+          "sha256": "f8473b30cdd5e13cdad2cbdf3747392e26446a64ebc4e6d0e9561e05abd8373b",
+          "bytes": 2142
+        },
+        "right.webp": {
+          "sha256": "ab407e9131d1b7f64228418d4dc3f04bd69ed199dfad76806034aba6c4c4e7a4",
+          "bytes": 3928
+        }
+      }
+    },
+    {
+      "id": "room-B",
+      "room": "B",
+      "name": "room-B",
+      "support": null,
+      "size": [
+        4.479999542236328,
+        3.259999990463257,
+        3.479999542236328
+      ],
+      "triangles": 8836,
+      "meshes": 76,
+      "files": {
+        "model.glb": {
+          "sha256": "e31664562a794b507e6c3e693c72f1ad83b493b5899151d9bd2b33c5391f5794",
+          "bytes": 2123896
+        },
+        "front.webp": {
+          "sha256": "ca5d5683b0ab4d0728a6c0bf310878675cd8c24978cafef24bfd39f9489b4a54",
+          "bytes": 14314
+        },
+        "back.webp": {
+          "sha256": "dd1f3a9520715a0f6c572b80c3e90a02a0a21fb059eadccd99471625a207a7a5",
+          "bytes": 9502
+        },
+        "left.webp": {
+          "sha256": "3cef234ab0c15746baa51623dd973eecae52cf1dfb8383f9ac01fc998cb9c0f7",
+          "bytes": 7222
+        },
+        "right.webp": {
+          "sha256": "badd1f95fe4aa74b3f25dd702b47f061c1521e73348219cb0fda16a8ed88c193",
+          "bytes": 10282
+        }
+      }
+    },
+    {
+      "id": "fixture-C-storage-shelf",
+      "room": "C",
+      "name": "fixture-C-storage-shelf",
+      "support": null,
+      "size": [
+        0.9499999944120638,
+        2.049999976530671,
+        3.7999999986588957
+      ],
+      "triangles": 72,
+      "meshes": 6,
+      "files": {
+        "model.glb": {
+          "sha256": "b285bb366b55677285043ea158aa3d3c5fab616d79bd03fa8f54ca47626093ac",
+          "bytes": 161788
+        },
+        "front.webp": {
+          "sha256": "f15fae7f87a659208d4eaece37e1aa0e5f906967d04216489d728727ba97bbd3",
+          "bytes": 2664
+        },
+        "back.webp": {
+          "sha256": "f8662a5d05393557df3456ed131d7c44b144093d5edc0648ee76ae62ca750dae",
+          "bytes": 2406
+        },
+        "left.webp": {
+          "sha256": "dbc32d6648ea5d7e33ab2d0dcd2e59402a833b4f52ffc577fa7c5accd49af665",
+          "bytes": 2378
+        },
+        "right.webp": {
+          "sha256": "9fb06f26209d2c3a18edb07035aa1fc48c077db390436506302aa803e96189e7",
+          "bytes": 4914
+        }
+      }
+    },
+    {
+      "id": "fixture-D-files",
+      "room": "D",
+      "name": "fixture-D-files",
+      "support": null,
+      "size": [
+        0.8700000047683716,
+        2.250000000372529,
+        2.6500000953674316
+      ],
+      "triangles": 72,
+      "meshes": 6,
+      "files": {
+        "model.glb": {
+          "sha256": "213c6fccf026c08dd82ab21dc1480454f90f876cb44ea436a91cf2ff27bf271c",
+          "bytes": 161652
+        },
+        "front.webp": {
+          "sha256": "ada7434de89fed00491d4bf3c74936066953cbdc7bbb845a34a8dff4ef3e82d9",
+          "bytes": 3144
+        },
+        "back.webp": {
+          "sha256": "bb580f6b93755af77ceda93f7b31a6cad18f28467d0513354f9853261e8297d2",
+          "bytes": 2806
+        },
+        "left.webp": {
+          "sha256": "fb3569aeee551e4e1ba21d5b32d82d108977462e2ed781f8e27d550e83e96204",
+          "bytes": 2932
+        },
+        "right.webp": {
+          "sha256": "2e454592aa5f5124fa485e112b89dcf349bee9183a41dd6cdaddc958f7cf6963",
+          "bytes": 6606
+        }
+      }
+    },
+    {
+      "id": "room-D",
+      "room": "D",
+      "name": "room-D",
+      "support": null,
+      "size": [
+        8.479999542236328,
+        3.3100000619888306,
+        6.479999542236328
+      ],
+      "triangles": 7184,
+      "meshes": 72,
+      "files": {
+        "model.glb": {
+          "sha256": "6f5f990a8db958747f29988d4ca063b2027099e8401b64742381ad6fe488e22e",
+          "bytes": 1914776
+        },
+        "front.webp": {
+          "sha256": "f1763616e1c45f9959f6956c7696a411719d1063a29e9aa3c799a5607ff5d20d",
+          "bytes": 7778
+        },
+        "back.webp": {
+          "sha256": "b1ce0d059763a46893f4bad7d1c6b50b9a6a4f0beab1754495e7d15a839a0fda",
+          "bytes": 5438
+        },
+        "left.webp": {
+          "sha256": "f2b02144792b90fc0266cf3e0d008535729a9f64580221cfd990cdc01a58a07a",
+          "bytes": 4644
+        },
+        "right.webp": {
+          "sha256": "5fdd7e71291002f3cea8d993486eed342f19a8e84f9abedc0e4954740ce78017",
+          "bytes": 6370
+        }
+      }
+    },
+    {
+      "id": "c-basket",
+      "room": "C",
+      "name": "吊籃",
+      "support": {
+        "id": "basket-stop",
+        "y": 1
+      },
+      "size": [
+        0.550000011920929,
+        0.550000011920929,
+        0.45000001788139343
+      ],
+      "triangles": 1452,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "c2a37e1a5200587024d13e6598a02cd38914852723334793bcce3160e6ce6ac8",
+          "bytes": 248500
+        },
+        "front.webp": {
+          "sha256": "6341233e213800c63cb7b7094c66b32baccf992925889e481a527c02dcf6875c",
+          "bytes": 6918
+        },
+        "back.webp": {
+          "sha256": "839bfca9968989a61d5aec436e643a5130247eaf4fe7e36a55a66a41d08491de",
+          "bytes": 7172
+        },
+        "left.webp": {
+          "sha256": "937f18bc9c77e7e93fb5581cfa3a42f8ec9690d55d63a8b305eefce80d5b56c9",
+          "bytes": 4774
+        },
+        "right.webp": {
+          "sha256": "c6870c96a9f4143d10cc8020a59fdea4ba6367e1969534f46fffba89d8ab7aaf",
+          "bytes": 4508
+        }
+      }
+    },
+    {
+      "id": "room-C",
+      "room": "C",
+      "name": "room-C",
+      "support": null,
+      "size": [
+        12.479999542236328,
+        3.810000002384186,
+        10.479999542236328
+      ],
+      "triangles": 23238,
+      "meshes": 131,
+      "files": {
+        "model.glb": {
+          "sha256": "6985616981e74957d14fa1e197ee5e0b369d4c6e5076e0346f3ecac95cb5e951",
+          "bytes": 3354680
+        },
+        "front.webp": {
+          "sha256": "ab60761effc75cf0bb6f4cf4202a13a9086a901f55a662f3255c54283ca846e5",
+          "bytes": 6652
+        },
+        "back.webp": {
+          "sha256": "287a681d7bd4277ea4fd27073251c7ab2ad9862fc39020e4975fa4b873d40d54",
+          "bytes": 4780
+        },
+        "left.webp": {
+          "sha256": "3d48a8af8c80a1f1397af44aaef47f2f8fe9a0297c272246b3e5dbaa07976a85",
+          "bytes": 4094
+        },
+        "right.webp": {
+          "sha256": "f2ee36ff0e7ce6ece7447e357903ef0ea5540acaebf4f347014aae648ec8f752",
+          "bytes": 5474
+        }
+      }
+    }
+  ]
+}

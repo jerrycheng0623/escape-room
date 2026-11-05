@@ -1,7 +1,35 @@
-import {createHash} from 'node:crypto';import {readFile,mkdir,writeFile} from 'node:fs/promises';import {resolve,join} from 'node:path';import {tmpdir} from 'node:os';
-const root=resolve(import.meta.dirname,'../..'),manifest=JSON.parse(await readFile(resolve(root,'assets/playback-v6/manifest.json'),'utf8')),base=process.env.EMBERS_URL||'http://127.0.0.1:5173/',out=process.env.EMBERS_QA_DIR||join(tmpdir(),'embers-media-http');await mkdir(out,{recursive:true});const report={date:new Date().toISOString(),base,files:[],legacy:[],subtitles:[]};
-const delivered=await (await fetch(new URL('media.json?verify='+Date.now(),base))).json();
-try{for(const seg of manifest.segments){for(const s of seg.sources){const name=s.path.split('/').at(-1),url=new URL('media/video/'+name,base);const r=await fetch(url);const hash=createHash('sha256');let bytes=0;for await(const chunk of r.body){hash.update(chunk);bytes+=chunk.length}const digest=hash.digest('hex'),mime=s.type.split(';')[0];const range=await fetch(url,{headers:{Range:'bytes=0-1023'}});const b=Buffer.from(await range.arrayBuffer()),local=await readFile(resolve(root,s.path));const row={name,status:r.status,mime:r.headers.get('content-type'),bytes,sha256:digest,rangeStatus:range.status,contentRange:range.headers.get('content-range'),pass:r.status===200&&r.headers.get('content-type')?.includes(mime)&&bytes===s.bytes&&digest===s.sha256&&range.status===206&&b.equals(local.subarray(0,1024))};report.files.push(row);if(!row.pass)throw Error('Media HTTP mismatch '+name)}
-const old=await fetch(new URL('media/video/'+seg.id+'.mp4',base),{method:'HEAD'});report.legacy.push({id:seg.id,status:old.status,pass:old.status===200});for(const lang of ['zh-Hant','en']){const r=await fetch(new URL(delivered.find(s=>s.id===seg.id).tracks[lang],base));const txt=await r.text();const localTracks=JSON.parse(await readFile(resolve(root,'assets/story-v5/manifest.json'),'utf8')).segments.find(s=>s.id===seg.id).subtitleTracks;const expected=await readFile(resolve(root,localTracks[lang]),'utf8');report.subtitles.push({id:seg.id,lang,status:r.status,exactTextMatches:txt===expected,pass:r.status===200&&txt.startsWith('WEBVTT')&&txt===expected})}}
-}catch(e){report.failure=e.stack;console.error(e.stack);process.exitCode=1}finally{await writeFile(join(out,'http-media-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({files:report.files.length,legacy:report.legacy.length,subtitles:report.subtitles.length,failures:[...report.files,...report.legacy,...report.subtitles].filter(x=>!x.pass)},null,2))}
-if([...report.files,...report.legacy,...report.subtitles].some(x=>!x.pass))process.exitCode=1;
+import {createHash} from 'node:crypto';
+import {readFile,mkdir,writeFile} from 'node:fs/promises';
+import {resolve,join} from 'node:path';
+import {tmpdir} from 'node:os';
+import assert from 'node:assert/strict';
+
+const root=resolve(import.meta.dirname,'..'),local=resolve(root,'public');
+const base=process.env.EMBERS_URL||'http://127.0.0.1:5173/',out=process.env.EMBERS_QA_DIR||join(tmpdir(),'embers-media-http');
+await mkdir(out,{recursive:true});
+const report={date:new Date().toISOString(),base,method:'Compare the live index with prepared assets; verify complete bytes, MIME, byte-range contents, and every subtitle file.',files:[],subtitles:[]};
+try{
+ const expected=JSON.parse(await readFile(resolve(local,'media.json'),'utf8'));
+ const index=await fetch(new URL('media.json?verify='+Date.now(),base));
+ assert.equal(index.status,200);
+ assert.deepEqual(await index.json(),expected,'Deployed and locally prepared media indexes differ');
+ for(const film of expected){
+  for(const {src,type} of film.sources){
+   const url=new URL(src,base),name=src.split('/').at(-1),mime=type.split(';')[0];
+   const bytes=await readFile(resolve(local,src)),sha256=createHash('sha256').update(bytes).digest('hex');
+   const r=await fetch(url),hash=createHash('sha256');let length=0;
+   for await(const chunk of r.body){hash.update(chunk);length+=chunk.length;}
+   const digest=hash.digest('hex'),range=await fetch(url,{headers:{Range:'bytes=0-1023'}}),rangeBytes=Buffer.from(await range.arrayBuffer());
+   const row={id:film.id,name,status:r.status,mime:r.headers.get('content-type'),bytes:length,sha256:digest,rangeStatus:range.status,contentRange:range.headers.get('content-range')};
+   row.pass=r.status===200&&row.mime?.split(';')[0]===mime&&length===bytes.length&&digest===sha256&&range.status===206&&row.contentRange===`bytes 0-1023/${bytes.length}`&&rangeBytes.equals(bytes.subarray(0,1024));
+   report.files.push(row);assert(row.pass,`Media HTTP mismatch: ${name}`);
+  }
+  for(const [lang,src] of Object.entries(film.tracks)){
+   const r=await fetch(new URL(src,base)),text=await r.text(),expectedText=await readFile(resolve(local,src),'utf8');
+   const row={id:film.id,lang,status:r.status,exactTextMatches:text===expectedText,pass:r.status===200&&text.startsWith('WEBVTT')&&text===expectedText};
+   report.subtitles.push(row);assert(row.pass,`Subtitle HTTP mismatch: ${film.id} ${lang}`);
+  }
+ }
+ report.pass=true;
+}catch(e){report.pass=false;report.failure=e.stack;console.error(e.stack);process.exitCode=1;}
+finally{await writeFile(join(out,'http-media-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({pass:report.pass,files:report.files.length,subtitles:report.subtitles.length}));}

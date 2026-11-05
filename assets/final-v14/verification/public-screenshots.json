@@ -1,0 +1,250 @@
+{
+  "method": "Original screenshots retained; quality-90 WebP review copies at original dimensions",
+  "images": [
+    {
+      "original": "/tmp/embers-final/public-entry/chromium-root.png",
+      "originalSHA256": "3796168f632735e897658f6bb31aaec2b48689cb7e1fb7a7de28d05dfa96484a",
+      "file": "assets/final-v14/verification/public-entry/chromium-root.webp",
+      "sha256": "9ca0cb12c4f4abc5bf665f1fc6381af03549f1a49f98c06b06c910232790851a",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-entry/webkit-version.png",
+      "originalSHA256": "9813887a5c189f4687b13e0403bd258b3fdbafacd2f9393cd05ae71d6a0ae4ab",
+      "file": "assets/final-v14/verification/public-entry/webkit-version.webp",
+      "sha256": "4f0698ca221297334df1a8e01fcea6684e37151cbf019e501bc4598f0285d900",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-entry/webkit-root.png",
+      "originalSHA256": "9813887a5c189f4687b13e0403bd258b3fdbafacd2f9393cd05ae71d6a0ae4ab",
+      "file": "assets/final-v14/verification/public-entry/webkit-root.webp",
+      "sha256": "4f0698ca221297334df1a8e01fcea6684e37151cbf019e501bc4598f0285d900",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-entry/chromium-version.png",
+      "originalSHA256": "3796168f632735e897658f6bb31aaec2b48689cb7e1fb7a7de28d05dfa96484a",
+      "file": "assets/final-v14/verification/public-entry/chromium-version.webp",
+      "sha256": "9ca0cb12c4f4abc5bf665f1fc6381af03549f1a49f98c06b06c910232790851a",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-mobile-A.png",
+      "originalSHA256": "2f436c01441a3484d2e513781f2d79cda7af0d4d4b248c0e46d7850df8f86595",
+      "file": "assets/final-v14/verification/public-player/chromium-mobile-A.webp",
+      "sha256": "632083dfb3fbbd881a0f606fe1097ed04e5140a6489b51dc25495707906433d1",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-mobile-B.png",
+      "originalSHA256": "d4f420551ab5425b8800d0b3a46a845812d0aff3dc28b722ae4d828bdf8a8d47",
+      "file": "assets/final-v14/verification/public-player/chromium-mobile-B.webp",
+      "sha256": "98a8ba891623e0f2fee7020876a16c1d3b702714819743b6f8c1912dd9286c87",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-mobile-C.png",
+      "originalSHA256": "eaba69d0d98dc15efa0090f843e59fcca91c3ea7aa501432d41a964d3507b21a",
+      "file": "assets/final-v14/verification/public-player/chromium-mobile-C.webp",
+      "sha256": "ed5543f25afb77ba0f7d17b7c9c8cc1895424cece3f740e02a99a64e34c01187",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-mobile-D.png",
+      "originalSHA256": "ae518196584ebbbcce6f4c255b83855ff6d0a477fcae71f2d3312d850185b0a7",
+      "file": "assets/final-v14/verification/public-player/chromium-mobile-D.webp",
+      "sha256": "62171ee6ad786fe990af460d373c098eec290962ab51d358ea8773b7f9055072",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-desktop-C.png",
+      "originalSHA256": "37c2fbc0c40d769ede7a91751fa45d850c4c2b5d691c86835dd5e3fee4342d86",
+      "file": "assets/final-v14/verification/public-player/chromium-desktop-C.webp",
+      "sha256": "b9d14a64c75eee611f8938dd2ff7b0562ba716f26bcd7953f6168ac663b28b4f",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-desktop-B.png",
+      "originalSHA256": "1ba8a3d78c885caa3f9b0aaf2e2089f2e21b81a1f07a1fa6b4e75a418a1d0fa4",
+      "file": "assets/final-v14/verification/public-player/chromium-desktop-B.webp",
+      "sha256": "eff3cddd6f1fcd4c611916c905f5d3341949923706cd53e6dfbe307b32a7e47a",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/webkit-mobile-D.png",
+      "originalSHA256": "f0c4510e96bac1da5ea759bb72f16e1990db9eadaea576d850a76b7cd838e77d",
+      "file": "assets/final-v14/verification/public-player/webkit-mobile-D.webp",
+      "sha256": "4ed48b1f6ab0a154478707231ed88ca22dadb46be1206054829aebfb4a391159",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-desktop-A.png",
+      "originalSHA256": "9043e983c1817ba67ebeff25d96c61b342ea44429b8928b30ba01c5602645d3b",
+      "file": "assets/final-v14/verification/public-player/chromium-desktop-A.webp",
+      "sha256": "22b56f4dcc254f94d803a566a28f41703107273b91090d05223471d43f27dc54",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/webkit-mobile-A.png",
+      "originalSHA256": "c90e78fee2a6b4f36a5e369e080295889cdf313be9deba2195180a6e8d8ee814",
+      "file": "assets/final-v14/verification/public-player/webkit-mobile-A.webp",
+      "sha256": "cbfedb07e2c2b1209499fb67a600be3be1bc20e7da7633d7fbdb18ec41ff0f4e",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/chromium-desktop-D.png",
+      "originalSHA256": "86b7d7d65aa6e26b65a8f97bd13bd1fda59d6f461161286d919b5f6f172b4487",
+      "file": "assets/final-v14/verification/public-player/chromium-desktop-D.webp",
+      "sha256": "7d340bcd7bd4c15be895f42bc5982c0b49282ed5fa294c8629a67636f6571f0a",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/webkit-mobile-B.png",
+      "originalSHA256": "74cad04ee03bbf3c6183be123016d34117dddafbc71d804bab6abfb6473744b9",
+      "file": "assets/final-v14/verification/public-player/webkit-mobile-B.webp",
+      "sha256": "e19788256840f41c8f006d90950e4954cbca1e3db755cf7cef5ff34804715abc",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-player/webkit-mobile-C.png",
+      "originalSHA256": "1c0ed3202f363ccdb98f1d36be67f636a4b7c1d7b604de3da16f5abc80324e16",
+      "file": "assets/final-v14/verification/public-player/webkit-mobile-C.webp",
+      "sha256": "17679c7f50d677473bb42557aefebc87192ad4a13799cf807752054a0a93861f",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/chromium-desktop-practice.png",
+      "originalSHA256": "c78e022055d88b9ffa0e56083f28cc5943860cdd4a0cc0c7030c1934822a61f4",
+      "file": "assets/final-v14/verification/public-q/chromium-desktop-practice.webp",
+      "sha256": "c0660100c19cb0c5c29eabca0761e3ac63c388e52dc187c20150760e5a801d8f",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/chromium-mobile-controls.png",
+      "originalSHA256": "c28b9256bab1f2cf26be1c99fce6586e7ab1a279cdf09a54c996e51d6428ad06",
+      "file": "assets/final-v14/verification/public-q/chromium-mobile-controls.webp",
+      "sha256": "0205eae5765c674d7fa8e600960e893c637973ec54f48db929e0b7a8acab4b99",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/webkit-desktop-controls.png",
+      "originalSHA256": "c7b3a67051c82e5579e9212919231d5ac2832b1fc3f2c8e897310e9a15333a17",
+      "file": "assets/final-v14/verification/public-q/webkit-desktop-controls.webp",
+      "sha256": "63fd14ec072c1f655e2419c1503348f0d4ca4958c0dbc130c979d85fde92313f",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/webkit-mobile-practice.png",
+      "originalSHA256": "11f1b7ffa2165f3e808fa69c88aa7f8248823afc674c7e0e42d36fb90c2caffb",
+      "file": "assets/final-v14/verification/public-q/webkit-mobile-practice.webp",
+      "sha256": "6b9aba215579d74d1e914426ced6bce3d2c514894b73484a89adf247a5943ce9",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/webkit-mobile-controls.png",
+      "originalSHA256": "189a1b8d0dc8fcac462dd6584343c79e239fac8503b33b8fbaaaf0af5b9c0e99",
+      "file": "assets/final-v14/verification/public-q/webkit-mobile-controls.webp",
+      "sha256": "7d40093822ca84dc237de6a9138a03cdbd629f48df153e21aa5fd33c045b8500",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/webkit-desktop-practice.png",
+      "originalSHA256": "610400403ee0d22e6abcb9a08195eb07c9a27054075b341bad5be568b13fe92e",
+      "file": "assets/final-v14/verification/public-q/webkit-desktop-practice.webp",
+      "sha256": "00a566403e62cae4763ad5eb57f10f9cf205941636dd805b824b8212282733b5",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/chromium-mobile-practice.png",
+      "originalSHA256": "26e0ff73cb9ab7cefde895cf96167ec9cb14d4153ccd2d5a1e9b0e89b1ab6e12",
+      "file": "assets/final-v14/verification/public-q/chromium-mobile-practice.webp",
+      "sha256": "5d934cfc2738d2fb72bcaf22089d82ebfbb10c52bb3f03cace1fe4154f278d96",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-q/chromium-desktop-controls.png",
+      "originalSHA256": "ea3e8c9ed130fa1a4b1498aeb0d72565f82e9f05a0738583cc4107175643b180",
+      "file": "assets/final-v14/verification/public-q/chromium-desktop-controls.webp",
+      "sha256": "0bb489dcb3a6a62dd26986d4db7c011872435e39df33a21b65cca3fa735aa515",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/chromium-1440-lock-guide.png",
+      "originalSHA256": "bfe5249e5ea402911332c73bc84228ec59ee76a25d5e277f2596262fd2a1ee55",
+      "file": "assets/final-v14/verification/public-guide/chromium-1440-lock-guide.webp",
+      "sha256": "ed7065447e9af03a39e9b31753837d04e3825ede30de3799392733080126b929",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/chromium-844-lock-guide.png",
+      "originalSHA256": "23a3699dfab52df56bed5b94ca670ff0ae53a3f3ed156ebd438f127a84336d97",
+      "file": "assets/final-v14/verification/public-guide/chromium-844-lock-guide.webp",
+      "sha256": "e4df53edc8563d99333ec1a7f6ffeb8c6227589de88b09f0a3396b32918a12af",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/webkit-844-lock-guide.png",
+      "originalSHA256": "bd8a98fb2fc59d8285265b93e66642f2fee6f37274354a923320f9a98d855b71",
+      "file": "assets/final-v14/verification/public-guide/webkit-844-lock-guide.webp",
+      "sha256": "b60701b8ea1dcd021e9eec47d130ab4d81cefc0a7592df59236553ce719bd193",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/webkit-390-lock-guide.png",
+      "originalSHA256": "52f984b20112ed472dc880dd06d70491a53fc480ea135dea79dc8cf00ac17bc0",
+      "file": "assets/final-v14/verification/public-guide/webkit-390-lock-guide.webp",
+      "sha256": "b7050fa724efd0e6944149420658ea1aaa007126fb15f695598e28e378294078",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/webkit-1440-lock-guide.png",
+      "originalSHA256": "73cff981ed50278190c7ac71e8602f8fea1dedec5f2e8f21527aba78a56705ed",
+      "file": "assets/final-v14/verification/public-guide/webkit-1440-lock-guide.webp",
+      "sha256": "0da197e0b1047505e2076fe67b7482c7f115e77baffa8b416b21054ca7ed8e78",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-guide/chromium-390-lock-guide.png",
+      "originalSHA256": "be92087fa9aed6b8136f72732e2977ec56ecf07e72d7b157c6a31f01fb404828",
+      "file": "assets/final-v14/verification/public-guide/chromium-390-lock-guide.webp",
+      "sha256": "8def2355558fb44791f0f0660c7d5356cf19d630b1079b9e8814398a3dd1552e",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-flow-mobile-final/D-template.png",
+      "originalSHA256": "e8bfa24f3d5f508dd97f1852ef96817789e4e7b34e4358074dcc1749adec95d2",
+      "file": "assets/final-v14/verification/public-flow-mobile-final/D-template.webp",
+      "sha256": "25d9fd48b82e19e0e1126877da4e8389fe8a0aef2612432d1cf7f1c062e2cef9",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-flow-mobile-final/B.png",
+      "originalSHA256": "d4f420551ab5425b8800d0b3a46a845812d0aff3dc28b722ae4d828bdf8a8d47",
+      "file": "assets/final-v14/verification/public-flow-mobile-final/B.webp",
+      "sha256": "98a8ba891623e0f2fee7020876a16c1d3b702714819743b6f8c1912dd9286c87",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-flow-mobile-final/C.png",
+      "originalSHA256": "eaba69d0d98dc15efa0090f843e59fcca91c3ea7aa501432d41a964d3507b21a",
+      "file": "assets/final-v14/verification/public-flow-mobile-final/C.webp",
+      "sha256": "ed5543f25afb77ba0f7d17b7c9c8cc1895424cece3f740e02a99a64e34c01187",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-flow-mobile-final/A.png",
+      "originalSHA256": "2f436c01441a3484d2e513781f2d79cda7af0d4d4b248c0e46d7850df8f86595",
+      "file": "assets/final-v14/verification/public-flow-mobile-final/A.webp",
+      "sha256": "632083dfb3fbbd881a0f606fe1097ed04e5140a6489b51dc25495707906433d1",
+      "sameDimensions": true
+    },
+    {
+      "original": "/tmp/embers-final/public-flow-mobile-final/D.png",
+      "originalSHA256": "ae518196584ebbbcce6f4c255b83855ff6d0a477fcae71f2d3312d850185b0a7",
+      "file": "assets/final-v14/verification/public-flow-mobile-final/D.webp",
+      "sha256": "62171ee6ad786fe990af460d373c098eec290962ab51d358ea8773b7f9055072",
+      "sameDimensions": true
+    }
+  ]
+}

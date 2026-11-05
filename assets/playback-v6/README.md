@@ -1,3 +1,5 @@
+> 版本註記（2026-11-05）：本文保留原始來源或歷史交付，不是正式版 v14 的操作規格。現況請以專案根目錄 PLAN.md、verify.md、test.md 與 3D/final-v14/manifest.json 為準；本文舊版本的預覽入口及舊模型不會重新啟用。
+
 # 影片相容交付 revision 7（沿用資料夾名稱）
 
 由 assets/story-v5 的正式影片轉製，保留原畫、故事、時間軸與聲音；不修改來源原畫或角色。
@@ -10,3 +12,5 @@
 - 測試：web/scripts/test-media.mjs（1倍完整自然播放）與 test-media-controls.mjs（操作及故障）。最新實測見根目錄 test.md 第11.4節。
 
 先前compatible-v6.mp4為Baseline實驗，非現行交付；現行來源僅以manifest.json的revision 7清單為準。
+
+正式版目前採 [聲景 v15](../soundscape-v15/README.md) 的新版配樂衍生檔；本資料夾仍保留歷史影片與供重製使用的 v10 原音畫來源。

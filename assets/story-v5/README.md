@@ -1,3 +1,5 @@
+> 版本註記（2026-11-05）：本文保留原始來源或歷史交付，不是正式版 v14 的操作規格。現況請以專案根目錄 PLAN.md、verify.md、test.md 與 3D/final-v14/manifest.json 為準；本文舊版本的預覽入口及舊模型不會重新啟用。
+
 # v5原始母版與目前播放的界線
 
 目前播放器依assets/playback-v6/manifest.json version9：A/D使用story-v9替換片，其他五片保留v7相容交付；storyboard與字幕已同步機關v4。以下原母版交付脈絡保留，完整現況見專案根目錄素材交付.md及test.md第11.5節。

@@ -1,0 +1,69 @@
+{
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "date": "2026-11-04T17:26:41.359Z",
+  "method": "Real click/tap focus, individual keystrokes/deletion and insertText fullwidth. Composition events separately injected to verify IME lifecycle, not physical IME. Engineering A save only for in-game mode protection. Browser plugin not available.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": false,
+      "checks": [
+        "actual Q toggles control illustration only, repeat ignored, button alternative works",
+        "real per-character typing/deletion preserves focus, arbitrary four digits open practice",
+        "fullwidth and mixed paste normalize to four ASCII digits; middle edit works",
+        "injected composition lifecycle retains provisional text then normalizes committed digits",
+        "44px digit wheels wrap both ways, changing code invalidates release, no formal save mutation",
+        "Q alternates cursor/last-chosen keyboard exploration; held Q no repeat; cursor no drift",
+        "q/Q type normally in notes; modal practice keyboard works and never requests pointer lock"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": true,
+      "checks": [
+        "actual Q toggles control illustration only, repeat ignored, button alternative works",
+        "real per-character typing/deletion preserves focus, arbitrary four digits open practice",
+        "fullwidth and mixed paste normalize to four ASCII digits; middle edit works",
+        "injected composition lifecycle retains provisional text then normalizes committed digits",
+        "44px digit wheels wrap both ways, changing code invalidates release, no formal save mutation",
+        "q/Q type normally in notes; modal practice keyboard works and never requests pointer lock"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "mobile": false,
+      "checks": [
+        "actual Q toggles control illustration only, repeat ignored, button alternative works",
+        "real per-character typing/deletion preserves focus, arbitrary four digits open practice",
+        "fullwidth and mixed paste normalize to four ASCII digits; middle edit works",
+        "injected composition lifecycle retains provisional text then normalizes committed digits",
+        "44px digit wheels wrap both ways, changing code invalidates release, no formal save mutation",
+        "Q alternates cursor/last-chosen keyboard exploration; held Q no repeat; cursor no drift",
+        "q/Q type normally in notes; modal practice keyboard works and never requests pointer lock"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "mobile": true,
+      "checks": [
+        "actual Q toggles control illustration only, repeat ignored, button alternative works",
+        "real per-character typing/deletion preserves focus, arbitrary four digits open practice",
+        "fullwidth and mixed paste normalize to four ASCII digits; middle edit works",
+        "injected composition lifecycle retains provisional text then normalizes committed digits",
+        "44px digit wheels wrap both ways, changing code invalidates release, no formal save mutation",
+        "q/Q type normally in notes; modal practice keyboard works and never requests pointer lock"
+      ],
+      "errors": [],
+      "pass": true
+    }
+  ]
+}

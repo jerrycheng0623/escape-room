@@ -3,17 +3,18 @@ import {resolve,dirname} from 'node:path';
 const web=resolve(import.meta.dirname,'..'),root=resolve(web,'..'),pub=resolve(web,'public');
 const manifest=JSON.parse(await readFile(resolve(root,'assets/story-v5/manifest.json'),'utf8'));
 const playback=JSON.parse(await readFile(resolve(root,'assets/playback-v6/manifest.json'),'utf8'));
+const soundscape=JSON.parse(await readFile(resolve(root,'assets/soundscape-v15/manifest.json'),'utf8'));
 const story=JSON.parse(await readFile(resolve(root,'assets/story-v5/storyboard.json'),'utf8'));
 const content=JSON.parse(await readFile(resolve(root,'assets/story/content-v5.json'),'utf8'));
 async function copy(src,dst){const to=resolve(pub,dst);await mkdir(dirname(to),{recursive:true});await copyFile(resolve(root,src),to);}
 await rm(resolve(pub,'media'),{recursive:true,force:true});
 await Promise.all(['burned-plaster','scorched-wood'].map(id=>copy(`assets/scene-v6/textures/${id}.png`,`media/scene-v6/${id}.png`)));
 const {SPACE,PLAYER_RADIUS,EYE_HEIGHT,WALL_TRIM_CLEARANCE}=await import('../src/game/space.mjs');
-await writeFile(resolve(root,'3D/scene/enclosed-v8-layout.json'),JSON.stringify({version:8,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,wallTrimClearance:WALL_TRIM_CLEARANCE,rooms:SPACE,modelSource:'web/src/game/roomModels.js'},null,2)+'\n');
 await Promise.all([copy(manifest.menu,'media/menu.webp'),copy('assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav','media/wind.wav')]);
+await copy(soundscape.roomAmbience.path,'media/room-rain-thunder-v15.m4a');
 const media=[];
 for(const seg of manifest.segments){
- const delivery=playback.segments.find(s=>s.id===seg.id);if(!delivery?.sources?.length)throw Error('Missing playback derivatives: '+seg.id);
+ const delivery=soundscape.segments.find(s=>s.id===seg.id);if(!delivery?.sources?.length)throw Error('Missing playback derivatives: '+seg.id);
  const sources=delivery.sources.map(s=>({src:'media/video/'+s.path.split('/').at(-1),type:s.type}));
  const video=sources[0].src,poster=`media/posters/${seg.id}${playback.version>=10?'-v'+playback.version:seg.id==='CIN-D'?'-v9':''}.webp`,tracks={};
  await Promise.all([copy(playback.version>=10?`assets/story-v5/video/${seg.id}-story-v5.mp4`:seg.video,`media/video/${seg.id}.mp4`),copy(playback.version>=10?seg.poster:seg.id==='CIN-D'?'assets/world-v4/previews/clinic.webp':seg.poster,poster),...delivery.sources.map((s,i)=>copy(s.path,sources[i].src)),...Object.entries(seg.subtitleTracks).map(async([lang,path])=>{tracks[lang]=`media/subtitles/${seg.id}-${lang}-${playback.version>=10?'aligned-v'+playback.version:'mechanisms-v4'}.vtt`;await Promise.all([copy(path,tracks[lang]),copy(playback.version>=10?`assets/story-v5/subtitles/${lang}/${seg.id}.vtt`:path,`media/subtitles/${seg.id}-${lang}.vtt`)]);})]);
@@ -38,6 +39,9 @@ await Promise.all((await readdir(resolve(root,'assets/world-v4'))).filter(n=>n.e
 
 await Promise.all((await readdir(resolve(root,'assets/world-v4/previews'))).filter(n=>n.endsWith('.webp')).map(n=>copy('assets/world-v4/previews/'+n,'media/world-v4/'+n)));
 
-const {WORLD}=await import('../src/game/world.mjs');await writeFile(resolve(root,'3D/scene/enclosed-v9-layout.json'),JSON.stringify({version:9,mechanicRevision:4,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,rooms:SPACE,objects:WORLD,modelSource:'web/src/game/roomModelsV4.js'},null,2)+'\n');
+const {WORLD}=await import('../src/game/world.mjs');await writeFile(resolve(root,'3D/final-v14/layout.json'),JSON.stringify({version:14,mechanicRevision:4,playerRadius:PLAYER_RADIUS,eyeHeight:EYE_HEIGHT,rooms:SPACE,objects:WORLD,modelSource:'web/src/game/roomModelsV4.js'},null,2)+'\n');
 
 await copy('assets/world-v4/audio/work-fragment.mp3','media/world-v4/work-fragment.mp3');
+
+const finalRoot=resolve(root,'3D/final-v14');
+for(const item of await readdir(finalRoot,{withFileTypes:true})){if(!item.isDirectory()||item.name==='references')continue;for(const name of await readdir(resolve(finalRoot,item.name))){if(name.endsWith('.webp'))await copy(`3D/final-v14/${item.name}/${name}`,`media/final-v14/${item.name}/${name}`);}}

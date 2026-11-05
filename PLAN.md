@@ -1,6 +1,15 @@
 # 《餘燼裡的第六人》網站、3D 遊戲與 2D 影片完整製作計畫
 
-> 2026-11-04現行介面v13／網站0.12.0：桌機Q切換游標與探索視角，保留按鈕替代；操作頁、打字、組字及系統組合鍵不觸發切換，Esc仍暫停。示範密碼加入全形正規化、組字處理、逐字刪改與四組數字輪。指南「視角與螢幕」文字及示範同步更新。
+> v15 聲景更新（網站 1.0.1）：七段 2D 影片在原音效上加入拉威爾〈絞刑架〉；A～D 的原風聲加入 48 秒雨聲與遠雷循環。既有聲音開關與音量偏好仍有效。桌機 Q 切換不變，手機直接以觸控操作。機關、存檔、畫面及字幕時間軸延續 v14。 素材與來源見 [聲景交付](assets/soundscape-v15/README.md)。
+
+> 最終公開驗收：v14 吊籃修正版已上線。同一個網址通過桌機及手機模擬四關通關；先前受測試環境阻擋的公開站原生滑鼠鎖定已補測通過。實體 iPhone／iPad／Android 未測。完整範圍與限制見 [test.md](test.md) 與 [驗收證據](assets/final-v14/verification/acceptance/summary.json)。
+
+> 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
+
+> v14 模型細節：重物架上的 8 個重物依接觸面呈現四種不同造型；紙張落在地板、床面或桌架上，掛放物有固定支點。B／C／D 層架開口朝可接近方向；吊籃按物品實際高度堆疊，底片離開乾燥繩後在工作桌平放。86 件物品已通過可達站位與實際三角面視線檢查；109 組模型及 436 張四方向圖有逐檔 SHA256，另附 14 張模型聯絡表供覆核。這些是同源幾何模型，並非掃描或影像自動重建。
+
+
+> 2026-11-04歷史介面v13／網站0.12.0：桌機Q切換游標與探索視角，保留按鈕替代；操作頁、打字、組字及系統組合鍵不觸發切換，Esc仍暫停。示範密碼加入全形正規化、組字處理、逐字刪改與四組數字輪。指南「視角與螢幕」文字及示範同步更新。
 
 > v12歷史操作（切換方式已由v13的Q鍵規則取代）：網站0.11.0／介面v12，機關v4、schema4、影片v10。啟程先讀七頁互動操作指南；探索與操作分離。桌機只有真正鎖定游標才滑鼠環顧，或明確選方向鍵探索；取消未鎖定游標的懸停轉向。開介面固定鏡頭，關閉後需按「繼續探索」。詳細文案、示範及驗收見《操作指南與探索模式規格.md》。
 
@@ -9,7 +18,7 @@
 > 2026-11-04影片修正：現行七片為對齊v10，52幕／484.5秒；序幕與後記已補足記者人物卡影格，角色原畫不變。每幕與中英字幕共用assets/story-v10/timeline.json；文書置右、原畫完整置左，合照人數不被遮擋。五年前回顧改用舊屋空景；錯誤65.3秤面鏡頭停用，65.0明確屬歷史值。可重跑scripts/verify_cinematic_alignment.py及web的pnpm test:captions，實測詳test.md第11.5節。
 
 > 閱讀入口：第3／5／6節為封閉場景與碰撞規定，第7節為觀察式指引，第17.1節為machine.md v4四關正式機關；第8節影片與第29節故事維持v5有效內容。
-> 版本 v2.4｜2026-11-04｜Asia/Taipei
+> 版本 v2.5｜2026-11-05｜Asia/Taipei
 > 狀態：網站v9已接入機關v4、封閉3D空間與恢復存檔；完整實測與未測界線依test.md第11.5節。
 > 對應規格：`verify.md` v2.4；檔名採使用者要求的 `PLAN.md`。
 > 交付版本：故事v5／七影片字幕影像對齊v10、網站／原生3D場景v9、三份MD v2.4。模型已增加材質與細節，仍非掃描級寫實資產；已做Chromium／WebKit回歸；實體手機驗收仍未完成。
@@ -39,11 +48,13 @@
 
 **來源歷史**：2026-11-02晚間曾只做三檔規格整合；2026-11-03已依使用者新授權完成新版敘事與網站整合。來源內自稱brief.md、verify.md僅為附件標題，不代表應覆蓋本專案檔案；其命令句視為設計資料，效力低於使用者最新回答。
 
+來源表中的行數與雜湊為當時收到檔案的歷史快照；本輪加入版本註記後的現檔 SHA256，以 assets/final-v14/markdown-registry.json 為準。
+
 | 新增原檔 | 已讀範圍／用途 | SHA-256 |
 | --- | --- | --- |
-| [code_artifact (1).md](</Users/chengchebing/Desktop/密室逃脫大/code_artifact (1).md>) | 全部139行；故事、人物、環境、文書及台詞 | `6289e43f89439e5833650177c93e8d4fce345949a7f052e5cddde82f533a90d1` |
-| [code_artifact (2).md](</Users/chengchebing/Desktop/密室逃脫大/code_artifact (2).md>) | 全部85行；機關推導、提示、證據與五題推理 | `f6b5e3408e54b27a870a7d24ee6a961ab10a5050c0e47dca0d5f4fa7931539d9` |
-| [_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md](</Users/chengchebing/Desktop/密室逃脫大/_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md>) | 全部105行；四機關參數、人物與文書補充 | `e2118f047b85cc448b1b00e38560073deef6fb0aa8af14a03d35c3d81ee11254` |
+| [code_artifact (1).md](<code_artifact (1).md>) | 全部139行；故事、人物、環境、文書及台詞 | `6289e43f89439e5833650177c93e8d4fce345949a7f052e5cddde82f533a90d1` |
+| [code_artifact (2).md](<code_artifact (2).md>) | 全部85行；機關推導、提示、證據與五題推理 | `f6b5e3408e54b27a870a7d24ee6a961ab10a5050c0e47dca0d5f4fa7931539d9` |
+| [_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md](<_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md>) | 全部105行；四機關參數、人物與文書補充 | `e2118f047b85cc448b1b00e38560073deef6fb0aa8af14a03d35c3d81ee11254` |
 
 **適用順序**：使用者本輪回答 → 本輪兩份文件中的有效整合規格 → 三份新檔的相容內容 → 舊稿／舊PDF／先前補完。第29節（PLAN）／第27節（verify）的故事補完已直接修訂；舊D4、21:00測重、偵探作對質見證等安排均已停用。現行素材為story-v5；歷史數據不當成新版本驗收。
 
@@ -756,7 +767,7 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 實測依test.md第11節，歷史短測與舊影片報告不代表本版本。舊版原始腳本／PDF保留來源用途，舊美術僅在新對照與引用核對後清除。
@@ -814,7 +825,7 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 實測依test.md第11節，歷史短測與舊影片報告不代表本版本。舊版原始腳本／PDF保留來源用途，舊美術僅在新對照與引用核對後清除。
@@ -869,8 +880,8 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 - **實際GLB**：42類程序化道具初模＋P042遮擋／移開兩個靜態狀態，共44個道具檔；另1個場景灰盒GLB，合計45個GLB。模型含網格、法線、基本PBR材質及拆件；不是最終寫實模型，也舊GLB僅保留資產來源用途；本輪網站另用v6原生模型與碰撞，精修角色、完整UV／LOD及掃描級材質仍未完成。
 - **幾何視圖**：42張單件預覽、42張六視圖表與252張獨立角度圖，位於3D/previews/；生成外觀表仍有透視／細節差異，精確幾何以GLB與幾何視圖核對。
 - **場景資料**：平面SVG、露台高差0.45m倒塌剖面SVG、物件位置、四採集點及規劃碰撞JSON均已交付；靜態灰盒不是火災物理模擬，也不是已可操作的網站。
-- **查閱**：[3D完整索引](</Users/chengchebing/Desktop/密室逃脫大/3D/README.md>)、[模型檔清單](</Users/chengchebing/Desktop/密室逃脫大/3D/model-manifest.json>)、[42類模型總覽](</Users/chengchebing/Desktop/密室逃脫大/3D/previews/all-42-models-v1.png>)。
-- **場景**：[灰盒GLB](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/scene-layout.json>)、[平面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/floor-plan.svg>)、[倒塌剖面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/collapse-section.svg>)。
+- **查閱**：[3D完整索引](<3D/README.md>)、[模型檔清單](<3D/model-manifest.json>)、[42類模型總覽](<3D/previews/all-42-models-v1.png>)。
+- **場景**：[灰盒GLB](<3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](<3D/scene/scene-layout.json>)、[平面SVG](<3D/scene/floor-plan.svg>)、[倒塌剖面SVG](<3D/scene/collapse-section.svg>)。
 
 本輪核心機關與角色設定已收到；現有GLB仍是舊初模，後續按已核定規格補內部機構、八個重物與正式造型，未定細部不冒稱完成。
 
@@ -880,8 +891,8 @@ R頁任意上下順序交集{1,2,5}，印刷路段2→5、5→1加起終邊記�
 - **實際GLB**：42類程序化道具初模＋P042遮擋／移開兩個靜態狀態，共44個道具檔；另1個場景灰盒GLB，合計45個GLB。模型含網格、法線、基本PBR材質及拆件；不是最終寫實模型，也舊GLB僅保留資產來源用途；本輪網站另用v6原生模型與碰撞，精修角色、完整UV／LOD及掃描級材質仍未完成。
 - **幾何視圖**：42張單件預覽、42張六視圖表與252張獨立角度圖，位於3D/previews/；生成外觀表仍有透視／細節差異，精確幾何以GLB與幾何視圖核對。
 - **場景資料**：平面SVG、露台高差0.45m倒塌剖面SVG、物件位置、四採集點及規劃碰撞JSON均已交付；靜態灰盒不是火災物理模擬，也不是已可操作的網站。
-- **查閱**：[3D完整索引](</Users/chengchebing/Desktop/密室逃脫大/3D/README.md>)、[模型檔清單](</Users/chengchebing/Desktop/密室逃脫大/3D/model-manifest.json>)、[42類模型總覽](</Users/chengchebing/Desktop/密室逃脫大/3D/previews/all-42-models-v1.png>)。
-- **場景**：[灰盒GLB](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/scene-layout.json>)、[平面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/floor-plan.svg>)、[倒塌剖面SVG](</Users/chengchebing/Desktop/密室逃脫大/3D/scene/collapse-section.svg>)。
+- **查閱**：[3D完整索引](<3D/README.md>)、[模型檔清單](<3D/model-manifest.json>)、[42類模型總覽](<3D/previews/all-42-models-v1.png>)。
+- **場景**：[灰盒GLB](<3D/scene/rooms-layout-blockout-v1.glb>)、[配置JSON](<3D/scene/scene-layout.json>)、[平面SVG](<3D/scene/floor-plan.svg>)、[倒塌剖面SVG](<3D/scene/collapse-section.svg>)。
 
 P037–P042已加入有效objects／manifest，不再只是預留ID；planned-objects.json保留原新增需求與目前狀態。生成提示依原prompts／generation-records及new-reference-generation.json追溯，舊紀錄不改寫成新成果。
 
@@ -967,7 +978,7 @@ machine.md v3四關主流程與獎勵邊界、六人基本造型、文書／片�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 ## 26｜場景、畫面與資產整合狀態
 
@@ -993,12 +1004,12 @@ machine.md v3四關主流程與獎勵邊界、六人基本造型、文書／片�
 
 | ID | 物件 | 外觀參考 | GLB初模 |
 | --- | --- | --- | --- |
-| P037 | 破裂手錶 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P037/P037-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P037-blockout-v1.glb>) |
-| P038 | 特殊鈦項鍊 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P038/P038-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P038-blockout-v1.glb>) |
-| P039 | 電子鐘 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P039/P039-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P039-blockout-v1.glb>) |
-| P040 | 三只紅酒杯 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P040/P040-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P040-blockout-v1.glb>) |
-| P041 | 容器殘骸 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P041/P041-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P041-blockout-v1.glb>) |
-| P042 | 倒塌鐵櫃 | [多角度圖](</Users/chengchebing/Desktop/密室逃脫大/3D/references/P042/P042-six-views-v1.png>) | [模型](</Users/chengchebing/Desktop/密室逃脫大/3D/models/P042-blockout-v1.glb>) |
+| P037 | 破裂手錶 | [多角度圖](<3D/references/P037/P037-six-views-v1.png>) | [模型](<3D/models/P037-blockout-v1.glb>) |
+| P038 | 特殊鈦項鍊 | [多角度圖](<3D/references/P038/P038-six-views-v1.png>) | [模型](<3D/models/P038-blockout-v1.glb>) |
+| P039 | 電子鐘 | [多角度圖](<3D/references/P039/P039-six-views-v1.png>) | [模型](<3D/models/P039-blockout-v1.glb>) |
+| P040 | 三只紅酒杯 | [多角度圖](<3D/references/P040/P040-six-views-v1.png>) | [模型](<3D/models/P040-blockout-v1.glb>) |
+| P041 | 容器殘骸 | [多角度圖](<3D/references/P041/P041-six-views-v1.png>) | [模型](<3D/models/P041-blockout-v1.glb>) |
+| P042 | 倒塌鐵櫃 | [多角度圖](<3D/references/P042/P042-six-views-v1.png>) | [模型](<3D/models/P042-blockout-v1.glb>) |
 
 P037–P042六類均已完成參考與程序化初模，計入42類物件；P042另有blocked／cleared兩個靜態狀態GLB。生成參考有透視差異，幾何六視圖與GLB供精確核對；尚非正式寫實資產。
 
@@ -1012,7 +1023,7 @@ P037–P042六類均已完成參考與程序化初模，計入42類物件；P042
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 ## 27｜本輪版本、確認與完成狀態
 
@@ -1038,7 +1049,7 @@ P037–P042六類均已完成參考與程序化初模，計入42類物件；P042
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 實測依test.md第11節，歷史短測與舊影片報告不代表本版本。舊版原始腳本／PDF保留來源用途，舊美術僅在新對照與引用核對後清除。
@@ -1067,7 +1078,7 @@ P037–P042六類均已完成參考與程序化初模，計入42類物件；P042
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 實測依test.md第11節，歷史短測與舊影片報告不代表本版本。舊版原始腳本／PDF保留來源用途，舊美術僅在新對照與引用核對後清除。
@@ -1168,7 +1179,7 @@ D：半透明原附頁對位＋UV模組，三個實際文字區各70%唯一聯�
 | 3D精修 | 現為程序化初模；高精度模型、正式PBR貼圖、局部空間造型及連接走廊可再升級 | 製作端後續美術，不是缺另一份解法 |
 | 配音 | 已有完整旁白與合成氣氛／音效，尚無真人角色配音 | 若要真人配音，再指定聲線／語言／演出偏好 |
 | 相容與效能 | 本輪可核對結果依test.md第11節；實體iOS／Android、Safari／Firefox、長時間熱降頻仍須另測 | 製作端實機驗收 |
-| 發布 | GitHub Pages：escape-room，Website-2原始碼／gh-pages產物；新版另提供mechanisms-v3路徑 | 發布實測見test.md最新紀錄 |
+| 發布 | GitHub Pages：escape-room，Websit-final正式版原始碼／gh-pages產物；正式網址為final/，舊路徑保留歷史版本 | 發布實測見test.md最新紀錄 |
 
 
 **正式玩家可見文書全文（依取得時機）**
