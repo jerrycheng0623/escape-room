@@ -178,7 +178,7 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "3aab05eaac145bc2e44a871169632b375481a73d0e2b063ce1b6f362757c56d1",
+      "sha256": "c0485d941f3d7d4a1776da18e2411dd83e136f7286d0fa9f80885a583ecf23e5",
       "missingLocalLinks": []
     },
     {
@@ -215,6 +215,36 @@
       "path": "assets/release-v17/README.md",
       "role": "現行維護文件",
       "sha256": "1c51cf6bcd5072dbe16578bca8da36ba7cb6583f055d591e58a98b68f3a47bce",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "INTEGRATION.md",
+      "role": "現行維護文件",
+      "sha256": "da0193c42bf2b06076557d29ad7448268623dcaa0a9b2e0a1ab2d65af71b21d4",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "agent.md",
+      "role": "現行維護文件",
+      "sha256": "7f36bb6a19ad3a0c6afee6dec036fc664b88a060a3b4a9075088aedc65805489",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "現行維護文件",
+      "sha256": "a61b7123166dad189d05e8f2334c114961bfe8ea94cc5fcd5f9032127214c663",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_brief.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "5a95ad4562810778fdb1539e41cff4257cda041abc72e857704fbd54f7ec59cf",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_artifact.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "6ed7794b1d6cbbe6621c3384e9d6a4df96d6c0efc93991bda92530ccfc9e923e",
       "missingLocalLinks": []
     }
   ]

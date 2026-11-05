@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "sourceCommit": "530b97df1c6747672029780fa9761ec3d40720e2",
+  "node": "v24.18.0",
+  "os": "Windows",
+  "command": "node --test web/src/game/*.test.mjs",
+  "tests": 58,
+  "passed": 58,
+  "failed": 0,
+  "skipped": 0,
+  "method": "Fresh GitHub text snapshots; engineering unit tests only; no browser playthrough"
+}
