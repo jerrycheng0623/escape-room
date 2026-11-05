@@ -1,3 +1,5 @@
+> 整合註記（2026-11-05）：本檔是劇情來源稿，保留原文作追溯，並非現行遊戲規格。本文內部有新舊姓名、人數、提前揭露及舊機關差異；使用者已確認以正式版 v14 的故事／機關為整合基準，v15聲景更新保留。請以 story-settings.json、assets/story/content-v5.json、machine.md 與 game-rules.json 為準；衝突對照見 INTEGRATION.md 及 test.md 第15節。
+
 Attachment code_artifact (2).md added.None selected
 
 Skip to content
