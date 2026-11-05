@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T10:59:32.933200+08:00",
+  "generatedAt": "2026-11-05T11:00:37.374606+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -11492,8 +11492,8 @@
     {
       "path": "web/public/release.json",
       "bytes": 975,
-      "sha256": "e0ee7753a745982e79b5e287316f582c60f48a400115a3e612af3f05e9cbcc08",
-      "gitBlobSHA": "edcb33a549ce95d446fa6bd0b1cf109658299c28"
+      "sha256": "ce311740d5eafdefdeed7fb4632035958e47329a5d235279aea39d3ae4d0ab00",
+      "gitBlobSHA": "f00c07283320e199f2168b2b633d7191d9fc1e61"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -16228,8 +16228,8 @@
     {
       "path": "release.json",
       "bytes": 975,
-      "sha256": "e0ee7753a745982e79b5e287316f582c60f48a400115a3e612af3f05e9cbcc08",
-      "gitBlobSHA": "edcb33a549ce95d446fa6bd0b1cf109658299c28"
+      "sha256": "ce311740d5eafdefdeed7fb4632035958e47329a5d235279aea39d3ae4d0ab00",
+      "gitBlobSHA": "f00c07283320e199f2168b2b633d7191d9fc1e61"
     }
   ],
   "exclusions": [
