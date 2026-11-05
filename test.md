@@ -1034,3 +1034,5 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 公開檔案共 1,434 個路徑核對完成：程式、索引、字幕及新四方向圖逐檔 SHA256；其他媒體核對 HTTP／大小，再以 Git blob 核對完整部署清單。兩個入口的七片 MP4／WebM 共 28 次 Range／MIME 檢查通過。首次大量併發核對有兩筆暫時性 503，首次公開手機流程亦曾記錄一筆 503，因此當次未判通過；降低併發並重測後，檔案與手機通關均通過，原失敗保留。
 
 公開站的原生滑鼠鎖定重測為「受阻」，不可寫成通過：Chromium 回報 WrongDocumentError；診斷顯示畫布仍連接於目前文件，DOM 焦點與使用者啟用均為真，授予站點鎖定權限仍未改善。原生 UI 工具隨後明確回報 Mac 已鎖定且無法自動解鎖。Chromium macOS 的原始碼 [CanBePointerLocked](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/content/browser/renderer_host/render_widget_host_view_mac.mm) 要求原生視窗為 key window；因此推定本次受阻與原生視窗狀態相關，仍須使用者手動解鎖後重跑確認，不能據此斷言產品已修復或公開原生模式已驗收。較早本機真正原生鎖定的五項通過仍保留；目前公開的 Q／輸入隔離、方向鍵備援、觸控及機關案例不受此項阻擋。工具與瀏覽器初次失敗見 verification/initial-failures；最終狀態見 verification/release-verification.json。
+
+2026-11-05 吊籃補丁：重現 C 區開蓋後承接座被合併成靜態網格、遮住降下的吊籃。承接座改為可獨立隱藏的空心框架；吊籃使用易辨識格柵，繩端對準吊環。以 Playwright 使用實際 C 區模型及機關狀態，核對空籃與配重 40 kg 開蓋後的畫面；承接座隱藏、籃底落地、配重留在籃內。55 項邏輯測試通過。

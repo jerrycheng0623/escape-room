@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-04T16:30:25.048Z",
+  "generatedAt": "2026-11-05T02:59:13.286Z",
   "source": "web/src/game/roomModelsV4.js + propModelsFinal.js",
   "directions": [
     "front",
@@ -2004,44 +2004,6 @@
       }
     },
     {
-      "id": "c-basket",
-      "room": "C",
-      "name": "吊籃",
-      "support": {
-        "id": "basket-stop",
-        "y": 1
-      },
-      "size": [
-        0.550000011920929,
-        0.550000011920929,
-        0.44999998807907104
-      ],
-      "triangles": 1260,
-      "meshes": 3,
-      "files": {
-        "model.glb": {
-          "sha256": "df0a84d1b22755007614acbbe655c820a698c72848b397e022d27c0687b31b60",
-          "bytes": 230052
-        },
-        "front.webp": {
-          "sha256": "001f44caba486a1e89815c6bc2103c0fbb94be1e45f13928f10b5d9d60e5780a",
-          "bytes": 4832
-        },
-        "back.webp": {
-          "sha256": "c48ca37cfbbd17552632738c351d127873f878962496662ffb27892bbe8411df",
-          "bytes": 5744
-        },
-        "left.webp": {
-          "sha256": "302250dcf3bf0ec6e158fd3fda4ffeef07da9c57a3ac9932903da5b8a85cd97b",
-          "bytes": 4342
-        },
-        "right.webp": {
-          "sha256": "ac880ed9d746eb0850f2fb878adbdd098dd5814672dfc1a6192b39beffb95d9d",
-          "bytes": 3936
-        }
-      }
-    },
-    {
       "id": "c-a0",
       "room": "C",
       "name": "雙螺栓座",
@@ -3979,41 +3941,6 @@
       }
     },
     {
-      "id": "room-C",
-      "room": "C",
-      "name": "room-C",
-      "support": null,
-      "size": [
-        12.479999542236328,
-        3.810000002384186,
-        10.479999542236328
-      ],
-      "triangles": 22986,
-      "meshes": 125,
-      "files": {
-        "model.glb": {
-          "sha256": "e0daddcb6d144c140a439538d5889f98a51f16b7d7f3420b279e5dbd4cf4b48b",
-          "bytes": 3326112
-        },
-        "front.webp": {
-          "sha256": "ab60761effc75cf0bb6f4cf4202a13a9086a901f55a662f3255c54283ca846e5",
-          "bytes": 6652
-        },
-        "back.webp": {
-          "sha256": "287a681d7bd4277ea4fd27073251c7ab2ad9862fc39020e4975fa4b873d40d54",
-          "bytes": 4780
-        },
-        "left.webp": {
-          "sha256": "3d48a8af8c80a1f1397af44aaef47f2f8fe9a0297c272246b3e5dbaa07976a85",
-          "bytes": 4094
-        },
-        "right.webp": {
-          "sha256": "f2ee36ff0e7ce6ece7447e357903ef0ea5540acaebf4f347014aae648ec8f752",
-          "bytes": 5474
-        }
-      }
-    },
-    {
       "id": "fixture-D-files",
       "room": "D",
       "name": "fixture-D-files",
@@ -4080,6 +4007,79 @@
         "right.webp": {
           "sha256": "5fdd7e71291002f3cea8d993486eed342f19a8e84f9abedc0e4954740ce78017",
           "bytes": 6370
+        }
+      }
+    },
+    {
+      "id": "c-basket",
+      "room": "C",
+      "name": "吊籃",
+      "support": {
+        "id": "basket-stop",
+        "y": 1
+      },
+      "size": [
+        0.550000011920929,
+        0.550000011920929,
+        0.45000001788139343
+      ],
+      "triangles": 1452,
+      "meshes": 3,
+      "files": {
+        "model.glb": {
+          "sha256": "c2a37e1a5200587024d13e6598a02cd38914852723334793bcce3160e6ce6ac8",
+          "bytes": 248500
+        },
+        "front.webp": {
+          "sha256": "6341233e213800c63cb7b7094c66b32baccf992925889e481a527c02dcf6875c",
+          "bytes": 6918
+        },
+        "back.webp": {
+          "sha256": "839bfca9968989a61d5aec436e643a5130247eaf4fe7e36a55a66a41d08491de",
+          "bytes": 7172
+        },
+        "left.webp": {
+          "sha256": "937f18bc9c77e7e93fb5581cfa3a42f8ec9690d55d63a8b305eefce80d5b56c9",
+          "bytes": 4774
+        },
+        "right.webp": {
+          "sha256": "c6870c96a9f4143d10cc8020a59fdea4ba6367e1969534f46fffba89d8ab7aaf",
+          "bytes": 4508
+        }
+      }
+    },
+    {
+      "id": "room-C",
+      "room": "C",
+      "name": "room-C",
+      "support": null,
+      "size": [
+        12.479999542236328,
+        3.810000002384186,
+        10.479999542236328
+      ],
+      "triangles": 23238,
+      "meshes": 131,
+      "files": {
+        "model.glb": {
+          "sha256": "6985616981e74957d14fa1e197ee5e0b369d4c6e5076e0346f3ecac95cb5e951",
+          "bytes": 3354680
+        },
+        "front.webp": {
+          "sha256": "ab60761effc75cf0bb6f4cf4202a13a9086a901f55a662f3255c54283ca846e5",
+          "bytes": 6652
+        },
+        "back.webp": {
+          "sha256": "287a681d7bd4277ea4fd27073251c7ab2ad9862fc39020e4975fa4b873d40d54",
+          "bytes": 4780
+        },
+        "left.webp": {
+          "sha256": "3d48a8af8c80a1f1397af44aaef47f2f8fe9a0297c272246b3e5dbaa07976a85",
+          "bytes": 4094
+        },
+        "right.webp": {
+          "sha256": "f2ee36ff0e7ce6ece7447e357903ef0ea5540acaebf4f347014aae648ec8f752",
+          "bytes": 5474
         }
       }
     }

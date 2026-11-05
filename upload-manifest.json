@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T01:44:13.932062+08:00",
+  "generatedAt": "2026-11-05T10:59:32.933200+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -1321,33 +1321,33 @@
     },
     {
       "path": "3D/final-v14/c-basket/back.webp",
-      "bytes": 5744,
-      "sha256": "c48ca37cfbbd17552632738c351d127873f878962496662ffb27892bbe8411df",
-      "gitBlobSHA": "2fbd27273123f83696ed8e827c6e53e20fef2c79"
+      "bytes": 7172,
+      "sha256": "839bfca9968989a61d5aec436e643a5130247eaf4fe7e36a55a66a41d08491de",
+      "gitBlobSHA": "574154646f53db00f104c65e4ce34ade9654fe12"
     },
     {
       "path": "3D/final-v14/c-basket/front.webp",
-      "bytes": 4832,
-      "sha256": "001f44caba486a1e89815c6bc2103c0fbb94be1e45f13928f10b5d9d60e5780a",
-      "gitBlobSHA": "04a55d325b4484b8b09469c38e21717a0372aaae"
+      "bytes": 6918,
+      "sha256": "6341233e213800c63cb7b7094c66b32baccf992925889e481a527c02dcf6875c",
+      "gitBlobSHA": "5278ff442f62f92e5058bf7f992dca609adbf6dc"
     },
     {
       "path": "3D/final-v14/c-basket/left.webp",
-      "bytes": 4342,
-      "sha256": "302250dcf3bf0ec6e158fd3fda4ffeef07da9c57a3ac9932903da5b8a85cd97b",
-      "gitBlobSHA": "5924e7f1c932b22e621b47e2de4958556b36fdd5"
+      "bytes": 4774,
+      "sha256": "937f18bc9c77e7e93fb5581cfa3a42f8ec9690d55d63a8b305eefce80d5b56c9",
+      "gitBlobSHA": "c5c750ad66f32ba8131ccef0a97aae33d0e13854"
     },
     {
       "path": "3D/final-v14/c-basket/model.glb",
-      "bytes": 230052,
-      "sha256": "df0a84d1b22755007614acbbe655c820a698c72848b397e022d27c0687b31b60",
-      "gitBlobSHA": "f698e9f52c541848d6be2c7a7fffa4f5f319423d"
+      "bytes": 248500,
+      "sha256": "c2a37e1a5200587024d13e6598a02cd38914852723334793bcce3160e6ce6ac8",
+      "gitBlobSHA": "70937b0230c772a4c5731d615d20a688973b134f"
     },
     {
       "path": "3D/final-v14/c-basket/right.webp",
-      "bytes": 3936,
-      "sha256": "ac880ed9d746eb0850f2fb878adbdd098dd5814672dfc1a6192b39beffb95d9d",
-      "gitBlobSHA": "f8103febba6a6fe5bfb7cf640dda81d72e8ab63a"
+      "bytes": 4508,
+      "sha256": "c6870c96a9f4143d10cc8020a59fdea4ba6367e1969534f46fffba89d8ab7aaf",
+      "gitBlobSHA": "656a4a86975f099c32290dc5fcf6317737093e82"
     },
     {
       "path": "3D/final-v14/c-blood/back.webp",
@@ -3008,8 +3008,8 @@
     {
       "path": "3D/final-v14/manifest.json",
       "bytes": 115581,
-      "sha256": "bab1f090b4fe3f8691eb0c5482325f4896550f001f13054310ea77e6f08bb7f5",
-      "gitBlobSHA": "56c155c84a181d9a984bbee52f0e998a462342c8"
+      "sha256": "caa7de7e3a60ed0b64472671ceadd18d85b0f1dc2c697462abc2b22c4b91f587",
+      "gitBlobSHA": "d109e3dda4aecb6e8a40e2bc32d1ccfc6d6c2a16"
     },
     {
       "path": "3D/final-v14/references/iron.png",
@@ -3187,9 +3187,9 @@
     },
     {
       "path": "3D/final-v14/room-C/model.glb",
-      "bytes": 3326112,
-      "sha256": "e0daddcb6d144c140a439538d5889f98a51f16b7d7f3420b279e5dbd4cf4b48b",
-      "gitBlobSHA": "47c5ff050350a4384d862e2f163a03b09f31e794"
+      "bytes": 3354680,
+      "sha256": "6985616981e74957d14fa1e197ee5e0b369d4c6e5076e0346f3ecac95cb5e951",
+      "gitBlobSHA": "0d38bc719e944f53bd3823500ed2467bb97d00a7"
     },
     {
       "path": "3D/final-v14/room-C/right.webp",
@@ -3410,8 +3410,8 @@
     {
       "path": "3D/final-v14/verification.json",
       "bytes": 10973,
-      "sha256": "dd5064de72c72626849d151ed61b5c693856d0489e78d40f3f36d518dd50cd1f",
-      "gitBlobSHA": "59a841e8d70d23d722be1d948043486dec6adbce"
+      "sha256": "8bc79251ca88f7c752c77817ddb64d50274ec64555648d38b4e6bcd38d43ca04",
+      "gitBlobSHA": "e1c8c6f386d15e2b732288da5eaacfc93a3317aa"
     },
     {
       "path": "3D/final-v14/visibility.json",
@@ -6962,8 +6962,8 @@
     {
       "path": "assets/final-v14/markdown-registry.json",
       "bytes": 8269,
-      "sha256": "b00df9c689ba1822dd03b0db70ce813febf46203bc052f84f8bf5ed618fb094e",
-      "gitBlobSHA": "ecc9ad286d1be49c1f51576ad11b4e3fae73bb37"
+      "sha256": "f3dbfa9bd2d1a9774915edc11481da3771b92ce5493ae4e75023f6283c56de2f",
+      "gitBlobSHA": "5bfa01c98215a82a62902bb09fd6c2336ad42af7"
     },
     {
       "path": "assets/final-v14/verification/boundaries-cdp/D-after-reload.webp",
@@ -11431,9 +11431,9 @@
     },
     {
       "path": "test.md",
-      "bytes": 125679,
-      "sha256": "fb8dc2d64629d5a2abea9b04f51c213453cd6672d25e03e56b829ec5556c704c",
-      "gitBlobSHA": "8709899c77e37661dcabe22b7b3896ccd61d5447"
+      "bytes": 126074,
+      "sha256": "9fb360ca00a142ac06b47e4d76c5d315b8ab2289f2551a49406c3e19b145e864",
+      "gitBlobSHA": "d7a406332fffe392da5165360e09d89ae9d78fd1"
     },
     {
       "path": "verify.md",
@@ -11486,14 +11486,14 @@
     {
       "path": "web/public/model-catalog.json",
       "bytes": 115581,
-      "sha256": "bab1f090b4fe3f8691eb0c5482325f4896550f001f13054310ea77e6f08bb7f5",
-      "gitBlobSHA": "56c155c84a181d9a984bbee52f0e998a462342c8"
+      "sha256": "caa7de7e3a60ed0b64472671ceadd18d85b0f1dc2c697462abc2b22c4b91f587",
+      "gitBlobSHA": "d109e3dda4aecb6e8a40e2bc32d1ccfc6d6c2a16"
     },
     {
       "path": "web/public/release.json",
-      "bytes": 942,
-      "sha256": "8907487b061edfea67fa5cf6be1b52a54c07e50d24a19d8c38a0e6472cba3ac2",
-      "gitBlobSHA": "1eba3abacdaf23ad51b03739978e0a5a159a906f"
+      "bytes": 975,
+      "sha256": "e0ee7753a745982e79b5e287316f582c60f48a400115a3e612af3f05e9cbcc08",
+      "gitBlobSHA": "edcb33a549ce95d446fa6bd0b1cf109658299c28"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -11821,9 +11821,9 @@
     },
     {
       "path": "web/src/game/propModelsFinal.js",
-      "bytes": 11429,
-      "sha256": "f595f975b16c3e1f0e3c6e6c1bab2d4833149750e821f28ef4f9ea97181be822",
-      "gitBlobSHA": "3092fd4fff9ea4522615eaaa20a60d0cf1e050bd"
+      "bytes": 11775,
+      "sha256": "22a109056562616362ebc70f09b088ba1dafbeac4f9ea264ca25b8190e69533c",
+      "gitBlobSHA": "185d8413b76680a8bbf069c035a32b2e4e32dcf7"
     },
     {
       "path": "web/src/game/recordLayout.mjs",
@@ -11839,9 +11839,9 @@
     },
     {
       "path": "web/src/game/roomModelsV4.js",
-      "bytes": 8870,
-      "sha256": "7d65e47fefd4dbe59460c0aa39c9535cb4a6c6ca5008902785033ee900108509",
-      "gitBlobSHA": "f7d7fb38bfff96afdf5b0f38a85b94b709bb9db6"
+      "bytes": 9191,
+      "sha256": "544c87aff3d77ae4090e3ee49e521558532e4eadf59ef3fa9232688cf175f2d1",
+      "gitBlobSHA": "9b99b5556dd5343e609fe00902d13b1c8c69e14b"
     },
     {
       "path": "web/src/game/screenMode.mjs",
@@ -11930,22 +11930,22 @@
   ],
   "deployed": [
     {
-      "path": "assets/Game-DbxbfcQP.js",
+      "path": "assets/Game-DM509lx8.js",
       "bytes": 35268,
-      "sha256": "f9b3edff74ad17c8c7f2a5b1eb73e50baab3c8e7f0d8e994e13c8c65793fc924",
-      "gitBlobSHA": "1b4347ecd284a9e375a88b5aa115be87b798ff1b"
+      "sha256": "f589c2adc7eedc53e9b0f2ba00db293b660064b07ad70e4c5a65ac76eb4b3340",
+      "gitBlobSHA": "df145b5303baf9793aa374b618608ae3203bce6e"
     },
     {
-      "path": "assets/Scene-CQu58ndj.js",
-      "bytes": 556278,
-      "sha256": "4e695bedf3931ced3b006d363d0434dcb5102e0a7358c1b1d69b893210bf9bb1",
-      "gitBlobSHA": "b20c88baec6fc51bf286370c66d5741564558552"
+      "path": "assets/Scene-BoG6DyYU.js",
+      "bytes": 556779,
+      "sha256": "c7c0d38ad158fe3baf392377b5f1e2a1574b2991f16a815be55d2ec17cd5b29a",
+      "gitBlobSHA": "ae7bdd4039108b72de080a350eefb595368243a4"
     },
     {
-      "path": "assets/index-cIYJdtBs.js",
+      "path": "assets/index-Csg-mYni.js",
       "bytes": 354639,
-      "sha256": "1fd3329714a5f6c10b0c2717b7ed52097725ec5fde1b12a6100201bf0a729658",
-      "gitBlobSHA": "75529e8d0015e0f6a620062dc91b78c70df46f7d"
+      "sha256": "03b1e5f9b1503a9fd6371ee170333b36124f9f9c6b315f62429cf4db7c4977de",
+      "gitBlobSHA": "3f39a32e44cd982e76f5c7ceb32658a7744c5e54"
     },
     {
       "path": "assets/index-kVg-Oys7.css",
@@ -11954,10 +11954,10 @@
       "gitBlobSHA": "a95a2ee55f9e0928927875c841e1033657370931"
     },
     {
-      "path": "assets/solutions-rrCnOSoR.js",
+      "path": "assets/solutions-BLWcHkn6.js",
       "bytes": 2727,
-      "sha256": "97391d82793b71d2c141b2a69d6747050d8e51b6a9b6724dac8fbf895458e6d0",
-      "gitBlobSHA": "dea67ee412f90c281efbf87dbba5a9658dd3b1d9"
+      "sha256": "444146dee3ea60e97b434e3b96a555617950538a8b0e371c4323ede1a66ef051",
+      "gitBlobSHA": "46e7938f121b868f63f29cd7cf97a2ab98631255"
     },
     {
       "path": "favicon.svg",
@@ -11968,8 +11968,8 @@
     {
       "path": "index.html",
       "bytes": 597,
-      "sha256": "3631b2ab8e82e717a8c56b033cdcdd5422b8c1be5bf4068088e0adfd424f4b0d",
-      "gitBlobSHA": "636607bf405f7a3dc4a2aac5c0b86f806774513d"
+      "sha256": "3daba67b8f376352ce8bbe48ecb069a6a5fd4486129c7b308e14cd6c753179ab",
+      "gitBlobSHA": "e744a88598c319430bd012d636da046e08a05847"
     },
     {
       "path": "media/documents/blood.svg",
@@ -13317,27 +13317,27 @@
     },
     {
       "path": "media/final-v14/c-basket/back.webp",
-      "bytes": 5744,
-      "sha256": "c48ca37cfbbd17552632738c351d127873f878962496662ffb27892bbe8411df",
-      "gitBlobSHA": "2fbd27273123f83696ed8e827c6e53e20fef2c79"
+      "bytes": 7172,
+      "sha256": "839bfca9968989a61d5aec436e643a5130247eaf4fe7e36a55a66a41d08491de",
+      "gitBlobSHA": "574154646f53db00f104c65e4ce34ade9654fe12"
     },
     {
       "path": "media/final-v14/c-basket/front.webp",
-      "bytes": 4832,
-      "sha256": "001f44caba486a1e89815c6bc2103c0fbb94be1e45f13928f10b5d9d60e5780a",
-      "gitBlobSHA": "04a55d325b4484b8b09469c38e21717a0372aaae"
+      "bytes": 6918,
+      "sha256": "6341233e213800c63cb7b7094c66b32baccf992925889e481a527c02dcf6875c",
+      "gitBlobSHA": "5278ff442f62f92e5058bf7f992dca609adbf6dc"
     },
     {
       "path": "media/final-v14/c-basket/left.webp",
-      "bytes": 4342,
-      "sha256": "302250dcf3bf0ec6e158fd3fda4ffeef07da9c57a3ac9932903da5b8a85cd97b",
-      "gitBlobSHA": "5924e7f1c932b22e621b47e2de4958556b36fdd5"
+      "bytes": 4774,
+      "sha256": "937f18bc9c77e7e93fb5581cfa3a42f8ec9690d55d63a8b305eefce80d5b56c9",
+      "gitBlobSHA": "c5c750ad66f32ba8131ccef0a97aae33d0e13854"
     },
     {
       "path": "media/final-v14/c-basket/right.webp",
-      "bytes": 3936,
-      "sha256": "ac880ed9d746eb0850f2fb878adbdd098dd5814672dfc1a6192b39beffb95d9d",
-      "gitBlobSHA": "f8103febba6a6fe5bfb7cf640dda81d72e8ab63a"
+      "bytes": 4508,
+      "sha256": "c6870c96a9f4143d10cc8020a59fdea4ba6367e1969534f46fffba89d8ab7aaf",
+      "gitBlobSHA": "656a4a86975f099c32290dc5fcf6317737093e82"
     },
     {
       "path": "media/final-v14/c-blood/back.webp",
@@ -16222,14 +16222,14 @@
     {
       "path": "model-catalog.json",
       "bytes": 115581,
-      "sha256": "bab1f090b4fe3f8691eb0c5482325f4896550f001f13054310ea77e6f08bb7f5",
-      "gitBlobSHA": "56c155c84a181d9a984bbee52f0e998a462342c8"
+      "sha256": "caa7de7e3a60ed0b64472671ceadd18d85b0f1dc2c697462abc2b22c4b91f587",
+      "gitBlobSHA": "d109e3dda4aecb6e8a40e2bc32d1ccfc6d6c2a16"
     },
     {
       "path": "release.json",
-      "bytes": 942,
-      "sha256": "8907487b061edfea67fa5cf6be1b52a54c07e50d24a19d8c38a0e6472cba3ac2",
-      "gitBlobSHA": "1eba3abacdaf23ad51b03739978e0a5a159a906f"
+      "bytes": 975,
+      "sha256": "e0ee7753a745982e79b5e287316f582c60f48a400115a3e612af3f05e9cbcc08",
+      "gitBlobSHA": "edcb33a549ce95d446fa6bd0b1cf109658299c28"
     }
   ],
   "exclusions": [

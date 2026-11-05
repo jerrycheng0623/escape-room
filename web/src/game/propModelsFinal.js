@@ -36,7 +36,19 @@ export function detailedProp(w,m,track,loader,asset,onError){
  else if(w.kind==='hook'){box([0,0,0],[.35,.85,.08]);tube([[0,.05,.05],[0,-.2,.2],[0,-.25,.35],[0,-.1,.4]],.035,m.brass);}
  else if(w.kind==='anchor'){box([0,0,-.08],[.45,.65,.07],m.rust);for(const y of [-.22,.22])cyl([0,y,-.025],.04,.05,m.brass,[Math.PI/2,0,0]);if(['M','F'].includes(w.node)){ring([0,0,.06],.27,m.metal,[0,0,0]);cyl([0,0,.06],.08,.12,m.brass,[Math.PI/2,0,0]);for(let i=0;i<4;i++){const a=i*Math.PI/2,o=box([0,0,.06],[.025,.5,.04],m.metal);o.rotation.z=a;}}else ring([0,0,.1],.18,m.metal,[0,Math.PI/2,0]);}
  else if(w.kind==='rope'){const pts=[];for(let i=0;i<=100;i++){const t=i/100*Math.PI*8;pts.push([Math.cos(t)*(.3+i*.001),i*.0005,Math.sin(t)*(.3+i*.001)]);}tube(pts,.025);}
- else if(w.kind==='basket'){box([0,-.3,0],[.8,.04,.6],m.metal);for(const x of [-.38,.38])for(const z of [-.28,.28])box([x,-.1,z],[.035,.4,.035],m.metal);for(let i=0;i<3;i++){const y=-.25+i*.14;for(const x of [-.4,.4])box([x,y,0],[.025,.025,.6],m.rust);for(const z of [-.3,.3])box([0,y,z],[.8,.025,.025],m.rust);}for(const x of [-.37,.37])tube([[x,.1,0],[x,.3,0],[0,.45,0]],.02,m.metal);ring([0,.47,0],.045);}
+ else if(w.kind==='basket'){
+  const cage=new T.MeshStandardMaterial({color:0x9b8e72,roughness:.79,metalness:.24});track.materials.push(cage);
+  box([0,-.3,0],[.8,.04,.6],m.metal);
+  for(const x of [-.385,.385])for(const z of [-.285,.285])box([x,-.085,z],[.035,.43,.035],cage);
+  for(const y of [-.27,-.14,0,.13]){
+   for(const x of [-.385,.385])box([x,y,0],[.032,.03,.6],cage);
+   for(const z of [-.285,.285])box([0,y,z],[.8,.03,.032],cage);
+  }
+  for(const x of [-.24,0,.24])for(const z of [-.285,.285])box([x,-.07,z],[.019,.4,.019],cage);
+  for(const z of [-.14,0,.14])for(const x of [-.385,.385])box([x,-.07,z],[.019,.4,.019],cage);
+  for(const x of [-.37,.37])tube([[x,.13,0],[x,.3,0],[0,.45,0]],.02,cage);
+  ring([0,.47,0],.045,m.brass,[0,0,0]);
+ }
  else if(w.kind==='luggage'){round([0,0,0],[1,.6,.65],m.fabric);for(const x of [-.4,.4])box([x,0,0],[.035,.62,.67],m.wood);tube([[-.17,.32,0],[-.17,.45,0],[.17,.45,0],[.17,.32,0]],.035,m.metal);for(let i=0;i<4;i++){cyl([-.14+i*.095,0,.34],.045,.07,m.brass,[0,0,Math.PI/2]);}for(const x of [-.38,.38])for(const z of [-.24,.24])ball([x,-.31,z],[.05,.05,.05],m.black);}
  else if(w.kind==='reader'||w.kind==='drawers'){round([0,0,0],[1,.5,.7],m.metal);for(const y of [-.12,.12]){const t=new T.Group();g.add(t);box([0,y,.36],[.9,.2,.035],m.char,t);const handle=mesh(new T.TorusGeometry(.065,.012,6,16),m.brass,[0,y,.4],[0,0,0],t);box([0,y-.08,.05],[.86,.025,.6],m.wood,t);g.userData[y<0?'lower':'upper']=t;}if(w.kind==='reader'){for(const x of [-.35,.35])cyl([x,.34,0],.12,.1,m.char);cyl([.55,.05,0],.15,.06,m.brass,[0,0,Math.PI/2]);}}
  else if(w.kind==='audio'){round([0,0,0],[1,.5,.45],m.char);for(const x of [-.25,.25]){ring([x,.05,.25],.16,m.metal,[0,0,0]);cyl([x,.05,.25],.04,.03,m.brass,[Math.PI/2,0,0]);}for(let i=0;i<5;i++)box([-.25+i*.13,-.18,.27],[.08,.06,.04],m.paper);}

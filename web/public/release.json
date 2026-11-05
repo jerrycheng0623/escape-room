@@ -12,10 +12,11 @@
   "previewMode": false,
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
   "assets": {
-    "Game-DbxbfcQP.js": "f9b3edff74ad17c8c7f2a5b1eb73e50baab3c8e7f0d8e994e13c8c65793fc924",
-    "Scene-CQu58ndj.js": "4e695bedf3931ced3b006d363d0434dcb5102e0a7358c1b1d69b893210bf9bb1",
-    "index-cIYJdtBs.js": "1fd3329714a5f6c10b0c2717b7ed52097725ec5fde1b12a6100201bf0a729658",
+    "Game-DM509lx8.js": "f589c2adc7eedc53e9b0f2ba00db293b660064b07ad70e4c5a65ac76eb4b3340",
+    "Scene-BoG6DyYU.js": "c7c0d38ad158fe3baf392377b5f1e2a1574b2991f16a815be55d2ec17cd5b29a",
+    "index-Csg-mYni.js": "03b1e5f9b1503a9fd6371ee170333b36124f9f9c6b315f62429cf4db7c4977de",
     "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
-    "solutions-rrCnOSoR.js": "97391d82793b71d2c141b2a69d6747050d8e51b6a9b6724dac8fbf895458e6d0"
-  }
+    "solutions-BLWcHkn6.js": "444146dee3ea60e97b434e3b96a555617950538a8b0e371c4323ede1a66ef051"
+  },
+  "hotfix": "basket-visibility"
 }

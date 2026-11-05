@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "date": "2026-11-05T00:31:01.492653+08:00",
+  "date": "2026-11-05T10:59:31.283252+08:00",
   "models": [
     {
       "id": "a-fragment0",
@@ -321,12 +321,6 @@
       "pass": true
     },
     {
-      "id": "c-basket",
-      "triangles": 1260,
-      "views": 4,
-      "pass": true
-    },
-    {
       "id": "c-a0",
       "triangles": 460,
       "views": 4,
@@ -639,12 +633,6 @@
       "pass": true
     },
     {
-      "id": "room-C",
-      "triangles": 22986,
-      "views": 4,
-      "pass": true
-    },
-    {
       "id": "fixture-D-files",
       "triangles": 72,
       "views": 4,
@@ -653,6 +641,18 @@
     {
       "id": "room-D",
       "triangles": 7184,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "c-basket",
+      "triangles": 1452,
+      "views": 4,
+      "pass": true
+    },
+    {
+      "id": "room-C",
+      "triangles": 23238,
       "views": 4,
       "pass": true
     }
