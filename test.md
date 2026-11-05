@@ -1085,3 +1085,7 @@ v16 公開站複驗：根入口與 final/ 均為 ambientRevision 16，新音檔 
 - 七片 × 兩引擎 × 桌機／手機版面 × MP4／WebM = 56 次 1×自然播放至ended並返回檔案館；逐幕中英字幕416項另驗，不把拖曳核對算成自然播放。
 
 本輪環境為 Playwright Chromium／WebKit 模擬；未驗收實體 iPhone／iPad／Android，也不宣稱整個遊戲全面英文化。初測的舊指南標籤空格、固定舊規格與建置期間資源競態失敗保留，修正與重測分開記錄。
+
+v17 的逐項結果與原始重測紀錄：[assets/release-v17/verification/summary.json](assets/release-v17/verification/summary.json)。其中介面、英文指南、58項邏輯、原生Space／Q、C與D通關銜接、56次自然播放及416項字幕各自保存報告。圖片與聲音的完整性另外由 assets/release-v17/verification.json 核對；公開站結果完成後在同一索引記錄，不沿用舊版部署判定。
+
+v17 公開站驗收：GitHub Pages workflow 41985095344 已成功。兩入口程式、索引與雨雷音檔均與建置逐位元相同；14 個月光混音影片與14份字幕完整比對通過。兩入口桌機／手機共四種首頁組態通過；正式站六種指南組態與四種桌機／手機遊戲組態的Space、三段模型圖卡、40自動升蓋及獎勵後章節入口皆通過。見同一證據索引的 publicVerification；實體手機仍未測。

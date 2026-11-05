@@ -16,13 +16,13 @@
     {
       "path": "PLAN.md",
       "role": "現行維護文件",
-      "sha256": "38dfd0de0ca08a70bab6ea772636c1d8e572a40e523c437f8443163893aab73a",
+      "sha256": "31e9edd639543800711963214f14771a902d299e0711dd1eb14b9a3c43e3e40d",
       "missingLocalLinks": []
     },
     {
       "path": "README.md",
       "role": "現行維護文件",
-      "sha256": "e11db66ece154f34b257daea2c846c4e217a90479c63e360bdb64a88830e4af7",
+      "sha256": "91b4667cd5895dcde6050125bd27d87be5fbe65d2b00b1989eb972e8dfb8214d",
       "missingLocalLinks": []
     },
     {
@@ -124,7 +124,7 @@
     {
       "path": "assets/soundscape-v15/README.md",
       "role": "現行維護文件",
-      "sha256": "77c28897678b880804fb6dcb05fd4b47b275ddce5c3e71ba06bf6b6c3a2e23ba",
+      "sha256": "f0cefe736e769cc808ddc884941de6633991e336599b4c3a5a646ad0facdc36e",
       "missingLocalLinks": []
     },
     {
@@ -178,19 +178,19 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "c3372aa62145eaba13c711bb4a9b6ec1e1512cfd2ec2ffc426af84be72b11272",
+      "sha256": "3aab05eaac145bc2e44a871169632b375481a73d0e2b063ce1b6f362757c56d1",
       "missingLocalLinks": []
     },
     {
       "path": "verify.md",
       "role": "現行維護文件",
-      "sha256": "04b045dc3d5f987ab91bbaf1d979f76b454cccb3ec15ebd9d934b22d50cbae35",
+      "sha256": "747193514fa9e2d010eb5f10dd1cd4d8bb4377c17a3db75aa6168e187bc76a87",
       "missingLocalLinks": []
     },
     {
       "path": "web/README.md",
       "role": "現行維護文件",
-      "sha256": "32c4634406b0ec14fe43374eee5dbf4509b4c8e78bf9f4353189c8df40634647",
+      "sha256": "a873763839c978d04c3c4e1c823e94fd8b132f03b74c2027f05ac58cd09a7b68",
       "missingLocalLinks": []
     },
     {

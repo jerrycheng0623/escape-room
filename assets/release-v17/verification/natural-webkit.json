@@ -1,0 +1,4318 @@
+{
+  "date": "2026-11-05T06:54:24.398Z",
+  "url": "http://127.0.0.1:5194/",
+  "browser": "26.5",
+  "engine": "webkit",
+  "fallback": "Browser plugin not available; Playwright natural playback; native browser coverage, if any, is recorded separately",
+  "method": "1x natural playback from 0 to ended; both layouts and primary/fallback formats; isolated profiles",
+  "runs": [
+    {
+      "device": "desktop",
+      "format": "primary",
+      "url": "http://127.0.0.1:5194/",
+      "films": [
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-00-compatible-v12.mp4",
+          "duration": 86.5,
+          "endedAt": 86.5,
+          "wallSeconds": 86.663,
+          "ended": true,
+          "rate": 1,
+          "frames": 2074,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.84087729142503,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.841281707701228,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.841708541402731,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.84218012476572,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.842896374343312,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.8438608326542,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.846156332690008,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.850258624728756,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.854485333359285,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.858241083020683,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.862700749280506,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.866371082955894,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.87059837433124,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.874055124243085,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.87859883334253,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.88263624968754,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.88613566594537,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.89050558300207,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.89463674969066,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.898071041746974,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.90233554170689,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.90705695794838,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.91094374966494,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.91477658297218,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.91831366603296,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.92262637505276,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.926171707571,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.93093570767554,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-A-compatible-v12.mp4",
+          "duration": 45,
+          "endedAt": 45,
+          "wallSeconds": 45.058,
+          "ended": true,
+          "rate": 1,
+          "frames": 1061,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9441371246002124,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.944162291297945,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.94425441602957,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.94529966637135,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.946279415921202,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.946373790986357,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.94801470798042,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.952180208285405,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.956626457679874,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.95996295765119,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.96415133295518,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.9684152079922,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.972072249980876,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.976420791332224,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.98040312427595,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-B-compatible-v12.mp4",
+          "duration": 49.5,
+          "endedAt": 49.5,
+          "wallSeconds": 49.535,
+          "ended": true,
+          "rate": 1,
+          "frames": 1156,
+          "dropped": 187,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.967580041672148,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.968049749905288,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.96868295826453,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.968748541763595,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.969222208969281,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.970253417403423,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.972059458928968,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.976132208312265,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.980345833619076,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.983960167073114,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.98808483361143,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.99224787576161,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.99598095864613,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 42.000683250053754,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 45.00467625067859,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 48.00807812503556,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-C-compatible-v12.mp4",
+          "duration": 73.5,
+          "endedAt": 73.5,
+          "wallSeconds": 73.554,
+          "ended": true,
+          "rate": 1,
+          "frames": 1732,
+          "dropped": 24,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9487154586792257,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.949261916635975,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.95004516725167,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.950049458241052,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.951075333918558,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.952097708630326,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.953907375276497,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.958244500045723,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.962051334021613,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.96684341667284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.97089400002748,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.973943499909254,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.978595125307805,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.98274341661805,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.98637225030966,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.99022841667021,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.9939997920073,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.998604833342924,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.00225945902835,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.00658779232079,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 63.00997850029734,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 66.01487250008384,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 69.01840829233166,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 72.02280762494382,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-D-compatible-v12.mp4",
+          "duration": 96,
+          "endedAt": 96,
+          "wallSeconds": 96.053,
+          "ended": true,
+          "rate": 1,
+          "frames": 2304,
+          "dropped": 787,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.948606124647129,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.948782916980934,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.949277082976128,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.94929783333572,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.949446249725613,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.949655207962657,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.95299925035507,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.957708375028677,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.961261958699207,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.96495070806391,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.96938362532132,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.973392208004256,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.97765391638461,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.981720000359445,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.985478958656046,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.98995533298641,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.993027666767546,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.99755574998713,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.00107879199723,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.005677208565594,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 63.00932716708336,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 66.01297995835047,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 69.0171090833235,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 72.02124645802434,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 75.02539800029926,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 78.02953204157438,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 81.03366725004166,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 84.03716912527784,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 87.04156129168571,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 90.04525475025392,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 93.04941674968173,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-END-compatible-v12.mp4",
+          "duration": 72,
+          "endedAt": 72,
+          "wallSeconds": 72.056,
+          "ended": true,
+          "rate": 1,
+          "frames": 1728,
+          "dropped": 604,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9500082506330845,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.950425875053525,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.950598500727699,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.951138166726516,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.951554166992095,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.95211475031803,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.954389417265656,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.958343917336226,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.96301312493047,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.966661375629695,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.97016158341621,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.974926249913906,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.97803050072733,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.98206225061017,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.98625775070485,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.990360834031655,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.994494042353665,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.998648875282036,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.00235150000897,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.00658070868098,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 63.01103787500091,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 66.01442133363551,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 69.01822425067333,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-EPILOGUE-compatible-v12.mp4",
+          "duration": 62,
+          "endedAt": 62,
+          "wallSeconds": 62.044,
+          "ended": true,
+          "rate": 1,
+          "frames": 1488,
+          "dropped": 512,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.957308833322778,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.957327042305754,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.957384792398551,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.95739070857719,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.958440166703463,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.959422416616903,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.960134417281658,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.96390779237898,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.96796550068833,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.972513541647523,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.97669191660756,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.98074250031736,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.98391341726457,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.988390375380014,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.99268808404564,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.99668983328885,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.999829333603635,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 54.00393166733935,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.00850791695019,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.012694959011405,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        }
+      ],
+      "errors": [],
+      "requestsFailed": [],
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "format": "fallback",
+      "url": "http://127.0.0.1:5194/",
+      "films": [
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-00-compatible-v12.webm",
+          "duration": 86.5415,
+          "endedAt": 86.5415,
+          "wallSeconds": 87.101,
+          "ended": true,
+          "rate": 1,
+          "frames": 2076,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.498205166,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.498556583,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.499348831,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.499395041,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.499829958,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.499915499,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.502547998,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.507195957,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.510595583,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.51475029,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.518885207,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.522837875,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.527217165,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.531364916,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.53463479,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.539076873,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.543648957,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.547170833,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.551195749,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.554813208,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.559822208,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.562821666,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.566843624,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.571768958,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.574972249,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.57923054,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.583511,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.586949083,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-A-compatible-v12.webm",
+          "duration": 45.0215,
+          "endedAt": 45.0215,
+          "wallSeconds": 45.369,
+          "ended": true,
+          "rate": 1,
+          "frames": 1080,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.756601435,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.75714731,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.757248143,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.757319935,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.757790769,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.758597393,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.760637227,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.765251186,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.768657768,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.772730809,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.776892436,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.78054831,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.784692518,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.788465893,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.792433309,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-B-compatible-v12.webm",
+          "duration": 49.5215,
+          "endedAt": 49.5215,
+          "wallSeconds": 49.865,
+          "ended": true,
+          "rate": 1,
+          "frames": 1188,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.706668852,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.706983645,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.707425936,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.707783853,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.708053979,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.708105353,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.721602978,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.71799527,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.722553021,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.726827603,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.73047502,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.734031645,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.73889427,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.742035436,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.746109729,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.75015727,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-C-compatible-v12.webm",
+          "duration": 73.5415,
+          "endedAt": 73.5415,
+          "wallSeconds": 73.964,
+          "ended": true,
+          "rate": 1,
+          "frames": 1764,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.674061867,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.674216785,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.674869076,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.675593075,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.676176576,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.676210701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.67699441,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.68099595,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.685737534,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.68978766,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.693133993,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.697524577,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.701767076,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.70498341,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.709313534,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.7129597,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.717017284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.721262034,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.725456326,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.729523743,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.733738784,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.737711451,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.741503909,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.745426659,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-D-compatible-v12.webm",
+          "duration": 96.0415,
+          "endedAt": 96.0415,
+          "wallSeconds": 96.559,
+          "ended": true,
+          "rate": 1,
+          "frames": 2304,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.597546703,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.597567703,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.597599496,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.597636829,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.597660453,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.59778812,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.598504078,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.602637329,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.60731537,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.611333954,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.615489537,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.618572662,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.622504912,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.626659912,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.63075762,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.63552137,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.638610037,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.642997245,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.64749012,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.651573371,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.65485937,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.658965704,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.663011203,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.667642161,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.67074862,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.674811746,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.678674537,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.68284037,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 86.686978078,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 89.691159494,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 92.695299078,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 95.699217286,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-END-compatible-v12.webm",
+          "duration": 72.0215,
+          "endedAt": 72.0215,
+          "wallSeconds": 72.507,
+          "ended": true,
+          "rate": 1,
+          "frames": 1728,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.585202902,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.585916276,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.586340194,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.586765193,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.58758311,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.58770011,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.588808277,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.592211277,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.59715961,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.600498235,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.605127734,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.608833152,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.612495777,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.61664461,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.620800735,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.624976027,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.629109693,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.632525111,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.636985611,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.640793401,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.645411777,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.648437944,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.652982985,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.657103443,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-EPILOGUE-compatible-v12.webm",
+          "duration": 62.0415,
+          "endedAt": 62.0415,
+          "wallSeconds": 62.457,
+          "ended": true,
+          "rate": 1,
+          "frames": 1488,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.739257112,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.739325111,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.740130737,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.740864361,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.741188737,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.741324154,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.745401446,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.749555196,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.753574654,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.757207737,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.761000571,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.766278113,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.768887112,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.773505653,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.776650113,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.780804237,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.785490571,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.789140029,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.792934779,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.797505696,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        }
+      ],
+      "errors": [],
+      "requestsFailed": [],
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "format": "fallback",
+      "url": "http://127.0.0.1:5194/",
+      "films": [
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-00-compatible-v12.webm",
+          "duration": 86.5415,
+          "endedAt": 86.5415,
+          "wallSeconds": 87.014,
+          "ended": true,
+          "rate": 1,
+          "frames": 2076,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.584480208,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.584638458,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.584659624,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.584715083,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.585162458,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.585251874,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.587641541,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.591574623,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.595605458,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.599547749,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.603411042,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.607409707,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.612206416,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.615215291,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.619849166,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.623643791,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.62736179,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.632201249,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.635488917,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.639758416,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.644191541,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.647825792,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.652171791,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.655612458,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.660296707,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.663406208,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.667587375,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.672283625,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-A-compatible-v12.webm",
+          "duration": 45.0215,
+          "endedAt": 45.0215,
+          "wallSeconds": 45.392,
+          "ended": true,
+          "rate": 1,
+          "frames": 1080,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.732768559,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.733131809,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.733170726,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.73367256,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.733698683,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.734589935,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.737093517,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.740953851,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.74510485,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.749769934,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.753404768,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.756983434,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.761710517,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.765905309,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.769607101,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-B-compatible-v12.webm",
+          "duration": 49.5215,
+          "endedAt": 49.5215,
+          "wallSeconds": 49.831,
+          "ended": true,
+          "rate": 1,
+          "frames": 1188,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.732343224,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.732620808,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.732855516,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.733631558,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.734241767,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.735226559,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.739222517,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.743044641,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.74685835,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.751032057,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.754823433,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.759022808,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.762690474,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.767321599,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.7704871,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.774689642,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-C-compatible-v12.webm",
+          "duration": 73.5415,
+          "endedAt": 73.5415,
+          "wallSeconds": 73.951,
+          "ended": true,
+          "rate": 1,
+          "frames": 1764,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.678178993,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.679194951,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.680205744,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.680390034,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.680591034,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.680791534,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.681759825,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.685319534,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.690047701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.693654451,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.697538284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.701414868,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.706177826,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.710368701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.713589076,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.717545117,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.722053744,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.723354742,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.730457576,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.734479701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.738034284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.742373785,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.745702909,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.749607951,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-D-compatible-v12.webm",
+          "duration": 96.0415,
+          "endedAt": 96.0415,
+          "wallSeconds": 96.491,
+          "ended": true,
+          "rate": 1,
+          "frames": 2304,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.664338367,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.665374284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.666307825,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.666824367,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.667208326,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.667955617,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.668367325,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.6725372,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.676748868,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.681337325,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.684969159,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.688365409,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.693171076,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.696860701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.700520952,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.705179243,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.70876666,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.712841992,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.717188284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.720713576,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.725403784,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.728634201,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.732735117,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.736907825,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.740758826,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.745245742,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.749356951,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.753513868,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 86.756777742,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 89.761079992,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 92.764764659,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 95.769203243,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-END-compatible-v12.webm",
+          "duration": 72.0215,
+          "endedAt": 72.0215,
+          "wallSeconds": 72.439,
+          "ended": true,
+          "rate": 1,
+          "frames": 1728,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.652084649,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.652275857,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.652262483,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.652870691,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.653516858,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.653554482,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.654462899,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.658252065,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.662897483,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.666529608,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.670287982,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.674434607,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.679007857,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.683404108,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.686564608,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.690733858,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.695193315,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.69928719,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.702390232,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.706289523,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.711318191,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.715307316,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.718441566,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.722830274,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-EPILOGUE-compatible-v12.webm",
+          "duration": 62.0415,
+          "endedAt": 62.0415,
+          "wallSeconds": 62.375,
+          "ended": true,
+          "rate": 1,
+          "frames": 1488,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.732102652,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.732796487,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.73350957,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.734547862,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.735321612,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.736358487,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.737611195,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.741237486,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.745194028,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.749566903,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.75371382,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.757442529,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.761372486,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.765859778,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.770205736,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.774235112,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.777335903,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.781918946,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.785531653,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.790160028,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        }
+      ],
+      "errors": [],
+      "requestsFailed": [],
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "format": "primary",
+      "url": "http://127.0.0.1:5194/",
+      "films": [
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-00-compatible-v12.mp4",
+          "duration": 86.5,
+          "endedAt": 86.5,
+          "wallSeconds": 86.663,
+          "ended": true,
+          "rate": 1,
+          "frames": 2074,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.8403919170556335,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.840800333689813,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.841224792068001,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.841696374979033,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.842413833309054,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.84333637532105,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.846531542323167,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.84977295871233,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.854001500377926,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.85799691665419,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.862278749982266,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.86670729238274,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.8701141252559,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.873804041635026,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.87812766670052,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.882152042027485,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.88577958370687,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.89003633367235,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.894160958640775,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.89784287527329,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.901879084072895,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.90657824993316,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.91051545875914,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 71.9143000832925,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 74.91782579198647,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 77.92218720861625,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 80.92676925066382,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 83.93045554234422,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-A-compatible-v12.mp4",
+          "duration": 45,
+          "endedAt": 45,
+          "wallSeconds": 45.051,
+          "ended": true,
+          "rate": 1,
+          "frames": 1061,
+          "dropped": 0,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9500834993602845,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.950122666312214,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.95021483300196,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.95023724993284,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.95108504129858,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.951317291279043,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.95396349927151,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.958144083270422,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.96258554097217,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.966208625085464,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.970107874938996,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.97436529160961,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.97803275003922,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.98237308267241,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.98635833343508,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-B-compatible-v12.mp4",
+          "duration": 49.5,
+          "endedAt": 49.5,
+          "wallSeconds": 49.546,
+          "ended": true,
+          "rate": 1,
+          "frames": 1160,
+          "dropped": 196,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9637532082781344,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.963826792342485,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.964251666598841,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.964360583314248,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.965347750297424,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.965533667369417,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.966801000371348,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.969732375624538,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.97380295871557,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.977676125022047,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.9820620417424,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.98622404236089,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.98961066662908,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.99454879227594,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.99816691701683,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 48.00238520903719,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-C-compatible-v12.mp4",
+          "duration": 73.5,
+          "endedAt": 73.5,
+          "wallSeconds": 73.54,
+          "ended": true,
+          "rate": 1,
+          "frames": 1736,
+          "dropped": 23,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9634554580592916,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.963805332697249,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.964024082726992,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.965046916048124,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.966059791656695,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.966698166340056,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.970814499398244,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.975477125041984,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.978839082590408,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.982792708027752,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.9865405414057,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.99131166606371,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.99508487463655,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.99873862499342,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 45.00260804129832,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 48.00653783301169,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 51.01079404137883,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 54.01458274964519,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.01950362433672,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.02347733305791,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 63.0274846247146,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 66.03096195798624,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 69.03480404126525,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 72.03913233339587,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-D-compatible-v12.mp4",
+          "duration": 96,
+          "endedAt": 96,
+          "wallSeconds": 96.07,
+          "ended": true,
+          "rate": 1,
+          "frames": 2304,
+          "dropped": 806,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.934039290929197,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.9341501246027235,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.934471666712263,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.935419957674577,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.935659624263197,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.935845958004077,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.939286666287128,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.94356716603268,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.94774116606867,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.951213083007577,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.95535670771341,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.95987804098008,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.96362333261402,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.967489832654074,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.97214412437674,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.975501124306795,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.979413416292374,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.98345225000518,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.98751329102888,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.99164754168483,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.995150582717926,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.99943299996784,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 69.00391216634755,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 72.00789962494211,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 75.01139241636285,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 78.01615370758212,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 81.01989283299393,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 84.02330833293222,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 87.0279216660351,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 90.031473500059,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 93.03521399977006,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-END-compatible-v12.mp4",
+          "duration": 72,
+          "endedAt": 72,
+          "wallSeconds": 72.08,
+          "ended": true,
+          "rate": 1,
+          "frames": 1728,
+          "dropped": 593,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.9259423743445714,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.928342708368183,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.929208458022597,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.930083332646742,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.930120416335065,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.931141125031203,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.935281165914475,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.939325041321208,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.94229983331822,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.947002999415925,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.951276457948886,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.95528091609099,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.95858454163499,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.96270099999947,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 44.966752916328446,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 47.971275333225115,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 50.97476125007295,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 53.978362207951,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 56.983190624271884,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 59.98730033256022,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 62.99046654165269,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 65.99439629104533,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 68.99854033297711,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        },
+        {
+          "src": "http://127.0.0.1:5194/media/video/CIN-EPILOGUE-compatible-v12.mp4",
+          "duration": 62,
+          "endedAt": 62,
+          "wallSeconds": 62.04,
+          "ended": true,
+          "rate": 1,
+          "frames": 1488,
+          "dropped": 523,
+          "width": 1280,
+          "height": 720,
+          "samples": [
+            {
+              "time": 2.962098041384052,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 5.963097249953747,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 8.963625375099435,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 11.964656708058376,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 14.96567149964692,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 17.966141000032536,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 20.970267749620753,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 23.973977332688793,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 26.977927125054606,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 29.982460041678443,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 32.98668408327793,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 35.990738457650394,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 38.99387162436222,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 41.99836158260362,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 45.00173966631701,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 48.006690332618106,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 51.00990520798799,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 54.014236458319935,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 57.01850808301339,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            },
+            {
+              "time": 60.022691458065786,
+              "ready": 4,
+              "paused": false,
+              "rate": 1
+            }
+          ],
+          "stalls": 0,
+          "pass": true,
+          "returnedToArchive": true
+        }
+      ],
+      "errors": [],
+      "requestsFailed": [],
+      "pass": true
+    }
+  ]
+}

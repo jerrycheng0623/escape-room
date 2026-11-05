@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T14:13:28.635564+08:00",
+  "generatedAt": "2026-11-05T15:11:56.555310+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -8,7 +8,7 @@
     "final/"
   ],
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
-  "sourceFileCount": 2083,
+  "sourceFileCount": 2138,
   "deployedFilesPerEntrance": 732,
   "source": [
     {
@@ -3001,9 +3001,9 @@
     },
     {
       "path": "3D/final-v14/layout.json",
-      "bytes": 52117,
-      "sha256": "ec0e77c084b10c03296cee6da8a0636d5835c62fe63103d0919acd8eea4cc11e",
-      "gitBlobSHA": "745030847e379b6e130f9136e6a59840b360dbd9"
+      "bytes": 52207,
+      "sha256": "6afff35683b20c5530b70d3717f2187662eed370ddc810a95343dcc635eb06ed",
+      "gitBlobSHA": "c42dabe7e58403575e98febceaf811176c5496c6"
     },
     {
       "path": "3D/final-v14/manifest.json",
@@ -6151,15 +6151,15 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 135024,
-      "sha256": "a79dd4854def1dfc9ad9308fa80b18e2f486e7d948a8ce17a6c0d17e90fffd3e",
-      "gitBlobSHA": "43a09ff5c48c68a2beae77e8aa34861eeab58c4c"
+      "bytes": 135207,
+      "sha256": "31e9edd639543800711963214f14771a902d299e0711dd1eb14b9a3c43e3e40d",
+      "gitBlobSHA": "1e61e7f2eeb1e2996a899d0369fb1bc3ee0806a8"
     },
     {
       "path": "README.md",
-      "bytes": 4072,
-      "sha256": "91532b7a9fd49d8d3a142fad292d262762f2c69cc64e07a86eae8ef3668c2e0b",
-      "gitBlobSHA": "ac63b70c3f39115af2382155b10efbf92cc8cdd3"
+      "bytes": 4176,
+      "sha256": "91b4667cd5895dcde6050125bd27d87be5fbe65d2b00b1989eb972e8dfb8214d",
+      "gitBlobSHA": "5aa3de8e2eca9cc05894e68a493cf76af28c2327"
     },
     {
       "path": "_餘燼裡的第六人_劇情架構與機關設計指引.md",
@@ -6961,9 +6961,9 @@
     },
     {
       "path": "assets/final-v14/markdown-registry.json",
-      "bytes": 8481,
-      "sha256": "b6edf30c8fb6be6dfcea6f086a3f27805e8d92fc34661abcf6eb639bd1c32435",
-      "gitBlobSHA": "77822515409b83af5612a2bf00c67b821ee6d86a"
+      "bytes": 8690,
+      "sha256": "463851180e1501e7e463164c6733dad9b0ec1dc2d163d17168d9a487522b6b9c",
+      "gitBlobSHA": "d2a58a490c9e4725d5870073fdb9ec448dcb8d16"
     },
     {
       "path": "assets/final-v14/verification/acceptance/boundaries-chromium-initial.json",
@@ -9534,6 +9534,324 @@
       "gitBlobSHA": "65e92cae386c99cb5e67016051b3430f9cf4b4d0"
     },
     {
+      "path": "assets/release-v17/README.md",
+      "bytes": 1836,
+      "sha256": "1c51cf6bcd5072dbe16578bca8da36ba7cb6583f055d591e58a98b68f3a47bce",
+      "gitBlobSHA": "000a79cbd845728cdc7894af5e51441e51db32ab"
+    },
+    {
+      "path": "assets/release-v17/beethoven-moonlight-I.mid",
+      "bytes": 8763,
+      "sha256": "10543e503362c607248debf2dc1e265427900a2d5a18f047755a655fbfda7228",
+      "gitBlobSHA": "1fba06ba643234126309474ec604a380b4a06fe7"
+    },
+    {
+      "path": "assets/release-v17/manifest.json",
+      "bytes": 6246,
+      "sha256": "37557adba8179bb311ae43ca4441e4b48f242a15677fb471b90242d6532c24b1",
+      "gitBlobSHA": "b8b8612f89d625ef7f796ac698c7de98c193fd3d"
+    },
+    {
+      "path": "assets/release-v17/music-provenance.json",
+      "bytes": 528,
+      "sha256": "7d3d5c0bbd6fbf86770949d65541c580cb4ce88e7110330c89c70e4de0714461",
+      "gitBlobSHA": "f9ebf0e983c7bf76c3151a83feff37f4ab70a0a8"
+    },
+    {
+      "path": "assets/release-v17/verification/boundaries-chromium.json",
+      "bytes": 696,
+      "sha256": "7e2dccb375676d10154b8bd9e75da8a5eca50dce3fd034cfd1439408d4f1a096",
+      "gitBlobSHA": "e4dd7b75d9c65fe0d7a71d908aa1d749fd9b2879"
+    },
+    {
+      "path": "assets/release-v17/verification/boundaries-webkit.json",
+      "bytes": 685,
+      "sha256": "a1992bb1605f89743257c407fcaf2122e1998878cbda932d6c5206bc055c7d59",
+      "gitBlobSHA": "277768e661e5822211b8853ffca10001d91af1b8"
+    },
+    {
+      "path": "assets/release-v17/verification/captions.json",
+      "bytes": 120614,
+      "sha256": "d0572dcf91b60a411c2d638699ab8d4a2a490b8de4720a008938a1e38f45f1d9",
+      "gitBlobSHA": "8ed83d083a241c3b9cc68b4d2280c56eca5c32d4"
+    },
+    {
+      "path": "assets/release-v17/verification/controls-chromium.json",
+      "bytes": 1742,
+      "sha256": "1256932bc497f6074337db920efa5d5f8171d0e0f89e9261966e5cd3bb5f2610",
+      "gitBlobSHA": "80b6e54fbd2b4308efa0555bc2fba47dbe2cc012"
+    },
+    {
+      "path": "assets/release-v17/verification/controls-webkit.json",
+      "bytes": 1731,
+      "sha256": "83b49c324a485ec8371d0b94a9523b91dcbe4fb34f089b628bb18ce428a11395",
+      "gitBlobSHA": "f13f6bf7d0d3ced3aac11a771f72702c609ac13e"
+    },
+    {
+      "path": "assets/release-v17/verification/desktop.json",
+      "bytes": 684,
+      "sha256": "2b87d17c1f33dda85b988aaf38778981625e81d93c5b59ba3eb8e5255f3a1674",
+      "gitBlobSHA": "b725782f80c7155efe21e2d143faf46d9f4bf7c5"
+    },
+    {
+      "path": "assets/release-v17/verification/guide-initial.json",
+      "bytes": 10182,
+      "sha256": "e2ff64781bc688764f6ca570a72a73f65abccb9e03c4454a0c0cf0c76ec522d7",
+      "gitBlobSHA": "8a8705d8fb69906d7a0c4803beaebe4043a94b2e"
+    },
+    {
+      "path": "assets/release-v17/verification/guide.json",
+      "bytes": 5129,
+      "sha256": "1a1480fad13432ad7e583daccb943428361a1cdec2a78822ef5aa12cdc634122",
+      "gitBlobSHA": "0f35386130d1ed398786728d4c8c6a4a716c81ce"
+    },
+    {
+      "path": "assets/release-v17/verification/http.json",
+      "bytes": 6660,
+      "sha256": "0283326c8d041db6daa70bc293d038cb3bb1f3bbbb5c522110bb91a093ab93ea",
+      "gitBlobSHA": "f158a020387ccafe4573d5ce3d625edbbc7dbb8b"
+    },
+    {
+      "path": "assets/release-v17/verification/interface-initial.json",
+      "bytes": 2934,
+      "sha256": "e76acd0080007a6f2152872ba0a632096baa5fa308a8834f7d6c1d7dd020809a",
+      "gitBlobSHA": "40a136ad0cd4118e5397cecbf6354da5f28a0add"
+    },
+    {
+      "path": "assets/release-v17/verification/interface.json",
+      "bytes": 3103,
+      "sha256": "fc143960572e76a61f8f4a502612aae77976767d98998b094a0d7021a701c279",
+      "gitBlobSHA": "9e8930fd8cfa526feb2655e7a829a195214bd78e"
+    },
+    {
+      "path": "assets/release-v17/verification/keyboard.json",
+      "bytes": 1169,
+      "sha256": "c39d1f624d785c90648fa67c8c41dffba1ae0b13c1ada8041a68dd23902cdc9b",
+      "gitBlobSHA": "0af5edda542a47e3c7ef30c54866eb2739001a85"
+    },
+    {
+      "path": "assets/release-v17/verification/layout.json",
+      "bytes": 14488,
+      "sha256": "92e39175e88180cc420a875efa172b3cf434fd9744fb45e3416cb0c4e6378511",
+      "gitBlobSHA": "44a087ab946480e2068134135ad4c4491374b989"
+    },
+    {
+      "path": "assets/release-v17/verification/luggage-initial.json",
+      "bytes": 2014,
+      "sha256": "cef7159e489521e717e5fbc707a4f93e3d8edbdef97964c3f210b877c9cf3276",
+      "gitBlobSHA": "4f58e61c7e5759694fb5bd6c0342a5759d38f996"
+    },
+    {
+      "path": "assets/release-v17/verification/luggage.json",
+      "bytes": 1868,
+      "sha256": "17ada887118dad6eee5655f3380f525e92f7770b03012d17e44075ea9b61164f",
+      "gitBlobSHA": "18b351a56b43ca4c65b6b859cc7867754f0417bf"
+    },
+    {
+      "path": "assets/release-v17/verification/mobile.json",
+      "bytes": 697,
+      "sha256": "e6be812f539ea2368196dfdb29e11388d01d13e6f8a2504c97bd80a3407fdc7b",
+      "gitBlobSHA": "9cc7ccfd3754ee831ca1dc406a0922d3a7fc48b4"
+    },
+    {
+      "path": "assets/release-v17/verification/music-levels.json",
+      "bytes": 1084,
+      "sha256": "bd6b39e501beddcc35303c0397448cb55eb3b1fe868502067bc221a195eb1fea",
+      "gitBlobSHA": "63100a0e49606fdbefba0ebef01410b3f129dff0"
+    },
+    {
+      "path": "assets/release-v17/verification/native.json",
+      "bytes": 1525,
+      "sha256": "2cfa118492f8c39d78c7d67f1f2034ed00bc9d0113f1e58857be479d9fc39b4c",
+      "gitBlobSHA": "fe26051b46a641b6888835358ca7de2fb8b1c010"
+    },
+    {
+      "path": "assets/release-v17/verification/natural-chromium.json",
+      "bytes": 105402,
+      "sha256": "c8bcd942ae5db083d3e692955e24db31343b3b2d7f33e8aa18b0fceef194c797",
+      "gitBlobSHA": "33721f92fe85b7d41381ee812580ef62ba85b94a"
+    },
+    {
+      "path": "assets/release-v17/verification/natural-webkit.json",
+      "bytes": 107805,
+      "sha256": "02316f1b81274f9fed8520c7f0b203d79761936086fb7d46a910e76ed4217442",
+      "gitBlobSHA": "81a75bc41bc8568f4c7ca4ac7f9b0b335b32b13a"
+    },
+    {
+      "path": "assets/release-v17/verification/notebook-initial.json",
+      "bytes": 9723,
+      "sha256": "aacaaec950340b5152cf780f71b3a46964d7783d180275b850e463ed92cfca3d",
+      "gitBlobSHA": "969f7fac4ac4eb79d0ea27f9c9ab7918fa07ae9e"
+    },
+    {
+      "path": "assets/release-v17/verification/notebook.json",
+      "bytes": 8798,
+      "sha256": "f0a539cca048174e0607aff717a7be6c8394e5d8528a409b1b3e938354d7e357",
+      "gitBlobSHA": "9fc4052d79a4ac4fe039700ef7508cc55e08b77d"
+    },
+    {
+      "path": "assets/release-v17/verification/player.json",
+      "bytes": 8795,
+      "sha256": "48727ad2052e611505027bfcf87a42966d7ce223c5e3a06db3fe54d195964238",
+      "gitBlobSHA": "12bda2cb68cea0f4626cbb644a45fa2240d4478e"
+    },
+    {
+      "path": "assets/release-v17/verification/postgame.json",
+      "bytes": 1055,
+      "sha256": "9b85532fd61fec78ed57320a10c1c411e01553e6c3ed5ed2a174128777356de7",
+      "gitBlobSHA": "43cb6124979e6788062e7135e6c6c95bdcebbb65"
+    },
+    {
+      "path": "assets/release-v17/verification/public-entry.json",
+      "bytes": 1718,
+      "sha256": "f60bcb1847dfe64c9eda9da46ef37d4d383e1d22f5328f408f16d5c425f6f6d5",
+      "gitBlobSHA": "25893a0adfc5f73e2e282c984d4c6e83cbae6165"
+    },
+    {
+      "path": "assets/release-v17/verification/public-http.json",
+      "bytes": 6689,
+      "sha256": "3c43be3bb5cab43bae8334e75b5fbdf2b6bcb2c3ad615e941bfab7e495b87ea4",
+      "gitBlobSHA": "845ad0f05fb66b76cab05636bf78df5704d70d7d"
+    },
+    {
+      "path": "assets/release-v17/verification/public-identity.json",
+      "bytes": 4346,
+      "sha256": "92796402d64d32932abd0e868d71b00b3ab89e9e58f2089d8b6c17536f34d827",
+      "gitBlobSHA": "f263d4bf4dade7230178788fface37205d0bb6f4"
+    },
+    {
+      "path": "assets/release-v17/verification/public-interface.json",
+      "bytes": 3132,
+      "sha256": "442367b0c7d6cc9cec24837e46f228ad73d58799ec7b2e9af52d5701cb5712ec",
+      "gitBlobSHA": "2159534bd9c6ef02aeda6ce330f19b1c3d7345f6"
+    },
+    {
+      "path": "assets/release-v17/verification/q.json",
+      "bytes": 3524,
+      "sha256": "7d1a4f2fcdeab119c39fa441f5bd8f1f1e5a15d5b38f67fa345c5fe2a26bb484",
+      "gitBlobSHA": "61ae2566fbcdf5165f112182dc94f64880a675cb"
+    },
+    {
+      "path": "assets/release-v17/verification/space.json",
+      "bytes": 5625,
+      "sha256": "d005118d990bb2cd5703aa7db07a922ae91142f05dde7f3870d7b74bbd77ca71",
+      "gitBlobSHA": "350ff5cac19505375c39d00c198048c4766a9062"
+    },
+    {
+      "path": "assets/release-v17/verification/summary.json",
+      "bytes": 2032,
+      "sha256": "ef4e9da63e63554b9fb2f199f540f9be6491d5841b6d410daa4b0f70227d58c7",
+      "gitBlobSHA": "2967245727fd0eae452ee32061bf29dab7e0bbd4"
+    },
+    {
+      "path": "assets/release-v17/verification/touch-chromium.json",
+      "bytes": 1455,
+      "sha256": "7b5a0f5e4264890083162ae41a1c1e8ba134c11dc676c6a2f69fda302e9e8502",
+      "gitBlobSHA": "2ca2f3b10fc564eea994715e49570e48ac814168"
+    },
+    {
+      "path": "assets/release-v17/verification/touch-webkit.json",
+      "bytes": 916,
+      "sha256": "08f8a748391e0f9069fa7a7cd4404584947c1eb74dd708106b175e4a76ed9ff7",
+      "gitBlobSHA": "8fd619452ab13c5a58583c5c626fd4a13c0606fa"
+    },
+    {
+      "path": "assets/release-v17/verification/unit.log",
+      "bytes": 5013,
+      "sha256": "11f44705eae269f9ac56e8ee3d2eab7337f125a0fb1f5dfd86b10a54ff9c59f1",
+      "gitBlobSHA": "6aee682a1c61a990aca7fc1cec407ba0f9fed7d7"
+    },
+    {
+      "path": "assets/release-v17/verification.json",
+      "bytes": 6203,
+      "sha256": "d401b94b86444448ca342db61ea15353485373cf3d18b718f37fceecb91a12c4",
+      "gitBlobSHA": "8f4b6db3e7281c5f6ae4345e145da7824cc67310"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-00-compatible-v12.mp4",
+      "bytes": 2650559,
+      "sha256": "b83edb31480be1245f7d883caf6908636e270bc2d6f00610d23bf0083204def7",
+      "gitBlobSHA": "b7ac9feda6f02a7ecddb5fd3a0ba4eb3ee8a07d9"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-00-compatible-v12.webm",
+      "bytes": 5473560,
+      "sha256": "3f8a614b5bc0873cb694ad08781dd5b75f7c160c135363bbb2106cff33a8e7b4",
+      "gitBlobSHA": "fb31391ed0ada5b3c03e868ac3ea5867bed4e54e"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-A-compatible-v12.mp4",
+      "bytes": 1661511,
+      "sha256": "d38c82e9187f7dfa1ff4fd67987f237586bfa0a81d98e9173ed782adfb21d4f4",
+      "gitBlobSHA": "db2e8bb5580e34712734c15e8e2226c4b3cbf233"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-A-compatible-v12.webm",
+      "bytes": 3676147,
+      "sha256": "332f79486f3aa0c4efe88f93817f1c0adcab7ccb7f3d1f4fc0b7691ec770b376",
+      "gitBlobSHA": "5f478dd10b731db28fa4b984bc06c9048912a0dc"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-B-compatible-v12.mp4",
+      "bytes": 1550361,
+      "sha256": "b6a9d293aca67387cc71e2351d1dc1a7d94412fd9f1255def9e6a5877913c1ac",
+      "gitBlobSHA": "8303c79120cabf0bb1c72dd639d749b0159e7cff"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-B-compatible-v12.webm",
+      "bytes": 2976596,
+      "sha256": "0d7c39b76df0ed11687dc72bf75303e402a8c918ad795ee93e52d00325ce2383",
+      "gitBlobSHA": "1c7082e1805b8e14310ea31764160b12be55c0d3"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-C-compatible-v12.mp4",
+      "bytes": 2319370,
+      "sha256": "0b5beb766045c06c1eb3e3a8989dbf5b6eba8e34d7ba9cb2e2ec51b29944d234",
+      "gitBlobSHA": "9091650100b46232cfcf59569a7b0fdd5c704d55"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-C-compatible-v12.webm",
+      "bytes": 4902727,
+      "sha256": "a5c6947fdfeb5483b5b72f1f786bcedf992ab599d0b01778121982eb72fd9db6",
+      "gitBlobSHA": "092508b392f3be30f0be2384ab366b553e1e9782"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-D-compatible-v12.mp4",
+      "bytes": 3855845,
+      "sha256": "43a4019b0454e978b73e7e37134e95427acd1d43bcb5f86d6501c59087d24fbd",
+      "gitBlobSHA": "3d54a47569ab05433377e407168b303becedfd3a"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-D-compatible-v12.webm",
+      "bytes": 7617031,
+      "sha256": "937a416614b20c275f4112e064d9a1f1cf93b7d38c5148a8dc3cdca3476d6ad3",
+      "gitBlobSHA": "7a72489fb8db3d1ede11e624f14820553aaed101"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-END-compatible-v12.mp4",
+      "bytes": 3109557,
+      "sha256": "eb2ee76d909bd1d2144bd481317a6af5c23816e0043cc103134e66c37eef9ff6",
+      "gitBlobSHA": "dd3cb5dc46f7513e587df5cd4bee2182fc016aa8"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-END-compatible-v12.webm",
+      "bytes": 6610895,
+      "sha256": "f1f52dc9c8aa858cafc64d79bced80b08d99aa0a2801869359d57d3c6bf040b2",
+      "gitBlobSHA": "eb796594049c9148f9c144a58d487d5870141f21"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-EPILOGUE-compatible-v12.mp4",
+      "bytes": 1828424,
+      "sha256": "92b7696111a1275293dbf863bdedc58d7592614b6b5cb15f35386737d18da769",
+      "gitBlobSHA": "74c21e724093ea530b19657d66b699085e2aa2b6"
+    },
+    {
+      "path": "assets/release-v17/video/CIN-EPILOGUE-compatible-v12.webm",
+      "bytes": 3391031,
+      "sha256": "040933ffad8b47a1c6d64dd704ea060eca92ba9dbe51c9784bd93e9388be1782",
+      "gitBlobSHA": "b7e88b88a2b36cae5d7e6896641385ab20a8feca"
+    },
+    {
       "path": "assets/scene-v6/concepts/enclosed-guest-room.png",
       "bytes": 3110913,
       "sha256": "3f37c157c7364bd12447af58891d9745908e10b28c49e5ab104c7c94b89633b0",
@@ -9577,9 +9895,9 @@
     },
     {
       "path": "assets/soundscape-v15/README.md",
-      "bytes": 1869,
-      "sha256": "77c28897678b880804fb6dcb05fd4b47b275ddce5c3e71ba06bf6b6c3a2e23ba",
-      "gitBlobSHA": "0727e8c03a776396c0c5c498be237e0683cfe190"
+      "bytes": 1940,
+      "sha256": "f0cefe736e769cc808ddc884941de6633991e336599b4c3a5a646ad0facdc36e",
+      "gitBlobSHA": "260f8fc9da98708461eb4d65456ad9f71481f22e"
     },
     {
       "path": "assets/soundscape-v15/manifest.json",
@@ -9949,9 +10267,9 @@
     },
     {
       "path": "assets/story/content-v5.json",
-      "bytes": 28153,
-      "sha256": "df963ddd398193cc03fd98cad422ae429ad30b258bc2cf88086267ef31a9a499",
-      "gitBlobSHA": "a6a5f36c9e76561fe1e7fd035f16dc81e75b23ab"
+      "bytes": 28173,
+      "sha256": "a613f471991c0deaa3689ff7c0dfd23aecbaa58433ea075e5d933a75bae264cf",
+      "gitBlobSHA": "d4ce08bf3d8a1af944cbee6fdb17ad800a8435f0"
     },
     {
       "path": "assets/story-v10/CIN-00-aligned-v10.mp4",
@@ -11137,9 +11455,9 @@
     },
     {
       "path": "assets/world-v4/c-hatch.svg",
-      "bytes": 1063,
-      "sha256": "a0d67ecc4299c1d10157a457387d0e9ca073079164f0989a84775ea7a2a82290",
-      "gitBlobSHA": "c0e54b57f8a7ce517777da5e5cceb9eee863174b"
+      "bytes": 1067,
+      "sha256": "6019c4c2ca64f2f61e054540811fe42213247ccd871eb6f39139f37a79542d9a",
+      "gitBlobSHA": "7d70aae9f8dc8eb1ae3937455fee31b62a2cfa4e"
     },
     {
       "path": "assets/world-v4/c-history.svg",
@@ -11204,8 +11522,8 @@
     {
       "path": "assets/world-v4/c-upper.svg",
       "bytes": 1501,
-      "sha256": "c8b2b2eb4d2723cbd4bc8c4c6e28c498171151ff2465b81a63a618029f49cf97",
-      "gitBlobSHA": "be31774fe5276e3d7c8d00942396fcef4e7211ec"
+      "sha256": "1cad5d9c18d74492777c88bd1afb769b8f0a9bd04698690fc4f90b4913d80ccb",
+      "gitBlobSHA": "68fdb3aa1046df658ce18fe223d67c000b1d7257"
     },
     {
       "path": "assets/world-v4/c-watch.svg",
@@ -11366,8 +11684,8 @@
     {
       "path": "assets/world-v4/doc-manual.svg",
       "bytes": 669,
-      "sha256": "3e7d926efe9a6602c9518577d78b0d5c1b7740b8a87ce097f7941b41b8783dbd",
-      "gitBlobSHA": "3429e71706eda9902b3f13c0777f7a910f84977e"
+      "sha256": "69b5f7051fa27641cd1c58c9adf23a621c9d5eb374090cf725481ca521e3b838",
+      "gitBlobSHA": "01ca4658057fff9555c7d96892ccfe82a8f5cd23"
     },
     {
       "path": "assets/world-v4/doc-overlay.svg",
@@ -11749,15 +12067,15 @@
     },
     {
       "path": "game-rules.json",
-      "bytes": 3840,
-      "sha256": "6d7513f0bfe00d7e33713828ed4e6c844efba880029df3db53236ba703d4f96d",
-      "gitBlobSHA": "10536dfbd71dab823c0df10ecf9ac57aeb2d984e"
+      "bytes": 4031,
+      "sha256": "8de037172d856e64b64a477855b51bd8b523c6ba2c21609c52c8abf94ff66d15",
+      "gitBlobSHA": "b5e8a20b6aefefb0a385a0ca4763fe38a9f195ab"
     },
     {
       "path": "machine.md",
-      "bytes": 48475,
-      "sha256": "0b609a998fb79110d7ff6a3d966dde1d8de08d880204de196bf821b295ff794c",
-      "gitBlobSHA": "9ad4e863eb78b4bef6ca072840ae102a52ace313"
+      "bytes": 48709,
+      "sha256": "1398c2230bcd942bfe606561948b7d4c8e5c4402f770462a0cfe7e738601f513",
+      "gitBlobSHA": "6bd5b6ada88c8d379471a54798bc19fdc1a7c500"
     },
     {
       "path": "material-verification.json",
@@ -11788,6 +12106,12 @@
       "bytes": 4965,
       "sha256": "af82352fb8575cff9ce1852d26937d8c4bb860e8dc03bd3659bf62e4f72ad441",
       "gitBlobSHA": "802cffe1d14905beb84631b552e8dd79867fc057"
+    },
+    {
+      "path": "scripts/build_moonlight_v17.py",
+      "bytes": 2207,
+      "sha256": "42fb53ecab2bb70047811ecd10adf7df7ee1466edf11c192b8d5ffe7842ea520",
+      "gitBlobSHA": "99c536c7f65fa62d2e652973ebab2b8acf607f4c"
     },
     {
       "path": "scripts/build_playback_compatible.py",
@@ -11971,9 +12295,9 @@
     },
     {
       "path": "scripts/verify_soundscape_v15.py",
-      "bytes": 3231,
-      "sha256": "e9d1900a61bc48e5c2c07534b1ccd95ecff987269f381dbba1c37368a0490205",
-      "gitBlobSHA": "ba725ae07f1732f79d946138089048c7b741183e"
+      "bytes": 4309,
+      "sha256": "9254efe2bfa275d1e7d2c43ebee1a1924856b1c0902c58adfc0c4eafb8124853",
+      "gitBlobSHA": "43e0b7520a2d9077548e572f0a915e9e4de19612"
     },
     {
       "path": "scripts/verify_story_v5.py",
@@ -12001,15 +12325,15 @@
     },
     {
       "path": "test.md",
-      "bytes": 133108,
-      "sha256": "357812ec93e7470a992a895c4805832ae2fccdb0d56ef19ceaa3362f0ec00d52",
-      "gitBlobSHA": "8e25d3b06dc43deba24c67f3c2a39e5b24b36738"
+      "bytes": 135939,
+      "sha256": "3aab05eaac145bc2e44a871169632b375481a73d0e2b063ce1b6f362757c56d1",
+      "gitBlobSHA": "57f1aba7f58334417852813faf35507781c514f1"
     },
     {
       "path": "verify.md",
-      "bytes": 128989,
-      "sha256": "0ad7e77cca06be53e4e8087244c9c46eb8ca6fcd4fdb3e03af35d9db76755936",
-      "gitBlobSHA": "850b1f5f59524ee1c30fd8846f7276074d2c3b0d"
+      "bytes": 129175,
+      "sha256": "747193514fa9e2d010eb5f10dd1cd4d8bb4377c17a3db75aa6168e187bc76a87",
+      "gitBlobSHA": "19b9d0859bdb2e91c80af86fcba85d22509ebb12"
     },
     {
       "path": "web/.gitignore",
@@ -12019,9 +12343,9 @@
     },
     {
       "path": "web/README.md",
-      "bytes": 5396,
-      "sha256": "a1f71a9ddbc169b9a7f808b8fce5892d2fdda3871e438372a3a91fb96a36c5c5",
-      "gitBlobSHA": "82dce319e47525dde24a7fbb4dbebc6225272b5f"
+      "bytes": 5487,
+      "sha256": "a873763839c978d04c3c4e1c823e94fd8b132f03b74c2027f05ac58cd09a7b68",
+      "gitBlobSHA": "2d4b8cad4101eaede2352c401ae447c1745a93e3"
     },
     {
       "path": "web/index.html",
@@ -12031,9 +12355,9 @@
     },
     {
       "path": "web/package.json",
-      "bytes": 1823,
-      "sha256": "e0516b9ac3ad5b6470119322faf6373e13cbb7f5bd31b824bebe0d9c8df3b714",
-      "gitBlobSHA": "d8b9d1096700e6b5f0ce56015c6decdeac00722a"
+      "bytes": 1876,
+      "sha256": "bab2b80f90294763236af38413f418fa8951e7b08eb087ec29f36223023936ab",
+      "gitBlobSHA": "094f993fb36df0dff52446bf3393b5e2f9c1a2dc"
     },
     {
       "path": "web/pnpm-lock.yaml",
@@ -12061,9 +12385,9 @@
     },
     {
       "path": "web/public/release.json",
-      "bytes": 1259,
-      "sha256": "4632ca2e1b3eec36addf26a9628a3ff3e385ba2cada3ebb81276d5798dcd177c",
-      "gitBlobSHA": "d160d5d697bdeff7d709c9fe4643574fee90f585"
+      "bytes": 1358,
+      "sha256": "cd7ebe1f4d0073f7f6c90cae9d6b5b8b93c1f8ec89143707a6221464781c2dd2",
+      "gitBlobSHA": "42e0471687f829e1f21f6d67c0ed1976102b3e2f"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -12073,15 +12397,15 @@
     },
     {
       "path": "web/scripts/prepare-assets.mjs",
-      "bytes": 5677,
-      "sha256": "e29dfaa8a02f640bc1f99129c6755890b9c7d39a21ed772d7cc68aaddfd44efd",
-      "gitBlobSHA": "b78bba6cc0ec7264e971f43f7544f8ccf48f35a5"
+      "bytes": 5674,
+      "sha256": "d718c1ba30657e51b55930785372ff2e245c7a87a58d9f4cf676f41114d5b605",
+      "gitBlobSHA": "73124503b81e8fcaf218218a980a1d09fc120096"
     },
     {
       "path": "web/scripts/test-caption-alignment.mjs",
       "bytes": 4075,
-      "sha256": "bf46f7e3cf0bd0205dcb42a0ca5313968deb69147d728e30eba9da3d943880f7",
-      "gitBlobSHA": "d58328002e1898a91daae0c1d62c0d679536678a"
+      "sha256": "1a4a267d69eb124ba8f2e72abdb3c072c62a80d3c3fddd3ad7d18a572a098bfd",
+      "gitBlobSHA": "abbbb37c639de55d5dc6fb3887f0cb4ce661e405"
     },
     {
       "path": "web/scripts/test-final-layout.mjs",
@@ -12157,9 +12481,9 @@
     },
     {
       "path": "web/scripts/test-native-exploration.mjs",
-      "bytes": 6680,
-      "sha256": "68662a927f03c56254a4b7e31e5afc87c2829c5d82f9213b81585282f455ab90",
-      "gitBlobSHA": "9363fe0d82a2de2a4084308de9201b0c7f403ca3"
+      "bytes": 7073,
+      "sha256": "503ec32062da51ab9d67c668eec9bdfdf80d44f3769c85dc2ebd50a0aeb27879",
+      "gitBlobSHA": "fa5aa5ab3574c5a54341db494e51937bb9bf89a0"
     },
     {
       "path": "web/scripts/test-notebook-controls.mjs",
@@ -12178,6 +12502,12 @@
       "bytes": 7950,
       "sha256": "73f1290ea06d2edb1fddf0f77d44f336e3a476bd04e4edf950db36e7e0f47cdb",
       "gitBlobSHA": "9bd40244ebc30389f91d80bd5150e9857799793d"
+    },
+    {
+      "path": "web/scripts/test-release-v17.mjs",
+      "bytes": 8018,
+      "sha256": "7c898ecfb7fd68e68175b412029d87bfecf6e9306da7fe514e4447718c3c6dd6",
+      "gitBlobSHA": "26e2b4924cf545f3e256e43a830033f8d58d15f3"
     },
     {
       "path": "web/scripts/test-release.mjs",
@@ -12217,21 +12547,21 @@
     },
     {
       "path": "web/scripts/test-v4-boundaries.mjs",
-      "bytes": 7647,
-      "sha256": "2b05cf8e2df269b989b862e66152b00a728ab6188c727a9eafdbaeb29ad2bb4d",
-      "gitBlobSHA": "d67d4588154f574c4cafa8fea5a2e9c1b4cce947"
+      "bytes": 7601,
+      "sha256": "70cc0d7adc55bde4fe97e45957a53b7030592b01af7d05988b455139da034c81",
+      "gitBlobSHA": "5b08c9f24e15d77e088d28c57d6e20cf80de1ac7"
     },
     {
       "path": "web/scripts/test-v4.mjs",
-      "bytes": 11888,
-      "sha256": "562e4e3c04f84c36b7aae2f66611517cfa3a766dfb05161b14f39d9edd4d2eb2",
-      "gitBlobSHA": "80350f0358171042424df5990c9911503a499798"
+      "bytes": 11732,
+      "sha256": "ca773c11c8a52f50d5d5b8ff4a2533133001ed3f9f57297380b87a4c1ab9e337",
+      "gitBlobSHA": "384fabd62113996041ca7acf10a32cd45129dfa9"
     },
     {
       "path": "web/src/App.jsx",
-      "bytes": 12012,
-      "sha256": "541aad685f01c0f373513a3bf0ec679af994fbe2003df631a360d9f00fda1c09",
-      "gitBlobSHA": "f0e62bc9a134287e4dfe115b3d41521d20816485"
+      "bytes": 12057,
+      "sha256": "4538e259670da463c624e54a3d6c8b52661b1c41df50e99ef6a0aa0ac3856a45",
+      "gitBlobSHA": "330da714d8f1d1b6c48044a821fa10c3755ccc95"
     },
     {
       "path": "web/src/components/Archive.jsx",
@@ -12259,15 +12589,15 @@
     },
     {
       "path": "web/src/components/Game.jsx",
-      "bytes": 17270,
-      "sha256": "26056fe85fde8b67a58e593a78d3a7a28976762a409d7ceb9f5de2db5ca29384",
-      "gitBlobSHA": "12680851a7309597f1386aa731ab808648b38225"
+      "bytes": 17534,
+      "sha256": "a3d02109432a44a717bdd7309c3efe1e244362e9c7a55926b253a865204ea756",
+      "gitBlobSHA": "b2be0bafa6bf0f91ecb676a194083a4392a08897"
     },
     {
       "path": "web/src/components/GameGuide.jsx",
-      "bytes": 7777,
-      "sha256": "d64a9401a75ac09bdd2907f53749d09152f78b323660f05ea62f185056dd2122",
-      "gitBlobSHA": "4f96997825bd0cb1ab703ae012924645825c55fa"
+      "bytes": 10184,
+      "sha256": "0117a9155054b9c801827998ff4e569403858066233061a716e36995e4c67fcc",
+      "gitBlobSHA": "229f5a135c2a0f80bf456b163808c580fda9aa1b"
     },
     {
       "path": "web/src/components/Icons.jsx",
@@ -12307,9 +12637,9 @@
     },
     {
       "path": "web/src/components/WorldObjects.jsx",
-      "bytes": 13199,
-      "sha256": "1797316e6206ab6c73f4982b94997e23a268192790e821b0e9f1e7fb158d1ac4",
-      "gitBlobSHA": "fa74e99036b7e840ce23872277f41904b5246e30"
+      "bytes": 15431,
+      "sha256": "65b5a6a41545e15c3cbf4f35342a73ace85a6b611ea5a47c56ad78ec46cd7168",
+      "gitBlobSHA": "d7130c1860137d7f40d20b1116e2648f20704e87"
     },
     {
       "path": "web/src/game/Scene.jsx",
@@ -12355,9 +12685,9 @@
     },
     {
       "path": "web/src/game/guidance.mjs",
-      "bytes": 5643,
-      "sha256": "46cf998f92f70de60e3367ee91781ba8360014fc9d0b91ab879bd6c39fcc21a4",
-      "gitBlobSHA": "b3b2bea02fbe263d95870f2591bfcf41302f1aeb"
+      "bytes": 5739,
+      "sha256": "2c5f96a222c11bb0978944dfcb4570eb29397b5e5698e469ef357a477fe72fd3",
+      "gitBlobSHA": "672af07e2ec93b71c4b070fee646fc537f39bae3"
     },
     {
       "path": "web/src/game/guidance.test.mjs",
@@ -12367,9 +12697,9 @@
     },
     {
       "path": "web/src/game/guide.mjs",
-      "bytes": 4641,
-      "sha256": "6a1112e3c02f7a828d6547be6f4a48c7dd3b999631c2e4a7b01c7f337a39bbca",
-      "gitBlobSHA": "d62b39a14015dbad02f9581000dd7d26cab8967e"
+      "bytes": 15125,
+      "sha256": "7728131e44ddc02d4cb985aa79ba5e5f065aaf5c13180dc3d0e7a5312741fd29",
+      "gitBlobSHA": "0e08df4d855b1dfa8f3f474824199c83f2e2c72e"
     },
     {
       "path": "web/src/game/legacy/engine.mjs",
@@ -12433,9 +12763,9 @@
     },
     {
       "path": "web/src/game/solutions.jsx",
-      "bytes": 2655,
-      "sha256": "24b8dc16b767c1c0325b4f1608a89052bce78d93d9bde7ddcde555c335ca63d4",
-      "gitBlobSHA": "1840541c283adc6f7505ddd2c843440d9b6bdf20"
+      "bytes": 2743,
+      "sha256": "29e64aee208459a7d21764645d3a082fa7a14300a4a6c55ad118f0f4061f0bf9",
+      "gitBlobSHA": "a23a3dcbd965378531778b135b5d9fbd06ea68d5"
     },
     {
       "path": "web/src/game/space.mjs",
@@ -12451,21 +12781,21 @@
     },
     {
       "path": "web/src/game/storage.mjs",
-      "bytes": 18089,
-      "sha256": "911689db792164ede04c09007c922b283b0db87f86a67245d552f127ecdaa834",
-      "gitBlobSHA": "6c15074389423d161e6f7cc7f0608c528eafb52c"
+      "bytes": 18230,
+      "sha256": "02646f92a30112f2fbdab94fc69b410b1af2ae02da2025f7730df7cf9eea5c43",
+      "gitBlobSHA": "8a5f98980cb02215e99197f1333763779cc10b1f"
     },
     {
       "path": "web/src/game/storage.test.mjs",
-      "bytes": 13896,
-      "sha256": "be8c0ea9e6247bffb2d7bef80f9bb572778399f4b0e92fbf0ad2cdfdb90eed04",
-      "gitBlobSHA": "57906dc344c03d0cbe8df6c01e810a4a69b49da5"
+      "bytes": 15648,
+      "sha256": "31e9971874ca2e346ac2e7be05d9fa1d04efd6df5d214d3714f4204753d1cbb3",
+      "gitBlobSHA": "3d5ad26ef68fcdf0d75a745306535f6aa9160589"
     },
     {
       "path": "web/src/game/world.mjs",
-      "bytes": 15314,
-      "sha256": "506b07e890ec9fe6259bd1376e2af17bfb8f8e4ec4497747fb995b2e8a78bc9f",
-      "gitBlobSHA": "8b0e9f9ead12a8d787f8ea85cee33fea3067398f"
+      "bytes": 15404,
+      "sha256": "96c6c7d61e4b2f68777f24a8301449fa5cbff4ed7be3eb25545c3c18940441c7",
+      "gitBlobSHA": "87a4f1840ade933cbf365797e397ca9768486977"
     },
     {
       "path": "web/src/main.jsx",
@@ -12475,9 +12805,9 @@
     },
     {
       "path": "web/src/styles.css",
-      "bytes": 56402,
-      "sha256": "bd8c4b7fb4482379efd6bcff49d0dddf8cef7673b84962c481524d5241553bcc",
-      "gitBlobSHA": "833a196c585927545a25bc8bebc64a76854005cf"
+      "bytes": 58304,
+      "sha256": "3c768db8ef1466ba918065cd1ebf85e3f3cc2e7275fd1b965448791a90e84a0d",
+      "gitBlobSHA": "6fae50f66d629b8438b23b7b6e879266a3831575"
     },
     {
       "path": "web/vite.config.js",
@@ -12493,9 +12823,9 @@
     },
     {
       "path": "操作指南與探索模式規格.md",
-      "bytes": 11206,
-      "sha256": "061da818fb15e716a503f5d0edfcc4764712b3f1d9412dc4ba9199b14d3afb17",
-      "gitBlobSHA": "6965dbd2b8b7b0a7c99425a078b5ede8be11e0c5"
+      "bytes": 11288,
+      "sha256": "b04327b83d2334297d551ad4b3f76f449680a98cec664dd40fd3a5205d335205",
+      "gitBlobSHA": "efcae4f0a28a7835fc74e8aa27e0968ff3f8c424"
     },
     {
       "path": "素材交付.md",
@@ -12512,34 +12842,34 @@
   ],
   "deployed": [
     {
-      "path": "assets/Game-fiqidhKf.js",
-      "bytes": 35665,
-      "sha256": "f4308d0524ef083b9e3fe09c49453dcd763317454f2ae283aba49f454c201bd4",
-      "gitBlobSHA": "44ecdd34c6018c4f563a6d45389d961c80062aee"
+      "path": "assets/Game-B-9n4P7A.js",
+      "bytes": 38018,
+      "sha256": "d376c2adbd2a308603cc2ea6e61b5e18be48f204df86f03511eb6bf62eb02087",
+      "gitBlobSHA": "bca4d665b67bf719f2e6aa6414bca7738f5dfb06"
     },
     {
-      "path": "assets/Scene-4-9TFKBg.js",
+      "path": "assets/Scene-B_ZOcEy-.js",
       "bytes": 556779,
-      "sha256": "a529bdadc6ac552145d085f01b2ff41b9913cb6c2d92de8a066d7bdf88985973",
-      "gitBlobSHA": "96f5631985c31ba9fc494694173c71afea331d4a"
+      "sha256": "ed182d4c3ee3d538d1d50de8103a493451ef753eaa674ffee7e54c224f5b9724",
+      "gitBlobSHA": "bd3c84ee0619c9f1a8f5c5af9761d932cba4d0ce"
     },
     {
-      "path": "assets/index-Ch4T1qUX.js",
-      "bytes": 354640,
-      "sha256": "e6bb19a58e4763282fcd90c202ee11b696dd84a1834817c077201c83baf0ac6d",
-      "gitBlobSHA": "cdac0a02e3fbb58649cd0a1b873fc267d0754daf"
+      "path": "assets/index-BZM7qTBt.js",
+      "bytes": 365301,
+      "sha256": "54c089ebf816442cf379b50aada4a235da3fb249eb0d99b87a810ab30b2237e1",
+      "gitBlobSHA": "c8c08325b7dc7e160f9b90b70aa00c20961adecd"
     },
     {
-      "path": "assets/index-kVg-Oys7.css",
-      "bytes": 55535,
-      "sha256": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
-      "gitBlobSHA": "a95a2ee55f9e0928927875c841e1033657370931"
+      "path": "assets/index-CbCWv3Tp.css",
+      "bytes": 57340,
+      "sha256": "5b31ab45b00b07ed41bd6f1a06901c20e94a906a7fcce4e25d0c102126fdba94",
+      "gitBlobSHA": "c0204045ba0601037a3d8590de30050dc09a47be"
     },
     {
-      "path": "assets/solutions-BjyYmjWQ.js",
-      "bytes": 2727,
-      "sha256": "174f3997bed3874efd854a976465fdf4b6e6eeb1f2a597e5c1304b1fc3a42054",
-      "gitBlobSHA": "e69f0c6113379115e30d61a43270a682cee7a28b"
+      "path": "assets/solutions-Dr1zN81v.js",
+      "bytes": 2815,
+      "sha256": "2512374466de2e2a700b1d853091fa4f3124ba687fcfcb4849c7e89dd625c23e",
+      "gitBlobSHA": "da1aad87950979f2b82b27bc85ce3097f2926e93"
     },
     {
       "path": "favicon.svg",
@@ -12550,8 +12880,8 @@
     {
       "path": "index.html",
       "bytes": 597,
-      "sha256": "6dbe40ee70a04b4917dacec8ecd80b2f72ae86c1513e58a74548721524b23398",
-      "gitBlobSHA": "40059066667f31df4ef13f2f427c7fa06d3ba92c"
+      "sha256": "1c3adafec3a88b061d1c2ed3b338132b30c65fb3c586127050c191cb4fb41e9f",
+      "gitBlobSHA": "7eb3c3d86479effb57e94f74c388ad9e066f9a6e"
     },
     {
       "path": "media/documents/blood.svg",
@@ -15890,16 +16220,16 @@
       "gitBlobSHA": "a2dd25f4ae9918cc43fd5826ad77be3de6ea74d1"
     },
     {
-      "path": "media/video/CIN-00-compatible-v11.mp4",
-      "bytes": 2655667,
-      "sha256": "b771d1ca1073c1a9c53ce7b2113ce410c80247d08e3da750b971c4cb4e491303",
-      "gitBlobSHA": "cc894e1a768a000381075d6da856e4226cf53326"
+      "path": "media/video/CIN-00-compatible-v12.mp4",
+      "bytes": 2650559,
+      "sha256": "b83edb31480be1245f7d883caf6908636e270bc2d6f00610d23bf0083204def7",
+      "gitBlobSHA": "b7ac9feda6f02a7ecddb5fd3a0ba4eb3ee8a07d9"
     },
     {
-      "path": "media/video/CIN-00-compatible-v11.webm",
-      "bytes": 5509721,
-      "sha256": "6a01ea8816c2a121e057bfea1d75602f08e8dbd6594f422700ba6d7bee4fd02a",
-      "gitBlobSHA": "3ead9862748508f5c6467cc52debfbd8fba7acc4"
+      "path": "media/video/CIN-00-compatible-v12.webm",
+      "bytes": 5473560,
+      "sha256": "3f8a614b5bc0873cb694ad08781dd5b75f7c160c135363bbb2106cff33a8e7b4",
+      "gitBlobSHA": "fb31391ed0ada5b3c03e868ac3ea5867bed4e54e"
     },
     {
       "path": "media/video/CIN-00-compatible-v6.mp4",
@@ -15944,16 +16274,16 @@
       "gitBlobSHA": "5f16dcd27f0da7c9fa48a6e12a24ad59aeae56b0"
     },
     {
-      "path": "media/video/CIN-A-compatible-v11.mp4",
-      "bytes": 1662043,
-      "sha256": "a25b357e1ec8bfacbd540c24e44e203c2be78b4a5a6d3f08d5a22561626ad7b9",
-      "gitBlobSHA": "9d989a99893b399c3372274d8dc2551e8592eae0"
+      "path": "media/video/CIN-A-compatible-v12.mp4",
+      "bytes": 1661511,
+      "sha256": "d38c82e9187f7dfa1ff4fd67987f237586bfa0a81d98e9173ed782adfb21d4f4",
+      "gitBlobSHA": "db2e8bb5580e34712734c15e8e2226c4b3cbf233"
     },
     {
-      "path": "media/video/CIN-A-compatible-v11.webm",
-      "bytes": 3678521,
-      "sha256": "af1027773df56541a67d3848c11cb20cdeae7c3c89a61a4269a65ddd46bc4a99",
-      "gitBlobSHA": "d544f9b5d75aab8e8409e03e0a3c446e740df060"
+      "path": "media/video/CIN-A-compatible-v12.webm",
+      "bytes": 3676147,
+      "sha256": "332f79486f3aa0c4efe88f93817f1c0adcab7ccb7f3d1f4fc0b7691ec770b376",
+      "gitBlobSHA": "5f478dd10b731db28fa4b984bc06c9048912a0dc"
     },
     {
       "path": "media/video/CIN-A-compatible-v6.mp4",
@@ -16010,16 +16340,16 @@
       "gitBlobSHA": "fe1bc9592f2e856019b56facdcaab0f2ca1a62d3"
     },
     {
-      "path": "media/video/CIN-B-compatible-v11.mp4",
-      "bytes": 1551191,
-      "sha256": "059a3b0031a234df104d08a81f0e22fe5adde6d63e46333a051e3f60a6ca3e7e",
-      "gitBlobSHA": "afac597d000c95cf4f2025e0ca8d13de4b872084"
+      "path": "media/video/CIN-B-compatible-v12.mp4",
+      "bytes": 1550361,
+      "sha256": "b6a9d293aca67387cc71e2351d1dc1a7d94412fd9f1255def9e6a5877913c1ac",
+      "gitBlobSHA": "8303c79120cabf0bb1c72dd639d749b0159e7cff"
     },
     {
-      "path": "media/video/CIN-B-compatible-v11.webm",
-      "bytes": 2914546,
-      "sha256": "bda8bf65164e9d4088a45630ccdab4df3670df81f7fb2734ed4a849b6f98fdef",
-      "gitBlobSHA": "b59f3e84350cc4df5fb23c1a46a0676e913b9df9"
+      "path": "media/video/CIN-B-compatible-v12.webm",
+      "bytes": 2976596,
+      "sha256": "0d7c39b76df0ed11687dc72bf75303e402a8c918ad795ee93e52d00325ce2383",
+      "gitBlobSHA": "1c7082e1805b8e14310ea31764160b12be55c0d3"
     },
     {
       "path": "media/video/CIN-B-compatible-v6.mp4",
@@ -16064,16 +16394,16 @@
       "gitBlobSHA": "f2c31f46facae314ca04cd5c8449cc42f7cbd236"
     },
     {
-      "path": "media/video/CIN-C-compatible-v11.mp4",
-      "bytes": 2321559,
-      "sha256": "412a246546e5b8efecd25540d0ab3646258c79ccc94c427b2647396b33c4e19e",
-      "gitBlobSHA": "1f71e4ca64019277395fbfde3c0b81a790fb51a0"
+      "path": "media/video/CIN-C-compatible-v12.mp4",
+      "bytes": 2319370,
+      "sha256": "0b5beb766045c06c1eb3e3a8989dbf5b6eba8e34d7ba9cb2e2ec51b29944d234",
+      "gitBlobSHA": "9091650100b46232cfcf59569a7b0fdd5c704d55"
     },
     {
-      "path": "media/video/CIN-C-compatible-v11.webm",
-      "bytes": 4816798,
-      "sha256": "4ba4addc5b42f581c6fa06f76fb8958f4b232e2db4c71aab516f0c71448707d8",
-      "gitBlobSHA": "ca19a27d14a8a2d6193ad5c7d5d5130c46e082f6"
+      "path": "media/video/CIN-C-compatible-v12.webm",
+      "bytes": 4902727,
+      "sha256": "a5c6947fdfeb5483b5b72f1f786bcedf992ab599d0b01778121982eb72fd9db6",
+      "gitBlobSHA": "092508b392f3be30f0be2384ab366b553e1e9782"
     },
     {
       "path": "media/video/CIN-C-compatible-v6.mp4",
@@ -16118,16 +16448,16 @@
       "gitBlobSHA": "4c58113ccb797ec92202f1eae7fe078ecede56a9"
     },
     {
-      "path": "media/video/CIN-D-compatible-v11.mp4",
-      "bytes": 3860217,
-      "sha256": "bec2a1397edcc8914c7cf16efa3aa080b10621c47fbb58684cf12d8ed876a714",
-      "gitBlobSHA": "fea4ef4def573c6d0879b417c09a65e571927e20"
+      "path": "media/video/CIN-D-compatible-v12.mp4",
+      "bytes": 3855845,
+      "sha256": "43a4019b0454e978b73e7e37134e95427acd1d43bcb5f86d6501c59087d24fbd",
+      "gitBlobSHA": "3d54a47569ab05433377e407168b303becedfd3a"
     },
     {
-      "path": "media/video/CIN-D-compatible-v11.webm",
-      "bytes": 7592689,
-      "sha256": "82c71f5d6548a89f3a07a3785136da8788fb21344c300aaff3be7394075eb492",
-      "gitBlobSHA": "b2ba9f5c8692c39d8da69088c746def38f0e2ac5"
+      "path": "media/video/CIN-D-compatible-v12.webm",
+      "bytes": 7617031,
+      "sha256": "937a416614b20c275f4112e064d9a1f1cf93b7d38c5148a8dc3cdca3476d6ad3",
+      "gitBlobSHA": "7a72489fb8db3d1ede11e624f14820553aaed101"
     },
     {
       "path": "media/video/CIN-D-compatible-v6.mp4",
@@ -16184,16 +16514,16 @@
       "gitBlobSHA": "074b688dfa2b5510cb13ba1ee951513be3ec530e"
     },
     {
-      "path": "media/video/CIN-END-compatible-v11.mp4",
-      "bytes": 3114183,
-      "sha256": "30c2cc4ee1fcbe3446f02e64c847026f57a6022fe973f08e82ba0b58851d2348",
-      "gitBlobSHA": "2bc37066b78ad2158da261e8112faf215d96a00c"
+      "path": "media/video/CIN-END-compatible-v12.mp4",
+      "bytes": 3109557,
+      "sha256": "eb2ee76d909bd1d2144bd481317a6af5c23816e0043cc103134e66c37eef9ff6",
+      "gitBlobSHA": "dd3cb5dc46f7513e587df5cd4bee2182fc016aa8"
     },
     {
-      "path": "media/video/CIN-END-compatible-v11.webm",
-      "bytes": 6577942,
-      "sha256": "ccb21a32f84baa5f984076c898e42674f652abfce27ad91091eaff39e4aeb27e",
-      "gitBlobSHA": "5f8ce8c9d8f455d478788237ff1e4735fed562ce"
+      "path": "media/video/CIN-END-compatible-v12.webm",
+      "bytes": 6610895,
+      "sha256": "f1f52dc9c8aa858cafc64d79bced80b08d99aa0a2801869359d57d3c6bf040b2",
+      "gitBlobSHA": "eb796594049c9148f9c144a58d487d5870141f21"
     },
     {
       "path": "media/video/CIN-END-compatible-v6.mp4",
@@ -16238,16 +16568,16 @@
       "gitBlobSHA": "3302f87c09c545058e97b652a782ac20a694096d"
     },
     {
-      "path": "media/video/CIN-EPILOGUE-compatible-v11.mp4",
-      "bytes": 1827556,
-      "sha256": "42a47fbc27c8a20696acdad0998c1bf94bc4aa29d68a97a40564926df8ca2a10",
-      "gitBlobSHA": "16ece5bfd978a8902ac0da1079541cf3a581d5d0"
+      "path": "media/video/CIN-EPILOGUE-compatible-v12.mp4",
+      "bytes": 1828424,
+      "sha256": "92b7696111a1275293dbf863bdedc58d7592614b6b5cb15f35386737d18da769",
+      "gitBlobSHA": "74c21e724093ea530b19657d66b699085e2aa2b6"
     },
     {
-      "path": "media/video/CIN-EPILOGUE-compatible-v11.webm",
-      "bytes": 3340480,
-      "sha256": "b7fd30641211c04ef7818b5d55717730d77b5cdb89b0db323864cb9530572edb",
-      "gitBlobSHA": "7ba3329ca853bdf49891f0b885f85edd615b85a9"
+      "path": "media/video/CIN-EPILOGUE-compatible-v12.webm",
+      "bytes": 3391031,
+      "sha256": "040933ffad8b47a1c6d64dd704ea060eca92ba9dbe51c9784bd93e9388be1782",
+      "gitBlobSHA": "b7e88b88a2b36cae5d7e6896641385ab20a8feca"
     },
     {
       "path": "media/video/CIN-EPILOGUE-compatible-v6.mp4",
@@ -16575,9 +16905,9 @@
     },
     {
       "path": "media/world-v4/c-hatch.svg",
-      "bytes": 1063,
-      "sha256": "a0d67ecc4299c1d10157a457387d0e9ca073079164f0989a84775ea7a2a82290",
-      "gitBlobSHA": "c0e54b57f8a7ce517777da5e5cceb9eee863174b"
+      "bytes": 1067,
+      "sha256": "6019c4c2ca64f2f61e054540811fe42213247ccd871eb6f39139f37a79542d9a",
+      "gitBlobSHA": "7d70aae9f8dc8eb1ae3937455fee31b62a2cfa4e"
     },
     {
       "path": "media/world-v4/c-history.svg",
@@ -16642,8 +16972,8 @@
     {
       "path": "media/world-v4/c-upper.svg",
       "bytes": 1501,
-      "sha256": "c8b2b2eb4d2723cbd4bc8c4c6e28c498171151ff2465b81a63a618029f49cf97",
-      "gitBlobSHA": "be31774fe5276e3d7c8d00942396fcef4e7211ec"
+      "sha256": "1cad5d9c18d74492777c88bd1afb769b8f0a9bd04698690fc4f90b4913d80ccb",
+      "gitBlobSHA": "68fdb3aa1046df658ce18fe223d67c000b1d7257"
     },
     {
       "path": "media/world-v4/c-watch.svg",
@@ -16804,8 +17134,8 @@
     {
       "path": "media/world-v4/doc-manual.svg",
       "bytes": 669,
-      "sha256": "3e7d926efe9a6602c9518577d78b0d5c1b7740b8a87ce097f7941b41b8783dbd",
-      "gitBlobSHA": "3429e71706eda9902b3f13c0777f7a910f84977e"
+      "sha256": "69b5f7051fa27641cd1c58c9adf23a621c9d5eb374090cf725481ca521e3b838",
+      "gitBlobSHA": "01ca4658057fff9555c7d96892ccfe82a8f5cd23"
     },
     {
       "path": "media/world-v4/doc-overlay.svg",
@@ -16888,8 +17218,8 @@
     {
       "path": "media.json",
       "bytes": 27044,
-      "sha256": "aad1432ac22af083f3b836957e5c6d890a87818e8b401f54a8d5c90131510069",
-      "gitBlobSHA": "7aefa01d17d3c11f29d148b2010acb1f22c6370d"
+      "sha256": "3647b592b50851bcf8738cfec4458a0a47474c40435693ee9aa7d58e11858264",
+      "gitBlobSHA": "312f7f5d6ab433d0db6bd3f36b6de87cb2b43c21"
     },
     {
       "path": "model-catalog.json",
@@ -16899,9 +17229,9 @@
     },
     {
       "path": "release.json",
-      "bytes": 1259,
-      "sha256": "4632ca2e1b3eec36addf26a9628a3ff3e385ba2cada3ebb81276d5798dcd177c",
-      "gitBlobSHA": "d160d5d697bdeff7d709c9fe4643574fee90f585"
+      "bytes": 1358,
+      "sha256": "cd7ebe1f4d0073f7f6c90cae9d6b5b8b93c1f8ec89143707a6221464781c2dd2",
+      "gitBlobSHA": "42e0471687f829e1f21f6d67c0ed1976102b3e2f"
     }
   ],
   "exclusions": [
@@ -16910,5 +17240,38 @@
     "產生的 web/public/media 與 media.json 副本",
     "作業系統檔案、快取、.git、.env 及私密設定"
   ],
-  "note": "SHA 與大小為這份快照產生時的檔案；後續驗收新增紀錄會重新產生清單。聲景 v15 的來源及 Pages Commit 見 assets/soundscape-v15/verification/summary.json；先前版本見其歷史 release-verification.json。"
+  "note": "SHA 與大小為這份快照產生時的檔案；後續驗收新增紀錄會重新產生清單。聲景 v15 的來源及 Pages Commit 見 assets/soundscape-v15/verification/summary.json；先前版本見其歷史 release-verification.json。",
+  "excludedUnrelatedLocalFiles": [
+    "2D動畫劇情台詞檔案索引.md"
+  ],
+  "obsoletePublicAudioReplaced": [
+    "media/video/CIN-00-compatible-v11.mp4",
+    "media/video/CIN-00-compatible-v11.webm",
+    "media/video/CIN-A-compatible-v11.mp4",
+    "media/video/CIN-A-compatible-v11.webm",
+    "media/video/CIN-B-compatible-v11.mp4",
+    "media/video/CIN-B-compatible-v11.webm",
+    "media/video/CIN-C-compatible-v11.mp4",
+    "media/video/CIN-C-compatible-v11.webm",
+    "media/video/CIN-D-compatible-v11.mp4",
+    "media/video/CIN-D-compatible-v11.webm",
+    "media/video/CIN-END-compatible-v11.mp4",
+    "media/video/CIN-END-compatible-v11.webm",
+    "media/video/CIN-EPILOGUE-compatible-v11.mp4",
+    "media/video/CIN-EPILOGUE-compatible-v11.webm",
+    "final/media/video/CIN-00-compatible-v11.mp4",
+    "final/media/video/CIN-00-compatible-v11.webm",
+    "final/media/video/CIN-A-compatible-v11.mp4",
+    "final/media/video/CIN-A-compatible-v11.webm",
+    "final/media/video/CIN-B-compatible-v11.mp4",
+    "final/media/video/CIN-B-compatible-v11.webm",
+    "final/media/video/CIN-C-compatible-v11.mp4",
+    "final/media/video/CIN-C-compatible-v11.webm",
+    "final/media/video/CIN-D-compatible-v11.mp4",
+    "final/media/video/CIN-D-compatible-v11.webm",
+    "final/media/video/CIN-END-compatible-v11.mp4",
+    "final/media/video/CIN-END-compatible-v11.webm",
+    "final/media/video/CIN-EPILOGUE-compatible-v11.mp4",
+    "final/media/video/CIN-EPILOGUE-compatible-v11.webm"
+  ]
 }

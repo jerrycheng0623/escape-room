@@ -12,7 +12,7 @@ await mkdir(out,{recursive:true});const report={url,date:new Date().toISOString(
 for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
  const b=await type.launch(engine==='chromium'?{args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']}:{}),viewportCases=[[1440,900,false],[844,390,true],[390,844,true]];
  for(const [width,height,mobile] of viewportCases){
-  const c=await b.newContext({viewport:{width,height},isMobile:mobile,hasTouch:mobile}),p=await c.newPage(),row={engine,mobile,browser:await b.version(),checks:[],errors:[]};report.rows.push(row);
+  const c=await b.newContext({viewport:{width,height},isMobile:mobile,hasTouch:mobile}),p=await c.newPage(),row={engine,mobile,width,height,browser:await b.version(),checks:[],errors:[]};report.rows.push(row);
   p.on('pageerror',e=>row.errors.push(e.message));p.on('console',e=>{if(e.type()==='error')row.errors.push(e.text());});
   const click=async(name,exact=true)=>{const el=p.getByRole('button',{name,exact});await el.scrollIntoViewIfNeeded();return mobile?el.tap():el.click();};
   const state=()=>p.evaluate(()=>JSON.parse(localStorage.getItem('embers.investigation.v1')));

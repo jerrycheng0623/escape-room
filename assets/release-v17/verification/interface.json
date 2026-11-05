@@ -1,0 +1,88 @@
+{
+  "url": "http://127.0.0.1:5194/",
+  "date": "2026-11-05T07:02:08.310Z",
+  "method": "Real guide input and Space key; room-specific saved fixtures for physical hatch inspection. Full new-game flow is separate.",
+  "rows": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged",
+        "Three image endpoint pairs and exact40 auto-open; separate collection advances with no optional records"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged",
+        "Three image endpoint pairs and exact40 auto-open; separate collection advances with no optional records"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 844,
+      "height": 390
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 390,
+      "height": 844
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "browser": "26.5",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged",
+        "Three image endpoint pairs and exact40 auto-open; separate collection advances with no optional records"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "browser": "26.5",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged",
+        "Three image endpoint pairs and exact40 auto-open; separate collection advances with no optional records"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 844,
+      "height": 390
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "browser": "26.5",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work"
+      ],
+      "errors": [],
+      "pass": true,
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "viewportMetadata": "Recorded from the fixed runner matrix; behavior assertions are unchanged."
+}

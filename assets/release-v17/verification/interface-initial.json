@@ -1,0 +1,55 @@
+{
+  "url": "http://127.0.0.1:5194/",
+  "date": "2026-11-05T06:56:01.787Z",
+  "method": "Real guide input and Space key; room-specific saved fixtures for physical hatch inspection. Full new-game flow is separate.",
+  "rows": [
+    {
+      "engine": "chromium",
+      "mobile": false,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "TypeError: Cannot read properties of undefined (reading 'c-hatch')\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-release-v17.mjs:52:41"
+    },
+    {
+      "engine": "chromium",
+      "mobile": true,
+      "browser": "151.0.7922.34",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "locator.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '第 1 段', exact: true })\u001b[22m\n\n    at click (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-release-v17.mjs:17:93)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-release-v17.mjs:60:11"
+    },
+    {
+      "engine": "webkit",
+      "mobile": false,
+      "browser": "26.5",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "TypeError: Cannot read properties of undefined (reading 'c-hatch')\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-release-v17.mjs:52:41"
+    },
+    {
+      "engine": "webkit",
+      "mobile": true,
+      "browser": "26.5",
+      "checks": [
+        "All seven English guide pages, accessible labels and examples translated; practice code and Space work",
+        "Desktop Space toggles backpack and holds actual item; notes keep spaces; mobile controls unchanged"
+      ],
+      "errors": [],
+      "pass": false,
+      "failure": "locator.scrollIntoViewIfNeeded: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: '第 1 段', exact: true })\u001b[22m\n\n    at click (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-release-v17.mjs:17:93)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-release-v17.mjs:60:11"
+    }
+  ]
+}

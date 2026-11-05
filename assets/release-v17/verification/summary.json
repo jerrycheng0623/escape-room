@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05T15:10:13.976108+08:00",
+  "appVersion": "1.1.0",
+  "interfaceVersion": 17,
+  "mechanicPatch": "C-exact40-auto",
+  "saveSchema": 4,
+  "cinematicPictureVersion": 10,
+  "cinematicAudioVersion": 12,
+  "music": "Beethoven Op.27 No.2 movement I",
+  "sourceCodeCommit": "dab432f0b239809a4ba3cc23cfe9c78ff30fdde4",
+  "pagesCommit": "7c12c9c72b30ddb1e197fe8c7423173b70dc44df",
+  "workflow": "https://github.com/jerrycheng0623/escape-room/actions/runs/41985095344",
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "checks": {
+    "logic": 58,
+    "weightSubsets": 256,
+    "fullNewGameFlows": 2,
+    "guideEnglishProfiles": 6,
+    "nativePointerLockAndSpace": 6,
+    "naturalFilmPlays": 56,
+    "subtitleAssertions": 416
+  },
+  "harnessNotes": [
+    "First guide run expected a space in the room-tab label; label spacing restored and all six guide profiles rerun.",
+    "First custom fixture waited for target diagnostics before entering desktop exploration; setup corrected. Completed route tabs include a checkmark; target locator corrected.",
+    "Notebook had 404s while Vite rebuilt; final eight profiles rerun after build. WebKit luggage startup timed out under concurrent load; both WebKit profiles rerun."
+  ],
+  "limits": [
+    "Physical iPhone/iPad/Android not tested",
+    "Only the operating guide is fully localized; do not claim the entire game is English",
+    "Full flows explicitly skip story films; natural playback measured separately"
+  ],
+  "scope": {
+    "sourceBranch": "Websit-final",
+    "unrelatedLocalFileNotIncluded": "2D動畫劇情台詞檔案索引.md",
+    "publicAudioReplaced": "Version11 Ravel delivery files removed from root/final, retained in source assets; current index only uses Moonlight v12"
+  },
+  "publicVerification": {
+    "pass": true,
+    "codeAndAmbientAcrossBothEntries": "public-identity.json",
+    "filmsAndSubtitles": "public-http.json",
+    "homeProfiles": "public-entry.json",
+    "guideSpaceAndCExact40Profiles": "public-interface.json"
+  }
+}

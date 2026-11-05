@@ -1,0 +1,44 @@
+[
+  {
+    "id": "CIN-00",
+    "rmsGainDbVsRavel": 5.342329005520884,
+    "peak": 0.3214638829231262,
+    "expectedMixCorrelation": 0.9995534548855047
+  },
+  {
+    "id": "CIN-A",
+    "rmsGainDbVsRavel": 4.763303768049009,
+    "peak": 0.28203290700912476,
+    "expectedMixCorrelation": 0.9987805335730546
+  },
+  {
+    "id": "CIN-B",
+    "rmsGainDbVsRavel": 7.721900497072842,
+    "peak": 0.35008418560028076,
+    "expectedMixCorrelation": 0.999549181111035
+  },
+  {
+    "id": "CIN-C",
+    "rmsGainDbVsRavel": 10.22666817263694,
+    "peak": 0.34914615750312805,
+    "expectedMixCorrelation": 0.9997277694116917
+  },
+  {
+    "id": "CIN-D",
+    "rmsGainDbVsRavel": 3.4315764865277716,
+    "peak": 0.20885175466537476,
+    "expectedMixCorrelation": 0.9981414340361326
+  },
+  {
+    "id": "CIN-END",
+    "rmsGainDbVsRavel": 2.0035334879518953,
+    "peak": 0.27410754561424255,
+    "expectedMixCorrelation": 0.9996005664498755
+  },
+  {
+    "id": "CIN-EPILOGUE",
+    "rmsGainDbVsRavel": 1.3402541707509776,
+    "peak": 0.2621258497238159,
+    "expectedMixCorrelation": 0.9982808528741469
+  }
+]
