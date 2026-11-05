@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-05T04:18:59.186Z",
+  "url": "http://127.0.0.1:5192/",
+  "method": "Browser plugin not available; Playwright. Completed-fixture archive seeking verifies every shot in zh-Hant and en, not a natural-playback claim. Film frame identity checked separately.",
+  "cases": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "mp4",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "Error: Wrong active release: http://127.0.0.1:5192/media/video/CIN-00-compatible-v11.mp4\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-caption-alignment.mjs:17:145\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:541:9)"
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "format": "webm",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "Error: Wrong active release: http://127.0.0.1:5192/media/video/CIN-00-compatible-v11.webm\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-caption-alignment.mjs:17:145\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:541:9)"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "mp4",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "Error: Wrong active release: http://127.0.0.1:5192/media/video/CIN-00-compatible-v11.mp4\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-caption-alignment.mjs:17:145\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:541:9)"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "format": "webm",
+      "checks": [],
+      "errors": [],
+      "title": "餘燼裡的第六人",
+      "pass": false,
+      "failure": "Error: Wrong active release: http://127.0.0.1:5192/media/video/CIN-00-compatible-v11.webm\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-caption-alignment.mjs:17:145\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:541:9)"
+    }
+  ]
+}

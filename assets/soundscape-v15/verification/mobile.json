@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05T04:16:55.124Z",
+  "url": "http://127.0.0.1:5192/",
+  "engine": "chromium",
+  "browser": "151.0.7922.34",
+  "device": "mobile",
+  "method": "Visible UI from new game; Chromium CDP touch movement and taps; no injected save/solve. Films skipped explicitly, natural media separate.",
+  "checks": [
+    "A actual hook/bell/luggage/panel/reward",
+    "B wrong strip returns, all original frames transported",
+    "C distributed evidence, physical route, balanced35 needs wheel",
+    "D Q false ending, R true drawer, geometry and exit cross reconstruction",
+    "bonus optional, single ending, epilogue, firstResult"
+  ],
+  "errors": [],
+  "pass": true
+}

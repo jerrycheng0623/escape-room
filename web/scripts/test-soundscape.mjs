@@ -5,7 +5,7 @@ import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {DEFAULT_SETTINGS,replayRun} from '../src/game/storage.mjs';
 
-const {chromium,webkit,devices}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE||join(homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs')).href);
+const {chromium,webkit}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE||join(homedir(),'.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs')).href);
 const url=process.env.EMBERS_URL||'http://127.0.0.1:5173/',out=process.env.EMBERS_QA_DIR||join(tmpdir(),'embers-soundscape');
 await mkdir(out,{recursive:true});
 const result={url,date:new Date().toISOString(),method:'Tracks real HTMLMediaElements; no mock playback. Engineering room fixtures. Loop wrap checked at natural 1x from a position near the end.',rows:[]};
@@ -14,7 +14,7 @@ for(const [engine,type,mobile] of [['chromium',chromium,false],['chromium',chrom
  result.rows.push(row);
  try{
   for(const room of ['A','B','C','D']){
-   const context=await b.newContext(mobile?{...(engine==='webkit'?devices['iPhone 13']:{}),viewport:{width:844,height:390},isMobile:true,hasTouch:true}:{viewport:{width:1440,height:900}});
+   const context=await b.newContext(mobile?{viewport:{width:844,height:390},isMobile:true,hasTouch:true}:{viewport:{width:1440,height:900}});
    const run=replayRun(room);
    if(room==='B')run.position={x:10.6,z:8.1};
    await context.addInitScript(({run,settings})=>{
