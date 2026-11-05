@@ -1,0 +1,10 @@
+{
+  "id": "END-ACTOR",
+  "prompt": "Use case: illustration-story. Production animation layer, TRANSPARENT BACKGROUND with real alpha. ONE full-body ADULT detective viewed strictly FROM BEHIND, gender neutral, knee-length charcoal trench coat, dark trousers, worn dark shoes, leather gloves, small flashlight in one hand pointed downward. A restrained mid-stride walking pose, ordinary anatomy, head turned away so absolutely NO FACE OR EYES visible. Style reference image is ONLY for thin graphite contour, flat matte olive grey/brown gouache, subtle old paper pigment within character; do NOT copy the reference woman's bob haircut, hairclip, notebook, glasses or portrait pose. Back-facing silhouette with short dark hair, collar up. Entire body and shoes visible with generous transparent margins. No background, no floor, no shadow plane, no paper border, no frame, no text, no UI, no watermark. One character only, not spritesheet.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d67a1f9f-3ac7-4724-9059-de5ea14b40ac.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+  ],
+  "transparentBackground": true
+}

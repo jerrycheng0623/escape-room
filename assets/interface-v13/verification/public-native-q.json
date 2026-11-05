@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04T14:41:00.882Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/?v=q-13",
+  "method": "Visible Chromium; valid near-luggage A fixture; real Pointer Lock API/events, actual arrows/E/left click, no DOM API mocks.",
+  "checks": [
+    "actual canvas lock; relative mouse movement continues outside viewport coordinates",
+    "Q unlocks to cursor without pause, cursor movement frozen; Q locks again",
+    "native Escape unlocks and pauses; close remains idle",
+    "native left-click target opens operation, releases cursor; typing/mouse frozen; close idle",
+    "native E interaction releases pointer without accidental pause overlay"
+  ],
+  "errors": [],
+  "browser": "151.0.7922.34",
+  "pass": true
+}

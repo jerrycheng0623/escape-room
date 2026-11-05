@@ -1,0 +1,11 @@
+{
+  "id": "B-04",
+  "prompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET group photograph. Image2 is ONLY a pendant design reference. Preserve image1's EXACT FOUR adults, their positions, faces, eye charcoal bands, hairstyles, clothing, hands, notebooks, background, clock reading18:30, lighting, framing, paper border completely unchanged. Change ONLY the necklace pendant on the far-right masked long-haired adult: copy the distinctive pendant shape from image2, a titanium open hexagon outline, prominent diagonal metal bar across its center from lower left to upper right, and small open GAP at the upper right. Preserve its existing size and position worn on chest, clearly distinguishable. Do NOT copy the grill/background from image2, do NOT add other people or alter identity. No other changes.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-9182f8a8-a41a-4a97-8e85-0f38df2e358d.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/B-04.png",
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

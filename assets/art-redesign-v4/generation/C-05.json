@@ -1,0 +1,9 @@
+{
+  "id": "C-05",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Fixed base underside service panel of the same heavy rectangular barbecue grill, close-up, after fire. Clearly show a built-in history display on the FIXED BASE and an EMPTY detachable controller docking cradle beside it, not another controller. Screen must show exactly '19:15' on a small top row and '65.0 kg' on a large bottom row, crisp straight legible digits, no other writing. A small ash-lined open mechanical compartment and metal fasteners visible. No humans or readable text, no fire. Flat matte ink and graphite drawing with muted grey-green paint.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-7db94029-465b-426e-a087-d910ce2cacb3.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+  ]
+}

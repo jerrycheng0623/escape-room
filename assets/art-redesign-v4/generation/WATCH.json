@@ -1,0 +1,9 @@
+{
+  "id": "WATCH",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Single evidence image: a cracked analog wristwatch lying in grey storage-room ash, face sharply readable, hour hand a little past SEVEN and minute hand at THREE, showing 19:15 in the established scene context. Twelve small tick marks, no unrelated writing. Plain dark strap, restrained tiny dark rust stain, no gore. Large watch face fully visible with margin. Hand drawn fine graphite and flat gouache, aged olive-sepia paper grain. No people.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-12b79cc3-7c71-414a-adda-73e47b2a2c88.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+  ]
+}

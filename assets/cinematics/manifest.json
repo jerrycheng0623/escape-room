@@ -623,7 +623,7 @@
     }
   ],
   "integrationRules": {
-    "version": 4,
+    "version": 5,
     "date": "2026-11-02",
     "view": "first-person",
     "mobileOrientation": "landscape",
@@ -688,7 +688,13 @@
     ],
     "storySettings": "story-settings.json",
     "timelineStatus": "作者事件與S01–S09結構已補完；正式全文與機關細則仍待使用者",
-    "websiteDevelopment": "本輪不開始網站"
+    "websiteDevelopment": "已完成web/本機網站主架構；正式A區調查，B–D及六段影片獨立預覽；精確機關、正式對白與完整通關待使用者補件",
+    "preview": {
+      "bypassUnfinishedPuzzles": true,
+      "sequentialFilmsAndRooms": true,
+      "writesStoryProgress": false,
+      "awardsCompletionOrCrown": false
+    }
   },
   "storySettings": "story-settings.json",
   "revisionPlan": "assets/cinematics/revision-plan.json"

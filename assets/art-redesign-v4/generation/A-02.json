@@ -1,0 +1,9 @@
+{
+  "id": "A-02",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Overhead close-up of reporter evidence on charred wooden desk: black spiral reporter notebook, torn old newspaper clippings and a folded threatening letter, a round pair of eyeglasses and small muted pink flower hairclip nearby matching Lin Yiyao's design. All paper writing regions are blank, no fabricated readable words, no hidden crime confession. Fine graphite contours and flat washes, not photo realism, detailed paper edges. No people.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-71e9a72e-239d-4437-997c-ad90c527c617.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+  ]
+}

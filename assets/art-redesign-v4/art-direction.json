@@ -1,0 +1,61 @@
+{
+  "version": 4,
+  "status": "新版美術驗收版完成；等待使用者確認影片、聲音及圖片，尚未替換正式網站或清理舊素材",
+  "characters": [
+    {
+      "id": "reporter",
+      "name": "林依瑤",
+      "role": "記者",
+      "reference": "assets/art-redesign-v4/references/reporter-reference.png",
+      "eyeTreatment": "眼部焦黑遮痕；美術表現，非新增傷勢證據"
+    },
+    {
+      "id": "host",
+      "name": "王杰倫",
+      "role": "活動籌辦人／兇手",
+      "reference": "assets/art-redesign-v4/references/host-reference.png",
+      "eyeTreatment": "眼部焦黑遮痕；美術表現，非新增傷勢證據"
+    },
+    {
+      "id": "benefactor",
+      "name": "劉涵",
+      "role": "成年恩人好友",
+      "reference": "assets/art-redesign-v4/references/benefactor-reference.png",
+      "eyeTreatment": "眼部焦黑遮痕；美術表現，非新增傷勢證據"
+    },
+    {
+      "id": "doctor",
+      "name": "張萍",
+      "role": "心理醫生",
+      "reference": "assets/art-redesign-v4/references/doctor-reference.png",
+      "eyeTreatment": "眼部焦黑遮痕；美術表現，非新增傷勢證據"
+    },
+    {
+      "id": "photographer",
+      "name": "劉子傑",
+      "role": "攝影師",
+      "reference": "assets/art-redesign-v4/references/photographer-reference.png",
+      "eyeTreatment": "眼部焦黑遮痕；美術表現，非新增傷勢證據"
+    }
+  ],
+  "detective": "保留中性風衣背影，不新增第七人",
+  "sourceAuthority": [
+    "本輪使用者角色確認",
+    "PLAN.md最新核定設定",
+    "verify.md"
+  ],
+  "preserve": [
+    "UI／UX與配置",
+    "六人架構",
+    "機關規則",
+    "單一結局",
+    "5 kg／65 kg及19:15歷史紀錄",
+    "18:30四人、20:00三人入鏡"
+  ],
+  "deletePolicy": "使用者確認新版影片與音效後，再請執行清理；本輪不刪舊檔",
+  "canonicalHostName": "王杰倫",
+  "nameDecision": "使用者最新更正：沿用舊寫法王杰倫；主辦人兼兇手，外觀用第二張圖",
+  "completedDate": "2026-11-03",
+  "previewUrl": "http://127.0.0.1:5174/review.html",
+  "gamePreviewUrl": "http://127.0.0.1:5174/"
+}

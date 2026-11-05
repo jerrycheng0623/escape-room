@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-03",
+  "segments": [
+    {
+      "id": "CIN-00",
+      "fullDecode": "pass",
+      "seconds": 40.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.1107,
+      "sha256": "pass"
+    },
+    {
+      "id": "CIN-A",
+      "fullDecode": "pass",
+      "seconds": 40.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.1129,
+      "sha256": "pass"
+    },
+    {
+      "id": "CIN-B",
+      "fullDecode": "pass",
+      "seconds": 32.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.1094,
+      "sha256": "pass"
+    },
+    {
+      "id": "CIN-C",
+      "fullDecode": "pass",
+      "seconds": 45.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.1087,
+      "sha256": "pass"
+    },
+    {
+      "id": "CIN-D",
+      "fullDecode": "pass",
+      "seconds": 63.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.1052,
+      "sha256": "pass"
+    },
+    {
+      "id": "CIN-END",
+      "fullDecode": "pass",
+      "seconds": 42.0,
+      "subtitleMatch": "中英內嵌字幕逐句與VTT一致",
+      "peak": 0.2817,
+      "sha256": "pass"
+    }
+  ],
+  "totalSeconds": 262,
+  "newSceneImages": 32,
+  "evidenceImages": 9,
+  "canonicalHostName": "王杰倫",
+  "originalFilesChecked": 706,
+  "originalFilesChanged": [],
+  "originalFilesMissing": [],
+  "transparentActor": "RGBA alpha 0–255",
+  "notTested": [
+    "真人配音／真人錄音（本版無此素材）",
+    "骨架逐格角色動畫（本版使用推鏡與分層位移）",
+    "實體手機與其他瀏覽器"
+  ]
+}

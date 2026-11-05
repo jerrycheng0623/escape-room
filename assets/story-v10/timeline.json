@@ -1,0 +1,937 @@
+{
+  "version": 10,
+  "fps": 24,
+  "segments": [
+    {
+      "id": "CIN-00",
+      "duration": 86.5,
+      "frames": 2076,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-00-2f714bb9f962f634085d.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-01.png",
+          "sha256": "0adc6a3e741eaadb1dab6bcf007c6432ee3185aa33252ea92aa2d2d50e8d0427",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "zh": "山路拋錨使行程耽擱四小時。凌晨三點，我抵達山屋。",
+          "en": "A breakdown delayed me by four hours. I reached the cabin at three in the morning."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-01-fa9094bbef43d5e76e6e.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-02.png",
+          "sha256": "78973fcaca950e6ce22f1253c876fc8bb6282aad98a176318f6f9ce7713fe285",
+          "person": null,
+          "characterName": null,
+          "frames": 252,
+          "title": "委託聯絡紀錄",
+          "index": 1,
+          "start": 9,
+          "end": 19.5,
+          "zh": "委託我的人，是記者林依瑤。她害怕那封邀請背後的意思。",
+          "en": "The reporter Lin Yiyao had hired me. The invitation frightened her."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-02-2240f5e2a1842e5b9010.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-02.png",
+          "sha256": "78973fcaca950e6ce22f1253c876fc8bb6282aad98a176318f6f9ce7713fe285",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "聚會邀請函",
+          "index": 2,
+          "start": 19.5,
+          "end": 28.5,
+          "zh": "邀請函來自主辦人王杰倫。五年前，他從另一場大火中活了下來。",
+          "en": "The invitation was signed by Wang Jielun, survivor of another fire five years ago."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-03-503248ad4c91e5fb0311.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/reporter.png",
+          "sha256": "11c4d57430c2adf119a018aae5378d5ffb2665a73c4827a7eb531d7e4032d9fb",
+          "person": "reporter",
+          "characterName": "林依瑤",
+          "frames": 192,
+          "title": "林依瑤｜記者",
+          "index": 3,
+          "start": 28.5,
+          "end": 36.5,
+          "zh": "林依瑤，記者。受邀採訪五週年聚會，私下委託偵探保護。",
+          "en": "Lin Yiyao, Reporter. Invited to cover the anniversary; privately hired the detective."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-04-9df1be5a03d0fd3d2d99.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/host.png",
+          "sha256": "b2a3ee249edefd590adad5eb79d2a614108b58f854e19de17c2a503501fe21dc",
+          "person": "host",
+          "characterName": "王杰倫",
+          "frames": 192,
+          "title": "王杰倫｜聚會主辦人",
+          "index": 4,
+          "start": 36.5,
+          "end": 44.5,
+          "zh": "王杰倫，聚會主辦人。五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+          "en": "Wang Jielun, Host. Survivor of the old fire; invited people connected to the past."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-05-76d45d8155c88ea4c0f4.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/benefactor.png",
+          "sha256": "68712b64adad2c56436b25dd4c32ed612769e62b444bb18267e9d28fad2ebd4a",
+          "person": "benefactor",
+          "characterName": "劉涵",
+          "frames": 192,
+          "title": "劉涵｜成年恩人好友",
+          "index": 5,
+          "start": 44.5,
+          "end": 52.5,
+          "zh": "劉涵，成年恩人好友。長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+          "en": "Liu Han, Adult friend and benefactor. Supported Wang for years and hoped the barbecue would cheer him."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-06-9fcfdf723c232c3f3ff4.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/doctor.png",
+          "sha256": "bf69c0f7a5d82110c2bc7f634dfca9d5bade85fcceeae7484a66da16f4860a9f",
+          "person": "doctor",
+          "characterName": "張萍",
+          "frames": 192,
+          "title": "張萍｜心理醫生",
+          "index": 6,
+          "start": 52.5,
+          "end": 60.5,
+          "zh": "張萍，心理醫生。受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+          "en": "Zhang Ping, Psychological clinician. Invited to witness a claimed recovery; carried case records."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-07-eae064c5083b62289634.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/photographer.png",
+          "sha256": "94fffbf0a09491bd7d7fc7dbb035e92666af48f7a8e452aa69d6e47b77857539",
+          "person": "photographer",
+          "characterName": "劉子傑",
+          "frames": 192,
+          "title": "劉子傑｜攝影師",
+          "index": 7,
+          "start": 60.5,
+          "end": 68.5,
+          "zh": "劉子傑，攝影師。受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+          "en": "Liu Zijie, Photographer. Paid to photograph the gathering; recorded work fragments and stayed behind the camera."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-08-a5004b56718ed1584870.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-04.png",
+          "sha256": "848137e6740ecb75ff016e5d1736fa08a47612f647c1a354b65393f8c3458b49",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "02:30現場通報",
+          "index": 8,
+          "start": 68.5,
+          "end": 77.5,
+          "zh": "警方通報四具成年人焦屍，身分待驗；起火原因仍在調查。",
+          "en": "Four adult bodies, identification pending. The cause remained under investigation."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-00-09-12aefc689624913c71b4.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-03.png",
+          "sha256": "a5a644a0a37e4359f527d3d24799660321bdf9dd8b409f5d2163ba6d6453d0c9",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 9,
+          "start": 77.5,
+          "end": 86.5,
+          "zh": "我留在封鎖線外，取得許可後，只沿已確認的安全區調查。",
+          "en": "I waited outside the cordon, then entered only the cleared investigation route."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-00-compatible-v7.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-00-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 2766890,
+          "sha256": "1f0d373afcac741e7ffcdd4c4892659eeaf0be0301245359113320eb1f3f3680",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-00-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 4996597,
+          "sha256": "b500180c0edae32f4cb21f90c125f9b6c39d2f65730607d9ca28d06ed408a9e2",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-00-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-00-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-00-v10.webp"
+    },
+    {
+      "id": "CIN-A",
+      "duration": 45,
+      "frames": 1080,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-A-00-8cdbe15e998206ff3212.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/A-01.png",
+          "sha256": "34071279079f4195390c1e31743c961334a928beaefa068df83085d10083e44a",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "被撕碎的威脅信",
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "zh": "灰綠外套與散落原稿留下記者的痕跡。那封信，是她恐懼的來源。",
+          "en": "The coat and scattered drafts marked the reporter’s presence. The letter explained her fear."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-A-01-47df5ecac7ddb09a4681.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/A-02.png",
+          "sha256": "e5bca8dd17e58637ba1cb379bb78fa30558d815b3dbf3c462a78234c5fd2fb93",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "zh": "被刪掉的房內對話，讓我找到了衣架後的文書。真正被隱藏的是她保留的調查資料。",
+          "en": "Deleted room instructions led to papers behind the coat rack. She had concealed investigative leads."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-A-02-dfdd0d33802e208e6590.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/A-02.png",
+          "sha256": "e5bca8dd17e58637ba1cb379bb78fa30558d815b3dbf3c462a78234c5fd2fb93",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "林依瑤的隱藏筆記",
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "zh": "她隱匿的，是原本能繼續追查的線索。為了名聲，她把事件寫成懸案。",
+          "en": "She had suppressed leads to preserve the attention of an unsolved case."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-A-03-03a124de2d6d8df16720.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/A-02.png",
+          "sha256": "e5bca8dd17e58637ba1cb379bb78fa30558d815b3dbf3c462a78234c5fd2fb93",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "五年前新聞剪報",
+          "index": 3,
+          "start": 27,
+          "end": 36,
+          "zh": "報紙與私人筆記並不一致。但她的秘密，還不能證明她犯下今晚的罪。",
+          "en": "The clipping and private notes differed. Her secret did not prove responsibility for tonight."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-A-04-7560bd60951997d15f30.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/EVIDENCE-01.png",
+          "sha256": "8aacceef4bf7b719a8025588f5f9b942de5aba952528affd20ff4c6d14a432ed",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 4,
+          "start": 36,
+          "end": 45,
+          "zh": "三只杯子與空瓶留下殘留。此刻，我只能記錄，不能用肉眼完成鑑定。",
+          "en": "Three glasses and a bottle held residues. I could record them, not identify them by sight."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-A-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 1730528,
+          "sha256": "9ade2f33ee10d1cc6be81899ad561b2f61d69217ee2e969f577e015d00e6d497",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-A-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 3434307,
+          "sha256": "e6aa4b3ce2cd24c324fb05c34f9bf2794904b18b00ad0b27119361fdf74cde79",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-A-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-A-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-A-v10.webp"
+    },
+    {
+      "id": "CIN-B",
+      "duration": 49.5,
+      "frames": 1188,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-B-00-087d23b854a158c208de.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/B-01.png",
+          "sha256": "bd56c4448e692b3e0c73b9e8d03771e62c5535cca91aa4362133dad370e858c7",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "zh": "手機保留了拍攝預覽與工作花絮，警方交付的是當晚匯出的副本。",
+          "en": "The phone retained previews and work fragments. Police supplied a copy exported that night."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-B-01-c03ce5fb4d6833ece727.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/B-04.png",
+          "sha256": "00636e556841d1bfa5482ef6c2e4df618901486dfd1a5600ab913502164a6fc8",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "18:30第一張合照",
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "zh": "十八點三十分，四人在鏡頭前。劉子傑掌鏡，偵探尚未到場。",
+          "en": "At 18:30 four people stood in frame. Liu Zijie held the camera; I had not arrived."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-B-02-0ac54fa4d3eab74bc7e8.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/B-02.png",
+          "sha256": "2c18932d7152251a4fa25e74114182b8c8b74d373bd7bc24c920f5d73834e9c7",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "20:00最後合照",
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "zh": "二十點，鏡頭前只剩三人。劉涵消失了。",
+          "en": "At 20:00 only three remained in frame. Liu Han was absent."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-B-03-d206f07b16d4a263552f.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/B-03.png",
+          "sha256": "9d3ed578dc6bfcec48f5fd8521e2ec2011f5d712eceb2c20c8d5e21a46a22995",
+          "person": null,
+          "characterName": null,
+          "frames": 324,
+          "title": "攝影師工作紀錄 1/2",
+          "index": 3,
+          "start": 27,
+          "end": 40.5,
+          "zh": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "en": "Absence was not proof of death. I needed to compare the times, recordings and traces."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-B-04-c15521b01faef0b6b228.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/B-03.png",
+          "sha256": "9d3ed578dc6bfcec48f5fd8521e2ec2011f5d712eceb2c20c8d5e21a46a22995",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "攝影師工作紀錄 2/2",
+          "index": 4,
+          "start": 40.5,
+          "end": 49.5,
+          "zh": "缺席不是死亡證明。我需要把時刻、工作片段與其他痕跡放在一起。",
+          "en": "Absence was not proof of death. I needed to compare the times, recordings and traces."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-B-compatible-v7.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-B-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 1623473,
+          "sha256": "2675b7853fe7898d2da47051c1e69030bf689e56ebc050df91ac893818d37582",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-B-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 2720912,
+          "sha256": "b03ffbb5404477456287c61c9f87956d91151fc1b7f8008374cd6619799d9594",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-B-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-B-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-B-v10.webp"
+    },
+    {
+      "id": "CIN-C",
+      "duration": 73.5,
+      "frames": 1764,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-00-7dd1bc3723e3c9a5a21b.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-01.png",
+          "sha256": "8df667653a945a0ec051f71f845782ff6f2df93f5cd964f32e34af883ac32bf7",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "zh": "劉涵是成年恩人好友。這次聚會，他只希望讓王杰倫重新開心。",
+          "en": "Liu Han, an adult friend and benefactor, had hoped to cheer Wang up."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-01-f3162c0e0622407b302f.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-02.png",
+          "sha256": "5d5ec24392980caffdaece134c01af76fb9f8bd81ab5e86dfd1fe619133b1a95",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "劉涵的日記殘頁",
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "zh": "十九點十分，他還在為自己的好意道歉。",
+          "en": "At 19:10 he was still apologizing for a well-meant gesture."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-02-fed54dc0200dbf4f63fe.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/WATCH.png",
+          "sha256": "7931f5adc5898f3a78d61b4ed86b209f692d925be6dca694d3ba16a6f9520f59",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "19:15破裂手錶",
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "zh": "儲藏室的錶停在十九點十五分，血痕旁有擦拭與撞擊痕跡。",
+          "en": "The storage-room watch stopped at 19:15, beside wiped blood and impact traces."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-03-9cc03032d2ab4ad73d8c.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-02.png",
+          "sha256": "5d5ec24392980caffdaece134c01af76fb9f8bd81ab5e86dfd1fe619133b1a95",
+          "person": null,
+          "characterName": null,
+          "frames": 252,
+          "title": "表層診療報告副本",
+          "index": 3,
+          "start": 27,
+          "end": 37.5,
+          "zh": "表層報告讓我一度把顫抖看成對火的恐懼。這只是暫時推測。",
+          "en": "The visible report made me read the trembling as fear of fire. It was only a hypothesis."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-04-12a6942d5b78a625ad1b.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-05.png",
+          "sha256": "c7c3f061726dd01b08f9ec6d6349902802e896fa60d422827dcbaa93c3708a1b",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "烤架歷史紀錄",
+          "index": 4,
+          "start": 37.5,
+          "end": 46.5,
+          "zh": "預定食材五公斤，歷史淨載重卻是六十五公斤；即時值與歷史分開保存。",
+          "en": "Five kilograms of planned food, but sixty-five in the historical record. Current and historical values were separate."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-05-306ea7273d8df83109c9.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-05.png",
+          "sha256": "c7c3f061726dd01b08f9ec6d6349902802e896fa60d422827dcbaa93c3708a1b",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "地下室內門鑰匙",
+          "index": 5,
+          "start": 46.5,
+          "end": 55.5,
+          "zh": "滑輪配重抬起檢修蓋後，我取得地下室內門鑰匙；底座顯示的六十五公斤仍是歷史紀錄。",
+          "en": "After the pulley counterweight raised the service cover, I retrieved the inner-door key. The base’s 65 kg display remained the historical record."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-06-22ed2460942cdc39fbfd.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-04.png",
+          "sha256": "be171ef9632e48b5cbb7456298898c3be1eda27047d5dea818b805843860a875",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "烤架下緣的項鍊",
+          "index": 6,
+          "start": 55.5,
+          "end": 64.5,
+          "zh": "開格後才可觸及的項鍊，輪廓與第一張照片一致。",
+          "en": "The pendant, reachable only after opening the hatch, matched the first photograph."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-C-07-7a7c1a34634d6ba65792.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-01.png",
+          "sha256": "8df667653a945a0ec051f71f845782ff6f2df93f5cd964f32e34af883ac32bf7",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 7,
+          "start": 64.5,
+          "end": 73.5,
+          "zh": "日記、停錶、重量與項鍊指向同一處。但真正的原因，仍在地下。",
+          "en": "The diary, watch, load and pendant converged. The reason remained below."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-C-compatible-v7.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-C-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 2426382,
+          "sha256": "70bd6d009523e26d0f5b2b85cffeb0ca75c83dc4b130aeffc93975b4096eae64",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-C-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 4481124,
+          "sha256": "8bd7bcff15d3d8d3935bed0ca8c4c6fb64c9c508e4e21e4a6ecce700c5eebf21",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-C-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-C-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-C-v10.webp"
+    },
+    {
+      "id": "CIN-D",
+      "duration": 96.0,
+      "frames": 2304,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-00-21e4effc9206a93a2c81.mp4",
+          "sourceArt": "assets/world-v4/previews/clinic-source.png",
+          "sha256": "f5f543f23ff988238681777e342b6efa3b584ff1298a8a7acb9138dd24804470",
+          "person": null,
+          "characterName": null,
+          "frames": 288,
+          "title": "張萍的隱藏診療紀錄",
+          "index": 0,
+          "start": 0,
+          "end": 12.0,
+          "zh": "問句不是結論。我從案史頁重建孔路，取出了張萍保留的完整紀錄。",
+          "en": "Questions were not conclusions. The case-history pages led to Zhang Ping’s complete record."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-01-6b46a43a8887bf0b459b.mp4",
+          "sourceArt": "assets/world-v4/previews/old.webp",
+          "sha256": "24aeea8f267947c88d1196179acdedff3ef9bc830c5cb4fba7be4fd693124cbc",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 1,
+          "start": 12.0,
+          "end": 21.0,
+          "zh": "五年前，先有火災與受困，才有在極端飢餓下食用親屬遺體的往事。",
+          "en": "Five years earlier the fire and entrapment came first, followed by consumption of relatives’ remains in extreme hunger."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-02-9c7101377ace70922b09.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-01.png",
+          "sha256": "8df667653a945a0ec051f71f845782ff6f2df93f5cd964f32e34af883ac32bf7",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 2,
+          "start": 21.0,
+          "end": 30.0,
+          "zh": "五年後的營火，喚醒的可能不是恐懼，而是王杰倫壓抑的食慾。",
+          "en": "The new barbecue may have awakened Wang’s suppressed appetite rather than fear."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-03-1412de6cb5f18220a34e.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-02.png",
+          "sha256": "5d5ec24392980caffdaece134c01af76fb9f8bd81ab5e86dfd1fe619133b1a95",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 3,
+          "start": 30.0,
+          "end": 39.0,
+          "zh": "【案件重建】十九點十五分附近，劉涵在儲藏室遭襲，手錶撞裂。",
+          "en": "[Reconstruction] Around 19:15 Liu Han was assaulted in storage and the watch shattered."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-04-bcac949450ce2dbb42db.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/C-05.png",
+          "sha256": "c7c3f061726dd01b08f9ec6d6349902802e896fa60d422827dcbaa93c3708a1b",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 4,
+          "start": 39.0,
+          "end": 48.0,
+          "zh": "【案件重建】異常載重與項鍊，把劉涵、儲藏室與烤架連在一起。",
+          "en": "[Reconstruction] The load and pendant linked Liu Han, storage and the grill."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-05-133dd65548ce42d1e951.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/EVIDENCE-01.png",
+          "sha256": "8aacceef4bf7b719a8025588f5f9b942de5aba952528affd20ff4c6d14a432ed",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 5,
+          "start": 48.0,
+          "end": 57.0,
+          "zh": "工作片段顯示取瓶與三人後來失去活動；殘留成分仍待正式檢驗。",
+          "en": "Fragments showed a bottle being taken and three guests later unresponsive. Residues still awaited testing."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-06-7ad3281e0a9b3c4815f3.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-03.png",
+          "sha256": "0216ceedf03fec0dba1bab595d56f5e24a16606e234735e11bff019efd0c7dfb",
+          "person": null,
+          "characterName": null,
+          "frames": 288,
+          "title": "當晚案件重建",
+          "index": 6,
+          "start": 57.0,
+          "end": 69.0,
+          "zh": "張萍的紀錄不是定罪書。我要用照片、日記與現場關係交叉重建。",
+          "en": "Zhang’s notes were not a verdict. Photographs, diary and scene relationships had to corroborate one another."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-07-ac538ba65b3a03d9a410.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-06.png",
+          "sha256": "57d7d16fb87455314f80ab5d7579c3f10d670a2a21473ac4dee5ad9cc062cb1c",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 7,
+          "start": 69.0,
+          "end": 78.0,
+          "zh": "鐵櫃在火災中倒下。警方協助移開後，原先的通路才重新露出。",
+          "en": "The cabinet fell in the fire. With police assistance it was moved, exposing the route."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-08-6ea698fad3b298f60a1f.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-07.png",
+          "sha256": "baf9a4929258dfaac9d4bf33abbe55aa437e5484882c75411a1ff4113ce3fa46",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "維修出口痕跡",
+          "index": 8,
+          "start": 78.0,
+          "end": 87.0,
+          "zh": "門框先被使用，灰後來才覆上。痕跡只支持相對先後，不單獨認人。",
+          "en": "The frame had been used before ash settled. Traces established order, not a unique person."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-D-09-636c4a8d4c6e9f836871.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-05.png",
+          "sha256": "53f9787149eabbe2bd33fdc93031bfa42fcf314f4c1bc4f40f123e658e4dc815",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 9,
+          "start": 87.0,
+          "end": 96.0,
+          "zh": "主門反鎖，卻不代表所有出口封死。當晚不能確認王杰倫死亡，他可能已逃離。",
+          "en": "A bolted main door did not seal every exit. Wang’s death was unconfirmed. He might have escaped."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-D-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 3982225,
+          "sha256": "2892a6cffce59f336c3c2673f8fa40842fc7a436d8bd44c220a5e7e3313b9ab1",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-D-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 7088565,
+          "sha256": "aa40e6a8f68aa6ba64110de1b65e561f3437a9497a39321926c645bac3eb2221",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-D-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-D-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-D-v10.webp"
+    },
+    {
+      "id": "CIN-END",
+      "duration": 72,
+      "frames": 1728,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-00-d68e746c45628db46fd1.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-05.png",
+          "sha256": "53f9787149eabbe2bd33fdc93031bfa42fcf314f4c1bc4f40f123e658e4dc815",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "zh": "【真相重建】王杰倫利用聚會控制舊事相關者，氣味觸發後，對劉涵與其餘三人下手。",
+          "en": "[Truth reconstructed] Wang used the gathering for control. The smell triggered the attacks on Liu Han and the others."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-01-e3c711c9c1b4b557761a.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/00-04.png",
+          "sha256": "848137e6740ecb75ff016e5d1736fa08a47612f647c1a354b65393f8c3458b49",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "zh": "他反鎖主門並引發火災掩飾，火開始蔓延時，從維修出口離開。",
+          "en": "He bolted the main door and set the new fire to conceal the crime, escaping as it spread."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-02-2e39fdda82a9da7cc280.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-06.png",
+          "sha256": "57d7d16fb87455314f80ab5d7579c3f10d670a2a21473ac4dee5ad9cc062cb1c",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "zh": "之後鐵櫃倒下。貼屋露台與烤架塌向低側客廳，先遇害的劉涵也包括在四具遺體中。",
+          "en": "The cabinet fell later. The terrace and grill collapsed toward the lower living room; Liu Han was included among the four bodies."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-03-a4316e2768504d143c54.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-PLATE.png",
+          "sha256": "d5d955421a4190a61e5caa05c441cdc25661161dc4d8bc79d7079106dd5f9e6d",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 3,
+          "start": 27,
+          "end": 36,
+          "zh": "我朝森林出口奔去。身後的視角，卻留在原地。",
+          "en": "I ran toward the forest exit. The viewpoint behind me remained still."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-04-20bd0592dd82bed9d6cc.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-03.png",
+          "sha256": "8e72f314b817e0016bda9fdc82ddbf38253bf9a1bd11eacafe126c9165f29e98",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 4,
+          "start": 36,
+          "end": 45,
+          "zh": "當晚返回取控制器的身影，躲入了枯樹。有人一直注視這裡。",
+          "en": "Returning for the controller that night, a figure hid in the hollow tree. Someone was watching."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-05-59f6332ccf320b11f32d.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-04.png",
+          "sha256": "edab095bf31f576804eb1cae18559d5f37b3ec432661b5ce35eb6ad6a594edcf",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 5,
+          "start": 45,
+          "end": 54,
+          "zh": "［吞嚥聲］控制器當前值歸零，固定底座的歷史紀錄並未刪除。",
+          "en": "[Swallowing] The controller’s current reading reset. History remained in the fixed base."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-06-6a67564b65d6ef2531d5.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-05.png",
+          "sha256": "1db0dafbef4bcf105c9b6843ccc45f2c050d1a0f6abd634edde947361ef37190",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 6,
+          "start": 54,
+          "end": 63,
+          "zh": "冷光照亮那張熟悉的臉。王杰倫還活著。",
+          "en": "Cold light revealed the familiar face. Wang Jielun was alive."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-END-07-ad8aa2dc3335f746f476.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-PLATE.png",
+          "sha256": "d5d955421a4190a61e5caa05c441cdc25661161dc4d8bc79d7079106dd5f9e6d",
+          "person": null,
+          "characterName": null,
+          "frames": 216,
+          "title": "",
+          "index": 7,
+          "start": 63,
+          "end": 72,
+          "zh": "真相有時比廢墟還要焦黑。真正的怪物，已隱入森林。",
+          "en": "Truth can be darker than the ruins. The monster had vanished into the forest."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-END-compatible-v7.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-END-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 3196705,
+          "sha256": "28abcd886b0f3f2b1822e2b522ae88ab08c7be03ab68d74335dbea8cb6bb6f0c",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-END-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 6227255,
+          "sha256": "8100de058756a9ed0965395336dea58bdba48a1b8c5fd57ad1d6d1667ba4f260",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-END-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-END-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-END-v10.webp"
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "duration": 62.0,
+      "frames": 1488,
+      "shots": [
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-00-7ecb7428e023dfcfd8f5.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/D-04.png",
+          "sha256": "93acdb67449d941773e030cf54b96d265e7fcdbaca468462af196569361a3900",
+          "person": null,
+          "characterName": null,
+          "frames": 288,
+          "title": "數日後：正式身分核對",
+          "index": 0,
+          "start": 0,
+          "end": 12.0,
+          "zh": "數日後，正式身分核對才完成。當晚的四具遺體，終於有了名字。",
+          "en": "Days later formal identification was completed. The four bodies finally had names."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-01-b21a2b77f759a3eaf074.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/reporter.png",
+          "sha256": "11c4d57430c2adf119a018aae5378d5ffb2665a73c4827a7eb531d7e4032d9fb",
+          "person": "reporter",
+          "characterName": "林依瑤",
+          "frames": 240,
+          "title": "林依瑤｜記者",
+          "index": 1,
+          "start": 12.0,
+          "end": 22.0,
+          "zh": "林依瑤。她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+          "en": "Lin Yiyao. She suppressed leads for attention. That does not establish responsibility for the new crime."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-02-9b9665dd3e8a83982cfe.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/benefactor.png",
+          "sha256": "68712b64adad2c56436b25dd4c32ed612769e62b444bb18267e9d28fad2ebd4a",
+          "person": "benefactor",
+          "characterName": "劉涵",
+          "frames": 240,
+          "title": "劉涵｜成年恩人好友",
+          "index": 2,
+          "start": 22.0,
+          "end": 32.0,
+          "zh": "劉涵。他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+          "en": "Liu Han. Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-03-c4be073a3e580c591f4e.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/doctor.png",
+          "sha256": "bf69c0f7a5d82110c2bc7f634dfca9d5bade85fcceeae7484a66da16f4860a9f",
+          "person": "doctor",
+          "characterName": "張萍",
+          "frames": 240,
+          "title": "張萍｜心理醫生",
+          "index": 3,
+          "start": 32.0,
+          "end": 42.0,
+          "zh": "張萍。保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+          "en": "Zhang Ping. Held concealed clinical notes. A record alone establishes neither guilt nor innocence."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-04-f515d5e304ea0aebb252.mp4",
+          "sourceArt": "assets/art-redesign-v4/portraits/photographer.png",
+          "sha256": "94fffbf0a09491bd7d7fc7dbb035e92666af48f7a8e452aa69d6e47b77857539",
+          "person": "photographer",
+          "characterName": "劉子傑",
+          "frames": 240,
+          "title": "劉子傑｜攝影師",
+          "index": 4,
+          "start": 42.0,
+          "end": 52.0,
+          "zh": "劉子傑。零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+          "en": "Liu Zijie. His fragments corroborate sequence and handling of objects, not the entire crime."
+        },
+        {
+          "file": "assets/story-v10/.render-cache/CIN-EPILOGUE-05-8436603edad6d2da59d0.mp4",
+          "sourceArt": "assets/art-redesign-v4/images/END-PLATE.png",
+          "sha256": "d5d955421a4190a61e5caa05c441cdc25661161dc4d8bc79d7079106dd5f9e6d",
+          "person": null,
+          "characterName": null,
+          "frames": 240,
+          "title": "",
+          "index": 5,
+          "start": 52.0,
+          "end": 62.0,
+          "zh": "調查結束。你可以回訪章節、重看動畫、閱讀完整解答，或重新整理最終推理。",
+          "en": "The investigation is complete. Revisit chapters, replay films, read solutions or retry the final reasoning."
+        }
+      ],
+      "audioSource": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v7.mp4",
+      "sources": [
+        {
+          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "bytes": 1890275,
+          "sha256": "500edfcc2b18c7d0196c252afc0bd2025395ee6e7e901260f163ac1f63ddb07d",
+          "decode": "pending"
+        },
+        {
+          "path": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "bytes": 3064971,
+          "sha256": "99829ae5f40d223e4d88e8356aa002f71e17a33090faf984153a1a947d02228b",
+          "decode": "pending"
+        }
+      ],
+      "tracks": {
+        "zh-Hant": "assets/story-v10/CIN-EPILOGUE-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-EPILOGUE-en-aligned-v10.vtt"
+      },
+      "poster": "assets/story-v10/CIN-EPILOGUE-v10.webp"
+    }
+  ]
+}

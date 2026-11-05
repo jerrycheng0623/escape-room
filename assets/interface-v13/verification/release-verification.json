@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04T22:44:39.045925+08:00",
+  "appVersion": "0.12.0",
+  "interfaceVersion": 13,
+  "sourceCodeCommit": "40e226c07101a2ccc771f822a0e99ada0871a9b6",
+  "metadataCommit": "36859f9aebe32124e75ec5fa96148420bbe36317",
+  "pagesCommit": "fb189ec5ebf764b0c2fc518ca34e37452e16c96a",
+  "workflowId": 41849516900,
+  "workflowConclusion": "success",
+  "publicUrl": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/?v=q-13",
+  "checks": [
+    "54項邏輯單測與正式建置",
+    "本機桌機／手機完整通關各1條",
+    "正式行李鎖4組",
+    "影片控制22情境",
+    "公開指南6組",
+    "公開逐鍵輸入／全形／組字事件／數字輪與Q保護4組",
+    "公開真正原生Q探索5項",
+    "實際IAB原生鍵入／刪改／開示範鎖及Q示範",
+    "16公開檔案指紋與719既有媒體／舊版SHA核對"
+  ],
+  "notTested": [
+    "實體iPhone／iPad Safari",
+    "實體中文輸入法組字；本輪為工程事件生命週期測試",
+    "本輪全部影片自然播完與多小時遊玩"
+  ],
+  "qaFollowup": "補交僅更新說明、測試證據與截圖，不更改已部署的程式或素材",
+  "pass": true
+}

@@ -1,0 +1,64 @@
+﻿2026-11-03T08:35:13.1961289Z Current runner version: '2.338.2'
+2026-11-03T08:35:13.1986490Z ##[group]Runner Image Provisioner
+2026-11-03T08:35:13.1987396Z Hosted Compute Agent
+2026-11-03T08:35:13.1988090Z Version: 20261021.618
+2026-11-03T08:35:13.1988812Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-03T08:35:13.1989569Z Build Date: 2026-10-21T00:45:21Z
+2026-11-03T08:35:13.1990759Z Worker ID: {2fc4216f-980b-47b4-aea1-c46165a27770}
+2026-11-03T08:35:13.1991535Z Region: westus2
+2026-11-03T08:35:13.1992253Z Cloud: Azure
+2026-11-03T08:35:13.1992866Z ##[endgroup]
+2026-11-03T08:35:13.1994402Z ##[group]Operating System
+2026-11-03T08:35:13.1995150Z Ubuntu
+2026-11-03T08:35:13.1995713Z 24.04.5
+2026-11-03T08:35:13.1996227Z LTS
+2026-11-03T08:35:13.1996864Z ##[endgroup]
+2026-11-03T08:35:13.1997438Z ##[group]Runner Image
+2026-11-03T08:35:13.1998085Z Image: ubuntu-24.04
+2026-11-03T08:35:13.1998692Z Version: 20261025.353.1
+2026-11-03T08:35:13.2000378Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-03T08:35:13.2002042Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-03T08:35:13.2003139Z ##[endgroup]
+2026-11-03T08:35:13.2004403Z ##[group]GITHUB_TOKEN Permissions
+2026-11-03T08:35:13.2006428Z Contents: read
+2026-11-03T08:35:13.2007125Z Metadata: read
+2026-11-03T08:35:13.2007696Z Pages: write
+2026-11-03T08:35:13.2008333Z ##[endgroup]
+2026-11-03T08:35:13.2010774Z Secret source: Actions
+2026-11-03T08:35:13.2011882Z Cache mode: write
+2026-11-03T08:35:13.2012779Z Prepare workflow directory
+2026-11-03T08:35:13.2366542Z Prepare all required actions
+2026-11-03T08:35:13.2419202Z Getting action download info
+2026-11-03T08:35:13.6085003Z Download action repository 'actions/deploy-pages@v5' (SHA:368f82528645a54fb793d4d04e342629a3f51346)
+2026-11-03T08:35:14.0403139Z Complete job name: deploy
+2026-11-03T08:35:14.1311707Z ##[group]Run actions/deploy-pages@v5
+2026-11-03T08:35:14.1312656Z with:
+2026-11-03T08:35:14.1316547Z   token: ***
+2026-11-03T08:35:14.1317020Z   timeout: 600000
+2026-11-03T08:35:14.1317464Z   error_count: 10
+2026-11-03T08:35:14.1317923Z   reporting_interval: 5000
+2026-11-03T08:35:14.1318435Z   artifact_name: github-pages
+2026-11-03T08:35:14.1318943Z   preview: false
+2026-11-03T08:35:14.1319605Z ##[endgroup]
+2026-11-03T08:35:14.5069144Z (node:2464) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-11-03T08:35:14.5071722Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-11-03T08:35:14.7897441Z Fetching artifact metadata for "github-pages" in this workflow run
+2026-11-03T08:35:15.0343311Z Found 1 artifact(s)
+2026-11-03T08:35:15.0402072Z Creating Pages deployment with payload:
+2026-11-03T08:35:15.0403611Z {
+2026-11-03T08:35:15.0404735Z 	"artifact_id": 13215674221,
+2026-11-03T08:35:15.0406207Z 	"pages_build_version": "7b5d976ac4def72eb84a1d9202587550dc0bc3d8",
+2026-11-03T08:35:15.0541614Z 	"oidc_token": "***"
+2026-11-03T08:35:15.0542761Z }
+2026-11-03T08:35:17.2884328Z ##[error]Creating Pages deployment failed
+2026-11-03T08:35:17.4560247Z ##[error]HttpError: 
+    at /home/runner/work/_actions/actions/deploy-pages/v5/node_modules/@octokit/request/dist-node/index.js:124:1
+    at processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at createPagesDeployment (/home/runner/work/_actions/actions/deploy-pages/v5/src/internal/api-client.js:125:1)
+    at Deployment.create (/home/runner/work/_actions/actions/deploy-pages/v5/src/internal/deployment.js:82:1)
+    at main (/home/runner/work/_actions/actions/deploy-pages/v5/src/index.js:30:1)
+2026-11-03T08:35:17.4566740Z ##[error]Error: Failed to create deployment (status: 500) with build version 7b5d976ac4def72eb84a1d9202587550dc0bc3d8. Request ID 7BC0:19482B:28EE9:4AE64:6AE99CC3 Server error, is githubstatus.com reporting a Pages outage? Please re-run the deployment at a later time.
+2026-11-03T08:35:17.5099462Z Evaluate and set environment url
+2026-11-03T08:35:17.5105652Z Evaluated environment url: 
+2026-11-03T08:35:17.5106860Z Cleaning up orphan processes
+

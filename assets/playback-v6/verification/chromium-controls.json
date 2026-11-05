@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-03T05:13:46.239Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/",
+  "browser": "151.0.7922.34",
+  "engine": "chromium",
+  "cases": [
+    {
+      "device": "desktop",
+      "name": "controls",
+      "assertions": [
+        "pause",
+        "seek while paused",
+        "zh/en/off captions",
+        "mute/unmute",
+        "native controls",
+        "transcript pause",
+        "resume"
+      ],
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "blocked-autoplay",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "format-fallback",
+      "actualSource": "https://jerrycheng0623.github.io/escape-room/media/video/CIN-00-compatible-v7.webm",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "error-recovery",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "error-skip",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "controls",
+      "assertions": [
+        "pause",
+        "seek while paused",
+        "zh/en/off captions",
+        "mute/unmute",
+        "native controls",
+        "transcript pause",
+        "resume"
+      ],
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "blocked-autoplay",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "format-fallback",
+      "actualSource": "https://jerrycheng0623.github.io/escape-room/media/video/CIN-00-compatible-v7.webm",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "error-recovery",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "error-skip",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "slow-buffer",
+      "slowNotice": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,13 @@
+已準備新版7段故事、32份文書、5位角色及3D場景。
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 61 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                      0.60 kB │ gzip:   0.43 kB
+dist/assets/index-35rjCCuQ.css      43.71 kB │ gzip:  10.67 kB
+dist/assets/solutions-Db6pVpEQ.js    2.73 kB │ gzip:   2.02 kB
+dist/assets/Game-dtLSE9Wm.js        26.73 kB │ gzip:  10.57 kB
+dist/assets/index-BE6fDRd1.js      338.73 kB │ gzip: 113.62 kB
+dist/assets/Scene-DeVgjgVG.js      533.84 kB │ gzip: 139.70 kB
+✓ built in 781ms

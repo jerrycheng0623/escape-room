@@ -1,0 +1,322 @@
+{
+  "version": 5,
+  "date": "2026-11-03",
+  "status": "正式共用故事版",
+  "segments": [
+    {
+      "id": "CIN-00",
+      "title": "序幕：遲到的邀請",
+      "titleEn": "Prologue · The late invitation",
+      "durationMs": 86500,
+      "video": "assets/story-v10/CIN-00-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-00-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-00-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-00-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/00-01.png",
+        "assets/art-redesign-v4/images/00-02.png",
+        "assets/art-redesign-v4/images/00-03.png",
+        "assets/art-redesign-v4/images/00-04.png"
+      ],
+      "sha256": "1f0d373afcac741e7ffcdd4c4892659eeaf0be0301245359113320eb1f3f3680",
+      "shots": 10,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 9.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 19.8,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 68.8,
+          "volume": 0.35
+        }
+      ]
+    },
+    {
+      "id": "CIN-A",
+      "title": "客房：灰燼裡的謊言",
+      "titleEn": "Guest room · Lies in the ashes",
+      "durationMs": 45000,
+      "video": "assets/story-v10/CIN-A-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-A-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-A-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-A-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/A-01.png",
+        "assets/art-redesign-v4/images/A-02.png",
+        "assets/art-redesign-v4/images/A-04.png",
+        "assets/art-redesign-v4/images/EVIDENCE-01.png"
+      ],
+      "sha256": "9ade2f33ee10d1cc6be81899ad561b2f61d69217ee2e969f577e015d00e6d497",
+      "shots": 5,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 0.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 18.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 27.3,
+          "volume": 0.35
+        }
+      ]
+    },
+    {
+      "id": "CIN-B",
+      "title": "暗房：不在照片裡的人",
+      "titleEn": "Darkroom · The missing face",
+      "durationMs": 49500,
+      "video": "assets/story-v10/CIN-B-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-B-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-B-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-B-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/B-01.png",
+        "assets/art-redesign-v4/images/B-02.png",
+        "assets/art-redesign-v4/images/B-03.png",
+        "assets/art-redesign-v4/images/B-04.png"
+      ],
+      "sha256": "2675b7853fe7898d2da47051c1e69030bf689e56ebc050df91ac893818d37582",
+      "shots": 5,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 9.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 18.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 27.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 40.8,
+          "volume": 0.35
+        }
+      ]
+    },
+    {
+      "id": "CIN-C",
+      "title": "營火：善意與異常重量",
+      "titleEn": "Terrace · An unusual weight",
+      "durationMs": 73500,
+      "video": "assets/story-v10/CIN-C-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-C-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-C-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-C-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/C-01.png",
+        "assets/art-redesign-v4/images/C-02.png",
+        "assets/art-redesign-v4/images/C-03.png",
+        "assets/art-redesign-v4/images/C-04.png",
+        "assets/art-redesign-v4/images/C-05.png",
+        "assets/art-redesign-v4/images/WATCH.png"
+      ],
+      "sha256": "70bd6d009523e26d0f5b2b85cffeb0ca75c83dc4b130aeffc93975b4096eae64",
+      "shots": 8,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 9.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 18.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 27.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 37.8,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 55.8,
+          "volume": 0.35
+        }
+      ]
+    },
+    {
+      "id": "CIN-D",
+      "title": "診療區：另一種飢餓",
+      "titleEn": "Clinic · Another hunger",
+      "durationMs": 96000,
+      "video": "assets/story-v10/CIN-D-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-D-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-D-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-D-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/C-01.png",
+        "assets/art-redesign-v4/images/C-02.png",
+        "assets/art-redesign-v4/images/C-05.png",
+        "assets/art-redesign-v4/images/D-01.png",
+        "assets/art-redesign-v4/images/D-02.png",
+        "assets/art-redesign-v4/images/D-03.png",
+        "assets/art-redesign-v4/images/D-05.png",
+        "assets/art-redesign-v4/images/D-06.png",
+        "assets/art-redesign-v4/images/D-07.png",
+        "assets/art-redesign-v4/images/EVIDENCE-01.png"
+      ],
+      "sha256": "2892a6cffce59f336c3c2673f8fa40842fc7a436d8bd44c220a5e7e3313b9ab1",
+      "shots": 10,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 0.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "paper",
+          "seconds": 57.3,
+          "volume": 0.35
+        },
+        {
+          "sound": "cabinet-slide",
+          "seconds": 69.6,
+          "volume": 0.5
+        },
+        {
+          "sound": "paper",
+          "seconds": 78.3,
+          "volume": 0.35
+        }
+      ]
+    },
+    {
+      "id": "CIN-END",
+      "title": "終幕：深淵的凝視",
+      "titleEn": "Finale · The abyss looks back",
+      "durationMs": 72000,
+      "video": "assets/story-v10/CIN-END-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-END-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-END-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-END-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/C-03.png",
+        "assets/art-redesign-v4/images/D-05.png",
+        "assets/art-redesign-v4/images/D-06.png",
+        "assets/art-redesign-v4/images/END-03.png",
+        "assets/art-redesign-v4/images/END-04.png",
+        "assets/art-redesign-v4/images/END-05.png",
+        "assets/art-redesign-v4/images/END-PLATE.png"
+      ],
+      "sha256": "28abcd886b0f3f2b1822e2b522ae88ab08c7be03ab68d74335dbea8cb6bb6f0c",
+      "shots": 8,
+      "audioEvents": [
+        {
+          "sound": "cabinet-slide",
+          "seconds": 18.6,
+          "volume": 0.5
+        },
+        {
+          "sound": "footsteps",
+          "seconds": 27.4,
+          "volume": 0.7
+        },
+        {
+          "sound": "swallow",
+          "seconds": 46,
+          "volume": 0.75
+        },
+        {
+          "sound": "sensor-reset",
+          "seconds": 49,
+          "volume": 0.6
+        }
+      ]
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "title": "後記：留下名字的人",
+      "titleEn": "Epilogue · The names that remain",
+      "durationMs": 62000,
+      "video": "assets/story-v10/CIN-EPILOGUE-aligned-v10.mp4",
+      "poster": "assets/story-v10/CIN-EPILOGUE-v10.webp",
+      "subtitleTracks": {
+        "zh-Hant": "assets/story-v10/CIN-EPILOGUE-zh-Hant-aligned-v10.vtt",
+        "en": "assets/story-v10/CIN-EPILOGUE-en-aligned-v10.vtt"
+      },
+      "sourceImages": [
+        "assets/art-redesign-v4/images/D-04.png",
+        "assets/art-redesign-v4/images/END-PLATE.png"
+      ],
+      "sha256": "500edfcc2b18c7d0196c252afc0bd2025395ee6e7e901260f163ac1f63ddb07d",
+      "shots": 6,
+      "audioEvents": [
+        {
+          "sound": "paper",
+          "seconds": 0.3,
+          "volume": 0.35
+        }
+      ]
+    }
+  ],
+  "documents": "assets/story/content-v5.json",
+  "menu": "assets/story-v5/web/menu.webp",
+  "evidence": {
+    "invitation": "assets/story-v5/web/evidence/invitation.webp",
+    "commission": "assets/story-v5/web/evidence/commission.webp",
+    "police": "assets/story-v5/web/evidence/police.webp",
+    "threat": "assets/story-v5/web/evidence/threat.webp",
+    "card": "assets/story-v5/web/evidence/card.webp",
+    "formula": "assets/story-v5/web/evidence/formula.webp",
+    "door-sign": "assets/story-v5/web/evidence/door-sign.webp",
+    "notes": "assets/story-v5/web/evidence/notes.webp",
+    "clipping": "assets/story-v5/web/evidence/clipping.webp",
+    "first-photo": "assets/story-v5/web/evidence/first-photo.webp",
+    "last-photo": "assets/story-v5/web/evidence/last-photo.webp",
+    "worklog": "assets/story-v5/web/evidence/worklog.webp",
+    "diary": "assets/story-v5/web/evidence/diary.webp",
+    "watch": "assets/story-v5/web/evidence/watch.webp",
+    "blood": "assets/story-v5/web/evidence/blood.webp",
+    "weight": "assets/story-v5/web/evidence/weight.webp",
+    "manual": "assets/story-v5/web/evidence/manual.webp",
+    "necklace": "assets/story-v5/web/evidence/necklace.webp",
+    "key": "assets/story-v5/web/evidence/key.webp",
+    "surface": "assets/story-v5/web/evidence/surface.webp",
+    "uv-module": "assets/story-v5/web/evidence/uv-module.webp",
+    "report": "assets/story-v5/web/evidence/report.webp",
+    "recording": "assets/story-v5/web/evidence/recording.webp",
+    "cabinet": "assets/story-v5/web/evidence/cabinet.webp",
+    "exit-traces": "assets/story-v5/web/evidence/exit-traces.webp",
+    "identity": "assets/story-v5/web/evidence/identity.webp"
+  },
+  "sourceArt": "assets/art-redesign-v4",
+  "sound": "依v5鏡頭時間重新混製低頻環境音與原創音效；無真人配音"
+}

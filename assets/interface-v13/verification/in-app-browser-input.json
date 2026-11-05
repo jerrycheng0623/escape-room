@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04T22:44:39.043910+08:00",
+  "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/?v=q-13#guide",
+  "method": "Codex in-app browser through CUA native AX click and individual keypress, using new review-guide tab. No injected save or game actions.",
+  "checks": [
+    {
+      "step": "首頁操作指南→機關與密碼鎖→點欄位→逐鍵1/2/3/4",
+      "observed": "AX text field Value: 1234; 檢查號碼啟用",
+      "pass": true
+    },
+    {
+      "step": "BackSpace→9→檢查",
+      "observed": "Value:1239; 鎖舌已鬆，抽屜還需要拉開",
+      "pass": true
+    },
+    {
+      "step": "拉開把手",
+      "observed": "抽屜打開了，接著才是取物",
+      "pass": true
+    },
+    {
+      "step": "視角與螢幕→實際q按鍵",
+      "observed": "示範：操作中，鏡頭固定→示範：探索中，游標隱藏",
+      "pass": true
+    }
+  ],
+  "notTested": [
+    "此IAB核對沒有進入使用者正式存檔測試原生鎖定；原生鎖定另由可見Chromium工程存檔驗證",
+    "實體iPhone／iPad Safari"
+  ],
+  "pass": true
+}

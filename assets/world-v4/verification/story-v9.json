@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-04T00:54:40.138076+08:00",
+  "purpose": "New shots replace obsolete mechanisms. Original sound retained; released v7 files untouched.",
+  "results": [
+    {
+      "id": "CIN-A",
+      "newVideo": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
+      "originalSoundPacketsIdentical": true,
+      "bothFormatsDecode": true
+    },
+    {
+      "id": "CIN-D",
+      "newVideo": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
+      "originalSoundPacketsIdentical": true,
+      "bothFormatsDecode": true
+    }
+  ]
+}

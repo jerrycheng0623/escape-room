@@ -1,68 +1,183 @@
 {
-  "version": 4,
-  "date": "2026-11-02",
-  "view": "first-person",
-  "mobileOrientation": "landscape",
-  "artDirection": "realistic-3d",
-  "roomOrder": [
-    "A",
-    "B",
-    "C",
-    "D"
-  ],
-  "hint": {
-    "levels": [
-      "新手",
-      "標準",
-      "困難"
+  "version": 9,
+  "puzzles": {
+    "A": {
+      "source": "R3逐字稿與整理稿的刪句",
+      "hook": 2,
+      "order": [
+        "lift",
+        "press",
+        "pull-panel",
+        "collect"
+      ],
+      "bellTrapHook": 6,
+      "luggage": "1830"
+    },
+    "B": {
+      "strip": [
+        "F27",
+        "F28",
+        "F31"
+      ],
+      "orientation": 0,
+      "completion": [
+        "feed",
+        "rewind",
+        "open-original",
+        "collect"
+      ],
+      "wrongResultPriority": [
+        "翻拍",
+        "卷別",
+        "字向",
+        "順序"
+      ],
+      "candidateCount": 6
+    },
+    "C": {
+      "food": 5,
+      "history": 65,
+      "maintenanceEquivalentLoad": 70,
+      "route": [
+        "A0",
+        "M",
+        "F",
+        "B"
+      ],
+      "basketRating": 40,
+      "oldHookRating": 20,
+      "balancedLoad": 35,
+      "balancedRequiresWheel": true,
+      "autoLoadRange": [
+        35,
+        40
+      ],
+      "autoLoadLowerExclusive": true,
+      "weights": {
+        "20": 2,
+        "15": 2,
+        "10": 2,
+        "5": 2
+      }
+    },
+    "D": {
+      "holes": {
+        "R1": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "R2": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "R3": [
+          1,
+          2,
+          5,
+          6
+        ],
+        "Q1": [
+          2,
+          3,
+          4,
+          6
+        ],
+        "Q2": [
+          1,
+          3,
+          4,
+          6
+        ],
+        "Q3": [
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "lowerSequence": [
+        2,
+        5,
+        1
+      ],
+      "upperSequence": [
+        3,
+        4,
+        6
+      ],
+      "reportReward": "下層案史匣取證",
+      "recordingReward": "病歷＋倒櫃出口＋前章必要證據交叉整理"
+    }
+  },
+  "hints": {
+    "novice": [
+      0,
+      3,
+      6
     ],
-    "draftSteps": [
+    "standard": [
+      0,
+      2,
       3,
       5,
-      7
+      6
     ],
-    "hardLimit": null,
-    "directHelp": true,
-    "directHelpRevealsAnswer": false,
-    "reReadCountsAsNewHint": false,
-    "recordHelpSeparately": true
+    "hard": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
   },
-  "puzzles": {
-    "skippable": false,
-    "failureGameOver": false,
-    "fullSolutions": "after-ending-only",
-    "exactSolutionsStatus": "awaiting-user-puzzle-details"
-  },
-  "bonus": {
-    "optional": true,
-    "award": "crown",
-    "affectsEnding": false,
-    "hintsDisqualify": false,
-    "postgameRetry": true,
-    "preserveFirstResult": true
-  },
-  "postgame": [
-    "free-roam",
-    "chapter-replay",
-    "cinematic-gallery",
-    "bonus-retry",
-    "solutions",
-    "hint-and-help-statistics"
-  ],
+  "help": "只給方向，不跳關，不給完整答案",
+  "failure": false,
+  "bonus": "可選、可重試、皇冠不受提示影響",
   "endingCount": 1,
-  "save": {
-    "mainLocalRun": true,
-    "safetyBackup": true,
-    "separateReplayRun": true,
-    "firstCompletionSnapshotReadOnly": true
+  "saveSchema": 4,
+  "replaySeparate": true,
+  "guidanceStyle": "觀察位置與關聯問題，不列解法、精確答案或下一步操作清單",
+  "guidanceSource": "web/src/game/guidance.mjs",
+  "spaceVersion": 9,
+  "mechanicRevision": 4,
+  "mobileControls": {
+    "stickPx": {
+      "landscapePhone": 116,
+      "tablet": 128
+    },
+    "deadzone": 0.14,
+    "responseExponent": 1.35,
+    "lookSlopPx": 5,
+    "touchPitchMultiplier": 0.78,
+    "pointerOwnership": true,
+    "interruptionsReset": true
   },
-  "pending": [
-    "puzzle-details",
-    "document-text",
-    "characters-and-dialogue",
-    "final-voice-and-character-polish"
-  ],
-  "storySettings": "story-settings.json",
-  "timelineStatus": "作者事件與S01–S09結構已補完；正式全文與機關細則仍待使用者",
-  "websiteDevelopment": "本輪不開始網站"
+  "desktopControls": {
+    "move": "WASD",
+    "look": "明確選擇原生游標鎖定後滑鼠環顧；或明確選擇方向鍵探索。未鎖定游標不轉鏡頭",
+    "examine": "準星對準後E或左鍵查看",
+    "close": "Esc釋放並暫停；操作頁關閉後回游標模式，按Q或按鈕回探索，不自動鎖定",
+    "modal": "場景輸入停止；Tab／Shift+Tab、Enter／Space及可見按鈕",
+    "start": "繼續探索 · 滑鼠環顧／使用方向鍵探索",
+    "fullscreen": "獨立選項；支援時啟用，失敗顯示繁中說明",
+    "toggle": "Q切換游標與上次選擇的探索方式；操作頁、打字／組字及系統組合鍵不觸發，長按不重複"
+  },
+  "operationGuide": {
+    "beforeNewGame": true,
+    "homeAndPauseReview": true,
+    "pages": 7,
+    "demoChangesGameState": false,
+    "demoLockAcceptsAnyFourDigits": true,
+    "requiresOverwriteConfirmation": true,
+    "specification": "操作指南與探索模式規格.md",
+    "fullwidthDigits": true,
+    "compositionAware": true,
+    "digitWheelsMinPx": 44
+  }
 }

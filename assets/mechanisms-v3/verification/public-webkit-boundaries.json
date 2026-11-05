@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-03T08:48:27.734Z",
+  "engine": "webkit",
+  "browser": "26.5",
+  "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v3/",
+  "method": "WebKit touch viewport + native select control",
+  "cases": [
+    {
+      "name": "A未釋放試抽無獎勵",
+      "pass": true
+    },
+    {
+      "name": "A錯碼可重試",
+      "pass": true
+    },
+    {
+      "name": "A正碼不自動釋放",
+      "pass": true
+    },
+    {
+      "name": "A釋放重載保留但未發物",
+      "pass": true
+    },
+    {
+      "name": "A改輪位不回鎖且抽出才通過",
+      "pass": true
+    },
+    {
+      "name": "A無水平溢出",
+      "pass": true
+    },
+    {
+      "name": "B按扣重載保留",
+      "pass": true
+    },
+    {
+      "name": "B先開框不提前收完整工作紀錄",
+      "pass": true
+    },
+    {
+      "name": "B四向旋轉可逆",
+      "pass": true
+    },
+    {
+      "name": "B雙確認加先開框結算",
+      "pass": true
+    },
+    {
+      "name": "B無水平溢出",
+      "pass": true
+    },
+    {
+      "name": "C到重不自動完成",
+      "pass": true
+    },
+    {
+      "name": "C背景頁不累積穩定或抽出",
+      "pass": true
+    },
+    {
+      "name": "C關閉面板重新計時",
+      "pass": true
+    },
+    {
+      "name": "C撤重後舊就緒失效",
+      "pass": true
+    },
+    {
+      "name": "C抽出承諾恢復",
+      "pass": true
+    },
+    {
+      "name": "C全取回不回鎖",
+      "pass": true
+    },
+    {
+      "name": "C無水平溢出",
+      "pass": true
+    },
+    {
+      "name": "D無附頁不累積",
+      "pass": true
+    },
+    {
+      "name": "D翻反不吸附不累積",
+      "pass": true
+    },
+    {
+      "name": "D中段可先辨讀",
+      "pass": true
+    },
+    {
+      "name": "D中段完成不冒充全文",
+      "pass": true
+    },
+    {
+      "name": "D拿回覆頁不累積亦不遺失",
+      "pass": true
+    },
+    {
+      "name": "D分區進度重載保留",
+      "pass": true
+    },
+    {
+      "name": "D第四步拒收",
+      "pass": true
+    },
+    {
+      "name": "D錯組清窗不釋放",
+      "pass": true
+    },
+    {
+      "name": "D釋放狀態重載保留",
+      "pass": true
+    },
+    {
+      "name": "D可先開匣但沒有主關獎勵",
+      "pass": true
+    },
+    {
+      "name": "D三區與已開匣合取後才結算",
+      "pass": true
+    },
+    {
+      "name": "D無水平溢出",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

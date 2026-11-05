@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-04",
+  "issues": [
+    {
+      "location": "GameGuide / screen-background:before",
+      "observed": "初次視覺檢查發現背景偽元素覆蓋指南文字",
+      "fix": "指南內容明確建立上層堆疊；背景降低不透明度",
+      "retest": "兩引擎三尺寸重新跑過，截圖確認文字可讀",
+      "before": "guide-background-before-fix.png",
+      "after": "chromium-844-lock-guide.png"
+    },
+    {
+      "location": "test-native-exploration.mjs",
+      "observed": "原生pointerLockElement已取得，但診斷尚未更新，讀到idle，造成測試競態失敗",
+      "fix": "同時等待真正原生鎖定及下一次探索診斷更新；每次越過視窗座標的移動分別驗證yaw有變",
+      "retest": "public-native-exploration.json；真實瀏覽器API，無替代或改寫API"
+    }
+  ]
+}

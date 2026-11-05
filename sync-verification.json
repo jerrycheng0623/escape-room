@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-02",
+  "status": "通過",
+  "checks": [
+    "所有JSON語法",
+    "主規則與媒體內嵌規則一致",
+    "六人／四死者與5／65設定",
+    "跨日事件遞增",
+    "新PDF指紋不變",
+    "三份同步前腳本備份指紋",
+    "36個既有參考指紋／38 PNG數量",
+    "六類待製作不冒充完成",
+    "主文件章節與程式區塊",
+    "開場內嵌中英字幕與外部WebVTT逐句一致",
+    "開場v1／v2視訊與音訊壓縮資料SHA-256一致"
+  ],
+  "notTested": [
+    "故事證據充分性",
+    "新增鏡頭與模型",
+    "倒塌剖面",
+    "完整網站與實機體驗"
+  ],
+  "currentScriptHashes": {
+    "遊戲腳本與機關狀態設定.md": "6ce66e610c24429ffe43525adc3c9d168f2e3c12f8ad01fe9148796df5875bee",
+    "_餘燼裡的第六人_完整劇情腳本.md": "4ee9f5945339f962778080a81b24cd3cd3b4f7e0bab2d093e8942bee5918bd48",
+    "_餘燼裡的第六人_劇情架構與機關設計指引.md": "6285563051e4127898611ace2a6a83bac49ab8d38b183e72925cd95ce7912bcf"
+  },
+  "mediaVerification": "assets/cinematics/verification/report.json",
+  "activeSegments": 6,
+  "durationSeconds": 194,
+  "referenceImageCount": 36,
+  "plannedObjectCount": 6,
+  "modelFileCount": 0,
+  "scope": "2026-11-02歷史同步紀錄；v5現況見assets/story-v5/verification/website-report.json及material-verification.json",
+  "supersededBy": "assets/story-v5/verification/website-report.json"
+}

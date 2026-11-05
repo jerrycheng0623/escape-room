@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03T13:26:26.241623+08:00",
+  "url": "https://jerrycheng0623.github.io/escape-room/",
+  "repository": "jerrycheng0623/escape-room",
+  "branch": "Website-2",
+  "frozenPlayerCommit": "3a04f1f8e9ccc9315d6257152236f6c162d4e87e",
+  "pagesCommit": "c9b06ebe38f3558b3268cae9a18ead32a51c7173",
+  "pagesRun": "https://github.com/jerrycheng0623/escape-room/actions/runs/41582434360",
+  "engines": {
+    "chromium": "151.0.7922.34",
+    "webkit": "26.5 / build 2336"
+  },
+  "os": "macOS-26.6-arm64-arm-64bit",
+  "deviceMethod": "isMobile/hasTouch, iPhone13 descriptor for WebKit; not physical iPhone or iPad",
+  "publicFullMatrix": [
+    [
+      "chromium",
+      "desktop",
+      "primary MP4"
+    ],
+    [
+      "chromium",
+      "mobile",
+      "fallback WebM"
+    ],
+    [
+      "webkit",
+      "mobile",
+      "primary MP4"
+    ],
+    [
+      "webkit",
+      "desktop",
+      "fallback WebM"
+    ]
+  ],
+  "sourceHashes": {
+    "test.md": "d58ef64f4d4cdc2b3c202f3b2dc14659df0253f30922d5ecbe38286c3be23f11",
+    "web/src/components/Cinematic.jsx": "cb7c6adf92d18b7e501578b9c3946821f56ae4780073530d95f489b1355624c8",
+    "web/src/App.jsx": "1c1868e1e43b186ba87bd049c78cf52787bb2ab75e2c889d68a4bf817a574157",
+    "web/src/styles.css": "de0ade861f333f32b8377f80e6ac78ca7fdcc5f0cfc952cbf80d340a0ac430c7",
+    "web/scripts/prepare-assets.mjs": "d4ab04d570356f639c8ba2043c863ab7cdbe4d7b937771e237f140c8425ea2b5",
+    "assets/playback-v6/manifest.json": "1f8c51c71d22699133b86f71b70435898dc965954628b6fb086da9230624615f"
+  },
+  "totals": {
+    "naturalFilmPlays": 28,
+    "controlAndFailureCases": 22,
+    "layoutCases": 14,
+    "httpFilms": 14,
+    "legacyURLs": 7,
+    "subtitles": 14,
+    "formalUIFlows": 2,
+    "engineeringNaturalEndingFlows": 2,
+    "unitTests": 21
+  },
+  "physicalDeviceStatus": "not tested; real user Safari version and MediaError code not obtained"
+}

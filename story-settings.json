@@ -1,214 +1,81 @@
 {
-  "version": 3,
-  "date": "2026-11-02",
-  "status": "原核定設定＋使用者授權製作者補完第二部分",
-  "authority": [
-    "使用者最新明確回答",
-    "PLAN.md與verify.md有效規格",
-    "新增時間線PDF的相容設定"
-  ],
-  "source": {
-    "path": "_餘燼裡的第六人_時間線與證據鏈設定.pdf",
-    "sha256": "561f8100c0e30ae1e491548b2e5c497d64f2849e28a3d6a0ca5a38d00ff24cb8"
-  },
+  "version": 5,
+  "date": "2026-11-03",
+  "canonical": "assets/story/content-v5.json",
   "characters": [
     {
-      "id": "detective",
-      "name": null,
-      "role": "偵探／玩家",
-      "outcome": "存活；未在火災現場"
+      "id": "reporter",
+      "name": "林依瑤",
+      "en": "Lin Yiyao",
+      "role": "記者",
+      "roleEn": "Reporter",
+      "intro": "受邀採訪五週年聚會，私下委託偵探保護。",
+      "introEn": "Invited to cover the anniversary; privately hired the detective.",
+      "truth": "她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+      "truthEn": "She suppressed leads for attention. That does not establish responsibility for the new crime."
     },
     {
       "id": "host",
       "name": "王杰倫",
-      "role": "主辦人",
-      "outcome": "逃離；結局確認存活"
-    },
-    {
-      "id": "reporter",
-      "name": "鄭筱柔",
-      "role": "記者",
-      "outcome": "四名死者之一"
-    },
-    {
-      "id": "photographer",
-      "name": "邱凱浩",
-      "role": "攝影師",
-      "outcome": "四名死者之一"
+      "en": "Wang Jielun",
+      "role": "聚會主辦人",
+      "roleEn": "Host",
+      "intro": "五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+      "introEn": "Survivor of the old fire; invited people connected to the past.",
+      "truth": "聚會原帶控制與報復意圖，當晚氣味觸發後攻擊劉涵，對其他人下手並縱火掩飾；經維修出口逃離。",
+      "truthEn": "A gathering intended for confrontation escalated into assault, concealment and fire. He escaped through the maintenance exit."
     },
     {
       "id": "benefactor",
-      "name": "謝宇恩",
-      "role": "恩人好友",
-      "outcome": "先遇害；包含在四名死者中"
+      "name": "劉涵",
+      "en": "Liu Han",
+      "role": "成年恩人好友",
+      "roleEn": "Adult friend and benefactor",
+      "intro": "長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+      "introEn": "Supported Wang for years and hoped the barbecue would cheer him.",
+      "truth": "他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+      "truthEn": "Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead."
     },
     {
       "id": "doctor",
-      "name": "張凱涵",
-      "role": "心理醫師",
-      "outcome": "四名死者之一"
+      "name": "張萍",
+      "en": "Zhang Ping",
+      "role": "心理醫生",
+      "roleEn": "Psychological clinician",
+      "intro": "受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+      "introEn": "Invited to witness a claimed recovery; carried case records.",
+      "truth": "保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+      "truthEn": "Held concealed clinical notes. A record alone establishes neither guilt nor innocence."
+    },
+    {
+      "id": "photographer",
+      "name": "劉子傑",
+      "en": "Liu Zijie",
+      "role": "攝影師",
+      "roleEn": "Photographer",
+      "intro": "受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+      "introEn": "Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+      "truth": "零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+      "truthEn": "His fragments corroborate sequence and handling of objects, not the entire crime."
     }
   ],
-  "counts": {
-    "invitedIncludingDetective": 6,
-    "onsiteBeforeFire": 5,
-    "deadIncludingBenefactor": 4,
-    "onsiteMissing": 1
+  "twoFires": "五年前先火災受困，之後食用親屬遺體；本次聚會才蓄意縱火掩飾",
+  "timeline": {
+    "gathering": "D0 18:00",
+    "firstPhoto": "18:30四人入鏡",
+    "watchAndHistory": "19:15",
+    "lastPhoto": "20:00三人入鏡",
+    "detective": "D1 03:00，拋錨耽擱四小時，警方當晚限定安全區",
+    "identity": "結局後數日"
   },
-  "weight": {
-    "unit": "kg",
-    "plannedFood": 5,
-    "historical": 65,
-    "historicalTime": "D0 21:00",
-    "netWeightStatus": "固定承載平台已去皮；65 kg為總淨載重事件，不等於精確體重",
-    "storage": "固定底座非揮發記憶體",
-    "controller": "可拆控制器，終幕當前歸零不刪底座歷史"
-  },
-  "photos": {
-    "first": {
-      "storyTime": "D0 18:30",
-      "benefactorPresent": true,
-      "framingStatus": "四人入鏡；同卷底片＋攝影師手機工作紀錄交叉，詳PLAN.md與verify.md內的故事補完全文",
-      "inFrame": [
-        "host",
-        "reporter",
-        "doctor",
-        "benefactor"
-      ],
-      "behindCamera": "photographer",
-      "visibleClock": "18:30"
-    },
-    "last": {
-      "storyTime": "D0 20:00",
-      "visibleClock": "20:00",
-      "inFrame": [
-        "host",
-        "reporter",
-        "doctor"
-      ],
-      "behindCamera": "photographer",
-      "absent": [
-        "detective",
-        "benefactor"
-      ],
-      "provesDeathByItself": false
-    }
-  },
-  "escape": {
-    "route": "地下室既有對外維修出口",
-    "destination": "既有森林區",
-    "cabinetFalls": "王杰倫逃離後，鐵櫃於火災中倒塌堵住出口",
-    "cabinetBlocksBeforeEscape": false,
-    "cKeyPurpose": "開通往D的內門",
-    "additionalMainPuzzle": false,
-    "ignitionSequenceDetails": "佈置並反鎖；火開始蔓延時經既有出口逃離；之後鐵櫃倒塌。無新增延時裝置。"
-  },
-  "police": {
-    "arrival": "D1 02:30",
-    "arrivalIsExtinguishedTime": false,
-    "initialReport": "四具成年人焦屍、主門內側反鎖、初判排除外力；身分待核對",
-    "lateIdentificationRetained": true,
-    "identifiedDead": [
-      "reporter",
-      "photographer",
-      "benefactor",
-      "doctor"
-    ],
-    "identificationMethod": "劇中多來源身分核對；家屬／既有醫療牙科資料、檢驗及身體特徵交叉，正式全文等第四部分",
-    "identificationTime": "D4 18:20",
-    "initialInvestigation": "D1 03:00封鎖線外；警方仍在；正式探索D4 19:00"
-  },
-  "detectiveArrival": {
-    "time": "D1 03:00",
-    "hoursLate": null,
-    "invitationReason": "曾受倖存者家屬委託整理舊案資料，此次受邀見證對質；正式邀請無固定報到時刻"
-  },
-  "evidencePolicy": {
-    "authorTruthIsPlayerProof": false,
-    "stoppedWatchAloneProvesDeathTime": false,
-    "missingFromPhotoAloneProvesDeath": false,
-    "weightAloneProvesBody": false,
-    "exitTracesAloneIdentifyUser": false,
-    "pendingInferencesAsUniqueBonusAnswer": false
-  },
-  "pendingContent": "pending-content.md",
-  "authorTimeline": [
-    {
-      "day": 0,
-      "time": "18:00",
-      "event": "四賓客與王杰倫共五人在場，偵探未到"
-    },
-    {
-      "day": 0,
-      "time": "18:30",
-      "event": "第一張合照含恩人"
-    },
-    {
-      "day": 0,
-      "time": "19:00",
-      "event": "烤肉氣味觸發王杰倫食慾"
-    },
-    {
-      "day": 0,
-      "time": "19:15",
-      "event": "恩人在儲藏室遇害；停錶顯示19:15，可靠性待補"
-    },
-    {
-      "day": 0,
-      "time": "19:30",
-      "event": "主辦人偷取醫師攜帶物並置入紅酒"
-    },
-    {
-      "day": 0,
-      "time": "20:00",
-      "event": "最後合照：三人入鏡、攝影師在鏡後，恩人缺席"
-    },
-    {
-      "day": 0,
-      "time": "20:30",
-      "event": "記者、攝影師、醫師於客廳昏睡"
-    },
-    {
-      "day": 0,
-      "time": "21:00",
-      "event": "恩人遺體移到烤架；歷史紀錄65 kg"
-    },
-    {
-      "day": 0,
-      "time": "22:30",
-      "event": "佈置火場、反鎖、經維修出口離開與引發火災；精確先後待補"
-    },
-    {
-      "day": 1,
-      "time": "02:30",
-      "event": "警消抵達滅火，未指定撲滅時間"
-    },
-    {
-      "day": 1,
-      "time": "03:00",
-      "event": "偵探抵達；不寫遲到幾小時"
-    }
+  "sequence": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "optional-bonus",
+    "ending",
+    "epilogue"
   ],
-  "supplement": "PLAN.md#story-completion",
-  "provenance": "S01–S09補完由製作者本輪新增，原PDF仍保持原始內容",
-  "investigationStart": {
-    "day": 4,
-    "time": "19:00",
-    "role": "與警方協作的民間調查顧問",
-    "permission": "只進已劃定完成初步處置的範圍",
-    "radio": "承辦借用，文字紀錄同步"
-  },
-  "hostReturn": "D4夜間返回取回枯樹內可拆控制器，遇偵探而躲藏；不是躲樹洞四天",
-  "resolvedSections": [
-    "S01",
-    "S02",
-    "S03",
-    "S04",
-    "S05",
-    "S06",
-    "S07",
-    "S08",
-    "S09"
-  ],
-  "verificationSupplement": "verify.md#story-completion"
+  "media": "assets/story-v5/manifest.json"
 }

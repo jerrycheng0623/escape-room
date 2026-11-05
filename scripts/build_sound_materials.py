@@ -2,7 +2,7 @@
 from pathlib import Path
 import json,hashlib,wave
 import numpy as np
-R=Path(__file__).resolve().parents[1];out=R/'assets/cinematics/audio/sfx';out.mkdir(parents=True,exist_ok=True)
+R=Path(__file__).resolve().parents[1];out=R/'assets/story-v5/audio/sfx';out.mkdir(parents=True,exist_ok=True)
 sr=44100;rng=np.random.default_rng(1047);items=[]
 for id,seconds,desc in [('swallow',.9,'合成喉部濕音，非真人吞嚥錄音'),('sensor-reset',.35,'感測器歸零電子音'),('cabinet-slide',1.8,'金屬滑座摩擦與定位聲'),('footsteps',3.2,'四步碎石腳步擬音'),('paper',1.2,'翻閱紙頁擬音'),('radio-click',.45,'通訊開關喀聲，不含人聲'),('door-creak',1.7,'門鉸鏈低沉擬音'),('wind-loop',8,'首尾包絡風聲背景')]:
  n=int(sr*seconds);t=np.arange(n)/sr;noise=rng.normal(size=n);x=np.zeros(n)

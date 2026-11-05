@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-03T23:48:57.930736+08:00",
+  "method": "FFmpeg SHA256 of demuxed audiovisual packets with stream copy; container metadata and embedded subtitle tracks excluded",
+  "segments": [
+    {
+      "id": "CIN-00",
+      "original": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "delivery": "assets/playback-v6/video/CIN-00-compatible-v7.mp4",
+      "v": {
+        "original": "fb38bc7eaea6dbff1f9b933f8640ef01bb44b33fa5ce32f836232852744a0257",
+        "delivery": "fb38bc7eaea6dbff1f9b933f8640ef01bb44b33fa5ce32f836232852744a0257",
+        "identical": true
+      },
+      "a": {
+        "original": "ece07cc1a4b7d62652ab0e6425cbabb86a0218c17e81e0a3dd8ce65fa8dc9a6f",
+        "delivery": "ece07cc1a4b7d62652ab0e6425cbabb86a0218c17e81e0a3dd8ce65fa8dc9a6f",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "original": "assets/story-v9/video/CIN-A-story-v9.mp4",
+      "delivery": "assets/playback-v6/video/CIN-A-compatible-v9.mp4",
+      "v": {
+        "original": "35e5ec844435529db64bd10271bef6859b9069b0ae586d1a5a27e80324efe840",
+        "delivery": "35e5ec844435529db64bd10271bef6859b9069b0ae586d1a5a27e80324efe840",
+        "identical": true
+      },
+      "a": {
+        "original": "a6111d7dc6387c52ae5d9b1a445aa0a8ab763b38f06033fe13352f490d64d419",
+        "delivery": "a6111d7dc6387c52ae5d9b1a445aa0a8ab763b38f06033fe13352f490d64d419",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "original": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "delivery": "assets/playback-v6/video/CIN-B-compatible-v7.mp4",
+      "v": {
+        "original": "e34c55dd317da2a17f370fc5b90ac7bb31e031fb05c6a35ddc6274ce3a8bb3a3",
+        "delivery": "e34c55dd317da2a17f370fc5b90ac7bb31e031fb05c6a35ddc6274ce3a8bb3a3",
+        "identical": true
+      },
+      "a": {
+        "original": "43d46da4820a1e0cd08e99e99ef444d64c0542b3e332bbb01f9d0622a8e1ed20",
+        "delivery": "43d46da4820a1e0cd08e99e99ef444d64c0542b3e332bbb01f9d0622a8e1ed20",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "original": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "delivery": "assets/playback-v6/video/CIN-C-compatible-v7.mp4",
+      "v": {
+        "original": "4c5570c6d8b9c4fcb60458b37c41085a48fac79bd93c74046cf888e04c169688",
+        "delivery": "4c5570c6d8b9c4fcb60458b37c41085a48fac79bd93c74046cf888e04c169688",
+        "identical": true
+      },
+      "a": {
+        "original": "dc7c6a1df512a54c3536671f5bbaf35eab2d7e223a5e8c95e8f57d345368c265",
+        "delivery": "dc7c6a1df512a54c3536671f5bbaf35eab2d7e223a5e8c95e8f57d345368c265",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "original": "assets/story-v9/video/CIN-D-story-v9.mp4",
+      "delivery": "assets/playback-v6/video/CIN-D-compatible-v9.mp4",
+      "v": {
+        "original": "4be6570a00a73fc02252e73e9442143714121983361caf7d221c185e4a5ef6e3",
+        "delivery": "4be6570a00a73fc02252e73e9442143714121983361caf7d221c185e4a5ef6e3",
+        "identical": true
+      },
+      "a": {
+        "original": "1ff4da70cecbaa1d858b3038232f97f20c90bc0548ca84fa7822684883098157",
+        "delivery": "1ff4da70cecbaa1d858b3038232f97f20c90bc0548ca84fa7822684883098157",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "original": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "delivery": "assets/playback-v6/video/CIN-END-compatible-v7.mp4",
+      "v": {
+        "original": "77897700ca6795cb372d313d5654507f6003e997b48644c4d555ec991c6ad61b",
+        "delivery": "77897700ca6795cb372d313d5654507f6003e997b48644c4d555ec991c6ad61b",
+        "identical": true
+      },
+      "a": {
+        "original": "eb65568646134abce6523c1cc6ccbb9bf60c6d1720089b5f14ceef50f9d0ad30",
+        "delivery": "eb65568646134abce6523c1cc6ccbb9bf60c6d1720089b5f14ceef50f9d0ad30",
+        "identical": true
+      },
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "original": "assets/story-v5/video/CIN-EPILOGUE-story-v5.mp4",
+      "delivery": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v7.mp4",
+      "v": {
+        "original": "9fee37636b73e5f4a3a36a96d564c0f6018e5038dc89fe7245f4a7318c25be31",
+        "delivery": "9fee37636b73e5f4a3a36a96d564c0f6018e5038dc89fe7245f4a7318c25be31",
+        "identical": true
+      },
+      "a": {
+        "original": "d9c957bd4ef06a327598bf1a110816c3514eceaaf3ebb5a159079c98124dfc1c",
+        "delivery": "d9c957bd4ef06a327598bf1a110816c3514eceaaf3ebb5a159079c98124dfc1c",
+        "identical": true
+      },
+      "pass": true
+    }
+  ]
+}

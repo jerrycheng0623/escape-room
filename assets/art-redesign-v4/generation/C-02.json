@@ -1,0 +1,11 @@
+{
+  "id": "C-02",
+  "prompt": "Use case: precise-object-edit. Image1 is edit target; image2 is watch reference ONLY. Preserve exact open blank notebook, floor, storage room and flashlight, framing, colors and art style of image1. Correct ONLY the small analog wristwatch on left: make it the same watch shape and cracked dial as image2, with minute hand at THREE and hour hand a little after SEVEN, precisely7:15. No other hands except an optional thin second hand pointing at12. Keep existing small watch scale and position, not a large inset. No other changes, no text, no people.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-67de55f6-fd8c-4952-968a-21df6068f271.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/C-02.png",
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/WATCH.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

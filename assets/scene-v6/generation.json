@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-03",
+  "tool": "內建image_gen",
+  "fallback": false,
+  "transparentBackground": false,
+  "preserve": "未修改原有v4原畫與角色參考",
+  "records": [
+    {
+      "id": "enclosed-guest-room",
+      "file": "assets/scene-v6/concepts/enclosed-guest-room.png",
+      "role": "空間與物件構圖參考，不是遊戲背景",
+      "reference": "assets/art-redesign-v4/images/A-01.png",
+      "prompt": "Use case: stylized-concept. Reference image only for material treatment, not an edit target. Generate a complete 16:9 first-person playable 3D escape-room guest room interior design reference, no HUD or text. Preserve the sepia charcoal realistic burned wood/plaster horror mood of reference. Fully ENCLOSED ROOM: opaque continuous four walls and ceiling; boarded window with solid backing, CLOSED solid wooden door, no visible exterior, no gaps/see-through. One credible wooden writing desk front-left with thick timber legs, closed metal three-wheel investigation lockbox on desktop, scattered real postcards/photos and worn notebook, no floating sheets. Single scorched bed along right wall with fabric mattress and pillow, worn coat, realistic proportions, moderate rich prop detail, walkable clear aisle 1m wide. Lower wall wainscoting, soot blooms, damaged plaster with timber underneath, ceiling joists beneath solid ceiling. Practical hanging amber bulb and handheld flashlight provide enough light to inspect objects, subtle atmospheric shadows, muted warm brown/gold/charcoal, avoid pitch-black. Eye-level architectural perspective; all objects sit on supports. NO people, no skeleton, no gore. This reference must be implementable in actual WebGL geometry; no open ruins or forest backdrop.",
+      "sha256": "3f37c157c7364bd12447af58891d9745908e10b28c49e5ab104c7c94b89633b0"
+    },
+    {
+      "id": "burned-plaster",
+      "file": "assets/scene-v6/textures/burned-plaster.png",
+      "role": "不透明牆面色彩與凹凸貼圖",
+      "prompt": "Use case: stylized-concept. Asset type: production albedo texture for Three.js interior wall, not a finished room illustration. Generate one square SEAMLESS TILEABLE orthographic texture of aged fire-damaged warm gray ochre plaster over dark timber lath, detailed charcoal soot bloom, fine branching hairline cracks, peeling small patches revealing rough charcoal plaster underneath. Match realistic sepia horror escape room, low saturation taupe/ash brown, moderate contrast, believable tactile microtexture. Flat diffuse even lighting, no baked directional shadows, no perspective, no vignette, no furniture, no objects, no letters, no borders, no composition divisions. Top/bottom and left/right edges tile naturally. Predominantly plaster; only sparse exposed dark flakes, no large gaps or transparency. This texture will repeat on opaque 3D walls.",
+      "sha256": "ed2f896c7ac81fa1965ead4d710c07034e1339a2293209178071aa9b86faeaf5"
+    },
+    {
+      "id": "scorched-wood",
+      "file": "assets/scene-v6/textures/scorched-wood.png",
+      "role": "木地板／焦木家具色彩與凹凸貼圖",
+      "prompt": "Use case: stylized-concept. One square seamless tileable PBR diffuse/albedo TEXTURE ONLY of realistic old scorched dark walnut plank floor, four narrow longitudinal planks, fine scratched wood grain, soot-filled joints, slightly worn warm gray-brown ridges, occasional tiny burn scars, subtle variation, aged escape room matching charcoal sepia realistic illustration. Orthographic top down, neutral diffuse even lighting, no cast shadow, no gloss highlights, no perspective, no objects, no text, no borders. Natural scale, realistic tactile detail. Continuous tile edges on all sides; no black gaps, floor must remain opaque.",
+      "sha256": "226856586f41ea32e2e9f6a11ba32e9b97364b4c45392a41776f25125ac1bdc1"
+    }
+  ]
+}

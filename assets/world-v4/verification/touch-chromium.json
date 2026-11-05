@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-03T15:40:28.985Z",
+  "url": "http://127.0.0.1:5173/",
+  "browser": "151.0.7922.34",
+  "engine": "chromium",
+  "method": "Real CDP multi-touch + engineering interruption events",
+  "checks": [
+    "667x375 targets ≥44, joystick≥116, visible and not overlapped",
+    "667 pointer fallback stops correctly",
+    "667 mobile journal/guidance/modal taps",
+    "844x390 targets ≥44, joystick≥116, visible and not overlapped",
+    "second finger cannot replace or reset movement owner",
+    "release stops immediately, no inertia/drift",
+    "simultaneous joystick + look; releasing look preserves movement",
+    "tiny accidental tap does not turn camera",
+    "touchCancel resets movement and look",
+    "opening modal during move does not stick after close",
+    "window blur clears active touch",
+    "portrait pause/landscape return resets held input",
+    "8 rapid joystick/adjacent touches leave no stuck input",
+    "second look pointer cannot steal or stop owner",
+    "unrelated pointer lostcapture ignored",
+    "844 mobile journal/guidance/modal taps",
+    "1024x768 targets ≥44, joystick≥116, visible and not overlapped",
+    "1024 pointer fallback stops correctly",
+    "1024 mobile journal/guidance/modal taps",
+    "1366x1024 targets ≥44, joystick≥116, visible and not overlapped",
+    "1366 pointer fallback stops correctly",
+    "1366 mobile journal/guidance/modal taps"
+  ],
+  "errors": [],
+  "pass": true
+}

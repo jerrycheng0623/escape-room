@@ -1,0 +1,67 @@
+down1 {
+  knob: 'translate(0px, 0px)',
+  camera: { x: 8.5, y: 1.65, z: 9.6 },
+  events: [
+    {
+      type: 'pointerdown',
+      id: 2,
+      target: 'touch-stick',
+      x: 60,
+      y: 338
+    }
+  ]
+}
+move1 {
+  knob: 'translate(24px, 0px)',
+  camera: { x: 8.794, y: 1.65, z: 9.43 },
+  events: [
+    {
+      type: 'gotpointercapture',
+      id: 2,
+      target: 'touch-stick',
+      x: 95,
+      y: 338
+    },
+    {
+      type: 'pointermove',
+      id: 2,
+      target: 'touch-stick',
+      x: 95,
+      y: 338
+    }
+  ]
+}
+down3 {
+  knob: 'translate(0px, -17.1429px)',
+  camera: { x: 8.805, y: 1.65, z: 9.295 },
+  events: [
+    {
+      type: 'pointerdown',
+      id: 3,
+      target: 'touch-stick',
+      x: 60,
+      y: 318
+    }
+  ]
+}
+up3 {
+  knob: 'translate(0px, 0px)',
+  camera: { x: 8.783, y: 1.65, z: 9.257 },
+  events: [
+    {
+      type: 'gotpointercapture',
+      id: 3,
+      target: 'touch-stick',
+      x: 60,
+      y: 318
+    },
+    { type: 'pointerup', id: 3, target: 'touch-stick', x: 60, y: 318 },
+    {
+      type: 'lostpointercapture',
+      id: 3,
+      target: 'touch-stick',
+      x: 60,
+      y: 318
+    }
+  ]
+}
