@@ -4,14 +4,14 @@
     "title": "序幕：遲到的邀請",
     "titleEn": "Prologue · The late invitation",
     "duration": 86.5,
-    "video": "media/video/CIN-00-compatible-v10.mp4",
+    "video": "media/video/CIN-00-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-00-compatible-v10.mp4",
+        "src": "media/video/CIN-00-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-00-compatible-v10.webm",
+        "src": "media/video/CIN-00-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -108,14 +108,14 @@
     "title": "客房：灰燼裡的謊言",
     "titleEn": "Guest room · Lies in the ashes",
     "duration": 45,
-    "video": "media/video/CIN-A-compatible-v10.mp4",
+    "video": "media/video/CIN-A-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-A-compatible-v10.mp4",
+        "src": "media/video/CIN-A-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-A-compatible-v10.webm",
+        "src": "media/video/CIN-A-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -172,14 +172,14 @@
     "title": "暗房：不在照片裡的人",
     "titleEn": "Darkroom · The missing face",
     "duration": 49.5,
-    "video": "media/video/CIN-B-compatible-v10.mp4",
+    "video": "media/video/CIN-B-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-B-compatible-v10.mp4",
+        "src": "media/video/CIN-B-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-B-compatible-v10.webm",
+        "src": "media/video/CIN-B-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -236,14 +236,14 @@
     "title": "營火：善意與異常重量",
     "titleEn": "Terrace · An unusual weight",
     "duration": 73.5,
-    "video": "media/video/CIN-C-compatible-v10.mp4",
+    "video": "media/video/CIN-C-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-C-compatible-v10.mp4",
+        "src": "media/video/CIN-C-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-C-compatible-v10.webm",
+        "src": "media/video/CIN-C-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -324,14 +324,14 @@
     "title": "診療區：另一種飢餓",
     "titleEn": "Clinic · Another hunger",
     "duration": 96,
-    "video": "media/video/CIN-D-compatible-v10.mp4",
+    "video": "media/video/CIN-D-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-D-compatible-v10.mp4",
+        "src": "media/video/CIN-D-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-D-compatible-v10.webm",
+        "src": "media/video/CIN-D-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -428,14 +428,14 @@
     "title": "終幕：深淵的凝視",
     "titleEn": "Finale · The abyss looks back",
     "duration": 72,
-    "video": "media/video/CIN-END-compatible-v10.mp4",
+    "video": "media/video/CIN-END-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-END-compatible-v10.mp4",
+        "src": "media/video/CIN-END-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-END-compatible-v10.webm",
+        "src": "media/video/CIN-END-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
@@ -516,14 +516,14 @@
     "title": "後記：留下名字的人",
     "titleEn": "Epilogue · The names that remain",
     "duration": 62,
-    "video": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
+    "video": "media/video/CIN-EPILOGUE-compatible-v11.mp4",
     "sources": [
       {
-        "src": "media/video/CIN-EPILOGUE-compatible-v10.mp4",
+        "src": "media/video/CIN-EPILOGUE-compatible-v11.mp4",
         "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\""
       },
       {
-        "src": "media/video/CIN-EPILOGUE-compatible-v10.webm",
+        "src": "media/video/CIN-EPILOGUE-compatible-v11.webm",
         "type": "video/webm; codecs=\"vp9, opus\""
       }
     ],
