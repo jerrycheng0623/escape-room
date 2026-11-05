@@ -1069,3 +1069,6 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 可核對的本機報告、版本與初測結果：[聲景 v15 驗收索引](assets/soundscape-v15/verification/summary.json)。原生 Q 測試驗證桌機畫布成功取得滑鼠鎖定，手機並未導入鍵盤切換。
 
 公開部署：[Pages 部署紀錄](https://github.com/jerrycheng0623/escape-room/actions/runs/41967391551)。根入口與 final/ 的版本、程式及雨雷檔均與發布產物一致；兩入口桌機／手機共四種開啟案例通過。final/ 實際核對 14 份混音影片的整檔 SHA256、MIME 與 Range，14 份字幕逐位元一致，並再跑三套組態共 12 個 3D 場景的雨雷生命週期。
+
+2026-11-05 雨雷調音：雨聲訊號提升約 5.1 dB；遠雷由每 48 秒 3 次改為 7 次，間隔約 6.5～8.5 秒。以 v16 音檔避開舊快取，保留既有音量開關、暫停及手機操作；影片配樂不變。
+v16 本機驗證：Chromium 桌機、Chromium 手機及 WebKit 手機模擬三套組態各 A～D 共 12 場景通過啟播與風聲互斥；循環越界、暫停、靜音切換、旋轉及離開清理通過。原始音檔峰值約 0.387，沒有削波。證據：assets/soundscape-v15/verification/weather-v16.json 與 weather-v16-measurement.json。實體手機未測。

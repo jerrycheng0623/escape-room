@@ -30,3 +30,5 @@ pnpm dev
 規格以 PLAN.md、verify.md、machine.md、操作指南與探索模式規格.md 為準。test.md 與 assets/final-v14/verification 記錄本輪實測、版本、失敗修正與限制；不把歷史測試當成本輪結果。來源／歷史 Markdown 的適用性與 SHA256 見 assets/final-v14/markdown-registry.json。
 
 尚未進行實體 iPhone／iPad、多機型 GPU 效能及首次玩家盲測；WebKit 與觸控模擬不等於實體 iOS 驗收。無真人配音、帳號同步或離線支援；完整英文機關文書仍需本地化。進度只存在同來源瀏覽器 localStorage，新舊同來源路徑共用，跨裝置不會自動同步。
+
+2026-11-05 雨雷調音：雨聲訊號提升約 5.1 dB；遠雷由每 48 秒 3 次改為 7 次，間隔約 6.5～8.5 秒。以 v16 音檔避開舊快取，保留既有音量開關、暫停及手機操作；影片配樂不變。

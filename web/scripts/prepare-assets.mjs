@@ -11,7 +11,7 @@ await rm(resolve(pub,'media'),{recursive:true,force:true});
 await Promise.all(['burned-plaster','scorched-wood'].map(id=>copy(`assets/scene-v6/textures/${id}.png`,`media/scene-v6/${id}.png`)));
 const {SPACE,PLAYER_RADIUS,EYE_HEIGHT,WALL_TRIM_CLEARANCE}=await import('../src/game/space.mjs');
 await Promise.all([copy(manifest.menu,'media/menu.webp'),copy('assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav','media/wind.wav')]);
-await copy(soundscape.roomAmbience.path,'media/room-rain-thunder-v15.m4a');
+await copy(soundscape.roomAmbience.path,'media/room-rain-thunder-v16.m4a');
 const media=[];
 for(const seg of manifest.segments){
  const delivery=soundscape.segments.find(s=>s.id===seg.id);if(!delivery?.sources?.length)throw Error('Missing playback derivatives: '+seg.id);

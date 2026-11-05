@@ -17,7 +17,7 @@ export default function Game({run,settings,setSettings,onPatch,onAdvance,onHome,
  const keyboardExploration=()=>{explorationPreference.current='keyboard';sceneControls.current?.releaseLook();setControlMode('keyboard');};
  const input=useRef({x:0,y:0}),position=useRef(null),idle=useRef(0),clock=useRef(),ambience=useRef();const blocked=!!panel||portrait||!!error||!ready||(settings.device==='desktop'&&!['locked','keyboard'].includes(controlMode));
  const weatherPaused=portrait||!!error||!ready||['pause','guide','settings'].includes(panel)||(panel==='object'&&WORLD[object]?.kind==='audio');
- useEffect(()=>{const a=new Audio();a.preload='none';a.src=asset('media/room-rain-thunder-v15.m4a');a.loop=true;ambience.current=a;return()=>{a.pause();a.removeAttribute('src');a.load();ambience.current=null;};},[]);
+ useEffect(()=>{const a=new Audio();a.preload='none';a.src=asset('media/room-rain-thunder-v16.m4a');a.loop=true;ambience.current=a;return()=>{a.pause();a.removeAttribute('src');a.load();ambience.current=null;};},[]);
  useEffect(()=>{
   const a=ambience.current;if(!a)return;
   a.volume=settings.volume*.42;

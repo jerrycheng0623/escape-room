@@ -30,7 +30,7 @@ for(const [engine,type,mobile] of [['chromium',chromium,false],['chromium',chrom
    await page.goto(url);await tap('繼續調查',false);await page.waitForFunction(()=>window.__EMBERS_DIAGNOSTICS__?.camera&&!document.querySelector('.scene-loading'),null,{timeout:45000});
    // A tap in the game also exercises Safari's gesture recovery after the room mount.
    await tap('指引');await tap('關閉 / Close');await wait(false);
-   const first=await state();assert(first.src.endsWith('room-rain-thunder-v15.m4a')&&first.loop&&Math.abs(first.duration-48)<.05&&first.menuPaused);
+   const first=await state();assert(first.src.endsWith('room-rain-thunder-v16.m4a')&&first.loop&&Math.abs(first.duration-48)<.05&&first.menuPaused);
    if(room==='A'){
     await page.evaluate(()=>window.__soundscapeQA[1].currentTime=47.55);
     await page.waitForFunction(()=>{const a=window.__soundscapeQA[1];return !a.seeking&&a.currentTime<2;});
