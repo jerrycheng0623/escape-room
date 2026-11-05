@@ -4,5 +4,42 @@
   "newRainRMS": 0.04231603443622589,
   "totalGainDb": 4.548359090609953,
   "newPeak": 0.38658031821250916,
-  "thunderEvents": 7
+  "thunderEvents": 7,
+  "thunderSignalChecks": [
+    {
+      "onset": 2.5,
+      "bassRms": 0.04663521728095169,
+      "ratioToOpening": 3.6891577618262743
+    },
+    {
+      "onset": 9,
+      "bassRms": 0.06193532874949801,
+      "ratioToOpening": 4.899498964719089
+    },
+    {
+      "onset": 15.5,
+      "bassRms": 0.04478460681764489,
+      "ratioToOpening": 3.5427620902097985
+    },
+    {
+      "onset": 22,
+      "bassRms": 0.0628179436093362,
+      "ratioToOpening": 4.969319706440072
+    },
+    {
+      "onset": 29,
+      "bassRms": 0.05115015049833243,
+      "ratioToOpening": 4.046319192482474
+    },
+    {
+      "onset": 35.5,
+      "bassRms": 0.056120362264975784,
+      "ratioToOpening": 4.43949620303158
+    },
+    {
+      "onset": 42,
+      "bassRms": 0.046644716087004545,
+      "ratioToOpening": 3.6899091809494418
+    }
+  ]
 }

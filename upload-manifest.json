@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T14:09:12.643223+08:00",
+  "generatedAt": "2026-11-05T14:13:28.635564+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -8,7 +8,7 @@
     "final/"
   ],
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
-  "sourceFileCount": 2082,
+  "sourceFileCount": 2083,
   "deployedFilesPerEntrance": 732,
   "source": [
     {
@@ -6962,8 +6962,8 @@
     {
       "path": "assets/final-v14/markdown-registry.json",
       "bytes": 8481,
-      "sha256": "602185f121e50adc92d181a0901c83f78fe743900c94012f9ae634d88c812ffe",
-      "gitBlobSHA": "2898ab6885620337aed709fa971078f6b55d542b"
+      "sha256": "b6edf30c8fb6be6dfcea6f086a3f27805e8d92fc34661abcf6eb639bd1c32435",
+      "gitBlobSHA": "77822515409b83af5612a2bf00c67b821ee6d86a"
     },
     {
       "path": "assets/final-v14/verification/acceptance/boundaries-chromium-initial.json",
@@ -9799,9 +9799,9 @@
     },
     {
       "path": "assets/soundscape-v15/verification/summary.json",
-      "bytes": 1750,
-      "sha256": "8777e4741caa750df70044b3ffc07979e0cc7b4f39917f4c31700f69388889ad",
-      "gitBlobSHA": "ba26cbf54417b3b72b72ff78733d55be0ff46362"
+      "bytes": 2176,
+      "sha256": "5d1ab3a3788e8db95f2fdebf82d6d59d3a44cf94a3af9f76cebdb2fd0cccc731",
+      "gitBlobSHA": "c504913367e3b9f93f8a0d2de50302f8d4f74871"
     },
     {
       "path": "assets/soundscape-v15/verification/touch-chromium.json",
@@ -9829,9 +9829,15 @@
     },
     {
       "path": "assets/soundscape-v15/verification/weather-v16-measurement.json",
-      "bytes": 203,
-      "sha256": "7f1e8db69c8bede4e66da6f5ab65761a9f9c98bd013b8ab40350550055e8df69",
-      "gitBlobSHA": "884b669736b6597edfb131cf4b34ec3d7f8c6c75"
+      "bytes": 1025,
+      "sha256": "ab6bd57c602801453327a9ef73ce047944f9d632a455d9fc4523cbbf0389e011",
+      "gitBlobSHA": "50fa2b72c566f915252102c3e0cd7ec08604424a"
+    },
+    {
+      "path": "assets/soundscape-v15/verification/weather-v16-public.json",
+      "bytes": 1713,
+      "sha256": "3ff36a06e7f7c0008372ba3e49eefd5fa362835e23ca25d5950401071b0d7045",
+      "gitBlobSHA": "9adf16406a245a38c2fc604cccfc8ffbda379143"
     },
     {
       "path": "assets/soundscape-v15/verification/weather-v16.json",
@@ -11995,9 +12001,9 @@
     },
     {
       "path": "test.md",
-      "bytes": 132813,
-      "sha256": "8dcf07143245955ab367d5ee3798ed116eda1f93e9e2ed249959728a07858fe2",
-      "gitBlobSHA": "90d75c7471efa3f34aa5784ec5e4f699660ea605"
+      "bytes": 133108,
+      "sha256": "357812ec93e7470a992a895c4805832ae2fccdb0d56ef19ceaa3362f0ec00d52",
+      "gitBlobSHA": "8e25d3b06dc43deba24c67f3c2a39e5b24b36738"
     },
     {
       "path": "verify.md",
@@ -12055,9 +12061,9 @@
     },
     {
       "path": "web/public/release.json",
-      "bytes": 1234,
-      "sha256": "be953084ad88cdd397157dd836878dd29dbe108d67d078c78c1a1dcefff1a5ee",
-      "gitBlobSHA": "1b2b0101bc9c6f5e009f92f52545398559607e2d"
+      "bytes": 1259,
+      "sha256": "4632ca2e1b3eec36addf26a9628a3ff3e385ba2cada3ebb81276d5798dcd177c",
+      "gitBlobSHA": "d160d5d697bdeff7d709c9fe4643574fee90f585"
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
@@ -16893,9 +16899,9 @@
     },
     {
       "path": "release.json",
-      "bytes": 1234,
-      "sha256": "be953084ad88cdd397157dd836878dd29dbe108d67d078c78c1a1dcefff1a5ee",
-      "gitBlobSHA": "1b2b0101bc9c6f5e009f92f52545398559607e2d"
+      "bytes": 1259,
+      "sha256": "4632ca2e1b3eec36addf26a9628a3ff3e385ba2cada3ebb81276d5798dcd177c",
+      "gitBlobSHA": "d160d5d697bdeff7d709c9fe4643574fee90f585"
     }
   ],
   "exclusions": [

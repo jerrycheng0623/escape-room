@@ -1072,3 +1072,4 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 
 2026-11-05 雨雷調音：雨聲訊號提升約 5.1 dB；遠雷由每 48 秒 3 次改為 7 次，間隔約 6.5～8.5 秒。以 v16 音檔避開舊快取，保留既有音量開關、暫停及手機操作；影片配樂不變。
 v16 本機驗證：Chromium 桌機、Chromium 手機及 WebKit 手機模擬三套組態各 A～D 共 12 場景通過啟播與風聲互斥；循環越界、暫停、靜音切換、旋轉及離開清理通過。原始音檔峰值約 0.387，沒有削波。證據：assets/soundscape-v15/verification/weather-v16.json 與 weather-v16-measurement.json。實體手機未測。
+v16 公開站複驗：根入口與 final/ 均為 ambientRevision 16，新音檔 SHA256 相符；桌機 Chromium、手機 Chromium／WebKit 三套組態各四區播放、循環、暫停、靜音、旋轉及離開清理均通過，見 assets/soundscape-v15/verification/weather-v16-public.json。
