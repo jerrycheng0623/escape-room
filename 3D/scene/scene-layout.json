@@ -1,0 +1,492 @@
+{
+  "version": 1,
+  "coordinates": "glTF，X東／Y上／Z南，公尺",
+  "rooms": [
+    {
+      "name": "入口",
+      "floorCenter": [
+        0,
+        0,
+        0
+      ],
+      "widthDepthMeters": [
+        6,
+        8
+      ]
+    },
+    {
+      "name": "客廳／廚房殘角",
+      "floorCenter": [
+        0,
+        0,
+        8
+      ],
+      "widthDepthMeters": [
+        6,
+        8
+      ]
+    },
+    {
+      "name": "A客房",
+      "floorCenter": [
+        6.5,
+        0,
+        8
+      ],
+      "widthDepthMeters": [
+        7,
+        5
+      ]
+    },
+    {
+      "name": "B暗房",
+      "floorCenter": [
+        12,
+        0,
+        8
+      ],
+      "widthDepthMeters": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "C貼屋露台",
+      "floorCenter": [
+        0,
+        0.45,
+        17
+      ],
+      "widthDepthMeters": [
+        12,
+        10
+      ]
+    },
+    {
+      "name": "D地下診療",
+      "floorCenter": [
+        11,
+        -2.4,
+        17
+      ],
+      "widthDepthMeters": [
+        8,
+        6
+      ]
+    }
+  ],
+  "placements": [
+    {
+      "id": "P001",
+      "position": [
+        7,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "P002",
+      "position": [
+        12,
+        0,
+        7.8
+      ]
+    },
+    {
+      "id": "P004",
+      "position": [
+        0,
+        0.45,
+        12.55
+      ]
+    },
+    {
+      "id": "P005",
+      "position": [
+        21,
+        0,
+        21
+      ]
+    },
+    {
+      "id": "P006",
+      "position": [
+        7,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "P007",
+      "position": [
+        11,
+        -2.4,
+        17
+      ]
+    },
+    {
+      "id": "P008",
+      "position": [
+        1,
+        0.45,
+        14
+      ]
+    },
+    {
+      "id": "P009",
+      "position": [
+        5.5,
+        0,
+        9
+      ]
+    },
+    {
+      "id": "P012",
+      "position": [
+        12,
+        0,
+        8.5
+      ]
+    },
+    {
+      "id": "P016",
+      "position": [
+        11,
+        -2.4,
+        18
+      ]
+    },
+    {
+      "id": "P017",
+      "position": [
+        10,
+        -2.4,
+        16
+      ]
+    },
+    {
+      "id": "P018",
+      "position": [
+        1.8,
+        0,
+        8
+      ]
+    },
+    {
+      "id": "P019",
+      "position": [
+        6,
+        0.45,
+        20
+      ]
+    },
+    {
+      "id": "P020",
+      "position": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "id": "P021",
+      "position": [
+        15,
+        -2.4,
+        17
+      ]
+    },
+    {
+      "id": "P022",
+      "position": [
+        21,
+        0,
+        21
+      ]
+    },
+    {
+      "id": "P023",
+      "position": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "P026",
+      "position": [
+        1,
+        0.45,
+        14
+      ]
+    },
+    {
+      "id": "P031",
+      "position": [
+        -2,
+        0.45,
+        16
+      ]
+    },
+    {
+      "id": "P032",
+      "position": [
+        -2,
+        0.45,
+        18
+      ]
+    },
+    {
+      "id": "P033",
+      "position": [
+        0,
+        0,
+        -3
+      ]
+    },
+    {
+      "id": "P036",
+      "position": [
+        -2,
+        0,
+        10
+      ]
+    },
+    {
+      "id": "P037",
+      "position": [
+        8.8,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "P038",
+      "position": [
+        0.3,
+        0.8,
+        12.7
+      ]
+    },
+    {
+      "id": "P039",
+      "position": [
+        12,
+        1.7,
+        8.9
+      ]
+    },
+    {
+      "id": "P040",
+      "position": [
+        2,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "P041",
+      "position": [
+        -1,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "P042",
+      "position": [
+        14.3,
+        -2.4,
+        17
+      ]
+    }
+  ],
+  "colliders": [
+    {
+      "name": "入口地坪",
+      "type": "box",
+      "center": [
+        0,
+        -0.08,
+        0
+      ],
+      "size": [
+        6,
+        0.16,
+        8
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    },
+    {
+      "name": "客廳／廚房殘角地坪",
+      "type": "box",
+      "center": [
+        0,
+        -0.08,
+        8
+      ],
+      "size": [
+        6,
+        0.16,
+        8
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    },
+    {
+      "name": "A客房地坪",
+      "type": "box",
+      "center": [
+        6.5,
+        -0.08,
+        8
+      ],
+      "size": [
+        7,
+        0.16,
+        5
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    },
+    {
+      "name": "B暗房地坪",
+      "type": "box",
+      "center": [
+        12,
+        -0.08,
+        8
+      ],
+      "size": [
+        4,
+        0.16,
+        3
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    },
+    {
+      "name": "C貼屋露台地坪",
+      "type": "box",
+      "center": [
+        0,
+        0.37,
+        17
+      ],
+      "size": [
+        12,
+        0.16,
+        10
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    },
+    {
+      "name": "D地下診療地坪",
+      "type": "box",
+      "center": [
+        11,
+        -2.48,
+        17
+      ],
+      "size": [
+        8,
+        0.16,
+        6
+      ],
+      "kind": "walkable",
+      "stage": "規劃碰撞體，未在遊戲引擎測試"
+    }
+  ],
+  "stairs": {
+    "top": [
+      8,
+      0.45,
+      20
+    ],
+    "bottom": [
+      8,
+      -2.4,
+      14
+    ],
+    "steps": 16,
+    "width": 1.25
+  },
+  "collapse": {
+    "grillBefore": [
+      0,
+      0.45,
+      12.55
+    ],
+    "landingArea": [
+      0,
+      0,
+      11.4
+    ],
+    "direction": [
+      0,
+      -0.45,
+      -1.15
+    ],
+    "isPhysicsSimulation": false
+  },
+  "bodyRecoverySites": [
+    {
+      "person": "記者",
+      "position": [
+        -1,
+        0,
+        7
+      ]
+    },
+    {
+      "person": "攝影師",
+      "position": [
+        1,
+        0,
+        7.8
+      ]
+    },
+    {
+      "person": "醫師",
+      "position": [
+        0.5,
+        0,
+        9
+      ]
+    },
+    {
+      "person": "恩人",
+      "position": [
+        0,
+        0,
+        11.4
+      ]
+    }
+  ],
+  "notes": [
+    "D4現場遺體已移走，採集點只供案件圖對照",
+    "剖面與通路為靜態幾何檢查；引擎碰撞、坡面與真人視角未測",
+    "P005在樹洞代表可拆控制器；烤架P004含固定底座服務面板，不複製同一控制器"
+  ],
+  "model": {
+    "path": "3D/scene/rooms-layout-blockout-v1.glb",
+    "triangles": 8410,
+    "nodes": 268,
+    "boundsMeters": {
+      "min": [
+        -6.059999942779541,
+        -2.559999942779541,
+        -4.059999942779541
+      ],
+      "max": [
+        24.0,
+        4.800000190734863,
+        22.059999465942383
+      ]
+    },
+    "bytes": 903528,
+    "sha256": "f6db6d83cc89c5031c8e12c385c1ef5fede29ff4e48641bb46021ed2d5a48b67"
+  }
+}

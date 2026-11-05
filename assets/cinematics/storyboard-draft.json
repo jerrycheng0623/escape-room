@@ -1,0 +1,198 @@
+{
+  "CIN-00": {
+    "title": "序幕：遲到的邀請",
+    "seconds": 8,
+    "lines": [
+      [
+        "00-01",
+        "山路上的故障耽誤了行程。隔日凌晨三點，我才抵達。",
+        "A breakdown delayed my journey. I arrived at 03:00 the following morning."
+      ],
+      [
+        "00-02",
+        "邀請我的人，是五年前火災的倖存者——王杰倫。",
+        "My host was Wang Jielun, a survivor of the fire five years ago."
+      ],
+      [
+        "00-03",
+        "聚會的小屋，只剩下仍在冒煙的廢墟。",
+        "The cabin where we were to meet was a smoking ruin."
+      ],
+      [
+        "00-04",
+        "警方找到了四具焦屍，身分仍在複核；初步判定是意外。",
+        "The police found four burned bodies. Identification was pending; the initial finding was an accident."
+      ],
+      [
+        "00-05",
+        "火災後第四天，現場完成初步處置。我獲准回來調查。",
+        "On the fourth day after the fire, I was permitted to return after initial site stabilization."
+      ]
+    ]
+  },
+  "CIN-A": {
+    "title": "客房：灰燼裡的謊言",
+    "seconds": 8,
+    "lines": [
+      [
+        "A-01",
+        "鄭筱柔的筆記，藏在燒毀的行李之中。",
+        "Zheng Xiaorou's notes were hidden in the burned luggage."
+      ],
+      [
+        "A-02",
+        "她曾報導王家無人生還，但小兒子其實活了下來。",
+        "She reported that no one in the Wang family survived. The younger son had lived."
+      ],
+      [
+        "A-03",
+        "那封威脅信，讓這次聚會有了另一種意味。",
+        "The threatening letter cast a different light on this gathering."
+      ],
+      [
+        "A-04",
+        "破錶停在十九點十五分。但停錶，還不是死亡時間的證明。",
+        "The broken watch stopped at 19:15. That alone did not establish a time of death."
+      ],
+      [
+        "EVIDENCE-01",
+        "三只杯子與空瓶，留下了尚待交叉比對的痕跡。",
+        "Three glasses and an empty bottle left traces that needed corroboration."
+      ]
+    ]
+  },
+  "CIN-B": {
+    "title": "暗房：不在照片裡的人",
+    "seconds": 8,
+    "lines": [
+      [
+        "B-01",
+        "被光線吞沒的影像，重新浮現。",
+        "An image lost in the light began to emerge."
+      ],
+      [
+        "B-04",
+        "十八點三十分的照片裡，謝宇恩仍在。",
+        "Xie Yuen was present in the photograph taken at 18:30."
+      ],
+      [
+        "B-02",
+        "二十點的最後合照，鏡頭前三人，加上攝影師，共四人。",
+        "At 20:00, the last photograph showed three people; with the photographer, four."
+      ],
+      [
+        "B-03",
+        "謝宇恩不在照片裡。他當時去了哪裡？",
+        "Xie Yuen was not in the photograph. Where had he gone?"
+      ]
+    ]
+  },
+  "CIN-C": {
+    "title": "營火：善意與異常重量",
+    "seconds": 9,
+    "lines": [
+      [
+        "C-01",
+        "謝宇恩帶來烤肉架，原本只是想讓朋友開心。",
+        "Xie Yuen brought the grill hoping to cheer up his friend."
+      ],
+      [
+        "C-02",
+        "日記裡的道歉，加上表層報告，讓我以為這是恐懼引起的失控。",
+        "The apologies in the diary and the surface report made me suspect a collapse brought on by fear."
+      ],
+      [
+        "C-03",
+        "預定食材只有五公斤，歷史紀錄卻留下六十五公斤。",
+        "The planned food weighed five kilograms. The historical record showed sixty-five."
+      ],
+      [
+        "C-05",
+        "固定底座保存了二十一點的歷史紀錄。控制器卻不在座上。",
+        "The fixed base retained the 21:00 record. Its detachable controller was missing."
+      ],
+      [
+        "C-04",
+        "烤架下的項鍊，與第一張照片裡的輪廓一致。",
+        "The pendant beneath the grill matched the outline in the first photograph."
+      ]
+    ]
+  },
+  "CIN-D": {
+    "title": "診療區：另一種飢餓",
+    "seconds": 9,
+    "lines": [
+      [
+        "D-01",
+        "深層報告記錄了極度飢餓，以及曾食用親屬遺體的疑慮。",
+        "The deeper report recorded extreme hunger and suspected consumption of relatives' remains."
+      ],
+      [
+        "D-02",
+        "烤肉的氣味，可能喚醒的不是恐懼，而是食慾。",
+        "Perhaps the smell of the grill awakened appetite rather than fear."
+      ],
+      [
+        "D-03",
+        "拍攝紀錄、現場採樣與檢查摘要，讓線索有了相互支持的方向。",
+        "Recording logs, scene samples and examination summaries began to corroborate one another."
+      ],
+      [
+        "D-04",
+        "警方確認了四名死者：鄭筱柔、邱凱浩、謝宇恩、張凱涵。沒有王杰倫。",
+        "Police identified the four dead: Zheng Xiaorou, Qiu Kaihao, Xie Yuen and Zhang Kaihan. Wang Jielun was not among them."
+      ],
+      [
+        "D-06",
+        "他先離開。火災中倒下的鐵櫃，後來才擋住出口。",
+        "He left first. The cabinet fell during the fire and blocked the exit afterward."
+      ],
+      [
+        "D-07",
+        "門框先被使用，細灰後來才覆上；這仍不能單獨辨認使用者。",
+        "The frame was used before ash settled on it. The traces alone could not identify who used it."
+      ],
+      [
+        "D-05",
+        "主門雖然反鎖，地下室卻有對外維修出口。他有機會活著離開。",
+        "The main door was bolted, but a basement maintenance exit led outside. He could have escaped alive."
+      ]
+    ]
+  },
+  "CIN-END": {
+    "title": "終幕：深淵的凝視",
+    "seconds": 7,
+    "lines": [
+      [
+        "END-01",
+        "四名死者之中，沒有王杰倫。那條出口，讓另一種可能浮現。",
+        "Wang Jielun was not among the four dead. The exit left another possibility."
+      ],
+      [
+        "END-02",
+        "我朝出口奔去，身後的黑暗卻留在原地。",
+        "I ran for the exit. The darkness behind me remained."
+      ],
+      [
+        "END-03",
+        "樹洞裡，有一雙眼睛一直看著我。",
+        "A pair of eyes watched me from the hollow tree."
+      ],
+      [
+        "END-04",
+        "［吞嚥聲］［感測器歸零音］",
+        "[Swallowing sound] [Sensor reset tone]"
+      ],
+      [
+        "END-05",
+        "冷光照亮了那張熟悉的臉。",
+        "The cold light revealed a familiar face."
+      ],
+      [
+        "END-06",
+        "［風聲逐漸消失］",
+        "[The wind fades away]"
+      ]
+    ]
+  }
+}

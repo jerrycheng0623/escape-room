@@ -1,0 +1,228 @@
+[
+  {
+    "segment": "CIN-00",
+    "id": "00-03",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-362428ba-e95c-4577-b3a4-daa652997e41.png",
+    "status": "已生成並人工檢視",
+    "prompt": "Use case: illustration-story. Asset type: CIN-00 shot 00-03, single standalone wide cinematic storyboard image for a psychological horror escape-room game titled The Sixth Person in the Embers. Create one high-quality 16:9 landscape image. Scene: burned mountain forest cabin at night after a fire, leaning roof rafters, one surviving stone chimney on left, black timber wreckage, yellow police cordon without writing across foreground, a huge hollow scorched tree on far right, cold mist, minute dying orange embers. No people in this shot. Style: cinematic painterly semi-realistic 2D horror illustration, charcoal texture, subdued black, ash grey, cold blue and ember amber, deep but readable shadows, exceptionally ominous, rich layered foreground and background. Camera eye level wide establishing shot, physically plausible architecture and light, clear paths. Keep cabin at center-left and hollow tree at far right, all important elements away from edges for safe framing. No text, no letters, no readable signs, no UI, no watermark, no collage. This is an independent frame, not a contact sheet. Horror is severe atmospheric dread, no gore, no dismemberment, no viscera.",
+    "notes": "基準場景；圖中餘火較多，作風格基準，不作火勢時間證據。",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-00",
+    "id": "00-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Night mountain road through scorched conifer forest. A single stalled unbranded dark car near the road, no visible people, distant cold mist, ominous moonlight, wet road leading toward a cabin far out of view. Cinematic establishing shot.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-3bac50c1-a407-4636-b6b9-92d1bde6ada6.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1,
+    "notes": "車上有不可讀徽記；作敘事底圖，非品牌或劇情證據。"
+  },
+  {
+    "segment": "CIN-00",
+    "id": "00-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: First person view of an adult detective's dark gloved hands holding a worn blank invitation sheet, its surface intentionally blank for later compositing. Burned cabin in soft background, tall stone chimney left, hollow tree far right. No legible marks on paper, no face. The flashlight illuminates crumpled paper, atmosphere of lateness and dread.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-5a5edda0-bb00-4201-8921-e06df5361bbf.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-00",
+    "id": "00-04",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Wide forensic view of burned cabin wreckage with exactly FOUR intact blackened human-shaped remains lying far apart in the middle distance, partially draped with dark fire blankets, no exposed anatomy, no visible injuries. No living people in shot. A flashlight beam sweeps across ash and broken timber. Stone chimney on left, hollow tree on right in distance. Four distinct silhouettes must be countable without gore.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-bc3b2b42-b231-4100-8d32-7386c614f1c2.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-A",
+    "id": "A-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Inside a burned guest bedroom, single ruined bed, scattered fabric, grey-green coat, half-burned backpack and open charred metal investigation box on a desk. Some scorched blank paper inside, no writing, no numbers. Flashlight sidelight and minuscule orange embers, ominous and detailed.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-bd230948-815a-4a56-b055-fa8a32e94d66.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-A",
+    "id": "A-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Overhead cinematic closeup of scorched old newspaper sheets, a torn threatening letter and worn reporter notebook layered on a damaged desk. All printed areas are intentionally illegible neutral strokes or blank blocks, no recognizable characters. Grey-green coat sleeve at edge. Directional flashlight and black ash create severe ominous atmosphere.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-ee1e8ce2-97e3-472e-8ada-166b596b8fb7.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-A",
+    "id": "A-03",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Flashback before cabin fire: adult East Asian woman reporter in a grey-green jacket sits alone at a wooden guest room desk reading a blank threatening letter, frightened and tense expression, dark shoulder-length hair. Cold window light, amber table lamp, looming long shadow from furniture but no other person, no fire-setting or criminal action. Cinematic medium shot.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-e7601b15-5774-4cda-80a3-35bf903fe5ff.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-B",
+    "id": "B-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Tiny windowless improvised photographic darkroom in an old cabin bathroom, red safelight, basin with cloudy water, hanging film strips, damaged vintage film camera on ledge, no people. Cinematic claustrophobic medium wide composition, rich detailed surfaces, white readable highlights on equipment.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-b954913a-3c02-48ad-aeb8-82081b6084f8.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-B",
+    "id": "B-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: A single unsettling flash-lit gathering photograph before the fire, exactly THREE adults standing shoulder to shoulder in a wooden mountain cabin: left an adult East Asian woman reporter with shoulder-length black hair and grey-green jacket; center an adult East Asian male host with fully healed burn scarring and facial asymmetry, dark short hair, charcoal high-collared coat, fixed unnerving restrained smile; right an androgynous adult East Asian doctor with short dark hair, dark navy clothes, carrying a medical briefcase. Exactly three people total, no crowd, no mirror, no additional person or reflection, no photographer in frame. Camera is taking the group photo. Tense ordinary gathering, warm low cabin light, painterly cinematic horror. No open wounds. Reference image 2 is the reporter identity reference; keep her face and grey-green jacket consistent.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-ad71ad16-0af9-43d3-a4b5-e3be604883f9.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-B",
+    "id": "B-03",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Empty wooden chair beside a gathering table in a mountain cabin before the fire. An abandoned outdoor jacket and cup suggest an absent guest. No people in frame, no additional silhouettes or faces. Cold shadow and low amber practical light, tense stillness, richly detailed but restrained. No blood, no explicit clue labels.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-8d780655-40d4-41ee-b308-66b5be227c3a.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-C",
+    "id": "C-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Earlier flashback before the gathering photograph: one adult East Asian male benefactor friend wearing plain outdoor hiking clothes prepares a premium rectangular electronic barbecue grill outside a mountain cabin at dusk. Modest ordinary packaged ingredients without labels, friendly but worried expression, warm flame light turning cold blue at forest edges. No other people, no violence, no bodies. Grill has rectangular grey-blue control unit with single blank dark display and physical buttons. This is BEFORE the fire: intact clean wood cabin, no charred house, no destroyed furniture.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-802b10bd-254e-4620-9baa-870bc1360e5e.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 2,
+    "notes": "已修正回憶烤架為同一重型長方形設備，乾淨外觀與火災後形成時間差。",
+    "previousSource": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-42cebc8b-5667-43b0-a9c7-ffdeb71c8be7.png",
+    "editPrompt": "Edit target image 1 with one consistency correction. Replace ONLY the tabletop barbecue equipment with the same heavy RECTANGULAR dark steel barbecue grill and separate blue-grey rectangular weighing display shown in image 2, in clean undamaged pre-fire condition. Keep the friendly adult man, his exact face and clothes, his hands preparing ordinary barbecue food, intact cabin, sunset forest, camera framing and light unchanged. The grill in image 2 is design reference only, do not copy its burned setting. Match its straight steel sides and grate, but before the fire. A separate removable blue-grey display is connected beside the grill; screen blank, no numbers or text. No people added, no horror violence, no human food imagery."
+  },
+  {
+    "segment": "CIN-C",
+    "id": "C-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: A torn handwritten diary and clean medical surface report lie on an outdoor camping table, text fields blank for later compositing. In deep background a single adult East Asian male with healed facial burn scarring and charcoal high collar stands tense by distant warm campfire, face partially hidden, visually ambiguous fear or hunger without explanation. No other people, no readable text. Night forest atmosphere, strong cinematic cold-warm contrast. Reference image 2 supplies the host's identity, use only the central adult male from that image.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-a8184481-c329-403c-9056-1889761e22c8.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-C",
+    "id": "C-03",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Ominous close view of a burned premium rectangular steel barbecue grill and a removable old electronic weighing sensor, blue-grey casing, exactly one large blank dark LCD window and physical buttons, no numbers or text. Charred wood and ash beneath grill, no food, no body, no gore. Cold moonlight and faint ember reflections. Leave screen unobstructed for later numbers compositing.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-ba1156fe-66eb-4936-b3bf-f294280db173.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-D",
+    "id": "D-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Underground improvised consulting room with a single chair, scattered empty medicine bottles and a dark medical briefcase on desk. A diagnostic paper illuminated by a purple UV flashlight, broad blank spaces on document for later fluorescence text compositing, no readable words. Cold clinic lighting, dense readable shadows, oppressive narrow room, no people.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-a544064c-4a50-4841-b50b-912ba8b1fb62.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-D",
+    "id": "D-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: An empty blackened barbecue grill in the foreground and a warped metal cabin door with a visible interior bolt in background. A faint memory of amber light contrasts with cold ashen present, cinematic visual metaphor for deliberate planning. No people, no food, no human remains. Rich material detail, severe psychological dread. No new secret tunnels or exits.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-7510ee00-1aeb-4967-bafc-620a6a779a6b.png",
+    "status": "已生成並人工檢視",
+    "previousSource": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-315d11af-cf81-46ac-8747-38ff01d559f6.png",
+    "editPrompt": "Edit image 1 only: replace the ROUND barbecue grill in the foreground with the RECTANGULAR steel grill body shown in reference image 2. Keep image 1's warped metal door, bolt, forest, composition, colors, lighting and atmosphere unchanged. Match rectangular straight sides, parallel horizontal grate, scorched steel, plausible scale. No extra objects, no people, no text, no gore. Preserve wide cinematic framing. Image 1 is edit target; image 2 is grill shape reference only.",
+    "version": 2,
+    "tool": "built-in image_gen"
+  },
+  {
+    "segment": "CIN-D",
+    "id": "D-03",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Top-down investigative evidence table with blank invitation, burned reporter notebook, diary pages, a blank diagnostic report and a photograph turned face down, four separate empty evidence trays. No readable text or numbers, no invented identity objects, no photos of bodies. Cold flashlight gives isolated pools of light with ample composition space for later evidence overlays. Cinematic horror illustration.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-44a5d0fc-d4ce-4516-8785-e798f68d1f17.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1,
+    "notes": "證據底圖；四格身分證物尚未設定，不在此圖創造證明。"
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-01",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: An adult detective viewed ONLY from behind in a long charcoal coat running away from a burned mountain cabin toward a dark forest exit, flashlight in hand. Camera stays back near wreckage, detective small and moving into depth. One person total, no pursuer. Tall stone chimney left edge and huge hollow scorched tree right edge. Cold fog and threatening negative space.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-cc890594-18a6-4933-8781-add7f73c6c3e.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-02",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: A wide deserted burned cabin exterior after detective has left: stone chimney and wreckage on left, huge ancient hollow scorched tree on right dominates half the frame, forest exit path fades into mist between them. No people, no eyes visible yet. Camera eye level from same world as reference, slow cinematic dread, cold moonlight and tiny embers.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-786ef37d-3ba4-4e96-a1dd-77c01a7a4d2a.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-03",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Close view into deep black hollow of a scorched ancient tree at night. Exactly one pair of human eyes looks intensely out from shadow, a severely scarred but fully healed brow and asymmetrical face shape barely visible. No open wounds, no exposed tissue, no extra eyes, no monster. Extremely ominous gaze, cold restrained rim light on charred bark, cinematic painterly horror. Reference image 2 central man is the identity of the eyes and brow, keep that identity.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-f252dd08-e2ea-44ae-ad3a-92c2633f7d04.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-04",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Closeup of ONE adult hand with severe fully healed dark burn scarring and contracted but intact five-finger anatomy emerging from black hollow tree, holding a rectangular old electronic weighing sensor with blue-grey casing, one blank LCD window and physical buttons. Dim cold blue glow lights fingers and charred bark. No numbers or text, no open wounds, no blood. Severe psychological horror, precise readable device. Reference image 2 shows the EXACT sensor design to preserve: a blue-grey rectangular single LCD unit with physical buttons.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-2321d687-a425-4e90-b35a-1a6d424a8e43.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-05",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Medium close shot of the SAME adult East Asian male host as the group photograph: short black hair, charcoal high collar, fully healed facial burn scars and strong asymmetry, a restrained distorted smile, intensely watchful human eyes. He lurks inside a scorched hollow tree, lit from below by cold blue electronic sensor light. Severe cinematic horror, no exposed tissue, no wounds, no gore, not a monster. One face only. Reference image 2 central man is the host identity; preserve his facial identity and short hair, charcoal high collar, and healed scars.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-84d3af93-12f8-4c37-ad6a-c559a57a3c04.png",
+    "status": "已生成並人工檢視",
+    "previousSource": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-b41bbe9a-48d8-4c34-b95f-e703468532ab.png",
+    "editPrompt": "Edit this cinematic horror illustration with one precise change: REMOVE the small glowing electronic gadget at the bottom left of the tree hollow completely, replacing only that gadget with dark charred bark and deep shadow. Keep the exact same adult man's face, healed burn scarring, short black hair, charcoal coat, distorted subtle smile, eye direction, hollow tree and framing unchanged. Preserve cold blue light falling on his face from an OFFSCREEN source; no device visible in this portrait shot. No other edits, no text, no gore.",
+    "version": 2,
+    "tool": "built-in image_gen"
+  },
+  {
+    "segment": "CIN-END",
+    "id": "END-06",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: Final wide empty forest road beside scorched hollow tree and burned cabin remnants after everyone is out of sight. The cabin's stone chimney is far left, tree at right, path leads into dense black mist. No people or visible eyes, no writing, no UI. Cold moonlight slowly gives way to enveloping darkness, rich cinematic negative space for ending fade.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-cfedd37e-dfae-4733-955f-4f3861602be0.png",
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen",
+    "version": 1
+  },
+  {
+    "segment": "CIN-D",
+    "id": "D-04",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: A gloved adult detective hand holds a plain unbranded smartphone beside an investigation table in burned mountain cabin, a neutral blank screen with four empty horizontal report slots, no legible writing, no numbers, no extra items that identify victims, screen reserved for later text. Blue-white glow and cold flashlight illuminate scorched notes. The modern phone is receiving a later police identification report, not a pre-fire document. Ominous cinematic atmosphere, realistic hands with correct anatomy.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-d05d5e8c-5bc5-48a2-af1c-c64033cd5af4.png",
+    "version": 1,
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen"
+  },
+  {
+    "segment": "CIN-D",
+    "id": "D-05",
+    "prompt": "Use case: illustration-story. Asset type: single independent cinematic storyboard frame for a psychological horror escape-room game. Wide landscape 16:9 composition. Style: premium cinematic painterly semi-realistic 2D horror illustration, subtle charcoal and oil-paint texture, complex layered composition, severe atmosphere of dread. Palette charcoal black, ash grey, cold night blue, restrained ember amber. Realistic readable lighting and materials, safe margins around important subjects. No title, no captions, no readable lettering, no numbers, no UI, no watermark, no collage or contact sheet. Adults only if any people. No dismemberment, no viscera, no exposed wounds, no explicit violence or cannibalism. The attached image is a visual style and world reference only; create the requested distinct shot, not a duplicate.\nRequested shot: A cramped burned mountain cabin basement has an ordinary utilitarian metal maintenance exit door open outward to the night forest at ground level. Shallow outside access steps lead to a forest path, not a long tunnel. Fresh damp boot marks cross ash from inside toward outside, their identity is not declared. Simple inside push latch, no magical lock, no hidden cave, no new puzzle symbols. Cold blue moonlight enters as a thin shaft through the opening, rich charred stone and concrete detail, no people, no bodies. This visibly explains an existing exit other than the bolted main door.",
+    "source": "/Users/chengchebing/.codex/generated_images/01a197d3-3d21-7043-bc00-444f46b95ab3/exec-7531ff8a-e7d5-430d-a0eb-461912dbc807.png",
+    "version": 1,
+    "status": "已生成並人工檢視",
+    "tool": "built-in image_gen"
+  }
+]
