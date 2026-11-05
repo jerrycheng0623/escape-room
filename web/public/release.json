@@ -1,0 +1,22 @@
+{
+  "appVersion": "1.0.0",
+  "mechanicRevision": 4,
+  "saveSchema": 4,
+  "sourceCodeCommit": "6a08ecaf7817b36ec7f3ebb72a4350a29d1d4042",
+  "sourceBaselineCommit": "f644249bee4bcb573118630e5c01864c0fb32d7d",
+  "createdAt": "2026-11-05T01:04:45.539593+08:00",
+  "cinematicVersion": 10,
+  "interfaceVersion": 14,
+  "modelVersion": 14,
+  "formalRelease": true,
+  "previewMode": false,
+  "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
+  "assets": {
+    "Game-DM509lx8.js": "f589c2adc7eedc53e9b0f2ba00db293b660064b07ad70e4c5a65ac76eb4b3340",
+    "Scene-BoG6DyYU.js": "c7c0d38ad158fe3baf392377b5f1e2a1574b2991f16a815be55d2ec17cd5b29a",
+    "index-Csg-mYni.js": "03b1e5f9b1503a9fd6371ee170333b36124f9f9c6b315f62429cf4db7c4977de",
+    "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
+    "solutions-BLWcHkn6.js": "444146dee3ea60e97b434e3b96a555617950538a8b0e371c4323ede1a66ef051"
+  },
+  "hotfix": "basket-visibility"
+}

@@ -1,0 +1,269 @@
+{
+  "date": "2026-11-03T16:03:36.273Z",
+  "base": "http://127.0.0.1:5173/",
+  "files": [
+    {
+      "name": "CIN-00-compatible-v7.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 2973767,
+      "sha256": "272c2163f3467ac112b8dedf86ba682b38156dff27bc68a411c022268416e238",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2973767",
+      "pass": true
+    },
+    {
+      "name": "CIN-00-compatible-v7.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 3948041,
+      "sha256": "762c7ee469ef425152ca787294eca39ff71eb4bd3ef13bd4fd9c9fc891685707",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/3948041",
+      "pass": true
+    },
+    {
+      "name": "CIN-A-compatible-v9.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1951007,
+      "sha256": "63b862c525d73696410ae62594b135839c5900e099fcfa276e5485c0e7420644",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1951007",
+      "pass": true
+    },
+    {
+      "name": "CIN-A-fallback-v9.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 2834293,
+      "sha256": "2ac003483272120b6ca0f34092da28b9fde836715b459b125015da09ed6230a6",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2834293",
+      "pass": true
+    },
+    {
+      "name": "CIN-B-compatible-v7.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1933935,
+      "sha256": "72fafc2381d41064ac0b9ba97c569f5de92ce52b8fd29d3827e2dc4b82c36ee3",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1933935",
+      "pass": true
+    },
+    {
+      "name": "CIN-B-compatible-v7.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 2590051,
+      "sha256": "5ed3cb3b319d47916dca421846fc72b7d096487248f6ffcf7896495a850d6db1",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2590051",
+      "pass": true
+    },
+    {
+      "name": "CIN-C-compatible-v7.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 2970734,
+      "sha256": "c51f4f52280bd809dfb72f66162c482dca7bf7e6ba3228f4752b761e106f8d5c",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2970734",
+      "pass": true
+    },
+    {
+      "name": "CIN-C-compatible-v7.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 4808873,
+      "sha256": "8530527d9c1f5ce046c9ea7593cfe89e1e2bf4ada214cd4d6c2b92dc4f8bac6a",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/4808873",
+      "pass": true
+    },
+    {
+      "name": "CIN-D-compatible-v9.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 4021743,
+      "sha256": "02632cb37df2c7712c70f1fe34ca89748fa71fbf8fb7de1ed10be7c1ee220118",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/4021743",
+      "pass": true
+    },
+    {
+      "name": "CIN-D-fallback-v9.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 4914435,
+      "sha256": "1cc1db30adc7fdbb71e575aefd3cbce281edd501696289daffb1c68d0b3de327",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/4914435",
+      "pass": true
+    },
+    {
+      "name": "CIN-END-compatible-v7.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 2924608,
+      "sha256": "0717182197c3ad7691d7fe6de3e92f5e7d85b810dc81f444dba6547612929a6b",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2924608",
+      "pass": true
+    },
+    {
+      "name": "CIN-END-compatible-v7.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 4673160,
+      "sha256": "52f6ec14141bc8bf10ac891367e14815864d7fec4d713af1d72d131b7e5ac714",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/4673160",
+      "pass": true
+    },
+    {
+      "name": "CIN-EPILOGUE-compatible-v7.mp4",
+      "status": 200,
+      "mime": "video/mp4",
+      "bytes": 1983143,
+      "sha256": "c1f9190dd429b4a13b932fe9784d01c4fc30c396d6b471cc41deac869e5e61a3",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/1983143",
+      "pass": true
+    },
+    {
+      "name": "CIN-EPILOGUE-compatible-v7.webm",
+      "status": 200,
+      "mime": "video/webm",
+      "bytes": 2244756,
+      "sha256": "01d614d0e58d0150aae48fc2b3ac4d46a2722b0dbf8e1c1023cd11308035edf2",
+      "rangeStatus": 206,
+      "contentRange": "bytes 0-1023/2244756",
+      "pass": true
+    }
+  ],
+  "legacy": [
+    {
+      "id": "CIN-00",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "status": 200,
+      "pass": true
+    }
+  ],
+  "subtitles": [
+    {
+      "id": "CIN-00",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-00",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "lang": "zh-Hant",
+      "status": 200,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "lang": "en",
+      "status": 200,
+      "pass": true
+    }
+  ]
+}

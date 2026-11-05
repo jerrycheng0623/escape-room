@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05T03:15:15.637Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "engine": "chromium",
+  "browser": "151.0.7922.34",
+  "method": "Engineering saved-state fixtures; Chromium real CDP touch aiming; WebKit touch taps and mouse pointer aiming. Not formal exploration or physical iOS.",
+  "checks": [
+    "A trap reload, cannot reset before hook rest, real recovery",
+    "B wrong transport return/reload atomic, no film loss",
+    "C35 stays balanced after release/reload; wheel opens with durable support before reward"
+  ],
+  "errors": [],
+  "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: /查看 硬紙索引台$/ })\u001b[22m\n\n    at Object.inspect (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-v4-boundaries.mjs:5:2106)\n    at async file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-v4-boundaries.mjs:10:398"
+}

@@ -1,0 +1,62 @@
+{
+  "version": 6,
+  "date": "2026-11-03",
+  "storyVersion": 5,
+  "status": "封閉空間、碰撞／遮擋與具體道具重製；進階機關為待選提案",
+  "sourceArt": "assets/art-redesign-v4",
+  "concept": "assets/scene-v6/concepts/enclosed-guest-room.png",
+  "textures": [
+    "assets/scene-v6/textures/burned-plaster.png",
+    "assets/scene-v6/textures/scorched-wood.png"
+  ],
+  "modelSource": "web/src/game/roomModels.js",
+  "collisionSource": "web/src/game/space.mjs",
+  "playerRadius": 0.28,
+  "maxMovementStep": 0.06,
+  "interactionRange": 2.65,
+  "enclosure": "地板＋四面不透明厚牆＋天花板，封閉門窗",
+  "guidance": "只指觀察地點與關聯，保留3／5／7分段",
+  "proposals": {
+    "A": [
+      "A1｜被抽換的報導版面（建議主線）",
+      "A2｜行李箱的雙層保管機構",
+      "A3｜採訪錄音與被刪掉的回答"
+    ],
+    "B": [
+      "B1｜底片接觸印樣與缺席者（建議主線）",
+      "B2｜攝影機位重建",
+      "B3｜被打亂的工作序列"
+    ],
+    "C": [
+      "C1｜校正、去皮與歷史載重（建議主線）",
+      "C2｜兩段式機械平衡平台",
+      "C3｜儲藏間事件重建板"
+    ],
+    "D": [
+      "D1｜雙層診療檔案的交叉索引（建議主線）",
+      "D2｜維修動線與倒櫃先後",
+      "D3｜訪談紀錄與病例保密封存"
+    ]
+  },
+  "notClaimed": [
+    "電影級掃描模型",
+    "實體手機效能通過",
+    "新提案已採用或實作"
+  ],
+  "wallTrimClearance": 0.23,
+  "layout": "3D/scene/enclosed-v6-layout.json",
+  "models": [
+    "3D/scene/enclosed-A-v6.glb",
+    "3D/scene/enclosed-B-v6.glb",
+    "3D/scene/enclosed-C-v6.glb",
+    "3D/scene/enclosed-D-v6.glb"
+  ],
+  "verification": "assets/scene-v6/verification.json",
+  "generation": "assets/scene-v6/generation.json",
+  "renderFallback": {
+    "softwarePixelRatio": 0.65,
+    "softwareBump": false,
+    "softwareAnisotropy": 1,
+    "MSAA": "只在高畫質啟用"
+  }
+}

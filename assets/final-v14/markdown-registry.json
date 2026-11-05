@@ -1,0 +1,215 @@
+{
+  "version": 14,
+  "documents": [
+    {
+      "path": "3D/README.md",
+      "role": "現行維護文件",
+      "sha256": "9e68753db20adea9e76f98115ef7472836cf69695f02ec77a81f5bbe3a225d0f",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "3D/final-v14/README.md",
+      "role": "現行維護文件",
+      "sha256": "469622bb2863ec382d76cb96cca3094316f369e4f943974f89cda4e6a5785ffc",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "PLAN.md",
+      "role": "現行維護文件",
+      "sha256": "aaf84a68b550b2a8a9c5a837446cebd70c303bf0d14dbe951fce37cae7742f82",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "README.md",
+      "role": "現行維護文件",
+      "sha256": "148ce1a34ec2eac6e8709b08384971ef57075e1168cd27f521cdd0b433839d93",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "_餘燼裡的第六人_劇情架構與機關設計指引.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "92db2aab3fc7e6a19558c6e19b7f9da020ac54a9295177121ff6d117b5f4a03f",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "_餘燼裡的第六人_完整劇情腳本.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "36bb34dd435bb51e4eced7e3561484847060eb13c0255239d8159a792584cacf",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "_餘燼裡的第六人_機關與劇本設定_記者設定更新_.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "94e6de2171e4175d3568117f6359a9d5bc24f4997b04bfa1179d5cbc7c505086",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/_餘燼裡的第六人_劇情架構與機關設計指引.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "0973036d9983f691acd6d8d0129d378c66b9cecd4450d8bd9ea7f3cb6c4b9f09",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/_餘燼裡的第六人_完整劇情腳本.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "fd7b751cec3763743a0ea15ad85a848ac9f3198e97a502cd644df350f6aff674",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/遊戲腳本與機關狀態設定.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "8525c05e26c1850e3862fe2aa5f8842fe1eedc5b5e3b8ac806ca9cb4d9d14e49",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-story-completion/_餘燼裡的第六人_劇情架構與機關設計指引.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "7524ccbee8249a129dcdf3e7c24725b36a4489224b597659a2fc9dc9cf5e3b51",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-story-completion/_餘燼裡的第六人_完整劇情腳本.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "85606b34e617b476bf681875c4512be93b7869ea4323b728895962543063f565",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-02-before-story-completion/遊戲腳本與機關狀態設定.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "0d46f92903716b33a2945125f84fb0c9c513311a720d6f5ed1543377334fc8d4",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-03-machine-v3-before-full-redesign/machine.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "8cd3a95fbe1950ba6938da76bc88c67896483d26fb0912d325b197ca138922c5",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-03-machine-v3-before-full-redesign/tests/test-execution-v3.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "89b81376b680917b19e46745eff07c5db18c0e3543ffe9d37aab0abc2991fd06",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "archive/2026-11-03-machine-v3-before-full-redesign/tests/test-matrix-v3.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "b9fee98989d900a536cadde0d1cfb404a37055799ab1c45f03b7179c9aae2937",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/art-redesign-v4/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "f007ffd525612a8b8d41bf59e958804a923eb9a5459d9654fc88c288d90566c0",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/cinematics/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "d1411c99241e18c3696efc64113f8cc3b7a8e8a05777919d89a5f06e5e3ad641",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/interface-v11/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "4cac5161a0d53358497272f198cb4687aa990df59b11f30c26cd4d71dc60830d",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/playback-v6/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "6a2aae27653434aa917d7917a6226e23485b7bfbeaf92bc345315ac349c00f57",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/soundscape-v15/README.md",
+      "role": "現行維護文件",
+      "sha256": "39cae6bc72b9891c4768676d33728b4b308d012f21a9671043d62298c499665a",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/story-v10/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "32cb6ddb95a8da25d87445c957f6a489a6a633950ccd079d160e1bf0c924a1fe",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/story-v5/README.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "fcd486ec15e06466fcdddc7b7137b2e844b461f0d00d422fd533072913ab9e96",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/story/2D敘事與畫面文字-v5.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "2ca0410af4c2e1a0bd7e6ba4b76e885a40b59cdcce53b0ad6ab6bee8385f8a81",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/world-v4/README.md",
+      "role": "現行維護文件",
+      "sha256": "33a3c36eea4aff9a93b3e97128e81007aa9365c2c7d9f3189932405c394710cf",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_artifact (1).md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "0a05b4bd7a1c9d96f6989e3a70007585733ef4bdbb052715a0b7fcf165165c99",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_artifact (2).md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "4a659c19a22f168552a0228929d5b3d1efc61787ba20caa7352339fff09eef78",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "machine.md",
+      "role": "現行維護文件",
+      "sha256": "0b609a998fb79110d7ff6a3d966dde1d8de08d880204de196bf821b295ff794c",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "pending-content.md",
+      "role": "現行維護文件",
+      "sha256": "d3619f77ab4ae78505a481310eeac0c36acfc8cbbbc01f8df08d24b7cd5f13be",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "test.md",
+      "role": "現行維護文件",
+      "sha256": "b5951575a9e1d1791fdc257706f2fdb66064aa07a382f5c0a9d2233792b1dc33",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "verify.md",
+      "role": "現行維護文件",
+      "sha256": "bb53305652c1a3c67367a024022b5e90de71b445250720d7dca9b5318b2e8859",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "web/README.md",
+      "role": "現行維護文件",
+      "sha256": "a1f71a9ddbc169b9a7f808b8fce5892d2fdda3871e438372a3a91fb96a36c5c5",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "操作指南與探索模式規格.md",
+      "role": "現行維護文件",
+      "sha256": "061da818fb15e716a503f5d0edfcc4764712b3f1d9412dc4ba9199b14d3afb17",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "素材交付.md",
+      "role": "現行維護文件",
+      "sha256": "21f8d3eeb9c4b217a0157c7248ba924375f549e9695d62420057c9a3ff6b7203",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "遊戲腳本與機關狀態設定.md",
+      "role": "現行維護文件",
+      "sha256": "aff2a3c5fcfd8f99d50f07601f31a41e5b818ca10d1110da95a4c10002fffbc9",
+      "missingLocalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-04",
+  "issues": [
+    {
+      "kind": "production input",
+      "baselineSource": "1947b41a695fc026fcbabe2bcb9075bcabfa8b2b",
+      "location": "GameGuide Demonstration mechanism input",
+      "observed": "半形逐字正常，但全形數字被ASCII正則立即清空；此結果不代表重現所有使用者環境成因",
+      "fix": "全形NFKC正規化，組字保留至提交、四組數字輪、清空，限制四位",
+      "before": "input-baseline.json",
+      "after": "q-guide-input.json"
+    },
+    {
+      "kind": "test selector",
+      "location": "test-q-guide-input.mjs",
+      "observed": "精確名稱返回不匹配實際按鈕含箭頭的← 返回，測試停在等待",
+      "fix": "改用指南頂部的實際按鈕定位，不更改產品返回行為",
+      "after": "q-guide-input.json四組通過"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "revision": 15,
+  "mediaAudioVersion": 11,
+  "scoreTempo": 0.72,
+  "roomAmbience": {
+    "path": "assets/soundscape-v15/room-rain-thunder-v15.m4a",
+    "duration": 48,
+    "rainRMS": 0.013110535004895903,
+    "thunderOnsets": [
+      7.5,
+      27,
+      39
+    ],
+    "bytes": 587150,
+    "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
+  },
+  "segments": [
+    {
+      "id": "CIN-00",
+      "durationMs": 86500,
+      "pianoStartSeconds": 0,
+      "pianoGainDb": 3,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-00-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-00-compatible-v10.mp4",
+          "bytes": 2655667,
+          "sha256": "b771d1ca1073c1a9c53ce7b2113ce410c80247d08e3da750b971c4cb4e491303"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-00-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-00-compatible-v10.webm",
+          "bytes": 5509721,
+          "sha256": "6a01ea8816c2a121e057bfea1d75602f08e8dbd6594f422700ba6d7bee4fd02a"
+        }
+      ]
+    },
+    {
+      "id": "CIN-A",
+      "durationMs": 45000,
+      "pianoStartSeconds": 48,
+      "pianoGainDb": 1,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-A-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-A-compatible-v10.mp4",
+          "bytes": 1662043,
+          "sha256": "a25b357e1ec8bfacbd540c24e44e203c2be78b4a5a6d3f08d5a22561626ad7b9"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-A-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-A-compatible-v10.webm",
+          "bytes": 3678521,
+          "sha256": "af1027773df56541a67d3848c11cb20cdeae7c3c89a61a4269a65ddd46bc4a99"
+        }
+      ]
+    },
+    {
+      "id": "CIN-B",
+      "durationMs": 49500,
+      "pianoStartSeconds": 90,
+      "pianoGainDb": -7,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-B-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-B-compatible-v10.mp4",
+          "bytes": 1551191,
+          "sha256": "059a3b0031a234df104d08a81f0e22fe5adde6d63e46333a051e3f60a6ca3e7e"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-B-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-B-compatible-v10.webm",
+          "bytes": 2914546,
+          "sha256": "bda8bf65164e9d4088a45630ccdab4df3670df81f7fb2734ed4a849b6f98fdef"
+        }
+      ]
+    },
+    {
+      "id": "CIN-C",
+      "durationMs": 73500,
+      "pianoStartSeconds": 124,
+      "pianoGainDb": 2,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-C-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-C-compatible-v10.mp4",
+          "bytes": 2321559,
+          "sha256": "412a246546e5b8efecd25540d0ab3646258c79ccc94c427b2647396b33c4e19e"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-C-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-C-compatible-v10.webm",
+          "bytes": 4816798,
+          "sha256": "4ba4addc5b42f581c6fa06f76fb8958f4b232e2db4c71aab516f0c71448707d8"
+        }
+      ]
+    },
+    {
+      "id": "CIN-D",
+      "durationMs": 96000,
+      "pianoStartSeconds": 176,
+      "pianoGainDb": 2,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-D-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-D-compatible-v10.mp4",
+          "bytes": 3860217,
+          "sha256": "bec2a1397edcc8914c7cf16efa3aa080b10621c47fbb58684cf12d8ed876a714"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-D-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-D-compatible-v10.webm",
+          "bytes": 7592689,
+          "sha256": "82c71f5d6548a89f3a07a3785136da8788fb21344c300aaff3be7394075eb492"
+        }
+      ]
+    },
+    {
+      "id": "CIN-END",
+      "durationMs": 72000,
+      "pianoStartSeconds": 228,
+      "pianoGainDb": -1,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-END-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-END-compatible-v10.mp4",
+          "bytes": 3114183,
+          "sha256": "30c2cc4ee1fcbe3446f02e64c847026f57a6022fe973f08e82ba0b58851d2348"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-END-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-END-compatible-v10.webm",
+          "bytes": 6577942,
+          "sha256": "ccb21a32f84baa5f984076c898e42674f652abfce27ad91091eaff39e4aeb27e"
+        }
+      ]
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "durationMs": 62000,
+      "pianoStartSeconds": 282,
+      "pianoGainDb": 1,
+      "sources": [
+        {
+          "path": "assets/soundscape-v15/video/CIN-EPILOGUE-compatible-v11.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.mp4",
+          "bytes": 1827556,
+          "sha256": "42a47fbc27c8a20696acdad0998c1bf94bc4aa29d68a97a40564926df8ca2a10"
+        },
+        {
+          "path": "assets/soundscape-v15/video/CIN-EPILOGUE-compatible-v11.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.webm",
+          "bytes": 3340480,
+          "sha256": "b7fd30641211c04ef7818b5d55717730d77b5cdb89b0db323864cb9530572edb"
+        }
+      ]
+    }
+  ]
+}

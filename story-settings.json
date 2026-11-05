@@ -1,0 +1,81 @@
+{
+  "version": 5,
+  "date": "2026-11-03",
+  "canonical": "assets/story/content-v5.json",
+  "characters": [
+    {
+      "id": "reporter",
+      "name": "林依瑤",
+      "en": "Lin Yiyao",
+      "role": "記者",
+      "roleEn": "Reporter",
+      "intro": "受邀採訪五週年聚會，私下委託偵探保護。",
+      "introEn": "Invited to cover the anniversary; privately hired the detective.",
+      "truth": "她為名聲壓下調查線索，失實報導令真相被延後；這不等於她犯下當晚罪行。",
+      "truthEn": "She suppressed leads for attention. That does not establish responsibility for the new crime."
+    },
+    {
+      "id": "host",
+      "name": "王杰倫",
+      "en": "Wang Jielun",
+      "role": "聚會主辦人",
+      "roleEn": "Host",
+      "intro": "五年前火災倖存者，邀請與舊事相關的人重返山屋。",
+      "introEn": "Survivor of the old fire; invited people connected to the past.",
+      "truth": "聚會原帶控制與報復意圖，當晚氣味觸發後攻擊劉涵，對其他人下手並縱火掩飾；經維修出口逃離。",
+      "truthEn": "A gathering intended for confrontation escalated into assault, concealment and fire. He escaped through the maintenance exit."
+    },
+    {
+      "id": "benefactor",
+      "name": "劉涵",
+      "en": "Liu Han",
+      "role": "成年恩人好友",
+      "roleEn": "Adult friend and benefactor",
+      "intro": "長期送物資照顧王杰倫，希望用烤肉派對讓他重新生活。",
+      "introEn": "Supported Wang for years and hoped the barbecue would cheer him.",
+      "truth": "他先於最後合照遭襲，與烤架異常及項鍊相關，也包括在四名死者之內。",
+      "truthEn": "Assaulted before the last photograph; connected to the grill and pendant, and included among the four dead."
+    },
+    {
+      "id": "doctor",
+      "name": "張萍",
+      "en": "Zhang Ping",
+      "role": "心理醫生",
+      "roleEn": "Psychological clinician",
+      "intro": "受邀見證聲稱的康復，攜帶個案紀錄與醫療公事包。",
+      "introEn": "Invited to witness a claimed recovery; carried case records.",
+      "truth": "保存五年前的隱藏診療紀錄；病歷不能直接認罪或洗清嫌疑，正式結果仍須交叉核對。",
+      "truthEn": "Held concealed clinical notes. A record alone establishes neither guilt nor innocence."
+    },
+    {
+      "id": "photographer",
+      "name": "劉子傑",
+      "en": "Liu Zijie",
+      "role": "攝影師",
+      "roleEn": "Photographer",
+      "intro": "受酬拍攝紀念照，以手機記錄工作花絮，兩張合照都在鏡頭後。",
+      "introEn": "Paid to photograph the gathering; recorded work fragments and stayed behind the camera.",
+      "truth": "零散工作片段提供拍攝順序與取物線索，並未完整錄下犯罪。",
+      "truthEn": "His fragments corroborate sequence and handling of objects, not the entire crime."
+    }
+  ],
+  "twoFires": "五年前先火災受困，之後食用親屬遺體；本次聚會才蓄意縱火掩飾",
+  "timeline": {
+    "gathering": "D0 18:00",
+    "firstPhoto": "18:30四人入鏡",
+    "watchAndHistory": "19:15",
+    "lastPhoto": "20:00三人入鏡",
+    "detective": "D1 03:00，拋錨耽擱四小時，警方當晚限定安全區",
+    "identity": "結局後數日"
+  },
+  "sequence": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "optional-bonus",
+    "ending",
+    "epilogue"
+  ],
+  "media": "assets/story-v5/manifest.json"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "C-01",
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Image2 is pendant shape reference ONLY. Preserve the exact two ADULTS, all clothes and faces, scorched eye bands, grilled food, four-legged rectangular grill, scale platform, camera composition, terrace and dusk lighting. Change ONLY the necklace pendant worn by the long-haired masked adult at left. Match image2's titanium OPEN HEXAGON containing a prominent DIAGONAL METAL BAR from lower left to upper right, with small open GAP at upper right. No other changes. Do not introduce the burned environment from image2 into this before-fire scene.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-84a92a2a-216c-4551-bb03-5883d30f8fd8.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/C-01.png",
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

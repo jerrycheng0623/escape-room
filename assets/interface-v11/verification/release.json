@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04T20:53:59.330238+08:00",
+  "baselineSource": "b2cc21f95a17c05e909baceb17d8fafbb064bbaa",
+  "sourceCodeCommit": "b313287c6ed4dc780bdac516356ac64762b6afcc",
+  "tagCommit": "f723b32661ff73fabe600f7c8a58bd06b923517b",
+  "pagesCommit": "0195fc70a3cdad0270f0b8149e2584795c69292e",
+  "scope": "分區單張證物閱讀與筆記、hover環顧／Esc、全螢幕依API、行李鎖逐字輸入與觸控數字輪",
+  "unchanged": "機關v4、影片字幕v10與所有角色原畫",
+  "limits": [
+    "實體iPhone/iPad/Android未測",
+    "工程瀏覽器未取得原生游標鎖定，hover環顧實測通過",
+    "全螢幕API不支援時保留一般模式並顯示繁中說明",
+    "完整流程在介面v11主建置執行；最後僅再補密碼欄首次點選處理，另以兩引擎兩裝置逐字輸入專案回歸"
+  ],
+  "workflow": 41833132403,
+  "workflowConclusion": "success",
+  "publicNotebookProfiles": 8,
+  "publicLuggageProfiles": 4,
+  "publicMechanismBoundaryPass": true,
+  "publicFingerprintFiles": 16,
+  "pass": true
+}

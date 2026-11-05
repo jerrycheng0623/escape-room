@@ -1,0 +1,179 @@
+{
+  "pass": true,
+  "video": [
+    {
+      "id": "CIN-00",
+      "file": "CIN-00-compatible-v11.mp4",
+      "picturePackets": 2076,
+      "duration": 86.51758333333333,
+      "peak": 0.42080438137054443,
+      "rmsBefore": 0.007243264466524124,
+      "rmsAfter": 0.023937499150633812,
+      "addedSignalRms": 0.022836802527308464,
+      "originalTransientCorrelation": 0.550278296045192,
+      "pass": true
+    },
+    {
+      "id": "CIN-00",
+      "file": "CIN-00-compatible-v11.webm",
+      "picturePackets": 2076,
+      "duration": 86.51758333333333,
+      "peak": 0.42765429615974426,
+      "rmsBefore": 0.007249055430293083,
+      "rmsAfter": 0.02406398393213749,
+      "addedSignalRms": 0.022956250235438347,
+      "originalTransientCorrelation": 0.5571001916601339,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "file": "CIN-A-compatible-v11.mp4",
+      "picturePackets": 1080,
+      "duration": 45.00025,
+      "peak": 0.3392621576786041,
+      "rmsBefore": 0.007186514791101217,
+      "rmsAfter": 0.025063255801796913,
+      "addedSignalRms": 0.024020401760935783,
+      "originalTransientCorrelation": 0.5305520429112072,
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "file": "CIN-A-compatible-v11.webm",
+      "picturePackets": 1080,
+      "duration": 45.00033333333333,
+      "peak": 0.32392892241477966,
+      "rmsBefore": 0.007194704841822386,
+      "rmsAfter": 0.025112638249993324,
+      "addedSignalRms": 0.024061094969511032,
+      "originalTransientCorrelation": 0.5620341682394377,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "file": "CIN-B-compatible-v11.mp4",
+      "picturePackets": 1188,
+      "duration": 49.505,
+      "peak": 0.2801177501678467,
+      "rmsBefore": 0.007261175662279129,
+      "rmsAfter": 0.017908141016960144,
+      "addedSignalRms": 0.016367726027965546,
+      "originalTransientCorrelation": 0.491177505868069,
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "file": "CIN-B-compatible-v11.webm",
+      "picturePackets": 1188,
+      "duration": 49.505,
+      "peak": 0.2828325927257538,
+      "rmsBefore": 0.007268222514539957,
+      "rmsAfter": 0.017983796074986458,
+      "addedSignalRms": 0.016426512971520424,
+      "originalTransientCorrelation": 0.49394453411922246,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "file": "CIN-C-compatible-v11.mp4",
+      "picturePackets": 1764,
+      "duration": 73.51441666666666,
+      "peak": 0.1525833159685135,
+      "rmsBefore": 0.007315824273973703,
+      "rmsAfter": 0.011623106896877289,
+      "addedSignalRms": 0.009084373712539673,
+      "originalTransientCorrelation": 0.8987317503205047,
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "file": "CIN-C-compatible-v11.webm",
+      "picturePackets": 1764,
+      "duration": 73.51441666666666,
+      "peak": 0.14698126912117004,
+      "rmsBefore": 0.007332430221140385,
+      "rmsAfter": 0.011678872630000114,
+      "addedSignalRms": 0.009106953628361225,
+      "originalTransientCorrelation": 0.9285437556040116,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "file": "CIN-D-compatible-v11.mp4",
+      "picturePackets": 2304,
+      "duration": 96.0145,
+      "peak": 0.22903046011924744,
+      "rmsBefore": 0.007611763663589954,
+      "rmsAfter": 0.01665041409432888,
+      "addedSignalRms": 0.014828980900347233,
+      "originalTransientCorrelation": 0.7478066174042346,
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "file": "CIN-D-compatible-v11.webm",
+      "picturePackets": 2304,
+      "duration": 96.0145,
+      "peak": 0.22368335723876953,
+      "rmsBefore": 0.007629921194165945,
+      "rmsAfter": 0.01673015207052231,
+      "addedSignalRms": 0.014887603931128979,
+      "originalTransientCorrelation": 0.7527045303792088,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "file": "CIN-END-compatible-v11.mp4",
+      "picturePackets": 1728,
+      "duration": 72.00508333333333,
+      "peak": 0.28077852725982666,
+      "rmsBefore": 0.009248055517673492,
+      "rmsAfter": 0.02125862054526806,
+      "addedSignalRms": 0.019166460260748863,
+      "originalTransientCorrelation": 0.9352042902926531,
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "file": "CIN-END-compatible-v11.webm",
+      "picturePackets": 1728,
+      "duration": 72.00508333333333,
+      "peak": 0.27858036756515503,
+      "rmsBefore": 0.009248488582670689,
+      "rmsAfter": 0.02130832150578499,
+      "addedSignalRms": 0.01919795572757721,
+      "originalTransientCorrelation": 0.9480291743691647,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "file": "CIN-EPILOGUE-compatible-v11.mp4",
+      "picturePackets": 1488,
+      "duration": 62.0205,
+      "peak": 0.2886490821838379,
+      "rmsBefore": 0.007137670647352934,
+      "rmsAfter": 0.01988914981484413,
+      "addedSignalRms": 0.01855863817036152,
+      "originalTransientCorrelation": 0.21534663983456467,
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "file": "CIN-EPILOGUE-compatible-v11.webm",
+      "picturePackets": 1488,
+      "duration": 62.0205,
+      "peak": 0.29213225841522217,
+      "rmsBefore": 0.0071439072489738464,
+      "rmsAfter": 0.01994629204273224,
+      "addedSignalRms": 0.018609853461384773,
+      "originalTransientCorrelation": 0.19601878441721543,
+      "pass": true
+    }
+  ],
+  "weather": {
+    "duration": 48.01891666666667,
+    "rms": 0.030687930062413216,
+    "peak": 0.2302200198173523,
+    "pass": true
+  }
+}

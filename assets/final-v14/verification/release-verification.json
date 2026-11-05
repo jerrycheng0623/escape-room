@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-05T01:41:35.407371+08:00",
+  "sourceBranch": "Websit-final",
+  "sourceCodeCommit": "804eb6cb9a1ff056191fbe48173a85dff0947d14",
+  "sourceMetadataCommit": "ce911f135b0f1271b5e53077f8a845d75fcb0b41",
+  "pagesCommit": "0d5dfb13c12aa7b3f9e10cec4fee3a89c4c479e1",
+  "pagesWorkflow": {
+    "id": 41876315743,
+    "conclusion": "success",
+    "url": "https://github.com/jerrycheng0623/escape-room/actions/runs/41876315743"
+  },
+  "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
+  "deployment": true,
+  "fileIntegrity": {
+    "pass": true,
+    "files": 1434,
+    "videoRangesAndMIME": 28,
+    "transient503Recovered": 2,
+    "evidence": "public-files.json"
+  },
+  "entry": {
+    "pass": true,
+    "cases": 4,
+    "evidence": "public-entry/entry-report.json"
+  },
+  "sceneProfiles": {
+    "pass": true,
+    "rooms": 12,
+    "evidence": "public-player/player.json"
+  },
+  "mobileFullPlaythrough": {
+    "pass": true,
+    "evidence": "public-flow-mobile-final/flow.json"
+  },
+  "guideAndInput": {
+    "pass": true,
+    "guideProfiles": 6,
+    "inputProfiles": 4,
+    "evidence": [
+      "public-guide/guide-modes.json",
+      "public-q/q-guide-input.json"
+    ]
+  },
+  "nativePointerLockPublic": {
+    "status": "blocked",
+    "reason": "CUA reported the Mac is locked and cannot be automatically unlocked. Chromium requires a native focused/key window for pointer lock; DOM focus/connected/user-activation checks were true, but the browser returned WrongDocumentError. Permission grant did not resolve it. Local earlier native test passed five checks; current public native repeat must await manual unlock.",
+    "userQuestionPending": true,
+    "references": [
+      "https://chromium.googlesource.com/chromium/src/+/refs/heads/main/content/browser/renderer_host/render_widget_host_view_mac.mm",
+      "https://github.com/microsoft/playwright/issues/20956"
+    ]
+  },
+  "legacy": [
+    {
+      "path": "mechanisms-v3/",
+      "indexSHA256": "edd80d16b524b465ca7fa482ca767661d27bcfb6e27212cc829de56cd2014371",
+      "preserved": true
+    },
+    {
+      "path": "mechanisms-v4/",
+      "indexSHA256": "d528200da9231413b68253b19d13a0c57d1c307404666fef20366b0897105ce8",
+      "preserved": true
+    }
+  ],
+  "pr": "https://github.com/jerrycheng0623/escape-room/pull/5",
+  "status": "deployed; public non-native checks passed; public native window test blocked by locked Mac",
+  "limits": [
+    "實體 iPhone／iPad 未測試",
+    "硬體 GPU 效能與首次玩家盲測未驗收",
+    "完整英文化仍待完成"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "EVIDENCE-01",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Evidence still life on scorched table: EXACTLY THREE separate empty drinking glasses and EXACTLY ONE small unbranded glass bottle, bottle empty, faint dry pale residue in bottoms. No pills, no procedure, no drug labels, no readable text, no people. Top-down oblique framing, each object clearly countable, hard flashlight sidelight, flat olive-brown gouache. Do not assert what residue is.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-b6f35503-63f4-4a5d-a665-3bd8c0cf845c.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+  ]
+}

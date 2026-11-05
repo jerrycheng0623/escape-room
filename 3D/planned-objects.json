@@ -1,0 +1,156 @@
+{
+  "version": 2,
+  "status": "原預留P037–P042已製作參考及GLB初模；機關／角色資料後續細化",
+  "objects": [
+    {
+      "id": "P037",
+      "name": "破裂手錶",
+      "room": "A",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P037/P037-six-views-v1.png",
+      "model": "3D/models/P037-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.04,
+        "y": 0.11,
+        "z": 0.015
+      },
+      "movingOrSeparateParts": "錶體、玻璃、指針",
+      "requirements": "19:15；歸屬特徵與停擺原因待提供",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "425806e967cf219ab02335a87cd99fe3d0a34341cac41dc415d738848eaf5397",
+      "prompt": "Use case: product-mockup. Asset: P037 six-angle modeling reference for a realistic 3D horror escape-room game. One coherent stainless-steel wristwatch, 40 mm round case, dark charcoal dial, two plain hands, cracked glass, worn dark brown leather strap, unique small rectangular notch on strap keeper for visual identification. No blood, no logos. Arrange six nonoverlapping views of the SAME object in a clean 3 by 2 grid: front, right, back, left, top, underside. Dark neutral grey studio backdrop, readable soft lighting, realistic metal and leather, consistent dimensions and strap shape. Front hands show 7:15; no legible dial text, no labels, no watermark. Reference is for later geometry modeling, not an infographic."
+    },
+    {
+      "id": "P038",
+      "name": "特殊鈦項鍊",
+      "room": "B照片與C實物",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P038/P038-six-views-v1.png",
+      "model": "3D/models/P038-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.09,
+        "y": 0.14,
+        "z": 0.008
+      },
+      "movingOrSeparateParts": "鍊身、墜飾",
+      "requirements": "雙照片／烤架殘留輪廓一致；正式樣式待提供",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "08fd275a826331040ca6e3ac25c4f55748bf9e5167a3bacbafca8a5aeddbdb9a",
+      "prompt": "Use case: product-mockup. Asset: six-angle modeling reference for realistic horror escape-room props. Exactly one coherent design shown in a clean 3x2 grid, front/right/back/left/top/underside, consistent scale and geometry. Dark neutral-grey backdrop, realistic materials, soft readable studio light. No labels, no text, no logo, no watermark. A distinctive titanium necklace: fine oval chain and a 28 mm open hexagonal pendant with a single diagonal bar from bottom-left to top-right. Brushed titanium, one tiny nick at upper right, mildly soot-marked but intact. Same shape each view, necklace open loop laid flat."
+    },
+    {
+      "id": "P039",
+      "name": "電子鐘",
+      "room": "B照片背景",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P039/P039-six-views-v1.png",
+      "model": "3D/models/P039-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.24,
+        "y": 0.035,
+        "z": 0.09
+      },
+      "movingOrSeparateParts": "鐘殼、獨立顯示面",
+      "requirements": "20:00；同晚準確性待提供",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "df8d809f4dbfd6e9854e8aaf58263ace5a12e4e399fc98bf43198dedba8ffcf8",
+      "prompt": "Use case: product-mockup. Create a studio six-view reference sheet of one unbranded rectangular digital wall clock. Dark metal case 240 mm wide, 90 mm high, 35 mm deep. A blank black recessed display, two corner screws, simple rear wall mount. 3 columns 2 rows, front, right, back, left, top, underside; consistent object. Neutral grey background, realistic brushed steel, soft studio light. No numbers or words, no logos, no watermark."
+    },
+    {
+      "id": "P040",
+      "name": "三只紅酒杯",
+      "room": "入口廚房殘角",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P040/P040-six-views-v1.png",
+      "model": "3D/models/P040-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.255,
+        "y": 0.075,
+        "z": 0.21
+      },
+      "movingOrSeparateParts": "三杯獨立物件、殘留層",
+      "requirements": "飲用者與殘留辨認依據待提供",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "9fccb63fbba50df1f6beee413167b1a5e772da38dec00d3249df08aa75b225eb",
+      "prompt": "Use case: product-mockup. Asset: six-angle modeling reference for realistic horror escape-room props. Exactly one coherent design shown in a clean 3x2 grid, front/right/back/left/top/underside, consistent scale and geometry. Dark neutral-grey backdrop, realistic materials, soft readable studio light. No labels, no text, no logo, no watermark. One set of exactly THREE matching clear stemmed red-wine glasses shown as a group in each view. Each 210 mm tall, thin circular foot, long stem, thin-walled hollow bowl, a faint dry opaque residue near bottom, no liquid, no blood. All three glasses same shape and intact. Do not add a fourth glass."
+    },
+    {
+      "id": "P041",
+      "name": "容器殘骸",
+      "room": "客廳／廚房／A臥室",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P041/P041-six-views-v1.png",
+      "model": "3D/models/P041-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.28,
+        "y": 0.18,
+        "z": 0.34
+      },
+      "movingOrSeparateParts": "三個位置實例、殘骸",
+      "requirements": "只作現場痕跡；性質待佐證",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "98f638d86bde3944ee0cc5cd0957a0d0a47c07a8ce4370966575e6bf74588f1e",
+      "prompt": "Use case: product-mockup. Studio six-view modeling sheet of a single empty heat-deformed plastic storage jug fragment. Inert discarded object, dark soot-grey warped hollow shell, buckled flat sides, broken handle opening, empty interior, no cap or spout details, no liquids, no labels. 3x2 consistent front/right/back/left/top/underside views. Neutral grey background, realistic weathered surfaces. No text or logos."
+    },
+    {
+      "id": "P042",
+      "name": "倒塌鐵櫃",
+      "room": "D",
+      "status": "參考圖已生成並檢視；程序化初模已建立",
+      "reference": "3D/references/P042/P042-six-views-v1.png",
+      "model": "3D/models/P042-blockout-v1.glb",
+      "dimensionsMeters": {
+        "x": 0.9,
+        "y": 0.4,
+        "z": 1.8
+      },
+      "movingOrSeparateParts": "櫃體、門、互動狀態",
+      "requirements": "逃離後才倒塌；遮擋／移開兩態；操作待提供",
+      "referenceVersion": 1,
+      "referenceSizePixels": [
+        1536,
+        1024
+      ],
+      "referencePackaging": "六角度生成構圖；非精確正交",
+      "referenceAccuracy": "參考圖有透視差異；精確外形以GLB初模及幾何預覽為準",
+      "meshStatus": "程序化GLB初模已建立；機關內部／角色／寫實精修未完成",
+      "sha256": "7be414f4f7297b675fb6f9325ae9c9c4bd89d7083b69f61aa9096269de5cd149",
+      "prompt": "Use case: product-mockup. Studio six-view modeling sheet of a single old steel utility cabinet, 900 mm wide, 400 mm deep, 1800 mm tall. Two closed front doors, recessed handles, four short feet, soot and rust at corners, dull charcoal green metal. Same object in 3x2 front/right/back/left/top/underside views, standing upright in each view, full unclipped silhouette, consistent hinges and proportions. Neutral-grey background, readable realistic studio light, no text, no logos."
+    }
+  ]
+}

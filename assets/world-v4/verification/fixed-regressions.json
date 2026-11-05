@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04T00:17:07.174616+08:00",
+  "items": [
+    {
+      "issue": "舊版第二指搶走搖桿方向，第二指放開使第一指仍按住時移動歸零",
+      "evidence": "old-touch-reproduction.txt",
+      "fix": "PointerOwner分離移動與環顧，每個中斷路徑歸零；touch-chromium.json真雙指驗證"
+    },
+    {
+      "issue": "React近景文書列表缺少key，主流程測試抓到console警告",
+      "fix": "共用操作按鈕提供穩定key，正式兩裝置流程重測"
+    },
+    {
+      "issue": "測試工具的CDP touchEnd最初送剩餘指而非要結束的指，造成錯誤多指失敗",
+      "fix": "送出被釋放的實際touch point，保留DOM事件核對；與實際舊版應用所有權問題分開"
+    },
+    {
+      "issue": "降低手機轉向倍率後，測試工具拖曳次數不足；C隔板邊緣的測試導航擦邊",
+      "fix": "瞄準實際模型座標、擴大拖曳迭代；路徑保留視線與碰撞邊界，不穿牆或注入位置"
+    },
+    {
+      "issue": "桌機自動導航在轉角以離散八方向貼住障礙，並非遊戲凍結",
+      "fix": "導航先對齊方向，縮小抵達容差及保留C轉角淨距；實際WASD走完全程"
+    },
+    {
+      "issue": "v4書籤物件加入後，舊工程快照缺新物件而被schema驗證拒絕",
+      "fix": "重新用真正完整UI流程產生快照，不補造已通關旗標"
+    },
+    {
+      "issue": "A背板開啟方向可能碰到近距離鏡頭；C新吊籃／蓋體需要實體碰撞",
+      "fix": "背板移至牆腳，補C實體邊界及移動模型的焦點座標；模型與網站重驗"
+    },
+    {
+      "issue": "WebKit測試先對仍disabled的繼續鍵focus；進入近景後原生Tab偏好會略過按鈕",
+      "fix": "測試等媒體索引完成及按鈕enabled；Modal明確聚焦首控制並循環Tab／Shift+Tab，兩引擎鍵盤／錄音各5項通過",
+      "evidence": "keyboard-audio.json"
+    },
+    {
+      "issue": "公開P2實際建立的D獨立重玩缺前章weight，無法完成recording與CIN-D",
+      "before": "postgame-before-fix.json（Chromium與WebKit皆重現）",
+      "fix": "單一REQUIRED來源包含C重量證據，D重玩自動補前章；舊完成房仍可補收現場記錄，不偽造新機關完成",
+      "retest": "postgame.json、replay-boundaries.json及新增三項單元回歸"
+    },
+    {
+      "issue": "通關影片回看測試用正式流程的略過動畫名稱，預覽實際按鈕為結束預覽",
+      "type": "test-selector",
+      "fix": "依真實預覽控制名稱驗證，不改應用影片完成邏輯",
+      "retest": "public-postgame.json"
+    }
+  ]
+}

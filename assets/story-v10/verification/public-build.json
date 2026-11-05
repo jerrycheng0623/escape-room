@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04T18:50:38+0800",
+  "sourceCommit": "5d4f624172489b8fe13bd1e860fb5dc9821536b6",
+  "pagesCommit": "1d41f6994370c48234555a6a738f85202ee4156a",
+  "workflow": 41816620867,
+  "workflowConclusion": "success",
+  "files": [
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/media.json",
+      "sha256": "88f8414a4e66a70cb22c895c0c795edae6ea9c829181959f0059376647ad672b",
+      "pass": true
+    },
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/release.json",
+      "sha256": "8d6433166474a7500db88490eefe049fbdfdfe3e70612b2c2774ada8f6b44ad6",
+      "pass": true
+    },
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/index.html",
+      "sha256": "fc17f2840135bcadb14cc3f6debca4df62f44925e48a141a9dcbad6225471ad9",
+      "pass": true
+    },
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/media.json",
+      "sha256": "88f8414a4e66a70cb22c895c0c795edae6ea9c829181959f0059376647ad672b",
+      "pass": true
+    },
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/release.json",
+      "sha256": "8d6433166474a7500db88490eefe049fbdfdfe3e70612b2c2774ada8f6b44ad6",
+      "pass": true
+    },
+    {
+      "url": "https://jerrycheng0623.github.io/escape-room/mechanisms-v4/index.html",
+      "sha256": "fc17f2840135bcadb14cc3f6debca4df62f44925e48a141a9dcbad6225471ad9",
+      "pass": true
+    }
+  ],
+  "legacyVideoFilesPreserved": true,
+  "pass": true
+}

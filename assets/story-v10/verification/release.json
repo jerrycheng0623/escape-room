@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-04T18:48:45+0800",
+  "baseline": "6bcd3ec513b70cd4f450a4f90e0ecd398fa6d4fb",
+  "sourceCommit": "5d4f624172489b8fe13bd1e860fb5dc9821536b6",
+  "pagesCommit": "1d41f6994370c48234555a6a738f85202ee4156a",
+  "originalFindings": {
+    "CIN-00": {
+      "actualVideoFrames": 1904,
+      "expectedFrames": 2076,
+      "captionSeconds": 86.5
+    },
+    "CIN-EPILOGUE": {
+      "actualVideoFrames": 1268,
+      "expectedFrames": 1488,
+      "captionSeconds": 62
+    },
+    "reporterPng": {
+      "bytesAfterIEND": 32,
+      "ffmpegPngPipeError": "Invalid PNG signature",
+      "originalUnchanged": true
+    }
+  },
+  "scope": "52幕抽幀視覺核對；MP4全部影格順序／WebM每幕SSIM／雙語VTT時間及人物名；四profile共28次自然1x播放。WebKit與CDP均非真機Safari。",
+  "visualReview": {
+    "shotsReviewed": 52,
+    "sourceArt": "既有art-redesign-v4／world-v4，無新增角色原畫",
+    "issuesFixed": [
+      "序幕／後記記者卡影格不足",
+      "文書遮擋合照人物",
+      "五年前回顧誤用本次人物",
+      "65.3錯誤秤面"
+    ],
+    "referenceScreenshots": "/tmp/embers-subtitle-audit/after",
+    "browserScreenshots": "/tmp/embers-subtitle-audit/browser"
+  },
+  "workflow": 41816620867,
+  "workflowConclusion": "success",
+  "publicCaptionChecks": 416,
+  "publicCaptionPass": true,
+  "publicMediaFiles": 14,
+  "publicSubtitleFiles": 14,
+  "publicRootAndVersionFingerprintChecks": 6,
+  "localNaturalPlaybackRuns": 28,
+  "controlsPassed": 22,
+  "physicalIOS": "未測試"
+}

@@ -1,0 +1,717 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "date": "2026-11-04T16:40:43.988Z",
+  "cases": [
+    {
+      "engine": "chromium",
+      "width": 375,
+      "height": 667,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 390,
+      "height": 844,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 667,
+      "height": 375,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 800,
+      "height": 360,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 844,
+      "height": 390,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 768,
+      "height": 1024,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "width": 1024,
+      "height": 768,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片音量",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "height": 667,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 390,
+      "height": 844,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 667,
+      "height": 375,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 800,
+      "height": 360,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 844,
+      "height": 390,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "height": 1024,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 768,
+      "controls": [
+        {
+          "name": "返回",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "原生控制",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "播放動畫",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片進度",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "本幕全文",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片字幕",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "啟用影片聲音",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "影片音量",
+          "visible": true,
+          "hit": true
+        },
+        {
+          "name": "結束回看",
+          "visible": true,
+          "hit": true
+        }
+      ],
+      "overflow": false,
+      "seekVisible": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

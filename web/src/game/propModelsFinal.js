@@ -1,0 +1,68 @@
+import * as T from 'three';
+import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
+// One geometry source for gameplay, exported GLBs and four-direction catalogue.
+export function detailedProp(w,m,track,loader,asset,onError){
+ const g=new T.Group();g.name=w.id;g.userData={dynamic:true,modelVersion:14,support:w.support};
+ const mesh=(geo,mat,pos=[0,0,0],rot=[0,0,0],parent=g)=>{track.geometries.push(geo);const o=new T.Mesh(geo,mat);o.position.set(...pos);o.rotation.set(...rot);o.castShadow=o.receiveShadow=true;parent.add(o);return o;};
+ const box=(p,s,mat=m.wood,parent=g)=>mesh(new T.BoxGeometry(...s),mat,p,[0,0,0],parent);
+ const round=(p,s,mat=m.metal)=>mesh(new RoundedBoxGeometry(...s,2,Math.min(...s)*.12),mat,p);
+ const cyl=(p,r,h,mat=m.metal,rot=[0,0,0],r2=r)=>mesh(new T.CylinderGeometry(r,r2,h,20),mat,p,rot);
+ const ball=(p,s,mat=m.fabric)=>{const o=mesh(new T.SphereGeometry(1,20,12),mat,p);o.scale.set(...s);return o;};
+ const ring=(p,r,mat=m.brass,rot=[Math.PI/2,0,0])=>mesh(new T.TorusGeometry(r,.018,6,24),mat,p,rot);
+ const tube=(pts,r=.015,mat=m.fabric)=>mesh(new T.TubeGeometry(new T.CatmullRomCurve3(pts.map(p=>new T.Vector3(...p))),32,r,6,false),mat);
+ const label=(p,s=[.2,.1,.006])=>box(p,s,m.paper);
+ const art=(vertical=false)=>{const mat=new T.MeshStandardMaterial({color:0xffffff,roughness:.9,side:T.DoubleSide});track.materials.push(mat);mesh(new T.PlaneGeometry(.9,.7),mat,vertical?[0,.2,.071]:[0,.012,0],vertical?[0,0,0]:[-Math.PI/2,0,0]);loader.load(asset('media/world-v4/'+w.id+'.svg'),t=>{t.colorSpace=T.SRGBColorSpace;track.textures.push(t);mat.map=t;mat.needsUpdate=true;},undefined,onError);};
+ if(w.id==='c-watch'){box([0,0,0],[.3,.06,1],m.black);cyl([0,.045,0],.24,.07,m.metal);cyl([0,.085,0],.2,.015,m.paper);for(let i=0;i<12;i++){const a=i*Math.PI/6;box([Math.sin(a)*.17,.097,Math.cos(a)*.17],[.015,.01,.025],m.black);}const hand=(a,l)=>{const o=box([Math.sin(a)*l/2,.11,Math.cos(a)*l/2],[.012,.012,l],m.black);o.rotation.y=a;};hand(Math.PI/2,.16);hand(Math.PI*7.25/6,.11);cyl([.25,.04,0],.025,.05,m.brass,[0,0,Math.PI/2]);}
+ else if(w.id==='c-diary'||w.id==='d-folder'||w.id==='b-sleeve'){box([0,0,0],[.8,.06,1],m.paper);box([0,.045,0],[.86,.025,1.03],w.id==='c-diary'?m.wood:m.char);box([0,-.045,0],[.86,.025,1.03],m.char);box([-.43,0,0],[.04,.1,1.03],m.fabric);label([0,.061,0],[.5,.003,.55]);if(w.id==='c-diary')art();}
+ else if(w.id==='c-blood'){const o=mesh(new T.CircleGeometry(.5,24),m.rust,[0,0,0],[-Math.PI/2,0,0]);o.scale.set(1,.65,1);for(let i=0;i<4;i++)cyl([.35-i*.18,0,.2+Math.sin(i)*.18],.045,.004,m.rust);}
+ else if(w.id==='c-history'){round([0,.15,0],[1,.6,.14],m.char);art(true);box([0,-.22,0],[.15,.25,.12],m.metal);box([0,-.35,.02],[.8,.06,.45],m.metal);}
+ else if(['paper','film','record'].includes(w.kind)){box([0,0,0],[.91,.018,.71],w.kind==='film'?m.black:m.paper);art();if(w.id==='b-f31')g.rotation.x=Math.PI/2;if(w.kind==='film'){for(let i=0;i<8;i++)for(const z of [-.34,.34])box([-.39+i*.11,.012,z],[.05,.005,.025],m.paper);}}
+ else if(w.kind==='weight'){
+  if(w.kg===10){ball([0,.25,0],[.42,.38,.4]);cyl([0,.62,0],.13,.17,m.fabric,[0,0,0],.24);ring([0,.58,0],.15,m.wood);tube([[.12,.58,0],[.27,.55,.03],[.24,.4,.06]],.012,m.wood);tube([[-.32,.04,.22],[-.4,.25,.2],[-.3,.5,.18]],.008,m.wood);label([0,.26,.415],[.25,.2,.012]);for(let i=0;i<6;i++){const a=i*Math.PI/3;ball([Math.sin(a)*.1,.7,Math.cos(a)*.1],[.045,.055,.045],m.fabric);};}
+  if(w.kg===20){mesh(new T.CylinderGeometry(.32,.4,.46,4),m.metal,[0,.23,0],[0,Math.PI/4,0]);tube([[-.2,.46,0],[-.2,.65,0],[0,.7,0],[.2,.65,0],[.2,.46,0]],.045,m.metal);label([0,.22,.29],[.3,.14,.012]);for(const x of [-.13,.13])ball([x,.22,.305],[.015,.015,.01],m.brass);}
+  if(w.kg===15){cyl([0,0,0],.3,.9,m.wood,[Math.PI/2,0,0]);for(const z of [-.46,.46])for(const r of [.09,.18,.27])ring([0,0,z],r,m.char,[0,0,0]);for(const z of [-.3,.3])ring([0,0,z],.305,m.rust,[0,0,0]);}
+  if(w.kg===5){const geo=new T.IcosahedronGeometry(.5,1),p=geo.attributes.position;for(let i=0;i<p.count;i++){const x=p.getX(i),y=p.getY(i),z=p.getZ(i);p.setXYZ(i,x*(1+.08*Math.sin(z*31)),Math.max(-.25,y*.66),z*(1+.08*Math.cos(x*19)));}geo.computeVertexNormals();mesh(geo,m.stone);}
+ }
+ else if(w.id==='a-coat'){round([0,0,0],[.55,.85,.12],m.fabric);for(const x of [-.35,.35]){const o=round([x,.05,0],[.19,.65,.14],m.fabric);o.rotation.z=x>0?.25:-.25;}for(let i=0;i<4;i++)ball([.03,.2-i*.15,.075],[.02,.02,.01],m.brass);tube([[-.23,.42,0],[0,.52,0],[.23,.42,0]],.012,m.metal);}
+ else if(w.id==='a-scarf'||w.id==='d-towel'){round([0,0,0],[.45,.04,.8],m.fabric);for(let i=0;i<9;i++)box([-.2+i*.05,0,.45],[.012,.02,.13],m.fabric);if(w.id==='a-scarf')g.rotation.x=Math.PI/2;}
+ else if(w.id.includes('cup')){const pts=[[.01,0],[.17,0],[.2,.04],[.2,.4],[.17,.4],[.16,.06],[.01,.06]].map(v=>new T.Vector2(...v));mesh(new T.LatheGeometry(pts,24),w.id==='d-cup'?m.glass:m.paper);ring([.23,.22,0],.13,m.paper,[0,0,0]);}
+ else if(w.id.includes('clock')||w.id.includes('timer')){round([0,0,0],[.8,.8,.25],m.char);cyl([0,0,.15],.33,.04,m.paper,[Math.PI/2,0,0]);box([.1,.05,.18],[.25,.025,.02],m.black);box([0,.15,.18],[.025,.3,.02],m.black);for(const x of [-.25,.25])ball([x,-.43,0],[.08,.08,.08],m.brass);}
+ else if(w.id==='b-battery'){for(const x of [-.13,.13]){cyl([x,0,0],.11,.7,m.char,[Math.PI/2,0,0]);cyl([x,0,-.37],.07,.06,m.brass,[Math.PI/2,0,0]);}box([0,0,0],[.5,.15,.13],m.fabric);}
+ else if(w.id==='a-stapler'){round([0,0,0],[.25,.06,.9]);round([0,.16,-.02],[.27,.12,.8],m.char);cyl([0,.1,-.35],.06,.28,m.metal,[0,0,Math.PI/2]);}
+ else if(w.id==='a-mirror'){round([0,0,0],[.6,.04,.8],m.brass);box([0,.025,0],[.54,.012,.74],m.glass);}
+ else if(w.id==='b-glove'){round([0,0,0],[.35,.04,.4],m.fabric);for(let i=0;i<4;i++)round([-.14+i*.09,0,-.3],[.07,.04,.35-i*.025],m.fabric);const o=round([.24,0,-.02],[.1,.04,.25],m.fabric);o.rotation.y=-.6;}
+ else if(w.kind==='tool'){if(w.id==='a-bookmark'){box([0,0,0],[.25,.018,1],m.paper);ring([0,.015,-.35],.055,m.brass);}else if(w.id==='d-rod'){cyl([0,0,0],.025,1,m.metal,[0,0,Math.PI/2]);}else{cyl([0,0,0],.025,.8,m.wood,[0,0,Math.PI/2]);if(w.id!=='b-brush')mesh(new T.ConeGeometry(.025,.15,12),m.metal,[.475,0,0],[0,0,-Math.PI/2]);if(w.id==='b-brush')for(let i=0;i<7;i++)cyl([-.45,0,(i-3)*.025],.01,.17,m.fabric,[0,0,Math.PI/2]);}}
+ else if(w.kind==='hook'){box([0,0,0],[.35,.85,.08]);tube([[0,.05,.05],[0,-.2,.2],[0,-.25,.35],[0,-.1,.4]],.035,m.brass);}
+ else if(w.kind==='anchor'){box([0,0,-.08],[.45,.65,.07],m.rust);for(const y of [-.22,.22])cyl([0,y,-.025],.04,.05,m.brass,[Math.PI/2,0,0]);if(['M','F'].includes(w.node)){ring([0,0,.06],.27,m.metal,[0,0,0]);cyl([0,0,.06],.08,.12,m.brass,[Math.PI/2,0,0]);for(let i=0;i<4;i++){const a=i*Math.PI/2,o=box([0,0,.06],[.025,.5,.04],m.metal);o.rotation.z=a;}}else ring([0,0,.1],.18,m.metal,[0,Math.PI/2,0]);}
+ else if(w.kind==='rope'){const pts=[];for(let i=0;i<=100;i++){const t=i/100*Math.PI*8;pts.push([Math.cos(t)*(.3+i*.001),i*.0005,Math.sin(t)*(.3+i*.001)]);}tube(pts,.025);}
+ else if(w.kind==='basket'){
+  const cage=new T.MeshStandardMaterial({color:0x9b8e72,roughness:.79,metalness:.24});track.materials.push(cage);
+  box([0,-.3,0],[.8,.04,.6],m.metal);
+  for(const x of [-.385,.385])for(const z of [-.285,.285])box([x,-.085,z],[.035,.43,.035],cage);
+  for(const y of [-.27,-.14,0,.13]){
+   for(const x of [-.385,.385])box([x,y,0],[.032,.03,.6],cage);
+   for(const z of [-.285,.285])box([0,y,z],[.8,.03,.032],cage);
+  }
+  for(const x of [-.24,0,.24])for(const z of [-.285,.285])box([x,-.07,z],[.019,.4,.019],cage);
+  for(const z of [-.14,0,.14])for(const x of [-.385,.385])box([x,-.07,z],[.019,.4,.019],cage);
+  for(const x of [-.37,.37])tube([[x,.13,0],[x,.3,0],[0,.45,0]],.02,cage);
+  ring([0,.47,0],.045,m.brass,[0,0,0]);
+ }
+ else if(w.kind==='luggage'){round([0,0,0],[1,.6,.65],m.fabric);for(const x of [-.4,.4])box([x,0,0],[.035,.62,.67],m.wood);tube([[-.17,.32,0],[-.17,.45,0],[.17,.45,0],[.17,.32,0]],.035,m.metal);for(let i=0;i<4;i++){cyl([-.14+i*.095,0,.34],.045,.07,m.brass,[0,0,Math.PI/2]);}for(const x of [-.38,.38])for(const z of [-.24,.24])ball([x,-.31,z],[.05,.05,.05],m.black);}
+ else if(w.kind==='reader'||w.kind==='drawers'){round([0,0,0],[1,.5,.7],m.metal);for(const y of [-.12,.12]){const t=new T.Group();g.add(t);box([0,y,.36],[.9,.2,.035],m.char,t);const handle=mesh(new T.TorusGeometry(.065,.012,6,16),m.brass,[0,y,.4],[0,0,0],t);box([0,y-.08,.05],[.86,.025,.6],m.wood,t);g.userData[y<0?'lower':'upper']=t;}if(w.kind==='reader'){for(const x of [-.35,.35])cyl([x,.34,0],.12,.1,m.char);cyl([.55,.05,0],.15,.06,m.brass,[0,0,Math.PI/2]);}}
+ else if(w.kind==='audio'){round([0,0,0],[1,.5,.45],m.char);for(const x of [-.25,.25]){ring([x,.05,.25],.16,m.metal,[0,0,0]);cyl([x,.05,.25],.04,.03,m.brass,[Math.PI/2,0,0]);}for(let i=0;i<5;i++)box([-.25+i*.13,-.18,.27],[.08,.06,.04],m.paper);}
+ else if(w.kind==='shutter'||w.kind==='bell'){round([0,0,0],[.6,.4,.4],m.char);if(w.kind==='bell'){mesh(new T.SphereGeometry(.22,20,10,0,Math.PI*2,0,Math.PI/2),m.brass,[0,.2,0]);cyl([0,.46,0],.035,.08,m.metal);}else{cyl([0,.25,0],.12,.14,m.red);tube([[.22,0,0],[.4,0,.15],[.45,-.1,.3]],.025,m.black);}}
+ else if(w.kind==='box'){box([0,-.3,0],[.8,.04,.8]);for(const x of [-.4,.4])box([x,0,0],[.025,.6,.8]);for(const z of [-.4,.4])box([0,0,z],[.8,.6,.025]);for(const x of [-.58,.58]){const o=box([x,.3,0],[.35,.02,.8]);o.rotation.z=x>0?-.25:.25;}label([0,0,.42],[.4,.2,.01]);}
+ else if(w.kind==='board'){box([0,0,0],[1,.06,.7],m.wood);for(let i=0;i<6;i++){const x=-.3+i%3*.3,z=-.17+Math.floor(i/3)*.34;ring([x,.04,z],.035,m.brass);cyl([x,.035,z],.027,.012,m.black);}for(const x of [-.47,.47])box([x,.045,0],[.025,.03,.66],m.metal);}
+ else if(w.kind==='pan'){box([0,0,0],[1,.035,.7],m.metal);for(const x of [-.5,.5])box([x,.05,0],[.025,.12,.7],m.rust);for(const z of [-.35,.35])box([0,.05,z],[1,.12,.025],m.rust);}
+ else if(w.kind==='hatch'){box([0,0,0],[1,.08,.7],m.rust);for(let i=0;i<7;i++)box([-.42+i*.14,.055,0],[.04,.03,.6],m.metal);ring([.4,.09,0],.1,m.brass,[0,0,0]);}
+ else if(w.kind==='panel'){box([0,0,0],[1,.2,.016],m.wood);for(const x of [-.46,.46])for(const y of [-.07,.07])ball([x,y,.012],[.009,.009,.003],m.brass);}
+ else if(w.kind==='cabinet'){box([0,0,0],[1.8,1.04,1.12],m.metal);for(let i=0;i<3;i++){round([-.58+i*.58,.03,.574],[.54,.88,.025],m.rust);box([-.58+i*.58,.03,.61],[.16,.04,.03],m.brass);}for(const x of [-.85,.85])box([x,-.5,0],[.08,.08,1.1],m.char);}
+ else throw Error('未定義模型 '+w.id);
+ // Bake internal rotations before deriving canonical local bounds.
+ g.updateMatrixWorld(true);const bounds=new T.Box3().setFromObject(g),size=bounds.getSize(new T.Vector3()),center=bounds.getCenter(new T.Vector3());
+ const sx=w.size[0]/Math.max(size.x,.0001),sy=w.size[1]/Math.max(size.y,.0001),sz=w.size[2]/Math.max(size.z,.0001);const transform=new T.Matrix4().makeScale(sx,sy,sz).multiply(new T.Matrix4().makeTranslation(-center.x,-center.y,-center.z));
+ // Keep moving drawer groups separate; all other parts are merged by material.
+ const buckets=new Map(),rem=[];g.traverse(o=>{if(!o.isMesh)return;let move=o.parent!==g;const geo=o.geometry.clone().applyMatrix4(o.matrixWorld).applyMatrix4(transform);track.geometries.push(geo);if(move){const parent=o.parent;o.geometry=geo;o.position.set(0,0,0);o.rotation.set(0,0,0);o.scale.set(1,1,1);return;}const k=o.material.uuid;if(!buckets.has(k))buckets.set(k,{mat:o.material,geos:[]});buckets.get(k).geos.push(geo.index?geo.toNonIndexed():geo);rem.push(o);});for(const o of rem)o.removeFromParent();g.rotation.set(0,0,0);for(const {mat,geos}of buckets.values()){const geo=mergeGeometries(geos,false);track.geometries.push(geo);const o=new T.Mesh(geo,mat);o.castShadow=o.receiveShadow=true;g.add(o);}return g;
+}

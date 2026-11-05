@@ -1,0 +1,23 @@
+{
+  "revision": 9,
+  "baseStory": "assets/story-v5/storyboard.json",
+  "changes": [
+    {
+      "film": "CIN-A",
+      "start": 9,
+      "seconds": 9,
+      "image": "assets/art-redesign-v4/images/A-02.png",
+      "replaces": "old code-box shot"
+    },
+    {
+      "film": "CIN-D",
+      "start": 0,
+      "seconds": 12,
+      "image": "assets/art-redesign-v4/images/D-01-v9.png",
+      "replaces": "UV illumination shot"
+    }
+  ],
+  "activePlayback": "assets/playback-v6/manifest.json",
+  "audio": "Original v7 AAC packets copied unchanged; verified in assets/world-v4/verification/story-v9.json",
+  "captions": "External mechanisms-v4 VTT, new opening statements without obsolete mechanic instructions"
+}

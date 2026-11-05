@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-05T00:52:43.711039+08:00",
+  "runs": [
+    {
+      "name": "player",
+      "script": "test-final-player.mjs",
+      "code": 0,
+      "seconds": 55.4,
+      "pass": true
+    },
+    {
+      "name": "space",
+      "script": "test-space-ui.mjs",
+      "code": 0,
+      "seconds": 165.4,
+      "pass": true
+    },
+    {
+      "name": "guide-final",
+      "script": "test-guide-modes.mjs",
+      "code": 0,
+      "seconds": 33.1,
+      "pass": true
+    },
+    {
+      "name": "q-final",
+      "script": "test-q-guide-input.mjs",
+      "code": 0,
+      "seconds": 25.8,
+      "pass": true
+    },
+    {
+      "name": "native",
+      "script": "test-native-exploration.mjs",
+      "code": 0,
+      "seconds": 16.9,
+      "pass": true
+    },
+    {
+      "name": "luggage",
+      "script": "test-luggage-input.mjs",
+      "code": 0,
+      "seconds": 72.1,
+      "pass": true
+    },
+    {
+      "name": "notebook",
+      "script": "test-notebook-controls.mjs",
+      "code": 0,
+      "seconds": 45.1,
+      "pass": true
+    },
+    {
+      "name": "touch",
+      "script": "test-touch-controls.mjs",
+      "code": 0,
+      "seconds": 16.5,
+      "pass": true
+    },
+    {
+      "name": "keyboard",
+      "script": "test-keyboard-audio.mjs",
+      "code": 0,
+      "seconds": 24.8,
+      "pass": true
+    },
+    {
+      "name": "postgame",
+      "script": "test-postgame.mjs",
+      "code": 0,
+      "seconds": 10.2,
+      "pass": true
+    },
+    {
+      "name": "controls-chromium",
+      "script": "test-media-controls.mjs",
+      "code": 0,
+      "seconds": 24.1,
+      "pass": true
+    },
+    {
+      "name": "controls-webkit-final",
+      "script": "test-media-controls.mjs",
+      "code": 0,
+      "seconds": 26.2,
+      "pass": true
+    },
+    {
+      "name": "captions",
+      "script": "test-caption-alignment.mjs",
+      "code": 0,
+      "seconds": 16.1,
+      "pass": true
+    },
+    {
+      "name": "media-layout",
+      "script": "test-media-layout.mjs",
+      "code": 0,
+      "seconds": 7.6,
+      "pass": true
+    },
+    {
+      "name": "media-story",
+      "script": "test-media-story.mjs",
+      "code": 0,
+      "seconds": 270.1,
+      "pass": true
+    },
+    {
+      "name": "boundaries-cdp",
+      "pass": true,
+      "evidence": "boundaries-cdp/boundaries.json"
+    },
+    {
+      "name": "boundaries-webkit",
+      "pass": true,
+      "evidence": "boundaries-webkit/boundaries.json"
+    },
+    {
+      "name": "touch-webkit",
+      "pass": true,
+      "evidence": "touch-webkit/touch-controls.json"
+    }
+  ],
+  "supersedes": "regression.json 中舊 D 站位／單次滑鼠指向的 boundaries 失敗；改用 CDP 真觸控／WebKit 校正指向後重跑四關，原失敗保留。",
+  "pass": true
+}

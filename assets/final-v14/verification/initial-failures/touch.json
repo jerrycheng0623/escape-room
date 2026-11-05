@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04T16:23:59.313Z",
+  "url": "http://127.0.0.1:5173/",
+  "browser": "151.0.7922.34",
+  "engine": "chromium",
+  "method": "Real CDP multi-touch + engineering interruption events",
+  "checks": [
+    "667x375 targets ≥44, joystick≥116, visible and not overlapped",
+    "667 pointer fallback stops correctly",
+    "667 mobile journal/guidance/modal taps",
+    "844x390 targets ≥44, joystick≥116, visible and not overlapped",
+    "second finger cannot replace or reset movement owner"
+  ],
+  "errors": [],
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n  {\n+   x: 9.187,\n-   x: 9.187448036091684,\n    y: 1.65,\n+   z: 9.203\n-   z: 9.203395363793259\n  }\n\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-touch-controls.mjs:5:576"
+}

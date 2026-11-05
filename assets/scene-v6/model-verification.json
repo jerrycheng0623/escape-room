@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-03",
+  "version": 6,
+  "rooms": [
+    {
+      "room": "A",
+      "path": "3D/scene/enclosed-A-v6.glb",
+      "bytes": 9181324,
+      "meshes": 42,
+      "triangles": 6304,
+      "degenerateTriangles": 0,
+      "sha256": "41d98ca0b4edda217c8551fbb6a48df89d1ca01c7acedf0074b611ad7b5fe4fa",
+      "finiteGeometry": true,
+      "unitNormals": true,
+      "structure": "通過"
+    },
+    {
+      "room": "B",
+      "path": "3D/scene/enclosed-B-v6.glb",
+      "bytes": 5875188,
+      "meshes": 16,
+      "triangles": 3934,
+      "degenerateTriangles": 0,
+      "sha256": "77016de52a008a03aedf6f9dc04b5eee0b5428b2605563fbac0c7320e61766bc",
+      "finiteGeometry": true,
+      "unitNormals": true,
+      "structure": "通過"
+    },
+    {
+      "room": "C",
+      "path": "3D/scene/enclosed-C-v6.glb",
+      "bytes": 8153596,
+      "meshes": 69,
+      "triangles": 9733,
+      "degenerateTriangles": 0,
+      "sha256": "c20f6bd9b30235988524ea5cbd971bd04925e1b6f88b30aafa2a1c3621e3cae2",
+      "finiteGeometry": true,
+      "unitNormals": true,
+      "structure": "通過"
+    },
+    {
+      "room": "D",
+      "path": "3D/scene/enclosed-D-v6.glb",
+      "bytes": 7654756,
+      "meshes": 26,
+      "triangles": 4252,
+      "degenerateTriangles": 0,
+      "sha256": "c88ab3ddd83dde2a94ccace1f5987210990ac812371221c16bd4bd39eab75a72",
+      "finiteGeometry": true,
+      "unitNormals": true,
+      "structure": "通過"
+    }
+  ],
+  "scope": "GLB結構／索引／有限數值／法線；不當成碰撞或視覺全部驗收"
+}

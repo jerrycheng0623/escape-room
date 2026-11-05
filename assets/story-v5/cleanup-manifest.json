@@ -1,0 +1,3893 @@
+{
+  "date": "2026-11-03",
+  "authorization": "使用者要求整合新版美術並刪除已有新對照的舊檔案；新版來源圖未改動",
+  "removedCount": 554,
+  "removedBytes": 756193704,
+  "kept": [
+    "assets/art-redesign-v4/images",
+    "assets/art-redesign-v4/portraits",
+    "assets/art-redesign-v4/references",
+    "3D獨有六視參考與模型",
+    "原始劇本／PDF與歷史文字紀錄"
+  ],
+  "files": [
+    {
+      "old": "assets/cinematics/.render-cache/00-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "ffd0e5f12a9957fd9efcaeee54c56c7ad518e886e83306f627a4e4bc8f7521f1",
+      "bytes": 1585222,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/00-02-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "316a16df68ca58c31eb0ce3bfbfb467984951013325ba2648bd7602f0d286195",
+      "bytes": 942617,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/00-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "226386f4fbdd00bd8fcc7cf6a6b766732b59381f730388e35e1c03d9aa278736",
+      "bytes": 1395971,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/00-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "3a4886926fff8253496ed7351aabbd0f12d07c76b326bfad07f65e84bdae34a2",
+      "bytes": 1566207,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/00-05-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "b6b9e0cf80f2e9048a477d97299ae41758b2751ff6cad049a5b4c328a3500a56",
+      "bytes": 1325728,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/A-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "4ed5a762a27e96c9384b33b94a8bb8fadc18025c343e61e9cb04336fb3923816",
+      "bytes": 1624320,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/A-02-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "0137dc26ac8521da44f4de45d793a5ee0d93da8cf2804aa8188b026c84b93f49",
+      "bytes": 1472182,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/A-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "5f77ee0e467c1cfdfb026bb265211e5ad38388abd0a977faebd0bed785780d75",
+      "bytes": 762533,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/A-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "4de9812b6620d6a0556e95bed612c91a3147112beb2f22ba384ce4e0aa60100f",
+      "bytes": 1149354,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/B-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "4ff33918b1eaae99d643fa107c3c8dce96ce9c10139e135dc65c19af5b8d7752",
+      "bytes": 1340907,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/B-02-v2-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "df5b3c700fe778cb2b8d9b12e64b47673206984299c3cd3efd29dc28b279b27e",
+      "bytes": 887383,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/B-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "b52970b62c9a44c5daf6fa828351fffdc5c6ae1f1d092f88758f0710f73615af",
+      "bytes": 1466055,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/B-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "118f946661f0b8052c880a3ba4b56ad35202017b1b71191d91beef8fe1b12a3f",
+      "bytes": 894461,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/C-01-v2-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "bf6af238163e4e714ba5ad8c0d55ba098ad9044806e69ca7ab38334b2ea8a58d",
+      "bytes": 1408414,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/C-02-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "e548d25830fd5c41ace9406daa93d04f3eed46214a6fd0ec44d3f3efe07d419b",
+      "bytes": 1164393,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/C-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "8bed7384686a3bf0f729847ff70f11058f62c596207643e80d3ac870b1435527",
+      "bytes": 1679075,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/C-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "9c8fb998b8e402589190ca8a8a463b8a6db2dfc7bea17a899258f9e6e4b51788",
+      "bytes": 1223076,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/C-05-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "07199c68d5b1a1d2f62d53451ca468774fa03e28e0d1b94107beafe4bd1cf477",
+      "bytes": 2111613,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-00-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "e58c566dc067c143f199c5a90bd212862359900fcf62d44c2b3b9947b62ce25d",
+      "bytes": 550,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-00-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "8613acadf54d5987149c0bede31d2dc918bc23e994442fa65cf44b948e1d1fd2",
+      "bytes": 6812460,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-00-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "c5e42a73650a60f89e447c1e25ba9e7a47a8f16afa57ebf1ac0bc5a59a11c909",
+      "bytes": 505,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-00.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "87c5c43d7d24530e9441f088627e94edd076b2901837f13885f07e03b74a7d78",
+      "bytes": 544,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-A-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "5e75c788d40ebeedda30a843783e3a302aacff8d66ea80cc57372ba5b90b7847",
+      "bytes": 521,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-A-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "sha256": "3afa47e6e4d6068cc15586a3483d905cd5dd959ebdc1e429bf7a59b18ba880d8",
+      "bytes": 6359334,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-A-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "a6f1fd235f2a219832bd1c5d4011686ac94e4e3cd03266c15b57dfe0f4cd71da",
+      "bytes": 484,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-A.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "42e70b29dc582cc28112d3622b88d56d971c62c7be228fd209bd6427d371a823",
+      "bytes": 546,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-B-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "7387e6832df68ac9d7d446f8b3d7f99cc07f3c591ee32c881b94472bb077201f",
+      "bytes": 365,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-B-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "sha256": "f833652a5de259e76ade7d05f973473c3f880d050f70ef4e52970421b579877d",
+      "bytes": 4586360,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-B-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "ba2b3d5402503727b5081644a8dda0158a0085f89e2aa7e45a4375f83ba3b205",
+      "bytes": 354,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-B.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "0bf0ae50ee4a39bd3955c715df64f6b843ba8293240027085ff0aa3604f0aeee",
+      "bytes": 431,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-C-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "4283837dcfbd9bb5b713d7668003a2af83d6b347ba7647dcfc196b0779491a5e",
+      "bytes": 557,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-C-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "sha256": "9afdc8521caf60a89880dc86d54feb3f4aa4412fca9efd9f3048b4de6026a445",
+      "bytes": 7583274,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-C-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "b3c883fbdd2084273c648bb2077480653f0524c95b6ed741eee41fd9b2d0821f",
+      "bytes": 520,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-C.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "c2b610aceb5e839d106e6c163d3b04b205284203c8f3899e468552e61a9998c1",
+      "bytes": 539,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-D-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "70bb9defcaf85bc1448e612313f9cc6975c9f4f8ff3318f0f7644fcb2d947721",
+      "bytes": 871,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-D-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "sha256": "324ee046d78f2ca51310b888b940990fb7f03633e4418cfa33ee1708df49b033",
+      "bytes": 9705526,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-D-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "f12eb23c6a330a76390bf8b24adaf098cda57f805f81a7f07d8b6bce6a68b617",
+      "bytes": 786,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-D.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "61741232d12ba93fedb490d8c6cfcd51b717f9950df8eb917469f0cf8e11648c",
+      "bytes": 755,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-END-en.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "456871b97edc6e6240ba4567becb752b551949004ffc483b5a66fd78d20cb028",
+      "bytes": 476,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-END-silent.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "b4aef11c2d1fdbd7e20124c326eb0308298ef16ce5f98a605b9e86298ee77e54",
+      "bytes": 5536818,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-END-zh-Hant.srt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "dfd2fa0f17cfceafd82b487d1599c70c4d030947c74d06375d91c34cba3e89eb",
+      "bytes": 482,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/CIN-END.txt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "7f7a316354c4adf6a59456674c603fbda8ef0e397250b88f6235507ef13d7ef0",
+      "bytes": 659,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "cdd5178b97d55005fc3471eba17bd12bb919f00a457714665cb002865081a17c",
+      "bytes": 1380261,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-02-v2-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "314ef9513f1c062bb75502a3993b72242dbf84828651dbd66e8840506ac3bc41",
+      "bytes": 1679050,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "9268078b95eb0e0c7d4c04695de097a0317716087f338bd89276d64818043d15",
+      "bytes": 1228205,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "877550200e983a7b061bebd79b5e8f3433c7a46d05079f81970d837244b967de",
+      "bytes": 1341018,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-05-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "1b79ef0ddd7ce4ff548fd16cdd686558a295e994c7dcbc00e10f3bcdf4d69566",
+      "bytes": 1784405,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-06-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "8366ae9231dca58a269ba17e9b4513ea7f2d92a915efae3f4582a085bc9be10d",
+      "bytes": 1004935,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/D-07-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "b9758b027b7cfbd0171088a91aa7b025bf56584b03472764e33baf244ba1ccc7",
+      "bytes": 1292591,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "2dfb2ac84662efddda4582cdcf1231fd64e7bf2be6dfce9182d6761053ee3736",
+      "bytes": 1113899,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-02-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "1ec9cdd7c386343476abccae0b3c6fc5032bb7c5e0a38daf575231fa70d19849",
+      "bytes": 356622,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-03-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "a582807f5a0030c36d1e3cf9224b6c8e138d367f3bf90b1039c21e0b67ef44c6",
+      "bytes": 962435,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-04-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "234217a2cd5e7c5c8600d7968479448d8ce5d1b4c9fcf500d67e0078786dce0d",
+      "bytes": 1080180,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-05-v2-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "af0597a3821b0ed680edaadf01ca3272dfd9227969830c1539e0bdff7155d256",
+      "bytes": 913891,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/END-06-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "2dfb2ac84662efddda4582cdcf1231fd64e7bf2be6dfce9182d6761053ee3736",
+      "bytes": 1113899,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/.render-cache/EVIDENCE-01-v1-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "32fdf2fe153ce7be516618c0f4f5332712b0f45d173967edb402dd87bd50646d",
+      "bytes": 1354230,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-00/images/00-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/00-01.png",
+      "sha256": "749858c26e50eabdee497ee826f0520619b18a8a11ee006b38df595c49552fb8",
+      "bytes": 2715968,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-00/images/00-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/00-02.png",
+      "sha256": "2b3f4bea226575e0dd439b04d165db224fccd73b0bc27a506ba4acf93da6b196",
+      "bytes": 2354400,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-00/images/00-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/00-03.png",
+      "sha256": "c796256b2104b7dd44df0b8f7ae020e7b2bf874387494804131af8d79629cea6",
+      "bytes": 2706312,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-00/images/00-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/00-04.png",
+      "sha256": "649cea3db070baa5d4463b370b159787b77ee6bd9d64e273fe46f08dba474fcb",
+      "bytes": 2645923,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-A/images/A-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/A-01.png",
+      "sha256": "fba3e9c6dce4377c389ccffe7e26edfbf8ab16bf6e863e2882742bcf7dd0fc43",
+      "bytes": 2658817,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-A/images/A-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/A-02.png",
+      "sha256": "d3ec61599ef91f04ffa917f9115e0ac714756328e2d3559a65800905b648e35c",
+      "bytes": 2792066,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-A/images/A-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/A-03.png",
+      "sha256": "56f8dded3c5692b4bce1e09765e8aa90a05e5b1122e5bfa6e75b97807b9b48b3",
+      "bytes": 2023913,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-A/images/A-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/A-04.png",
+      "sha256": "0996a2e867a748d977e736308713ae2687582f33cf7d27372186cc542af42ae4",
+      "bytes": 2346426,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-A/images/EVIDENCE-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/EVIDENCE-01.png",
+      "sha256": "058ea1d352e97752cac86ddeaf170dd954f2dae57d416668949bde28b3551d80",
+      "bytes": 2535032,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-B/images/B-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/B-01.png",
+      "sha256": "7a3442dbaa9778efcb8a26c882bdf020270e4f8e83c9caddb431967fc39ba63f",
+      "bytes": 2244473,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-B/images/B-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/B-02.png",
+      "sha256": "1a503ad4a213dbd3193231da578522299994136cb76f9bb483b5df1f4ad773e1",
+      "bytes": 2180714,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-B/images/B-02-v2.png",
+      "replacement": "assets/art-redesign-v4/images/B-02.png",
+      "sha256": "a4de582f4e9c03fca2c58fa4eb9f60388a1b134ce81a38c79a905bd1c66cf96c",
+      "bytes": 2110420,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-B/images/B-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/B-03.png",
+      "sha256": "26bcff51da81b93be68d54e0660194d3ca1dbd836ff6fafca79c2b858f36cb17",
+      "bytes": 2436137,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-B/images/B-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/B-04.png",
+      "sha256": "c3aef33d131764c560892dc5142d659a50144076afe1987b9e36aa4d8b737c62",
+      "bytes": 2129258,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/C-01.png",
+      "sha256": "ab877e78649c27b27a700c521ec6cb7ef99e6dba627ff2f46621a673521cdf43",
+      "bytes": 2510100,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-01-v2.png",
+      "replacement": "assets/art-redesign-v4/images/C-01.png",
+      "sha256": "eb068914bde9de354a66501adad94d94138145863895c70186e99f8d4bda3465",
+      "bytes": 2435543,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/C-02.png",
+      "sha256": "d9206e65aeccb0080b2da90a16012dd33fb8295330e9a5209c3631e31c133438",
+      "bytes": 2254335,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/C-03.png",
+      "sha256": "b9066f6d1ec480fb1fee2a3280c3b476bf2ec7f8a3a9c4c3ec9dfb439f528a79",
+      "bytes": 2557246,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/C-04.png",
+      "sha256": "44842b8fd42497f451d66441a6e3c8316f07713634b8b1e97f4f4e33ecca368c",
+      "bytes": 2334020,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-C/images/C-05-v1.png",
+      "replacement": "assets/art-redesign-v4/images/C-05.png",
+      "sha256": "0a52c9bfd5cfc2531c46d5815db0b14a093116106546ff6b6860cc614ac1891e",
+      "bytes": 3106594,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-01.png",
+      "sha256": "ec0a23329f973d69eb130834437423f2cd219458edace4209c737eff6b7f41e9",
+      "bytes": 2459403,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-02.png",
+      "sha256": "fc5577f52afbd7f1a8ad7e1a90c5223e4d5d4d5edea4f1997222055033ce1091",
+      "bytes": 2580475,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-02-v2.png",
+      "replacement": "assets/art-redesign-v4/images/D-02.png",
+      "sha256": "9bea60e4a7ce2a9ea90a3a3c97ce5cb498bda0d0c31494c9bfa4dad54e64092e",
+      "bytes": 2581008,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-03.png",
+      "sha256": "462a1fcaa799be27455415fc168359d7ddba8415f3a17fe9e2423f234b6b086a",
+      "bytes": 2447135,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-04.png",
+      "sha256": "9ba8cba4661fda7cb91c0022e448433a265a5768bea8f896215c57308657e437",
+      "bytes": 2282727,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-05-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-05.png",
+      "sha256": "c9ac1bc6f34a1c406eec7a1d9077356aafc4bd21d64a4b89ade89eec02791181",
+      "bytes": 2727186,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-06-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-06.png",
+      "sha256": "edc92d12fb1efec5b6a1958f651f371b6dd5b7ad9be2da0ebe5de79408b8ce7e",
+      "bytes": 2228488,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-D/images/D-07-v1.png",
+      "replacement": "assets/art-redesign-v4/images/D-07.png",
+      "sha256": "8596ad31276d1e9a948825bf4b0c6a0c66c03ff2f1aa54a39abe09a257b829bf",
+      "bytes": 2461528,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-01-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-PLATE.png",
+      "sha256": "1521eaca943515b440388e4fc67892c291611de3fb73adac3d55bc7320df9fba",
+      "bytes": 2552230,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-02-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-PLATE.png",
+      "sha256": "5635d9faa9aa45139903a5e948ab58a0891199be6da2e1e318330ee66750fb5b",
+      "bytes": 2693567,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-03-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-03.png",
+      "sha256": "9b4814ac0fc9a5a601c2845b1c9111aa6bfeac5331d0e2ebeb9addbfdeb0a41a",
+      "bytes": 2121025,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-04-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-04.png",
+      "sha256": "0c737ff83c8c7f191ac428736441b1925b8060117e49a2ceaa41e29e61ba0847",
+      "bytes": 2256150,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-05-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-05.png",
+      "sha256": "4d8abeaadfd8e73dad288251e58723fbb9d59a7890e3149dd2322a0ea06871b0",
+      "bytes": 2198718,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-05-v2.png",
+      "replacement": "assets/art-redesign-v4/images/END-05.png",
+      "sha256": "9c2e0c3b7f922286e5237ebd5a08da261604eb504605d1317e7175214b71384e",
+      "bytes": 2153218,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/images/END-06-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-05.png",
+      "sha256": "c096461830ac2c9892dbe6cd446b0d9422c8116c2ae1dc8cf68959d29b3ea196",
+      "bytes": 2511872,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/layers/END-ACTOR-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-ACTOR.png",
+      "sha256": "778d51e17fa0c0e144d992c83c4524f06ffe6483bd1c3395e8c156e0b653c94b",
+      "bytes": 940204,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/CIN-END/layers/END-PLATE-v1.png",
+      "replacement": "assets/art-redesign-v4/images/END-PLATE.png",
+      "sha256": "27fbd876df29135def7abca04e4b6ba8e277ff60a806aba84e62cd580f8eadf3",
+      "bytes": 2575309,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-00-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "65ee46fc71a9542f3a6290441ebfbf008be3a9d8bb81dccc6ce3ed3ea0ac4e62",
+      "bytes": 5644844,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-00-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "ca8612e3b4d7d15e2619c8c45f3988004041d5e79240dcf6e0dc32f390b09e78",
+      "bytes": 7056044,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-A-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "a15b37c3b55cc62612bd89e31f6d9031dfb6ce2434ed42bec91e83e206d89b54",
+      "bytes": 4233644,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-A-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "4848ccd11816b99848a750882a62dbaf549f257427cd177fa61559902146a7a7",
+      "bytes": 7056044,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-B-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "7bbee21371f2e295d6f1c4aff50bd151a0ad5314b14e331ae97731999c38686a",
+      "bytes": 4233644,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-B-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "305ffd5115d3b189198f0a64e47a5c37f3f91c0f666170399c31fdab7e321e25",
+      "bytes": 5644844,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-C-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "9ada0422e9a2e9f1425ace7481c78bac079bd2f5c24dcec4576523994cb2ac92",
+      "bytes": 4762844,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-C-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "bb79a20454cd2a354bbf5f9d419431baa666d42ec62d386eae66343a6af08f77",
+      "bytes": 7938044,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-D-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "a41656fc563f7d4e9db252c2a55c579b11aa5628424520d03fbe3892cc28ec37",
+      "bytes": 7938044,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-D-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "58cca12acf86f7262183ecf989366cb165f8921bb9e48931e7e62c5d2d061204",
+      "bytes": 11113244,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-END-procedural-v1.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "1a51902e73247438de7ca8f1407b64b9d7844f49bb92d9006a01775accae8470",
+      "bytes": 7408844,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/CIN-END-procedural-v2.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "bec5a36af0a325e2dac02ae86c2d8e7999a374e2e13553e3825416b1f9b72ea8",
+      "bytes": 7408844,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/cabinet-slide-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/cabinet-slide-synthetic-v1.wav",
+      "sha256": "0270c1dfafbe67eccedb509d8660500e1222e8f5348bb9c7463e7f03c085457e",
+      "bytes": 317564,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/door-creak-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/door-creak-synthetic-v1.wav",
+      "sha256": "c4789bd532bb6bf5049c589bce05ae51bf11c21a12db83c18ca0224b8a56e481",
+      "bytes": 299924,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/footsteps-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/footsteps-synthetic-v1.wav",
+      "sha256": "c9f1d11d8e3fe0c85f3d2073dcde43eceeee842a57890630d27010c39fa42a7d",
+      "bytes": 564524,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/paper-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/paper-synthetic-v1.wav",
+      "sha256": "f8b55e6d0fc931d1acb8cea2e6a1679affad4bddf78007cc5c168f40b15a7d2b",
+      "bytes": 211724,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/radio-click-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/radio-click-synthetic-v1.wav",
+      "sha256": "906b2ec7fe0acfda9202ed4c0dd04bae2195dfce7c55a0569b2883fa355486be",
+      "bytes": 79424,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/sensor-reset-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/sensor-reset-synthetic-v1.wav",
+      "sha256": "912ac7935e43805b5e8ae59640569b72504dbc822a01a5ed47f312f074b52f8e",
+      "bytes": 61780,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/swallow-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/swallow-synthetic-v1.wav",
+      "sha256": "81387cef4e43b898f926ac83d36142408bfe114750774f51fef5efccb41a033b",
+      "bytes": 158804,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/audio/sfx/wind-loop-synthetic-v1.wav",
+      "replacement": "assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav",
+      "sha256": "536f08503def39d83c42e8153d6a28408aa7525910b3152648865567d2d06427",
+      "bytes": 1411244,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-00-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "9c4fe9bbf13a6dd7429a803e8f94626329d6dab63b98bfeb86d985f68e83e069",
+      "bytes": 591,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-A-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "0b0c1eda1e9df2cb75d48f077babd945e6f1a3eb2b2f16ba5f75f5de8a11f3f8",
+      "bytes": 562,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-B-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "ca40ece788f20e38db37a4990d1c2e02861a3510c7213f5c4a22b411bc8dcc4f",
+      "bytes": 408,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-C-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "1cc11e95b615d1a3d7982f467e7f59c60cc958d6ba1498dc53e14100ba97d752",
+      "bytes": 598,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-D-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "839a46876123d589ab6fa016459fb0bbc203d1b5402d51a773078e0c5b2faa26",
+      "bytes": 908,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/en/CIN-END-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "44abc84933c65bd3916889b02ec1eea9aaa7fd9fe257ae46134404c030c79918",
+      "bytes": 515,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-00-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "17ce3c1442107a37e17ab95394218fb5f2a685719ef16ed1ef66224d250d260d",
+      "bytes": 546,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-A-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "dcd197fc7ca3e7534485f2f1f211c78bbf03eed9a7f4734065334c0f2ea48c0f",
+      "bytes": 525,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-B-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "5a8c0e7fc878c1044d644624b2adaeed14971bd43acf6d35a122e4201b5d4135",
+      "bytes": 397,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-C-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "b8842418eb6aed5dcb8d2838766cf48973f36d028d6689bd063da3e31e35755f",
+      "bytes": 561,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-D-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "7756fb63b353f6e9638ebbc2816ee22f87828a4d4d025d2b784c7a08eb8976b6",
+      "bytes": 823,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/subtitles/zh-Hant/CIN-END-draft.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "d0a6eecd2a5014adcdb7530e966adebec4cd0643cd37abeade286d26cd19c3f3",
+      "bytes": 521,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-00-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "cda2f06606b6adb0e562a3395734c5eb5981170d48dda491b262efb2289007fe",
+      "bytes": 1637526,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-A-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "e82f0cf2927d579634cc6d479ce901ae7d97d174a3833868e965051c8a05bebf",
+      "bytes": 1417954,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-B-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "35831b0a9740715c346bccc03e4e61733a897a628fe73ffd7f99ccb1d6174bb3",
+      "bytes": 8945,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-C-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "16568644aaa5abcc2140eca1d2d4be2e3379fb70214863a5e5617f46589534fe",
+      "bytes": 1699534,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-D-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "1a785df0347dc2dc8da52265295781b93aafc6452c256dc25874fde6476b414d",
+      "bytes": 1606500,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/CIN-END-sample.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "d627991567c463c02dad8b79c28ba980f62e29e3104243ded0cd6be662085560",
+      "bytes": 1493810,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/D-04-sample.png",
+      "replacement": "assets/art-redesign-v4/images/D-04.png",
+      "sha256": "8872d7e91d981dec49afa6d49c9ded4084d81bdca7c18de6364f24416b69f0fa",
+      "bytes": 1602596,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/D-05-sample.png",
+      "replacement": "assets/art-redesign-v4/images/D-05.png",
+      "sha256": "65b67504ff4762d8be5c3a432dfcc3170efd1d33a8ef86f94a522b7c0c8dff29",
+      "bytes": 1775034,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/D4-time-card-v3.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "41337c4a4001665be69a6af4fc73319521e60121b08cba91ae9e9d5e087429cf",
+      "bytes": 1625149,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/first-photo-v3.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "9da0292294386a31f94643e0653a7ddb700abdfcc8272e1b41eb03f6c8a41b3e",
+      "bytes": 1571703,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/fixed-base-v3.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "5492785f02f46d0aa61ae92c80712cc3083b9d95d233a70f9cb95bac3de2b1a0",
+      "bytes": 1846256,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/verification/layered-exit-v3.png",
+      "replacement": "assets/art-redesign-v4/images/MENU.png",
+      "sha256": "9b1f9e4b1a96c657f54e0826a2b73b284dbba917396dab467bee9f6aa42d2aec",
+      "bytes": 1471145,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-00-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "8e23a75edddffe1a3c6a6418bd676ca552c475b9a0a06001d0f8308a2d5df606",
+      "bytes": 7634597,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-00-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "3652c9a8de21ffe59711e26bf6b06670fdd79bf1b283890c608fe32928eee753",
+      "bytes": 6145533,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-00-preview-v2.mp4",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "97ebfbf9bcce98d646527000b2451ab2475b5e484cbad0d106a46840e1ffb546",
+      "bytes": 6145575,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-A-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "sha256": "2b40c03ed70e08ac1fa376f4146b2bdc1213cdf4ab6f21e2272273db905c984d",
+      "bytes": 7181439,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-A-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "sha256": "d6c6f8463c6671f304fe4a3258d9790e1838c9a785c5c7cd0a88c8d93de522ff",
+      "bytes": 4351458,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-B-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "sha256": "a6f9b63353b96d6d010a050f6a87372afa46a5d179ad7d21b30577014f3c22a1",
+      "bytes": 5244293,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-B-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "sha256": "92025b2012a3837ecaebb695b8e7e20c8a929ad2a30fa486c28a9d2f3bafff68",
+      "bytes": 4213690,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-C-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "sha256": "6d9ffb8315395b236079e1d67d6f8c7ffbc1ef40ae3dfb51a1e27b9656d5c2f4",
+      "bytes": 8507643,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-C-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "sha256": "e507b52ade11a549ba733b45adbc6a9c7cdf4a7bab9275bad3472c5ff44f8074",
+      "bytes": 4805683,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-D-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "sha256": "62a20cfe7f6bf1dd6bc9ab162f0b43f87be0eff33ef85f9d1992b40a9caf2508",
+      "bytes": 10999316,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-D-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "sha256": "81d193ca5680a0cb7b72c7837f3c18130cbd6e73d6eec55248f4a70da918e882",
+      "bytes": 8317316,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-END-materials-v3.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "7ad0496dbd1e7c605422309205e8b8fe2c8bbc33fa0898eb2a2342b5d17de90d",
+      "bytes": 6399831,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/cinematics/video/CIN-END-preview-v1.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "41a3cdb86464e72ab78951b55a276cbcea433eaf49505481b00da3ebf6a2a221",
+      "bytes": 7101822,
+      "reason": "舊風格媒體／技術抽樣已由新版故事與美術取代"
+    },
+    {
+      "old": "assets/web/optimized/CIN-00.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-00.webp",
+      "sha256": "c84a0326515002a7bbab020aff20a9a638679be867d6f7c286588e4a7aa2a6ab",
+      "bytes": 365642,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/CIN-A.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-A.webp",
+      "sha256": "f653e85be5e83374cc082f5a5cd5705357d23a07c64090c5cc172fbfb135323f",
+      "bytes": 380046,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/CIN-B.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-B.webp",
+      "sha256": "e8221b69649a4a54f03a5a6a85fe660fecbefa7c9bc506b6aef1f93bc125ba7d",
+      "bytes": 302572,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/CIN-C.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-C.webp",
+      "sha256": "10675bfd188ab5b966893017552c43525aec79180c14645978eb89e1ee912ce2",
+      "bytes": 326790,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/CIN-D.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-D.webp",
+      "sha256": "4083034f6d14047701ee8ac93a525123d8b6274d678e0885fd35bafadcff42e0",
+      "bytes": 307788,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/CIN-END.webp",
+      "replacement": "assets/story-v5/web/posters/CIN-END.webp",
+      "sha256": "787eff9eb9915406e5b137c9b897512031fff095cffd71a72a43ef4bc387b837",
+      "bytes": 312508,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/cabinet.webp",
+      "replacement": "assets/story-v5/web/evidence/cabinet.webp",
+      "sha256": "c1107f602655a156c811c5ca003e3e43f34e52ca191c97bc3310101d4c3f268e",
+      "bytes": 206584,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/exit-traces.webp",
+      "replacement": "assets/story-v5/web/evidence/exit-traces.webp",
+      "sha256": "d2c8d880835085d22fd178a43c9974def5ca0a27cc58c60e4ec3740c3e603eb7",
+      "bytes": 279144,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/first-photo.webp",
+      "replacement": "assets/story-v5/web/evidence/first-photo.webp",
+      "sha256": "d13132c2e05953b5d17d5e02c4311ca6ae641697885d81a77256eee25c4a0ffd",
+      "bytes": 245088,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/last-photo.webp",
+      "replacement": "assets/story-v5/web/evidence/last-photo.webp",
+      "sha256": "8d3d53cd8f34a4ef386c89f7f900cb5de7b0ebcc6b0651b9f33b4a03759a971a",
+      "bytes": 238222,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/menu.webp",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "2c406bd30f5068885edb595650300306d5c95b2f16710f16e2337894362cd050",
+      "bytes": 204960,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/necklace.webp",
+      "replacement": "assets/story-v5/web/evidence/necklace.webp",
+      "sha256": "e31478b27b8b6d6730270a3c6e09eee746377425e8fa8e08c2064ed6aeb464e1",
+      "bytes": 256548,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/report.webp",
+      "replacement": "assets/story-v5/web/evidence/report.webp",
+      "sha256": "4083034f6d14047701ee8ac93a525123d8b6274d678e0885fd35bafadcff42e0",
+      "bytes": 307788,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/reporter.webp",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "bd52bc8766d5cb0e20c6672f095f0f3a7c86b6f5de7a1efc44d2c144ade6cba6",
+      "bytes": 399104,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/watch.webp",
+      "replacement": "assets/story-v5/web/evidence/watch.webp",
+      "sha256": "e46d413c2dbf631ff7504c6964ebe911fa24219de2906779cb5cab8d79eb1e04",
+      "bytes": 273368,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/optimized/weight.webp",
+      "replacement": "assets/story-v5/web/evidence/weight.webp",
+      "sha256": "be7584dc8beeda5d2aed2eb0ba538ed1e715dd8c47cc171c27c3a58386011284",
+      "bytes": 443966,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/web-background.png",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "a3a51d10454216ae5e2c2ad87e8587857625c51f9b83b52b80485e165db90a22",
+      "bytes": 2191471,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/web-game-concept.png",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "6c88f12beceeacc9c87c2e31daaa15b5e0980ba12eeeac42685c9e9ba5fd2992",
+      "bytes": 2205197,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/web-mobile-concept.png",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "443ea1db29b1dca06f6afad87ad05fc3e329625c06506bd6567efb0553c90736",
+      "bytes": 1899266,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/web/webMenuConcept.png",
+      "replacement": "assets/story-v5/web/menu.webp",
+      "sha256": "fe17911be01db019a05f90bc316afcdb17ce45f4ca43b7df676a258b1a090fb7",
+      "bytes": 2169870,
+      "reason": "新版主選單／證物／影片封面已接入正式網站"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-00.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "5e28ed8ab5db38d104ebb8ed64ead534cea161eed73d5f708febd9e13e13673c",
+      "bytes": 7056044,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-A.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "b2e77f27182ff1bc2561f472433930be92abbf4603446603bd0651669cbf593b",
+      "bytes": 7056044,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-B.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "178e85afc47717fc74ab214649c701c8bc0a6a2f63650b48e9785da1f550b6dc",
+      "bytes": 5644844,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-C.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "923e1ed1af746c16840b4d648a13c22e0638dede8f6646f205d324e9c23fb242",
+      "bytes": 7938044,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-D.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "6dde28b056a51cbe953ee9be2acd5f820d5f23788cb8ca95eae2aca3e8083c0b",
+      "bytes": 11113244,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/CIN-END.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "e3a914df7807e4b7b33ea877dae466829d44260fa7b07dbee342dcead1568dda",
+      "bytes": 7408844,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/cabinet-slide-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "0270c1dfafbe67eccedb509d8660500e1222e8f5348bb9c7463e7f03c085457e",
+      "bytes": 317564,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/door-creak-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "c4789bd532bb6bf5049c589bce05ae51bf11c21a12db83c18ca0224b8a56e481",
+      "bytes": 299924,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/footsteps-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "c9f1d11d8e3fe0c85f3d2073dcde43eceeee842a57890630d27010c39fa42a7d",
+      "bytes": 564524,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/manifest.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "4d2581638c298e1aefb3f3d6278f6fa2cd74499f80e38c2ff6e32edf30c59821",
+      "bytes": 2991,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/paper-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "f8b55e6d0fc931d1acb8cea2e6a1679affad4bddf78007cc5c168f40b15a7d2b",
+      "bytes": 211724,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/radio-click-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "906b2ec7fe0acfda9202ed4c0dd04bae2195dfce7c55a0569b2883fa355486be",
+      "bytes": 79424,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/sensor-reset-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "912ac7935e43805b5e8ae59640569b72504dbc822a01a5ed47f312f074b52f8e",
+      "bytes": 61780,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/swallow-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "81387cef4e43b898f926ac83d36142408bfe114750774f51fef5efccb41a033b",
+      "bytes": 158804,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/audio/sfx/wind-loop-synthetic-v1.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "536f08503def39d83c42e8153d6a28408aa7525910b3152648865567d2d06427",
+      "bytes": 1411244,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/00-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "308fc3da6056242d8fec8b643a607d692b741b7db4ab663f8fdda7da10f21ed8",
+      "bytes": 1281,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/00-02.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "8a44feeca81051960ea3988f37349b200f13b55e09a092a7ffa50462a972473e",
+      "bytes": 1766,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/00-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "92334bf5ef791f4713c69ed0b6d49158b9b42c41415d64e56b72ce8a8e368be2",
+      "bytes": 1738,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/00-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "027e1f78f07300b68af026fd8e28027ca9efbb38f1bbee8c8e26323734b93ea9",
+      "bytes": 1833,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/A-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "5a46a74c76520530eb9cb4b7cb2cab6b6e06327f1d54fc5bbccd679e9682bf75",
+      "bytes": 1778,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/A-02.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "26050efcb3ceb890fce54dd44f9fd0e10c523dc1445339e48b74de6771fe6429",
+      "bytes": 1827,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/A-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "4d923ce1dc0e2bbeba15ce2a4104629f9c2abe5f106f4f3952b8e1b935e5d4e9",
+      "bytes": 1829,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/A-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "e04ed3c35e10de3ea477d760c90b7563f8d1b884bda13926a1caec59c8a4d305",
+      "bytes": 1765,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/B-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "d8d3ae5028761124f379dda883d96cf71ba77b8af19f24de8a74c5ea093ffe34",
+      "bytes": 1857,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/B-02.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "4dfe3b0c2b97696e1ca42b5a5bdb5f0426dba5ba71be72773bc8c335d0cff1b2",
+      "bytes": 1636,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/B-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "2e6290eecc00f30b2b07fac9a24207ff0bfe04ff0ccfb48a64448da0c4b4e920",
+      "bytes": 1967,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/B-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "c89acbf9cdaeee972ce1f977337f3e1d868316bc156ac074947c537dd4f8b8c8",
+      "bytes": 1245,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/C-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "af3ef1f38d795e923989bf7211aa4b57b00b4d9afd178efdec5f453f0fc63744",
+      "bytes": 1059,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/C-02.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "a47ca5a0c5541ea3c926f48cb918e66cd06b74c566e5b1d41d936ec4a6fc6fca",
+      "bytes": 1011,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/C-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "2f89003717956b6eac95b62b4594788e3ceb5a7305e60effd29636f5fb9a21c8",
+      "bytes": 1917,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/C-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "750977bfce4661b3cc94717b31c9b0705bd72ce5e8fbc95498068147223e8127",
+      "bytes": 1890,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/C-05.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "3de163f7205604b01c5b83b6d18acdcf86b65a1895e2e00ea33d06815312b95e",
+      "bytes": 1944,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "e9bd93ff37810a962e25d3257c3d3c0b7a6f137b4072e4ecd382909f9c2efbf2",
+      "bytes": 1330,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-02.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "f5661054e9149d57fc459b566f9a1d905d658fc40006a1fa850eaa11ea9a5530",
+      "bytes": 1043,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "acdd0ef7cbd7143e2ad87bb5ccf2dd2f34302eb96953cbfbf57db8d5d425461e",
+      "bytes": 972,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "d7bc2ade2a31dc0c7d1ad10730b21432638a8e66cb408bb47648204d0618facc",
+      "bytes": 955,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-05.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "42e055068b748369a10b2645bd721cdbe8a09ce6ec20a1fd83440562d5b081c0",
+      "bytes": 1086,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-06.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "7e132bfd4ae94cb107329f492ec2eaec114218f4ebc23241e336c301c31c5c6d",
+      "bytes": 1118,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/D-07.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "16445806316ef54d0156d9c77791054e4d7af94a74a775715b09df4710ea3c46",
+      "bytes": 1821,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/END-03.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "a88c519f3cbc6f989d62ca87a3fd5a31fe3650e12ed3a7207281ea91505703ac",
+      "bytes": 1884,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/END-04.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "2a63b6065c5dd027f9bf2edc73da2998f52810d79b572c71047a6173bb10d329",
+      "bytes": 1893,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/END-05.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "f8c1889d1f06db9db70bed0b26bb55a25b5ecacc3447ed4a024a148e4ea8bfe3",
+      "bytes": 1997,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/END-ACTOR.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "1b7cc9762302e121afd45b6e678e848409b1a0d29178b832b82a6cd5e22e1ae1",
+      "bytes": 1277,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/END-PLATE.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "2b5a30cb3e37323e6434e083ae1ee6378012840c90c3592105c26848dff428e8",
+      "bytes": 1835,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/EVIDENCE-01.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "9deff0b4b31678ec6b4ad6e321ba8ccda2932ac9eb83b2e0ddf7f0fe289f6c17",
+      "bytes": 1780,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/MENU.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "3ac51f1dd391e34caaf78f79dc06ddd380bc381d7c7f4645f0c5404db86fa3e5",
+      "bytes": 1996,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/WATCH.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "d538faf6b324ddf26e52b3c951ba9c50ce5a2c6862ced5541cebe22cd92074c1",
+      "bytes": 1829,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/doctor.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "fc0c9f696130ce42376e5a548152003d55c81943610a4e54e549b45023e48d8c",
+      "bytes": 1321,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/generation/photographer.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "e30927b12270188ca6304143affa2f873d58b2dafdf2344e7b2c7e3c994ff65a",
+      "bytes": 1072,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/00-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "0adc6a3e741eaadb1dab6bcf007c6432ee3185aa33252ea92aa2d2d50e8d0427",
+      "bytes": 2649223,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/00-02.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "78973fcaca950e6ce22f1253c876fc8bb6282aad98a176318f6f9ce7713fe285",
+      "bytes": 2570484,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/00-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "a5a644a0a37e4359f527d3d24799660321bdf9dd8b409f5d2163ba6d6453d0c9",
+      "bytes": 2780028,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/00-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "848137e6740ecb75ff016e5d1736fa08a47612f647c1a354b65393f8c3458b49",
+      "bytes": 2917916,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/A-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "34071279079f4195390c1e31743c961334a928beaefa068df83085d10083e44a",
+      "bytes": 2935312,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/A-02.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "e5bca8dd17e58637ba1cb379bb78fa30558d815b3dbf3c462a78234c5fd2fb93",
+      "bytes": 2957731,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/A-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "0254c30d08662c20129fa32c6bb03925d6614c1bf1de7f566185013672ece906",
+      "bytes": 2576451,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/A-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "1fb2ccb21ffdf9665c77234bd4851de6dcd006e8cd41ca7e25c7d2da8ca53795",
+      "bytes": 2838402,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/B-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "bd56c4448e692b3e0c73b9e8d03771e62c5535cca91aa4362133dad370e858c7",
+      "bytes": 2614299,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/B-02.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "2c18932d7152251a4fa25e74114182b8c8b74d373bd7bc24c920f5d73834e9c7",
+      "bytes": 2202903,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/B-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "9d3ed578dc6bfcec48f5fd8521e2ec2011f5d712eceb2c20c8d5e21a46a22995",
+      "bytes": 2489810,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/B-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "00636e556841d1bfa5482ef6c2e4df618901486dfd1a5600ab913502164a6fc8",
+      "bytes": 2221620,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/C-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "8df667653a945a0ec051f71f845782ff6f2df93f5cd964f32e34af883ac32bf7",
+      "bytes": 2352583,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/C-02.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "5d5ec24392980caffdaece134c01af76fb9f8bd81ab5e86dfd1fe619133b1a95",
+      "bytes": 2596148,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/C-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "974a0e9db263c49ab381a83e2f79058dc09a39a2d13d5677cdfe79fe55db6b1f",
+      "bytes": 3052962,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/C-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "be171ef9632e48b5cbb7456298898c3be1eda27047d5dea818b805843860a875",
+      "bytes": 2814939,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/C-05.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "c7c3f061726dd01b08f9ec6d6349902802e896fa60d422827dcbaa93c3708a1b",
+      "bytes": 3150593,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "7048b7983e3c1959d5736415784bdf0ca3ac0c9414383c59186c5dddc0358c63",
+      "bytes": 2361277,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-02.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "08d41e30ee4ce72353f6bc6520d8f2f56ecc4c385f2c6557b78928cb2f342d4d",
+      "bytes": 2068258,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "0216ceedf03fec0dba1bab595d56f5e24a16606e234735e11bff019efd0c7dfb",
+      "bytes": 2384661,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "93acdb67449d941773e030cf54b96d265e7fcdbaca468462af196569361a3900",
+      "bytes": 2468755,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-05.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "53f9787149eabbe2bd33fdc93031bfa42fcf314f4c1bc4f40f123e658e4dc815",
+      "bytes": 2506584,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-06.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "57d7d16fb87455314f80ab5d7579c3f10d670a2a21473ac4dee5ad9cc062cb1c",
+      "bytes": 2594293,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/D-07.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "baf9a4929258dfaac9d4bf33abbe55aa437e5484882c75411a1ff4113ce3fa46",
+      "bytes": 2985397,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/END-03.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "8e72f314b817e0016bda9fdc82ddbf38253bf9a1bd11eacafe126c9165f29e98",
+      "bytes": 2652933,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/END-04.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "edab095bf31f576804eb1cae18559d5f37b3ec432661b5ce35eb6ad6a594edcf",
+      "bytes": 2741367,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/END-05.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "1db0dafbef4bcf105c9b6843ccc45f2c050d1a0f6abd634edde947361ef37190",
+      "bytes": 2254788,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/END-ACTOR.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "6599909488de9b0097cb40728ac51d37094762da117f931e04326134ba78462b",
+      "bytes": 951639,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/END-PLATE.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "d5d955421a4190a61e5caa05c441cdc25661161dc4d8bc79d7079106dd5f9e6d",
+      "bytes": 2858231,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/EVIDENCE-01.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "8aacceef4bf7b719a8025588f5f9b942de5aba952528affd20ff4c6d14a432ed",
+      "bytes": 2912024,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/MENU.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "69a694c021f215e5026bddf85bfe96c6a82b49072f57cf05a50356e7f4ca71dc",
+      "bytes": 2680024,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/images/WATCH.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "7931f5adc5898f3a78d61b4ed86b209f692d925be6dca694d3ba16a6f9520f59",
+      "bytes": 2896680,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/manifest.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "9214d0594367442cfdb046990da81a20b54612ee776236ce1315ee5aaf4e2a92",
+      "bytes": 7713,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/portraits/benefactor.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "68712b64adad2c56436b25dd4c32ed612769e62b444bb18267e9d28fad2ebd4a",
+      "bytes": 914190,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/portraits/doctor.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "bf69c0f7a5d82110c2bc7f634dfca9d5bade85fcceeae7484a66da16f4860a9f",
+      "bytes": 2786295,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/portraits/host.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "b2a3ee249edefd590adad5eb79d2a614108b58f854e19de17c2a503501fe21dc",
+      "bytes": 945841,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/portraits/photographer.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "94fffbf0a09491bd7d7fc7dbb035e92666af48f7a8e452aa69d6e47b77857539",
+      "bytes": 2757082,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/art-review/portraits/reporter.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "11c4d57430c2adf119a018aae5378d5ffb2665a73c4827a7eb531d7e4032d9fb",
+      "bytes": 905308,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/assets/Game-2P0Xoyzi.js",
+      "replacement": "web/dist/index.html",
+      "sha256": "d3a4bcfecf047bc93c7552b374dcb4feafbfa23deb04d171b461a058dc766a6d",
+      "bytes": 14762,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/assets/Scene-CwFGv42d.js",
+      "replacement": "web/dist/index.html",
+      "sha256": "b6c958bfae0ca50011a95356df9a0a63ebb37794477d73eeac14371e6627e51f",
+      "bytes": 604477,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/assets/index-JKZ4yYah.js",
+      "replacement": "web/dist/index.html",
+      "sha256": "b28899b4d5279f43bee5b09868010385ff87f92617cd7c523b1279fecf1faed1",
+      "bytes": 259826,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/assets/index-zbjvIKb5.css",
+      "replacement": "web/dist/index.html",
+      "sha256": "a09434b0715d305b519e397971b1c6c81d777caa8c2b1af3f86d200441c3a495",
+      "bytes": 25101,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/favicon.svg",
+      "replacement": "web/dist/index.html",
+      "sha256": "df40acfd11c6d25fb7d415eb8788405febc31bbeefbfd254e216f0816739ca35",
+      "bytes": 288,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/index.html",
+      "replacement": "web/dist/index.html",
+      "sha256": "f8497446d73ecf6a579086fb565ecb2f7af5ae0e0bddb154ae69327aeb37974e",
+      "bytes": 597,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/cabinet.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "83962788c28e1faeeacc5f2b44e345adb036b126249b326d363acb63a198789d",
+      "bytes": 296002,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/exit-traces.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "47848699a865fb1da4e16ebe8f534cc88b71a877a171a801272085dcbb9330f5",
+      "bytes": 342772,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/first-photo.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "5712d74c4baca83b36651a37bc763cfddb7e7704ce95e51cfaa65e70624a6b99",
+      "bytes": 225274,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/last-photo.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "7529d60b1c06a81bfa205d105f53bd0b3e473e3eabf7336d0bc5f777091c6907",
+      "bytes": 227488,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/necklace.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "95b25987a69d940b4448186823d1152d7e353e10c05075fe8b7a766fd97e59da",
+      "bytes": 331480,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/report.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "e840961baee0f8af28b2590efa2b15db9a751c8c9f0bd3f51d6ee31690750ea1",
+      "bytes": 253080,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/reporter.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "3c479d8c1b6e51107e7b6548d49029831d4b79ad47e765044917b3969deb93d4",
+      "bytes": 359520,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/watch.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "4c390bbea55c4218cf0718399836865457600a7b5c8df70e3e00c0b75a0d13e9",
+      "bytes": 327932,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/evidence/weight.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "62a4703ac8a0da401d693b372088a1ecc5923fb01bafe97a4b4023f6ec89ef2c",
+      "bytes": 398094,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/menu.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "68c6b1309ede31377272bd5ea3b41f7d0b0d6a240d5cacf4d4b688405a0119e7",
+      "bytes": 296406,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/model-overview.png",
+      "replacement": "web/dist/index.html",
+      "sha256": "10e7c770bce9bb035eda632921a50d670c21003a19d12a9a0e7fe6c490b5b818",
+      "bytes": 177957,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-00.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "106577f22062fc77206c381ecfe96f6ae4882a30281ffe293751a9a6e3da0a9c",
+      "bytes": 190382,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-A.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "49c22b872c4dae30676ca4d42520b89d192d2c21f8d6c88fb63f4ef7b7664828",
+      "bytes": 232914,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-B.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "f38df32ec6e26d364b0c0936c919598f8db01923ab001de4e60937c267bef749",
+      "bytes": 170940,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-C.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "b6b6ca4774f6dcebd1ae5ca7b86a5522aee2fec0f1e5201c503d13a55cd50145",
+      "bytes": 149532,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-D.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "721a9b95b27ce69d48d093b010d8ccb435114f0a4fb32a1a8e99b51f7cb365ea",
+      "bytes": 164508,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/posters/CIN-END.webp",
+      "replacement": "web/dist/index.html",
+      "sha256": "fc187a453af1aeee66c9fff22d923716c7b247fbf32a15ea2f6fb221a0ee4071",
+      "bytes": 202258,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/scene.glb",
+      "replacement": "web/dist/index.html",
+      "sha256": "f6db6d83cc89c5031c8e12c385c1ef5fede29ff4e48641bb46021ed2d5a48b67",
+      "bytes": 903528,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-00-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "80bc63b12da8f9452025229fd52d0dd51d5373ebe1ec7eac1e922e19c0af780c",
+      "bytes": 566,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-00-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "8b5842533114e77a5758f312a2357a98ca95600a0e273381d3d438697ce10a26",
+      "bytes": 506,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-A-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "86cecddb629937efdbb6c59013039d4e43e52654b96b84684a847696c9198e5c",
+      "bytes": 507,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-A-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "6b12ebdce972fc1a2b53782ce3e68182a0cc941ecaa224b5f1e17ebce7660225",
+      "bytes": 464,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-B-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "36e53186d1d8dd127d8bb10ec02f79c8dafff24aee5776ddc630f6b51b2e3092",
+      "bytes": 373,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-B-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "12a667f94ff790161485951177896249762b93f88759b723f108826b54617a5e",
+      "bytes": 381,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-C-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "0b18c699dd90652051006338f4cf5833fe1770e8133b5bd8bb042f5dbc319646",
+      "bytes": 542,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-C-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "ca1554962817b7b93a7c54df8f5ae7035720ae429e9c8bc03b76e8222822965a",
+      "bytes": 533,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-D-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "99e81d9dd5575b33b45ca73d0bc060b089c290f9adeb2e0ab4a6291d2b206c5a",
+      "bytes": 860,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-D-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "08b94f69be4d6eded53e38c544f5db906d94a673095f7a6048d70243e1e69b63",
+      "bytes": 765,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-END-en.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "c2d51fd29261dec86f43ec384e01552eba492bd86ab4d78b0b9e8b01fd84f86d",
+      "bytes": 502,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/subtitles/CIN-END-zh-Hant.vtt",
+      "replacement": "web/dist/index.html",
+      "sha256": "73d9bf4a538c69329a339fb18fcae7944c60e4fa21030e381cb48d8f4f7041f5",
+      "bytes": 496,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-00.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "a7db40aea7de7236e5a105ae9f3e309c6e3d4ebc35b5006b2bb268eb32f3ca21",
+      "bytes": 5983256,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-A.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "0ec8ab6f0b8d42e4f1ed81172416b912c0c611f1aeeda1cdf8285e790bba2747",
+      "bytes": 6663639,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-B.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "4eb36077adbfe29f5deab8044760500e30b8d2fd6799d41a909531476200de29",
+      "bytes": 4145229,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-C.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "5035df65bfc0d1df7b3529a09cbb9714b981a41811bfb62ae5b2568ddb7d3a2d",
+      "bytes": 6880027,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-D.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "180692029433d76e00a230a7e66e6ead32a9b1187ac887d1231a70ac8acfcf13",
+      "bytes": 7993486,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/video/CIN-END.mp4",
+      "replacement": "web/dist/index.html",
+      "sha256": "a72084d885f2b09b3120d3774b05655ecbbb59c715b024b3504f6ba79e5c3ef8",
+      "bytes": 5519046,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media/wind.wav",
+      "replacement": "web/dist/index.html",
+      "sha256": "536f08503def39d83c42e8153d6a28408aa7525910b3152648865567d2d06427",
+      "bytes": 1411244,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/media.json",
+      "replacement": "web/dist/index.html",
+      "sha256": "96850e29ff3cdaefa3aedebd74ea18d98866765e374982da59301cddcf4f6f9d",
+      "bytes": 1776,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/game-preview/review.html",
+      "replacement": "web/dist/index.html",
+      "sha256": "308e87fa332d1ff149c645c3d880f66bb0365150ccf2a7369f527deac255b19b",
+      "bytes": 7617,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-00-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "a7db40aea7de7236e5a105ae9f3e309c6e3d4ebc35b5006b2bb268eb32f3ca21",
+      "bytes": 5983256,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-A-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "sha256": "0ec8ab6f0b8d42e4f1ed81172416b912c0c611f1aeeda1cdf8285e790bba2747",
+      "bytes": 6663639,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-B-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "sha256": "4eb36077adbfe29f5deab8044760500e30b8d2fd6799d41a909531476200de29",
+      "bytes": 4145229,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-C-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "sha256": "5035df65bfc0d1df7b3529a09cbb9714b981a41811bfb62ae5b2568ddb7d3a2d",
+      "bytes": 6880027,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-D-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "sha256": "180692029433d76e00a230a7e66e6ead32a9b1187ac887d1231a70ac8acfcf13",
+      "bytes": 7993486,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/video/CIN-END-art-v4.mp4",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "a72084d885f2b09b3120d3774b05655ecbbb59c715b024b3504f6ba79e5c3ef8",
+      "bytes": 5519046,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/cabinet.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "83962788c28e1faeeacc5f2b44e345adb036b126249b326d363acb63a198789d",
+      "bytes": 296002,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/exit-traces.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "47848699a865fb1da4e16ebe8f534cc88b71a877a171a801272085dcbb9330f5",
+      "bytes": 342772,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/first-photo.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "5712d74c4baca83b36651a37bc763cfddb7e7704ce95e51cfaa65e70624a6b99",
+      "bytes": 225274,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/last-photo.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7529d60b1c06a81bfa205d105f53bd0b3e473e3eabf7336d0bc5f777091c6907",
+      "bytes": 227488,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/necklace.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "95b25987a69d940b4448186823d1152d7e353e10c05075fe8b7a766fd97e59da",
+      "bytes": 331480,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/report.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e840961baee0f8af28b2590efa2b15db9a751c8c9f0bd3f51d6ee31690750ea1",
+      "bytes": 253080,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/reporter.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3c479d8c1b6e51107e7b6548d49029831d4b79ad47e765044917b3969deb93d4",
+      "bytes": 359520,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/watch.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4c390bbea55c4218cf0718399836865457600a7b5c8df70e3e00c0b75a0d13e9",
+      "bytes": 327932,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/evidence/weight.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "62a4703ac8a0da401d693b372088a1ecc5923fb01bafe97a4b4023f6ec89ef2c",
+      "bytes": 398094,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/menu.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "68c6b1309ede31377272bd5ea3b41f7d0b0d6a240d5cacf4d4b688405a0119e7",
+      "bytes": 296406,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-00.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "106577f22062fc77206c381ecfe96f6ae4882a30281ffe293751a9a6e3da0a9c",
+      "bytes": 190382,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-A.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "49c22b872c4dae30676ca4d42520b89d192d2c21f8d6c88fb63f4ef7b7664828",
+      "bytes": 232914,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-B.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f38df32ec6e26d364b0c0936c919598f8db01923ab001de4e60937c267bef749",
+      "bytes": 170940,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-C.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b6b6ca4774f6dcebd1ae5ca7b86a5522aee2fec0f1e5201c503d13a55cd50145",
+      "bytes": 149532,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-D.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "721a9b95b27ce69d48d093b010d8ccb435114f0a4fb32a1a8e99b51f7cb365ea",
+      "bytes": 164508,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/web/posters/CIN-END.webp",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "fc187a453af1aeee66c9fff22d923716c7b247fbf32a15ea2f6fb221a0ee4071",
+      "bytes": 202258,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/00-01.json",
+      "replacement": "assets/art-redesign-v4/images/00-01.png",
+      "sha256": "e2bcede4cd6138d8026bfa75d7b1715abc345fc34a1bf100a6eb732d1a643b4a",
+      "bytes": 1809,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/00-01.png",
+      "replacement": "assets/art-redesign-v4/images/00-01.png",
+      "sha256": "a08424b33f10d45cf0c45414cf443d32b93957d7e2ea2ec5b94c5a978e70f199",
+      "bytes": 2689046,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/B-04.json",
+      "replacement": "assets/art-redesign-v4/images/B-04.png",
+      "sha256": "1761ad3a19a59f59929106180e052cbd36e9d4b45b592c5df744623bddb8a2bd",
+      "bytes": 1159,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/B-04.png",
+      "replacement": "assets/art-redesign-v4/images/B-04.png",
+      "sha256": "9a770be3a2ff55e0ff485d9c5dafba7720d5a96d7712fcc543589796df318d5d",
+      "bytes": 2302543,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/C-01.json",
+      "replacement": "assets/art-redesign-v4/images/C-01.png",
+      "sha256": "1d73e8cc1adfffe33bf2d2a1f5d2870092dd5f2d28979596db4b519446ff0bf6",
+      "bytes": 2351,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/C-01.png",
+      "replacement": "assets/art-redesign-v4/images/C-01.png",
+      "sha256": "76ad31730c6daf17eb129aab233c54cd07444d5ae1b32553a0c72c2672338ba8",
+      "bytes": 2562773,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/C-02.json",
+      "replacement": "assets/art-redesign-v4/images/C-02.png",
+      "sha256": "25a994a7f7a5779f17d521d0b5a48a1e59314c7c2a20511e961ba529fe5e3497",
+      "bytes": 1770,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/C-02.png",
+      "replacement": "assets/art-redesign-v4/images/C-02.png",
+      "sha256": "6669e3a28efa1edf086bfda996ffbf6c1f883044c527ef1099593abd4a1017bc",
+      "bytes": 2805470,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-01.json",
+      "replacement": "assets/art-redesign-v4/images/D-01.png",
+      "sha256": "40720e156bc4bb33631c691ce9c369dc020b9911f9dda568a6088d341a9411f3",
+      "bytes": 1932,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-01.png",
+      "replacement": "assets/art-redesign-v4/images/D-01.png",
+      "sha256": "7d2f58acace7fd029c2aa68096e6cbdaf855a517548f4be0862d8433c80583db",
+      "bytes": 2494906,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-02.json",
+      "replacement": "assets/art-redesign-v4/images/D-02.png",
+      "sha256": "e49571c35f807bf1f40f677ed1abb45ef86fdad7646f9ab718cf47e349dc084e",
+      "bytes": 2469,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-02.png",
+      "replacement": "assets/art-redesign-v4/images/D-02.png",
+      "sha256": "2cc39060a41c6453c750cdcde95e2d412ae4b9ed7120a34bc5d3cf8ad17947ae",
+      "bytes": 2278064,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-03.json",
+      "replacement": "assets/art-redesign-v4/images/D-03.png",
+      "sha256": "e1a58c8b50fc4f9eabed69ae9d96ab195fe343360784227908f5b46c5cb964ad",
+      "bytes": 1897,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-03.png",
+      "replacement": "assets/art-redesign-v4/images/D-03.png",
+      "sha256": "5ca4d827355f3fb09343c373a3aaec010b5ce73119a8add7527e263ecd8210c5",
+      "bytes": 2577192,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-04.json",
+      "replacement": "assets/art-redesign-v4/images/D-04.png",
+      "sha256": "00245ad4f018b1f94d1013874aad2969add12048c7df0a6dd200a0920688c183",
+      "bytes": 1848,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-04.png",
+      "replacement": "assets/art-redesign-v4/images/D-04.png",
+      "sha256": "13c76f38fe4fe2c2ab98bd7385596921782d3ad0fef0ea89cdcc3bb7786173f0",
+      "bytes": 2722737,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-05.json",
+      "replacement": "assets/art-redesign-v4/images/D-05.png",
+      "sha256": "1cea6833750b0c6d5975d7fb2f7883a5d1fbf82feceb4a0f9d03ba0e85aceb7b",
+      "bytes": 1796,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-05.png",
+      "replacement": "assets/art-redesign-v4/images/D-05.png",
+      "sha256": "e2e9a543c4adbd6be6c105eda0b7da62ed5342d32613f90b1d84cd5395931037",
+      "bytes": 2577716,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-06.json",
+      "replacement": "assets/art-redesign-v4/images/D-06.png",
+      "sha256": "77c1edfd0ba60e35fb16a8ac7bcc50522f181524e0f3c3bddcf6679e5ba9862f",
+      "bytes": 1826,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/revision-inputs/D-06.png",
+      "replacement": "assets/art-redesign-v4/images/D-06.png",
+      "sha256": "70c9e94290d402aa9619d7309f620f99109a339654f36147437dff1e3f443466",
+      "bytes": 2618062,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/00-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7a432e605f206e2183998b447326e9ffe98f09d6fe2ba115ec8add65a3b8941c",
+      "bytes": 1025313,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/00-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3f867736246c97289176f99dbc0ee6bf1e3254a8a48d36929991e6a3c7e2e6cf",
+      "bytes": 825027,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/00-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f540156b597982ebf5d83bd34e8cb6c5d5715bf400dacab40b4f0130df474c26",
+      "bytes": 1026731,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/00-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bd3c1ac41f3503430a45ecef7d164136e0036fbcb8546abeda2ecfd2e7c3d3e5",
+      "bytes": 1260250,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/00-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f540156b597982ebf5d83bd34e8cb6c5d5715bf400dacab40b4f0130df474c26",
+      "bytes": 1026731,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/A-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9bd500e10a1dd16cf3a9c9c4eda0f754ebcc41c618a8a6fc7c6d41fce5b373cc",
+      "bytes": 1382007,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/A-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "558a93de35df2495a1998aa2a689f97770949617da3fab91d08cd922bccb1c01",
+      "bytes": 1303397,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/A-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3006b45d25ce537a3c031db7a2f2e7d92c0f5ad49ae2a71c79c2ffdaff8507d3",
+      "bytes": 847125,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/A-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "974ef47954a820d00d0a062ead9d8733242d7f495b0d774c51067f6ce69bc830",
+      "bytes": 1016839,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/B-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "2d003240a0444a5b0bfb2d4bd161f59248d8bc5e276484ccbf89bab02f128d2f",
+      "bytes": 1071024,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/B-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "d23ffd9d5a5a9899dc7bfa0d74dd46ba8019fe2fa2c1b145ff4364424698de8f",
+      "bytes": 808259,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/B-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "da571797295c3ec9fccead8737af6c355ea4afe93fc6698015cfb0cf7209c4ad",
+      "bytes": 788557,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/B-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bc6d6691fa22b986d5be771e08c108601a0b3be142a38d127a1dbd0af63151f2",
+      "bytes": 821831,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/C-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "d5a87b6cfb73daa0cc81ba728773a2d442205dee6ac63df5fab4b0d297f40ebe",
+      "bytes": 897444,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/C-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "60f9c48e868b4be6a060c473c36428c676f65f44918841ee37387940f2491aec",
+      "bytes": 981050,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/C-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b158885f8ca2a20c475518035ae92c1578a6e0ca2ec08ecf88c2ebf40584653a",
+      "bytes": 1351497,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/C-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "cec6e373ce4746f26c6abf23c28bc446cf1a46e8310a2344a5f4a85dd29e74c1",
+      "bytes": 1135994,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/C-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7142f876a5d56a379449f2a2a691a64c1aa25b7ba1b1201164bcb75c86a00559",
+      "bytes": 1592602,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-00-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "fa9481984a2a8ba07613d16a787a7e846c0ef476df9c4555bb4ea8afe420129c",
+      "bytes": 568,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-00-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "1a5fab4870884026fc8975bca5588780154b3f03bbec31f1e1fe853bd19eb55a",
+      "bytes": 5160815,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-00-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "524dc9f7822f905f58101f8b690c739ba35cff28b3e01b09d6221ef7c2d8c371",
+      "bytes": 508,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-00.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bc1c268ed543d65c0b557998aa4416364b8ad6dadfd2cfafde9f5e387da5bbb7",
+      "bytes": 489,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-A-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "680ac51e4ad41ba6c8e46aafef54b3f5eac0a2e34d79bdc77c378e986e609e7c",
+      "bytes": 509,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-A-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7e0a08e210411461a6539c985914c33a58220f159f65c5811abc459d852c71b2",
+      "bytes": 5841457,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-A-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "55420628785bd9ad4cb0ba830ec97f243789107ed993ccf5fa0bfbb46b00ab64",
+      "bytes": 466,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-A.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "eb749ba872e251fc506207821e0186a02e5b509af7bdc7c92e71e5d0d752295c",
+      "bytes": 491,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-B-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "2261cb4e99a07b4d0b7dc8e0773b8c6ad0d6e7b0c9ec523e4ec56e1192895f27",
+      "bytes": 373,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-B-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "5cfa1083c1b27bf14d1d62e4f7e51792d1355df394e3ae3637c5d39fb6e4e5b6",
+      "bytes": 3487249,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-B-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ba129e23f5936844d68b956c93a78df18c118998761625be53bf079d7086202b",
+      "bytes": 381,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-B.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f89719ec66ac14b122c51fc5dbe3abe05f6bbab0a58f981d53f1e8d9a65ab56c",
+      "bytes": 387,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-C-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7e13fd561d6688d4d12dfd6b2d329cdd438fbe5cc28b7368ad24c2fde0f43925",
+      "bytes": 544,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-C-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9354a61180ecb77758557380b2264cd0f2cd74995933e35e3def9a9942402acd",
+      "bytes": 5955326,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-C-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "984e7515e3c54f2c0bf6af77e160ee0e4862d2bf3136be1dd2e6fa6f6193bbf8",
+      "bytes": 535,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-C.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "83494778165c81f6efa8962632d1649a1befb64c1c4f566ff3df6aebe5654412",
+      "bytes": 484,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-D-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "44314c6410e4cbd0e36f542a29be6a78694bfa5f3d6d4b21d639bb527f8f7948",
+      "bytes": 866,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-D-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "86a79fe4a7ba5e0c54793ab3670c72b03c0a0ba2bbe4a99d80ff70f76e5e755d",
+      "bytes": 6699180,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-D-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "138ed912d21fe98d4296d411aa55abeaa90c77df351d19ca83d6e20a8e182cfb",
+      "bytes": 771,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-D.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0f9300268853acffc2eff89eaeec2248c967fc976a16f5b611a498f47f0b0187",
+      "bytes": 678,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-END-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "57b45ab3f90292c34cd4804dfb1394b9e54b65019f9c628a257bfc41a650cbd2",
+      "bytes": 506,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-END-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b26eed4e1a6caec112937a26ffecbb3fc330a87d08c75661bd67cbc3b662516a",
+      "bytes": 4656061,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-END-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f380c8ff5cc1bf3d132dcd880e6528f3ca4c947b8aaeb9fa03ee0443afb914cd",
+      "bytes": 500,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/CIN-END.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "03c0220725e502bcf46382b4a6956cde61855461955f7dc27029c0e6809da2fa",
+      "bytes": 593,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "8d0de8daaf7e33d913eead3d0991ae49b2bb087dad513592002ed84f5a2aad50",
+      "bytes": 946792,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "d0ddf3cbc5f315b4d7c49658a4170e0422e3c19062dc8e3996fddbea8faa5c6b",
+      "bytes": 699865,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ecbe2d4ae14b3bc767e06bfc5e0010e2fc07af21ef2e62666b7d5d67fe34292a",
+      "bytes": 872584,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ffb61963d524c30f67023792b5491520af3ce16a5f5e8b2e82fb3af5d7b01b2d",
+      "bytes": 903462,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4771ff1d5273de0c7a9f9599a0c5809fa80fce1e48309e18a66c167ddda17c4f",
+      "bytes": 933127,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ef11c2fbc925286130aff529cd85d38d19735322719941976b41ccfc3472afe1",
+      "bytes": 1089496,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/D-07.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "318e17645e8e438b396f65ec29098e6249f68cdb700e9dd607fe973b6aef7ce4",
+      "bytes": 1258753,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "fdfd442b86649117687788e8186577c11cd6dac56fccb31eb969893b637ef8db",
+      "bytes": 1012677,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "a5b8e41cf5092dc7bf053161c85a482438fe7e212b0380dae606776b86c4fcb1",
+      "bytes": 304813,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f829ac918369e7717297f228803a51cfd734036b14aaac4bc73f1a5b676c8ee4",
+      "bytes": 800961,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0637f1f7c78f047e474d814d7f313aadf474b195d99e1306e0dd421d8d5b898b",
+      "bytes": 952907,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "2e49713a9582eda49d7794498aaaa7891fbd29d7f1d7b7aefff8dd414cd7f9a4",
+      "bytes": 576078,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/END-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "fdfd442b86649117687788e8186577c11cd6dac56fccb31eb969893b637ef8db",
+      "bytes": 1012677,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/art-redesign-v4/.render-cache/EVIDENCE-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "fd8011ff6101126c3ea489b805e0c747e76dec9339814f33b3bbd70ccad13b8f",
+      "bytes": 1295350,
+      "reason": "正式v5已取代的衍生副本／修訂前美術，保留新原畫及生成紀錄"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "52c91e4c59ed9be04e3f0b792b3fe21a26b60fb6e2e9b373dad5007435edf54f",
+      "bytes": 231935,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-01-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "999d1aee1c7455bac1fd896cec2bfbdc212c63fa1fcf3aa08bceecaa6482df90",
+      "bytes": 345,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-01-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "99e16d7365f384c0211fb8e98d237dc243bc1e0f9a8feb64e8b84463a330ee48",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0dd0be3c3291677e4647945d47c679ab5021bd410aa83cffb9750e50a57ed58b",
+      "bytes": 262905,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-02-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "929fb24b452814f0480965a9c2b0739f39784b6bdcaffeadc83f7aeb865983c0",
+      "bytes": 217,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-02-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "988e549742529b67e121224fb076cfe935b1833a6b72b9ddacfaf3ff7d74dd48",
+      "bytes": 15,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "2445ed01a337e549e555a5a6ee9f6f6783baf73dd50657f4c185b042464a43c5",
+      "bytes": 192549,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-03-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f8fd369b1bd3839e711312c2c61ae768a16d14f1f34aa41f0d59a20862e8d5f1",
+      "bytes": 57,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-03-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7032109b7836a9bff6e3cd65f582856908ad6d31b4c7d9cbc7d88b1a04b6bc7a",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "71b70a32bb08eadd52b03d3fb3ac5febf5f7b3a26dbf6b7ef1a22469b1526aa0",
+      "bytes": 134529,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-04-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "73b6c9052189a8389b04394ce5e33c13a1e71edd0afa19fea167402a13e14caa",
+      "bytes": 69,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-04-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "00caabc484c272196f91388e5030597ddd4dbbe4ebd995d391be52aa2d919b1e",
+      "bytes": 27,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "1d4a185e5700f1856497937a8202bd9b40070e49ba489364129a2f4c4b480180",
+      "bytes": 75755,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-05-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9c3780fd0f0cd41f1ef2a0697f204188636fbf95f3fc9ff87a8218ce263c3d21",
+      "bytes": 76,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-05-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "778c40640e598d4c59e9a4a422e60ed8ec45265fca06a513f9f406d97890d685",
+      "bytes": 27,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ba99c603741153e6830dfab8bebe7c194450868714aa9691e9dde553140ff563",
+      "bytes": 72480,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-06-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "891a0a53219b99a1d29f9a567a4728adb0c7ccd170199bf2e94dff1e9bf68a44",
+      "bytes": 69,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-06-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "748247914774647366b5515773526a092a4f50d8643c83ebeb796f7e61c3c31d",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7759f69611c477ff61f818e8d8ae906b787bf3bf92ccc06515b762cda4016e97",
+      "bytes": 93325,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-07-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "eb33ec9bcb9ef35e8d188e0fd72fd13e93d3ee500d69fa77c2c2ef89902f0f8b",
+      "bytes": 85,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-07-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "61f2f19be3f9ab7dd641773bbf9e5afabea7413e264b7d0d8ce8e2753b51ab0f",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-07.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3cd4cb6120631f03e21401b4449f647f0f776b65f69c5a5932984d006a2aae53",
+      "bytes": 94631,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-08-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "edba559490462fc9185f30331cfce645bee8715646b453f38e6d4cdf9eeff57b",
+      "bytes": 315,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-08-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6a330572a0e1c5172743d6231949ed523fab2f0bd85e78baf996ba3915b01148",
+      "bytes": 17,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-08.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "8d82134281fc91407275eda1631bcb8038f118be37624d3e9843b2344af143e6",
+      "bytes": 218443,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-09.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "210174f61492af9eab8da5839a608dd7887a68fa8fbb72897c8285fe838af207",
+      "bytes": 232113,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e26d0a1b6e7ae5797821147f686d8907fb8ae6c6d96b9b90bfc954456b38d6af",
+      "bytes": 1210,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "c903cfd141b306f39ed0dc1752637ee698ad7085d263caee5620358e855c6c5c",
+      "bytes": 1601256,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0b9f783b3356c5b6497b40ac3103dd48e24045145e5ab939e0393373ddce04bb",
+      "bytes": 1216,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-00.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "93e425dcd30c4d712e7b80997f3d168f7d67b8ebcf27c2698751f7b341f071ab",
+      "bytes": 949,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-00-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "34dcbba5376735a1fc551cf68394d4c756ccf6eab7fcafbc4dba6f1d9b8d7ff1",
+      "bytes": 187,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-00-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "c55c655fd04e47769d18159f9daea483bff91105be6666ed2502e4452b92e2b4",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0213dd87f7b17ed4dd5b68ef6426996e807ed82c12b0f51ccaf9bcb3bba1651d",
+      "bytes": 225999,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "c736147e6d9b45b2b7df1af3cd10ee3cb7ac78fe546c41cc3e133fb5c3e26b4f",
+      "bytes": 234310,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-02-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9fb6c9a1d5c9a4d2a6327a3cf084f792132a2d4fd495940ec9554541f4f64949",
+      "bytes": 246,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-02-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "248c60229fbec0057e7d81be3b022b6a5f8fd693b3d24fa3af63a186ae1957f3",
+      "bytes": 24,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "82aa8ddb0afe090469eeae98b9085af2df16591acf1a3ea6dd68cf7b31439858",
+      "bytes": 230840,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-03-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "245c20ccac20ea1c1ea46abc3e9708eb3465c573c01a15a1ec68af666138cb22",
+      "bytes": 311,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-03-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3643dbb3c6a7c1854481a2c6a14903cae0157260f7d74f57418dafaa33610949",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f4dde2d09681150c2ad648a61b4fe6bbdc5e18a9b11e9d1cd2764eddaf9cb94f",
+      "bytes": 232163,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b7826f2f157eed080ee3ad1b3b3b68b3c8d03fccbb15384dcfa7f70d732903d5",
+      "bytes": 253203,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "936bcdc4098bbf9a68041beb4059d70b1c22a87f238a71aa5bcd0c0d730d2060",
+      "bytes": 590,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9eef0a11b4a6381655ad56c8c3dab1293e5ac0ee054c416bd4f014722a712be7",
+      "bytes": 1173246,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "559348b3d29edcef7745e7d4fe66453e3e802b495570d317421d0ad63cb9e365",
+      "bytes": 607,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-A.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "77bd9feec7aa6f8af6820d242f2ffec2d95e73ab2db452926d8a5aa9714ef496",
+      "bytes": 469,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ab67bdafdadd7d2073dbac1a4ef81dd5ad23439d5eb357e1af67e43c1962c472",
+      "bytes": 223110,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-01-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f61801f2dd221d261e1ced8365df1c412c6ed2c815b25e4a345f3ae2f627095f",
+      "bytes": 225,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-01-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b420a1889ee220093885ddea91911fe79076e03ac3115f558c5b417cfe251aa9",
+      "bytes": 20,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6f78fb335a2e844fadd98233aaeb01757b8889fa771e8c4d57a11bae17454ca5",
+      "bytes": 178054,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-02-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ef4786a88a80da290880aca83c0f406c8c796e3e6d51be77764122315d00f59b",
+      "bytes": 208,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-02-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "80abd48bc4167332b3f4c5e771d8cabc060c189c20c82a2af360fba602db963c",
+      "bytes": 17,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "8af98dc0bce037d4809820eefc9e949a6121873ef1bae403a97bb201d9b79823",
+      "bytes": 178177,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-03-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "103925422ca7bbda604bb04277224ea66ec304469824399dbe1c98f824e0d1c1",
+      "bytes": 407,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-03-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "372711ef3813bdc326a83d1c705031db880c6aac90808a0cd4a3649203d4c5a7",
+      "bytes": 25,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f58d68096581b1c14e328da1850221df427f1e744fca5f35e196e5f68236bf3b",
+      "bytes": 382063,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-04-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e654a18e5c1f99cc77c873b96d3249a3763bc1d596619b8074b0e377d17a77ff",
+      "bytes": 139,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-04-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0d415f245f65164864742aeeb42e14342c04eeadb603b24de9a560b5ac4a621f",
+      "bytes": 25,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "c2d5b3efd813061d6260e7bc77f49cde82409b6a764371da2bfcfe5ee24e2739",
+      "bytes": 183946,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4b47e15092ee1229089dafd57d20a8598be1a418d2cf6cc1da846c12f8117284",
+      "bytes": 570,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e94bf275178dff77c324bc1a02f989d65a82ae10ca76c59685bb5fad428fb79a",
+      "bytes": 1142112,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "8d01e2dc1f81caa9763c67b9169a43cdf93b4821b4154507d999a37f62ddafc2",
+      "bytes": 571,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-B.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "34eeeff8b04e2291a28642ce0dae83eb2a9884ed3e48a8356e1887415dbd4d02",
+      "bytes": 469,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bda2789d54b88dafc164ee6f24fd8c8ff1dc241b640aae261d0c6e5f9eab985e",
+      "bytes": 197917,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-01-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "d2a14752630a08d61fcf065f507de3292074dea15350e739ccc61228113c3a96",
+      "bytes": 227,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-01-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "da09474d7480d278724f5306581c8c3e47de2058851e006079a09e6d53111cbb",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "1ba0de70dbcfca15ad7f5bf5cd0a1693382f4af5b422bbc5a374a885d83abb4b",
+      "bytes": 200445,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-02-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "21abc093f87fc2dd554945c97504aa74b7ac9bde238115e30a2ac2ecf696709f",
+      "bytes": 210,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-02-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "431d639f962a57fd185b9937f4076adb37ab11a833cd83b151e6dd5294280497",
+      "bytes": 17,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "a56fa152199b17957fe35d64db2a27ae5a3d94a94fc880579ab68ad9b365ab1f",
+      "bytes": 222028,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-03-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6b3d1c86f86379408c9d0455fdfc686eb4835051cb8a9d68b05f55501514ba07",
+      "bytes": 328,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-03-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "c1b705cb86c310089788226d8559ccb120ff71c9ede58dcd87ca0d23871a13a1",
+      "bytes": 24,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6b04b3699d16c17347566a3cbb17ca1cea47b4bffb01b302973c0cde16fa25e8",
+      "bytes": 274412,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-04-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f7321234deb3d90d20f0a7f3e0bb280f385b921676023fcf4aa99dfd772460ab",
+      "bytes": 182,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-04-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "182f998de9a201303d24ec93633553801c9fdbe01f781f6c7ed3fef314836821",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b0f0ce585a9909f921eab707e22e3bda80647cefb0fce0a8295b89513496ed31",
+      "bytes": 228988,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "12baaca9a989031ef0d3e2343ee60b333b1330f0e5bcc21dc7725e458c0c76a9",
+      "bytes": 264734,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-06-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "82d7aa09b5c9d7a8e7f5315261e16cd81577a2cfd083501f692f6e66d2549618",
+      "bytes": 244,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-06-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6cce282612b162ea327b2087ef80f2556205746e4bfd39bade693c055c8d46ab",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b0458dfa123aa89f90d86a4cba3816e61d977690d0b0d55ed5b135b93fce808e",
+      "bytes": 213163,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-07.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bda2789d54b88dafc164ee6f24fd8c8ff1dc241b640aae261d0c6e5f9eab985e",
+      "bytes": 197917,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "93f6c817543971a6470e8fcf767fb68ff24d8ce0ac559855154affbbb73614eb",
+      "bytes": 915,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4baa39724d6547b501dac5c3e3fbd619bbe49e166e47357e5a65721eeeb5ea17",
+      "bytes": 1793849,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f9fa3808ace2949617f6ee3d463d9e1046792274c0d2fff8cc1ab2fc74020658",
+      "bytes": 898,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-C.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "1c4e4ebb06c0acfae6e247d1bd0ced7ec28a24cac96b6d31e42510c92cfb9bc6",
+      "bytes": 751,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-00-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "89b444ab0e4a0f9be14d2e39e4b123b7712cd921009e859cd1ffc0c6a3dfecf3",
+      "bytes": 403,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-00-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b32eb9e06cdd481c4bfdaf17b233fd89f97e92e283af221472efac5e2b953f8c",
+      "bytes": 27,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "243d8edeb4539f7d5468ba929800dd200cecce8a24211fa7d6c0403c7320f654",
+      "bytes": 380016,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4f19c1a341660ce4f4cb52c340b54b3d4c737d45ccc5509e0b1ee3f0b0c8413e",
+      "bytes": 169163,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "bda2789d54b88dafc164ee6f24fd8c8ff1dc241b640aae261d0c6e5f9eab985e",
+      "bytes": 197917,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "95497101f87a03c32c11180daaf7584fad2a9d7be08f6867054de2f3fd3e14d4",
+      "bytes": 220167,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "000ffef31f761d03f9b29d7c352adfaa62903296962defb32445b32886e7765e",
+      "bytes": 275241,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b7826f2f157eed080ee3ad1b3b3b68b3c8d03fccbb15384dcfa7f70d732903d5",
+      "bytes": 253203,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-06-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "5a83d2cafecc28434634fef2ad060e06cd1babf476fa080d0779cd4c49bbee64",
+      "bytes": 422,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-06-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0b5585f7a59ac38efbf2151e4f80524de9b770b263f5c5551492277d071d77d3",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "873889912d48de8b01c007983ced132ba2911aea73d6ef0452ba1c1d3d608f3f",
+      "bytes": 376369,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-07.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0f1a65931c58f234b144d836203813ef2eab83b439dffe9f78134b1d8e9c6a55",
+      "bytes": 225222,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-08-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "39f744fbef02420f35134ca8c6aedaa313a7e722fcef05975709bc0e4b7dd7ba",
+      "bytes": 257,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-08-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f64ec1d968f0f1d01cde48ed09e101f2b2e439ea63efb8a1af2aa19a38977011",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-08.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4477cf996f21878282668b5cd49eb9033876b28384068d067432e431fbef126c",
+      "bytes": 209211,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-09.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6553bbd054c8af8ec1e7e72a52196145bb561b56bc975f7369dbc307bc8f5d4e",
+      "bytes": 206269,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "d1204dbb4c5d3293f1c676a4cda7cca9004b34482c0f58454e278a0618109c73",
+      "bytes": 1278,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f260a47482188a4693447e6490165879c56db990b253da996c3aa76ec133c3d2",
+      "bytes": 2505432,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "1d4392eb932ec09d3f17edebb890f29b31f438fa01dd00a6917923de8183710d",
+      "bytes": 1209,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-D.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b73e073c356a9718a3ac3f93c4565658492e7b0ba7afe39d75a0ee9ebfd8c714",
+      "bytes": 939,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6553bbd054c8af8ec1e7e72a52196145bb561b56bc975f7369dbc307bc8f5d4e",
+      "bytes": 206269,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "12baaca9a989031ef0d3e2343ee60b333b1330f0e5bcc21dc7725e458c0c76a9",
+      "bytes": 264734,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "0f1a65931c58f234b144d836203813ef2eab83b439dffe9f78134b1d8e9c6a55",
+      "bytes": 225222,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e1ef1a15242f4c95f1f2d266d357698ccf08d8a38e82530fa8b15d117078cc30",
+      "bytes": 238868,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7eab677edf5e6661c60596cfc13ddc795b94050be118b9fa273306aa5d944e7c",
+      "bytes": 213679,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "cc2c2b3574a24468a31644f40ea618a61f7d4cb91e520e10774eb49ea1b3ff3d",
+      "bytes": 233916,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-06.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b5165c8cc5a5e293d23bbd9a628923e9b6bceee30eafd95207dc4d8e06a0bbc2",
+      "bytes": 175882,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-07.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e1ef1a15242f4c95f1f2d266d357698ccf08d8a38e82530fa8b15d117078cc30",
+      "bytes": 238868,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "710caeaca1987bce19c36c9e6a2692ddcacaee7e8990dd3e8388b2d4a2f8a4a0",
+      "bytes": 998,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "50ab5c9337ac762ff1fba0d91d80870230b316fa6bfb38366ca991c2d05895ba",
+      "bytes": 1791676,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "6eb2814e31d733bff785cb00d2a7614c1552ef4e3c0d0d1312775bc9d56f1e44",
+      "bytes": 934,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-END.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "a9222e59ccfced02ab1625a9f82ec16c4bdd676be929b3b60b44b89618cd0f43",
+      "bytes": 767,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-00-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "ee25d38a8d49f542fec37e1a4ba5482a0c0e4f0ddd831de95c76faead55b5cf1",
+      "bytes": 370,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-00-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "45fc3fbbdc2bca65ec666af38e8059576f80d3fb60fc4023acdc8f0464d760c2",
+      "bytes": 30,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-00.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "410e8b1e413650bb7dd4c17ea3e65ed68b1a33db3c42c4960a8debda76b4150e",
+      "bytes": 361675,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-01-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "45161fec08f50b7e3622092ec5c76bef33634b7be59c590a25b86f1f9147fcd2",
+      "bytes": 103,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-01-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7032109b7836a9bff6e3cd65f582856908ad6d31b4c7d9cbc7d88b1a04b6bc7a",
+      "bytes": 18,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-01.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "23efdf0a51fbefdb4e75895fa6c32199ac0ced4e95d74785bd206e7eacc6336e",
+      "bytes": 145389,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-02-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "7e591e9ebccd7227efadfc69ec961a8dfb8916bd2f5cb27a9f6b57e4d37c5f71",
+      "bytes": 97,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-02-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "778c40640e598d4c59e9a4a422e60ed8ec45265fca06a513f9f406d97890d685",
+      "bytes": 27,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-02.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "4b9aee605880ce2fc5b160b1177ca1cbb40b4d681c411595c75026408cbfc311",
+      "bytes": 76710,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-03-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "3f070d786db3d42615eb6388d0c6b0ac0902771b74df2665924c01c0c17231c4",
+      "bytes": 115,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-03-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "748247914774647366b5515773526a092a4f50d8643c83ebeb796f7e61c3c31d",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-03.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "85c236ea1eeda9c31ea53503b1897b404da81407f107df6c24b6b017e5f5d713",
+      "bytes": 99599,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-04-body.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b182ad7f937c698d7dc62408b9665e6076d0623cb0d02b0d6aba02f29eab32b3",
+      "bytes": 82,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-04-title.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "61f2f19be3f9ab7dd641773bbf9e5afabea7413e264b7d0d8ce8e2753b51ab0f",
+      "bytes": 21,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-04.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "b41471402b0f9a1ad7b3072e1f6f45549713ac5c6f9c2aeddfb2f980afe5076b",
+      "bytes": 97373,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-05.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "9ac93e0ed6785767293a6948c1e896ca0b41431cd2d3113be958f889595f4db5",
+      "bytes": 245424,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-en.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "2fd0e003fd8fe5c9d16dc54e5ae8dee3de4cb946525e2b672cac2adc1147f5ed",
+      "bytes": 802,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-silent.mp4",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "e96910738d3dca37d15bfabe7988395d98206689b17ff3de8cacdda413614462",
+      "bytes": 1022093,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE-zh-Hant.srt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "f1ca2e7c2c1dcaeea8b808bf0a1c7dd8dd1a7f4c9c5b3680e7f4fec0726afce1",
+      "bytes": 830,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/story-v5/.render-cache/CIN-EPILOGUE.txt",
+      "replacement": "assets/story-v5/manifest.json",
+      "sha256": "481895fc4aa593324aaf3fbcfcec3e55f65d7ba5a40a5b18de166b0aee409fcb",
+      "bytes": 605,
+      "reason": "合成完成後清除中間產物"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-C.wav",
+      "replacement": "assets/story-v5/video/CIN-C-story-v5.mp4",
+      "sha256": "923e1ed1af746c16840b4d648a13c22e0638dede8f6646f205d324e9c23fb242",
+      "bytes": 7938044,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-B.wav",
+      "replacement": "assets/story-v5/video/CIN-B-story-v5.mp4",
+      "sha256": "178e85afc47717fc74ab214649c701c8bc0a6a2f63650b48e9785da1f550b6dc",
+      "bytes": 5644844,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-A.wav",
+      "replacement": "assets/story-v5/video/CIN-A-story-v5.mp4",
+      "sha256": "b2e77f27182ff1bc2561f472433930be92abbf4603446603bd0651669cbf593b",
+      "bytes": 7056044,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-END.wav",
+      "replacement": "assets/story-v5/video/CIN-END-story-v5.mp4",
+      "sha256": "e3a914df7807e4b7b33ea877dae466829d44260fa7b07dbee342dcead1568dda",
+      "bytes": 7408844,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-D.wav",
+      "replacement": "assets/story-v5/video/CIN-D-story-v5.mp4",
+      "sha256": "6dde28b056a51cbe953ee9be2acd5f820d5f23788cb8ca95eae2aca3e8083c0b",
+      "bytes": 11113244,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/audio/CIN-00.wav",
+      "replacement": "assets/story-v5/video/CIN-00-story-v5.mp4",
+      "sha256": "5e28ed8ab5db38d104ebb8ed64ead534cea161eed73d5f708febd9e13e13673c",
+      "bytes": 7056044,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-C.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-C.vtt",
+      "sha256": "ca1554962817b7b93a7c54df8f5ae7035720ae429e9c8bc03b76e8222822965a",
+      "bytes": 533,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-B.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-B.vtt",
+      "sha256": "12a667f94ff790161485951177896249762b93f88759b723f108826b54617a5e",
+      "bytes": 381,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-A.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-A.vtt",
+      "sha256": "6b12ebdce972fc1a2b53782ce3e68182a0cc941ecaa224b5f1e17ebce7660225",
+      "bytes": 464,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-END.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-END.vtt",
+      "sha256": "73d9bf4a538c69329a339fb18fcae7944c60e4fa21030e381cb48d8f4f7041f5",
+      "bytes": 496,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-D.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-D.vtt",
+      "sha256": "08b94f69be4d6eded53e38c544f5db906d94a673095f7a6048d70243e1e69b63",
+      "bytes": 765,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/zh-Hant/CIN-00.vtt",
+      "replacement": "assets/story-v5/subtitles/zh-Hant/CIN-00.vtt",
+      "sha256": "8b5842533114e77a5758f312a2357a98ca95600a0e273381d3d438697ce10a26",
+      "bytes": 506,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-C.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-C.vtt",
+      "sha256": "0b18c699dd90652051006338f4cf5833fe1770e8133b5bd8bb042f5dbc319646",
+      "bytes": 542,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-B.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-B.vtt",
+      "sha256": "36e53186d1d8dd127d8bb10ec02f79c8dafff24aee5776ddc630f6b51b2e3092",
+      "bytes": 373,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-A.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-A.vtt",
+      "sha256": "86cecddb629937efdbb6c59013039d4e43e52654b96b84684a847696c9198e5c",
+      "bytes": 507,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-END.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-END.vtt",
+      "sha256": "c2d51fd29261dec86f43ec384e01552eba492bd86ab4d78b0b9e8b01fd84f86d",
+      "bytes": 502,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-D.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-D.vtt",
+      "sha256": "99e81d9dd5575b33b45ca73d0bc060b089c290f9adeb2e0ab4a6291d2b206c5a",
+      "bytes": 860,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    },
+    {
+      "old": "assets/art-redesign-v4/subtitles/en/CIN-00.vtt",
+      "replacement": "assets/story-v5/subtitles/en/CIN-00.vtt",
+      "sha256": "80bc63b12da8f9452025229fd52d0dd51d5373ebe1ec7eac1e922e19c0af780c",
+      "bytes": 566,
+      "reason": "v4舊時間軸混音／字幕已由v5完整敘事取代"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-03",
+  "version": 5,
+  "url": "http://127.0.0.1:5173/",
+  "unitTests": {
+    "pass": 12,
+    "fail": 0
+  },
+  "build": "通過",
+  "formalUI": "A→B→C→D→五題Bonus皇冠→終幕→後記→通關→完整解答→刷新→回訪",
+  "mobile": {
+    "results": [
+      "橫向搖桿可移動",
+      "橫向機關可輸入與成功",
+      "直向暫停與計時停止",
+      "英文介面切換"
+    ],
+    "errors": []
+  },
+  "performance": {
+    "browser": "151.0.7922.34",
+    "viewport": "1440x900",
+    "DPR": 1,
+    "graphics": "medium",
+    "warmupMs": 1300,
+    "sampleMs": 4000,
+    "perf": {
+      "A": [
+        {
+          "fps": 38.7,
+          "drawCalls": 37,
+          "triangles": 12382,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "A"
+        },
+        {
+          "fps": 38.7,
+          "drawCalls": 37,
+          "triangles": 12382,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "A"
+        },
+        {
+          "fps": 39.3,
+          "drawCalls": 37,
+          "triangles": 12382,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "A"
+        },
+        {
+          "fps": 39.4,
+          "drawCalls": 37,
+          "triangles": 12382,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "A"
+        }
+      ],
+      "B": [
+        {
+          "fps": 38.4,
+          "drawCalls": 25,
+          "triangles": 6204,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "B"
+        },
+        {
+          "fps": 38,
+          "drawCalls": 25,
+          "triangles": 6204,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "B"
+        },
+        {
+          "fps": 38.4,
+          "drawCalls": 25,
+          "triangles": 6204,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "B"
+        }
+      ],
+      "C": [
+        {
+          "fps": 39.3,
+          "drawCalls": 22,
+          "triangles": 13264,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "C"
+        },
+        {
+          "fps": 39.4,
+          "drawCalls": 22,
+          "triangles": 13264,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "C"
+        },
+        {
+          "fps": 38.6,
+          "drawCalls": 22,
+          "triangles": 13264,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "C"
+        },
+        {
+          "fps": 39.3,
+          "drawCalls": 22,
+          "triangles": 13264,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "C"
+        }
+      ],
+      "D": [
+        {
+          "fps": 31.2,
+          "drawCalls": 31,
+          "triangles": 12342,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "D"
+        },
+        {
+          "fps": 31,
+          "drawCalls": 31,
+          "triangles": 12342,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "D"
+        },
+        {
+          "fps": 31.5,
+          "drawCalls": 31,
+          "triangles": 12342,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "D"
+        },
+        {
+          "fps": 32,
+          "drawCalls": 31,
+          "triangles": 12342,
+          "pixelRatio": 0.65,
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+          "software": true,
+          "room": "D"
+        }
+      ]
+    },
+    "results": [
+      "章節重玩改輸入／提示不覆寫正式存檔",
+      "D場景預覽不污染正式存檔",
+      "字級設定跨重新整理保留"
+    ],
+    "errors": []
+  },
+  "errors": [],
+  "evidence": "/Users/chengchebing/.codex/visualizations/2026/11/01/01a197d3-3d21-7043-bc00-444f46b95ab3/website-qa/v5",
+  "limitations": [
+    "161案例尚未逐項驗收",
+    "實體手機未測",
+    "Safari／Firefox未測",
+    "長時間熱降頻未測",
+    "3D為程序化初模及簡化碰撞，並非最終寫實資產",
+    "無真人配音"
+  ],
+  "sourceHashes": {
+    "web/src/App.jsx": "ed446592b36fa45ed2243952e83b93eeffc4ab9cd8b0aee0379ff50896e4c3c4",
+    "web/src/components/Game.jsx": "e75f852c5eaa9f73cd88f32b88f084f029aca6816587fbafb8b238076bcb38ee",
+    "web/src/components/Puzzles.jsx": "794615750e59dadc3445e91f4d602e490df9cebb2193c6784cec576319731e0f",
+    "web/src/game/Scene.jsx": "10c086d1df27268994d81930108558847e0ae1a21d1fdfa1c7ee7ac0aeb83489",
+    "web/src/game/storage.mjs": "59f7e2c83752dd2a59272ce22857b017854383fc2409a22a8facce159d691c18",
+    "assets/story/content-v5.json": "f2667162066967d4d97316ec96bc6f88f2fe2e627bd0a5e52500f51756ab18bb"
+  },
+  "testDesign": {
+    "verifyRequirements": 72,
+    "mapped": 72,
+    "cases": 161,
+    "allExecuted": false
+  }
+}

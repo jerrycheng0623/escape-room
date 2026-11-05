@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-03T16:36:01.605Z",
+  "url": "http://127.0.0.1:5173/",
+  "method": "Engineering completed-save fixture derived from actual UI completion. Crown, archive, revisit and actual site-created D replay; not a second new-game run.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "checks": [
+        "postgame solutions are v4, available after completion",
+        "bonus crown can be added without overwriting firstResult",
+        "identity and film replay preserve first record",
+        "actual site-created D replay supplies weight/surface; main run and crown remain untouched"
+      ],
+      "errors": [],
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "checks": [
+        "postgame solutions are v4, available after completion",
+        "bonus crown can be added without overwriting firstResult",
+        "identity and film replay preserve first record",
+        "actual site-created D replay supplies weight/surface; main run and crown remain untouched"
+      ],
+      "errors": [],
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "END-05",
+  "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Final reveal extreme close portrait of adult killer Wang Jielun INSIDE dark hollow tree. EXACT same face as reference: bowl-cut straight black hair, angular youthful adult jaw, small closed mouth, ochre collared shirt over white tee. Eyes obscured by exactly the reference irregular charred black band. Restrained unsettling almost-smile, recognizable identity, cold green reflected light from controller below, no exaggerated monster anatomy, no burn bandages, no hood changing outfit, no blood or gore. Thin pencil contour and flat matte gouache, aged-paper grain. No text or UI.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-39fc89c3-8071-416c-b010-de64b6ad2bcb.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/host-reference.png"
+  ],
+  "transparentBackground": false
+}

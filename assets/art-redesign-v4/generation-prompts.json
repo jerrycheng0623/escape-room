@@ -1,0 +1,333 @@
+{
+  "tool": "built-in image_gen",
+  "canonicalHostName": "王杰倫",
+  "assets": [
+    {
+      "id": "00-01",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-63c6c87f-33f8-4fd8-8237-027a6c8f531c.png",
+      "prompt": "Use case: precise-object-edit. EDIT this exact night road illustration. REMOVE the entire reporter woman in the LEFT foreground, including ALL head, face, hair, hairclip, glasses, neck, torso, arms, hands, blazer and notebook. Fill ALL of her former area naturally with the EMPTY roadside, continuation of the steel guardrail, wet gravel and conifer trees. Keep the parked unbranded dark car on RIGHT, winding wet mountain road, distant mountains, moon, night fog and hand-drawn aged-paper art style EXACTLY unchanged. This establishing shot has absolutely ZERO people, no human figures, no faces, no ghost silhouettes, nobody in the car or reflected in its windows. The detective is offscreen. Do not leave floating notebook or hands. No text, UI, mascots, logos, captions or watermark. Landscape16:9. Preserve existing composition; replace the foreground person entirely with environment, not another character.",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/00-01.png"
+      ],
+      "revision": "開場空景校正"
+    },
+    {
+      "id": "00-02",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. First-person closeup of dark leather-gloved detective hands holding a worn invitation COPY and an unbranded phone showing blank dark screen. The burned cabin blurred in background, stone chimney left and hollow tree right. No face visible. Invitation paper left intentionally blank for exact authorized text later; no writing, no symbols. Dim olive night, lantern light, no flames.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-50ae2c50-7c7b-429a-a686-5a224041163b.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "00-03",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Wide establishing view, night mountain cabin AFTER fire extinguished, smoke and fine fog but NO flames, no embers. Collapsed timber, a surviving stone chimney on LEFT, huge hollow scorched tree on far RIGHT. Yellow plain police tape across the foreground without lettering. No people, no bodies in this frame. Dim flashlight and grey-green night light, distant mountain silhouettes.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-58909fbc-6358-4ddb-a6c2-4fe00c4b46b6.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "00-04",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Wide forensic scene from OUTSIDE police tape at the extinguished burned cabin at 03:00. Exactly FOUR separate intact adult-sized covered human forms in the middle distance, no exposed bodies or faces, distinguishable dark fire blankets, separated enough to count. No living people, no extra human silhouettes. Grey ash, timber debris, stone chimney left. No wounds, blood or fire. The scene is only an initial count, not an identification document.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-163263e8-0e23-402f-851f-69fa75462a73.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "A-01",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Interior burned guest bedroom at night. One ruined single bed on the left, charcoal blazer and grey-green travel coat, half-burned backpack, a charred desk on right with an open metal investigation box and blank scorched papers. Walls stripped by fire, pale handheld flashlight rakes the surfaces, muted olive-brown. No people, flames or orange embers. Same architectural grounded scale, no UI.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-dfb02e35-b863-4b14-86c7-3c853e0069da.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "A-02",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Overhead close-up of reporter evidence on charred wooden desk: black spiral reporter notebook, torn old newspaper clippings and a folded threatening letter, a round pair of eyeglasses and small muted pink flower hairclip nearby matching Lin Yiyao's design. All paper writing regions are blank, no fabricated readable words, no hidden crime confession. Fine graphite contours and flat washes, not photo realism, detailed paper edges. No people.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-71e9a72e-239d-4437-997c-ad90c527c617.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "A-03",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Night memory close shot of reporter Lin Yiyao from attached reference 1 reading a folded blank threatening letter beside a dark cabin window. Preserve bob hair, pink flower hairclip on image right, round glasses, charcoal blazer over white shirt, black notebook under left arm. Both eyes fully obscured by symbolic burnt charcoal band. Face tense, posture guarded, no extra person or monster reflected in glass. Quiet menace, no weapons or gore.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-ee0fc3a6-eafc-443a-a8be-4e1408c5eaa4.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "A-04",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Closeup on the reporter's opened black spiral notebook and small blank interview business card beside a grey-green coat pocket, a dim flashlight making layered torn-paper shadows. Hint of pink flower hairclip at edge. Completely blank text regions to preserve exact game clues for later typed text. No watch in this shot, no person. Hand drawn matte graphite and ochre paper grain.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-4c7e4a27-9ec6-4e3e-9f88-c1a9fadad7e7.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "B-01",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Makeshift analog photography darkroom in the cabin after the fire. Wide interior showing red safelight as muted dark brick red, blank photographic papers clipped on a thin line, darkroom trays, ONE old black film camera with neck strap on the table. Reference photographer's exact old rectangular black film camera design, but no people or faces. All hanging prints blank, no invented silhouettes. Charred wood, smoke stains, quiet dark olive tone, hand-drawn graphite.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d97b15ff-e083-4aaf-a9e2-d409e4058972.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/photographer-reference.png"
+      ]
+    },
+    {
+      "id": "B-02",
+      "prompt": "Use case: precise-object-edit. Make the SECOND group photograph by editing this exact FIRST photograph. Keep identical camera viewpoint, same cabin background, same paper border and SAME POSITIONS of the FIRST THREE adults (ochre-shirt man on far left Wang Jielun, bob-haired glasses/flowerclip reporter Lin Yiyao next, short-haired brown-cardigan psychologist Zhang Ping next). Preserve their exact faces and burnt charcoal bands over both eyes, clothing, hands, props and poses. Remove ONLY the FOURTH adult on FAR RIGHT (the long-haired masked Liu Han), including that adult's entire body, hair, mask, hands, notebook and hexagonal necklace. Naturally fill that person's empty area with the SAME background forest and terrace railing, do NOT move or enlarge remaining three or fill empty space with another person. Change the upper-right clock digits from18:30 to exactly '20:00'. Lighting has subtly cooled from dusk to early night, but retain same composition and identifiable background. EXACTLY THREE adults, no additional people or silhouettes, photographer behind camera and not visible. Do not leave floating notebook/necklace or hands in removed area. Keep clean legible20:00 digits, fine graphite and flat matte gouache aged-paper style. No captions or extra text.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-e4983246-63f9-47b3-a339-964c252b1802.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/B-04.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "B-03",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Adult photographer Liu Zijie from reference, wavy shoulder-length black hair, thin rectangular glasses, moustache and short goatee, charcoal jacket over cream collared shirt and old black film camera on neck strap. Both eyes covered in irregular scorched-black texture, exactly like reference. Before-fire dusk mountain cabin terrace, he stands BEHIND the camera position looking down at a contact strip / notebook, holding the camera at chest. Single adult only. Do not put him inside a group photo, no film showing other people. Original hand drawn half-body cinematic framing.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-2e4e2a26-3b78-4af0-a3b2-d60ca7d03297.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/photographer-reference.png"
+      ]
+    },
+    {
+      "id": "B-04",
+      "prompt": "Use case: precise-object-edit. Image1 is the EDIT TARGET group photograph. Image2 is ONLY a pendant design reference. Preserve image1's EXACT FOUR adults, their positions, faces, eye charcoal bands, hairstyles, clothing, hands, notebooks, background, clock reading18:30, lighting, framing, paper border completely unchanged. Change ONLY the necklace pendant on the far-right masked long-haired adult: copy the distinctive pendant shape from image2, a titanium open hexagon outline, prominent diagonal metal bar across its center from lower left to upper right, and small open GAP at the upper right. Preserve its existing size and position worn on chest, clearly distinguishable. Do NOT copy the grill/background from image2, do NOT add other people or alter identity. No other changes.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-9182f8a8-a41a-4a97-8e85-0f38df2e358d.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/B-04.png",
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "C-01",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Image2 is pendant shape reference ONLY. Preserve the exact two ADULTS, all clothes and faces, scorched eye bands, grilled food, four-legged rectangular grill, scale platform, camera composition, terrace and dusk lighting. Change ONLY the necklace pendant worn by the long-haired masked adult at left. Match image2's titanium OPEN HEXAGON containing a prominent DIAGONAL METAL BAR from lower left to upper right, with small open GAP at upper right. No other changes. Do not introduce the burned environment from image2 into this before-fire scene.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-84a92a2a-216c-4551-bb03-5883d30f8fd8.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/C-01.png",
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "C-02",
+      "prompt": "Use case: precise-object-edit. Image1 is edit target; image2 is watch reference ONLY. Preserve exact open blank notebook, floor, storage room and flashlight, framing, colors and art style of image1. Correct ONLY the small analog wristwatch on left: make it the same watch shape and cracked dial as image2, with minute hand at THREE and hour hand a little after SEVEN, precisely7:15. No other hands except an optional thin second hand pointing at12. Keep existing small watch scale and position, not a large inset. No other changes, no text, no people.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-67de55f6-fd8c-4952-968a-21df6068f271.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/C-02.png",
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/WATCH.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "C-03",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Closeup of the heavy RECTANGULAR metal barbecue grill's fixed weighing platform after fire, soot on four sturdy legs. Separate scorched food-planning sheet with blank area lying nearby. One small rectangular digital display facing camera, screen displays exactly '65.0 kg' in crisp legible digits, not multiple competing displays. The separate food-planning paper reads exactly '5 kg', no other writing. Highlight fixed base construction and load platform, NO body, no food closeup, no gore. Hand drawn flat gouache, no photorealism.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-a955eabb-92e0-42fc-912b-9e96e6976816.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "C-04",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Macro evidence view beneath the lower lip of a scorched rectangular grill: titanium pendant caught at an edge. Pendant design must be EXACT: open HEXAGON metal outline, DIAGONAL metal bar from lower left to upper right, small MISSING SEGMENT/GAP on upper right of hexagon outline. Chain trails naturally into ash, no magical glow. Clearly visible silhouette, cold grey titanium on charcoal and muted ochre. No human, no body or flesh, no text. Match the pendant worn by adult Liu Han in group photograph.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-5dbdd9aa-d499-45bb-b4cf-c9720a232fec.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/benefactor-reference.png"
+      ]
+    },
+    {
+      "id": "C-05",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Fixed base underside service panel of the same heavy rectangular barbecue grill, close-up, after fire. Clearly show a built-in history display on the FIXED BASE and an EMPTY detachable controller docking cradle beside it, not another controller. Screen must show exactly '19:15' on a small top row and '65.0 kg' on a large bottom row, crisp straight legible digits, no other writing. A small ash-lined open mechanical compartment and metal fasteners visible. No humans or readable text, no fire. Flat matte ink and graphite drawing with muted grey-green paint.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-7db94029-465b-426e-a087-d910ce2cacb3.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "D-01",
+      "prompt": "Use case: precise-object-edit. Edit ONLY the attached scene to REMOVE the living woman completely, including her entire head, neck, torso, both arms, both hands, and the flashlight she is holding. Replace her area naturally with the EMPTY burned underground clinic, soot-damaged wall and empty wooden chair behind the desk. No humans or human silhouettes anywhere. Lay the medical report flat on the desk so it is fully readable as a document prop: top portion blank cream paper, bottom portion covered by same opaque black rectangle. Preserve desk, report black redaction area, old briefcase, plain unlabelled glass vial, paper materials, colors, perspective and the fine graphite/flat gouache aged-paper art style. The scene is after fire, everyone has left. A loose unattended investigation flashlight resting on desk casts a restrained violet beam at the redacted document. Do not add text, portraits, blood or new people. Single landscape16:9 illustration.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-75549344-7c49-4071-8cb2-aaa73ca48e3e.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-01.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-02",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Preserve exact TWO adults, faces, clothing, charcoal eye bands, poses and entire before-fire storage-room composition. Change ONLY the necklace on the masked long-haired adult on right to exactly match image2's titanium open hexagon with prominent diagonal metal crossbar from lower left to upper right and gap at upper right. No other changes. Landscape16:9. No new text, UI, logos, gore or weapons.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d3088d8c-d78b-4286-8a81-4bd760606004.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-02.png",
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/C-04.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-03",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove BOTH living people completely, all heads/bodies/hands/arms. Replace their upper area with empty clinic walls, empty chairs and scorched shelves. Put their old black film camera resting on the desk. Preserve the old film strip, papers, folders, light beam and tabletop. The table is unattended after the fire; no real person anywhere, including reflections. Landscape16:9. No new text, UI, logos, gore or weapons.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-fd91407f-d152-44c2-8001-cc7c4056059b.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-03.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-04",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove the woman completely including head, body, hands/arms. Replace the left side with empty room shadow, empty chair and wood wall. Preserve the clipboard with FOUR adult-form outline diagrams, blank header, dark phone and cabin map. No names or portraits in document. No living people or figures besides the four simplified outlines on paper. Landscape16:9. No new text, UI, logos, gore or weapons.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-11ab4f7f-f147-437b-b653-2a37d32b2f08.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-04.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-05",
+      "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove the reporter woman completely, including head, hair, torso, arms, hands, notebook and handheld flashlight. Fill her entire left foreground area with empty underground corridor wall and dark empty floor. Preserve the rusty ajar maintenance door on right, visible ground-level forest service path beyond, wall pipe/valve, muted light. A beam of light enters from OFF-CAMERA. There must be absolutely NO human, face, silhouette or reflection in this after-fire environment. Landscape16:9. No new text, UI, logos, gore or weapons.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-23a3339c-0a58-4795-bcc5-acfa6b60292d.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-05.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-06",
+      "prompt": "Use case: precise-object-edit. EDIT this exact scene. REMOVE the entire reporter woman on the left, including all head/hair/face/torso/legs/shoes/arms/hands/flashlight/notebook. Fill her entire area with empty underground maintenance alcove floor, exposed shelf, pipes and wall, preserving same perspective. Keep fallen heavy cabinet on right, the support braces and low metal support SLIDING SLED, doorframe and metal door behind it, all other objects and all camera composition unchanged. This is the EMPTY after-fire scene, no living humans, no person, no face, no silhouette anywhere. Light from off-camera flashlight. Maintain thin graphite contour, matte olive-brown gouache, aged paper and original cinematic landscape framing. No text or UI.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-b44ea20e-6788-4ce3-a18a-84bd49f16374.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-06.png"
+      ],
+      "revision": "逐張檢視後修訂"
+    },
+    {
+      "id": "D-07",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Close forensic-style drawing of maintenance doorframe and latch after fire: narrow fresh-looking scratch through old rust, a small sheltered dull oil smear in seam, a fine layer of grey ash over adjacent surfaces. Clearly distinct material layers, no footprints or fingerprint silhouettes, no invented readable labels. Ominous but usable evidence framing, fine graphite line and flat brown/grey green washes, no photo realism. No people.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-2f5f2a19-40d1-413f-9d9e-44e511c861ff.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "END-03",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Tight cinematic shot of the hollow scorched tree from the right side of the established burned cabin. Inside hollow is ONE adult Wang Jielun from reference image, recognizable black bowl-cut, ochre shirt collar visible. BOTH EYES fully obscured by irregular scorched charcoal band, face mostly swallowed by shadow, lips closed. No visible glowing eyes, no monsters, no extra faces. A small cold reflected light defines cheek and chin, ominous spectator gaze through head orientation. No gore or weapon.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d4e67146-99f6-4322-97c2-cbc8536703ff.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/host-reference.png"
+      ]
+    },
+    {
+      "id": "END-04",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Closeup of adult Wang Jielun's hands holding ONE detachable electronic load controller inside a hollow scorched tree. Ochre shirt sleeves over pale tee edge, intact fingers, ordinary hands with soot. One blank rectangular green-grey LCD screen, safe clear area for exactly timed later 65-to-zero graphics. Tree bark in darkness around it. No face visible, no extra device or duplicate controls, no readable text, no phone. Fine graphite outlines, flat matte sepia/olive washes.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-acf77e36-63a5-46d5-8810-c5ed1dd66ae8.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/host-reference.png"
+      ],
+      "transparentBackground": false
+    },
+    {
+      "id": "END-05",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Final reveal extreme close portrait of adult killer Wang Jielun INSIDE dark hollow tree. EXACT same face as reference: bowl-cut straight black hair, angular youthful adult jaw, small closed mouth, ochre collared shirt over white tee. Eyes obscured by exactly the reference irregular charred black band. Restrained unsettling almost-smile, recognizable identity, cold green reflected light from controller below, no exaggerated monster anatomy, no burn bandages, no hood changing outfit, no blood or gore. Thin pencil contour and flat matte gouache, aged-paper grain. No text or UI.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-39fc89c3-8071-416c-b010-de64b6ad2bcb.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/host-reference.png"
+      ],
+      "transparentBackground": false
+    },
+    {
+      "id": "END-ACTOR",
+      "prompt": "Use case: illustration-story. Production animation layer, TRANSPARENT BACKGROUND with real alpha. ONE full-body ADULT detective viewed strictly FROM BEHIND, gender neutral, knee-length charcoal trench coat, dark trousers, worn dark shoes, leather gloves, small flashlight in one hand pointed downward. A restrained mid-stride walking pose, ordinary anatomy, head turned away so absolutely NO FACE OR EYES visible. Style reference image is ONLY for thin graphite contour, flat matte olive grey/brown gouache, subtle old paper pigment within character; do NOT copy the reference woman's bob haircut, hairclip, notebook, glasses or portrait pose. Back-facing silhouette with short dark hair, collar up. Entire body and shoes visible with generous transparent margins. No background, no floor, no shadow plane, no paper border, no frame, no text, no UI, no watermark. One character only, not spritesheet.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-d67a1f9f-3ac7-4724-9059-de5ea14b40ac.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ],
+      "transparentBackground": true
+    },
+    {
+      "id": "END-PLATE",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Empty forest path leaving burned mountain cabin at late night. Burned cabin and surviving chimney recede on LEFT, hollow scorched tree on RIGHT, narrow path leads into deep middle distance. NO PERSON anywhere, no faces in tree, no eyes in darkness, NO flames or embers. Thin cold mist, quiet extinguished ash. Camera remains still, clear open path for a separate detective layer. Same fine graphite, flat matte muted olive-brown aged paper style.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-a5a10a5b-2842-4b33-a50d-909b0f09d5dd.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "EVIDENCE-01",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Evidence still life on scorched table: EXACTLY THREE separate empty drinking glasses and EXACTLY ONE small unbranded glass bottle, bottle empty, faint dry pale residue in bottoms. No pills, no procedure, no drug labels, no readable text, no people. Top-down oblique framing, each object clearly countable, hard flashlight sidelight, flat olive-brown gouache. Do not assert what residue is.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-b6f35503-63f4-4a5d-a665-3bd8c0cf845c.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "MENU",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Wide 16:9 background illustration for EXISTING game main menu, layout must stay untouched. Burned cabin sits left-of-center mid distance with surviving chimney, hollow charred tree on far right, misty forest and path. Keep LEFT 45 PERCENT low detail dark charcoal-olive negative space for the existing menu text overlay. Put architectural detail mainly in RIGHT half. Fire completely extinguished, no flames or embers, no people. Same fine graphite and flat muted olive-brown paint, subtle paper grain, atmospheric but readable. No text, no buttons, no interface, no border/frame, no new layout.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-13b4df67-92e5-45ce-b0d9-dc82d52d9873.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/images/00-03.png"
+      ],
+      "transparentBackground": false
+    },
+    {
+      "id": "WATCH",
+      "prompt": "Use case: illustration-story. Asset type: production 2D cinematic frame for a Traditional Chinese mystery escape-room game. One standalone full-bleed landscape 16:9 illustration, NOT a collage or storyboard sheet. Closely match the ATTACHED CHARACTER REFERENCE art language: thin irregular graphite outlines, hand drawn flat matte gouache and pencil shaded shapes, muted olive grey, tobacco brown, faded ochre and cream, subtle aged paper grain, restrained shadows. Character features stylized as drawn, NOT photorealistic, not rendered 3D, not glossy oil painting, not anime. ALL visible human faces have the exact same irregular dry scorched-charcoal band covering both eyes as the supplied portraits; this is symbolic surface artwork, no anatomical wounds. Never show clear eyes. Ominous quiet cinematic framing, readable silhouettes and evidence. No UI, no cursor, no pixel mascot, no buttons, no captions or titles, no watermark, no incidental text. No extra people or faces in reflections. Preserve established story props and quantities. Single evidence image: a cracked analog wristwatch lying in grey storage-room ash, face sharply readable, hour hand a little past SEVEN and minute hand at THREE, showing 19:15 in the established scene context. Twelve small tick marks, no unrelated writing. Plain dark strap, restrained tiny dark rust stain, no gore. Large watch face fully visible with margin. Hand drawn fine graphite and flat gouache, aged olive-sepia paper grain. No people.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-12b79cc3-7c71-414a-adda-73e47b2a2c88.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/reporter-reference.png"
+      ]
+    },
+    {
+      "id": "doctor",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-5f8eae36-66ec-4689-bbf7-f9ce2392d310.png",
+      "prompt": "Use case: identity-preserve. Asset type: clean production character portrait for psychological mystery game. Recreate the attached illustrated portrait with the exact same character identity, hairstyle, clothes, pose, object held, worn paper border, muted olive-grey background, precise fine graphite contours, matte flat gouache shadows and aged paper grain. Preserve the symbolic irregular charcoal-black scorched band across BOTH eyes; no visible eyeballs, no real wounds, no gore. Remove ALL screenshot UI, the blue pixel creature in the top-left, the bottom-right canvas button, black screen borders and any other interface overlay. Complete the unobstructed illustration beneath. Portrait 2:3 composition, no text, no labels, no logos, no watermark. This character is Zhang Ping, adult female psychologist, short side-parted black hair, brown cardigan over cream black-trimmed shirt, small rectangular pendant, holding a phone. Do not change the adult woman's face or costume.",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/doctor-reference.png"
+      ]
+    },
+    {
+      "id": "photographer",
+      "prompt": "Use case: identity-preserve. Recreate this exact adult male photographer portrait in the same fine graphite line / matte hand-painted aged-paper illustration. Preserve exact medium-long wavy black hair, thin rectangular glasses, moustache and goatee, narrow face, white collared shirt and charcoal jacket, camera neck strap and hands holding the old black film camera. Preserve irregular scorched charcoal band covering both eyes, no exposed eyes or injuries. Complete a clean 2:3 full portrait, with worn cream paper border and muted olive background. Remove screenshot play button, bottom screen strip, canvas button and all other UI, watermarks or text. Do not invent a new character.",
+      "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-e4b652a6-8336-4588-962f-76609b685d17.png",
+      "tool": "built-in image_gen",
+      "references": [
+        "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/references/photographer-reference.png"
+      ],
+      "outputDirectory": "portraits"
+    }
+  ],
+  "note": "正式採用的新圖最終提示；三張原始肖像沿用使用者提供的圖，不列為新生成。修訂前版本只保存在revision-inputs，不作正式素材。"
+}

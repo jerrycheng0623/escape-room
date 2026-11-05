@@ -1,0 +1,16 @@
+{
+  "path": "./data/5/7/Qmf8sy4UJ4gqVG5fcHSUvitzyo9Lj8666Zfj4dfwStYTd7.json",
+  "metadata": "./metadata/2/6156396.json",
+  "mid": "./mid/5/7/Qmf8sy4UJ4gqVG5fcHSUvitzyo9Lj8666Zfj4dfwStYTd7.mid",
+  "license": "cc-zero",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_conflict": "False",
+  "subset:no_license_conflict": "True",
+  "title": "Le Gibet - No.2 from Gaspard de la Nuit - Maurice Ravel",
+  "composer_name": "Maurice Ravel(1875-1937)",
+  "song_length.bars": "52",
+  "n_notes": "1574",
+  "dataset": "https://doi.org/10.5281/zenodo.14984509",
+  "scoreDelivery": "https://scorebase.org/scores/201921",
+  "midiSHA256": "697d0088f312d4ce1d6b2f75fd398d163b1efaa5f45e09c0b0882f54b3436c31"
+}

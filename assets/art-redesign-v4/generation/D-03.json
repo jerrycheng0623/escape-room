@@ -1,0 +1,10 @@
+{
+  "id": "D-03",
+  "prompt": "Use case: precise-object-edit. Image1 is EDIT TARGET. Keep fine graphite outlines, matte flat gouache, aged paper, palette, camera framing and all unaffected objects exactly the same. Remove BOTH living people completely, all heads/bodies/hands/arms. Replace their upper area with empty clinic walls, empty chairs and scorched shelves. Put their old black film camera resting on the desk. Preserve the old film strip, papers, folders, light beam and tabletop. The table is unattended after the fire; no real person anywhere, including reflections. Landscape16:9. No new text, UI, logos, gore or weapons.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-fd91407f-d152-44c2-8001-cc7c4056059b.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-03.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

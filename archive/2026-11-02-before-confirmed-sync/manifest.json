@@ -1,0 +1,17 @@
+{
+  "status": "歷史來源備份，不作目前實作規格",
+  "files": [
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/遊戲腳本與機關狀態設定.md",
+      "sha256": "562f6ae9b4262c0b3f5b15b5d870977af77af794b04330fd4ce71e5fb01a38dd"
+    },
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/_餘燼裡的第六人_完整劇情腳本.md",
+      "sha256": "38e6dfd4d5981ceb743d13f4d97f64c7e1ce52ee1237785daabb59d2f8e89aa6"
+    },
+    {
+      "path": "archive/2026-11-02-before-confirmed-sync/_餘燼裡的第六人_劇情架構與機關設計指引.md",
+      "sha256": "6a988b5bcc0cea7da194590e4d958c87064d2d2bb3d7545945c4c58dde03cd64"
+    }
+  ]
+}

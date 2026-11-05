@@ -1,0 +1,18 @@
+{
+  "revision": 3,
+  "source": "machine.md v3",
+  "documents": [
+    "card",
+    "formula",
+    "manual",
+    "surface",
+    "a-structure",
+    "b-tools",
+    "b-samples",
+    "c-parts",
+    "overlay",
+    "d-card"
+  ],
+  "artMethod": "確定性 SVG／Canvas 圖層與原生 3D 幾何；保持既有焦痕紙張配色",
+  "cinematicsChanged": false
+}

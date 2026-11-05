@@ -1,0 +1,1206 @@
+{
+  "date": "2026-11-04T17:24:48.939Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "engine": "chromium",
+  "browser": "151.0.7922.34",
+  "device": "mobile",
+  "method": "Visible UI from new game; real WASD or CDP touch movement; no injected save/solve. Films skipped explicitly, natural media separate.",
+  "checks": [
+    "A actual hook/bell/luggage/panel/reward",
+    "B wrong strip returns, all original frames transported",
+    "C distributed evidence, physical route, balanced35 needs wheel",
+    "D Q false ending, R true drawer, geometry and exit cross reconstruction",
+    "bonus optional, single ending, epilogue, firstResult"
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 503 ()"
+  ],
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: the server responded with a status of 503 ()'\n+ ]\n- []\n\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-v4.mjs:33:976",
+  "diagnostic": {
+    "samples": [
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 52,
+        "triangles": 2866,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 60,
+        "triangles": 2998,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 82,
+        "triangles": 18268,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 59,
+        "triangles": 16802,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 52,
+        "triangles": 16682,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 59,
+        "triangles": 16802,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 63,
+        "triangles": 3458,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 62,
+        "triangles": 3446,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 59,
+        "triangles": 3134,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 2222,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 37,
+        "triangles": 1236,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 37,
+        "triangles": 1164,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.2,
+        "drawCalls": 51,
+        "triangles": 3222,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.8,
+        "drawCalls": 49,
+        "triangles": 3184,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.2,
+        "drawCalls": 50,
+        "triangles": 3196,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.8,
+        "drawCalls": 49,
+        "triangles": 3184,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 44,
+        "triangles": 2628,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 33,
+        "triangles": 1188,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 32,
+        "triangles": 1176,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 118,
+        "drawCalls": 29,
+        "triangles": 1542,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 25,
+        "triangles": 1662,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 29,
+        "triangles": 1542,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 29,
+        "triangles": 1542,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 51,
+        "triangles": 2226,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 112.2,
+        "drawCalls": 86,
+        "triangles": 19164,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 86,
+        "triangles": 19164,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 86,
+        "triangles": 19164,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119,
+        "drawCalls": 86,
+        "triangles": 19164,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 104.1,
+        "drawCalls": 87,
+        "triangles": 19992,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119,
+        "drawCalls": 81,
+        "triangles": 18680,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 81,
+        "triangles": 18680,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.1,
+        "drawCalls": 83,
+        "triangles": 18704,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 88,
+        "triangles": 19248,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 117,
+        "drawCalls": 87,
+        "triangles": 19208,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 86,
+        "triangles": 19344,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 73,
+        "triangles": 13122,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 87,
+        "triangles": 19844,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 93.3,
+        "drawCalls": 82,
+        "triangles": 18416,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 77,
+        "triangles": 18432,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 34,
+        "triangles": 10710,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.1,
+        "drawCalls": 33,
+        "triangles": 6506,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 30,
+        "triangles": 2210,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.8,
+        "drawCalls": 30,
+        "triangles": 2290,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 105.2,
+        "drawCalls": 30,
+        "triangles": 2290,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 31,
+        "triangles": 2370,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.1,
+        "drawCalls": 29,
+        "triangles": 2070,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 23,
+        "triangles": 982,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.2,
+        "drawCalls": 16,
+        "triangles": 838,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.8,
+        "drawCalls": 12,
+        "triangles": 470,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 9,
+        "triangles": 444,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 111.1,
+        "drawCalls": 39,
+        "triangles": 16524,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 116,
+        "drawCalls": 42,
+        "triangles": 16570,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 116,
+        "drawCalls": 51,
+        "triangles": 15438,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 68,
+        "triangles": 16184,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 118,
+        "drawCalls": 75,
+        "triangles": 4476,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.1,
+        "drawCalls": 61,
+        "triangles": 5142,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 61,
+        "triangles": 5142,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 69,
+        "triangles": 6494,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 81,
+        "triangles": 6918,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120.2,
+        "drawCalls": 91,
+        "triangles": 7488,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.8,
+        "drawCalls": 102,
+        "triangles": 8138,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 112.1,
+        "drawCalls": 48,
+        "triangles": 15422,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 43,
+        "triangles": 15326,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 119.9,
+        "drawCalls": 50,
+        "triangles": 13100,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 56,
+        "triangles": 13162,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 111.1,
+        "drawCalls": 63,
+        "triangles": 13776,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 102,
+        "drawCalls": 63,
+        "triangles": 2630,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 117,
+        "drawCalls": 73,
+        "triangles": 6832,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 63,
+        "triangles": 6422,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "C",
+        "fps": 120,
+        "drawCalls": 90,
+        "triangles": 9808,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 21.8,
+        "drawCalls": 56,
+        "triangles": 4714,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 52,
+        "triangles": 3764,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 99.2,
+        "drawCalls": 51,
+        "triangles": 4650,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 52,
+        "triangles": 3764,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 44,
+        "triangles": 3586,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 37,
+        "triangles": 1316,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120.1,
+        "drawCalls": 41,
+        "triangles": 1366,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 40,
+        "triangles": 4944,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120.1,
+        "drawCalls": 32,
+        "triangles": 4092,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 119.9,
+        "drawCalls": 24,
+        "triangles": 3708,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 18,
+        "triangles": 1472,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 12,
+        "triangles": 1308,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 118,
+        "drawCalls": 23,
+        "triangles": 3286,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 23,
+        "triangles": 3286,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 19,
+        "triangles": 880,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3716,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 52,
+        "triangles": 3742,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 49,
+        "triangles": 3626,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 118,
+        "drawCalls": 49,
+        "triangles": 3626,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 118,
+        "drawCalls": 46,
+        "triangles": 3600,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 43,
+        "triangles": 1380,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 41,
+        "triangles": 1344,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 42,
+        "triangles": 3084,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 115,
+        "drawCalls": 44,
+        "triangles": 3586,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 43,
+        "triangles": 4450,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 119.9,
+        "drawCalls": 25,
+        "triangles": 4036,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120.2,
+        "drawCalls": 18,
+        "triangles": 1778,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 26,
+        "triangles": 3940,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 45,
+        "triangles": 4464,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 48,
+        "triangles": 3602,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 48,
+        "triangles": 3602,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 47,
+        "triangles": 3590,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 47,
+        "triangles": 3578,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 31,
+        "triangles": 1050,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 42,
+        "triangles": 4472,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 48,
+        "triangles": 6796,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 119,
+        "drawCalls": 45,
+        "triangles": 4498,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 117,
+        "drawCalls": 46,
+        "triangles": 4510,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 46,
+        "triangles": 4510,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 36,
+        "triangles": 4400,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 24,
+        "triangles": 3906,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120,
+        "drawCalls": 14,
+        "triangles": 1344,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 120.2,
+        "drawCalls": 11,
+        "triangles": 1296,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      },
+      {
+        "room": "D",
+        "fps": 119.8,
+        "drawCalls": 23,
+        "triangles": 3286,
+        "pixelRatio": 0.65,
+        "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+        "software": true
+      }
+    ],
+    "camera": {
+      "x": 11.058,
+      "y": -0.75,
+      "z": 16.9
+    },
+    "yaw": -7.686766142039297,
+    "pitch": -0.5213695508061843,
+    "room": "D",
+    "controlMode": "idle",
+    "collisionVersion": 9,
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "lookPointer": null,
+    "target": null,
+    "targets": {
+      "d-R1": [
+        10.3,
+        -1.4080000000000001,
+        16.25
+      ],
+      "d-R2": [
+        10.3,
+        -1.3930000000000002,
+        16.25
+      ],
+      "d-R3": [
+        10.3,
+        -1.3780000000000001,
+        16.25
+      ],
+      "d-Q1": [
+        9.75,
+        -1.443,
+        16.32
+      ],
+      "d-Q2": [
+        8.5,
+        -2.393,
+        15.6
+      ],
+      "d-Q3": [
+        12.55,
+        -1.5530000000000002,
+        18.53
+      ],
+      "d-class": [
+        8.55,
+        -1.8430000000000002,
+        15.08
+      ],
+      "d-board": [
+        10.3,
+        -1.4324999999999999,
+        16.25
+      ],
+      "d-pen": [
+        10.65,
+        -1.4375,
+        15.8
+      ],
+      "d-rod": [
+        12.6,
+        -1.5475,
+        18.4
+      ],
+      "d-drawers": [
+        9.55,
+        -1.3,
+        15.85
+      ],
+      "d-cabinet": [
+        11.2,
+        -1.88,
+        14.91
+      ],
+      "d-folder": [
+        7.7,
+        -1.0875000000000001,
+        16.4
+      ],
+      "d-cup": [
+        12.4,
+        -1.49,
+        18.25
+      ],
+      "d-clock": [
+        12.7,
+        -1.46,
+        18.23
+      ],
+      "d-towel": [
+        11.3,
+        -2.3775,
+        18
+      ],
+      "d-label": [
+        8.5,
+        -2.393,
+        16.2
+      ]
+    }
+  }
+}

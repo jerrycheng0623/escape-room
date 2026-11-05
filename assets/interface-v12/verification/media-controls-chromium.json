@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-04T13:58:58.223Z",
+  "url": "http://127.0.0.1:5173/",
+  "browser": "151.0.7922.34",
+  "engine": "chromium",
+  "cases": [
+    {
+      "device": "desktop",
+      "name": "controls",
+      "assertions": [
+        "pause",
+        "seek while paused",
+        "zh/en/off captions",
+        "mute/unmute",
+        "native controls",
+        "transcript pause",
+        "resume"
+      ],
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "blocked-autoplay",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "format-fallback",
+      "actualSource": "http://127.0.0.1:5173/media/video/CIN-00-compatible-v10.webm",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "error-recovery",
+      "pass": true
+    },
+    {
+      "device": "desktop",
+      "name": "error-skip",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "controls",
+      "assertions": [
+        "pause",
+        "seek while paused",
+        "zh/en/off captions",
+        "mute/unmute",
+        "native controls",
+        "transcript pause",
+        "resume"
+      ],
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "blocked-autoplay",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "format-fallback",
+      "actualSource": "http://127.0.0.1:5173/media/video/CIN-00-compatible-v10.webm",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "error-recovery",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "error-skip",
+      "pass": true
+    },
+    {
+      "device": "mobile",
+      "name": "slow-buffer",
+      "slowNotice": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

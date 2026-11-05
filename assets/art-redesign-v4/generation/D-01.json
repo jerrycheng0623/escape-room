@@ -1,0 +1,10 @@
+{
+  "id": "D-01",
+  "prompt": "Use case: precise-object-edit. Edit ONLY the attached scene to REMOVE the living woman completely, including her entire head, neck, torso, both arms, both hands, and the flashlight she is holding. Replace her area naturally with the EMPTY burned underground clinic, soot-damaged wall and empty wooden chair behind the desk. No humans or human silhouettes anywhere. Lay the medical report flat on the desk so it is fully readable as a document prop: top portion blank cream paper, bottom portion covered by same opaque black rectangle. Preserve desk, report black redaction area, old briefcase, plain unlabelled glass vial, paper materials, colors, perspective and the fine graphite/flat gouache aged-paper art style. The scene is after fire, everyone has left. A loose unattended investigation flashlight resting on desk casts a restrained violet beam at the redacted document. Do not add text, portraits, blood or new people. Single landscape16:9 illustration.",
+  "source": "/Users/chengchebing/.codex/generated_images/01a19cc8-451a-7882-84a4-ff7bc3c5a40d/exec-75549344-7c49-4071-8cb2-aaa73ca48e3e.png",
+  "tool": "built-in image_gen",
+  "references": [
+    "/Users/chengchebing/Desktop/密室逃脫大/assets/art-redesign-v4/revision-inputs/D-01.png"
+  ],
+  "revision": "逐張檢視後修訂"
+}

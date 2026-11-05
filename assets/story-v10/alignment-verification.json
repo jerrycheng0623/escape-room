@@ -1,0 +1,551 @@
+{
+  "date": "2026-11-05T00:44:52.052893+08:00",
+  "version": 10,
+  "executor": "Codex 單代理",
+  "baselineSourceCommit": "6bcd3ec513b70cd4f450a4f90e0ecd398fa6d4fb",
+  "method": "All decoded MP4 frame hashes equal concatenated rendered shots; WebM per-shot SSIM; both subtitle languages match shot identity and time; original AAC packets preserved. Visual content reviewed separately.",
+  "segments": [
+    {
+      "id": "CIN-00",
+      "mp4Frames": 2076,
+      "webmFrames": 2076,
+      "captions": 20,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.977911
+        },
+        {
+          "index": 1,
+          "start": 9,
+          "end": 19.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.99425
+        },
+        {
+          "index": 2,
+          "start": 19.5,
+          "end": 28.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994111
+        },
+        {
+          "index": 3,
+          "start": 28.5,
+          "end": 36.5,
+          "person": "reporter",
+          "name": "林依瑤",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994491
+        },
+        {
+          "index": 4,
+          "start": 36.5,
+          "end": 44.5,
+          "person": "host",
+          "name": "王杰倫",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.995401
+        },
+        {
+          "index": 5,
+          "start": 44.5,
+          "end": 52.5,
+          "person": "benefactor",
+          "name": "劉涵",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994575
+        },
+        {
+          "index": 6,
+          "start": 52.5,
+          "end": 60.5,
+          "person": "doctor",
+          "name": "張萍",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994823
+        },
+        {
+          "index": 7,
+          "start": 60.5,
+          "end": 68.5,
+          "person": "photographer",
+          "name": "劉子傑",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.993538
+        },
+        {
+          "index": 8,
+          "start": 68.5,
+          "end": 77.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.995049
+        },
+        {
+          "index": 9,
+          "start": 77.5,
+          "end": 86.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.983466
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-A",
+      "mp4Frames": 1080,
+      "webmFrames": 1080,
+      "captions": 10,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.991943
+        },
+        {
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.980778
+        },
+        {
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992087
+        },
+        {
+          "index": 3,
+          "start": 27,
+          "end": 36,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.990709
+        },
+        {
+          "index": 4,
+          "start": 36,
+          "end": 45,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.982859
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-B",
+      "mp4Frames": 1188,
+      "webmFrames": 1188,
+      "captions": 10,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.976484
+        },
+        {
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994663
+        },
+        {
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.993601
+        },
+        {
+          "index": 3,
+          "start": 27,
+          "end": 40.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.991883
+        },
+        {
+          "index": 4,
+          "start": 40.5,
+          "end": 49.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994193
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-C",
+      "mp4Frames": 1764,
+      "webmFrames": 1764,
+      "captions": 16,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.978713
+        },
+        {
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994239
+        },
+        {
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994107
+        },
+        {
+          "index": 3,
+          "start": 27,
+          "end": 37.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992339
+        },
+        {
+          "index": 4,
+          "start": 37.5,
+          "end": 46.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992385
+        },
+        {
+          "index": 5,
+          "start": 46.5,
+          "end": 55.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994801
+        },
+        {
+          "index": 6,
+          "start": 55.5,
+          "end": 64.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.993413
+        },
+        {
+          "index": 7,
+          "start": 64.5,
+          "end": 73.5,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.979175
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-D",
+      "mp4Frames": 2304,
+      "webmFrames": 2304,
+      "captions": 20,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 12.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992722
+        },
+        {
+          "index": 1,
+          "start": 12.0,
+          "end": 21.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.980232
+        },
+        {
+          "index": 2,
+          "start": 21.0,
+          "end": 30.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.985775
+        },
+        {
+          "index": 3,
+          "start": 30.0,
+          "end": 39.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.983372
+        },
+        {
+          "index": 4,
+          "start": 39.0,
+          "end": 48.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.980931
+        },
+        {
+          "index": 5,
+          "start": 48.0,
+          "end": 57.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.974443
+        },
+        {
+          "index": 6,
+          "start": 57.0,
+          "end": 69.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.993597
+        },
+        {
+          "index": 7,
+          "start": 69.0,
+          "end": 78.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.98591
+        },
+        {
+          "index": 8,
+          "start": 78.0,
+          "end": 87.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.993821
+        },
+        {
+          "index": 9,
+          "start": 87.0,
+          "end": 96.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.980294
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-END",
+      "mp4Frames": 1728,
+      "webmFrames": 1728,
+      "captions": 16,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 9,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.977276
+        },
+        {
+          "index": 1,
+          "start": 9,
+          "end": 18,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.985295
+        },
+        {
+          "index": 2,
+          "start": 18,
+          "end": 27,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.982107
+        },
+        {
+          "index": 3,
+          "start": 27,
+          "end": 36,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.976102
+        },
+        {
+          "index": 4,
+          "start": 36,
+          "end": 45,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.986964
+        },
+        {
+          "index": 5,
+          "start": 45,
+          "end": 54,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.98096
+        },
+        {
+          "index": 6,
+          "start": 54,
+          "end": 63,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.982828
+        },
+        {
+          "index": 7,
+          "start": 63,
+          "end": 72,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.983969
+        }
+      ],
+      "pass": true
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "mp4Frames": 1488,
+      "webmFrames": 1488,
+      "captions": 12,
+      "aacPacketsPreserved": true,
+      "shots": [
+        {
+          "index": 0,
+          "start": 0,
+          "end": 12.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992713
+        },
+        {
+          "index": 1,
+          "start": 12.0,
+          "end": 22.0,
+          "person": "reporter",
+          "name": "林依瑤",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.99478
+        },
+        {
+          "index": 2,
+          "start": 22.0,
+          "end": 32.0,
+          "person": "benefactor",
+          "name": "劉涵",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.994662
+        },
+        {
+          "index": 3,
+          "start": 32.0,
+          "end": 42.0,
+          "person": "doctor",
+          "name": "張萍",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.992473
+        },
+        {
+          "index": 4,
+          "start": 42.0,
+          "end": 52.0,
+          "person": "photographer",
+          "name": "劉子傑",
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.995473
+        },
+        {
+          "index": 5,
+          "start": 52.0,
+          "end": 62.0,
+          "person": null,
+          "name": null,
+          "allMp4FramesMatch": true,
+          "webmMeanSsim": 0.983869
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "totalShots": 52,
+  "totalFramesPerFormat": 11628,
+  "totalCaptions": 104
+}
