@@ -1,0 +1,10 @@
+{
+  "method": "Initial integration audit script, before correction",
+  "passed": 7,
+  "failed": 6,
+  "error": "docs.find is not a function",
+  "cause": "Audit script treated keyed documents object as an array",
+  "fix": "Changed doc lookup to docs[id]. No game code modified.",
+  "rerun": "story-audit.json: 13 pass / 0 fail"
+}
+

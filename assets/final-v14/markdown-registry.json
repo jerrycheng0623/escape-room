@@ -178,7 +178,7 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "5225eaadfcfa67ab31947e98d17f4a6051887840bb7eebdf2f68c1e77dfd1ad5",
+      "sha256": "46df2db2a46607d8d77a047ea768f857e30c1349f3d11419bd54020b02404ab3",
       "missingLocalLinks": []
     },
     {
@@ -209,6 +209,36 @@
       "path": "遊戲腳本與機關狀態設定.md",
       "role": "現行維護文件",
       "sha256": "aff2a3c5fcfd8f99d50f07601f31a41e5b818ca10d1110da95a4c10002fffbc9",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "INTEGRATION.md",
+      "role": "現行維護文件",
+      "sha256": "9af1af9e3e29e8d6e869d8f065800fb3f162611ba3ae956cc2820dce3d894db2",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "agent.md",
+      "role": "現行維護文件",
+      "sha256": "7f36bb6a19ad3a0c6afee6dec036fc664b88a060a3b4a9075088aedc65805489",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "AGENTS.md",
+      "role": "現行維護文件",
+      "sha256": "a61b7123166dad189d05e8f2334c114961bfe8ea94cc5fcd5f9032127214c663",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_brief.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "5a95ad4562810778fdb1539e41cff4257cda041abc72e857704fbd54f7ec59cf",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "code_artifact.md",
+      "role": "歷史／來源文件（不是目前介面規格）",
+      "sha256": "6ed7794b1d6cbbe6621c3384e9d6a4df96d6c0efc93991bda92530ccfc9e923e",
       "missingLocalLinks": []
     }
   ]
