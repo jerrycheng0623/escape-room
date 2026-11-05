@@ -3,7 +3,7 @@ import {resolve,dirname} from 'node:path';
 const web=resolve(import.meta.dirname,'..'),root=resolve(web,'..'),pub=resolve(web,'public');
 const manifest=JSON.parse(await readFile(resolve(root,'assets/story-v5/manifest.json'),'utf8'));
 const playback=JSON.parse(await readFile(resolve(root,'assets/playback-v6/manifest.json'),'utf8'));
-const soundscape=JSON.parse(await readFile(resolve(root,'assets/soundscape-v15/manifest.json'),'utf8'));
+const soundscape=JSON.parse(await readFile(resolve(root,'assets/release-v17/manifest.json'),'utf8'));
 const story=JSON.parse(await readFile(resolve(root,'assets/story-v5/storyboard.json'),'utf8'));
 const content=JSON.parse(await readFile(resolve(root,'assets/story/content-v5.json'),'utf8'));
 async function copy(src,dst){const to=resolve(pub,dst);await mkdir(dirname(to),{recursive:true});await copyFile(resolve(root,src),to);}

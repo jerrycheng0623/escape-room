@@ -1,0 +1,12 @@
+{
+  "path": "./data/4/46/QmeuK3Unr7ybzDCvVVbU4Eu878nUjDhRJpZMyzzMY5EQyr.json",
+  "metadata": "./metadata/3/5300478.json",
+  "title": "Moonlight Sonata 1st movement",
+  "license": "cc-zero",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_conflict": "False",
+  "subset:no_license_conflict": "True",
+  "scoreURL": "https://scorebase.org/scores/118393",
+  "datasetURL": "https://doi.org/10.5281/zenodo.14984509",
+  "midSHA256": "10543e503362c607248debf2dc1e265427900a2d5a18f047755a655fbfda7228"
+}

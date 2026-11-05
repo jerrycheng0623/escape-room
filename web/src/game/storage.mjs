@@ -5,7 +5,7 @@ import {GUIDANCE_STAGES} from './guidance.mjs';
 export const RUN_KEY='embers.investigation.v1',BACKUP_KEY=RUN_KEY+'.backup',SETTINGS_KEY='embers.settings.v1',REPLAY_KEY='embers.replay.v4';
 export const DEFAULT_SETTINGS={lang:'zh-Hant',device:'desktop',hint:'novice',sound:false,volume:.35,quality:'medium',brightness:1.15,reducedMotion:false,subtitles:true,subtitleLanguage:'auto',textSize:18,sensitivity:1,explorationAssist:false};
 const IDS=new Set('invitation commission police threat card formula door-sign notes clipping first-photo last-photo worklog diary watch blood weight manual necklace key surface uv-module report recording cabinet exit-traces identity overlay b-tools a-receipt a-structure b-samples c-parts d-card'.split(' '));
-export const REQUIRED={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace','diary','watch','surface','weight'],D:['report','recording','cabinet','exit-traces']};
+export const REQUIRED={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace'],D:['report','recording','cabinet','exit-traces']};
 const REWARDS={A:['notes','clipping'],B:['first-photo','last-photo','worklog'],C:['key','necklace'],D:['report']};
 const uniq=x=>Array.isArray(x)&&new Set(x).size===x.length;
 const nonnegative=x=>Number.isInteger(x)&&x>=0;
@@ -31,7 +31,7 @@ export function validRun(x){
  return true;
 }
 export function migrateRun(old){let x;if(validV3(old))x=old;else if(validV2(old))x=migrateV2(old);else x=migrateV1ForV4(old);if(!x)return null;return {...createRun(),...x,version:4,mechanicRevision:4,legacyCompleted:[...x.solved],puzzles:freshPuzzles(),objects:freshObjects(),held:null,annotations:{A:'',B:'',C:'',D:''},hintStages:{},migrationNotice:'v4 已改成分散探索。已完成章節、首次紀錄與皇冠保留；未完成機構重新開始，舊存檔另存備份。'};}
-export function readRun(storage,key=RUN_KEY){let corrupt=false;for(const k of [key,key===RUN_KEY?BACKUP_KEY:key+'.backup']){try{const raw=storage.getItem(k);if(!raw)continue;const x=JSON.parse(raw);if(validRun(x))return {run:x,recovered:k!==key,error:null,migrated:false};const run=migrateRun(x);if(run&&validRun(run)){try{storage.setItem(key+'.before-schema4',raw);}catch{}return {run,recovered:k!==key,error:null,migrated:true};}corrupt=true;}catch{corrupt=true;}}return {run:null,recovered:false,error:corrupt?'corrupt':null};}
+export function readRun(storage,key=RUN_KEY){let corrupt=false;for(const k of [key,key===RUN_KEY?BACKUP_KEY:key+'.backup']){try{const raw=storage.getItem(k);if(!raw)continue;const x=JSON.parse(raw);if(validRun(x))return {run:x.phase==='explore'&&x.room==='C'?settle(x):x,recovered:k!==key,error:null,migrated:false};const run=migrateRun(x);if(run&&validRun(run)){try{storage.setItem(key+'.before-schema4',raw);}catch{}return {run,recovered:k!==key,error:null,migrated:true};}corrupt=true;}catch{corrupt=true;}}return {run:null,recovered:false,error:corrupt?'corrupt':null};}
 export function saveRun(storage,run,key=RUN_KEY){if(!validRun(run))return {ok:false,error:'invalid'};try{const old=storage.getItem(key);if(old){try{const parsed=JSON.parse(old);if(validRun(parsed)||migrateRun(parsed))storage.setItem(key===RUN_KEY?BACKUP_KEY:key+'.backup',old);}catch{}}storage.setItem(key,JSON.stringify({...run,savedAt:new Date().toISOString()}));return {ok:true};}catch{return {ok:false,error:'storage'};}}
 export function addEvidence(run,id){if(!IDS.has(id)||run.evidence.includes(id)||id==='identity')return run;return {...run,evidence:[...run.evidence,id]};}
 export function revealHint(run,room,index,stage=null){if(!ROOM_ORDER.includes(room)||!Number.isInteger(index)||index<0||index>6||stage!==null&&!GUIDANCE_STAGES.includes(stage))return run;const key=room+':'+stage,stageOld=run.hintStages[key]||[],old=run.hints[room]||[],event=stage===null?index:100+GUIDANCE_STAGES.indexOf(stage)*7+index;if(stage===null?old.includes(event):stageOld.includes(index))return run;return {...run,hints:{...run.hints,[room]:[...old,event]},hintStages:stage===null?run.hintStages:{...run.hintStages,[key]:[...stageOld,index]}};}
@@ -39,7 +39,13 @@ export function requestHelp(run,room){if(run.helpRooms.includes(room))return run
 export const basketLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.container==='basket'&&WORLD[id].kg).reduce((n,[id])=>n+WORLD[id].kg,0);
 export const panLoad=run=>Object.entries(run.objects).filter(([id,o])=>o.container==='pan'&&WORLD[id].kg).reduce((n,[id])=>n+WORLD[id].kg,0);
 export const routeWorks=p=>p.route.join(',')==='A0,M,F,B';
-function settle(run){const p=run.puzzles;for(const room of ROOM_ORDER){if(run.solved.includes(room)||run.solved.length!==ROOM_ORDER.indexOf(room))continue;const yes=room==='A'?p.A.panel:room==='B'?p.B.originalOpened:room==='C'?p.C.hatchRaised:p.D.lowerOpened;if(yes&&REWARDS[room].every(id=>run.evidence.includes(id)))run={...run,solved:[...run.solved,room]};}if(run.evidence.includes('report')&&run.cabinetMoved&&['notes','clipping','first-photo','last-photo','worklog','weight','diary','watch','necklace','surface'].every(id=>run.evidence.includes(id)))run=addEvidence(run,'recording');return run;}
+function settle(run){
+ const c=run.puzzles.C;
+ if(run.room==='C'&&!c.hatchRaised&&!run.legacyCompleted.includes('C')){
+  const load=basketLoad(run),slipped=load>40||(c.route.includes('OLD')&&load>20),opens=routeWorks(c)&&load===40&&!slipped;
+  run={...run,puzzles:{...run.puzzles,C:{...c,slipped,...(opens?{released:true,liftCommitted:true,hatchRaised:true}:{})}}};
+ }
+ const p=run.puzzles;for(const room of ROOM_ORDER){if(run.solved.includes(room)||run.solved.length!==ROOM_ORDER.indexOf(room))continue;const yes=room==='A'?p.A.panel:room==='B'?p.B.originalOpened:room==='C'?p.C.hatchRaised:p.D.lowerOpened;if(yes&&REWARDS[room].every(id=>run.evidence.includes(id)))run={...run,solved:[...run.solved,room]};}if(run.evidence.includes('report')&&run.cabinetMoved)run=addEvidence(run,'recording');return run;}
 export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase!=='explore'||!item||item.room!==run.room&&run.objects[id]?.container==='world'||run.legacyCompleted.includes(run.room)&&!['observe','collect','take','hold','return','work','flip','rotate','move','annotate'].includes(verb))return run;let n=structuredClone(run),o=n.objects[id],p=n.puzzles[item.room];if(verb!=='annotate')o.discovered=true;const held=n.held,hand=held?WORLD[held]:null;
  if(o.container==='strip'&&n.puzzles.B.transported&&['take','return','flip','rotate','connect'].includes(verb))return run;
  if(verb==='annotate'){if(typeof value==='string')n.annotations[n.room]=value.slice(0,6000);else if(value&&ROOM_ORDER.includes(value.room)&&typeof value.text==='string')n.annotations[value.room]=value.text.slice(0,6000);}
@@ -73,14 +79,13 @@ export function worldAction(run,id,verb,value){const item=WORLD[id];if(run.phase
  if(item.kind==='anchor'&&verb==='place'&&hand?.kind==='rope'&&!p.hatchRaised){p.route=p.route.length>=10?[item.node]:[...p.route,item.node];p.released=false;}
  if(item.kind==='basket'){
   if(verb==='place'&&hand?.kind==='rope'&&!p.hatchRaised){p.route.push('B');p.released=false;}
-  if(verb==='place'&&hand?.kind==='weight'){n.objects[held].container='basket';n.held=null;const load=basketLoad(n);if(!p.hatchRaised&&(load>40||p.route.includes('OLD')&&load>20))p.slipped=true;}
+  if(verb==='place'&&hand?.kind==='weight'){if(p.hatchRaised&&basketLoad(n)+(n.objects[held].container==='basket'?0:hand.kg)>40)return run;n.objects[held].container='basket';n.held=null;const load=basketLoad(n);if(!p.hatchRaised&&(load>40||p.route.includes('OLD')&&load>20))p.slipped=true;}
   if(verb==='reset'&&basketLoad(n)<=40&&(!p.route.includes('OLD')||basketLoad(n)<=20))p.slipped=false;
   if(verb==='unrope'&&!p.hatchRaised){p.route=[];p.released=false;}
  }
  if(item.kind==='pan'&&verb==='place'&&hand?.kind==='weight'){n.objects[held].container='pan';n.held=null;}
  if(item.kind==='hatch'){
-  if(verb==='release'&&!p.slipped){p.released=true;if(routeWorks(p)&&basketLoad(n)>35&&basketLoad(n)<=40){p.liftCommitted=true;p.hatchRaised=true;}}
-  if(verb==='turn'){p.handwheel=true;if(p.released&&!p.slipped&&routeWorks(p)&&basketLoad(n)>=35&&basketLoad(n)<=40){p.liftCommitted=true;p.hatchRaised=true;}}
+  // release/turn from older saved clients cannot bypass the exact-load rule.
   if(verb==='collect'&&p.hatchRaised)n=addEvidence(addEvidence(n,'key'),'necklace');
  }
  if(item.kind==='board'){
@@ -107,5 +112,5 @@ export function completeFilm(run,id){if(run.pendingFilm!==id)return run;const se
 export function submitBonus(run,answers){if(run.phase!=='bonus'&&run.phase!=='completed')return run;const correct=[0,1,2,0,2].every((n,i)=>answers[i]===n);if(!correct)return run;return {...run,crown:true,bestBonus:true};}
 export function watchEnding(run){return run.solved.length===4?{...run,phase:'ending',pendingFilm:'CIN-END'}:run;}
 
-export function replayRun(room){let r=createRun();r.phase='explore';r.pendingFilm=null;r.room=room;r.seen=['CIN-00',...ROOM_ORDER.slice(0,ROOM_ORDER.indexOf(room)).map(v=>'CIN-'+v)];r.solved=ROOM_ORDER.slice(0,ROOM_ORDER.indexOf(room));r.legacyCompleted=[...r.solved];for(const prev of r.solved)for(const id of REQUIRED[prev])r=addEvidence(r,id);return r;}
+export function replayRun(room){let r=createRun();r.phase='explore';r.pendingFilm=null;r.room=room;r.seen=['CIN-00',...ROOM_ORDER.slice(0,ROOM_ORDER.indexOf(room)).map(v=>'CIN-'+v)];r.solved=ROOM_ORDER.slice(0,ROOM_ORDER.indexOf(room));r.legacyCompleted=[...r.solved];for(const prev of r.solved)for(const id of [...REQUIRED[prev],...(prev==='C'?['diary','watch','surface','weight']:[])])r=addEvidence(r,id);return r;}
 export function readSettings(storage){try{const p=JSON.parse(storage.getItem(SETTINGS_KEY)||'{}');const d={...DEFAULT_SETTINGS};for(const k of ['sound','reducedMotion','subtitles','explorationAssist'])if(typeof p[k]==='boolean')d[k]=p[k];for(const [k,values] of Object.entries({lang:['zh-Hant','en'],device:['desktop','mobile'],hint:['novice','standard','hard'],quality:['low','medium','high'],subtitleLanguage:['auto','zh-Hant','en']}))if(values.includes(p[k]))d[k]=p[k];for(const [k,min,max] of [['volume',0,1],['brightness',.75,1.7],['textSize',16,26],['sensitivity',.5,2]])if(Number.isFinite(p[k]))d[k]=Math.max(min,Math.min(max,p[k]));return d;}catch{return {...DEFAULT_SETTINGS};}}

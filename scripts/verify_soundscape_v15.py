@@ -4,7 +4,7 @@ from pathlib import Path
 import numpy as np
 
 root=Path(__file__).resolve().parents[1]
-assets=root/'assets/soundscape-v15'
+assets=root/os.environ.get('EMBERS_AUDIO_ASSETS','assets/soundscape-v15')
 ff=os.environ.get('FFMPEG') or shutil.which('ffmpeg') or str(Path.home()/'.cache/codex-video-tools/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v7.1')
 def ffout(file,*args):
     return subprocess.check_output([ff,'-nostdin','-hide_banner','-loglevel','error','-i',str(file),*args])
@@ -37,8 +37,21 @@ for segment in manifest['segments']:
         correlation=float(np.max(numer/(np.sqrt(power*np.sum(reference**2))+1e-10)))
         peaks=float(np.max(np.abs(mix)))
         added=rms(mix-orig)
-        assert peaks<.97 and added>.001 and correlation>.18,(new,peaks,added,correlation)
-        results.append({'id':segment['id'],'file':new.name,'picturePackets':len(frames(picture1)),'duration':len(mix)/12000,'peak':peaks,'rmsBefore':rms(orig),'rmsAfter':rms(mix),'addedSignalRms':added,'originalTransientCorrelation':correlation,'pass':True})
+        assert peaks<.97 and added>.001,(new,peaks,added)
+        expectedCorrelation=None
+        if os.environ.get('EMBERS_EXPECTED_MUSIC'):
+            duration=segment['durationMs']/1000
+            filt=f'[1:a]asetpts=PTS-STARTPTS,afade=d=0.2,afade=t=out:st={duration-1.4}:d=1.4,apad[music];[0:a][music]amix=inputs=2:duration=first:normalize=0[a]'
+            command=[ff,'-v','error','-i',str(old),'-ss',str(segment['pianoStartSeconds']),'-t',str(duration),'-i',os.environ['EMBERS_EXPECTED_MUSIC'],'-filter_complex',filt,'-map','[a]','-ar','12000','-ac','1','-f','f32le','-']
+            expected=np.frombuffer(subprocess.check_output(command),'<f4')
+            reference=expected[12000:36000];span=mix[10800:37200]
+            dot=np.correlate(span,reference,'valid')
+            energy=np.convolve(span**2,np.ones(len(reference)),mode='valid')
+            expectedCorrelation=float(np.max(dot/(np.sqrt(energy*np.sum(reference**2))+1e-12)))
+            assert expectedCorrelation>.97,(new,expectedCorrelation)
+        else:
+            assert correlation>.18,(new,correlation)
+        results.append({'id':segment['id'],'file':new.name,'picturePackets':len(frames(picture1)),'duration':len(mix)/12000,'peak':peaks,'rmsBefore':rms(orig),'rmsAfter':rms(mix),'addedSignalRms':added,'originalTransientCorrelation':correlation,'expectedMixCorrelation':expectedCorrelation,'pass':True})
 weather=root/manifest['roomAmbience']['path'];rain=pcm(weather)
 assert abs(len(rain)/12000-48)<.03 and .005<rms(rain)<.08 and np.max(np.abs(rain))<.5
 assert hashlib.sha256(weather.read_bytes()).hexdigest()==manifest['roomAmbience']['sha256']

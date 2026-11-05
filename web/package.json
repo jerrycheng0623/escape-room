@@ -1,6 +1,6 @@
 {
   "name": "embers-sixth-person",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -29,7 +29,8 @@
     "test:settings": "node scripts/test-settings-guidance.mjs",
     "test:guide": "node scripts/test-guide-modes.mjs",
     "test:luggage": "node scripts/test-luggage-input.mjs",
-    "test:layout": "node scripts/test-final-layout.mjs"
+    "test:layout": "node scripts/test-final-layout.mjs",
+    "test:v17": "node scripts/test-release-v17.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

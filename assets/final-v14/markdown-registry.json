@@ -16,13 +16,13 @@
     {
       "path": "PLAN.md",
       "role": "現行維護文件",
-      "sha256": "a79dd4854def1dfc9ad9308fa80b18e2f486e7d948a8ce17a6c0d17e90fffd3e",
+      "sha256": "38dfd0de0ca08a70bab6ea772636c1d8e572a40e523c437f8443163893aab73a",
       "missingLocalLinks": []
     },
     {
       "path": "README.md",
       "role": "現行維護文件",
-      "sha256": "91532b7a9fd49d8d3a142fad292d262762f2c69cc64e07a86eae8ef3668c2e0b",
+      "sha256": "e11db66ece154f34b257daea2c846c4e217a90479c63e360bdb64a88830e4af7",
       "missingLocalLinks": []
     },
     {
@@ -166,7 +166,7 @@
     {
       "path": "machine.md",
       "role": "現行維護文件",
-      "sha256": "0b609a998fb79110d7ff6a3d966dde1d8de08d880204de196bf821b295ff794c",
+      "sha256": "1398c2230bcd942bfe606561948b7d4c8e5c4402f770462a0cfe7e738601f513",
       "missingLocalLinks": []
     },
     {
@@ -178,25 +178,25 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "357812ec93e7470a992a895c4805832ae2fccdb0d56ef19ceaa3362f0ec00d52",
+      "sha256": "c3372aa62145eaba13c711bb4a9b6ec1e1512cfd2ec2ffc426af84be72b11272",
       "missingLocalLinks": []
     },
     {
       "path": "verify.md",
       "role": "現行維護文件",
-      "sha256": "0ad7e77cca06be53e4e8087244c9c46eb8ca6fcd4fdb3e03af35d9db76755936",
+      "sha256": "04b045dc3d5f987ab91bbaf1d979f76b454cccb3ec15ebd9d934b22d50cbae35",
       "missingLocalLinks": []
     },
     {
       "path": "web/README.md",
       "role": "現行維護文件",
-      "sha256": "a1f71a9ddbc169b9a7f808b8fce5892d2fdda3871e438372a3a91fb96a36c5c5",
+      "sha256": "32c4634406b0ec14fe43374eee5dbf4509b4c8e78bf9f4353189c8df40634647",
       "missingLocalLinks": []
     },
     {
       "path": "操作指南與探索模式規格.md",
       "role": "現行維護文件",
-      "sha256": "061da818fb15e716a503f5d0edfcc4764712b3f1d9412dc4ba9199b14d3afb17",
+      "sha256": "b04327b83d2334297d551ad4b3f76f449680a98cec664dd40fd3a5205d335205",
       "missingLocalLinks": []
     },
     {
@@ -209,6 +209,12 @@
       "path": "遊戲腳本與機關狀態設定.md",
       "role": "現行維護文件",
       "sha256": "aff2a3c5fcfd8f99d50f07601f31a41e5b818ca10d1110da95a4c10002fffbc9",
+      "missingLocalLinks": []
+    },
+    {
+      "path": "assets/release-v17/README.md",
+      "role": "現行維護文件",
+      "sha256": "1c51cf6bcd5072dbe16578bca8da36ba7cb6583f055d591e58a98b68f3a47bce",
       "missingLocalLinks": []
     }
   ]

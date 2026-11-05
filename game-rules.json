@@ -47,18 +47,26 @@
       "basketRating": 40,
       "oldHookRating": 20,
       "balancedLoad": 35,
-      "balancedRequiresWheel": true,
-      "autoLoadRange": [
-        35,
-        40
-      ],
-      "autoLoadLowerExclusive": true,
       "weights": {
         "20": 2,
         "15": 2,
         "10": 2,
         "5": 2
-      }
+      },
+      "requiredBasketLoad": 40,
+      "automaticLift": true,
+      "chapterRequires": [
+        "key",
+        "necklace"
+      ],
+      "optionalRecords": [
+        "diary",
+        "watch",
+        "surface",
+        "weight"
+      ],
+      "ropeGuide": "three illustrated start/end pairs",
+      "balancedOpens": false
     },
     "D": {
       "holes": {
