@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-05T11:17:49.412744+08:00",
+  "version": "1.0.0",
+  "hotfix": "basket-visibility",
+  "sourceCodeCommit": "6a08ecaf7817b36ec7f3ebb72a4350a29d1d4042",
+  "pagesCommit": "40cd656afc9d7862456f7eff94292410e065e3a7",
+  "pagesWorkflow": "https://github.com/jerrycheng0623/escape-room/actions/runs/41958859898",
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "browsers": [
+    "Chromium 151.0.7922.34",
+    "Playwright WebKit 26.5"
+  ],
+  "verdict": "pass within stated automated scope",
+  "checks": {
+    "desktop": {
+      "pass": true,
+      "evidence": "desktop.json",
+      "checks": 5
+    },
+    "mobile": {
+      "pass": true,
+      "evidence": "mobile.json",
+      "checks": 5
+    },
+    "mobile-webkit": {
+      "pass": true,
+      "evidence": "mobile-webkit.json",
+      "checks": 5
+    },
+    "native": {
+      "pass": true,
+      "evidence": "native.json",
+      "checks": 5
+    },
+    "space-retry": {
+      "pass": true,
+      "evidence": "space-retry.json",
+      "checks": 0
+    },
+    "touch-chromium": {
+      "pass": true,
+      "evidence": "touch-chromium.json",
+      "checks": 22
+    },
+    "touch-webkit": {
+      "pass": true,
+      "evidence": "touch-webkit.json",
+      "checks": 12
+    },
+    "boundaries-chromium": {
+      "pass": true,
+      "evidence": "boundaries-chromium.json",
+      "checks": 4
+    },
+    "boundaries-webkit": {
+      "pass": true,
+      "evidence": "boundaries-webkit.json",
+      "checks": 4
+    },
+    "http": {
+      "pass": true,
+      "evidence": "http.json",
+      "checks": 0
+    },
+    "player": {
+      "pass": true,
+      "evidence": "player.json",
+      "cases": 3,
+      "rooms": 12
+    },
+    "guide": {
+      "pass": true,
+      "evidence": "guide.json",
+      "cases": 6
+    },
+    "q": {
+      "pass": true,
+      "evidence": "q.json",
+      "cases": 4
+    },
+    "luggage": {
+      "pass": true,
+      "evidence": "luggage.json",
+      "cases": 4
+    },
+    "notebook": {
+      "pass": true,
+      "evidence": "notebook.json",
+      "cases": 8
+    },
+    "keyboard": {
+      "pass": true,
+      "evidence": "keyboard.json",
+      "cases": 2
+    },
+    "postgame": {
+      "pass": true,
+      "evidence": "postgame.json",
+      "cases": 2
+    },
+    "captions": {
+      "pass": true,
+      "evidence": "captions.json",
+      "cases": 4,
+      "subtitleChecks": 416
+    },
+    "layout": {
+      "pass": true,
+      "evidence": "layout.json",
+      "cases": 14
+    },
+    "story": {
+      "pass": true,
+      "evidence": "story.json",
+      "cases": 2
+    },
+    "natural-chromium": {
+      "pass": true,
+      "evidence": "natural-chromium.json",
+      "fullPlays": 28
+    },
+    "controls-chromium": {
+      "pass": true,
+      "evidence": "controls-chromium.json",
+      "cases": 11
+    },
+    "natural-webkit": {
+      "pass": true,
+      "evidence": "natural-webkit.json",
+      "fullPlays": 28
+    },
+    "controls-webkit": {
+      "pass": true,
+      "evidence": "controls-webkit.json",
+      "cases": 11
+    },
+    "release": {
+      "pass": true,
+      "evidence": "release.json",
+      "cases": 4
+    },
+    "settings": {
+      "pass": true,
+      "evidence": "settings.json",
+      "guidanceCases": 6
+    },
+    "public-files": {
+      "pass": true,
+      "evidence": "public-files.json",
+      "paths": 1434,
+      "ranges": 28,
+      "recoveredTransientErrors": 0
+    },
+    "unit": {
+      "pass": true,
+      "cases": 55,
+      "evidence": "unit.log"
+    },
+    "models": {
+      "pass": true,
+      "interactives": 86,
+      "glbs": 109,
+      "views": 436,
+      "evidence": [
+        "../../../../3D/final-v14/verification.json",
+        "../../../../3D/final-v14/visibility.json"
+      ]
+    }
+  },
+  "initialHarnessFailures": [
+    {
+      "case": "space",
+      "reason": "Read camera before scene finished loading",
+      "evidence": "space-initial.json",
+      "resolution": "Waited for canvas, no loading indicator and a valid camera; reran all rooms and mobile"
+    },
+    {
+      "case": "boundaries-chromium",
+      "reason": "Touch aim did not reveal D index table interaction after reload",
+      "evidence": "boundaries-chromium-initial.json",
+      "resolution": "Reran four rooms with real CDP drags from an unobstructed start zone; no state or solve injected by the retry."
+    },
+    {
+      "case": "settings",
+      "reason": "Initial test used a label locator that could not uniquely match the implicit select label",
+      "resolution": "Scoped selectors to the settings dialog controls and reran both profiles"
+    }
+  ],
+  "limits": [
+    "未測實體 iPhone／iPad／Android，也未驗收真機虛擬鍵盤、手勢及長時間效能",
+    "WebKit 是 Playwright 模擬引擎；完整通關採點按加滑鼠指標拖曳，Chromium CDP 才有多指觸控回歸",
+    "未測 Firefox、真人首次盲測及完整英文化；僅驗證首頁中英切換及中英文字幕",
+    "新遊戲通關主動略過影片；七段自然播放與結尾串接分開測量"
+  ]
+}

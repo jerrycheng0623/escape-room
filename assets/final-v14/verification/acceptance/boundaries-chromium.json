@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-05T03:17:05.994Z",
+  "url": "https://jerrycheng0623.github.io/escape-room/final/",
+  "engine": "chromium",
+  "browser": "151.0.7922.34",
+  "method": "Engineering saved-state fixtures; Chromium real CDP touch aiming; WebKit touch taps and mouse pointer aiming. Not formal exploration or physical iOS.",
+  "checks": [
+    "A trap reload, cannot reset before hook rest, real recovery",
+    "B wrong transport return/reload atomic, no film loss",
+    "C35 stays balanced after release/reload; wheel opens with durable support before reward",
+    "D actual blocked hole, partial reload, durable reward; replay prerequisites allow cabinet reconstruction and CIN-D to Bonus"
+  ],
+  "errors": [],
+  "pass": true
+}

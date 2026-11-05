@@ -25,6 +25,7 @@
     "test:notebook": "node scripts/test-notebook-controls.mjs",
     "test:q-input": "node scripts/test-q-guide-input.mjs",
     "test:native": "node scripts/test-native-exploration.mjs",
+    "test:settings": "node scripts/test-settings-guidance.mjs",
     "test:guide": "node scripts/test-guide-modes.mjs",
     "test:luggage": "node scripts/test-luggage-input.mjs",
     "test:layout": "node scripts/test-final-layout.mjs"

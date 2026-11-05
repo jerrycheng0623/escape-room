@@ -1,6 +1,6 @@
 # 《餘燼裡的第六人》網站、3D 遊戲與 2D 影片完整製作計畫
 
-> 公開驗收狀態：Pages 已部署，兩入口共 1,434 檔案路徑、28 組影片 Range／MIME、公開手機完整通關及 12 個房間操作組態已通過；公開站原生滑鼠鎖定重測因 Mac 鎖定而受阻，待手動解鎖補驗。不可把這項受阻或尚未測試的實體 iPhone／iPad 當成全部驗收通過。詳細證據見 assets/final-v14/verification/release-verification.json。
+> 最終公開驗收：v14 吊籃修正版已上線。同一個網址通過桌機及手機模擬四關通關；先前受測試環境阻擋的公開站原生滑鼠鎖定已補測通過。實體 iPhone／iPad／Android 未測。完整範圍與限制見 [test.md](test.md) 與 [驗收證據](assets/final-v14/verification/acceptance/summary.json)。
 
 > 2026-11-05 正式版 v14｜網站 1.0.0｜機關 v4／存檔 schema 4／影片 v10。正式發布分支為 `Websit-final`；桌機與手機共用 `https://jerrycheng0623.github.io/escape-room/final/`。Q 切換保留，取消置中的「繼續探索」遮擋框；僅保留底部不遮畫面的手動替代控制。製作預覽／跨關跳過入口已移除；未解鎖章節與影片不能提前開啟，通關後可回訪、獨立重玩及回看。模型與四方向圖見 `3D/final-v14/manifest.json`；本輪實測以 `assets/final-v14/verification/` 及 test.md 為準，舊測試紀錄僅代表其標示版本。
 

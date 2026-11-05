@@ -16,13 +16,13 @@
     {
       "path": "PLAN.md",
       "role": "現行維護文件",
-      "sha256": "a688ab39d6e363381be4d29e31ca3cc1dfac341b6bbcdfb3af225e6a13463162",
+      "sha256": "7dfd6fae0e4aafdd52258da229ef0cc44ec38e279bb6f851d6cb31093a8d6c11",
       "missingLocalLinks": []
     },
     {
       "path": "README.md",
       "role": "現行維護文件",
-      "sha256": "6d3aecaf191380e0f4f04ddac6cd57f331533a1849dc1c2b97ee538908bde230",
+      "sha256": "699574912d41d2540f0ff70a84cde1a7da1fad7b0116e9f1c65a4e60bac7f364",
       "missingLocalLinks": []
     },
     {
@@ -172,19 +172,19 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "9fb360ca00a142ac06b47e4d76c5d315b8ab2289f2551a49406c3e19b145e864",
+      "sha256": "b5951575a9e1d1791fdc257706f2fdb66064aa07a382f5c0a9d2233792b1dc33",
       "missingLocalLinks": []
     },
     {
       "path": "verify.md",
       "role": "現行維護文件",
-      "sha256": "62e05cbdf3c34a4b7d99bdb18e10fd39f113dc85a5573fb4864eed9653179849",
+      "sha256": "beceeef350e9f1226d22985c1a047b21f03005b1b7b96940983c5d885d1efd82",
       "missingLocalLinks": []
     },
     {
       "path": "web/README.md",
       "role": "現行維護文件",
-      "sha256": "5e2f3f80b160aefeade327b3cba60489ba7592279589829ba066f026d0bfd968",
+      "sha256": "5b759e7e7cab79bb58ee2f495fc3d20c78837f09432713fa1e9f87979348387d",
       "missingLocalLinks": []
     },
     {

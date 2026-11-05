@@ -1033,6 +1033,24 @@ OS／機型／CPU／GPU／瀏覽器完整版本：
 
 公開檔案共 1,434 個路徑核對完成：程式、索引、字幕及新四方向圖逐檔 SHA256；其他媒體核對 HTTP／大小，再以 Git blob 核對完整部署清單。兩個入口的七片 MP4／WebM 共 28 次 Range／MIME 檢查通過。首次大量併發核對有兩筆暫時性 503，首次公開手機流程亦曾記錄一筆 503，因此當次未判通過；降低併發並重測後，檔案與手機通關均通過，原失敗保留。
 
-公開站的原生滑鼠鎖定重測為「受阻」，不可寫成通過：Chromium 回報 WrongDocumentError；診斷顯示畫布仍連接於目前文件，DOM 焦點與使用者啟用均為真，授予站點鎖定權限仍未改善。原生 UI 工具隨後明確回報 Mac 已鎖定且無法自動解鎖。Chromium macOS 的原始碼 [CanBePointerLocked](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/content/browser/renderer_host/render_widget_host_view_mac.mm) 要求原生視窗為 key window；因此推定本次受阻與原生視窗狀態相關，仍須使用者手動解鎖後重跑確認，不能據此斷言產品已修復或公開原生模式已驗收。較早本機真正原生鎖定的五項通過仍保留；目前公開的 Q／輸入隔離、方向鍵備援、觸控及機關案例不受此項阻擋。工具與瀏覽器初次失敗見 verification/initial-failures；最終狀態見 verification/release-verification.json。
+早期公開站的原生滑鼠鎖定重測曾「受阻」（已由下方最終驗收補測通過）：Chromium 回報 WrongDocumentError；診斷顯示畫布仍連接於目前文件，DOM 焦點與使用者啟用均為真，授予站點鎖定權限仍未改善。原生 UI 工具隨後明確回報 Mac 已鎖定且無法自動解鎖。Chromium macOS 的原始碼 [CanBePointerLocked](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/content/browser/renderer_host/render_widget_host_view_mac.mm) 要求原生視窗為 key window；因此推定本次受阻與原生視窗狀態相關，仍須使用者手動解鎖後重跑確認，不能據此斷言產品已修復或公開原生模式已驗收。較早本機真正原生鎖定的五項通過仍保留；目前公開的 Q／輸入隔離、方向鍵備援、觸控及機關案例不受此項阻擋。工具與瀏覽器初次失敗見 verification/initial-failures；最終狀態見 verification/release-verification.json。
 
 2026-11-05 吊籃補丁：重現 C 區開蓋後承接座被合併成靜態網格、遮住降下的吊籃。承接座改為可獨立隱藏的空心框架；吊籃使用易辨識格柵，繩端對準吊環。以 Playwright 使用實際 C 區模型及機關狀態，核對空籃與配重 40 kg 開蓋後的畫面；承接座隱藏、籃底落地、配重留在籃內。55 項邏輯測試通過。
+
+### 最終公開站驗收：v14 吊籃修正版（2026-11-05）
+
+**驗收入口：[正式版（桌機與手機共用）](https://jerrycheng0623.github.io/escape-room/final/)。** 另檢查 GitHub Pages 根入口。發布來源為 `Websit-final` 上的程式 Commit `6a08ecaf7817b36ec7f3ebb72a4350a29d1d4042`，公開產物 Commit `40cd656afc9d7862456f7eff94292410e065e3a7`；版本 1.0.0、機關 v4、存檔 schema 4、影片 v10，`release.json` 標記 `basket-visibility`。本輪使用隔離的 Playwright 瀏覽器資料；Browser 外掛未提供。驗收不寫入使用者原本的存檔，也不改動已驗證的公開網站產物。
+
+| 範圍 | 實測方式與判定 |
+|---|---|
+| 正式入口與鎖定 | 根入口和 final/ 各以桌機、手機版面驗證有首頁、標題與可操作的指南，無框架錯誤畫面；三套操作組態共 12 房間載入，未解鎖章節與影片不能提前進入。 |
+| 正式新遊戲 | Chromium 桌機、Chromium 手機 CDP 觸控、WebKit 手機版面三條獨立流程，從新存檔通過 A/B/C/D 至單一結局及後記；實際移動、取放物品及操作機關，未注入進度。WebKit 使用觸控點按與滑鼠指標拖曳，影片在這三條流程主動略過。 |
+| 操作、碰撞與存檔 | 補過公開站桌機原生 Pointer Lock 五項：邊界後持續轉向、Q 雙向、Esc 暫停、點選／E 打開機關並釋放游標。桌機四區牆、地板、天花與重載，手機搖桿、直向暫停；Chromium CDP 多指及中斷 22 項、WebKit 點按與指標 12 項。兩引擎皆重載四區關鍵機關狀態。 |
+| 遊戲介面 | 七頁指南、Q／輸入隔離、行李櫃鍵盤與數字輪、證物分類與翻頁、個人筆記、鍵盤取物及錄音播放、可選皇冠、首次結果、章節重玩與回看皆回歸。全螢幕支援時驗證原生切換；WebKit 手機組態不支援頁面全螢幕時驗證可繼續操作。 |
+| 指引與設定 | Chromium 桌機、WebKit 手機各走過首頁中英切換；新手／標準／困難可依序展開 3／5／7 則，求助只顯示可調查區域，不解鎖機關；重載保留指引，取消重開保留存檔。 |
+| 影片與字幕 | 七段 × 兩引擎 × 桌機及手機版面 × MP4 及強制備援 WebM＝56 次 1× 完整自然播放，均播到 `ended` 並返回檔案館。另驗證自然接續結尾及後記（兩引擎）、暫停／拖曳／靜音／自動播放被擋／格式備援／錯誤後重試、14 種引擎與尺寸組合、416 項逐幕雙語字幕。 |
+| 檔案、模型與邏輯 | 公開兩入口 1,434 個路徑及 28 組影片 Range／MIME 通過；另核對 final/ 的 14 個影片檔完整 SHA256、14 個字幕檔逐字節內容。55 項邏輯測試、86 件互動物件支撐／可達站位／視線、109 組 GLB 和 436 張方向圖均通過。 |
+
+原始失敗保留：碰撞腳本首次在畫布就緒前讀取相機，改等畫布與相機狀態後完整重跑；Chromium 重載腳本首次未對準 D 區硬紙索引台，保留當次紀錄並以畫面空白處的 CDP 拖曳重跑，不代替玩家解機關；設定腳本最初的欄位定位不符，改用設定視窗內欄位後重跑。驗收索引與原始結果：[acceptance/summary.json](assets/final-v14/verification/acceptance/summary.json)。先前環境受阻的原生鎖定已由本輪補過；舊報告只代表原時點。
+
+**未測：實體 iPhone／iPad Safari 及 Android。** WebKit 模擬與 Chromium CDP 測試不能代替真機的虛擬鍵盤、雙指手感、音訊輸出及長時間硬體效能。Firefox、首次真人盲測及完整英文化亦未驗收；繁中為主要交付語言。

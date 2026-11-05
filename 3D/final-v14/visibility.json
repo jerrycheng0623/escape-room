@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "date": "2026-11-04T17:03:05.290Z",
+  "date": "2026-11-05T03:06:49.063Z",
   "method": "Reachable eye positions + actual rendered triangle raycasts; no owner/furniture exclusion. Opened hidden compartments are checked after access.",
   "objects": [
     {
@@ -683,9 +683,9 @@
         16.25
       ],
       "surface": [
-        -0.5391716357504297,
-        1.0562140373261109,
-        15.924999994039535
+        -0.5279783902453394,
+        1.03190249061426,
+        15.925000008940696
       ],
       "pass": true
     },

@@ -34,7 +34,9 @@ pnpm build
 
 本輪3D來源：src/game/roomModels.js；碰撞與視線：space.mjs；指引：guidance.mjs。材質與生成紀錄：assets/scene-v6/。四個可獨立檢視GLB：3D/scene/enclosed-{A,B,C,D}-v6.glb。GLB不含互動、動態文字與Three.js bumpMap；網站以原生場景為準。
 
-回歸：pnpm test（最新數量見test.md）；pnpm test:ui（真實操作的正式通關）；pnpm test:space（工程fixture逐區碰撞／六面檢視／手機模擬，不能算親解通關）。Playwright用既有執行環境，可用PLAYWRIGHT_MODULE指定。所有測試用獨立profile，EMBERS_QA_DIR指定外部證據資料夾。
+最終公開站驗收與真機未測範圍見 [test.md](../test.md) 及 [證據索引](../assets/final-v14/verification/acceptance/summary.json)。
+
+回歸：pnpm test（最新數量見test.md）；pnpm test:ui（真實操作的正式通關）；pnpm test:settings（語言切換、三種指引、求助與重載）；pnpm test:media:http（先準備資產或建置，再核對已部署影片及字幕完整位元組）；pnpm test:space（工程fixture逐區碰撞／六面檢視／手機模擬，不能算親解通關）。Playwright用既有執行環境，可用PLAYWRIGHT_MODULE指定。所有測試用獨立profile，EMBERS_QA_DIR指定外部證據資料夾。
 
 網站0.12.0：證物整理頁按A/B/C/D分類，自動收納已收集資料，左右翻頁、放大與分區筆記。啟程先看七頁互動操作指南。桌機Q切換游標與探索視角，原生鎖定後滑鼠環顧，或選方向鍵探索；操作頁固定鏡頭，關閉後按Q恢復，Esc暫停。全螢幕依瀏覽器API可用性顯示結果。行李鎖支援逐字／刪改／部分碼保存及觸控數字輪。test:notebook、test:luggage提供操作回歸；影片仍為v10且未修改。
 

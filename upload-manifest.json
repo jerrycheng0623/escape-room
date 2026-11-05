@@ -1,6 +1,6 @@
 {
   "version": 14,
-  "generatedAt": "2026-11-05T11:00:37.374606+08:00",
+  "generatedAt": "2026-11-05T11:17:51.165151+08:00",
   "sourceBranch": "Websit-final",
   "pagesBranch": "gh-pages",
   "publicPrefixes": [
@@ -8,7 +8,7 @@
     "final/"
   ],
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
-  "sourceFileCount": 1986,
+  "sourceFileCount": 2018,
   "deployedFilesPerEntrance": 717,
   "source": [
     {
@@ -3410,14 +3410,14 @@
     {
       "path": "3D/final-v14/verification.json",
       "bytes": 10973,
-      "sha256": "8bc79251ca88f7c752c77817ddb64d50274ec64555648d38b4e6bcd38d43ca04",
-      "gitBlobSHA": "e1c8c6f386d15e2b732288da5eaacfc93a3317aa"
+      "sha256": "0c33abaa8f4779113b59033b18320ded708c6b174ccdb59381b1364e3b7bac2a",
+      "gitBlobSHA": "5b3fe27c19fe1967d51b3cfa8e0b181e6ed25ea0"
     },
     {
       "path": "3D/final-v14/visibility.json",
-      "bytes": 21617,
-      "sha256": "6faa0e23392a43991f36d4df12193c1ae22e6902f548c8a5783778df1b2e65c0",
-      "gitBlobSHA": "388a1173cca90b0b4bde0b9eaba218ecec6b9f60"
+      "bytes": 21615,
+      "sha256": "9a4344299eee6a7f000638ab96639d1812839dd6a2f4d0fd25cabed1dd4d0485",
+      "gitBlobSHA": "2aa628715e628ef0daac3cc2a526e2a61764aea8"
     },
     {
       "path": "3D/generation-records.json",
@@ -6151,15 +6151,15 @@
     },
     {
       "path": "PLAN.md",
-      "bytes": 134476,
-      "sha256": "a688ab39d6e363381be4d29e31ca3cc1dfac341b6bbcdfb3af225e6a13463162",
-      "gitBlobSHA": "c35b1fadabcf249b1172376ad39c986935642f9c"
+      "bytes": 134411,
+      "sha256": "7dfd6fae0e4aafdd52258da229ef0cc44ec38e279bb6f851d6cb31093a8d6c11",
+      "gitBlobSHA": "bf4f103aa6d5084a1fddef9c78ed15d56084a833"
     },
     {
       "path": "README.md",
-      "bytes": 3567,
-      "sha256": "6d3aecaf191380e0f4f04ddac6cd57f331533a1849dc1c2b97ee538908bde230",
-      "gitBlobSHA": "6acd5f6091e54230c3abd9821104c0abaab0325d"
+      "bytes": 3502,
+      "sha256": "699574912d41d2540f0ff70a84cde1a7da1fad7b0116e9f1c65a4e60bac7f364",
+      "gitBlobSHA": "3bcb0e49e0141b162a9ef03180a34d6e00bb1f32"
     },
     {
       "path": "_餘燼裡的第六人_劇情架構與機關設計指引.md",
@@ -6962,8 +6962,194 @@
     {
       "path": "assets/final-v14/markdown-registry.json",
       "bytes": 8269,
-      "sha256": "f3dbfa9bd2d1a9774915edc11481da3771b92ce5493ae4e75023f6283c56de2f",
-      "gitBlobSHA": "5bfa01c98215a82a62902bb09fd6c2336ad42af7"
+      "sha256": "db7d99f081db631edf5fc9f5fac0e298e94ec0fd9f028cdc03b104f8132c181e",
+      "gitBlobSHA": "40f741e2136971a1e2275d3afc87e9fc928f5f86"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/boundaries-chromium-initial.json",
+      "bytes": 988,
+      "sha256": "4f96c4d7cf39027f7038a7b9c8c74041cafd7a1cef850ff00d17b923cac50b95",
+      "gitBlobSHA": "b8a4368469ae5054f8b94674deb5ff47ef7a3763"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/boundaries-chromium.json",
+      "bytes": 726,
+      "sha256": "c6e9dbfcd74fc6892e59f03de2d51abf54084ee5020e811d6a6bdd964e288bca",
+      "gitBlobSHA": "9b9cd0c8a4c476cbba93376aef249cf5d5f6b4a6"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/boundaries-webkit.json",
+      "bytes": 715,
+      "sha256": "9aeb50f3729571790e7d394a63d1316829d440259bdca458106b74108d79e960",
+      "gitBlobSHA": "8ec5fdfa632b0ded3fa0782b7dda96b25a3fd3d3"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/captions.json",
+      "bytes": 120643,
+      "sha256": "7deaa91fd4d741fa869658918f99261e6f4e009a6f0bb3ff227de89d69a4486d",
+      "gitBlobSHA": "850be3ba2dac201c2d0e6e4ae811e31ae0411f9d"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/controls-chromium.json",
+      "bytes": 1829,
+      "sha256": "f30ada6b9a508e7db6caf38aff2d1906e8788c4f9c7a3633ad7bcd6e26a04ba9",
+      "gitBlobSHA": "4f7cc40b898eeaf380fb74a40037bf1327676f32"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/controls-webkit.json",
+      "bytes": 1818,
+      "sha256": "3a4a349369d4a51f5d011a7efd572524d28af743d3d40200dbb8e8f44ba819c2",
+      "gitBlobSHA": "4d4cf33453fba6836753b1ef0a30df63d22b5361"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/desktop.json",
+      "bytes": 697,
+      "sha256": "aac3214654059bb91694619554b3c16de01e0d78179d6dacf45b06da3958228b",
+      "gitBlobSHA": "6611b539f47d467b5561b737211e04ce900009f6"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/guide.json",
+      "bytes": 5158,
+      "sha256": "bdf9d0bb4cf73526dcbe254ca4ffb5ae28393e6ee6401dd6120f6788aaa5c846",
+      "gitBlobSHA": "517d96dafa6708d9be278e09de2c5e7f83fb12b3"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/http.json",
+      "bytes": 6689,
+      "sha256": "9831abbf50e112cc1911d5a9635c6771bdd3f713a94bd70afb9a6a2db7b198bb",
+      "gitBlobSHA": "92c82f2a9df62b3c4c1fa87baa6d336de606eb5f"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/keyboard.json",
+      "bytes": 1198,
+      "sha256": "ee7eac01b9a2bf3a8549f951ac1bccdb045330e46b54c5fec9f4f6291998182f",
+      "gitBlobSHA": "e3d4ad06ba32b9ed364a98c85015e7e1713db75c"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/layout.json",
+      "bytes": 14517,
+      "sha256": "99e3a8a18df0cd8d8eefdf778da71e0fe5fdfe001ee5656d5eed1c0c5fbec7b0",
+      "gitBlobSHA": "8655d9b2f38afd94ae43e7731e6cd92c7ec7a3ad"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/luggage.json",
+      "bytes": 2015,
+      "sha256": "d40e8666ecad7a83e82c79a08cb9407d2b1a8201cf6b39059d736fb09055fc53",
+      "gitBlobSHA": "5096a553fdf088b0ec6b9878b1d785c21335538d"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/mobile-webkit.json",
+      "bytes": 714,
+      "sha256": "ea6c424d02dd7e556fa6f0d72d06aeb4f072367cb3a603409be1cabd32fa25e6",
+      "gitBlobSHA": "d2bab7d9e687c145f8b1a6bf9ac0fef7ba7b12ac"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/mobile.json",
+      "bytes": 696,
+      "sha256": "cf7ac3cc772bf93f692541b54f7d1f2f71ff96d1d09b86777a8b4ea4b3ed389b",
+      "gitBlobSHA": "d44fd22ff16ebcbc8b9d3aef9e35ea55d65ba2d5"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/native.json",
+      "bytes": 1320,
+      "sha256": "67648498e218c8ea0b183698e0ca8abd470f4ee608dd508f4fad77110d453285",
+      "gitBlobSHA": "473917efb54e7f1b756ad762cdabf9c804985a0a"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/natural-chromium.json",
+      "bytes": 106774,
+      "sha256": "1f0c17253a564b1bceab277791411f10db81d15f933eb404501f8950db0cf050",
+      "gitBlobSHA": "4f578e18401ad3986c3324c6f453081f93568003"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/natural-webkit.json",
+      "bytes": 110238,
+      "sha256": "0116ef22cbd7e83e2ec1c46603f4404ca12abb82922ae2b1e56d71bc70e3a48e",
+      "gitBlobSHA": "475615ab9d28862af1317523264a54c76539c740"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/notebook.json",
+      "bytes": 8827,
+      "sha256": "619a453dbc76b05d486fee3ea2f211ca92804928c6759de962b5d0dbf2de8a09",
+      "gitBlobSHA": "4f7b2a06bb1ec86dcf96946f53472ae1957a9b3d"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/player.json",
+      "bytes": 8821,
+      "sha256": "677f3478ae2d67d9dae76b72b2a45d6accb4882d0caf8807fdafe40f44b957fc",
+      "gitBlobSHA": "350aa70215846f35a4bd3490d9b3bd0b130d4fad"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/postgame.json",
+      "bytes": 1084,
+      "sha256": "850aa8238f4ed6893f9a064f4ea873a030bb46263b9df051c24bedac1afee8cc",
+      "gitBlobSHA": "f9977823f743d5d4482df94a9b24fa4adfcd6e69"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/public-files.json",
+      "bytes": 406845,
+      "sha256": "cab6b0776d86e9ad4ea0dce6769be7a753113e785111f32e8734fbb8c15122cc",
+      "gitBlobSHA": "9036014e2d582f7caf952968f470265cc01f4346"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/q.json",
+      "bytes": 3553,
+      "sha256": "772062ee2caa13b8753526a71cb27d51948ebb61d28f1df341e17cf1b439a8d8",
+      "gitBlobSHA": "955e363c724d2f798a98e0004a92c647b8e1d74c"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/release.json",
+      "bytes": 1718,
+      "sha256": "f60bcb1847dfe64c9eda9da46ef37d4d383e1d22f5328f408f16d5c425f6f6d5",
+      "gitBlobSHA": "25893a0adfc5f73e2e282c984d4c6e83cbae6165"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/settings.json",
+      "bytes": 1258,
+      "sha256": "0589e2244a9caaeb727e0c933b96909f845c533fafa980bc6801ea1e26250e32",
+      "gitBlobSHA": "4e27272e4b3d5224584ffc1ed68f61fe2605f826"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/space-initial.json",
+      "bytes": 6015,
+      "sha256": "158c205636d6b2d93094511c792b515e3ad6483dadc184ad0ad591dd5e4318ee",
+      "gitBlobSHA": "485e177421716f10d78552bb39408869d394af4a"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/space-retry.json",
+      "bytes": 5658,
+      "sha256": "b8be319f7cb1f57e7a4d25f1962a3d87033b96d6f4444445ad3272e03c04099e",
+      "gitBlobSHA": "54bf50b27724def2115ef7810af440a813d549aa"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/story.json",
+      "bytes": 508,
+      "sha256": "bf6f7e670b43eec364442c39c3e9332c3fa8eae470bbee1bb251adb1357d746f",
+      "gitBlobSHA": "251aec0f7b5cae286ab8b3696ac86329cbf2bf6b"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/summary.json",
+      "bytes": 5005,
+      "sha256": "49a35796afc7f4a726816825b91c6814bc4b296d8b9bc62732f877431a437a60",
+      "gitBlobSHA": "efd3f7426f7353dcd305bd3e7a5e963d8a024491"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/touch-chromium.json",
+      "bytes": 1484,
+      "sha256": "c7cc6239f721a1ca358b50199dbea25666e77c85340735dd7ec730212f1d1657",
+      "gitBlobSHA": "7cf3abc10f0c19c3f9719823ca8d1454fb33b5b9"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/touch-webkit.json",
+      "bytes": 945,
+      "sha256": "1227f62766fed281c8f04bb29c15ac962f5581773a6e4e545a834c42e2ccecae",
+      "gitBlobSHA": "2e96be9caf792ab3f058426cd9ba5265539dc62e"
+    },
+    {
+      "path": "assets/final-v14/verification/acceptance/unit.log",
+      "bytes": 4680,
+      "sha256": "e39603a18d63c1c7639dfe9cfd51e7ebe3a4cc54d564f51f451d13554d6ca57a",
+      "gitBlobSHA": "7bd5803ed260d2003a5dccd198d0551685cec306"
     },
     {
       "path": "assets/final-v14/verification/boundaries-cdp/D-after-reload.webp",
@@ -11383,9 +11569,9 @@
     },
     {
       "path": "scripts/verify_public_final.py",
-      "bytes": 4076,
-      "sha256": "ae32ff3ab516afce702564229e3ed28cbf10ca397525e0a81070e298d76df9f4",
-      "gitBlobSHA": "12a635f217681bb1bf9c116552f339d7418308ae"
+      "bytes": 4105,
+      "sha256": "c591529dd931b02ff0c24f12bc00c8a52dd00f0b02b2a03e37cf8ca0d3430f33",
+      "gitBlobSHA": "b62433c49e827cf665b77720b6170aede43a016e"
     },
     {
       "path": "scripts/verify_public_v4.py",
@@ -11431,15 +11617,15 @@
     },
     {
       "path": "test.md",
-      "bytes": 126074,
-      "sha256": "9fb360ca00a142ac06b47e4d76c5d315b8ab2289f2551a49406c3e19b145e864",
-      "gitBlobSHA": "d7a406332fffe392da5165360e09d89ae9d78fd1"
+      "bytes": 129749,
+      "sha256": "b5951575a9e1d1791fdc257706f2fdb66064aa07a382f5c0a9d2233792b1dc33",
+      "gitBlobSHA": "3ad5a2ff9816901dd02952c5838f31f0c1e99533"
     },
     {
       "path": "verify.md",
-      "bytes": 128441,
-      "sha256": "62e05cbdf3c34a4b7d99bdb18e10fd39f113dc85a5573fb4864eed9653179849",
-      "gitBlobSHA": "3eb7060666b9a3a6fdeaabd151cd7a8718bfbe9b"
+      "bytes": 128376,
+      "sha256": "beceeef350e9f1226d22985c1a047b21f03005b1b7b96940983c5d885d1efd82",
+      "gitBlobSHA": "bc85b16ced5eed1355b355fd6149ed2800808f32"
     },
     {
       "path": "web/.gitignore",
@@ -11449,9 +11635,9 @@
     },
     {
       "path": "web/README.md",
-      "bytes": 4684,
-      "sha256": "5e2f3f80b160aefeade327b3cba60489ba7592279589829ba066f026d0bfd968",
-      "gitBlobSHA": "ca8e4364b35470efa8df3de32362886f58b7b181"
+      "bytes": 5009,
+      "sha256": "5b759e7e7cab79bb58ee2f495fc3d20c78837f09432713fa1e9f87979348387d",
+      "gitBlobSHA": "669c4986c27de63faf890b0ce6cf8ca8e3412dd2"
     },
     {
       "path": "web/index.html",
@@ -11461,9 +11647,9 @@
     },
     {
       "path": "web/package.json",
-      "bytes": 1700,
-      "sha256": "036fe57602e5aa2cf9b7d8a8ba339e6f32f9d59d57b6230bf8cb4fc0ad332012",
-      "gitBlobSHA": "fbc7ea93b7be913692be1e466bc353515b71862e"
+      "bytes": 1764,
+      "sha256": "3a9e93a2e916acebf7a5c052c7e77d24b47e59cc5f2a6ed2b19d82a81df815c1",
+      "gitBlobSHA": "e5733f345428006bdc8abd0d3cf7532b897b65c8"
     },
     {
       "path": "web/pnpm-lock.yaml",
@@ -11497,9 +11683,9 @@
     },
     {
       "path": "web/scripts/mobile-test-tools.mjs",
-      "bytes": 2889,
-      "sha256": "eeba1bf784ff3c07721f562b8b8b81d7b8348481a3593f95c8326de7d405cd8b",
-      "gitBlobSHA": "f76213fb221f35a697ab848cef5f266700e806b7"
+      "bytes": 3184,
+      "sha256": "03e52ef59fd3fa74fe6a344c6e9592f82b6bbaefb929fd8fe9299f7c95b68879",
+      "gitBlobSHA": "07b8f5eeddda5ba99d34acaa9fe2149a3520bc3e"
     },
     {
       "path": "web/scripts/prepare-assets.mjs",
@@ -11557,9 +11743,9 @@
     },
     {
       "path": "web/scripts/test-media-http.mjs",
-      "bytes": 2660,
-      "sha256": "1b1b08710e0b099de1c94d29a9bbb2121d26b47ec8aab2e15bca24f528c62e69",
-      "gitBlobSHA": "0bab629fd10af572417dbe5dc8e569c2e2128987"
+      "bytes": 2710,
+      "sha256": "2b836f0ec898d921b8afee3eca27c1b74547379ada93d83ddf34bb61180e9eb7",
+      "gitBlobSHA": "46766635ccda1d934db5c6bd9a143474ddd0b1df"
     },
     {
       "path": "web/scripts/test-media-layout.mjs",
@@ -11616,10 +11802,16 @@
       "gitBlobSHA": "27226a4948e6837dda1a6e21f2fd52d0436ac495"
     },
     {
+      "path": "web/scripts/test-settings-guidance.mjs",
+      "bytes": 3848,
+      "sha256": "a7f1b947b9534a78eda2adc0fadee39edece7cb83c6e00d58cdf0da7c574b0fc",
+      "gitBlobSHA": "e61ec62b262d04210e7f0aa517b53765bbe07f97"
+    },
+    {
       "path": "web/scripts/test-space-ui.mjs",
-      "bytes": 5918,
-      "sha256": "38e702fa92977b5f0ce9a1783a28615faea9832628c22b873a31d3fa7004445b",
-      "gitBlobSHA": "b3aa29684b00203d80fd99246663871fcb2dbec0"
+      "bytes": 6063,
+      "sha256": "d0b236951c251c346e6db0dac9429266974b43584429483cde6d866c28d618ba",
+      "gitBlobSHA": "5c8bc93391e9f7d70fd17dc57c0c090309b3f834"
     },
     {
       "path": "web/scripts/test-touch-controls.mjs",
@@ -11635,15 +11827,15 @@
     },
     {
       "path": "web/scripts/test-v4-boundaries.mjs",
-      "bytes": 7258,
-      "sha256": "1e5490eadd278932c859d36df18481576e65c0971190eb1d1392034b6e15e5b4",
-      "gitBlobSHA": "94263a3f2ce548a3b5a671d97a0934411bc19679"
+      "bytes": 7647,
+      "sha256": "2b05cf8e2df269b989b862e66152b00a728ab6188c727a9eafdbaeb29ad2bb4d",
+      "gitBlobSHA": "d67d4588154f574c4cafa8fea5a2e9c1b4cce947"
     },
     {
       "path": "web/scripts/test-v4.mjs",
-      "bytes": 11754,
-      "sha256": "bf6910073da65939ec4025bb310864f8ce419b5f51856a1e43842f45b610a7db",
-      "gitBlobSHA": "dd793695e2e1e626c3c4320c23671fcfdabec324"
+      "bytes": 11888,
+      "sha256": "562e4e3c04f84c36b7aae2f66611517cfa3a766dfb05161b14f39d9edd4d2eb2",
+      "gitBlobSHA": "80350f0358171042424df5990c9911503a499798"
     },
     {
       "path": "web/src/App.jsx",
