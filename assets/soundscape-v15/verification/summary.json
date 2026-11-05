@@ -34,5 +34,14 @@
     "entry": "public-entry.json",
     "allCurrentFilmsAndSubtitles": "public-http.json",
     "weather": "public-weather.json"
+  },
+  "ambientRevision16": {
+    "sourceCodeCommit": "963fe4ebdcfebe41fd799f59b7ffb27e8ae2a40f",
+    "pagesCommit": "c5db7ae9835cf03d273cf77c738482f6836a8f56",
+    "verification": "weather-v16.json",
+    "measurement": "weather-v16-measurement.json",
+    "thunderEventsPer48Seconds": 7,
+    "publicPlayback": "weather-v16-public.json",
+    "workflow": "https://github.com/jerrycheng0623/escape-room/actions/runs/41978671702"
   }
 }

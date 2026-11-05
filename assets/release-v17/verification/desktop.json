@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-05T06:54:24.125Z",
+  "url": "http://127.0.0.1:5194/",
+  "engine": "chromium",
+  "browser": "151.0.7922.34",
+  "device": "desktop",
+  "method": "Visible UI from new game; WASD and keyboard look; no injected save/solve. Films skipped explicitly, natural media separate.",
+  "checks": [
+    "A actual hook/bell/luggage/panel/reward",
+    "B wrong strip returns, all original frames transported",
+    "C exact40 auto-lift, image rope guide and collect; optional records do not gate chapter",
+    "D Q false ending, R true drawer, geometry and exit cross reconstruction",
+    "bonus optional, single ending, epilogue, firstResult"
+  ],
+  "errors": [],
+  "pass": true
+}

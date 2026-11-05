@@ -14,7 +14,7 @@ for(const [engine,btype,profile]of [['chromium',chromium,{viewport:{width:1440,h
  await p.addInitScript(r=>localStorage.setItem('embers.investigation.v1',JSON.stringify(r)),completed);await p.goto(url);row.title=await p.title();if(!row.title.includes('餘燼'))throw Error('Wrong page');await action(p.getByRole('button',{name:'調查檔案',exact:true}));
  for(let i=0;i<timeline.segments.length;i++){
   const film=timeline.segments[i];await action(p.locator('.film-tile').nth(i));await p.waitForFunction(()=>document.querySelector('video')?.readyState>=2);await action(p.getByRole('button',{name:'暫停動畫',exact:true}));
-  const source=await p.locator('video').evaluate(v=>v.currentSrc);if(!source.includes('-v'+(process.env.EMBERS_CINEMATIC_AUDIO_VERSION||'11')+'.')||!source.endsWith(fallback?'.webm':'.mp4'))throw Error('Wrong active release: '+source);
+  const source=await p.locator('video').evaluate(v=>v.currentSrc);if(!source.includes('-v'+(process.env.EMBERS_CINEMATIC_AUDIO_VERSION||'12')+'.')||!source.endsWith(fallback?'.webm':'.mp4'))throw Error('Wrong active release: '+source);
   for(const shot of film.shots){
    const time=Math.round((shot.start+shot.end)*5)/10;await p.getByLabel('影片進度',{exact:true}).fill(String(time));await p.waitForFunction(t=>Math.abs(document.querySelector('video').currentTime-t)<.15&&!document.querySelector('video').seeking,time);
    for(const [lang,key]of [['zh-Hant','zh'],['en','en']]){

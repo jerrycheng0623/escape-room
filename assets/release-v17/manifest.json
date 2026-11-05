@@ -1,0 +1,175 @@
+{
+  "revision": 17,
+  "mediaAudioVersion": 12,
+  "score": "Beethoven Op.27 No.2, movement I",
+  "normalization": {
+    "integratedLUFS": -28,
+    "truePeakDb": -9
+  },
+  "roomAmbience": {
+    "path": "assets/soundscape-v15/room-rain-thunder-v16.m4a",
+    "duration": 48,
+    "rainRMS": 0.02359896300881263,
+    "thunderOnsets": [
+      2.5,
+      9,
+      15.5,
+      22,
+      29,
+      35.5,
+      42
+    ],
+    "ambientRevision": 16,
+    "bytes": 586786,
+    "sha256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea"
+  },
+  "segments": [
+    {
+      "id": "CIN-00",
+      "durationMs": 86500,
+      "pianoStartSeconds": 0,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-00-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-00-compatible-v10.mp4",
+          "bytes": 2650559,
+          "sha256": "b83edb31480be1245f7d883caf6908636e270bc2d6f00610d23bf0083204def7"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-00-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-00-compatible-v10.webm",
+          "bytes": 5473560,
+          "sha256": "3f8a614b5bc0873cb694ad08781dd5b75f7c160c135363bbb2106cff33a8e7b4"
+        }
+      ]
+    },
+    {
+      "id": "CIN-A",
+      "durationMs": 45000,
+      "pianoStartSeconds": 35,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-A-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-A-compatible-v10.mp4",
+          "bytes": 1661511,
+          "sha256": "d38c82e9187f7dfa1ff4fd67987f237586bfa0a81d98e9173ed782adfb21d4f4"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-A-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-A-compatible-v10.webm",
+          "bytes": 3676147,
+          "sha256": "332f79486f3aa0c4efe88f93817f1c0adcab7ccb7f3d1f4fc0b7691ec770b376"
+        }
+      ]
+    },
+    {
+      "id": "CIN-B",
+      "durationMs": 49500,
+      "pianoStartSeconds": 77,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-B-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-B-compatible-v10.mp4",
+          "bytes": 1550361,
+          "sha256": "b6a9d293aca67387cc71e2351d1dc1a7d94412fd9f1255def9e6a5877913c1ac"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-B-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-B-compatible-v10.webm",
+          "bytes": 2976596,
+          "sha256": "0d7c39b76df0ed11687dc72bf75303e402a8c918ad795ee93e52d00325ce2383"
+        }
+      ]
+    },
+    {
+      "id": "CIN-C",
+      "durationMs": 73500,
+      "pianoStartSeconds": 119,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-C-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-C-compatible-v10.mp4",
+          "bytes": 2319370,
+          "sha256": "0b5beb766045c06c1eb3e3a8989dbf5b6eba8e34d7ba9cb2e2ec51b29944d234"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-C-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-C-compatible-v10.webm",
+          "bytes": 4902727,
+          "sha256": "a5c6947fdfeb5483b5b72f1f786bcedf992ab599d0b01778121982eb72fd9db6"
+        }
+      ]
+    },
+    {
+      "id": "CIN-D",
+      "durationMs": 96000,
+      "pianoStartSeconds": 170,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-D-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-D-compatible-v10.mp4",
+          "bytes": 3855845,
+          "sha256": "43a4019b0454e978b73e7e37134e95427acd1d43bcb5f86d6501c59087d24fbd"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-D-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-D-compatible-v10.webm",
+          "bytes": 7617031,
+          "sha256": "937a416614b20c275f4112e064d9a1f1cf93b7d38c5148a8dc3cdca3476d6ad3"
+        }
+      ]
+    },
+    {
+      "id": "CIN-END",
+      "durationMs": 72000,
+      "pianoStartSeconds": 236,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-END-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-END-compatible-v10.mp4",
+          "bytes": 3109557,
+          "sha256": "eb2ee76d909bd1d2144bd481317a6af5c23816e0043cc103134e66c37eef9ff6"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-END-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-END-compatible-v10.webm",
+          "bytes": 6610895,
+          "sha256": "f1f52dc9c8aa858cafc64d79bced80b08d99aa0a2801869359d57d3c6bf040b2"
+        }
+      ]
+    },
+    {
+      "id": "CIN-EPILOGUE",
+      "durationMs": 62000,
+      "pianoStartSeconds": 300,
+      "sources": [
+        {
+          "path": "assets/release-v17/video/CIN-EPILOGUE-compatible-v12.mp4",
+          "type": "video/mp4; codecs=\"avc1.64001F, mp4a.40.2\"",
+          "original": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.mp4",
+          "bytes": 1828424,
+          "sha256": "92b7696111a1275293dbf863bdedc58d7592614b6b5cb15f35386737d18da769"
+        },
+        {
+          "path": "assets/release-v17/video/CIN-EPILOGUE-compatible-v12.webm",
+          "type": "video/webm; codecs=\"vp9, opus\"",
+          "original": "assets/playback-v6/video/CIN-EPILOGUE-compatible-v10.webm",
+          "bytes": 3391031,
+          "sha256": "040933ffad8b47a1c6d64dd704ea060eca92ba9dbe51c9784bd93e9388be1782"
+        }
+      ]
+    }
+  ]
+}

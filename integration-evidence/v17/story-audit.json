@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-05T07:32:42.348Z",
+  "method": "Static JSON/source assertions only; no browser or new playthrough",
+  "node": "v24.18.0",
+  "results": [
+    {
+      "id": "INT-01",
+      "description": "角色設定與實際載入故事逐項一致",
+      "status": "pass"
+    },
+    {
+      "id": "INT-02",
+      "description": "五名非玩家角色與唯一ID，不增加第七人",
+      "status": "pass"
+    },
+    {
+      "id": "INT-03",
+      "description": "18:30四人入鏡／20:00三人入鏡，攝影師掌鏡、偵探未到",
+      "status": "pass"
+    },
+    {
+      "id": "INT-04",
+      "description": "19:15歷史65kg與預定食材5kg分開",
+      "status": "pass"
+    },
+    {
+      "id": "INT-05",
+      "description": "停錶與缺照不是單獨的死時／身分證明",
+      "status": "pass"
+    },
+    {
+      "id": "INT-06",
+      "description": "03:00抵達、記者委託及四小時耽擱一致",
+      "status": "pass"
+    },
+    {
+      "id": "INT-07",
+      "description": "正式四死者名單在結局後數日",
+      "status": "pass"
+    },
+    {
+      "id": "INT-08",
+      "description": "五年前受困與本次縱火不倒置",
+      "status": "pass"
+    },
+    {
+      "id": "INT-09",
+      "description": "機關v4／schema4／單結局與可選Bonus",
+      "status": "pass"
+    },
+    {
+      "id": "INT-10",
+      "description": "C歷史65不是維修吊籃負載；v17剛好40kg自動升蓋",
+      "status": "pass"
+    },
+    {
+      "id": "INT-11",
+      "description": "D上下匣序列與R/Q紙孔交集",
+      "status": "pass"
+    },
+    {
+      "id": "INT-12",
+      "description": "網頁實際匯入content-v5且次序A至D",
+      "status": "pass"
+    },
+    {
+      "id": "INT-13",
+      "description": "現行玩家文書不混入舊版姓名",
+      "status": "pass"
+    }
+  ],
+  "passed": 13,
+  "failed": 0
+}

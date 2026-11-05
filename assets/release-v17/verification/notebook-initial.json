@@ -1,0 +1,214 @@
+{
+  "url": "http://127.0.0.1:5194/",
+  "date": "2026-11-05T07:02:33.539Z",
+  "method": "Browser plugin not available; Playwright. Valid engineering B fixture with actual worldAction-collected papers; not a full new-game playthrough. Native pointer lock/fullscreen where available; no fake DOM APIs.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "device": "desktop",
+      "width": 1440,
+      "height": 900,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "idle pointer cannot turn camera; explicit keyboard exploration",
+        "picked B films auto listed; old drag surface removed",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "native fullscreen entry/exit leads to pause"
+      ],
+      "errors": [],
+      "console": [
+        "[.WebGL-0x10c004eba00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x10c004eba00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x10c004eba00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+        "[.WebGL-0x10c004eba00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "fullscreenSupported": true,
+      "nativeFullscreen": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "device": "mobile",
+      "width": 667,
+      "height": 375,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "actual CDP touch swipe",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "native fullscreen entry/exit leads to pause",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "fullscreenSupported": true,
+      "nativeFullscreen": true,
+      "pass": false,
+      "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: the server responded with a status of 404 (Not Found)',\n+   'Failed to load resource: the server responded with a status of 404 (Not Found)',\n+   'Failed to load resource: the server responded with a status of 404 (Not Found)'\n+ ]\n- []\n\n    at file:///Users/chengchebing/Desktop/%E5%AF%86%E5%AE%A4%E9%80%83%E8%84%AB%E5%A4%A7/web/scripts/test-notebook-controls.mjs:30:41\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at process.processImmediate (node:internal/timers:541:9)"
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "actual CDP touch swipe",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "native fullscreen entry/exit leads to pause",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "fullscreenSupported": true,
+      "nativeFullscreen": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "device": "tablet",
+      "width": 1024,
+      "height": 768,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "actual CDP touch swipe",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "native fullscreen entry/exit leads to pause",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported.",
+        "THREE.WebGLRenderer: KHR_parallel_shader_compile extension not supported."
+      ],
+      "fullscreenSupported": true,
+      "nativeFullscreen": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "device": "desktop",
+      "width": 1440,
+      "height": 900,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "idle pointer cannot turn camera; explicit keyboard exploration",
+        "picked B films auto listed; old drag surface removed",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "native fullscreen entry/exit leads to pause"
+      ],
+      "errors": [],
+      "console": [],
+      "fullscreenSupported": true,
+      "nativeFullscreen": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "device": "mobile",
+      "width": 667,
+      "height": 375,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "fullscreen unavailable gives Traditional Chinese fallback without blocking play",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [],
+      "fullscreenSupported": false,
+      "nativeFullscreen": false,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "device": "mobile",
+      "width": 844,
+      "height": 390,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "fullscreen unavailable gives Traditional Chinese fallback without blocking play",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [],
+      "fullscreenSupported": false,
+      "nativeFullscreen": false,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "device": "tablet",
+      "width": 1024,
+      "height": 768,
+      "checks": [
+        "correct page, nonblank scene, no framework overlay",
+        "picked B films auto listed; old drag surface removed",
+        "A tab includes returned archived original paper and readable transcript",
+        "zoom and reset preserve complete image",
+        "uncollected C/D material not leaked, chapter notes independent",
+        "image loaded, readable full card, no horizontal dialog overflow",
+        "notes and acquired history survive actual reload",
+        "fullscreen unavailable gives Traditional Chinese fallback without blocking play",
+        "portrait pauses, landscape restores mobile layout"
+      ],
+      "errors": [],
+      "console": [],
+      "fullscreenSupported": false,
+      "nativeFullscreen": false,
+      "pass": true
+    }
+  ]
+}

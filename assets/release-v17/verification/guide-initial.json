@@ -1,0 +1,110 @@
+{
+  "url": "http://127.0.0.1:5194/",
+  "date": "2026-11-05T07:00:26.721Z",
+  "method": "Real browser UI. New game + isolated tutorial; valid A fixture for pause/review. Native pointer lock only claimed if actual pointerLockElement observed. WebKit mobile emulation is not physical iOS.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 1440,
+      "h": 900,
+      "mobile": false,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": false,
+      "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'B 區', exact: true })\u001b[22m\n\n    at act (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:5:397)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:11:269",
+      "body": "← 返回設定\n調查入門 ·06 / 7\n01\n入場叮嚀\n02\n視角與螢幕\n03\n查看與翻面\n04\n機關與密碼鎖\n05\n取物與使用\n06\n證據與個人筆記\n07\n指引、存檔與離場\n證據與個人筆記\n讀到內容，和收進案件，是兩件事\n\n在物品近看頁按「收錄這份證物」，才能把正式記錄加進證據簿。拿起的紙張與已收錄的證據會自動加入分區整理頁。\n\nA區\nB區\nC區\nD區\nA區 · 示範資料\n\n讀完後，還可以把它收進案件。\n\n示範收錄這份證物\n\n示範操作不會替你取得任何正式證據。\n\n整理頁左上按A／B／C／D場所分類；左右滑動、按箭頭或選單切換，每次看一件完整資料。\n可以放大圖面、閱讀可選取的文字；每個場所的個人筆記分開保存。\n機關解開後還不能繼續時，檢查是否真的取出了物品、收錄了現場資料。讀過不會自動幫你收錄。\n上一頁\n示範與正式機關分開，不會洩漏謎底。\n下一頁 →"
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 844,
+      "h": 390,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": false,
+      "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'B 區', exact: true })\u001b[22m\n\n    at act (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:5:389)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:11:269",
+      "body": "← 返回設定\n調查入門 ·06 / 7\n01\n入場叮嚀\n02\n視角與螢幕\n03\n查看與翻面\n04\n機關與密碼鎖\n05\n取物與使用\n06\n證據與個人筆記\n07\n指引、存檔與離場\n證據與個人筆記\n讀到內容，和收進案件，是兩件事\n\n在物品近看頁按「收錄這份證物」，才能把正式記錄加進證據簿。拿起的紙張與已收錄的證據會自動加入分區整理頁。\n\nA區\nB區\nC區\nD區\nA區 · 示範資料\n\n讀完後，還可以把它收進案件。\n\n示範收錄這份證物\n\n示範操作不會替你取得任何正式證據。\n\n整理頁左上按A／B／C／D場所分類；左右滑動、按箭頭或選單切換，每次看一件完整資料。\n可以放大圖面、閱讀可選取的文字；每個場所的個人筆記分開保存。\n機關解開後還不能繼續時，檢查是否真的取出了物品、收錄了現場資料。讀過不會自動幫你收錄。\n上一頁\n下一頁 →"
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "w": 390,
+      "h": 844,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": false,
+      "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'B 區', exact: true })\u001b[22m\n\n    at act (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:5:389)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:11:269",
+      "body": "← 返回設定\n調查入門 ·06 / 7\n01\n入場叮嚀\n02\n視角與螢幕\n03\n查看與翻面\n04\n機關與密碼鎖\n05\n取物與使用\n06\n證據與個人筆記\n07\n指引、存檔與離場\n證據與個人筆記\n讀到內容，和收進案件，是兩件事\n\n在物品近看頁按「收錄這份證物」，才能把正式記錄加進證據簿。拿起的紙張與已收錄的證據會自動加入分區整理頁。\n\nA區\nB區\nC區\nD區\nA區 · 示範資料\n\n讀完後，還可以把它收進案件。\n\n示範收錄這份證物\n\n示範操作不會替你取得任何正式證據。\n\n整理頁左上按A／B／C／D場所分類；左右滑動、按箭頭或選單切換，每次看一件完整資料。\n可以放大圖面、閱讀可選取的文字；每個場所的個人筆記分開保存。\n機關解開後還不能繼續時，檢查是否真的取出了物品、收錄了現場資料。讀過不會自動幫你收錄。\n上一頁\n下一頁 →"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 1440,
+      "h": 900,
+      "mobile": false,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": false,
+      "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'B 區', exact: true })\u001b[22m\n\n    at act (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:5:397)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:11:269",
+      "body": "← 返回設定\n調查入門 ·06 / 7\n01\n入場叮嚀\n02\n視角與螢幕\n03\n查看與翻面\n04\n機關與密碼鎖\n05\n取物與使用\n06\n證據與個人筆記\n07\n指引、存檔與離場\n證據與個人筆記\n讀到內容，和收進案件，是兩件事\n\n在物品近看頁按「收錄這份證物」，才能把正式記錄加進證據簿。拿起的紙張與已收錄的證據會自動加入分區整理頁。\n\nA區\nB區\nC區\nD區\nA區 · 示範資料\n\n讀完後，還可以把它收進案件。\n\n示範收錄這份證物\n\n示範操作不會替你取得任何正式證據。\n\n整理頁左上按A／B／C／D場所分類；左右滑動、按箭頭或選單切換，每次看一件完整資料。\n可以放大圖面、閱讀可選取的文字；每個場所的個人筆記分開保存。\n機關解開後還不能繼續時，檢查是否真的取出了物品、收錄了現場資料。讀過不會自動幫你收錄。\n上一頁\n示範與正式機關分開，不會洩漏謎底。\n下一頁 →"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 844,
+      "h": 390,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": false,
+      "failure": "locator.tap: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'B 區', exact: true })\u001b[22m\n\n    at act (/Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:5:389)\n    at /Users/chengchebing/Desktop/密室逃脫大/web/scripts/test-guide-modes.mjs:11:269",
+      "body": "← 返回設定\n調查入門 ·06 / 7\n01\n入場叮嚀\n02\n視角與螢幕\n03\n查看與翻面\n04\n機關與密碼鎖\n05\n取物與使用\n06\n證據與個人筆記\n07\n指引、存檔與離場\n證據與個人筆記\n讀到內容，和收進案件，是兩件事\n\n在物品近看頁按「收錄這份證物」，才能把正式記錄加進證據簿。拿起的紙張與已收錄的證據會自動加入分區整理頁。\n\nA區\nB區\nC區\nD區\nA區 · 示範資料\n\n讀完後，還可以把它收進案件。\n\n示範收錄這份證物\n\n示範操作不會替你取得任何正式證據。\n\n整理頁左上按A／B／C／D場所分類；左右滑動、按箭頭或選單切換，每次看一件完整資料。\n可以放大圖面、閱讀可選取的文字；每個場所的個人筆記分開保存。\n機關解開後還不能繼續時，檢查是否真的取出了物品、收錄了現場資料。讀過不會自動幫你收錄。\n上一頁\n下一頁 →"
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "w": 390,
+      "h": 844,
+      "mobile": true,
+      "checks": [
+        "new game visits seven-page guide before story; no premature save",
+        "control animation isolated; reduced motion static; no real pointer lock",
+        "paper flip/take and arbitrary-code lock/check/pull practiced without game mutation",
+        "tool order, recording, guidance; final button starts actual intro; mobile portrait safely pauses",
+        "in-game guide pauses and preserves exact saved record",
+        "restart tutorial leaves existing save intact until overwrite approval"
+      ],
+      "errors": [],
+      "console": [],
+      "pass": true
+    }
+  ]
+}

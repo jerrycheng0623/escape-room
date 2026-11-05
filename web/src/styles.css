@@ -73,3 +73,22 @@ html[data-motion="reduced"] .game-guide *,html[data-reduced-motion="true"] .game
 .exploration-shortcuts{position:absolute;left:24px;bottom:67px;display:flex;gap:12px;z-index:12;pointer-events:none}.exploration-shortcuts button{pointer-events:auto;font-size:12px;background:rgba(12,12,10,.72);padding:6px 10px;border:1px solid #5a5141}.film-tile:disabled img{filter:brightness(.15)}.film-tile:disabled{cursor:not-allowed}
 
 .prop-directions{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}.prop-directions button[aria-pressed=true]{color:#ead9b1;border-bottom:1px solid #c3a46a}.prop-turnaround{min-width:0}.prop-turnaround img{object-fit:contain;width:100%;max-height:340px}
+
+/* Concrete rope endpoints use the same four-view models as the scene. */
+.rope-instructions{margin:20px 0;padding:18px;border:1px solid #a28c645c;background:#151a18;color:#e8dcc5}
+.rope-instructions h3{margin-top:0}.rope-instructions p{line-height:1.8}
+.rope-step-tabs,.rope-instructions footer{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.rope-step-tabs button{flex:1;min-height:46px;padding:9px;background:#292e28;border:1px solid #827258;color:#d7ccbc}
+.rope-step-tabs button[aria-current]{background:#725b38;color:#fff1d0;border-color:#e2c898}
+.rope-pair{display:grid;grid-template-columns:minmax(0,1fr) 40px minmax(0,1fr);gap:10px;align-items:center;margin:20px 0}
+.rope-endpoint{min-width:0;margin:0;text-align:center}.rope-endpoint img{display:block;width:100%;max-height:230px;object-fit:contain;background:#252821}
+.rope-endpoint figcaption span{display:block;font-size:.8rem;letter-spacing:.12em;color:#d5b982;margin-bottom:5px}
+.rope-endpoint figcaption strong{display:block;margin-bottom:10px}.rope-endpoint small{display:block;line-height:1.6;margin-top:8px;color:#a99f8a}
+.rope-arrow{font-size:30px;text-align:center;color:#e2c898}.rope-step-state{padding:8px 12px;background:#c9ad6d13}
+@media(max-width:600px){.rope-instructions{padding:12px}.rope-pair{grid-template-columns:minmax(0,1fr) 24px minmax(0,1fr);gap:5px}.rope-endpoint figcaption strong{font-size:.9rem}.rope-arrow{font-size:24px}}
+@media(max-height:500px) and (orientation:landscape){
+ .rope-instructions{padding:10px}.rope-instructions header p{font-size:13px;line-height:1.5;margin:6px 0 10px}
+ .rope-instructions h3{font-size:18px;margin:0 0 6px}.rope-pair{margin:10px 0}
+ .rope-endpoint img{max-height:96px}.rope-endpoint figcaption strong{font-size:14px;margin-bottom:5px}
+ .rope-endpoint small{font-size:11px;margin-top:3px}.rope-step-state{font-size:13px;padding:4px 8px;margin:8px 0}
+}

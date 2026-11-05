@@ -1,28 +1,31 @@
 {
-  "appVersion": "1.0.1",
+  "appVersion": "1.1.0",
   "mechanicRevision": 4,
   "saveSchema": 4,
-  "sourceCodeCommit": "4681af3212cee2cafe80a111cb1bc6a5c0e1cbf4",
-  "sourceBaselineCommit": "d21df9bef7246d4b992450454f9abd7c62876db0",
-  "createdAt": "2026-11-05T12:19:46.533043+08:00",
+  "sourceCodeCommit": "dab432f0b239809a4ba3cc23cfe9c78ff30fdde4",
+  "sourceBaselineCommit": "1f27b2fa831210a578f8c68c0f879a3e8898e2da",
+  "createdAt": "2026-11-05T15:06:59.957012+08:00",
   "cinematicVersion": 10,
-  "interfaceVersion": 14,
+  "interfaceVersion": 17,
   "modelVersion": 14,
   "formalRelease": true,
   "previewMode": false,
   "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
   "assets": {
-    "Game-o88LlS8U.js": "3c322c6e361d7a84280ca113acb36c046be8be183d1c29366ccff97df036f339",
-    "Scene-DNXVVN8i.js": "c305624c6dbcb3d5333d87a96edc0268636ee6cd8e1a385b8f564fa3c0791ba4",
-    "index-I2lTA7ig.js": "a7638bb25d1c594569291086ab1b5e74f1c0a10d42750fe95405eaf95d925d33",
-    "index-kVg-Oys7.css": "78cec7ff910a7dad1ff0a1038b6a02d897cf927a086b58f645afdd45e59c30fe",
-    "solutions-Do6b9eNm.js": "0673ae7decee4fefb3eae3419f9e2ac9acc6d05eaf00730292a18e6226255820"
+    "Game-B-9n4P7A.js": "d376c2adbd2a308603cc2ea6e61b5e18be48f204df86f03511eb6bf62eb02087",
+    "Scene-B_ZOcEy-.js": "ed182d4c3ee3d538d1d50de8103a493451ef753eaa674ffee7e54c224f5b9724",
+    "index-BZM7qTBt.js": "54c089ebf816442cf379b50aada4a235da3fb249eb0d99b87a810ab30b2237e1",
+    "index-CbCWv3Tp.css": "5b31ab45b00b07ed41bd6f1a06901c20e94a906a7fcce4e25d0c102126fdba94",
+    "solutions-Dr1zN81v.js": "2512374466de2e2a700b1d853091fa4f3124ba687fcfcb4849c7e89dd625c23e"
   },
   "hotfix": "basket-visibility",
-  "soundscapeVersion": 15,
-  "cinematicAudioVersion": 11,
+  "soundscapeVersion": 17,
+  "cinematicAudioVersion": 12,
   "soundscape": {
-    "manifestSHA256": "dc94b7a2c2154d7642042ddfe5cc3b8f13c639eb68bb682f10deb8484c836c6e",
-    "ambientSHA256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
-  }
+    "manifestSHA256": "37557adba8179bb311ae43ca4441e4b48f242a15677fb471b90242d6532c24b1",
+    "ambientSHA256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea"
+  },
+  "ambientRevision": 16,
+  "mechanicPatch": "C-exact40-auto",
+  "cinematicMusic": "Beethoven Moonlight Sonata, movement I"
 }

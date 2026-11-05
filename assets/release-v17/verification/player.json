@@ -1,0 +1,338 @@
+{
+  "version": 14,
+  "date": "2026-11-05T06:58:21.564Z",
+  "url": "http://127.0.0.1:5194/",
+  "method": "Valid room fixtures for per-room rendering/controls; separate fresh profile verifies locks. Not a full natural-playthrough claim.",
+  "runs": [
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": false,
+      "rooms": [
+        {
+          "room": "A",
+          "targetCount": 26,
+          "samples": [
+            {
+              "room": "A",
+              "fps": 27.8,
+              "drawCalls": 80,
+              "triangles": 13592,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "B",
+          "targetCount": 16,
+          "samples": [
+            {
+              "room": "B",
+              "fps": 26.2,
+              "drawCalls": 58,
+              "triangles": 5384,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "C",
+          "targetCount": 27,
+          "samples": [
+            {
+              "room": "C",
+              "fps": 31.5,
+              "drawCalls": 67,
+              "triangles": 3152,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "D",
+          "targetCount": 17,
+          "samples": [
+            {
+              "room": "D",
+              "fps": 37.7,
+              "drawCalls": 55,
+              "triangles": 4678,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "freshLocks": true,
+      "pass": true
+    },
+    {
+      "engine": "chromium",
+      "browser": "151.0.7922.34",
+      "mobile": true,
+      "rooms": [
+        {
+          "room": "A",
+          "targetCount": 26,
+          "samples": [
+            {
+              "room": "A",
+              "fps": 6,
+              "drawCalls": 82,
+              "triangles": 13606,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            },
+            {
+              "room": "A",
+              "fps": 63.9,
+              "drawCalls": 82,
+              "triangles": 13606,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "B",
+          "targetCount": 16,
+          "samples": [
+            {
+              "room": "B",
+              "fps": 7.9,
+              "drawCalls": 59,
+              "triangles": 5396,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            },
+            {
+              "room": "B",
+              "fps": 56,
+              "drawCalls": 59,
+              "triangles": 5396,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "C",
+          "targetCount": 27,
+          "samples": [
+            {
+              "room": "C",
+              "fps": 22.8,
+              "drawCalls": 76,
+              "triangles": 3594,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            },
+            {
+              "room": "C",
+              "fps": 75.4,
+              "drawCalls": 76,
+              "triangles": 3594,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "D",
+          "targetCount": 17,
+          "samples": [
+            {
+              "room": "D",
+              "fps": 19,
+              "drawCalls": 56,
+              "triangles": 4714,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            },
+            {
+              "room": "D",
+              "fps": 102,
+              "drawCalls": 56,
+              "triangles": 4714,
+              "pixelRatio": 0.65,
+              "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+              "software": true
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "freshLocks": true,
+      "pass": true
+    },
+    {
+      "engine": "webkit",
+      "browser": "26.5",
+      "mobile": true,
+      "rooms": [
+        {
+          "room": "A",
+          "targetCount": 26,
+          "samples": [
+            {
+              "room": "A",
+              "fps": 61,
+              "drawCalls": 82,
+              "triangles": 13606,
+              "pixelRatio": 0.85,
+              "renderer": "Apple GPU",
+              "software": false
+            }
+          ],
+          "chapterLocks": [
+            true,
+            false,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "B",
+          "targetCount": 16,
+          "samples": [
+            {
+              "room": "B",
+              "fps": 60.8,
+              "drawCalls": 59,
+              "triangles": 5396,
+              "pixelRatio": 0.85,
+              "renderer": "Apple GPU",
+              "software": false
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            false,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "C",
+          "targetCount": 27,
+          "samples": [
+            {
+              "room": "C",
+              "fps": 61.3,
+              "drawCalls": 76,
+              "triangles": 3594,
+              "pixelRatio": 0.85,
+              "renderer": "Apple GPU",
+              "software": false
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            false
+          ],
+          "pass": true
+        },
+        {
+          "room": "D",
+          "targetCount": 17,
+          "samples": [
+            {
+              "room": "D",
+              "fps": 60.6,
+              "drawCalls": 56,
+              "triangles": 4714,
+              "pixelRatio": 0.85,
+              "renderer": "Apple GPU",
+              "software": false
+            }
+          ],
+          "chapterLocks": [
+            true,
+            true,
+            true,
+            true
+          ],
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "freshLocks": true,
+      "pass": true
+    }
+  ]
+}

@@ -26,9 +26,9 @@ def weather():
         mask=(freq/np.maximum(freq,lo))**2 / (1+(freq/hi)**2)
         data=np.fft.irfft(spec*mask,n=length)
         return data/rms(data)
-    rain=noise(350,2350)*(.013+.0018*np.cos(2*np.pi*time/16)+.0016*np.sin(2*np.pi*time/12))
+    rain=noise(350,2350)*(.0234+.00324*np.cos(2*np.pi*time/16)+.00288*np.sin(2*np.pi*time/12))
     rumble=np.zeros(length)
-    for start,amp,tail in [(7.5,.044,2.2),(27,.058,3.1),(39,.039,1.9)]:
+    for start,amp,tail in [(2.5,.075,1.8),(9,.095,2),(15.5,.071,1.7),(22,.099,2.1),(29,.079,1.8),(35.5,.09,1.9),(42,.073,1.6)]:
         age=np.maximum(time-start,0)
         envelope=(1-np.exp(-age/.29))*np.exp(-age/tail)*np.minimum(1,np.maximum(0,(10-age)/2))
         rumble+=amp*envelope
@@ -41,9 +41,9 @@ def weather():
     samples=np.tile(wind,(length//len(wind),1))
     samples+=np.column_stack((rain+thunder+.0025*noise(510,2900),rain+thunder+.0025*noise(510,2900)))
     pcm=np.round(np.clip(samples,-1,1)*32767).astype('<i2')
-    destination=output/'room-rain-thunder-v15.m4a'
+    destination=output/'room-rain-thunder-v16.m4a'
     subprocess.run([ff,'-nostdin','-hide_banner','-loglevel','error','-y','-f','s16le','-ar',str(rate),'-ac','2','-i','pipe:0','-c:a','aac','-b:a','96k','-movflags','+faststart',str(destination)],input=pcm.tobytes(),check=True)
-    return {'path':str(destination.relative_to(root)),'duration':48,'rainRMS':float(rms(rain)),'thunderOnsets':[7.5,27,39],**file_info(destination)}
+    return {'path':str(destination.relative_to(root)),'duration':48,'rainRMS':float(rms(rain)),'thunderOnsets':[2.5,9,15.5,22,29,35.5,42],'ambientRevision':16,**file_info(destination)}
 
 def main():
     cli=argparse.ArgumentParser(description=__doc__)
@@ -54,7 +54,11 @@ def main():
     (output/'video').mkdir(parents=True,exist_ok=True)
     prior=json.loads((output/'manifest.json').read_text()) if args.segment else None
     rain=prior['roomAmbience'] if prior else weather()
-    if args.weather_only:return
+    if args.weather_only:
+        data=json.loads((output/'manifest.json').read_text())
+        data['roomAmbience']=rain
+        (output/'manifest.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+        return
     piano=args.piano_caf.parent/'piano-tempo.wav'
     run('-i',args.piano_caf,'-af','atempo=0.72','-c:a','pcm_f32le',piano)
     original=json.loads((root/'assets/playback-v6/manifest.json').read_text())

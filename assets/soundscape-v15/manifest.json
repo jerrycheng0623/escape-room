@@ -3,16 +3,21 @@
   "mediaAudioVersion": 11,
   "scoreTempo": 0.72,
   "roomAmbience": {
-    "path": "assets/soundscape-v15/room-rain-thunder-v15.m4a",
+    "path": "assets/soundscape-v15/room-rain-thunder-v16.m4a",
     "duration": 48,
-    "rainRMS": 0.013110535004895903,
+    "rainRMS": 0.02359896300881263,
     "thunderOnsets": [
-      7.5,
-      27,
-      39
+      2.5,
+      9,
+      15.5,
+      22,
+      29,
+      35.5,
+      42
     ],
-    "bytes": 587150,
-    "sha256": "21bd4060a448c3fc350d62697a5ccf72081a429352975ef0dc5390985fcea5e7"
+    "ambientRevision": 16,
+    "bytes": 586786,
+    "sha256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea"
   },
   "segments": [
     {

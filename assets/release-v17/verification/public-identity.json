@@ -1,0 +1,132 @@
+{
+  "pass": true,
+  "release": {
+    "appVersion": "1.1.0",
+    "mechanicRevision": 4,
+    "saveSchema": 4,
+    "sourceCodeCommit": "dab432f0b239809a4ba3cc23cfe9c78ff30fdde4",
+    "sourceBaselineCommit": "1f27b2fa831210a578f8c68c0f879a3e8898e2da",
+    "createdAt": "2026-11-05T15:06:59.957012+08:00",
+    "cinematicVersion": 10,
+    "interfaceVersion": 17,
+    "modelVersion": 14,
+    "formalRelease": true,
+    "previewMode": false,
+    "canonicalURL": "https://jerrycheng0623.github.io/escape-room/final/",
+    "assets": {
+      "Game-B-9n4P7A.js": "d376c2adbd2a308603cc2ea6e61b5e18be48f204df86f03511eb6bf62eb02087",
+      "Scene-B_ZOcEy-.js": "ed182d4c3ee3d538d1d50de8103a493451ef753eaa674ffee7e54c224f5b9724",
+      "index-BZM7qTBt.js": "54c089ebf816442cf379b50aada4a235da3fb249eb0d99b87a810ab30b2237e1",
+      "index-CbCWv3Tp.css": "5b31ab45b00b07ed41bd6f1a06901c20e94a906a7fcce4e25d0c102126fdba94",
+      "solutions-Dr1zN81v.js": "2512374466de2e2a700b1d853091fa4f3124ba687fcfcb4849c7e89dd625c23e"
+    },
+    "hotfix": "basket-visibility",
+    "soundscapeVersion": 17,
+    "cinematicAudioVersion": 12,
+    "soundscape": {
+      "manifestSHA256": "37557adba8179bb311ae43ca4441e4b48f242a15677fb471b90242d6532c24b1",
+      "ambientSHA256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea"
+    },
+    "ambientRevision": 16,
+    "mechanicPatch": "C-exact40-auto",
+    "cinematicMusic": "Beethoven Moonlight Sonata, movement I"
+  },
+  "files": [
+    {
+      "entry": "root",
+      "file": "index.html",
+      "sha256": "1c3adafec3a88b061d1c2ed3b338132b30c65fb3c586127050c191cb4fb41e9f",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "media.json",
+      "sha256": "3647b592b50851bcf8738cfec4458a0a47474c40435693ee9aa7d58e11858264",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "media/room-rain-thunder-v16.m4a",
+      "sha256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "assets/Game-B-9n4P7A.js",
+      "sha256": "d376c2adbd2a308603cc2ea6e61b5e18be48f204df86f03511eb6bf62eb02087",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "assets/Scene-B_ZOcEy-.js",
+      "sha256": "ed182d4c3ee3d538d1d50de8103a493451ef753eaa674ffee7e54c224f5b9724",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "assets/index-BZM7qTBt.js",
+      "sha256": "54c089ebf816442cf379b50aada4a235da3fb249eb0d99b87a810ab30b2237e1",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "assets/index-CbCWv3Tp.css",
+      "sha256": "5b31ab45b00b07ed41bd6f1a06901c20e94a906a7fcce4e25d0c102126fdba94",
+      "pass": true
+    },
+    {
+      "entry": "root",
+      "file": "assets/solutions-Dr1zN81v.js",
+      "sha256": "2512374466de2e2a700b1d853091fa4f3124ba687fcfcb4849c7e89dd625c23e",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "index.html",
+      "sha256": "1c3adafec3a88b061d1c2ed3b338132b30c65fb3c586127050c191cb4fb41e9f",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "media.json",
+      "sha256": "3647b592b50851bcf8738cfec4458a0a47474c40435693ee9aa7d58e11858264",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "media/room-rain-thunder-v16.m4a",
+      "sha256": "096b6c5c7442d7720586540d82d7561f3e4923381d7848d9bf860e56368da3ea",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "assets/Game-B-9n4P7A.js",
+      "sha256": "d376c2adbd2a308603cc2ea6e61b5e18be48f204df86f03511eb6bf62eb02087",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "assets/Scene-B_ZOcEy-.js",
+      "sha256": "ed182d4c3ee3d538d1d50de8103a493451ef753eaa674ffee7e54c224f5b9724",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "assets/index-BZM7qTBt.js",
+      "sha256": "54c089ebf816442cf379b50aada4a235da3fb249eb0d99b87a810ab30b2237e1",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "assets/index-CbCWv3Tp.css",
+      "sha256": "5b31ab45b00b07ed41bd6f1a06901c20e94a906a7fcce4e25d0c102126fdba94",
+      "pass": true
+    },
+    {
+      "entry": "final/",
+      "file": "assets/solutions-Dr1zN81v.js",
+      "sha256": "2512374466de2e2a700b1d853091fa4f3124ba687fcfcb4849c7e89dd625c23e",
+      "pass": true
+    }
+  ]
+}

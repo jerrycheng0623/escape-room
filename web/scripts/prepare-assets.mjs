@@ -3,7 +3,7 @@ import {resolve,dirname} from 'node:path';
 const web=resolve(import.meta.dirname,'..'),root=resolve(web,'..'),pub=resolve(web,'public');
 const manifest=JSON.parse(await readFile(resolve(root,'assets/story-v5/manifest.json'),'utf8'));
 const playback=JSON.parse(await readFile(resolve(root,'assets/playback-v6/manifest.json'),'utf8'));
-const soundscape=JSON.parse(await readFile(resolve(root,'assets/soundscape-v15/manifest.json'),'utf8'));
+const soundscape=JSON.parse(await readFile(resolve(root,'assets/release-v17/manifest.json'),'utf8'));
 const story=JSON.parse(await readFile(resolve(root,'assets/story-v5/storyboard.json'),'utf8'));
 const content=JSON.parse(await readFile(resolve(root,'assets/story/content-v5.json'),'utf8'));
 async function copy(src,dst){const to=resolve(pub,dst);await mkdir(dirname(to),{recursive:true});await copyFile(resolve(root,src),to);}
@@ -11,7 +11,7 @@ await rm(resolve(pub,'media'),{recursive:true,force:true});
 await Promise.all(['burned-plaster','scorched-wood'].map(id=>copy(`assets/scene-v6/textures/${id}.png`,`media/scene-v6/${id}.png`)));
 const {SPACE,PLAYER_RADIUS,EYE_HEIGHT,WALL_TRIM_CLEARANCE}=await import('../src/game/space.mjs');
 await Promise.all([copy(manifest.menu,'media/menu.webp'),copy('assets/story-v5/audio/sfx/wind-loop-synthetic-v1.wav','media/wind.wav')]);
-await copy(soundscape.roomAmbience.path,'media/room-rain-thunder-v15.m4a');
+await copy(soundscape.roomAmbience.path,'media/room-rain-thunder-v16.m4a');
 const media=[];
 for(const seg of manifest.segments){
  const delivery=soundscape.segments.find(s=>s.id===seg.id);if(!delivery?.sources?.length)throw Error('Missing playback derivatives: '+seg.id);

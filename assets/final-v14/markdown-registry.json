@@ -16,13 +16,13 @@
     {
       "path": "PLAN.md",
       "role": "現行維護文件",
-      "sha256": "aaf84a68b550b2a8a9c5a837446cebd70c303bf0d14dbe951fce37cae7742f82",
+      "sha256": "31e9edd639543800711963214f14771a902d299e0711dd1eb14b9a3c43e3e40d",
       "missingLocalLinks": []
     },
     {
       "path": "README.md",
       "role": "現行維護文件",
-      "sha256": "148ce1a34ec2eac6e8709b08384971ef57075e1168cd27f521cdd0b433839d93",
+      "sha256": "91b4667cd5895dcde6050125bd27d87be5fbe65d2b00b1989eb972e8dfb8214d",
       "missingLocalLinks": []
     },
     {
@@ -124,7 +124,7 @@
     {
       "path": "assets/soundscape-v15/README.md",
       "role": "現行維護文件",
-      "sha256": "39cae6bc72b9891c4768676d33728b4b308d012f21a9671043d62298c499665a",
+      "sha256": "f0cefe736e769cc808ddc884941de6633991e336599b4c3a5a646ad0facdc36e",
       "missingLocalLinks": []
     },
     {
@@ -166,7 +166,7 @@
     {
       "path": "machine.md",
       "role": "現行維護文件",
-      "sha256": "0b609a998fb79110d7ff6a3d966dde1d8de08d880204de196bf821b295ff794c",
+      "sha256": "1398c2230bcd942bfe606561948b7d4c8e5c4402f770462a0cfe7e738601f513",
       "missingLocalLinks": []
     },
     {
@@ -178,25 +178,25 @@
     {
       "path": "test.md",
       "role": "現行維護文件",
-      "sha256": "46df2db2a46607d8d77a047ea768f857e30c1349f3d11419bd54020b02404ab3",
+      "sha256": "c0485d941f3d7d4a1776da18e2411dd83e136f7286d0fa9f80885a583ecf23e5",
       "missingLocalLinks": []
     },
     {
       "path": "verify.md",
       "role": "現行維護文件",
-      "sha256": "bb53305652c1a3c67367a024022b5e90de71b445250720d7dca9b5318b2e8859",
+      "sha256": "747193514fa9e2d010eb5f10dd1cd4d8bb4377c17a3db75aa6168e187bc76a87",
       "missingLocalLinks": []
     },
     {
       "path": "web/README.md",
       "role": "現行維護文件",
-      "sha256": "a1f71a9ddbc169b9a7f808b8fce5892d2fdda3871e438372a3a91fb96a36c5c5",
+      "sha256": "a873763839c978d04c3c4e1c823e94fd8b132f03b74c2027f05ac58cd09a7b68",
       "missingLocalLinks": []
     },
     {
       "path": "操作指南與探索模式規格.md",
       "role": "現行維護文件",
-      "sha256": "061da818fb15e716a503f5d0edfcc4764712b3f1d9412dc4ba9199b14d3afb17",
+      "sha256": "b04327b83d2334297d551ad4b3f76f449680a98cec664dd40fd3a5205d335205",
       "missingLocalLinks": []
     },
     {
@@ -212,9 +212,15 @@
       "missingLocalLinks": []
     },
     {
+      "path": "assets/release-v17/README.md",
+      "role": "現行維護文件",
+      "sha256": "1c51cf6bcd5072dbe16578bca8da36ba7cb6583f055d591e58a98b68f3a47bce",
+      "missingLocalLinks": []
+    },
+    {
       "path": "INTEGRATION.md",
       "role": "現行維護文件",
-      "sha256": "9af1af9e3e29e8d6e869d8f065800fb3f162611ba3ae956cc2820dce3d894db2",
+      "sha256": "da0193c42bf2b06076557d29ad7448268623dcaa0a9b2e0a1ab2d65af71b21d4",
       "missingLocalLinks": []
     },
     {

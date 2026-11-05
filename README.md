@@ -1,6 +1,6 @@
-# 餘燼裡的第六人：正式版 v15
+# 餘燼裡的第六人：正式版 v17
 
-> v15 聲景更新（網站 1.0.1）：七段 2D 影片在原音效上加入拉威爾〈絞刑架〉；A～D 的原風聲加入 48 秒雨聲與遠雷循環。既有聲音開關與音量偏好仍有效。桌機 Q 切換不變，手機直接以觸控操作。機關、存檔、畫面及字幕時間軸延續 v14。 素材與來源見 [聲景交付](assets/soundscape-v15/README.md)。
+> v17 現行更新：第三關採逐段實物圖卡、剛好 40 kg 自動升蓋及取物完成；C 現場資料改可選。桌機空白鍵開關背包；中英七頁指南與全部示範均可操作。2D 配樂替換為貝多芬〈月光奏鳴曲〉第一樂章，保留原音效並提高音量；雨雷維持 v16。存檔 schema 4、既有已開蓋進度、其他關卡謎底與圖片保留。 素材、來源與測試索引見 [v17交付](assets/release-v17/README.md)。
 
 > 最終公開驗收：v14 吊籃修正版已上線。同一個網址通過桌機及手機模擬四關通關；先前受測試環境阻擋的公開站原生滑鼠鎖定已補測通過。實體 iPhone／iPad／Android 未測。完整範圍與限制見 [test.md](test.md) 與 [驗收證據](assets/final-v14/verification/acceptance/summary.json)。
 
@@ -8,7 +8,7 @@
 
 公開網址：[正式版／桌機、手機與平板共用](https://jerrycheng0623.github.io/escape-room/final/)。原入口 https://jerrycheng0623.github.io/escape-room/ 同步此版；mechanisms-v3／mechanisms-v4 路徑保留歷史版本。
 
-來源分支：[Websit-final](https://github.com/jerrycheng0623/escape-room/tree/Websit-final)；GitHub Pages 產物位於 gh-pages。網站 1.0.1／聲景 v15／介面與模型 v14／機關 v4／存檔 schema4／影片聲軌 v11、畫面與字幕 v10。
+來源分支：[Websit-final](https://github.com/jerrycheng0623/escape-room/tree/Websit-final)；GitHub Pages 產物位於 gh-pages。網站 1.1.0／介面 v17／聲景 v17／介面與模型 v14／機關 v4／存檔 schema4／影片聲軌 v12、畫面與字幕 v10。
 
 桌機 Q 切換游標／探索視角，成功取得原生滑鼠鎖定後可連續轉向；Esc 釋放並暫停。開操作頁時固定鏡頭；關閉後按 Q 恢復。取消中央「繼續探索」框，底部保留不遮場景的按鈕替代。手機橫向使用左搖桿與右側拖曳；中斷、取消及離開視窗均清除輸入。全螢幕依瀏覽器能力提供，iOS 不支援時保留正常橫向操作。
 
@@ -30,3 +30,5 @@ pnpm dev
 規格以 PLAN.md、verify.md、machine.md、操作指南與探索模式規格.md 為準。test.md 與 assets/final-v14/verification 記錄本輪實測、版本、失敗修正與限制；不把歷史測試當成本輪結果。來源／歷史 Markdown 的適用性與 SHA256 見 assets/final-v14/markdown-registry.json。
 
 尚未進行實體 iPhone／iPad、多機型 GPU 效能及首次玩家盲測；WebKit 與觸控模擬不等於實體 iOS 驗收。無真人配音、帳號同步或離線支援；完整英文機關文書仍需本地化。進度只存在同來源瀏覽器 localStorage，新舊同來源路徑共用，跨裝置不會自動同步。
+
+2026-11-05 雨雷調音：雨聲訊號提升約 5.1 dB；遠雷由每 48 秒 3 次改為 7 次，間隔約 6.5～8.5 秒。以 v16 音檔避開舊快取，保留既有音量開關、暫停及手機操作；影片配樂不變。
