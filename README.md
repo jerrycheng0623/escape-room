@@ -1,4 +1,6 @@
-# 餘燼裡的第六人：正式版 v14
+# 餘燼裡的第六人：正式版 v15
+
+> v15 聲景更新（網站 1.0.1）：七段 2D 影片在原音效上加入拉威爾〈絞刑架〉；A～D 的原風聲加入 48 秒雨聲與遠雷循環。既有聲音開關與音量偏好仍有效。桌機 Q 切換不變，手機直接以觸控操作。機關、存檔、畫面及字幕時間軸延續 v14。 素材與來源見 [聲景交付](assets/soundscape-v15/README.md)。
 
 > 最終公開驗收：v14 吊籃修正版已上線。同一個網址通過桌機及手機模擬四關通關；先前受測試環境阻擋的公開站原生滑鼠鎖定已補測通過。實體 iPhone／iPad／Android 未測。完整範圍與限制見 [test.md](test.md) 與 [驗收證據](assets/final-v14/verification/acceptance/summary.json)。
 
@@ -6,7 +8,7 @@
 
 公開網址：[正式版／桌機、手機與平板共用](https://jerrycheng0623.github.io/escape-room/final/)。原入口 https://jerrycheng0623.github.io/escape-room/ 同步此版；mechanisms-v3／mechanisms-v4 路徑保留歷史版本。
 
-來源分支：[Websit-final](https://github.com/jerrycheng0623/escape-room/tree/Websit-final)；GitHub Pages 產物位於 gh-pages。網站 1.0.0／介面與模型 v14／機關 v4／存檔 schema4／故事影片與字幕 v10。影片、角色原畫及謎底沒有因本輪模型改版而變更。
+來源分支：[Websit-final](https://github.com/jerrycheng0623/escape-room/tree/Websit-final)；GitHub Pages 產物位於 gh-pages。網站 1.0.1／聲景 v15／介面與模型 v14／機關 v4／存檔 schema4／影片聲軌 v11、畫面與字幕 v10。
 
 桌機 Q 切換游標／探索視角，成功取得原生滑鼠鎖定後可連續轉向；Esc 釋放並暫停。開操作頁時固定鏡頭；關閉後按 Q 恢復。取消中央「繼續探索」框，底部保留不遮場景的按鈕替代。手機橫向使用左搖桿與右側拖曳；中斷、取消及離開視窗均清除輸入。全螢幕依瀏覽器能力提供，iOS 不支援時保留正常橫向操作。
 

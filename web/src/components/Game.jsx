@@ -16,8 +16,22 @@ export default function Game({run,settings,setSettings,onPatch,onAdvance,onHome,
  const beginExploration=()=>{explorationPreference.current='locked';setScreenMessage('');sceneControls.current?.captureLook();};
  const keyboardExploration=()=>{explorationPreference.current='keyboard';sceneControls.current?.releaseLook();setControlMode('keyboard');};
  const input=useRef({x:0,y:0}),position=useRef(null),idle=useRef(0),clock=useRef(),ambience=useRef();const blocked=!!panel||portrait||!!error||!ready||(settings.device==='desktop'&&!['locked','keyboard'].includes(controlMode));
- useEffect(()=>{const a=new Audio(asset('media/wind.wav'));a.loop=true;ambience.current=a;return()=>{a.pause();a.src='';};},[]);
- useEffect(()=>{const a=ambience.current;if(!a)return;a.volume=settings.volume*.16;const sync=()=>{if(settings.sound&&!blocked&&!document.hidden)a.play().catch(()=>{});else a.pause();};sync();document.addEventListener('visibilitychange',sync);return()=>document.removeEventListener('visibilitychange',sync);},[settings.sound,settings.volume,blocked]);
+ const weatherPaused=portrait||!!error||!ready||['pause','guide','settings'].includes(panel)||(panel==='object'&&WORLD[object]?.kind==='audio');
+ useEffect(()=>{const a=new Audio();a.preload='none';a.src=asset('media/room-rain-thunder-v15.m4a');a.loop=true;ambience.current=a;return()=>{a.pause();a.removeAttribute('src');a.load();ambience.current=null;};},[]);
+ useEffect(()=>{
+  const a=ambience.current;if(!a)return;
+  a.volume=settings.volume*.42;
+  const sync=()=>{if(settings.sound&&!weatherPaused&&!document.hidden){if(a.paused)a.play().catch(()=>{});}else a.pause();};
+  const retryOnGesture=e=>{if(e.isTrusted&&a.paused)sync();};
+  sync();
+  document.addEventListener('visibilitychange',sync);
+  // Mobile browsers may require a tap after an asynchronous room load.
+  if(settings.sound&&!weatherPaused)for(const event of ['touchend','click','keydown'])document.addEventListener(event,retryOnGesture,true);
+  return()=>{
+   document.removeEventListener('visibilitychange',sync);
+   for(const event of ['touchend','click','keydown'])document.removeEventListener(event,retryOnGesture,true);
+  };
+ },[settings.sound,settings.volume,weatherPaused]);
  clock.current={blocked,preview,readOnly,onPatch,room,hint:settings.hint};
  useEffect(()=>{if(blocked)input.current={x:0,y:0};},[blocked]);
  useEffect(()=>{setReady(false);setControlMode('idle');},[settings.quality]);
